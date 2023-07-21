@@ -3,32 +3,42 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0074"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Les sabots",
-            "purpose": "commenting",
+            "created": "2023-07-21T14:43:35.906Z",
             "creator": {
                 "id": "Bcl7320",
                 "name": "Bcl7320"
             },
-            "created": "2023-07-21T14:43:35.906Z",
-            "modified": "2023-07-21T14:43:37.186Z"
+            "modified": "2023-07-21T14:45:37.302Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Les sabots (voir C. 1403 \u00e0 1407)\nA - \nB - (pour hommes)\nC - avec brides (pour femmes)\nD - sabots de fabrique ; actuellement ils sont livr\u00e9s sous cette forme aux sabotiers pour le finissage.\n"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L24",
+            "creator": {
+                "id": "Bcl7320",
+                "name": "Bcl7320"
+            },
+            "created": "2023-07-21T14:45:14.132Z"
         }
     ],
+    "id": "fe472de6-39ea-4841-ac92-bfd9762fca66.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0074",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1857.064453125,3281.86083984375 1707.0364990234375,3662.556640625 1812.0560302734375,3876.346435546875 2023.970458984375,3917.604248046875 2429.0458984375,3934.482421875 2682.218017578125,3868.84521484375 2702.846923828125,3636.3017578125 2642.835693359375,3289.3623046875 2237.76025390625,3248.1044921875 2083.981689453125,3281.86083984375\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0074"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "fe472de6-39ea-4841-ac92-bfd9762fca66.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
