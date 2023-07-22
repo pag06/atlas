@@ -1,0 +1,37 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0007"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "-\u00e8ttughuhu",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Bcl7320",
+                "name": "Bcl7320"
+            },
+            "created": "2023-07-22T13:36:29.086Z",
+            "modified": "2023-07-22T13:36:29.921Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0007",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1348.199951171875,1889.9998779296875 1348.199951171875,1889.9998779296875 1348.199951171875,1889.9998779296875 1348.199951171875,1889.9998779296875\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "bfea8c85-3bdf-4445-ba29-3257dc74b341.json",
+    "motivation": "commenting"
+}
