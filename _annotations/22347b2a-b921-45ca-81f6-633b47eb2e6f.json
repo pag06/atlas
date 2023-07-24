@@ -1,0 +1,46 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0310"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Faux: montage de la lame sur le manche",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Pigeo",
+                "name": "Pierre-Aur\u00e9lien Georges"
+            },
+            "created": "2023-07-24T14:46:56.586Z",
+            "modified": "2023-07-24T14:47:13.011Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "L100",
+            "purpose": "tagging",
+            "creator": {
+                "id": "Pigeo",
+                "name": "Pierre-Aur\u00e9lien Georges"
+            },
+            "created": "2023-07-24T14:47:18.963Z",
+            "modified": "2023-07-24T14:47:19.477Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0310",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1246.190185546875,352.8114013671875,1096.82763671875,654.617919921875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "22347b2a-b921-45ca-81f6-633b47eb2e6f.json",
+    "motivation": "commenting"
+}
