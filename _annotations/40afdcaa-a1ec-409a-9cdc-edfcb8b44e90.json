@@ -1,0 +1,44 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0207"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Pi\u00e8ge \u00e0 grives",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2023-07-24T14:14:13.376Z",
+            "modified": "2023-07-24T14:14:15.682Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L24",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2023-07-24T14:14:20.012Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0207",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2367.578857421875,3706.415283203125 986.9577026367188,3711.908447265625 992.4508666992188,3404.289794921875 1708.3963623046875,3103.99560546875 1706.5653076171875,2911.734130859375 2365.747802734375,2908.07177734375\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "40afdcaa-a1ec-409a-9cdc-edfcb8b44e90.json",
+    "motivation": "commenting"
+}
