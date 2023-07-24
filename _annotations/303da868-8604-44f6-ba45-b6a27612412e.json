@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0020"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Attelage doubl\u00e9, pour charroi du fumier",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Bcl7320",
+                "name": "Bcl7320"
+            },
+            "created": "2023-07-24T14:38:14.791Z",
+            "modified": "2023-07-24T14:38:22.373Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L25",
+            "creator": {
+                "id": "Bcl7320",
+                "name": "Bcl7320"
+            },
+            "created": "2023-07-24T14:38:27.491Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C836",
+            "creator": {
+                "id": "Bcl7320",
+                "name": "Bcl7320"
+            },
+            "created": "2023-07-24T14:38:30.517Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0020",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2613.4501953125,3912.173095703125 2259.546875,3920.344970703125 2049.98046875,3901.505859375 1132.554443359375,3880.079833984375 1150.0848388671875,3139.90576171875 1713.006591796875,3149.64501953125 1748.0675048828125,3100.94921875 1833.7718505859375,3134.062255859375 2624.589111328125,3157.436279296875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "303da868-8604-44f6-ba45-b6a27612412e.json",
+    "motivation": "commenting"
+}
