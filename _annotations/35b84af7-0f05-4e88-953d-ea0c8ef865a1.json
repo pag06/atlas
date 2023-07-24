@@ -3,23 +3,45 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0115"
 order: 1
 ---
 {
-    "type": "Annotation",
-    "body": [],
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Ce plantoir est connu encore \u00e0 6, \u00e0 Vocance (5, 30 km); \u00e0 Desaignes (5SE, 30 lm), on l'appelle aussi [\u2026]. Le t\u00e9moin de 5 a ajout\u00e9: < ordinairement, le [\u2026] est le bouchon qui bouche [\u2026] (= r\u00e9servoir \u00e0 eau), et il a la m\u00eame forme que ce plantoir >.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2023-07-24T14:00:57.010Z",
+            "modified": "2023-07-24T14:02:49.898Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L5",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2023-07-24T14:03:01.327Z"
+        }
+    ],
+    "id": "35b84af7-0f05-4e88-953d-ea0c8ef865a1.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0115",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1347.6966552734375,3606.702880859375 2092.939208984375,2956.675537109375 2221.770646269123,3104.3780456937857 1476.5280925581856,3754.4053894437857\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
-            "type": "Manifest"
-        }
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1347.6966552734375,3606.702880859375 2092.939208984375,2956.675537109375 2221.770646269123,3104.3780456937857 1476.5280925581856,3754.4053894437857\" /></svg>"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0115"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "35b84af7-0f05-4e88-953d-ea0c8ef865a1.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
