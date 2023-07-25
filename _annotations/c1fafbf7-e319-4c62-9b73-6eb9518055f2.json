@@ -3,53 +3,53 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "B\u00e9lier avec collier",
-            "purpose": "commenting",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
             "created": "2023-07-24T14:25:39.106Z",
-            "modified": "2023-07-24T14:25:41.108Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L52",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-07-24T14:25:45.601Z"
+            "modified": "2023-07-25T10:54:20.067Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "B\u00e9lier avec collier de laine autour du cou"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C500",
+            "created": "2023-07-24T14:25:45.601Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-07-24T14:25:47.888Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L52"
+        },
+        {
+            "created": "2023-07-24T14:25:47.888Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C500"
         }
     ],
+    "id": "c1fafbf7-e319-4c62-9b73-6eb9518055f2.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2358.5888671875,325.0968933105469,479.738525390625,527.3460388183594"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2358.5888671875,325.0968933105469,479.738525390625,527.3460388183594"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c1fafbf7-e319-4c62-9b73-6eb9518055f2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
