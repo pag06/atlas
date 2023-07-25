@@ -3,63 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Banc \u00e0 \u00e9gorger",
-            "purpose": "commenting",
-            "creator": {
-                "id": "Pigeo",
-                "name": "Pierre-Aur\u00e9lien Georges"
-            },
             "created": "2023-07-25T09:50:12.647Z",
-            "modified": "2023-07-25T09:50:16.933Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C529",
             "creator": {
                 "id": "Pigeo",
                 "name": "Pierre-Aur\u00e9lien Georges"
             },
-            "created": "2023-07-25T09:50:41.254Z"
+            "modified": "2023-07-25T09:50:16.933Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Banc \u00e0 \u00e9gorger"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L24",
+            "created": "2023-07-25T09:50:41.254Z",
             "creator": {
                 "id": "Pigeo",
                 "name": "Pierre-Aur\u00e9lien Georges"
             },
-            "created": "2023-07-25T09:50:44.551Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C529"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L30",
+            "created": "2023-07-25T09:50:44.551Z",
             "creator": {
                 "id": "Pigeo",
                 "name": "Pierre-Aur\u00e9lien Georges"
             },
-            "created": "2023-07-25T09:50:46.795Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
+        },
+        {
+            "created": "2023-07-25T09:50:46.795Z",
+            "creator": {
+                "id": "Pigeo",
+                "name": "Pierre-Aur\u00e9lien Georges"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L30"
         }
     ],
+    "id": "b3f1e0b1-74b6-4bbf-abea-7019ce5488b5.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1530.0001220703125,986.297119140625,798.1715087890625,434.05712890625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1530.0001220703125,986.297119140625,798.1715087890625,434.05712890625"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b3f1e0b1-74b6-4bbf-abea-7019ce5488b5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
