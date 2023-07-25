@@ -3,43 +3,43 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0248"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Croc \u00e0 foin, type A2",
-            "purpose": "commenting",
+            "created": "2023-07-24T14:17:32.039Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-07-24T14:17:32.039Z",
-            "modified": "2023-07-24T14:17:39.058Z"
+            "modified": "2023-07-25T10:51:18.034Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Croc \u00e0 foin, type A2 : crochet en fer, muni d'un manche en bois."
         },
         {
-            "type": "TextualBody",
-            "value": "L27",
-            "purpose": "tagging",
+            "created": "2023-07-24T14:17:42.731Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-07-24T14:17:42.731Z",
-            "modified": "2023-07-24T14:17:43.491Z"
+            "modified": "2023-07-24T14:17:43.491Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L27"
         }
     ],
+    "id": "f7eaa1ec-944e-4b73-92ca-37c72f01313f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0248",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2579.109130859375,3883.820068359375 2742.9892578125,3870.087158203125 2752.14453125,3171.53662109375 2549.812255859375,3172.4521484375 2546.150146484375,3875.580322265625\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0248"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f7eaa1ec-944e-4b73-92ca-37c72f01313f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
