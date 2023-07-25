@@ -11,10 +11,10 @@ order: 3
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2023-07-25T10:21:43.715Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Instruments d'\u00e9lagage\n\nPetite faucille \u00e0 lame courte",
-            "modified": "2023-07-25T10:21:43.715Z"
+            "value": "Instruments d'\u00e9lagage\n\nPetite faucille \u00e0 lame courte"
         },
         {
             "created": "2023-07-24T14:06:49.917Z",
@@ -26,6 +26,22 @@ order: 3
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "L42"
+        },
+        {
+            "purpose": "geotagging",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.1208483894712575,
+                    43.567677635540186
+                ]
+            },
+            "creator": {
+                "id": "Pigeo",
+                "name": "Pierre-Aur\u00e9lien Georges"
+            },
+            "created": "2023-07-25T13:31:51.764Z"
         }
     ],
     "id": "ba977c9d-ba2a-4ac2-86c1-1a3464cae2e6.json",
