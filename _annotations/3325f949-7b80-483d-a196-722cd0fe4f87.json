@@ -3,53 +3,53 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Brebis avec bande",
-            "purpose": "commenting",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
             "created": "2023-07-24T14:24:02.469Z",
-            "modified": "2023-07-24T14:24:05.011Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L38",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-07-24T14:24:08.703Z"
+            "modified": "2023-07-25T10:54:39.817Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Brebis avec bande de laine sur l'\u00e9paule"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C500",
+            "created": "2023-07-24T14:24:08.703Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-07-24T14:24:10.309Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L38"
+        },
+        {
+            "created": "2023-07-24T14:24:10.309Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C500"
         }
     ],
+    "id": "3325f949-7b80-483d-a196-722cd0fe4f87.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1834.905029296875,414.8189697265625,512.697509765625,371.70574951171875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1834.905029296875,414.8189697265625,512.697509765625,371.70574951171875"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "3325f949-7b80-483d-a196-722cd0fe4f87.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
