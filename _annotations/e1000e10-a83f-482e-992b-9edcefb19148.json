@@ -3,43 +3,43 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0248"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Croc \u00e0 foin, type A1",
-            "purpose": "commenting",
+            "created": "2023-07-24T14:16:51.392Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-07-24T14:16:51.392Z",
-            "modified": "2023-07-24T14:16:58.255Z"
+            "modified": "2023-07-25T10:49:32.052Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Croc \u00e0 foin, type A1 : crochet en bois dur."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L24",
+            "created": "2023-07-24T14:17:03.419Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-07-24T14:17:03.419Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
         }
     ],
+    "id": "e1000e10-a83f-482e-992b-9edcefb19148.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0248",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2265.08203125,3155.514892578125,245.3623046875,732.425048828125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2265.08203125,3155.514892578125,245.3623046875,732.425048828125"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0248"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e1000e10-a83f-482e-992b-9edcefb19148.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
