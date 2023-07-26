@@ -3,83 +3,93 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0139"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Instruments d'\u00e9lagage, \u00e0 long manche.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
             "created": "2023-07-24T14:09:10.055Z",
-            "modified": "2023-07-24T14:09:18.256Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L22",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-07-24T14:09:22.868Z"
+            "modified": "2023-07-24T14:09:18.256Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Instruments d'\u00e9lagage, \u00e0 long manche."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L20",
+            "created": "2023-07-24T14:09:22.868Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-07-24T14:09:25.152Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L22"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L15",
+            "created": "2023-07-24T14:09:25.152Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-07-24T14:09:27.234Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L20"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L36",
+            "created": "2023-07-24T14:09:27.234Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-07-24T14:09:29.281Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L15"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L2",
+            "created": "2023-07-24T14:09:29.281Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-07-24T14:09:30.575Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L36"
+        },
+        {
+            "created": "2023-07-24T14:09:30.575Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L2"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q5645",
+            "purpose": "tagging",
+            "creator": {
+                "id": "Pigeo",
+                "name": "Pierre-Aur\u00e9lien Georges"
+            },
+            "created": "2023-07-26T04:44:59.404Z"
         }
     ],
+    "id": "cfe3842c-6979-4dcf-a0d9-2067a1268530.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0139",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1756.788818359375,2940.20947265625,660.950927734375,781.485107421875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1756.788818359375,2940.20947265625,660.950927734375,781.485107421875"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0139"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "cfe3842c-6979-4dcf-a0d9-2067a1268530.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
