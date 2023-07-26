@@ -6,15 +6,26 @@ order: 1
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le mur pignon (31) ou le mur gouttereau (21), n'atteint pas la rive du toit et laisse un espace b\u00e9ant sous les combles",
-            "purpose": "commenting",
+            "created": "2023-07-26T08:57:09.985Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-07-26T08:57:09.985Z",
-            "modified": "2023-07-26T08:57:47.713Z"
+            "modified": "2023-07-26T08:57:47.713Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le mur pignon (31) ou le mur gouttereau (21), n'atteint pas la rive du toit et laisse un espace b\u00e9ant sous les combles"
+        },
+        {
+            "type": "TextualBody",
+            "value": "L3",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2023-07-26T09:01:31.800Z",
+            "modified": "2023-07-26T09:01:32.378Z"
         }
     ],
     "id": "0f1a4a84-8a34-442f-b7c4-6696aeaf88f4.json",
