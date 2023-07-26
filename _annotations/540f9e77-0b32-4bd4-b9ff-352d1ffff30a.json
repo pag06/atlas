@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0127"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Canonni\u00e8re",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-26T14:55:48.833Z",
+            "modified": "2023-07-26T14:55:52.708Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L24",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-26T14:56:00.119Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1721",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-26T14:56:17.972Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0127",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1462.42041015625,2967.999755859375 2153.087158203125,2971.11083984375 2153.087158203125,3163.999755859375 2380.1982421875,3170.221923828125 2383.309326171875,3381.777587890625 1462.42041015625,3366.221923828125 1456.1982421875,2967.999755859375\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "540f9e77-0b32-4bd4-b9ff-352d1ffff30a.json",
+    "motivation": "commenting"
+}
