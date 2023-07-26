@@ -3,44 +3,65 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0028"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le mur gouttereau\n\nIl n'atteint pas la rive du toit et laisse un espace b\u00e9ant sous les combles",
-            "purpose": "commenting",
+            "created": "2023-07-26T10:12:50.133Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-07-26T10:12:50.133Z",
-            "modified": "2023-07-26T10:13:15.647Z"
+            "modified": "2023-07-26T10:13:15.647Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le mur gouttereau\n\nIl n'atteint pas la rive du toit et laisse un espace b\u00e9ant sous les combles"
+        },
+        {
+            "created": "2023-07-26T10:13:01.089Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2023-07-26T10:13:01.383Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L21"
         },
         {
             "type": "TextualBody",
-            "value": "L21",
             "purpose": "tagging",
+            "value": "Q254???",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-07-26T10:13:01.089Z",
-            "modified": "2023-07-26T10:13:01.383Z"
+            "created": "2023-07-26T10:16:00.073Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "La carte C660 indique bien \"il s'agit de l'angle EXTERIEUR D'UN BAT\u00ceMENT\". Or sur cette illustration, c'est l'angle int\u00e9rieur... \nEst-ce que la Q254 dans le THESOC fait la m\u00eame distinction s\u00e9mantique ??",
+            "purpose": "questioning",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2023-07-26T10:16:11.435Z",
+            "modified": "2023-07-26T10:17:12.978Z"
         }
     ],
+    "id": "af8fddbe-9d78-4f03-a929-6a4130745300.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0028",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2026.990966796875,3033.691162109375,632.508056640625,819.7763671875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2026.990966796875,3033.691162109375,632.508056640625,819.7763671875"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0028"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "af8fddbe-9d78-4f03-a929-6a4130745300.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
