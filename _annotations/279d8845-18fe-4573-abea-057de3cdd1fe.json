@@ -3,43 +3,53 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0138"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Instruments d'\u00e9lagage",
-            "purpose": "commenting",
+            "created": "2023-07-24T14:06:31.512Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-07-24T14:06:31.512Z"
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Instruments d'\u00e9lagage"
+        },
+        {
+            "created": "2023-07-24T14:06:33.426Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2023-07-24T14:06:33.922Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L7"
         },
         {
             "type": "TextualBody",
-            "value": "L7",
+            "value": "Q5645",
             "purpose": "tagging",
             "creator": {
-                "id": "pag06",
-                "name": "pag06"
+                "id": "Pigeo",
+                "name": "Pierre-Aur\u00e9lien Georges"
             },
-            "created": "2023-07-24T14:06:33.426Z",
-            "modified": "2023-07-24T14:06:33.922Z"
+            "created": "2023-07-26T04:43:27.206Z"
         }
     ],
+    "id": "279d8845-18fe-4573-abea-057de3cdd1fe.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0138",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2061.402099609375,3529.093017578125,256.3486328125,335.08447265625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2061.402099609375,3529.093017578125,256.3486328125,335.08447265625"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0138"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "279d8845-18fe-4573-abea-057de3cdd1fe.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
