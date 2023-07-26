@@ -26,6 +26,17 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "L46"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C623",
+            "purpose": "tagging",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-07-26T09:35:44.796Z",
+            "modified": "2023-07-26T09:35:48.510Z"
         }
     ],
     "id": "e5ad1d27-f7a1-4eee-a308-2a921aa7c943.json",
