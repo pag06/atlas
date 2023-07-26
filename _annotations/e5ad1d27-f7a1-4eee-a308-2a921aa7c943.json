@@ -1,0 +1,46 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0013"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Ferme \u00e0 logis s\u00e9par\u00e9",
+            "purpose": "commenting",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-07-26T09:06:58.680Z",
+            "modified": "2023-07-26T09:07:06.770Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "L46",
+            "purpose": "tagging",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-07-26T09:07:10.913Z",
+            "modified": "2023-07-26T09:07:13.337Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0013",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1848.818115234375,2993.47802734375,681.818115234375,665.45458984375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "e5ad1d27-f7a1-4eee-a308-2a921aa7c943.json",
+    "motivation": "commenting"
+}
