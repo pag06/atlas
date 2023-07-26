@@ -26,6 +26,17 @@ order: 3
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "L42"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q5645",
+            "purpose": "tagging",
+            "creator": {
+                "id": "Pigeo",
+                "name": "Pierre-Aur\u00e9lien Georges"
+            },
+            "created": "2023-07-26T04:43:16.907Z",
+            "modified": "2023-07-26T04:43:17.297Z"
         }
     ],
     "id": "ba977c9d-ba2a-4ac2-86c1-1a3464cae2e6.json",
