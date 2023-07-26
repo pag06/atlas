@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0247"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L50",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-26T15:27:01.972Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Panier \u00e0 foin\nA L33, L50, L51, on apporte les rations dans un large panier \u00e0 grande anse.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-26T15:27:08.125Z",
+            "modified": "2023-07-26T15:27:42.237Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-26T15:27:47.679Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0247",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1805.943115234375,3330.115478515625 1800.488525390625,3753.751708984375 2402.306640625,3755.56982421875 2345.943115234375,3613.751708984375 2324.125,3606.47900390625 2298.67041015625,3521.0244140625 2295.033935546875,3326.47900390625 1807.76123046875,3330.115478515625\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "b3691183-545a-4964-a38e-98bd186c1484.json",
+    "motivation": "commenting"
+}
