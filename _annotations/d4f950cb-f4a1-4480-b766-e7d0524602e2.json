@@ -3,42 +3,53 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0216"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "je ne trouve pas de l\u00e9gende ou autre",
-            "purpose": "commenting",
+            "created": "2023-07-27T10:31:23.820Z",
             "creator": {
                 "id": "sf7320",
                 "name": "Serena"
             },
-            "created": "2023-07-27T10:31:23.820Z",
-            "modified": "2023-07-27T10:31:41.605Z"
+            "modified": "2023-07-27T10:31:41.605Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "je ne trouve pas de l\u00e9gende ou autre"
+        },
+        {
+            "created": "2023-07-27T10:32:01.798Z",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "???"
         },
         {
             "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "???",
+            "value": "La l\u00e9gende se trouve dans la marge de la carte suivante en bas de la page. Illustration C. 1660 : la cr\u00e9celle \u00e0 42, St-Simon.",
+            "purpose": "commenting",
             "creator": {
-                "id": "sf7320",
-                "name": "Serena"
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
             },
-            "created": "2023-07-27T10:32:01.798Z"
+            "created": "2023-07-27T13:12:22.548Z",
+            "modified": "2023-07-27T13:14:12.851Z"
         }
     ],
+    "id": "d4f950cb-f4a1-4480-b766-e7d0524602e2.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0216",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"590.9580688476562,2332.268798828125 763.564208984375,2413.7236328125 1075.806640625,2369.117431640625 1304.6551513671875,2559.177978515625 953.6248779296875,3001.35986328125 585.1399536132812,2692.996337890625 544.4126586914062,2330.32958984375 544.5337524414062,2330.51123046875\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0216"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "d4f950cb-f4a1-4480-b766-e7d0524602e2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
