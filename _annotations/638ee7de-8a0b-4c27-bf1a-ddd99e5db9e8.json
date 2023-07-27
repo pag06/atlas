@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0076"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Pantalon \u00e0 pont-levis",
+            "purpose": "commenting",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-07-27T09:30:09.784Z",
+            "modified": "2023-07-27T09:32:25.630Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L21",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-07-27T09:30:29.219Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7302",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-07-27T09:32:14.739Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0076",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2270.385009765625,2962.635986328125 2674.185546875,2996.285888671875 2669.979248046875,3922.564208984375 2237.33544921875,3916.555419921875 2252.35791015625,3312.65673828125 2213.2998046875,3006.20068359375 2216.30419921875,2961.1337890625\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "638ee7de-8a0b-4c27-bf1a-ddd99e5db9e8.json",
+    "motivation": "commenting"
+}
