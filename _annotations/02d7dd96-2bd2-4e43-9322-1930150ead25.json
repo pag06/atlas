@@ -3,52 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0138"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "jeu de quilles ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "sf7320",
-                "name": "Serena"
-            },
             "created": "2023-07-27T09:56:21.252Z",
-            "modified": "2023-07-27T09:56:24.802Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1352",
             "creator": {
                 "id": "sf7320",
                 "name": "Serena"
             },
-            "created": "2023-07-27T09:56:35.502Z"
+            "modified": "2023-07-27T09:56:24.802Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "jeu de quilles "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L28",
+            "created": "2023-07-27T09:56:35.502Z",
             "creator": {
                 "id": "sf7320",
                 "name": "Serena"
             },
-            "created": "2023-07-27T09:56:39.389Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1352"
+        },
+        {
+            "created": "2023-07-27T09:56:39.389Z",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L28"
         }
     ],
+    "id": "02d7dd96-2bd2-4e43-9322-1930150ead25.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0138",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1835.3922119140625,3089.708251953125 1885.8485107421875,3663.94921875 2744.8076171875,3680.76806640625 2722.8076171875,3097.854736328125 1852.2109375,3047.173095703125\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0138"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "02d7dd96-2bd2-4e43-9322-1930150ead25.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
