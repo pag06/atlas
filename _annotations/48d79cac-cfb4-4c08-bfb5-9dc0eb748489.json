@@ -1,0 +1,44 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0144"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Porter sur le dos ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-07-27T10:21:18.005Z",
+            "modified": "2023-07-27T10:21:27.567Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8074",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-07-27T10:21:44.704Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0144",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2082.1640625,3073.9189453125 2314.02294921875,3084.73095703125 2257.559814453125,3898.038818359375 1784.2314453125,3869.20654296875 1885.1441650390625,3473.96533203125 1929.59375,3403.08642578125 1929.59375,3320.19384765625 2080.962646484375,3073.9189453125 2080.587158203125,3071.85400390625\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "48d79cac-cfb4-4c08-bfb5-9dc0eb748489.json",
+    "motivation": "commenting"
+}
