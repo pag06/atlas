@@ -1,0 +1,44 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0255"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "outils du charron",
+            "purpose": "commenting",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-07-27T16:13:36.235Z",
+            "modified": "2023-07-27T16:13:40.857Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L29",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-07-27T16:13:51.194Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0255",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2044.6646728515625,2981.790771484375 1357.3919677734375,3265.42724609375 1115.210205078125,3819.609130859375 2103.57373046875,4022.51806640625 2494.119140625,3898.154541015625 2446.119384765625,3315.609130859375 2446.835205078125,3315.0068359375\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "09e48f82-2393-4ce0-9f13-5ae586d6eea3.json",
+    "motivation": "commenting"
+}
