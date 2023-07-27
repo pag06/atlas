@@ -1,0 +1,44 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0255"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "la tari\u00e8re",
+            "purpose": "commenting",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-07-27T16:23:37.531Z",
+            "modified": "2023-07-27T16:24:00.790Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C1739",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-07-27T16:23:54.483Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0255",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1220.4,3450.2 1226.4,3450.2 1322.3,3433.1 1481,3903.1 1339.3,3906.7 1290.2,3751.4\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "bbfce3b3-309f-4d80-a368-76b6da973dce.json",
+    "motivation": "commenting"
+}
