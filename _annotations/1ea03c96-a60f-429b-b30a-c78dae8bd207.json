@@ -1,0 +1,44 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0141"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "faire la culbute ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-07-27T10:04:03.565Z",
+            "modified": "2023-07-27T10:04:07.615Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q3066",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-07-27T10:04:18.598Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0141",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1485.3326416015625,3412.2373046875 1348.3800048828125,3529.96875 1127.3333740234375,3635.68701171875 1150.00830078125,3858.310302734375 1785.2174072265625,3849.30029296875 1771.7022705078125,3468.625244140625 1769.44970703125,3461.86767578125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "1ea03c96-a60f-429b-b30a-c78dae8bd207.json",
+    "motivation": "commenting"
+}
