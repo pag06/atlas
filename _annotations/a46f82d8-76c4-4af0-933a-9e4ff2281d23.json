@@ -1,0 +1,74 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328"
+order: 8
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "R\u00e9cipients \u00e0 p\u00e2t\u00e9e, type A",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-27T12:16:12.024Z",
+            "modified": "2023-07-27T12:16:32.861Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L24",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-27T12:16:40.370Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L10",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-27T12:16:42.446Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8662",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-27T12:17:08.126Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C525",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-27T12:17:15.118Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"583.3333129882812,1115.333251953125 584.8888549804688,1482.4444580078125 944.2222290039062,1482.4444580078125 992.4444580078125,1479.333251953125 1015.7777709960938,1491.7777099609375 1043.77783203125,1479.333251953125 1213.3333740234375,1527.5555419921875 1428,1515.111083984375 1451.3333740234375,1060.8887939453125 584.888916015625,1045.3333740234375 584.888916015625,1107.5555419921875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "a46f82d8-76c4-4af0-933a-9e4ff2281d23.json",
+    "motivation": "commenting"
+}
