@@ -3,52 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0254"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
+            "created": "2023-07-27T10:48:31.705Z",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "modified": "2023-07-27T10:48:31.713Z",
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Craponne ",
+            "value": "Craponne "
+        },
+        {
+            "created": "2023-07-27T10:48:58.222Z",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L10"
+        },
+        {
+            "created": "2023-07-27T10:49:04.460Z",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1736"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Paroir de sabotier : long couteau dont une extr\u00e9mit\u00e9 est munie d'une poign\u00e9e, tandis que l'autre est fix\u00e9e par un anneau sur le banc.",
             "purpose": "commenting",
             "creator": {
-                "id": "sf7320",
-                "name": "Serena"
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
             },
-            "created": "2023-07-27T10:48:31.705Z",
-            "modified": "2023-07-27T10:48:31.713Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L10",
-            "creator": {
-                "id": "sf7320",
-                "name": "Serena"
-            },
-            "created": "2023-07-27T10:48:58.222Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C1736",
-            "creator": {
-                "id": "sf7320",
-                "name": "Serena"
-            },
-            "created": "2023-07-27T10:49:04.460Z"
+            "created": "2023-07-27T21:07:26.957Z",
+            "modified": "2023-07-27T21:08:58.644Z"
         }
     ],
+    "id": "c3651d39-04dc-4f40-99db-5c7a3ae735b1.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0254",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1989.6060791015625,3135.82373046875 2511.302734375,3424.79345703125 2534.575927734375,3653.64208984375 2391.060791015625,3659.460205078125 2456.999755859375,3932.91455078125 2268.878662109375,3936.79345703125 2251.424560546875,3787.4599609375 2036.1512451171875,3799.0966796875 2080.75732421875,3923.2177734375 1805.3636474609375,3913.520751953125 1944.9998779296875,3386.005615234375 2063.302978515625,3325.88427734375 2078.81787109375,3256.066162109375 1910.0908203125,3164.91455078125 1910.090576171875,3165.581298828125\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0254"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c3651d39-04dc-4f40-99db-5c7a3ae735b1.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
