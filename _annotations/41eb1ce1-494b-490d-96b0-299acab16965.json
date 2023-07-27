@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328"
+order: 16
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Porcherie, surmont\u00e9e du poulailler",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-27T12:30:57.889Z",
+            "modified": "2023-07-27T12:31:16.152Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L41",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-27T12:31:19.969Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q11837",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-27T12:31:44.933Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2277.83740234375,2892.576171875 2269.906982421875,3669.756103515625 2190.60302734375,3838.938232421875 2330.706787109375,3844.22509765625 2373.00244140625,3764.921142578125 2801.244384765625,3788.712158203125 2819.74853515625,3688.260498046875 2838.2529296875,2908.43701171875 2277.83740234375,2889.932861328125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "41eb1ce1-494b-490d-96b0-299acab16965.json",
+    "motivation": "commenting"
+}
