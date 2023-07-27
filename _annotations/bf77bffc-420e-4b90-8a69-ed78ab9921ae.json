@@ -3,42 +3,53 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0074"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "types de sabots en Haute-Loire",
-            "purpose": "commenting",
+            "created": "2023-07-27T16:10:51.586Z",
             "creator": {
                 "id": "sf7320",
                 "name": "Serena"
             },
-            "created": "2023-07-27T16:10:51.586Z",
-            "modified": "2023-07-27T16:11:06.634Z"
+            "modified": "2023-07-27T16:11:06.634Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "types de sabots en Haute-Loire"
+        },
+        {
+            "created": "2023-07-27T16:11:36.418Z",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1375"
         },
         {
             "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C1375",
+            "value": "A - [...]\nB - [...] (pour hommes)\nC - [...], avec brides (pour femmes)\nD - sabots de fabrique ; ",
+            "purpose": "commenting",
             "creator": {
-                "id": "sf7320",
-                "name": "Serena"
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
             },
-            "created": "2023-07-27T16:11:36.418Z"
+            "created": "2023-07-27T21:16:31.731Z",
+            "modified": "2023-07-27T21:18:02.554Z"
         }
     ],
+    "id": "bf77bffc-420e-4b90-8a69-ed78ab9921ae.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0074",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2206.84130859375,3252.49365234375 2063.899658203125,3277.718505859375 1826.0635986328125,3292.1328125 1774.4124755859375,3489.128173828125 1703.5421142578125,3660.898681640625 1835.6732177734375,3911.94775390625 2678.90966796875,3921.557373046875 2702.93359375,3568.406982421875 2647.6787109375,3294.535400390625 2209.243896484375,3250.091064453125 2209.237548828125,3249.759521484375\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0074"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "bf77bffc-420e-4b90-8a69-ed78ab9921ae.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
