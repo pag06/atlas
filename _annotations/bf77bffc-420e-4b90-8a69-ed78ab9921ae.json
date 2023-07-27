@@ -27,25 +27,65 @@ order: 1
             "value": "C1375"
         },
         {
-            "type": "TextualBody",
-            "value": "A - [...]\nB - [...] (pour hommes)\nC - [...], avec brides (pour femmes)\nD - sabots de fabrique ; actuellement ils sont livr\u00e9s sous cette forme aux sabotiers pour le finissage.",
-            "purpose": "commenting",
+            "created": "2023-07-27T21:16:31.731Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-07-27T21:16:31.731Z",
-            "modified": "2023-07-27T21:20:06.867Z"
+            "modified": "2023-07-27T21:20:06.867Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "A - [...]\nB - [...] (pour hommes)\nC - [...], avec brides (pour femmes)\nD - sabots de fabrique ; actuellement ils sont livr\u00e9s sous cette forme aux sabotiers pour le finissage."
+        },
+        {
+            "created": "2023-07-27T21:20:55.564Z",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L24",
+            "value": "C1403",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-07-27T21:20:55.564Z"
+            "created": "2023-07-27T21:22:51.641Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C1404",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-07-27T21:23:00.000Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C1405",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-07-27T21:23:06.271Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9091",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-07-27T21:23:15.616Z"
         }
     ],
     "id": "bf77bffc-420e-4b90-8a69-ed78ab9921ae.json",
