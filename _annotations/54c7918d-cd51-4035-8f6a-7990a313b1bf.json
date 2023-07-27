@@ -3,43 +3,53 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0327"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Parc \u00e0 moutons",
-            "purpose": "commenting",
+            "created": "2023-07-27T11:59:40.616Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-27T11:59:40.616Z",
-            "modified": "2023-07-27T11:59:44.807Z"
+            "modified": "2023-07-27T11:59:44.807Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Parc \u00e0 moutons"
+        },
+        {
+            "created": "2023-07-27T11:59:51.329Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L10"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L10",
+            "value": "Q7330",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-27T11:59:51.329Z"
+            "created": "2023-07-27T12:09:25.546Z"
         }
     ],
+    "id": "54c7918d-cd51-4035-8f6a-7990a313b1bf.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0327",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=519.5555419921875,280,1922.6666259765625,659.5555419921875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=519.5555419921875,280,1922.6666259765625,659.5555419921875"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0327"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "54c7918d-cd51-4035-8f6a-7990a313b1bf.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
