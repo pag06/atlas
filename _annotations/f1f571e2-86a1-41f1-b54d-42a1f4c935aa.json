@@ -1,0 +1,44 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328"
+order: 11
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "\u00e9tag\u00e8re \u00e0 saindoux",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-27T12:22:13.311Z",
+            "modified": "2023-07-27T12:22:18.893Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L17",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-27T12:22:24.190Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2391.500244140625,1876.153564453125 2405.136474609375,1576.153564453125 2498.77294921875,1524.33544921875 2580.591064453125,1521.608154296875 2596.954833984375,1489.7899169921875 2612.4091796875,1488.880859375 2624.2275390625,1524.33544921875 2749.68212890625,1517.9718017578125 2766.045654296875,1881.608154296875 2391.500244140625,1874.33544921875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "f1f571e2-86a1-41f1-b54d-42a1f4c935aa.json",
+    "motivation": "commenting"
+}
