@@ -3,42 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0327"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Parc \u00e0 moutons",
-            "purpose": "commenting",
+            "created": "2023-07-27T12:00:53.650Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-27T12:00:53.650Z",
-            "modified": "2023-07-27T12:00:56.876Z"
+            "modified": "2023-07-27T12:00:56.876Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Parc \u00e0 moutons"
+        },
+        {
+            "created": "2023-07-27T12:01:01.524Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L24",
+            "value": "Q7330",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-27T12:01:01.524Z"
+            "created": "2023-07-27T12:09:06.507Z"
         }
     ],
+    "id": "251cb751-8a86-4e61-8bfc-520136987608.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0327",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"379.5555725097656,1138.6666259765625 2501.33349609375,1141.77783203125 2470.22216796875,1813.77783203125 1614.666748046875,1807.5555419921875 1256.888916015625,1879.111083984375 360.8888854980469,1900.888916015625 376.4444580078125,1138.6666259765625\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0327"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "251cb751-8a86-4e61-8bfc-520136987608.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
