@@ -1,0 +1,44 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0142"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "L'arbre fourchu",
+            "purpose": "commenting",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-07-27T10:08:51.911Z",
+            "modified": "2023-07-27T10:08:58.510Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q369",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-07-27T10:09:12.474Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0142",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2352.660888671875,3110.26708984375 2280.9033203125,3645.539794921875 2096.660400390625,3810.388427734375 2275.084716796875,3897.6611328125 2711.4482421875,3864.69140625 2494.236083984375,3110.26708984375 2493.630126953125,3109.8427734375\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "510dccab-0225-4a93-8a07-ff4528baf33c.json",
+    "motivation": "commenting"
+}
