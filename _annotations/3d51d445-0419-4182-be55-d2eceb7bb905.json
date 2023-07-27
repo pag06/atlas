@@ -1,0 +1,74 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328"
+order: 7
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Sonnailles de brebis",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-27T12:14:15.192Z",
+            "modified": "2023-07-27T12:14:22.247Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9514",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-27T12:14:35.623Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C499",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-27T12:14:37.966Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L50",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-27T12:14:49.129Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L51",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-27T12:14:51.567Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"675.1111450195312,592.6666870117188 673.5555419921875,430.8888854980469 735.7777709960938,418.4444580078125 740.4444580078125,322 1006.4444580078125,325.1111145019531 1012.6666870117188,256.66668701171875 1152.6666259765625,250.4444580078125 1155.77783203125,340.66668701171875 1367.3333740234375,329.77777099609375 1376.6666259765625,256.66668701171875 1454.4444580078125,256.66668701171875 1448.2222900390625,462 1339.3333740234375,608.2222290039062 673.5555419921875,608.2222290039062 675.1111450195312,588\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "3d51d445-0419-4182-be55-d2eceb7bb905.json",
+    "motivation": "commenting"
+}
