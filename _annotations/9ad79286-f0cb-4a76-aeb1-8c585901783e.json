@@ -1,0 +1,44 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0144"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "porter sur les \u00e9paules ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-07-27T10:19:28.098Z",
+            "modified": "2023-07-27T10:19:34.265Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8075",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-07-27T10:19:44.951Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0144",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"741.4677124023438,1641.9205322265625 585.2933959960938,1902.611572265625 605.7162475585938,2552.536865234375 906.051513671875,2565.751708984375 876.0178833007812,1714.0009765625 876.2431030273438,1714.188720703125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "9ad79286-f0cb-4a76-aeb1-8c585901783e.json",
+    "motivation": "commenting"
+}
