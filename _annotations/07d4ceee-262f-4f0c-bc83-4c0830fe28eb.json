@@ -3,42 +3,42 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0255"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "la plane",
-            "purpose": "commenting",
+            "created": "2023-07-27T16:22:35.944Z",
             "creator": {
                 "id": "sf7320",
                 "name": "Serena"
             },
-            "created": "2023-07-27T16:22:35.944Z",
-            "modified": "2023-07-27T16:22:38.027Z"
+            "modified": "2023-07-27T16:22:38.027Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "la plane"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C1735",
+            "created": "2023-07-27T16:22:44.185Z",
             "creator": {
                 "id": "sf7320",
                 "name": "Serena"
             },
-            "created": "2023-07-27T16:22:44.185Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1735"
         }
     ],
+    "id": "07d4ceee-262f-4f0c-bc83-4c0830fe28eb.json",
+    "motivation": "commenting",
     "target": {
         "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0255",
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1398.7,3187.4 1396.5,3407.3 1904.4,3287.1 1843.2,3135.7 1843,3136\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1398.7,3187.4 1396.5,3407.3 1859.9,3289.5 1843.2,3135.7 1843,3136\"></polygon></svg>"
         },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
             "type": "Manifest"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "07d4ceee-262f-4f0c-bc83-4c0830fe28eb.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
