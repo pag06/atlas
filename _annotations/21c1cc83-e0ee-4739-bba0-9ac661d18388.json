@@ -1,0 +1,64 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328"
+order: 17
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Perchoir,\nen haut : acc\u00e8s ext\u00e9rieur\nen bas : disposition dans l'\u00e9table",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-27T12:35:21.234Z",
+            "modified": "2023-07-27T12:35:45.521Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L50",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-27T12:35:51.695Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C598",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-27T12:35:55.487Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7550",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-27T12:36:20.017Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1408.1361083984375,3302.313720703125 1410.779541015625,2913.723876953125 2256.689697265625,2889.9326171875 2150.950927734375,3920.885498046875 2013.490478515625,3912.955078125 1849.595458984375,3786.068603515625 1439.857666015625,3778.13818359375 1286.5364990234375,3878.590087890625 1312.97119140625,3450.347900390625 1413.4229736328125,3299.670166015625\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "21c1cc83-e0ee-4739-bba0-9ac661d18388.json",
+    "motivation": "commenting"
+}
