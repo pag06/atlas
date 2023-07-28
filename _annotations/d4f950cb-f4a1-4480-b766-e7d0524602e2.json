@@ -28,17 +28,6 @@ order: 1
             "value": "La l\u00e9gende se trouve dans la marge de la carte suivante en bas de la page. Illustration C. 1660 : la cr\u00e9celle \u00e0 42, St-Simon."
         },
         {
-            "created": "2023-07-27T14:45:50.396Z",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
-            "modified": "2023-07-27T14:47:14.427Z",
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L42 C1662 Q2858"
-        },
-        {
             "created": "2023-07-27T14:48:44.106Z",
             "creator": {
                 "id": "GBT-Unice",
@@ -48,20 +37,50 @@ order: 1
             "purpose": "replying",
             "type": "TextualBody",
             "value": "L'illustration est sur la carte 1660, mais elle concerne la carte 1662"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L42",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-07-28T10:30:37.224Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C1662",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-07-28T10:30:43.695Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2858",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-07-28T10:30:52.740Z"
         }
     ],
     "id": "d4f950cb-f4a1-4480-b766-e7d0524602e2.json",
     "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0216",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"546.7,2334.2 671.6,2390.8 993,2372.4 1326.7,2526.9 933,2959.7 897.6,2957.8 893.9,2845.1 543,2648.7\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0216"
     },
     "type": "Annotation"
 }
