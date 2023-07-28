@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0029"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Paysan r\u00e9parant un toit de chaume",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-07-28T20:55:36.667Z",
+            "modified": "2023-07-28T20:55:51.082Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L15",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-07-28T20:56:11.246Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C662",
+            "purpose": "tagging",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-07-28T20:57:55.777Z",
+            "modified": "2023-07-28T20:57:57.597Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0029",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1833.570068359375,2969.3544921875 2427.4306640625,2972.47998046875 2427.4306640625,3547.5869140625 2208.639892578125,3544.46142578125 2208.639892578125,3825.763671875 1792.9375,3825.763671875 1792.9375,2972.47998046875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "8bde3987-3c2b-423a-99c5-59741eeaf8ff.json",
+    "motivation": "commenting"
+}
