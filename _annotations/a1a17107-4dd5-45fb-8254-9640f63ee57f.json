@@ -3,53 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0043"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Chasse-neige",
-            "purpose": "commenting",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
             "created": "2023-07-24T13:40:29.742Z",
-            "modified": "2023-07-24T13:40:37.346Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L25",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-07-24T13:40:47.888Z"
+            "modified": "2023-07-24T13:40:37.346Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Chasse-neige"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L29",
+            "created": "2023-07-24T13:40:47.888Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-07-24T13:40:50.947Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L25"
+        },
+        {
+            "created": "2023-07-24T13:40:50.947Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L29"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-28T16:14:10.082Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C???",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-28T16:14:12.186Z"
         }
     ],
+    "id": "a1a17107-4dd5-45fb-8254-9640f63ee57f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0043",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1527.3636474609375,3265.740966796875,833.1334228515625,390.016357421875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1527.3636474609375,3265.740966796875,833.1334228515625,390.016357421875"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0043"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a1a17107-4dd5-45fb-8254-9640f63ee57f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
