@@ -1,0 +1,64 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0022"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Crocs \u00e0 fumier (dents fines)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-07-28T20:13:19.232Z",
+            "modified": "2023-07-28T20:16:22.719Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L24",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-07-28T20:13:28.341Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L3",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-07-28T20:13:32.028Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8464",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-07-28T20:18:35.325Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0022",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1262.96923828125,3093.179443359375 1691.173828125,3105.681884765625 1666.169189453125,3793.3095703125 1563.0250244140625,3793.3095703125 1522.3924560546875,3743.30029296875 1375.4901123046875,3743.30029296875 1353.611083984375,3796.435302734375 1259.8436279296875,3796.435302734375\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "758bb090-5e35-4a97-9e39-589067b1802d.json",
+    "motivation": "commenting"
+}
