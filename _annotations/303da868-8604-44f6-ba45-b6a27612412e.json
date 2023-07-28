@@ -37,14 +37,14 @@ order: 1
             "value": "C836"
         },
         {
-            "type": "TextualBody",
-            "value": "T",
-            "purpose": "tagging",
+            "created": "2023-07-26T06:46:29.016Z",
             "creator": {
                 "id": "Pigeo",
                 "name": "Pierre-Aur\u00e9lien Georges"
             },
-            "created": "2023-07-26T06:46:29.016Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "T"
         }
     ],
     "id": "303da868-8604-44f6-ba45-b6a27612412e.json",
