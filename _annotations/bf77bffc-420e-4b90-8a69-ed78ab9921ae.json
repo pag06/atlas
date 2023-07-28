@@ -94,7 +94,7 @@ order: 1
         "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0074",
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2681.9,3270.2 2227.3,3269.3 1826.1,3292.1 1780,3483.8 1705.5,3665.6 1812.8,3894.7 2193.7,3923.8 2554.6,3922 2691,3728.4 2694.6,3596.5 2718.2,3580.2\"></polygon></svg>"
+            "value": "<svg><polygon points=\"2681.9,3270.2 2227.3,3269.3 1829.1,3278.4 1780,3483.8 1705.5,3665.6 1812.8,3894.7 2193.7,3923.8 2554.6,3922 2691,3728.4 2694.6,3596.5 2718.2,3580.2\"></polygon></svg>"
         },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
