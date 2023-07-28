@@ -27,35 +27,35 @@ order: 4
             "value": "L46.23"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5774",
+            "created": "2023-07-28T16:46:45.393Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-28T16:46:45.393Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5774"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C515",
+            "created": "2023-07-28T16:46:48.362Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-28T16:46:48.362Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C515"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : X. Ravier\nDessin :  Oriane Zavaroni",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-28T16:46:56.339Z",
-            "modified": "2023-07-28T16:47:24.525Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-28T16:53:38.376Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : X. Ravier\nDessin :  Orlane Zavaroni"
         }
     ],
     "id": "2a709cd6-a533-4e42-8ec3-af702ba15df6.json",
