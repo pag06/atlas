@@ -1,0 +1,45 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Saint-Matr\u00e9 : les [...] sont ici fix\u00e9es par [...], lani\u00e8re de cuir qui joue le m\u00eame r\u00f4le que la [...] du n\u00b0VI",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-28T16:43:19.542Z",
+            "modified": "2023-07-28T16:44:19.620Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L46.23",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-28T16:44:29.307Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=484.8480529785156,3122.737060546875,1141.7290954589844,413.642822265625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "2a709cd6-a533-4e42-8ec3-af702ba15df6.json",
+    "motivation": "commenting"
+}
