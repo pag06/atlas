@@ -33,7 +33,7 @@ order: 2
         "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0255",
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1220.4,3450.2 1283.6,3495.5 1322.3,3433.1 1481,3903.1 1270.9,3902.8 1219,3513.7\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1282.7,3490 1334.5,3462.8 1479,3749.1 1481,3903.1 1270.9,3902.8 1214.5,3489.1\"></polygon></svg>"
         },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
