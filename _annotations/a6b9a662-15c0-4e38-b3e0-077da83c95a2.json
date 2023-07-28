@@ -3,44 +3,54 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0327"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Parc \u00e0 vaches",
-            "purpose": "commenting",
+            "created": "2023-07-24T14:21:57.820Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-07-24T14:21:57.820Z",
-            "modified": "2023-07-24T14:22:02.574Z"
+            "modified": "2023-07-24T14:22:02.574Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Parc \u00e0 vaches"
+        },
+        {
+            "created": "2023-07-24T14:22:05.362Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2023-07-24T14:22:05.973Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L41"
         },
         {
             "type": "TextualBody",
-            "value": "L41",
             "purpose": "tagging",
+            "value": "Q7330",
             "creator": {
-                "id": "pag06",
-                "name": "pag06"
+                "id": "ej7320",
+                "name": "ej7320"
             },
-            "created": "2023-07-24T14:22:05.362Z",
-            "modified": "2023-07-24T14:22:05.973Z"
+            "created": "2023-07-28T16:24:13.879Z"
         }
     ],
+    "id": "a6b9a662-15c0-4e38-b3e0-077da83c95a2.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0327",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=526.7066650390625,2147.836669921875,2019.6622314453125,618.899169921875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=526.7066650390625,2147.836669921875,2019.6622314453125,618.899169921875"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0327"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a6b9a662-15c0-4e38-b3e0-077da83c95a2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
