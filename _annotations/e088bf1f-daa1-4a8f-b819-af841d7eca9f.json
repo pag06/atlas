@@ -3,63 +3,74 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
+            "created": "2023-07-28T16:49:21.077Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-28T16:50:40.944Z",
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Villenouvelle (localit\u00e9 limitr. W. de Montgaillard, point de l'enqu\u00eate linguistique) : joug ([...] ou [...]) au repos, avec les courroies ([...]) repli\u00e9es sur un c\u00f4t\u00e9.",
+            "value": "Villenouvelle (localit\u00e9 limitr. W. de Montgaillard, point de l'enqu\u00eate linguistique) : joug ([...] ou [...]) au repos, avec les courroies ([...]) repli\u00e9es sur un c\u00f4t\u00e9."
+        },
+        {
+            "created": "2023-07-28T16:50:56.987Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L31.31"
+        },
+        {
+            "created": "2023-07-28T16:51:03.757Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5774"
+        },
+        {
+            "created": "2023-07-28T16:51:06.409Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C515"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : Alain Guey\nDessin :  Oriane Zavaroni",
             "purpose": "commenting",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-28T16:49:21.077Z",
-            "modified": "2023-07-28T16:50:40.944Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L31.31",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "created": "2023-07-28T16:50:56.987Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5774",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "created": "2023-07-28T16:51:03.757Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C515",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "created": "2023-07-28T16:51:06.409Z"
+            "created": "2023-07-28T16:53:58.963Z",
+            "modified": "2023-07-28T16:54:06.644Z"
         }
     ],
+    "id": "e088bf1f-daa1-4a8f-b819-af841d7eca9f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=497.4635925292969,3803.8916015625,1094.5454406738281,340"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=497.4635925292969,3803.8916015625,1094.5454406738281,340"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e088bf1f-daa1-4a8f-b819-af841d7eca9f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
