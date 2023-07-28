@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0019"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Clochettes et colliers",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-07-28T19:57:11.485Z",
+            "modified": "2023-07-28T19:57:16.381Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L16",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-07-28T19:57:21.677Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2392",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-07-28T19:58:19.205Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0019",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1969.3505859375,3057.4697265625 2381.92724609375,3063.720703125 2385.052978515625,3188.744140625 2303.787841796875,3188.744140625 2303.787841796875,3491.925537109375 1972.4761962890625,3404.4091796875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "0eb9dcc8-0480-4a70-9e3c-b4a1fd964f25.json",
+    "motivation": "commenting"
+}
