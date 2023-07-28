@@ -3,63 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328"
 order: 10
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C554",
+            "created": "2023-07-27T12:20:29.456Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-27T12:20:29.456Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C554"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L42",
+            "created": "2023-07-27T12:20:33.489Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-27T12:20:33.489Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L42"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L25",
+            "created": "2023-07-27T12:20:35.268Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-27T12:20:35.268Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L25"
         },
         {
-            "type": "TextualBody",
-            "value": "Saloirs : en gr\u00e8s \u00e0 L42, en pierre \u00e0 L25",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-27T12:20:38.644Z",
-            "modified": "2023-07-27T12:20:51.024Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-27T12:20:51.024Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Saloirs : en gr\u00e8s \u00e0 L42, en pierre \u00e0 L25"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-28T16:25:16.834Z"
         }
     ],
+    "id": "f7bbf552-04ee-4ccb-a257-f7b8e2334ea9.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1458.77294921875,1517.9718017578125,909.0908203125,370.9090576171875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1458.77294921875,1517.9718017578125,909.0908203125,370.9090576171875"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f7bbf552-04ee-4ccb-a257-f7b8e2334ea9.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
