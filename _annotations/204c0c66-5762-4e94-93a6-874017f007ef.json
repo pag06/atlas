@@ -3,43 +3,74 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
 order: 9
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
+            "created": "2023-07-29T08:11:35.215Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-29T08:14:30.016Z",
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "XXI\nRodome (en r\u00e9alit\u00e9 localit\u00e9 des environs.) attelage de b\u0153ufs. Ici une double cha\u00eene relie l'[...], tige de fer plant\u00e9e au sommet du joug ([...]), \u00e0 la [...] ou atteloire. Cette atteloire en fer sert pour la traction comme pour le recul. Il n'existe pas de \"reculement\". Pour reculer, le joug appuie directement sur la [...].",
+            "value": "XXI\nRodome (en r\u00e9alit\u00e9 localit\u00e9 des environs.) attelage de b\u0153ufs. Ici une double cha\u00eene relie l'[...], tige de fer plant\u00e9e au sommet du joug ([...]), \u00e0 la [...] ou atteloire. Cette atteloire en fer sert pour la traction comme pour le recul. Il n'existe pas de \"reculement\". Pour reculer, le joug appuie directement sur la [...]."
+        },
+        {
+            "created": "2023-07-29T08:14:40.074Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.22"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C522",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-29T08:14:51.328Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2242",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-29T08:15:27.546Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "D'apr\u00e8s un clich\u00e9 pris par E. N\u00e8gre sur le plateau de Sault en avril 1972",
             "purpose": "commenting",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T08:11:35.215Z",
-            "modified": "2023-07-29T08:14:30.016Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.22",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "created": "2023-07-29T08:14:40.074Z"
+            "created": "2023-07-29T08:15:33.505Z",
+            "modified": "2023-07-29T08:15:54.113Z"
         }
     ],
+    "id": "204c0c66-5762-4e94-93a6-874017f007ef.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=469.90020751953125,3050.50830078125,1197.6852416992188,786.419677734375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=469.90020751953125,3050.50830078125,1197.6852416992188,786.419677734375"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "204c0c66-5762-4e94-93a6-874017f007ef.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
