@@ -17,34 +17,45 @@ order: 1
             "value": "I\nLabastide-de-levis, (Tarn, 6 km. W du point d'enqu\u00eate 81.04) : Pigeonnier sur\u00e9lever sur huit piliers."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L81.04",
+            "created": "2023-07-29T09:50:25.926Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T09:50:25.926Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L81.04"
+        },
+        {
+            "created": "2023-07-29T09:50:57.062Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C291"
+        },
+        {
+            "created": "2023-07-29T09:51:11.816Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7697."
         },
         {
             "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C291",
+            "value": "Relev\u00e9s : Fran\u00e7oise Gaudibert (Architecte D.P.L.G.)\nDessin : Orlane Zavaroni",
+            "purpose": "identifying",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T09:50:57.062Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7697.",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "created": "2023-07-29T09:51:11.816Z"
+            "created": "2023-07-29T09:52:06.999Z",
+            "modified": "2023-07-29T09:53:27.526Z"
         }
     ],
     "id": "b94c654c-25f5-42ff-a027-c24725807b5f.json",
