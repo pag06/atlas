@@ -3,52 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0019"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Clochettes et colliers",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-07-28T19:57:11.485Z",
-            "modified": "2023-07-28T19:57:16.381Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L16",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-28T19:57:21.677Z"
+            "modified": "2023-07-29T13:01:48.298Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Clochettes et colliers : La clochette de vache est en bronze g\u00e9n\u00e9ralement. En certains points (sigle T), elle est en t\u00f4le de cuivre ou d'alliage de cuivre, comme la \"sonnaille des moutons\". Son nom est connu m\u00eame dans les localit\u00e9s o\u00f9 l'emploi est rare. Portent seulement une clochette, \u00e0 L9 : [...] \"celles qui donnent des coups de cornes\" ; \u00e0 L10, la b\u00eate qui a la manie de courir : [...]."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2392",
+            "created": "2023-07-28T19:57:21.677Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-28T19:58:19.205Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L16"
+        },
+        {
+            "created": "2023-07-28T19:58:19.205Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2392"
         }
     ],
+    "id": "0eb9dcc8-0480-4a70-9e3c-b4a1fd964f25.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0019",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1969.3505859375,3057.4697265625 2381.92724609375,3063.720703125 2385.052978515625,3188.744140625 2303.787841796875,3188.744140625 2303.787841796875,3491.925537109375 1972.4761962890625,3404.4091796875\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0019"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0eb9dcc8-0480-4a70-9e3c-b4a1fd964f25.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
