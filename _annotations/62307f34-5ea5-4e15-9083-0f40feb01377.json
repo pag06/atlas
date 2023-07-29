@@ -3,74 +3,74 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Villenouvelle : reculement ([...]). La grosse cheville m\u00e9tallique est plant\u00e9e dans un trou du timon, en avant du joug, qui est alors immobilis\u00e9. ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-29T07:58:02.386Z",
-            "modified": "2023-07-29T07:58:44.578Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-29T08:05:58.915Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "XIX\nVillenouvelle : reculement ([...]). La grosse cheville m\u00e9tallique est plant\u00e9e dans un trou du timon, en avant du joug, qui est alors immobilis\u00e9. "
         },
         {
-            "type": "TextualBody",
+            "created": "2023-07-29T07:58:52.435Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
             "purpose": "tagging",
-            "value": "L31.31",
+            "type": "TextualBody",
+            "value": "L31.31"
+        },
+        {
+            "created": "2023-07-29T07:58:58.738Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T07:58:52.435Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C523",
+            "type": "TextualBody",
+            "value": "C523"
+        },
+        {
+            "created": "2023-07-29T07:59:07.834Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T07:58:58.738Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q8693",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "created": "2023-07-29T07:59:07.834Z"
+            "type": "TextualBody",
+            "value": "Q8693"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Alain Guey\nDessin :  Orlane Zavaroni",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-29T07:59:15.660Z",
-            "modified": "2023-07-29T07:59:28.603Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-29T07:59:28.603Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Alain Guey\nDessin :  Orlane Zavaroni"
         }
     ],
+    "id": "62307f34-5ea5-4e15-9083-0f40feb01377.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=487.1629333496094,2459.416259765625,1114.0862121582031,352.735595703125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=487.1629333496094,2459.416259765625,1114.0862121582031,352.735595703125"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "62307f34-5ea5-4e15-9083-0f40feb01377.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
