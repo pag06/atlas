@@ -3,74 +3,74 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Villenouvelle : mod\u00e8le de [...] solidaire de l'atteloire ([...]), qui lui est rattach\u00e9 par une cha\u00eene, ce qui \u00e9vite de l'\u00e9garer.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-29T07:56:41.084Z",
-            "modified": "2023-07-29T07:57:16.154Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-29T07:57:16.154Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Villenouvelle : mod\u00e8le de [...] solidaire de l'atteloire ([...]), qui lui est rattach\u00e9 par une cha\u00eene, ce qui \u00e9vite de l'\u00e9garer."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-07-29T07:57:25.499Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
             "purpose": "tagging",
-            "value": "L31.31",
+            "type": "TextualBody",
+            "value": "L31.31"
+        },
+        {
+            "created": "2023-07-29T07:57:28.938Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T07:57:25.499Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C518",
+            "type": "TextualBody",
+            "value": "C518"
+        },
+        {
+            "created": "2023-07-29T07:57:31.667Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T07:57:28.938Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q270",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "created": "2023-07-29T07:57:31.667Z"
+            "type": "TextualBody",
+            "value": "Q270"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Alain Guey\nDessin :  Oriane Zavaroni",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-29T07:57:41.572Z",
-            "modified": "2023-07-29T07:57:44.203Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-29T08:00:02.205Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Alain Guey\nDessin :  Orlane Zavaroni"
         }
     ],
+    "id": "b83bec9a-9e11-42f3-8256-c1a62d35a687.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2572.1455078125,1712.035400390625,530.849853515625,537.834716796875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2572.1455078125,1712.035400390625,530.849853515625,537.834716796875"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b83bec9a-9e11-42f3-8256-c1a62d35a687.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
