@@ -27,35 +27,35 @@ order: 9
             "value": "L11.22"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C522",
+            "created": "2023-07-29T08:14:51.328Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T08:14:51.328Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C522"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2242",
+            "created": "2023-07-29T08:15:27.546Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T08:15:27.546Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2242"
         },
         {
-            "type": "TextualBody",
-            "value": "D'apr\u00e8s un clich\u00e9 pris par E. N\u00e8gre sur le plateau de Sault en avril 1972",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-29T08:15:33.505Z",
-            "modified": "2023-07-29T08:15:54.113Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-29T08:17:19.025Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "D'apr\u00e8s un clich\u00e9 pris par E. N\u00e8gre sur le plateau de Sault en avril 1972\nDessin : Orlane Zavaroni"
         }
     ],
     "id": "204c0c66-5762-4e94-93a6-874017f007ef.json",
