@@ -3,74 +3,74 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316"
 order: 11
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Villenouvelle : joug ferr\u00e9. Le support ([...]) est une tige m\u00e9tallique \u00e0 laquelle est accroch\u00e9 l'anneau sup\u00e9rieur du [...], dispositif utilis\u00e9 pour l'attelage de la charrue. Les frontaux ([...]) restent fix\u00e9s au joug par des attaches en fil de fer. Ils sont en crin v\u00e9g\u00e9tal, confectionn\u00e9s par le bourrelier. Il en existe aussi d'autres faits de morceaux de toile de jute repli\u00e9s en plusieurs \u00e9paisseurs et cousus ensemble.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-28T17:04:58.107Z",
-            "modified": "2023-07-28T17:07:28.331Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-28T17:07:28.331Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Villenouvelle : joug ferr\u00e9. Le support ([...]) est une tige m\u00e9tallique \u00e0 laquelle est accroch\u00e9 l'anneau sup\u00e9rieur du [...], dispositif utilis\u00e9 pour l'attelage de la charrue. Les frontaux ([...]) restent fix\u00e9s au joug par des attaches en fil de fer. Ils sont en crin v\u00e9g\u00e9tal, confectionn\u00e9s par le bourrelier. Il en existe aussi d'autres faits de morceaux de toile de jute repli\u00e9s en plusieurs \u00e9paisseurs et cousus ensemble."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-07-28T17:07:38.885Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
             "purpose": "tagging",
-            "value": "L31.31",
+            "type": "TextualBody",
+            "value": "L31.31"
+        },
+        {
+            "created": "2023-07-28T17:07:41.702Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-28T17:07:38.885Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C515",
+            "type": "TextualBody",
+            "value": "C515"
+        },
+        {
+            "created": "2023-07-28T17:07:45.085Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-28T17:07:41.702Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q5774",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "created": "2023-07-28T17:07:45.085Z"
+            "type": "TextualBody",
+            "value": "Q5774"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Alain Guey\nDessin :  Oriane Zavaroni",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-28T17:07:51.284Z",
-            "modified": "2023-07-28T17:07:54.243Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-29T08:01:22.772Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Alain Guey\nDessin :  Orlane Zavaroni"
         }
     ],
+    "id": "7c509356-6b69-45f2-8aac-e89abca12962.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2004.30859375,3520.83349609375,1085.339599609375,557.716064453125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2004.30859375,3520.83349609375,1085.339599609375,557.716064453125"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7c509356-6b69-45f2-8aac-e89abca12962.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
