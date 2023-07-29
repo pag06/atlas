@@ -3,74 +3,74 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Surba : anneau articul\u00e9 ([...])",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-29T07:55:04.132Z",
-            "modified": "2023-07-29T07:55:15.915Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-29T07:55:15.915Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Surba : anneau articul\u00e9 ([...])"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-07-29T07:56:16.260Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
             "purpose": "tagging",
-            "value": "L09.21",
+            "type": "TextualBody",
+            "value": "L09.21"
+        },
+        {
+            "created": "2023-07-29T07:56:18.483Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T07:56:16.260Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C518",
+            "type": "TextualBody",
+            "value": "C518"
+        },
+        {
+            "created": "2023-07-29T07:56:21.803Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T07:56:18.483Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q270",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "created": "2023-07-29T07:56:21.803Z"
+            "type": "TextualBody",
+            "value": "Q270"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Alain Guey\nDessin :  Oriane Zavaroni",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-29T07:56:27.341Z",
-            "modified": "2023-07-29T07:56:29.646Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-29T07:59:52.510Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Alain Guey\nDessin :  Orlane Zavaroni"
         }
     ],
+    "id": "128948b8-d339-4989-ad2b-1630cfe5cb44.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1575.5638427734375,1821.6729736328125,606.4266357421875,419.8338623046875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1575.5638427734375,1821.6729736328125,606.4266357421875,419.8338623046875"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "128948b8-d339-4989-ad2b-1630cfe5cb44.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
