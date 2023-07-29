@@ -6,17 +6,6 @@ order: 1
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "created": "2023-07-28T19:32:46.623Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "modified": "2023-07-28T19:32:53.661Z",
-            "purpose": "commenting",
-            "type": "TextualBody",
-            "value": "Cha\u00eene"
-        },
-        {
             "created": "2023-07-28T19:33:05.571Z",
             "creator": {
                 "id": "ls7320",
@@ -57,15 +46,15 @@ order: 1
             "value": "Q1900"
         },
         {
-            "type": "TextualBody",
-            "value": "Cha\u00eene : il s'agit de la cha\u00eene qui attache chaque vache \u00e0 la cr\u00e8che, et du collier de la vache, auquel est suspendu la clochette. Ce collier est g\u00e9n\u00e9ralement une courroie de 3 \u00e0 5 cm, de large ; il est parfois en bois de ch\u00eane, \u00e0 L15 ; c'est une cha\u00eene \u00e0 L14, L16, L41, L43, L50.",
-            "purpose": "commenting",
+            "created": "2023-07-28T19:45:21.614Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-28T19:45:21.614Z",
-            "modified": "2023-07-28T19:51:48.393Z"
+            "modified": "2023-07-28T19:51:48.393Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Cha\u00eene : il s'agit de la cha\u00eene qui attache chaque vache \u00e0 la cr\u00e8che, et du collier de la vache, auquel est suspendu la clochette. Ce collier est g\u00e9n\u00e9ralement une courroie de 3 \u00e0 5 cm, de large ; il est parfois en bois de ch\u00eane, \u00e0 L15 ; c'est une cha\u00eene \u00e0 L14, L16, L41, L43, L50."
         }
     ],
     "id": "1546af3a-2648-4d70-9501-057451f06c62.json",
