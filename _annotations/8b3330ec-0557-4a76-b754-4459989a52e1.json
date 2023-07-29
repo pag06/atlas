@@ -1,0 +1,34 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0318"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "pigeonnier",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-29T09:58:23.758Z",
+            "modified": "2023-07-29T09:58:25.628Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0318",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"795.1272583007812,3191.848876953125 1989.1630859375,3181.510986328125 1999.5010986328125,2871.371826171875 3436.479248046875,2897.216796875 3405.46533203125,3729.423583984375 2180.41552734375,3719.08544921875 2185.58447265625,3956.85888671875 3472.662109375,3982.703857421875 3472.662109375,5021.669921875 2242.443359375,5042.34619140625 810.6342163085938,4933.79736328125 795.1272583007812,3191.848876953125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "8b3330ec-0557-4a76-b754-4459989a52e1.json",
+    "motivation": "commenting"
+}
