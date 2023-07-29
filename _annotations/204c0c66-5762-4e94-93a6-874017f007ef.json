@@ -1,0 +1,45 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
+order: 9
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "XXI\nRodome (en r\u00e9alit\u00e9 localit\u00e9 des environs.) attelage de b\u0153ufs. Ici une double cha\u00eene relie l'[...], tige de fer plant\u00e9e au sommet du joug ([...]), \u00e0 la [...] ou atteloire. Cette atteloire en fer sert pour la traction comme pour le recul. Il n'existe pas de \"reculement\". Pour reculer, le joug appuie directement sur la [...].",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-29T08:11:35.215Z",
+            "modified": "2023-07-29T08:14:30.016Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L11.22",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-07-29T08:14:40.074Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=469.90020751953125,3050.50830078125,1197.6852416992188,786.419677734375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "204c0c66-5762-4e94-93a6-874017f007ef.json",
+    "motivation": "commenting"
+}
