@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0031"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Toit d'ardoise d'une grange en ruine ; remarquer [...] (C661) couronnant le pignon).",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-07-29T13:20:06.616Z",
+            "modified": "2023-07-29T13:21:13.114Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L40",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-07-29T13:21:21.128Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5942",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-07-29T13:22:11.145Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0031",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1941.5186767578125,2981.428466796875 2541.518798828125,2988.701171875 2541.518798828125,3657.7919921875 1646.9732666015625,3650.519287109375 1643.3369140625,3414.15576171875 1766.9732666015625,3181.428466796875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "0b182fe5-6123-42ce-92cf-18a122c3777f.json",
+    "motivation": "commenting"
+}
