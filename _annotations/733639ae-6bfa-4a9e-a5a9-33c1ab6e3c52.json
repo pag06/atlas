@@ -3,53 +3,53 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0022"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Crocs \u00e0 fumier (dents robustes)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-07-28T20:25:50.508Z",
-            "modified": "2023-07-28T20:26:08.157Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L13",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-28T20:26:13.032Z"
+            "modified": "2023-07-28T20:26:08.157Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Crocs \u00e0 fumier (dents robustes)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8464",
+            "created": "2023-07-28T20:26:13.032Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-28T20:27:21.556Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L13"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2980",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-07-29T13:07:50.169Z"
         }
     ],
+    "id": "733639ae-6bfa-4a9e-a5a9-33c1ab6e3c52.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0022",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1846.0723876953125,3167.151611328125,171.906982421875,637.618408203125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1846.0723876953125,3167.151611328125,171.906982421875,637.618408203125"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0022"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "733639ae-6bfa-4a9e-a5a9-33c1ab6e3c52.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
