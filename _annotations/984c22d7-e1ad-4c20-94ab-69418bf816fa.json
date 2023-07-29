@@ -3,74 +3,74 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Villenouvelle : S\u00e9rie de sept [...]; Le troisi\u00e8me anneau, \u00e0 base carr\u00e9e, est r\u00e9cent. Fabriqu\u00e9 pour atteler une lieuse de marque am\u00e9ricaine, qui avait un timon \u00e0 section carr\u00e9e.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-29T07:49:57.098Z",
-            "modified": "2023-07-29T07:51:26.357Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-29T08:04:56.586Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "XIV\nVillenouvelle : S\u00e9rie de sept [...]; Le troisi\u00e8me anneau, \u00e0 base carr\u00e9e, est r\u00e9cent. Fabriqu\u00e9 pour atteler une lieuse de marque am\u00e9ricaine, qui avait un timon \u00e0 section carr\u00e9e."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-07-29T07:50:25.107Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
             "purpose": "tagging",
-            "value": "L31.31",
+            "type": "TextualBody",
+            "value": "L31.31"
+        },
+        {
+            "created": "2023-07-29T07:50:32.259Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T07:50:25.107Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C518",
+            "type": "TextualBody",
+            "value": "C518"
+        },
+        {
+            "created": "2023-07-29T07:50:38.426Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T07:50:32.259Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q270",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "created": "2023-07-29T07:50:38.426Z"
+            "type": "TextualBody",
+            "value": "Q270"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Alain Guey\nDessin :  Oriane Zavaroni",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-29T07:51:33.486Z",
-            "modified": "2023-07-29T07:51:36.164Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-29T07:51:36.164Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Alain Guey\nDessin :  Oriane Zavaroni"
         }
     ],
+    "id": "984c22d7-e1ad-4c20-94ab-69418bf816fa.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=483.1792297363281,1129.38427734375,1216.5965270996094,277.0096435546875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=483.1792297363281,1129.38427734375,1216.5965270996094,277.0096435546875"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "984c22d7-e1ad-4c20-94ab-69418bf816fa.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
