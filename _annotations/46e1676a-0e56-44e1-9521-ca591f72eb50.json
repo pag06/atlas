@@ -3,74 +3,74 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Villenouvelle : [...], grand joug utilis\u00e9 pour le travail des vignes, attel\u00e9 au [...] (d\u00e9cavaillonneuse). Form\u00e9 de deux parties ou demi-jougs r\u00e9unies par un syst\u00e8me de vis qui permet de r\u00e9gler \u00e0 volont\u00e9 l'\u00e9cartement des [...] (= t\u00e9ti\u00e8res), en fonction du travail \u00e0 effectuer et de la largeur de l'intervalle entre les rangs de vigne. Longueur ici : 1,80 environ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-29T07:41:32.149Z",
-            "modified": "2023-07-29T07:44:29.195Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-29T07:44:29.195Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Villenouvelle : [...], grand joug utilis\u00e9 pour le travail des vignes, attel\u00e9 au [...] (d\u00e9cavaillonneuse). Form\u00e9 de deux parties ou demi-jougs r\u00e9unies par un syst\u00e8me de vis qui permet de r\u00e9gler \u00e0 volont\u00e9 l'\u00e9cartement des [...] (= t\u00e9ti\u00e8res), en fonction du travail \u00e0 effectuer et de la largeur de l'intervalle entre les rangs de vigne. Longueur ici : 1,80 environ"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-07-29T07:44:38.030Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
             "purpose": "tagging",
-            "value": "L31.31",
+            "type": "TextualBody",
+            "value": "L31.31"
+        },
+        {
+            "created": "2023-07-29T07:44:43.227Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T07:44:38.030Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C515",
+            "type": "TextualBody",
+            "value": "C515"
+        },
+        {
+            "created": "2023-07-29T07:44:45.739Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T07:44:43.227Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q5774",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "created": "2023-07-29T07:44:45.739Z"
+            "type": "TextualBody",
+            "value": "Q5774"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Alain Guey\nDessin :  Oriane Zavaroni",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-29T07:44:54.128Z",
-            "modified": "2023-07-29T07:44:59.589Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-29T08:00:20.892Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Alain Guey\nDessin :  Orlane Zavaroni"
         }
     ],
+    "id": "46e1676a-0e56-44e1-9521-ca591f72eb50.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1649.216064453125,565.7407836914062,1616.975341796875,465.43206787109375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1649.216064453125,565.7407836914062,1616.975341796875,465.43206787109375"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "46e1676a-0e56-44e1-9521-ca591f72eb50.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
