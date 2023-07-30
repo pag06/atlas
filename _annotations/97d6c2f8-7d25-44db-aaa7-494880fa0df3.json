@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0044"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Chasse-roue B : les chasse-roues, au bas des pieds-droits des portes charreti\u00e8res, sont : \n- soit des bornes distinctes de la ma\u00e7onnerie ;\n- soit des saillies de la panneresse de base ;\n- soit, plus rarement, des arcs m\u00e9talliques.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-07-30T13:56:53.573Z",
+            "modified": "2023-07-30T13:57:09.532Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L28",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-07-30T13:58:22.975Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q2104",
+            "purpose": "tagging",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-07-30T13:59:07.277Z",
+            "modified": "2023-07-30T13:59:09.017Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0044",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1900.4,3106.6 1886.3,3655.9 1920.6,3655.9 1919.1,3698 2310.7,3729.2 2323.2,3119.1\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "97d6c2f8-7d25-44db-aaa7-494880fa0df3.json",
+    "motivation": "commenting"
+}
