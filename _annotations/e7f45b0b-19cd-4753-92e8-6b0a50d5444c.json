@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0044"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Butoir en pierre (hauteur : 10 cm), devant la porte ferm\u00e9e.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-07-30T14:01:06.160Z",
+            "modified": "2023-07-30T14:02:24.896Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L3",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-07-30T14:02:32.599Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1590",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-07-30T14:03:01.247Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0044",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1550.8,3556 1884.7,3556 1881.6,3662.1 1916,3662.1 1916,3698 2006.5,3701.1 2003.3,3849.4 1527.4,3821.3 1533.7,3556\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "e7f45b0b-19cd-4753-92e8-6b0a50d5444c.json",
+    "motivation": "commenting"
+}
