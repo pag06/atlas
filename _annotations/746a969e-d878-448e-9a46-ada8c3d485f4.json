@@ -3,54 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0037"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Grange de la ferme Boyer (2 paires de b\u0153ufs, 25 bovins, 90 moutons), c\u00f4t\u00e9 fenil",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-07-30T13:13:27.037Z",
-            "modified": "2023-07-30T13:14:30.353Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L28",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-30T13:14:39.911Z"
+            "modified": "2023-07-30T13:14:30.353Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Grange de la ferme Boyer (2 paires de b\u0153ufs, 25 bovins, 90 moutons), c\u00f4t\u00e9 fenil"
         },
         {
-            "type": "TextualBody",
-            "value": "C???",
-            "purpose": "tagging",
+            "created": "2023-07-30T13:14:39.911Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-30T13:14:44.640Z",
-            "modified": "2023-07-30T13:14:48.709Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L28"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C633",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-07-31T08:28:04.256Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5271",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-07-31T08:28:13.479Z"
         }
     ],
+    "id": "746a969e-d878-448e-9a46-ada8c3d485f4.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0037",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1405.5306396484375,3001.37451171875,855.0836181640625,561.73388671875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1405.5306396484375,3001.37451171875,855.0836181640625,561.73388671875"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0037"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "746a969e-d878-448e-9a46-ada8c3d485f4.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
