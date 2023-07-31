@@ -27,16 +27,6 @@ order: 1
             "value": "L18"
         },
         {
-            "created": "2023-07-26T15:20:20.229Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-07-26T15:21:55.600Z",
             "creator": {
                 "id": "ej7320",
@@ -47,15 +37,25 @@ order: 1
             "value": "C461"
         },
         {
-            "type": "TextualBody",
-            "value": "Proc\u00e9d\u00e9 d'alimentation des bovins diff\u00e9rent que ceux cit\u00e9s sur la carte C461",
-            "purpose": "questioning",
+            "created": "2023-07-26T15:23:05.106Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-26T15:23:05.106Z",
-            "modified": "2023-07-26T15:23:52.678Z"
+            "modified": "2023-07-26T15:23:52.678Z",
+            "purpose": "questioning",
+            "type": "TextualBody",
+            "value": "Proc\u00e9d\u00e9 d'alimentation des bovins diff\u00e9rent que ceux cit\u00e9s sur la carte C461"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7290",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-07-31T08:52:44.696Z"
         }
     ],
     "id": "1144c8f9-fdd8-480e-8612-b5c8eaf97fcb.json",
