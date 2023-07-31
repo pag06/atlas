@@ -3,63 +3,64 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0035"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Pi\u00e8ce de bois, encastr\u00e9e dans le mur et supportant la ferme.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-07-30T12:13:49.657Z",
-            "modified": "2023-07-30T12:14:33.937Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L51",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-30T12:14:08.758Z"
+            "modified": "2023-07-30T12:14:33.937Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Pi\u00e8ce de bois, encastr\u00e9e dans le mur et supportant la ferme."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C673",
+            "created": "2023-07-30T12:14:08.758Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-30T12:14:25.166Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L51"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-07-30T12:14:25.166Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-30T12:14:28.340Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C673"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q4512",
+            "purpose": "tagging",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-07-31T08:18:37.996Z",
+            "modified": "2023-07-31T08:18:40.660Z"
         }
     ],
+    "id": "a8bfc54c-5661-4d23-9b4d-648ca3602b03.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0035",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1820.771484375,3136.03466796875,741.176513671875,569.53564453125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1820.771484375,3136.03466796875,741.176513671875,569.53564453125"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0035"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a8bfc54c-5661-4d23-9b4d-648ca3602b03.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
