@@ -28,16 +28,6 @@ order: 2
             "value": "L21"
         },
         {
-            "created": "2023-07-26T10:16:00.073Z",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q254???"
-        },
-        {
             "created": "2023-07-26T10:16:11.435Z",
             "creator": {
                 "id": "pag06",
@@ -47,6 +37,37 @@ order: 2
             "purpose": "questioning",
             "type": "TextualBody",
             "value": "La carte C660 indique bien \"il s'agit de l'angle EXTERIEUR D'UN BAT\u00ceMENT\". Or sur cette illustration, c'est l'angle int\u00e9rieur... \nEst-ce que la Q254 dans le THESOC fait la m\u00eame distinction s\u00e9mantique ??"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Le croquis s'applique au mur pignon (gouttereau)",
+            "purpose": "replying",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-07-31T09:06:17.867Z",
+            "modified": "2023-07-31T09:06:53.547Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C661",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-07-31T09:07:05.013Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7698",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-07-31T09:07:12.733Z"
         }
     ],
     "id": "af8fddbe-9d78-4f03-a929-6a4130745300.json",
