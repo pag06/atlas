@@ -3,54 +3,64 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0026"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Pierres de blocage",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-07-28T20:38:12.828Z",
-            "modified": "2023-07-28T20:38:17.298Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L24",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-28T20:38:22.187Z"
+            "modified": "2023-07-28T20:38:17.298Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Pierres de blocage"
         },
         {
-            "type": "TextualBody",
-            "value": "Q7682",
-            "purpose": "tagging",
+            "created": "2023-07-28T20:38:22.187Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
+        },
+        {
             "created": "2023-07-28T20:39:07.478Z",
-            "modified": "2023-07-28T20:39:11.575Z"
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "modified": "2023-07-28T20:39:11.575Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7682"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "T",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-01T09:06:17.390Z"
         }
     ],
+    "id": "b485d33d-4c11-45c3-8c34-e80151538daf.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0026",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1992.974853515625,3246.69775390625,684.502197265625,525.09765625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1992.974853515625,3246.69775390625,684.502197265625,525.09765625"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0026"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b485d33d-4c11-45c3-8c34-e80151538daf.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
