@@ -37,15 +37,25 @@ order: 1
             "value": "C673"
         },
         {
-            "type": "TextualBody",
-            "value": "Q4512",
-            "purpose": "tagging",
+            "created": "2023-07-31T08:18:37.996Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-07-31T08:18:37.996Z",
-            "modified": "2023-07-31T08:18:40.660Z"
+            "modified": "2023-07-31T08:18:40.660Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4512"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "T",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-01T09:01:02.216Z"
         }
     ],
     "id": "a8bfc54c-5661-4d23-9b4d-648ca3602b03.json",
