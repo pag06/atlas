@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0054"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Porte de grange.\n- Le double vantail coup\u00e9. Le \"vantail coup\u00e9\" est le vantail ouvrant de la porte de grange ou d'\u00e9table, coup\u00e9 \u00e0 mi-hauteur et dont la moiti\u00e9 sup\u00e9rieure s'ouvre ind\u00e9pendamment.\n- Le linteau en bois.\n- Le toit de lauzes",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-01T08:41:07.909Z",
+            "modified": "2023-08-01T08:44:08.077Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L33",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-01T08:41:20.286Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10481",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-01T08:44:40.557Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0054",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1798.9263916015625,3249.65576171875,873.8079833984375,608.544921875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "81f9a40c-47d2-41ea-a739-248d8ef7e151.json",
+    "motivation": "commenting"
+}
