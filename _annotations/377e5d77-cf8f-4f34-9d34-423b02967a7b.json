@@ -3,52 +3,62 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0042"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Les pieds-droits (ou jambages) des portes sont construits en pierres de taille appel\u00e9es boutisses, quand elles sont perpendiculaires au mur, panneresses (ou carreaux), quand elles sont dans le sens du mur.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-07-30T13:37:19.798Z",
-            "modified": "2023-07-30T13:39:42.192Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L25",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-30T13:39:59.285Z"
+            "modified": "2023-07-30T13:39:42.192Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Les pieds-droits (ou jambages) des portes sont construits en pierres de taille appel\u00e9es boutisses, quand elles sont perpendiculaires au mur, panneresses (ou carreaux), quand elles sont dans le sens du mur."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7682",
+            "created": "2023-07-30T13:39:59.285Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-30T13:40:25.626Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L25"
+        },
+        {
+            "created": "2023-07-30T13:40:25.626Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7682"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "T",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-01T09:04:43.022Z"
         }
     ],
+    "id": "377e5d77-cf8f-4f34-9d34-423b02967a7b.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0042",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1920.4532470703125,3019.37109375 2610.137451171875,3034.974609375 2600.775146484375,3746.504150390625 2397.927001953125,3740.2626953125 2394.80615234375,3827.6435546875 2607.016845703125,3837.005615234375 2607.016845703125,3886.9375 1917.33251953125,3877.575439453125\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0042"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "377e5d77-cf8f-4f34-9d34-423b02967a7b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
