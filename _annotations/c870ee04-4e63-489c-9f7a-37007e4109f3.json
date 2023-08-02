@@ -11,10 +11,10 @@ order: 1
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "modified": "2023-08-02T21:41:32.677Z",
+            "modified": "2023-08-02T21:57:49.392Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Soufflet \u00e0 bouche."
+            "value": "Soufflet \u00e0 bouche : c'est g\u00e9n\u00e9ralement un rondin de bois perfor\u00e9 de bout en bout dans lequel on souffle \u00e0 pleins poumons. "
         },
         {
             "created": "2023-08-02T21:42:58.971Z",
@@ -40,15 +40,15 @@ order: 1
     "id": "c870ee04-4e63-489c-9f7a-37007e4109f3.json",
     "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0080",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1753.8,3615.6 2488.5,3140.6 2672.9,3425.2 2672.2,3425.8 2672.2,3425.8 2217,3695.2 1972.2,3695.2 1969.1,3809.1 1783.4,3746.7 1753.8,3617.1\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0080"
     },
     "type": "Annotation"
 }
