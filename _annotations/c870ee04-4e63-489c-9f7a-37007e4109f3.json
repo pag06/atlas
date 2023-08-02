@@ -3,52 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0080"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Soufflet \u00e0 bouche.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-02T21:41:25.000Z",
-            "modified": "2023-08-02T21:41:32.677Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L24",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-02T21:42:58.971Z"
+            "modified": "2023-08-02T21:41:32.677Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Soufflet \u00e0 bouche."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9572",
+            "created": "2023-08-02T21:42:58.971Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-02T21:43:31.826Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
+        },
+        {
+            "created": "2023-08-02T21:43:31.826Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9572"
         }
     ],
+    "id": "c870ee04-4e63-489c-9f7a-37007e4109f3.json",
+    "motivation": "commenting",
     "target": {
         "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0080",
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1753.8,3615.6 2476.2,3147.5 2672.9,3425.2 2518.4,3520.4 2407.6,3507.9 2115.8,3695.2 1972.2,3695.2 1969.1,3809.1 1783.4,3746.7 1753.8,3617.1\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1753.8,3615.6 2476.2,3147.5 2672.9,3425.2 2669.7,3424.3 2671.5,3426.1 2217,3695.2 1972.2,3695.2 1969.1,3809.1 1783.4,3746.7 1753.8,3617.1\"></polygon></svg>"
         },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c870ee04-4e63-489c-9f7a-37007e4109f3.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
