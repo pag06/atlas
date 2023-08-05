@@ -8,13 +8,13 @@ order: 1
         {
             "type": "TextualBody",
             "value": "[...] C'est une sorte de grande cuiller \u00e0 long manche, en cuivre ou en fer battu, ayant souvent la forme d'un cylindre \u00e9vas\u00e9 au sommet, qui sert \u00e0 puiser l'eau dans le seau. ",
-            "purpose": "commenting",
+            "purpose": "questioning",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
             "created": "2023-08-05T12:51:06.263Z",
-            "modified": "2023-08-05T12:55:05.869Z"
+            "modified": "2023-08-05T12:57:40.669Z"
         },
         {
             "type": "TextualBody",
@@ -28,23 +28,35 @@ order: 1
         },
         {
             "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C796",
+            "value": "Est-ce bien la l\u00e9gende correspond \u00e0 cette illustration ?",
+            "purpose": "commenting",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-05T12:54:19.624Z"
+            "created": "2023-08-05T12:55:27.314Z",
+            "modified": "2023-08-05T12:55:51.015Z"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q8659",
+            "value": "C796???",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-05T12:54:31.504Z"
+            "created": "2023-08-05T12:59:11.052Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q8659???",
+            "purpose": "tagging",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-05T13:00:31.183Z",
+            "modified": "2023-08-05T13:00:44.009Z"
         }
     ],
     "target": {
