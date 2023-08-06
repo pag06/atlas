@@ -3,52 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0259"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "la vaissi\u00e8re ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "sf7320",
-                "name": "Serena"
-            },
             "created": "2023-08-06T12:55:38.901Z",
-            "modified": "2023-08-06T12:55:41.830Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L25",
             "creator": {
                 "id": "sf7320",
                 "name": "Serena"
             },
-            "created": "2023-08-06T12:55:51.220Z"
+            "modified": "2023-08-06T13:06:58.648Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Travail \u00e0 ferrer, la vaissi\u00e8re "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C1746",
+            "created": "2023-08-06T12:55:51.220Z",
             "creator": {
                 "id": "sf7320",
                 "name": "Serena"
             },
-            "created": "2023-08-06T12:55:57.252Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L25"
+        },
+        {
+            "created": "2023-08-06T12:55:57.252Z",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1746"
         }
     ],
+    "id": "3d86ded0-be26-44e4-ac0e-c00752324402.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0259",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1715.598876953125,3201.628173828125 1642.7464599609375,3287.041259765625 1647.7708740234375,3402.60009765625 1635.2100830078125,3480.476806640625 1532.2117919921875,3477.964599609375 1527.1876220703125,3628.693603515625 2037.154052734375,3874.884521484375 2353.6845703125,3874.884521484375 2449.146484375,3736.71630859375 2454.170654296875,3214.18896484375 2454.798583984375,3215.759033203125\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0259"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "3d86ded0-be26-44e4-ac0e-c00752324402.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
