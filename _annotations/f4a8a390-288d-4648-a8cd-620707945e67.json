@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0258"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Travail \u00e0 ferrer, S-Allanche ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-08-06T13:01:46.882Z",
+            "modified": "2023-08-06T13:02:45.427Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L13",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-08-06T13:02:08.196Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C1436",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-08-06T13:02:23.404Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0258",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1197.3089599609375,625.6771240234375 1159.626708984375,999.9874877929688 1871.8211669921875,1048.974365234375 1846.6995849609375,996.2192993164062 1713.5556640625,959.7930297851562 1688.4342041015625,876.89208984375 1649.495849609375,817.8566284179688 1654.520263671875,625.6771240234375 1228.7108154296875,598.04345703125 1231.5369873046875,597.5724487304688\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "f4a8a390-288d-4648-a8cd-620707945e67.json",
+    "motivation": "commenting"
+}
