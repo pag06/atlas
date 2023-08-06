@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0111"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Joug au repos, les courroies pli\u00e9es. Le joug est pos\u00e9 sur la t\u00eate des bovins et fix\u00e9 \u00e0 leurs cornes par deux longues courroies. ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-06T13:03:03.337Z",
+            "modified": "2023-08-06T13:07:46.255Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L4",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-06T13:04:13.304Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5774",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-06T13:04:19.517Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0111",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2285.7,3028.9 2476.1,3080.3 2413.6,3348.8 2462.1,3404.8 2434,3504.7 2356,3523.4 2273.3,3788.7 2072,3715.3 2285.7,3028.9\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "e0a8874f-a4e9-4f11-a461-c45d2cd39df7.json",
+    "motivation": "commenting"
+}
