@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0113"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Les frontaux sont des pans d'\u00e9toffe. Les frontaux sont des coussinets pos\u00e9s sur le front des b\u00eates au joug, pour emp\u00eacher les courroies de les meurtrir.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-06T13:15:05.786Z",
+            "modified": "2023-08-06T13:16:33.174Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L27",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-06T13:16:39.260Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2796",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-06T13:16:50.952Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0113",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1581.57763671875,3001.757080078125 2463.395751953125,3016.302490234375 2456.123046875,3554.484375 2285.2138671875,3552.666259765625 2119.759521484375,3470.84814453125 1577.9412841796875,3470.84814453125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "9a52442c-e5f3-4080-b6da-4685720ec585.json",
+    "motivation": "commenting"
+}
