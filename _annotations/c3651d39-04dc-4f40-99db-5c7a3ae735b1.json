@@ -6,17 +6,6 @@ order: 1
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "created": "2023-07-27T10:48:31.705Z",
-            "creator": {
-                "id": "sf7320",
-                "name": "Serena"
-            },
-            "modified": "2023-07-27T10:48:31.713Z",
-            "purpose": "commenting",
-            "type": "TextualBody",
-            "value": "Craponne "
-        },
-        {
             "created": "2023-07-27T10:48:58.222Z",
             "creator": {
                 "id": "sf7320",
@@ -62,15 +51,15 @@ order: 1
     "id": "c3651d39-04dc-4f40-99db-5c7a3ae735b1.json",
     "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0254",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1943.5,3133.9 1983.5,3133.9 2078.9,3203.9 2113.5,3220.3 2502.5,3373 2518.1,3605.1 2428.9,3686.7 2448,3931.2 2078.8,3930.4 1828.8,3928.2 1890.7,3407 2048.9,3319.4 2049.8,3258.5 2018,3219.4 1950.7,3209.4\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0254"
     },
     "type": "Annotation"
 }
