@@ -3,52 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0125"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Tombereau muni d'une hausse (C860), pour transporter du b\u00e9tail : veaux, porcs, moutons.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-08T15:00:09.789Z",
-            "modified": "2023-08-08T15:01:04.930Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L2",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-08T15:01:33.169Z"
+            "modified": "2023-08-08T15:01:04.930Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Tombereau muni d'une hausse (C860), pour transporter du b\u00e9tail : veaux, porcs, moutons."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10044",
+            "created": "2023-08-08T15:01:33.169Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-08T15:01:48.585Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L2"
+        },
+        {
+            "created": "2023-08-08T15:01:48.585Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10044"
         }
     ],
+    "id": "9ff9957e-520c-4553-8ea8-c60a733967d8.json",
+    "motivation": "commenting",
     "target": {
         "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0125",
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1864.2,2987.9 2502.4,2992.6 2489.9,3635.5 2126.3,3635.5 1814.3,3830.5 1678.5,3832.1 1680.1,3549.6 1488.1,3543.4 1491.3,3349.9 1861.1,3348.4\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1864.2,2987.9 2502.4,2992.6 2489.9,3635.5 2172.6,3631.4 1850.8,3831.4 1678.5,3832.1 1680.1,3549.6 1488.1,3543.4 1491.3,3349.9 1861.1,3348.4\"></polygon></svg>"
         },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9ff9957e-520c-4553-8ea8-c60a733967d8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
