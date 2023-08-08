@@ -1,0 +1,44 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0131"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L28",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-08T15:22:20.881Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Vieille roue, hors d'usage depuis 50 ans ; elle n'a que dix rayons et mesure 1m.05 de diam\u00e8tre.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-08T15:22:27.105Z",
+            "modified": "2023-08-08T15:26:02.576Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0131",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1819.6,2951.5 2439,2953.1 2449.9,3556.9 1585.5,3544.4 1587.1,3274.4 1818,2951.5\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "6ceb3c21-2f08-4383-a876-42d0b2a951d4.json",
+    "motivation": "commenting"
+}
