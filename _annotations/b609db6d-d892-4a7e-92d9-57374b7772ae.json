@@ -3,88 +3,88 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0130"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "La roue et ses parties : \n1. la jante \n2. le bandage : cercle m\u00e9tallique qui entoure la roue.\n4. la frette : cercle m\u00e9tallique qui entoure le moyeu.\n5. l'essieu : on parle de bo\u00eete de l'essieu, gaine m\u00e9tallique encastr\u00e9e dans le moyeu.\n6. la clavette : cheville en fer qui emp\u00eache l'essieu de se d\u00e9bo\u00eeter.\n7. le moyeu",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-08T15:05:24.397Z",
-            "modified": "2023-08-08T15:16:05.296Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L50",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-08T15:06:26.713Z"
+            "modified": "2023-08-08T15:41:00.017Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "La roue et ses parties : \n1. la jante \n2. le bandage : cercle m\u00e9tallique qui entoure la roue.\n3. la frette : cercle m\u00e9tallique qui entoure le moyeu.\n4. le rayon \n5. l'essieu : on parle de bo\u00eete de l'essieu, gaine m\u00e9tallique encastr\u00e9e dans le moyeu.\n6. la clavette : cheville en fer qui emp\u00eache l'essieu de se d\u00e9bo\u00eeter.\n7. le moyeu"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9008",
+            "created": "2023-08-08T15:06:26.713Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-08T15:06:32.952Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L50"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5700",
+            "created": "2023-08-08T15:06:32.952Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-08T15:06:46.801Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9008"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q829",
+            "created": "2023-08-08T15:06:46.801Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-08T15:08:59.577Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5700"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4884",
+            "created": "2023-08-08T15:08:59.577Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-08T15:09:25.217Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q829"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4168",
+            "created": "2023-08-08T15:09:25.217Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-08T15:11:34.402Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4884"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2375",
+            "created": "2023-08-08T15:11:34.402Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-08T15:14:33.417Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4168"
+        },
+        {
+            "created": "2023-08-08T15:14:33.417Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2375"
         },
         {
             "type": "TextualBody",
@@ -94,22 +94,32 @@ order: 1
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-08T15:15:40.977Z"
+            "created": "2023-08-08T15:40:24.114Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8851",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-08T15:40:44.402Z"
         }
     ],
+    "id": "b609db6d-d892-4a7e-92d9-57374b7772ae.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0130",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1511.2708740234375,3133.592041015625,1132.8297119140625,766.142333984375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1511.2708740234375,3133.592041015625,1132.8297119140625,766.142333984375"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0130"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b609db6d-d892-4a7e-92d9-57374b7772ae.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
