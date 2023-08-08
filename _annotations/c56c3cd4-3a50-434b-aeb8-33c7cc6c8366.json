@@ -3,41 +3,41 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0131"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Vieille roue, hors d'usage depuis 50 ans ; elle n'a que dix rayons et mesure 1m.05 de diam\u00e8tre.",
-            "purpose": "commenting",
+            "created": "2023-08-08T15:28:37.908Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-08T15:28:37.908Z"
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Vieille roue, hors d'usage depuis 50 ans ; elle n'a que dix rayons et mesure 1m.05 de diam\u00e8tre."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L28",
+            "created": "2023-08-08T15:28:41.498Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-08T15:28:41.498Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L28"
         }
     ],
+    "id": "c56c3cd4-3a50-434b-aeb8-33c7cc6c8366.json",
+    "motivation": "commenting",
     "target": {
         "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0131",
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1821.1162109375,2954.6240234375 2258.020263671875,2957.74462890625 2443.704345703125,3240.171875 2448.385498046875,3553.806640625 1591.7415771484375,3539.76318359375 1591.7415771484375,3271.37939453125 1816.43505859375,2953.0634765625\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1821.1,2954.6 2259.6,2949.9 2443.7,3240.2 2448.4,3553.8 1591.7,3539.8 1591.7,3271.4 1822.7,2954.6\"></polygon></svg>"
         },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c56c3cd4-3a50-434b-aeb8-33c7cc6c8366.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
