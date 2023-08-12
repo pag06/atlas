@@ -3,33 +3,53 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0040"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Plan de la charrette, vue de dessous. (La charrette est repr\u00e9sent\u00e9e retourn\u00e9e : en haut le c\u00f4t\u00e9 gauche).",
-            "purpose": "commenting",
+            "created": "2023-08-12T14:34:35.655Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-12T14:34:35.655Z",
-            "modified": "2023-08-12T14:35:40.283Z"
+            "modified": "2023-08-12T14:35:40.283Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Plan de la charrette, vue de dessous. (La charrette est repr\u00e9sent\u00e9e retourn\u00e9e : en haut le c\u00f4t\u00e9 gauche)."
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C674",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-12T14:38:34.349Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2112",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-12T14:38:41.380Z"
         }
     ],
+    "id": "9514b85f-16ab-4cda-8e81-d9bfdf9920ca.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0040",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1403.776123046875,4077.314697265625,1871.49658203125,815.664306640625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1403.776123046875,4077.314697265625,1871.49658203125,815.664306640625"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0040"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9514b85f-16ab-4cda-8e81-d9bfdf9920ca.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
