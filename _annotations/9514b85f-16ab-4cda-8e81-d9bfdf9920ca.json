@@ -17,24 +17,34 @@ order: 1
             "value": "Plan de la charrette, vue de dessous. (La charrette est repr\u00e9sent\u00e9e retourn\u00e9e : en haut le c\u00f4t\u00e9 gauche)."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C674",
+            "created": "2023-08-12T14:38:34.349Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-12T14:38:34.349Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C674"
+        },
+        {
+            "created": "2023-08-12T14:38:41.380Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2112"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q2112",
+            "value": "L???",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-12T14:38:41.380Z"
+            "created": "2023-08-12T14:43:28.229Z"
         }
     ],
     "id": "9514b85f-16ab-4cda-8e81-d9bfdf9920ca.json",
