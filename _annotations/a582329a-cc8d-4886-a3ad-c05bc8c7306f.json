@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0026"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Harnachement du cheval (cartes n\u00b0656 \u00e0 665)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-12T14:18:50.798Z",
+            "modified": "2023-08-12T14:19:12.347Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-12T14:22:02.451Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5473",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-12T14:22:27.789Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0026",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1850.2222900390625,4847.5556640625 2552.444580078125,4858.6669921875 2836.888916015625,4885.33349609375 3179.111083984375,4883.111328125 3172.444580078125,4034.22216796875 1774.6666259765625,4034.22216796875 1845.77783203125,4843.111328125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "a582329a-cc8d-4886-a3ad-c05bc8c7306f.json",
+    "motivation": "commenting"
+}
