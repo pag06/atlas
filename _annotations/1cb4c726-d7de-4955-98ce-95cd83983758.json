@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0145"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Rouleau en bois : c'est la 'herse buisson', compos\u00e9 d'une barre de bois (parfois deux), dans laquelle sont enfonc\u00e9es des tiges de buissons rigides et touffus (prunellier, aub\u00e9pine, etc.). On charge ces buissons de pierres ou de lourdes mottes de gazon, et un attelage tra\u00eene l'instrument. Dans les pr\u00e9s, il sert \u00e0 \u00e9mietter et \u00e9parpiller le fumier d\u00e9j\u00e0 \u00e9pandu et \u00e0 en ramasser la paille ; dans les champs, il sert \u00e0 briser les mottes de terre et \u00e0 \u00e9galiser le terrain.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-12T12:31:40.351Z",
+            "modified": "2023-08-12T12:37:05.184Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L8",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-12T12:31:47.881Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5508",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-12T12:32:14.294Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0145",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1602.6,3340 2051.1,3222.7 2535.6,3399.3 2534,3641.6 1702.6,3625.9 1640.1,3479 1660.4,3475.9 1646.4,3422.8 1599.5,3421.2\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "1cb4c726-d7de-4955-98ce-95cd83983758.json",
+    "motivation": "commenting"
+}
