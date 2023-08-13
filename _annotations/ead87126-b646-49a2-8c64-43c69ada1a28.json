@@ -3,20 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0165"
 order: 2
 ---
 {
-    "type": "Annotation",
-    "body": [],
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L21",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T15:20:15.552Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2436",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T15:20:19.334Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Coffin en bois",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T15:20:24.105Z",
+            "modified": "2023-08-13T15:20:28.758Z"
+        }
+    ],
+    "id": "ead87126-b646-49a2-8c64-43c69ada1a28.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0165",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1909.7,3200.7 2037.7,3180.4 2064.2,3285 2043.9,3344.3 2056.4,3615.8 2037.7,3745.3 2008,3746.8 1947.2,3636.1 1922.2,3542.4 1916,3380.2 1931.6,3327.1 1911.3,3200.7\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0165"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ead87126-b646-49a2-8c64-43c69ada1a28.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
