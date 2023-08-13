@@ -4,7 +4,39 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "body": [],
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Faux avec ramassette.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T15:31:49.403Z",
+            "modified": "2023-08-13T15:31:58.843Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L15",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T15:32:02.847Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8598",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T15:32:46.717Z"
+        }
+    ],
     "id": "1d082837-29ff-4a5c-b29e-5fd3a30749f1.json",
     "motivation": "commenting",
     "target": {
