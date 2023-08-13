@@ -1,0 +1,22 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0154"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0154",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2165.9794921875,3315.65771484375 2225.9794921875,3299.294189453125 2325.9794921875,3779.2939453125 2364.1611328125,3781.1123046875 2353.252197265625,3864.74853515625 2285.9794921875,3942.930419921875 2251.43408203125,3946.56689453125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "235e0aea-ebc7-4227-b486-2ed4b0772171.json",
+    "motivation": "commenting"
+}
