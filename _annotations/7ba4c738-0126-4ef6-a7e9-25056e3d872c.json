@@ -8,15 +8,15 @@ order: 5
     "id": "7ba4c738-0126-4ef6-a7e9-25056e3d872c.json",
     "motivation": "commenting",
     "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0156",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2053.3,3396.3 2094.2,3369 2306,3689 2338.8,3672.6 2366,3707.2 2312.4,3741.7 2299.7,3761.7 2236.9,3765.4 2143.3,3748.1 2148.8,3707.2 2219.7,3723.6 2250.6,3722.6 2273.3,3720.8\"></polygon></svg>"
+        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2053.3,3396.3 2094.2,3369 2310.6,3686.3 2338.8,3672.6 2366,3707.2 2312.4,3741.7 2299.7,3761.7 2236.9,3765.4 2143.3,3748.1 2148.8,3707.2 2219.7,3723.6 2250.6,3722.6 2273.3,3720.8\"></polygon></svg>"
-        },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0156"
+        }
     },
     "type": "Annotation"
 }
