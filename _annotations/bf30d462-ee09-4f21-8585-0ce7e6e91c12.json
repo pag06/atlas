@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0166"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Banc de faucheur.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T15:39:14.151Z",
+            "modified": "2023-08-13T15:39:20.994Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L15",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T15:39:25.541Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q823",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T15:39:44.743Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0166",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2049.447265625,3818.5625 2049.447265625,3856.744384765625 2091.265380859375,3874.926025390625 2109.447265625,3958.5625 2347.62890625,3960.380615234375 2314.901611328125,3829.4716796875 2327.62890625,3782.19873046875 2291.265380859375,3754.926025390625 2167.62890625,3773.10791015625 2140.356201171875,3787.6533203125 2125.810791015625,3711.289794921875 2083.99267578125,3724.01708984375 2087.62890625,3776.744384765625\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "bf30d462-ee09-4f21-8585-0ce7e6e91c12.json",
+    "motivation": "commenting"
+}
