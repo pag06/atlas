@@ -1,0 +1,64 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0096"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Serfouette - [...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-13T17:02:18.368Z",
+            "modified": "2023-08-13T17:02:53.051Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L34.07",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-13T17:02:26.402Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C730",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-13T17:02:31.220Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-13T17:02:42.077Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0096",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"279.1111145019531,2138.666748046875 1119.1112060546875,2132.000244140625 1119.1112060546875,2545.33349609375 559.1111450195312,2556.444580078125 559.1111450195312,2847.5556640625 305.7778015136719,2856.444580078125 276.888916015625,2140.88916015625\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "832d94ac-0781-43e4-a31a-fd9819f3d78b.json",
+    "motivation": "commenting"
+}
