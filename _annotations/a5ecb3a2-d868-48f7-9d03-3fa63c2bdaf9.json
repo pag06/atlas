@@ -3,20 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0154"
 order: 3
 ---
 {
-    "type": "Annotation",
-    "body": [],
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "[...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T13:51:30.929Z",
+            "modified": "2023-08-13T13:51:32.406Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L8",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T13:51:37.377Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C???",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T13:51:39.585Z"
+        }
+    ],
+    "id": "a5ecb3a2-d868-48f7-9d03-3fa63c2bdaf9.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0154",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2247.797607421875,3295.65771484375 2318.706787109375,3277.475830078125 2435.0703125,3764.74853515625 2469.61572265625,3795.65771484375 2462.343017578125,3837.475830078125 2320.52490234375,3875.65771484375 2322.343017578125,3832.021240234375 2355.0703125,3822.930419921875 2371.43408203125,3770.203125\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0154"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a5ecb3a2-d868-48f7-9d03-3fa63c2bdaf9.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
