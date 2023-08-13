@@ -4,7 +4,39 @@ order: 2
 ---
 {
     "type": "Annotation",
-    "body": [],
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Coffin : \u00e9tui en t\u00f4le.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T14:48:12.230Z",
+            "modified": "2023-08-13T14:51:17.140Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L17",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T14:51:29.777Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q131",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T14:52:46.521Z"
+        }
+    ],
     "target": {
         "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0164",
         "selector": {
