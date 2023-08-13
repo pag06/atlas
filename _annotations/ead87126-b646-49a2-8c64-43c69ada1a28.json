@@ -6,35 +6,35 @@ order: 2
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L21",
+            "created": "2023-08-13T15:20:15.552Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-13T15:20:15.552Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L21"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2436",
+            "created": "2023-08-13T15:20:19.334Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-13T15:20:19.334Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2436"
         },
         {
-            "type": "TextualBody",
-            "value": "Coffin en bois",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-13T15:20:24.105Z",
-            "modified": "2023-08-13T15:20:28.758Z"
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "modified": "2023-08-13T15:23:05.048Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Coffin en bois. Le coffin est \u00e0 moiti\u00e9 rempli d'eau,et un  tampon d'herbe bouche l'ouverture et cale la queux : pierre \u00e0 aiguiser la faux."
         }
     ],
     "id": "ead87126-b646-49a2-8c64-43c69ada1a28.json",
