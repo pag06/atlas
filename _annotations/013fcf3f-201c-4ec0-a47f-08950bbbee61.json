@@ -4,7 +4,40 @@ order: 3
 ---
 {
     "type": "Annotation",
-    "body": [],
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Coffin en forme de corne.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T14:54:28.079Z",
+            "modified": "2023-08-13T14:54:36.312Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L17",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T14:54:40.119Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q131",
+            "purpose": "tagging",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T14:54:40.668Z",
+            "modified": "2023-08-13T14:54:42.022Z"
+        }
+    ],
     "target": {
         "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0164",
         "selector": {
