@@ -3,63 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0077"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "T",
+            "created": "2023-08-13T16:35:00.086Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:35:00.086Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "T"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L30.11",
+            "created": "2023-08-13T16:35:07.754Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:35:07.754Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L30.11"
         },
         {
-            "type": "TextualBody",
-            "value": "Technique du labour en planches",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-13T16:35:09.858Z",
-            "modified": "2023-08-13T16:35:17.009Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C711",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:36:37.425Z"
+            "modified": "2023-08-13T16:35:17.009Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Technique du labour en planches"
+        },
+        {
+            "created": "2023-08-13T16:36:37.425Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C711"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8508",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-13T16:37:41.413Z"
         }
     ],
+    "id": "845f9ef4-586d-4d6c-a7cc-6e2354e90dc6.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0077",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=156.88890075683594,1252,1255.5555572509766,1120"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=156.88890075683594,1252,1255.5555572509766,1120"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0077"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "845f9ef4-586d-4d6c-a7cc-6e2354e90dc6.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
