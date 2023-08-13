@@ -3,63 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0104"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
+            "created": "2023-08-13T17:04:44.113Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T17:04:44.113Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L???"
         },
         {
-            "type": "TextualBody",
-            "value": "Assemblage manche / lame de la faux",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-13T17:05:26.353Z",
-            "modified": "2023-08-13T17:07:17.957Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C738",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T17:07:30.440Z"
+            "modified": "2023-08-13T17:07:17.957Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Assemblage manche / lame de la faux"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2461",
+            "created": "2023-08-13T17:07:30.440Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T17:07:49.875Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C738"
+        },
+        {
+            "created": "2023-08-13T17:07:49.875Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2461"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q268",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-13T17:08:05.939Z"
         }
     ],
+    "id": "a73adb9d-499c-4fb6-97cc-3e9fe7a5ad91.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0104",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=278.1886291503906,1247.7132568359375,1119.1142272949219,808.5343017578125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=278.1886291503906,1247.7132568359375,1119.1142272949219,808.5343017578125"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0104"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a73adb9d-499c-4fb6-97cc-3e9fe7a5ad91.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
