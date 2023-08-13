@@ -1,0 +1,44 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0165"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Marteau et enclumette.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T15:10:26.061Z",
+            "modified": "2023-08-13T15:10:34.884Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L21",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T15:10:41.769Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0165",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2103.9111328125,3425.793701171875 2032.1341552734375,3740.988525390625 2085.186767578125,3781.558349609375 2234.982421875,3787.7998046875 2509.60791015625,3800.28271484375 2528.332275390625,3194.858642578125 2350.449951171875,3188.6171875 2331.725341796875,3388.3447265625 2275.552001953125,3435.15576171875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "bdbc29a4-51b9-416c-89ce-90df684c90f3.json",
+    "motivation": "commenting"
+}
