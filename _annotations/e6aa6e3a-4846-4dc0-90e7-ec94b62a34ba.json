@@ -4,7 +4,39 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "body": [],
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Marteau et enclumette, li\u00e9s par une cordelette, d'une part pour les transporter ensemble, d'autre part pour n'utiliser ce marteau \u00e0 aucun autre usage.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T14:36:58.112Z",
+            "modified": "2023-08-13T14:41:08.697Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L17",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T14:37:11.152Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6393",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T14:37:26.048Z"
+        }
+    ],
     "id": "e6aa6e3a-4846-4dc0-90e7-ec94b62a34ba.json",
     "motivation": "commenting",
     "target": {
