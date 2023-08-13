@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0164"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Faux emmanch\u00e9e.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T14:59:14.822Z",
+            "modified": "2023-08-13T14:59:21.108Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L21",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T14:59:26.302Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4474",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T14:59:36.680Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0164",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2145.189208984375,3281.185302734375 2165.055908203125,3233.505126953125 2304.122802734375,3142.118408203125 2546.496337890625,3076.558349609375 2546.496337890625,3152.0517578125 2248.49609375,3867.25244140625 2296.176025390625,3914.932373046875 2278.296142578125,3958.63916015625 2157.109375,3889.105712890625 2151.1494140625,3851.359130859375 2194.85595703125,3807.65234375 2310.082763671875,3537.46533203125 2280.28271484375,3499.71875 2310.082763671875,3454.025390625 2339.8828125,3467.93212890625 2463.05615234375,3179.865234375 2337.896240234375,3211.65185546875 2165.055908203125,3310.9853515625\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "7eb8ee1f-61b2-4ccf-91df-d7753e9b9c18.json",
+    "motivation": "commenting"
+}
