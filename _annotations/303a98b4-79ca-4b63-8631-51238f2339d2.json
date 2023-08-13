@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0156"
+order: 7
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "[...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T14:23:07.137Z",
+            "modified": "2023-08-13T14:23:08.921Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L36",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T14:23:13.289Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C???",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-13T14:23:15.727Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0156",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2281.493408203125,3374.460205078125 2368.76611328125,3362.64208984375 2385.129638671875,3355.369384765625 2406.038818359375,3355.369384765625 2476.038818359375,3358.0966796875 2476.94775390625,3385.369384765625 2419.675048828125,3384.460205078125 2408.76611328125,3399.005859375 2406.94775390625,3759.914794921875 2369.675048828125,3755.369384765625 2365.129638671875,3412.64208984375 2354.220703125,3406.278564453125 2288.76611328125,3431.733154296875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "303a98b4-79ca-4b63-8631-51238f2339d2.json",
+    "motivation": "commenting"
+}
