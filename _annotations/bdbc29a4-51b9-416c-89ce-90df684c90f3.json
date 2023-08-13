@@ -3,42 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0165"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Marteau et enclumette.",
-            "purpose": "commenting",
+            "created": "2023-08-13T15:10:26.061Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-13T15:10:26.061Z",
-            "modified": "2023-08-13T15:10:34.884Z"
+            "modified": "2023-08-13T15:12:06.927Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le marteau et l'enclumette sont li\u00e9s par une cordelette, cela d'une part pour les transporter ensemble, d'autre part pour n'utiliser ce marteau \u00e0 aucun autre usage.\nL'enclumette pr\u00e9sente g\u00e9n\u00e9ralement une surface plane, sur laquelle on frappe pour l'enfoncer dans le sol, et une ar\u00eate lisse et arrondie, sur laquelle se fait ce genre d'aff\u00fbtage au marteau."
+        },
+        {
+            "created": "2023-08-13T15:10:41.769Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L21"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L21",
+            "value": "Q6393",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-13T15:10:41.769Z"
+            "created": "2023-08-13T15:11:49.175Z"
         }
     ],
+    "id": "bdbc29a4-51b9-416c-89ce-90df684c90f3.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0165",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2103.9,3425.8 2032.1,3741 2085.2,3781.6 2235,3787.8 2497.1,3787.8 2528.3,3194.9 2350.4,3188.6 2331.7,3388.3 2325.5,3444.5\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0165"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "bdbc29a4-51b9-416c-89ce-90df684c90f3.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
