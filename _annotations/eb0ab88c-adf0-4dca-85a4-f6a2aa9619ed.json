@@ -3,43 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0070"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Brancard - [...] - de la charrue \u00e0 cheval",
-            "purpose": "commenting",
+            "created": "2023-08-13T16:28:07.256Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:28:07.256Z",
-            "modified": "2023-08-13T16:28:20.887Z"
+            "modified": "2023-08-13T16:28:20.887Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Brancard - [...] - de la charrue \u00e0 cheval"
+        },
+        {
+            "created": "2023-08-13T16:28:26.813Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.18"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L11.18",
+            "value": "C674",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:28:26.813Z"
+            "created": "2023-08-13T16:29:51.864Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1438",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-13T16:29:56.966Z"
         }
     ],
+    "id": "eb0ab88c-adf0-4dca-85a4-f6a2aa9619ed.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0070",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=292,1702,1622,568"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=292,1702,1622,568"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0070"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "eb0ab88c-adf0-4dca-85a4-f6a2aa9619ed.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
