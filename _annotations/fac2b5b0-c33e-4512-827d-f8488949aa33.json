@@ -1,0 +1,35 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0180"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "R\u00e9servoir \u00e0 grain (paille et ronce) - [...]  ( dans le sp\u00e9cimen de gauche, le cordon de paille est enroul\u00e9 58 fois sur lui-m\u00eame)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-14T12:27:03.990Z",
+            "modified": "2023-08-14T12:27:37.005Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0180",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2090.22216796875,3790.870361328125,1200,908.888916015625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "fac2b5b0-c33e-4512-827d-f8488949aa33.json",
+    "motivation": "commenting"
+}
