@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0190"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Quelle l\u00e9gende ?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-14T16:11:13.651Z",
+            "modified": "2023-08-14T16:11:16.978Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L30",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-14T16:11:21.841Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C???",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-14T16:11:23.192Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0190",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1990.186767578125,3016.778076171875 2101.86962890625,3093.30126953125 2199.074951171875,3961.944580078125 2250.77978515625,3961.944580078125 2174.256591796875,3142.938232421875 2215.620361328125,3093.30126953125 2163.91552734375,3037.4599609375 2037.75537109375,2969.20947265625 2002.595947265625,2973.345947265625\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "c744501a-d494-4f63-b7dc-ec44d604ddef.json",
+    "motivation": "commenting"
+}
