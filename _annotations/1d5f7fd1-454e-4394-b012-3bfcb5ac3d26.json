@@ -3,20 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0183"
 order: 2
 ---
 {
-    "type": "Annotation",
-    "body": [],
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Semoir : ici, c'est une petite corbeille oblongue, non ajour\u00e9e, faite en paille tress\u00e9e",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-14T15:25:17.856Z",
+            "modified": "2023-08-14T15:26:59.193Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L10",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-14T15:27:23.880Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9330",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-14T15:27:34.324Z"
+        }
+    ],
+    "id": "1d5f7fd1-454e-4394-b012-3bfcb5ac3d26.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0183",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1856.4,3012 1858.2,3617.4 1776.4,3621 1774.6,3782.9 2370.9,3792 2370.9,3668.3 2256.4,3666.5 2258.2,3612 2481.8,3597.4 2278.2,3013.8\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0183"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1d5f7fd1-454e-4394-b012-3bfcb5ac3d26.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
