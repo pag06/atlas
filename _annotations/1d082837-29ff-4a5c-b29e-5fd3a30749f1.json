@@ -6,49 +6,49 @@ order: 2
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Faux avec ramassette.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-13T15:31:49.403Z",
-            "modified": "2023-08-13T15:31:58.843Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L15",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-13T15:32:02.847Z"
+            "modified": "2023-08-13T15:31:58.843Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Faux avec ramassette."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8598",
+            "created": "2023-08-13T15:32:02.847Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-13T15:32:46.717Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L15"
+        },
+        {
+            "created": "2023-08-13T15:32:46.717Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8598"
         }
     ],
     "id": "1d082837-29ff-4a5c-b29e-5fd3a30749f1.json",
     "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0166",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2429.2,3230.4 2655.5,3222.6 2665.1,3311.5 2599.7,3429.7 2599.7,3449.4 2597.7,3472.3 2562.5,3508.5 2609.7,3713 2593.3,3729.4 2577.5,3728.2 2553.3,3712.1 2546.2,3686 2557.2,3668.9 2460.6,3343.9 2423,3314.7\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0166"
     },
     "type": "Annotation"
 }
