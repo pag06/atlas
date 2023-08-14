@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0190"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Quelle l\u00e9gende ?",
+            "purpose": "questioning",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-14T16:07:39.276Z",
+            "modified": "2023-08-14T16:07:54.973Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L30",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-14T16:07:59.634Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C???",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-14T16:08:02.295Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0190",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1903.935791015625,3261.84716796875 1916.09228515625,3954.76513671875 1973.4012451171875,3963.448486328125 2023.763671875,3914.822509765625 2030.710205078125,3871.40673828125 2002.924072265625,3824.517578125 1995.9775390625,3676.9033203125 2068.916259765625,3652.59033203125 2067.1796875,3597.01806640625 1997.714111328125,3570.968505859375 1995.9775390625,3456.3505859375 2218.26708984375,3399.04150390625 2279.04931640625,3136.809326171875 1929.9853515625,3095.130126953125 1726.798828125,3178.488525390625 1660.806640625,3341.732421875 1709.4324951171875,3343.468994140625 1794.5277099609375,3268.793701171875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "5b749cd0-b4b6-4990-8e59-fbfb91408eab.json",
+    "motivation": "commenting"
+}
