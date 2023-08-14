@@ -3,33 +3,44 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0208"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Taille en gobelet",
-            "purpose": "commenting",
+            "created": "2023-08-14T15:52:15.596Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T15:52:15.596Z",
-            "modified": "2023-08-14T15:52:22.586Z"
+            "modified": "2023-08-14T15:52:22.586Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Taille en gobelet"
+        },
+        {
+            "type": "TextualBody",
+            "value": "L???",
+            "purpose": "tagging",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-14T15:52:54.513Z",
+            "modified": "2023-08-14T15:52:57.670Z"
         }
     ],
+    "id": "c8aa1f39-4519-4240-8dd7-67eaffbbcfc2.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0208",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=437.153076171875,1918.234619140625,502.4254150390625,499.848876953125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=437.153076171875,1918.234619140625,502.4254150390625,499.848876953125"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0208"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c8aa1f39-4519-4240-8dd7-67eaffbbcfc2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
