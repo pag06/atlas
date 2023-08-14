@@ -3,42 +3,62 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0211"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Deux mod\u00e8les de serpe \u00e0 tailler la vigne - [...]",
-            "purpose": "commenting",
+            "created": "2023-08-14T15:57:37.515Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T15:57:37.515Z",
-            "modified": "2023-08-14T15:57:58.175Z"
+            "modified": "2023-08-14T15:57:58.175Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Deux mod\u00e8les de serpe \u00e0 tailler la vigne - [...]"
+        },
+        {
+            "created": "2023-08-14T15:59:41.241Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L34.07",
+            "value": "C845",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T15:59:41.241Z"
+            "created": "2023-08-14T16:00:08.012Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9385",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-14T16:00:23.540Z"
         }
     ],
+    "id": "c5f1de08-0643-4cdf-9fe7-ca50987b063d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0211",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1704.8111572265625,1552.36572265625 243.91253662109375,1554.9422607421875 254.21868896484375,2374.2822265625 1356.9781494140625,2392.318115234375 1364.707763671875,2562.36962890625 1725.4234619140625,2567.522705078125 1704.8111572265625,1557.518798828125\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0211"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c5f1de08-0643-4cdf-9fe7-ca50987b063d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
