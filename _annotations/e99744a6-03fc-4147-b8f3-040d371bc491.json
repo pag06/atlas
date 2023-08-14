@@ -3,42 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0197"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Outil utilis\u00e9 pour travailler l'entre-deux  - [...]",
-            "purpose": "commenting",
+            "created": "2023-08-14T15:30:37.163Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T15:30:37.163Z",
-            "modified": "2023-08-14T15:31:35.143Z"
+            "modified": "2023-08-14T15:31:35.143Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Outil utilis\u00e9 pour travailler l'entre-deux  - [...]"
+        },
+        {
+            "created": "2023-08-14T15:31:16.751Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.16"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L11.16",
+            "value": "Q???",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T15:31:16.751Z"
+            "created": "2023-08-14T15:34:17.717Z"
         }
     ],
+    "id": "e99744a6-03fc-4147-b8f3-040d371bc491.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0197",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2154.560546875,4421.423828125 3162.274169921875,4418.56103515625 3173.7255859375,4753.51123046875 2538.178955078125,4776.4140625 2541.041748046875,4919.55517578125 2163.14892578125,4919.55517578125 2154.560546875,4418.56103515625\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0197"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e99744a6-03fc-4147-b8f3-040d371bc491.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
