@@ -7,14 +7,14 @@ order: 1
     "body": [
         {
             "type": "TextualBody",
-            "value": "Coffre \u00e0 grain - [...] - Par les deux ouvertures du bas, fermant \u00e0 l'aide de deux planchettes \u00e0 glissi\u00e8re, on peut faire couler le grain dans une",
+            "value": "Coffre \u00e0 grain - [...] - Par les deux ouvertures du bas, fermant \u00e0 l'aide de deux planchettes \u00e0 glissi\u00e8re, on peut faire couler le grain dans un sac ou dans une corbeille.",
             "purpose": "commenting",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
             "created": "2023-08-14T12:23:19.070Z",
-            "modified": "2023-08-14T12:24:05.237Z"
+            "modified": "2023-08-14T12:24:32.212Z"
         },
         {
             "type": "TextualBody",
@@ -25,6 +25,16 @@ order: 1
                 "name": "ej7320"
             },
             "created": "2023-08-14T12:24:11.410Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-14T12:25:16.193Z"
         }
     ],
     "target": {
