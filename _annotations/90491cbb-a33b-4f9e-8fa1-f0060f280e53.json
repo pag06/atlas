@@ -41,15 +41,15 @@ order: 1
     "id": "90491cbb-a33b-4f9e-8fa1-f0060f280e53.json",
     "motivation": "commenting",
     "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0176",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2261.4,3100.9 2286.4,3661.1 2186.5,3770.3 1999.3,3773.5 1919.7,3977.9 2390.3,3978.4 2695.2,3934.2 2698.3,3715.7 2517.3,3726.7 2456.4,3668.9 2590.6,3489.5 2723.3,3255.4 2709.2,3082.2\"></polygon></svg>"
+        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2251.6,3099.7 2276.6,3659.9 2176.7,3769.1 1989.5,3772.3 1909.9,3976.7 2380.5,3977.2 2685.4,3933 2688.5,3714.5 2507.5,3725.5 2446.6,3667.7 2580.8,3488.3 2713.5,3254.2 2699.4,3081\"></polygon></svg>"
-        },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0176"
+        }
     },
     "type": "Annotation"
 }
