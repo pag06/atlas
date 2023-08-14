@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0199"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Bineuse \u00e0 trois socs - [...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-14T15:35:13.133Z",
+            "modified": "2023-08-14T15:35:32.148Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L34.26",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-14T15:35:47.097Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C833",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-14T15:36:55.153Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0199",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=478.3777160644531,1070.5526123046875,881.1769714355469,566.8389892578125"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "7ded9ec6-d9ca-4df7-9029-f776a2829c8b.json",
+    "motivation": "commenting"
+}
