@@ -3,43 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0197"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Charrue chausseuse - [...]",
-            "purpose": "commenting",
+            "created": "2023-08-14T15:18:29.854Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T15:18:29.854Z",
-            "modified": "2023-08-14T15:18:44.337Z"
+            "modified": "2023-08-14T15:18:44.337Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charrue chausseuse - [...]"
+        },
+        {
+            "created": "2023-08-14T15:19:35.633Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.18"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L11.18",
+            "value": "C695",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T15:19:35.633Z"
+            "created": "2023-08-14T15:20:44.906Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2088",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-14T15:20:49.067Z"
         }
     ],
+    "id": "29d54bb0-68cd-4869-bf7f-67759e1f38ff.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0197",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1733.7255859375,638.1231689453125,1520.1591796875,1127.9522705078125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1733.7255859375,638.1231689453125,1520.1591796875,1127.9522705078125"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0197"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "29d54bb0-68cd-4869-bf7f-67759e1f38ff.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
