@@ -3,20 +3,20 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0176"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [],
+    "id": "90491cbb-a33b-4f9e-8fa1-f0060f280e53.json",
+    "motivation": "commenting",
     "target": {
         "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0176",
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2251.6,3099.7 2276.6,3659.9 2176.7,3769.1 1989.5,3772.3 1909.9,3976.7 2382.7,3986 2685.4,3933 2688.5,3714.5 2507.5,3725.5 2446.6,3667.7 2580.8,3488.3 2713.5,3254.2 2699.4,3081\"></polygon></svg>"
+            "value": "<svg><polygon points=\"2251.6,3099.7 2276.6,3659.9 2176.7,3769.1 1989.5,3772.3 1909.9,3976.7 2380.5,3977.2 2685.4,3933 2688.5,3714.5 2507.5,3725.5 2446.6,3667.7 2580.8,3488.3 2713.5,3254.2 2699.4,3081\"></polygon></svg>"
         },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "90491cbb-a33b-4f9e-8fa1-f0060f280e53.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
