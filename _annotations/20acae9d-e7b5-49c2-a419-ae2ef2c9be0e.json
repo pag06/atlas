@@ -3,43 +3,53 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0197"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Houe pour l'entre-deux - [...] - ou - [...]",
-            "purpose": "commenting",
+            "created": "2023-08-14T15:21:20.889Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T15:21:20.889Z",
-            "modified": "2023-08-14T15:22:05.155Z"
+            "modified": "2023-08-14T15:22:05.155Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Houe pour l'entre-deux - [...] - ou - [...]"
+        },
+        {
+            "created": "2023-08-14T15:22:28.345Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L34.07",
+            "value": "Q5562",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T15:22:28.345Z"
+            "created": "2023-08-14T15:24:43.357Z"
         }
     ],
+    "id": "20acae9d-e7b5-49c2-a419-ae2ef2c9be0e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0197",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=280.8429260253906,1528.938232421875,1013.4393005371094,1016.30224609375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=280.8429260253906,1528.938232421875,1013.4393005371094,1016.30224609375"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0197"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "20acae9d-e7b5-49c2-a419-ae2ef2c9be0e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
