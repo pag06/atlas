@@ -6,49 +6,50 @@ order: 1
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "R\u00e2teau \u00e0 foin (dents en fer).",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-14T13:48:29.512Z",
-            "modified": "2023-08-14T13:48:41.551Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L35",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-14T13:48:45.761Z"
+            "modified": "2023-08-14T13:48:41.551Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "R\u00e2teau \u00e0 foin (dents en fer)."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8597",
+            "created": "2023-08-14T13:48:45.761Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-14T13:49:29.419Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L35"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q10231",
+            "purpose": "tagging",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-14T13:50:40.988Z",
+            "modified": "2023-08-14T13:50:42.932Z"
         }
     ],
     "id": "90491cbb-a33b-4f9e-8fa1-f0060f280e53.json",
     "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0176",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2251.6,3099.7 2276.6,3659.9 2176.7,3769.1 1989.5,3772.3 1909.9,3976.7 2380.5,3977.2 2685.4,3933 2688.5,3714.5 2507.5,3725.5 2446.6,3667.7 2580.8,3488.3 2713.5,3254.2 2699.4,3081\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0176"
     },
     "type": "Annotation"
 }
