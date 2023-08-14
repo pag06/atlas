@@ -6,25 +6,25 @@ order: 1
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Quelle est la l\u00e9gende ?",
-            "purpose": "questioning",
+            "created": "2023-08-14T13:33:11.953Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-14T13:33:11.953Z",
-            "modified": "2023-08-14T13:33:28.645Z"
+            "modified": "2023-08-14T13:33:28.645Z",
+            "purpose": "questioning",
+            "type": "TextualBody",
+            "value": "Quelle est la l\u00e9gende ?"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L27",
+            "created": "2023-08-14T13:33:43.569Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-14T13:33:43.569Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L27"
         }
     ],
     "id": "9f4e7272-bb5f-4cbd-9f30-80eaecf9d41c.json",
@@ -33,7 +33,7 @@ order: 1
         "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0175",
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1615.5,3172.3 1710.8,3129.4 1912.1,3546 2222.8,3611.8 2173.7,3786.4 1546.4,3681.4 1559.1,3621.4 1648.2,3499.5 1744.6,3465\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1615.5,3172.3 1710.8,3129.4 1926.4,3525 2222.8,3611.8 2173.7,3786.4 1546.4,3681.4 1559.1,3621.4 1648.2,3499.5 1744.6,3465\"></polygon></svg>"
         },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
