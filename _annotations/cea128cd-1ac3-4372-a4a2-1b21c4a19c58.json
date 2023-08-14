@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0197"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Outil utilis\u00e9 pour travailler l'entre-deux - [...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-14T15:25:38.248Z",
+            "modified": "2023-08-14T15:26:21.510Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L34.15",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-14T15:26:13.275Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q???",
+            "purpose": "tagging",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-14T15:29:54.034Z",
+            "modified": "2023-08-14T15:29:54.658Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0197",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2091.578369140625,3765.83740234375 3162.274169921875,3777.288818359375 3165.13720703125,4034.94287109375 2437.97998046875,4375.61865234375 2097.30419921875,4369.89306640625 2091.578369140625,3771.56298828125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "cea128cd-1ac3-4372-a4a2-1b21c4a19c58.json",
+    "motivation": "commenting"
+}
