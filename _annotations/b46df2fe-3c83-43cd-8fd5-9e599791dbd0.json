@@ -3,62 +3,62 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0171"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Fourche \u00e0 foin (en bois) et r\u00e2teau \u00e0 foin (dents en fer).",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-14T12:37:57.513Z",
-            "modified": "2023-08-14T12:38:39.973Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L8",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-14T12:39:25.134Z"
+            "modified": "2023-08-14T12:38:39.973Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Fourche \u00e0 foin (en bois) et r\u00e2teau \u00e0 foin (dents en fer)."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8597",
+            "created": "2023-08-14T12:39:25.134Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-14T12:43:57.750Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L8"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4820",
+            "created": "2023-08-14T12:43:57.750Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-14T12:46:09.381Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8597"
+        },
+        {
+            "created": "2023-08-14T12:46:09.381Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4820"
         }
     ],
+    "id": "b46df2fe-3c83-43cd-8fd5-9e599791dbd0.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0171",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1758.2,3030.6 1840.9,2954.1 2355.8,3041.5 2351.1,3096.1 2265.3,3155.4 2315,3399.7 2529,3710.9 2397.9,3815.5 2279.3,3570.5 2237.2,3483.1 1940.7,3144.5 1762.9,3075.8\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0171"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b46df2fe-3c83-43cd-8fd5-9e599791dbd0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
