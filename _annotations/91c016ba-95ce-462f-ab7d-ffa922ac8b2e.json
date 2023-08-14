@@ -3,43 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0220"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Appareil \u00e0 sulfater \u00e0 dos ([...] \u00e0 L34.07)",
-            "purpose": "commenting",
+            "created": "2023-08-14T16:10:08.565Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T16:10:08.565Z",
-            "modified": "2023-08-14T16:10:57.096Z"
+            "modified": "2023-08-14T16:10:57.096Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Appareil \u00e0 sulfater \u00e0 dos ([...] \u00e0 L34.07)"
+        },
+        {
+            "created": "2023-08-14T16:11:05.647Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L34.07",
+            "value": "C854",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T16:11:05.647Z"
+            "created": "2023-08-14T16:12:40.103Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-14T16:12:45.693Z"
         }
     ],
+    "id": "91c016ba-95ce-462f-ab7d-ffa922ac8b2e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0220",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2146.687744140625,1004.8508911132812,906.9423828125,672.4771118164062"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2146.687744140625,1004.8508911132812,906.9423828125,672.4771118164062"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0220"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "91c016ba-95ce-462f-ab7d-ffa922ac8b2e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
