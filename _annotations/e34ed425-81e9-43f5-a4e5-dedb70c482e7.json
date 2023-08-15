@@ -3,63 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0168"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Environs du point 11.34 Cribles \u00e0 grain.\na) [...] grossier, en osier ([...])\nb) [...] fin, en treillage de fil de fer",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-14T12:11:16.755Z",
-            "modified": "2023-08-14T12:12:28.246Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.34",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:11:33.180Z"
+            "modified": "2023-08-15T07:23:04.300Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Environs du point L11.34 Cribles \u00e0 grain.\na) [...] grossier, en osier ([...])\nb) [...] fin, en treillage de fil de fer"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2947",
+            "created": "2023-08-14T12:11:33.180Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:11:41.466Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.34"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C802",
+            "created": "2023-08-14T12:11:41.466Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:11:45.259Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2947"
+        },
+        {
+            "created": "2023-08-14T12:11:45.259Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C802"
         }
     ],
+    "id": "e34ed425-81e9-43f5-a4e5-dedb70c482e7.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0168",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=276,1328,1512,576"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=276,1328,1512,576"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0168"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e34ed425-81e9-43f5-a4e5-dedb70c482e7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
