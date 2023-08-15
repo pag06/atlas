@@ -1,0 +1,45 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0317"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Bergerie - [...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-15T11:58:10.497Z",
+            "modified": "2023-08-15T11:58:27.648Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L34.07",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-15T11:58:21.355Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0317",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1698.7972412109375,4081.631103515625,1680.7176513671875,802.557373046875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "100bc736-fa39-4e52-bc20-128c85ce9e4b.json",
+    "motivation": "commenting"
+}
