@@ -1,0 +1,44 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0341"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "[...] : rive en [...] calcaires d'un toit de tuiles canal.\n(Les pierres pos\u00e9es sur les tuiles sont l\u00e0 pour les garantir de l'action du vent.)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-15T12:54:37.175Z",
+            "modified": "2023-08-15T12:55:21.434Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L34.07",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-15T12:55:35.783Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0341",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3216,908 3184,1432 2400,1444 2398,1858 1850,1844 1844,1036\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "d248a55e-5b48-4f2a-be33-a6f5767db06e.json",
+    "motivation": "commenting"
+}
