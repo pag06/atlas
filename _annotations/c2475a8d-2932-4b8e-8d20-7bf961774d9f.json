@@ -1,0 +1,53 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0209"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L26",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-15T13:41:54.000Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8465",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-15T13:41:58.186Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "R\u00e2ble \u00e0 grain : ce r\u00e2ble est un grand racloir en bois pour ramasser le grain sur l'aire apr\u00e8s le battage.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-15T13:42:00.815Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0209",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1746.7928466796875,3040.158447265625 1835.031982421875,3040.158447265625 1827.87744140625,3498.048095703125 1868.4197998046875,3521.896728515625 1861.2652587890625,3829.541259765625 1715.7899169921875,3831.92626953125 1675.24755859375,3793.7685546875 1582.2386474609375,3793.7685546875 1572.6993408203125,3710.299072265625 1658.5537109375,3705.529541015625\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "c2475a8d-2932-4b8e-8d20-7bf961774d9f.json",
+    "motivation": "commenting"
+}
