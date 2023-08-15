@@ -3,63 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0061"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Environs du point 11.31 : charrue \u00e0 grand versoir - [...] - (mod\u00e8le ancien : le manche, l'\u00e2ge et le sep sont en bois)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-12T15:02:30.155Z",
-            "modified": "2023-08-12T15:03:20.965Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.31",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-12T15:03:25.510Z"
+            "modified": "2023-08-15T07:24:03.217Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Environs du point L11.31 : charrue \u00e0 grand versoir - [...] - (mod\u00e8le ancien : le manche, l'\u00e2ge et le sep sont en bois)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C695",
+            "created": "2023-08-12T15:03:25.510Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-12T15:03:30.563Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.31"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2088",
+            "created": "2023-08-12T15:03:30.563Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-12T15:03:57.433Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C695"
+        },
+        {
+            "created": "2023-08-12T15:03:57.433Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2088"
         }
     ],
+    "id": "9533f234-6920-4de9-9e7f-065ad037bdcc.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0061",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1764.071533203125,4027.133056640625,1504.69970703125,783.268310546875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1764.071533203125,4027.133056640625,1504.69970703125,783.268310546875"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0061"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9533f234-6920-4de9-9e7f-065ad037bdcc.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
