@@ -3,43 +3,53 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0318"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\u00c9curie des chevaux - [...]",
-            "purpose": "commenting",
+            "created": "2023-08-15T12:00:01.373Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:00:01.373Z",
-            "modified": "2023-08-15T12:00:21.609Z"
+            "modified": "2023-08-15T12:00:21.609Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "\u00c9curie des chevaux - [...]"
+        },
+        {
+            "created": "2023-08-15T12:00:33.195Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L34.07",
+            "value": "Q???",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:00:33.195Z"
+            "created": "2023-08-15T12:01:46.710Z"
         }
     ],
+    "id": "cdb6d4c9-2e1f-4296-aa3d-8a012fa05127.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0318",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1668,400,1420,1464"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1668,400,1420,1464"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0318"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "cdb6d4c9-2e1f-4296-aa3d-8a012fa05127.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
