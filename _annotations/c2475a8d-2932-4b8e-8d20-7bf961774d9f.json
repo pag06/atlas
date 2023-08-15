@@ -6,16 +6,6 @@ order: 1
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "created": "2023-08-15T13:41:54.000Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L26"
-        },
-        {
             "created": "2023-08-15T13:41:58.186Z",
             "creator": {
                 "id": "ls7320",
@@ -31,10 +21,20 @@ order: 1
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
+            "modified": "2023-08-15T13:42:41.671Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Pelle \u00e0 grain.",
-            "modified": "2023-08-15T13:42:41.671Z"
+            "value": "Pelle \u00e0 grain."
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L25",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-15T13:50:47.631Z"
         }
     ],
     "id": "c2475a8d-2932-4b8e-8d20-7bf961774d9f.json",
