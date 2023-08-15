@@ -1,0 +1,44 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0348"
+order: 9
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Paysanne de 72 ans, avec coiffe du dimanche (type C) ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-08-15T15:12:12.222Z",
+            "modified": "2023-08-15T15:14:15.143Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L25",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-08-15T15:14:07.223Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0348",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"582.9488525390625,2943.329345703125 635.3125,2480.783935546875 1377.130615234375,2428.420166015625 1365.4942626953125,3001.51123046875 1537.130615234375,3373.875 1551.676025390625,3897.51123046875 533.4942016601562,3862.60205078125 507.3124084472656,3289.510986328125 582.9488525390625,2940.420166015625 583.676025390625,2940.783935546875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "ded99377-7e14-4148-adb1-92315f942fdf.json",
+    "motivation": "commenting"
+}
