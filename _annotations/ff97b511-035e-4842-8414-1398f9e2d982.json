@@ -3,62 +3,62 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0162"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Environs du point 11.37\na) le fl\u00e9au-b\u00e2ton - [...]\nb) le fl\u00e9au articul\u00e9 [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-14T12:07:48.758Z",
-            "modified": "2023-08-14T12:08:15.481Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.37",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:08:19.784Z"
+            "modified": "2023-08-15T07:23:28.268Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Environs du point L11.37\na) le fl\u00e9au-b\u00e2ton - [...]\nb) le fl\u00e9au articul\u00e9 [...]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4703",
+            "created": "2023-08-14T12:08:19.784Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:08:35.389Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.37"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C796",
+            "created": "2023-08-14T12:08:35.389Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:08:41.092Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4703"
+        },
+        {
+            "created": "2023-08-14T12:08:41.092Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C796"
         }
     ],
+    "id": "ff97b511-035e-4842-8414-1398f9e2d982.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0162",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"310.22222900390625,1814.2222900390625 1923.5556640625,1818.666748046875 1908.0001220703125,2138.666748046875 610.2222290039062,2145.33349609375 1001.3333740234375,2576.444580078125 894.6666870117188,2678.666748046875 316.888916015625,2183.111328125 308,1814.2222900390625\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0162"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ff97b511-035e-4842-8414-1398f9e2d982.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
