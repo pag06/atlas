@@ -1,0 +1,44 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0320"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Cha\u00eene d'\u00e9table - [...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-15T12:06:23.103Z",
+            "modified": "2023-08-15T12:06:30.184Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L34.01",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-15T12:06:36.562Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0320",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"140,1380 1300,1396 1176,1832 460,1820 468,2076 916,2136 556,2868 452,2884 160,2932\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "709e1a50-0578-4a1a-9f1a-1656c57b2dea.json",
+    "motivation": "commenting"
+}
