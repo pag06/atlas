@@ -1,0 +1,44 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0349"
+order: 5
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "saint-eble",
+            "purpose": "commenting",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-08-15T15:28:00.275Z",
+            "modified": "2023-08-15T15:28:04.382Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L20",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-08-15T15:28:08.093Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0349",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2171.439697265625,2031.60302734375 2377.43603515625,2624.47021484375 2636.187255859375,2565.434814453125 2481.690185546875,1956.2384033203125 2481.06201171875,1955.551513671875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "b986505f-0048-4902-afbe-f2b4cb91e5ef.json",
+    "motivation": "commenting"
+}
