@@ -1,0 +1,35 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "H\u00e9rault (environs du point L34.07)\nType ancien (XVIII\u00b0 s. - d\u00e9but XIX\u00b0s.). Maison \u00e9troite, en hauteur, des vieux villages. Le premier niveau vo\u00fbt\u00e9, est \u00e0 usage de bergerie, d'\u00e9curie et de cave. L",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-15T13:01:33.170Z",
+            "modified": "2023-08-15T13:02:40.867Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=206,814,634,644"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "d642c4fc-d9da-4c6a-8dd4-6fb945b304b3.json",
+    "motivation": "commenting"
+}
