@@ -1,0 +1,45 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0349"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "la vaissi\u00e8re ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-08-15T15:21:21.649Z",
+            "modified": "2023-08-15T15:21:23.545Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L25",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "created": "2023-08-15T15:21:31.870Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0349",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=512.3270874023438,915.0650634765625,656.9271850585938,561.4654541015625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "92de6a68-115a-498d-a352-a1d9afd72dc1.json",
+    "motivation": "commenting"
+}
