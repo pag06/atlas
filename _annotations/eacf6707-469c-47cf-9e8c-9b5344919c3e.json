@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0339"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Grange - [...] - couverte de gen\u00eat \u00e0 Fraisse-sur-Agout avec vu en coupe du b\u00e2timent.\nGr\u00e2ce \u00e0 la d\u00e9clivit\u00e9 du terrain et \u00e0 l'am\u00e9nagement d'une rampe de terre, on acc\u00e8de directement au niveau du fenil par la porte du pignon.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-15T12:48:00.866Z",
+            "modified": "2023-08-15T12:49:32.118Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L34.04",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-15T12:49:42.971Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C974",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-15T12:49:45.946Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0339",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2320,3566 2164,3562 2028,3642 1904,3830 1732,3850 1668,4182 2172,4238 2364,4322 2720,4482 2532,4786 2540,4994 3432,5018 3372,4198\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "eacf6707-469c-47cf-9e8c-9b5344919c3e.json",
+    "motivation": "commenting"
+}
