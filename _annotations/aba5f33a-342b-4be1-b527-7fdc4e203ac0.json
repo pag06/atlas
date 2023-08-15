@@ -3,53 +3,53 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0206"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le tarare est mont\u00e9 sur quatre pieds et il est transportable. Les pi\u00e8ces principales sont (voir dessins, C1016, 1018) :\n- une tr\u00e9mie (C1016) prismatique \u00e0 fond r\u00e9glable, qui re\u00e7oit le grain pr\u00e9alablement pass\u00e9 au crible grossier ;\n- une manivelle (C1016) actionn\u00e9e \u00e0 la main, qui met en mouvement, par le moyen d'un engrenage : 1\u00b0) les grilles du trembleur qui re\u00e7oivent et criblent le grain ; 2\u00b0) les palettes en croix qui, d'un souffle violent, chassent la vannure.  ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-15T13:21:34.120Z",
-            "modified": "2023-08-15T13:26:25.985Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L38",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-15T13:26:55.776Z"
+            "modified": "2023-08-15T13:26:25.985Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le tarare est mont\u00e9 sur quatre pieds et il est transportable. Les pi\u00e8ces principales sont (voir dessins, C1016, 1018) :\n- une tr\u00e9mie (C1016) prismatique \u00e0 fond r\u00e9glable, qui re\u00e7oit le grain pr\u00e9alablement pass\u00e9 au crible grossier ;\n- une manivelle (C1016) actionn\u00e9e \u00e0 la main, qui met en mouvement, par le moyen d'un engrenage : 1\u00b0) les grilles du trembleur qui re\u00e7oivent et criblent le grain ; 2\u00b0) les palettes en croix qui, d'un souffle violent, chassent la vannure.  "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9778",
+            "created": "2023-08-15T13:26:55.776Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-15T13:27:03.603Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L38"
+        },
+        {
+            "created": "2023-08-15T13:27:03.603Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9778"
         }
     ],
+    "id": "aba5f33a-342b-4be1-b527-7fdc4e203ac0.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0206",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2051.0634765625,3308.152587890625,643.06201171875,669.763427734375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2051.0634765625,3308.152587890625,643.06201171875,669.763427734375"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0206"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "aba5f33a-342b-4be1-b527-7fdc4e203ac0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
