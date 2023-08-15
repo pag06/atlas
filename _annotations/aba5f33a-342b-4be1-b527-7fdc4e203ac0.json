@@ -1,5 +1,5 @@
 ---
-canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0206"
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0207"
 order: 1
 ---
 {
@@ -40,16 +40,16 @@ order: 1
     "id": "aba5f33a-342b-4be1-b527-7fdc4e203ac0.json",
     "motivation": "commenting",
     "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0207",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2051.0634765625,3317.87255859375,643.06201171875,669.763427734375"
+        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
-        },
-        "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "type": "FragmentSelector",
-            "value": "xywh=2051.0634765625,3308.152587890625,643.06201171875,669.763427734375"
-        },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0206"
+        }
     },
     "type": "Annotation"
 }
