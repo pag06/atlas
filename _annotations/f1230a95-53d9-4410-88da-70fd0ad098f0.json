@@ -1,0 +1,65 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Habitation de village\nAude (environs du point L11.14)\nL'habitation humaine occupe les deux niveaux de la partie gauche. \u00c0 droite, contigu\u00eb et sous le m\u00eame toit, la partie agricole du b\u00e2timent : au rez-de-chauss\u00e9e, les locaux \u00e0 usage de remise, d'\u00e9curie et de cave ; au-dessus, le fenil.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-16T07:19:21.397Z",
+            "modified": "2023-08-16T07:21:19.025Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L11.14",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-16T07:21:26.846Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C978",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-16T07:21:33.162Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-16T07:21:44.431Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=261.11883544921875,2281.390625,857.8461303710938,580.63818359375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "f1230a95-53d9-4410-88da-70fd0ad098f0.json",
+    "motivation": "commenting"
+}
