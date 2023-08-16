@@ -6,35 +6,46 @@ order: 3
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "[...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-13T13:51:30.929Z",
-            "modified": "2023-08-13T13:51:32.406Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L8",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-13T13:51:37.377Z"
+            "modified": "2023-08-13T13:51:32.406Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "[...]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C???",
+            "created": "2023-08-13T13:51:37.377Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-13T13:51:39.585Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L8"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C910",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T10:38:12.341Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q5562",
+            "purpose": "tagging",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T10:38:14.454Z",
+            "modified": "2023-08-16T10:38:17.591Z"
         }
     ],
     "id": "a5ecb3a2-d868-48f7-9d03-3fa63c2bdaf9.json",
