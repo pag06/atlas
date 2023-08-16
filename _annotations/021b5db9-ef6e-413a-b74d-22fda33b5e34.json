@@ -17,34 +17,46 @@ order: 1
             "value": "Ciseaux de taille du vignoble languedocien\na) \u00e0 manches de bois\nb) \u00e0 manches tubulaire en fer (avant 1920)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C844",
+            "created": "2023-08-14T16:04:06.192Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T16:04:06.192Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C844"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L???",
+            "value": "Q9727",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
             },
-            "created": "2023-08-14T16:04:10.121Z"
+            "created": "2023-08-16T10:02:06.597Z"
         },
         {
             "type": "TextualBody",
+            "value": "Q11750",
             "purpose": "tagging",
-            "value": "Q???",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
             },
-            "created": "2023-08-14T16:04:15.213Z"
+            "created": "2023-08-16T10:02:08.460Z",
+            "modified": "2023-08-16T10:02:11.893Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sans localisation",
+            "purpose": "commenting",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T10:02:18.372Z",
+            "modified": "2023-08-16T10:02:24.203Z"
         }
     ],
     "id": "021b5db9-ef6e-413a-b74d-22fda33b5e34.json",
