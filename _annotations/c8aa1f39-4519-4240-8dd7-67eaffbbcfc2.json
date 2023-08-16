@@ -17,35 +17,35 @@ order: 1
             "value": "Taille en gobelet"
         },
         {
-            "type": "TextualBody",
-            "value": "L???",
-            "purpose": "tagging",
+            "created": "2023-08-14T15:53:38.842Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T15:52:54.513Z",
-            "modified": "2023-08-14T15:52:57.670Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C842"
+        },
+        {
+            "created": "2023-08-14T15:54:01.533Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1238"
         },
         {
             "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C842",
+            "value": "Sans localisation",
+            "purpose": "replying",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
             },
-            "created": "2023-08-14T15:53:38.842Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1238",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "created": "2023-08-14T15:54:01.533Z"
+            "created": "2023-08-16T10:04:26.347Z",
+            "modified": "2023-08-16T10:04:47.772Z"
         }
     ],
     "id": "c8aa1f39-4519-4240-8dd7-67eaffbbcfc2.json",
