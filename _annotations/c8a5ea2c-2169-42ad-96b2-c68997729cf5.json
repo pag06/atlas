@@ -3,74 +3,84 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0096"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "[...] C'est une sorte de grande cuiller \u00e0 long manche, en cuivre ou en fer battu, ayant souvent la forme d'un cylindre \u00e9vas\u00e9 au sommet, qui sert \u00e0 puiser l'eau dans le seau. ",
-            "purpose": "questioning",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-05T12:51:06.263Z",
-            "modified": "2023-08-05T12:57:40.669Z"
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "modified": "2023-08-05T12:57:40.669Z",
+            "purpose": "questioning",
+            "type": "TextualBody",
+            "value": "[...] C'est une sorte de grande cuiller \u00e0 long manche, en cuivre ou en fer battu, ayant souvent la forme d'un cylindre \u00e9vas\u00e9 au sommet, qui sert \u00e0 puiser l'eau dans le seau. "
         },
         {
-            "type": "TextualBody",
+            "created": "2023-08-05T12:53:46.799Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
             "purpose": "tagging",
-            "value": "L12",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "created": "2023-08-05T12:53:46.799Z"
+            "type": "TextualBody",
+            "value": "L12"
         },
         {
-            "type": "TextualBody",
-            "value": "Est-ce bien la l\u00e9gende correspond \u00e0 cette illustration ?",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-05T12:55:27.314Z",
-            "modified": "2023-08-05T12:55:51.015Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C796???",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-05T12:59:11.052Z"
+            "modified": "2023-08-05T12:55:51.015Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Est-ce bien la l\u00e9gende correspond \u00e0 cette illustration ?"
         },
         {
             "type": "TextualBody",
-            "value": "Q8659???",
             "purpose": "tagging",
+            "value": "C796",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
             },
-            "created": "2023-08-05T13:00:31.183Z",
-            "modified": "2023-08-05T13:00:44.009Z"
+            "created": "2023-08-16T11:33:52.743Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8659",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T11:34:06.367Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "oui c'est \u00e7a",
+            "purpose": "replying",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T11:34:09.631Z",
+            "modified": "2023-08-16T11:34:12.933Z"
         }
     ],
+    "id": "c8a5ea2c-2169-42ad-96b2-c68997729cf5.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0096",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2293.406494140625,3450.174560546875 2750.59521484375,3453.29541015625 2741.233154296875,3799.697998046875 2599.2392578125,3799.697998046875 2580.514892578125,3877.716552734375 2424.477783203125,3874.595703125 2401.072021484375,3782.53369140625 2168.57666015625,3771.611083984375 2170.13720703125,3695.153076171875 2287.1650390625,3693.592529296875 2288.725341796875,3693.592529296875\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0096"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c8a5ea2c-2169-42ad-96b2-c68997729cf5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
