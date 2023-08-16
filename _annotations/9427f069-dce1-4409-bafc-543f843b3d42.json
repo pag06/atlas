@@ -3,63 +3,74 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0239"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Environs de Montpellier. Benne \u00e0 vendange - [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T07:26:59.259Z",
-            "modified": "2023-08-15T07:27:15.976Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1080",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:27:27.482Z"
+            "modified": "2023-08-15T07:27:15.976Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Environs de Montpellier. Benne \u00e0 vendange - [...]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C872",
+            "created": "2023-08-15T07:27:27.482Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:27:29.999Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1080"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
+            "created": "2023-08-15T07:27:29.999Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:27:52.315Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C872"
+        },
+        {
+            "created": "2023-08-15T07:27:52.315Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Tombereau \u00e0 vendange (sans localisation pr\u00e9cise)",
+            "purpose": "replying",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T09:25:28.351Z",
+            "modified": "2023-08-16T09:26:34.872Z"
         }
     ],
+    "id": "9427f069-dce1-4409-bafc-543f843b3d42.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0239",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1720.2703857421875,4164.97802734375,1502.1231689453125,638.982421875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1720.2703857421875,4164.97802734375,1502.1231689453125,638.982421875"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0239"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9427f069-dce1-4409-bafc-543f843b3d42.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
