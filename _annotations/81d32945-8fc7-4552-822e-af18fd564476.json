@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344"
+order: 7
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Habitations rurales isol\u00e9es, fermes\nAude (environs du point L11.31 - Corbi\u00e8res)\nPetite ferme d'un pays de polyculture montagnarde et d'\u00e9levage ovin. Habitation humaine au second niveau. Escalier ext\u00e9rieur.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-16T07:38:45.046Z",
+            "modified": "2023-08-16T07:39:30.019Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L11.31",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-16T07:39:38.005Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C978",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-16T07:39:41.644Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1585.77783203125,2083.862548828125 2892.444580078125,2079.41796875 2910.222412109375,2590.529296875 1585.77783203125,2590.529296875 1576.8890380859375,2808.306884765625 2954.666748046875,2817.19580078125 2963.5556640625,3946.084716796875 1590.2222900390625,3946.084716796875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "81d32945-8fc7-4552-822e-af18fd564476.json",
+    "motivation": "commenting"
+}
