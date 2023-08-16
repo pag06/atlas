@@ -3,63 +3,64 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0180"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "R\u00e9servoir \u00e0 grain (paille et ronce) - [...]  ( dans le sp\u00e9cimen de gauche, le cordon de paille est enroul\u00e9 58 fois sur lui-m\u00eame)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-14T12:27:03.990Z",
-            "modified": "2023-08-14T12:27:37.005Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.01",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:27:50.174Z"
+            "modified": "2023-08-14T12:27:37.005Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "R\u00e9servoir \u00e0 grain (paille et ronce) - [...]  ( dans le sp\u00e9cimen de gauche, le cordon de paille est enroul\u00e9 58 fois sur lui-m\u00eame)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C814",
+            "created": "2023-08-14T12:27:50.174Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:28:00.132Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.01"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-08-14T12:28:00.132Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:28:02.048Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C814"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q8661",
+            "purpose": "tagging",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T10:14:29.370Z",
+            "modified": "2023-08-16T10:14:33.070Z"
         }
     ],
+    "id": "fac2b5b0-c33e-4512-827d-f8488949aa33.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0180",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2090.22216796875,3790.870361328125,1200,908.888916015625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2090.22216796875,3790.870361328125,1200,908.888916015625"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0180"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "fac2b5b0-c33e-4512-827d-f8488949aa33.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
