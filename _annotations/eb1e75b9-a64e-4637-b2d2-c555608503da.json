@@ -3,53 +3,53 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0268"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Mesure de 50 litres - [...] - \n(Le bec-verseur est un plateau horizontal en forme de croissant. La tringle de fer plac\u00e9e \u00e0 l'int\u00e9rieur indique le niveau correspondant \u00e0 50 litres.\nLa planchette fix\u00e9e par des plaquettes de fer \u00e0 la face ant\u00e9rieure de la mesure la garantit des chocs quand on l'appuie contre un autre r\u00e9cipient).",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T07:53:06.423Z",
-            "modified": "2023-08-15T07:54:48.158Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.07",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:54:55.692Z"
+            "modified": "2023-08-15T07:54:48.158Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Mesure de 50 litres - [...] - \n(Le bec-verseur est un plateau horizontal en forme de croissant. La tringle de fer plac\u00e9e \u00e0 l'int\u00e9rieur indique le niveau correspondant \u00e0 50 litres.\nLa planchette fix\u00e9e par des plaquettes de fer \u00e0 la face ant\u00e9rieure de la mesure la garantit des chocs quand on l'appuie contre un autre r\u00e9cipient)."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-08-15T07:54:55.692Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:55:42.293Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6523",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T09:21:43.721Z"
         }
     ],
+    "id": "eb1e75b9-a64e-4637-b2d2-c555608503da.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0268",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1367.2843017578125,3935.666015625,837.3758544921875,930.130859375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1367.2843017578125,3935.666015625,837.3758544921875,930.130859375"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0268"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "eb1e75b9-a64e-4637-b2d2-c555608503da.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
