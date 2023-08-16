@@ -27,24 +27,25 @@ order: 1
             "value": "L34.04"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-08-15T12:51:15.919Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:51:12.997Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C973"
         },
         {
             "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C973",
+            "value": "Carte ethnographique non r\u00e9pertori\u00e9e dans le Thesoc",
+            "purpose": "replying",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
             },
-            "created": "2023-08-15T12:51:15.919Z"
+            "created": "2023-08-16T09:47:29.788Z",
+            "modified": "2023-08-16T09:47:50.216Z"
         }
     ],
     "id": "eacf6707-469c-47cf-9e8c-9b5344919c3e.json",
