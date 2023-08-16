@@ -3,52 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0190"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Quelle l\u00e9gende ?",
-            "purpose": "questioning",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-14T16:07:39.276Z",
-            "modified": "2023-08-14T16:07:54.973Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L30",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-14T16:07:59.634Z"
+            "modified": "2023-08-14T16:07:54.973Z",
+            "purpose": "questioning",
+            "type": "TextualBody",
+            "value": "Quelle l\u00e9gende ?"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C???",
+            "created": "2023-08-14T16:07:59.634Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-14T16:08:02.295Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L30"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C989",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T09:38:47.249Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8598",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T09:39:02.761Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Faux \u00e0 moissonner et r\u00e2teau de la faux",
+            "purpose": "commenting",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T09:39:06.345Z",
+            "modified": "2023-08-16T09:39:21.480Z"
         }
     ],
+    "id": "5b749cd0-b4b6-4990-8e59-fbfb91408eab.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0190",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1903.9,3261.8 1916.1,3954.8 1973.4,3963.4 2023.8,3914.8 2030.7,3871.4 1987.3,3838.4 1985.6,3676.9 2068.9,3652.6 2067.2,3597 1997.7,3571 1996,3456.4 2218.3,3399 2279,3136.8 1930,3095.1 1726.8,3178.5 1660.8,3341.7 1709.4,3343.5 1794.5,3268.8\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0190"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5b749cd0-b4b6-4990-8e59-fbfb91408eab.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
