@@ -3,64 +3,75 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0217"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Rejet du pied ou \"gourmand\"",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-14T16:07:01.221Z",
-            "modified": "2023-08-14T16:07:10.124Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C851",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T16:08:37.246Z"
+            "modified": "2023-08-14T16:07:10.124Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Rejet du pied ou \"gourmand\""
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8736",
+            "created": "2023-08-14T16:08:37.246Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T16:08:58.798Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C851"
         },
         {
-            "type": "TextualBody",
-            "value": "L???",
-            "purpose": "tagging",
+            "created": "2023-08-14T16:08:58.798Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8736"
+        },
+        {
             "created": "2023-08-14T16:09:00.146Z",
-            "modified": "2023-08-14T16:09:01.061Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-08-14T16:09:01.061Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sans localisation",
+            "purpose": "replying",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T09:44:49.631Z",
+            "modified": "2023-08-16T09:45:01.494Z"
         }
     ],
+    "id": "08b099d8-ee00-4564-ab68-96b740325fb1.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0217",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=352.1272277832031,1629.6619873046875,744.6202087402344,546.2266845703125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=352.1272277832031,1629.6619873046875,744.6202087402344,546.2266845703125"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0217"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "08b099d8-ee00-4564-ab68-96b740325fb1.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
