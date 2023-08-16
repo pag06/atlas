@@ -3,63 +3,64 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0220"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Appareil \u00e0 soufrer \u00e0 dos ([...] \u00e0 L34.07)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-14T16:15:08.375Z",
-            "modified": "2023-08-14T16:15:34.052Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.07",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T16:15:42.449Z"
+            "modified": "2023-08-14T16:15:34.052Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Appareil \u00e0 soufrer \u00e0 dos ([...] \u00e0 L34.07)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C854",
+            "created": "2023-08-14T16:15:42.449Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T16:15:45.884Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-08-14T16:15:45.884Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T16:15:49.365Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C854"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q9662",
+            "purpose": "tagging",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T09:33:57.016Z",
+            "modified": "2023-08-16T09:33:59.789Z"
         }
     ],
+    "id": "3e455188-ee27-4c01-a533-1f5cb1567930.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0220",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1665.9898681640625,4248.40380859375,571.9920654296875,620.9462890625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1665.9898681640625,4248.40380859375,571.9920654296875,620.9462890625"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0220"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "3e455188-ee27-4c01-a533-1f5cb1567930.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
