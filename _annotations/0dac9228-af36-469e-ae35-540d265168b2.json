@@ -3,53 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0155"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "[...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-13T13:57:50.207Z",
-            "modified": "2023-08-13T13:57:52.915Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L27",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-13T13:58:01.688Z"
+            "modified": "2023-08-13T13:57:52.915Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "[...]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C???",
+            "created": "2023-08-13T13:58:01.688Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-13T13:58:03.920Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L27"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C909",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T10:39:34.983Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5561",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T10:39:44.598Z"
         }
     ],
+    "id": "0dac9228-af36-469e-ae35-540d265168b2.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0155",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1518.75732421875,3245.84375,280.8668212890625,538.328369140625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1518.75732421875,3245.84375,280.8668212890625,538.328369140625"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0155"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0dac9228-af36-469e-ae35-540d265168b2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
