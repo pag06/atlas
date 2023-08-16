@@ -3,63 +3,64 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0233"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "S\u00e9cateur de vendange usit\u00e9s actuellement",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T07:10:24.581Z",
-            "modified": "2023-08-15T07:10:35.676Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:10:45.328Z"
+            "modified": "2023-08-15T07:10:35.676Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "S\u00e9cateur de vendange usit\u00e9s actuellement"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C867",
+            "created": "2023-08-15T07:10:48.141Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:10:48.141Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C867"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9386",
+            "created": "2023-08-15T07:10:52.935Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:10:52.935Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9386"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sans localisation",
+            "purpose": "replying",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T10:05:56.108Z",
+            "modified": "2023-08-16T10:06:07.822Z"
         }
     ],
+    "id": "2e21de9a-d501-43b4-985d-421b14845777.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0233",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1702.2344970703125,4140.5009765625,1004.8509521484375,803.880859375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1702.2344970703125,4140.5009765625,1004.8509521484375,803.880859375"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0233"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "2e21de9a-d501-43b4-985d-421b14845777.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
