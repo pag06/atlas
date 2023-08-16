@@ -3,63 +3,64 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0237"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Biterrois. Portage de la comporte \u00e0 l'aide des pals semali\u00e8rs.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T07:16:35.099Z",
-            "modified": "2023-08-15T07:16:58.413Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:17:13.316Z"
+            "modified": "2023-08-15T07:16:58.413Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Biterrois. Portage de la comporte \u00e0 l'aide des pals semali\u00e8rs."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q959",
+            "created": "2023-08-15T07:17:35.127Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:17:35.127Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q959"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C871",
+            "created": "2023-08-15T07:17:38.650Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:17:38.650Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C871"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Localisation non pr\u00e9cise",
+            "purpose": "replying",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T09:45:59.837Z",
+            "modified": "2023-08-16T09:46:15.255Z"
         }
     ],
+    "id": "efabca70-4d9b-4483-8c58-2411a4278a4d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0237",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=444.8826904296875,1444.151123046875,1038.345947265625,729.160888671875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=444.8826904296875,1444.151123046875,1038.345947265625,729.160888671875"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0237"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "efabca70-4d9b-4483-8c58-2411a4278a4d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
