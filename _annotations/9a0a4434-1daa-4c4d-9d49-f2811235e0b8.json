@@ -3,53 +3,53 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0346"
 order: 11
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Foulage des gerbes - [...] - aux pieds de deux juments. ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-16T12:08:52.027Z",
-            "modified": "2023-08-16T12:09:20.464Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.07",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T12:09:28.228Z"
+            "modified": "2023-08-16T12:09:20.464Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Foulage des gerbes - [...] - aux pieds de deux juments. "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1007",
+            "created": "2023-08-16T12:09:28.228Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T12:09:59.424Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
+        },
+        {
+            "created": "2023-08-16T12:09:59.424Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1007"
         }
     ],
+    "id": "9a0a4434-1daa-4c4d-9d49-f2811235e0b8.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0346",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=265.5511169433594,2555.3251953125,2217.5338439941406,1584.30517578125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=265.5511169433594,2555.3251953125,2217.5338439941406,1584.30517578125"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0346"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9a0a4434-1daa-4c4d-9d49-f2811235e0b8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
