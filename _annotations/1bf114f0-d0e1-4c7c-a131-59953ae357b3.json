@@ -3,63 +3,53 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Habitation de village\nH\u00e9rault (environs du point L34.07)\nType plus r\u00e9cent (apr\u00e8s 1850). La maison est plus spacieuse, mais la disposition reste en gros la m\u00eame que dans le type primitif. Avec l'extension de la viticulture, on donne plus d'importance \u00e0 la cave. Celle-ci n'est plus vo\u00fbt\u00e9e et constitue au rez-de-chauss\u00e9e un vaste local dont une partie sert aussi de remise et d'\u00e9curie : c'est [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T13:06:00.391Z",
-            "modified": "2023-08-15T13:11:09.447Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.07",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T13:06:11.327Z"
+            "modified": "2023-08-15T13:11:09.447Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Habitation de village\nH\u00e9rault (environs du point L34.07)\nType plus r\u00e9cent (apr\u00e8s 1850). La maison est plus spacieuse, mais la disposition reste en gros la m\u00eame que dans le type primitif. Avec l'extension de la viticulture, on donne plus d'importance \u00e0 la cave. Celle-ci n'est plus vo\u00fbt\u00e9e et constitue au rez-de-chauss\u00e9e un vaste local dont une partie sert aussi de remise et d'\u00e9curie : c'est [...]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C978",
+            "created": "2023-08-15T13:06:11.327Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T13:12:19.060Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-08-15T13:12:19.060Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T13:12:29.564Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C978"
         }
     ],
+    "id": "1bf114f0-d0e1-4c7c-a131-59953ae357b3.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=905.9868774414062,808.4883422851562,577.5245971679688,659.6613159179688"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=905.9868774414062,808.4883422851562,577.5245971679688,659.6613159179688"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1bf114f0-d0e1-4c7c-a131-59953ae357b3.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
