@@ -3,103 +3,123 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0051"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Int\u00e9rieur d'une ferme pauvre.\n- Porte donnant acc\u00e8s \u00e0 l'\u00e9table.\n- Escalier donnant acc\u00e8s \u00e0 la chambre. \n- Dressoir o\u00f9 sont accroch\u00e9s des cuillers et fourchettes.\n- R\u00e2telier \u00e0 fromages suspendu au plafond.\n",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-07-31T09:11:58.391Z",
-            "modified": "2023-07-31T09:19:20.844Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L25",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-31T09:14:21.670Z"
+            "modified": "2023-07-31T09:19:20.844Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Int\u00e9rieur d'une ferme pauvre.\n- Porte donnant acc\u00e8s \u00e0 l'\u00e9table.\n- Escalier donnant acc\u00e8s \u00e0 la chambre. \n- Dressoir o\u00f9 sont accroch\u00e9s des cuillers et fourchettes.\n- R\u00e2telier \u00e0 fromages suspendu au plafond.\n"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5431",
+            "created": "2023-07-31T09:14:21.670Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-31T09:14:45.852Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L25"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C719",
+            "created": "2023-07-31T09:14:45.852Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-31T09:16:25.597Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5431"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-07-31T09:16:25.597Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-31T09:16:28.228Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C719"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3550",
+            "created": "2023-07-31T09:18:57.939Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-31T09:18:57.939Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3550"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C1098",
+            "created": "2023-07-31T09:20:51.395Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-31T09:20:51.395Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1098"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
+            "value": "C623",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
             },
-            "created": "2023-07-31T09:20:54.890Z"
+            "created": "2023-08-16T11:43:43.340Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4135",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T11:43:53.228Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C732",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T11:44:02.404Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1645",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T11:44:11.100Z"
         }
     ],
+    "id": "2477ce1d-361a-475f-8032-a7641cdbcf9a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0051",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1458.765380859375,2969.51708984375,1098.50146484375,724.012451171875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1458.765380859375,2969.51708984375,1098.50146484375,724.012451171875"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0051"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "2477ce1d-361a-475f-8032-a7641cdbcf9a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
