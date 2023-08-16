@@ -1,0 +1,85 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0153"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Houes [...], [...], [...], [...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T10:33:43.710Z",
+            "modified": "2023-08-16T10:35:18.422Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L35",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T10:34:41.663Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C909",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T10:34:48.921Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C910",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T10:34:52.704Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5561",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T10:34:59.727Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5562",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-16T10:35:06.415Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0153",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1788.98193359375,3124.52685546875,736.36376953125,661.818115234375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "c764e060-58e7-4bd9-86e1-f9810049730e.json",
+    "motivation": "commenting"
+}
