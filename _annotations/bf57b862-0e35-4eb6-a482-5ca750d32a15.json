@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0346"
+order: 11
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Foulage des gerbes - [...] - aux pieds de deux juments .",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-16T17:28:28.526Z",
+            "modified": "2023-08-16T17:28:43.561Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L34.07",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-16T17:28:48.932Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1007",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "created": "2023-08-16T17:29:43.709Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0346",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"188.0874786376953,4977.87646484375 2043.19677734375,5024.25439453125 2072.4384667834524,3854.5917908965803 217.3291680773979,3808.2138612090803\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "bf57b862-0e35-4eb6-a482-5ca750d32a15.json",
+    "motivation": "commenting"
+}
