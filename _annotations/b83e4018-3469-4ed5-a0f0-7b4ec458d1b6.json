@@ -3,52 +3,74 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0208"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
+            "created": "2023-08-15T13:33:58.933Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "modified": "2023-08-15T13:35:09.751Z",
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "[...] (la grande \u00e0 60 cm. de haut).",
+            "value": "[...] (la grande \u00e0 60 cm. de haut)."
+        },
+        {
+            "created": "2023-08-15T13:34:27.834Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L31"
+        },
+        {
+            "type": "TextualBody",
+            "value": "R\u00e9cipent \u00e0 grains [...] (la grande \u00e0 60 cm. de haut)",
             "purpose": "commenting",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
             },
-            "created": "2023-08-15T13:33:58.933Z",
-            "modified": "2023-08-15T13:35:09.751Z"
+            "created": "2023-08-16T08:59:31.450Z",
+            "modified": "2023-08-16T09:00:21.568Z"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L31",
+            "value": "C1018",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
             },
-            "created": "2023-08-15T13:34:27.834Z"
+            "created": "2023-08-16T08:59:50.156Z"
         },
         {
             "type": "TextualBody",
+            "value": "Q8661",
             "purpose": "tagging",
-            "value": "C???",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
             },
-            "created": "2023-08-15T13:34:29.889Z"
+            "created": "2023-08-16T08:59:51.888Z",
+            "modified": "2023-08-16T08:59:55.006Z"
         }
     ],
+    "id": "b83e4018-3469-4ed5-a0f0-7b4ec458d1b6.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0208",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1973.1,3107.3 2714.1,3099.8 2711.6,3674.4 2232.7,3679.5 1980.6,3493\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0208"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b83e4018-3469-4ed5-a0f0-7b4ec458d1b6.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
