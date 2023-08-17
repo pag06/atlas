@@ -3,42 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0249"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le pot \u00e0 cr\u00e8me et la batte.",
-            "purpose": "commenting",
+            "created": "2023-08-17T13:34:20.217Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-17T13:34:20.217Z",
-            "modified": "2023-08-17T13:34:26.940Z"
+            "modified": "2023-08-17T13:34:26.940Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le pot \u00e0 cr\u00e8me et la batte."
+        },
+        {
+            "created": "2023-08-17T13:34:30.617Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L28"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L28",
+            "value": "Q8114",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-17T13:34:30.617Z"
+            "created": "2023-08-17T13:36:38.792Z"
         }
     ],
+    "id": "c6418299-bc68-40dd-8c8b-491337ea084c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0249",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1763.8,3292.3 2138.5,3292.3 2360.8,3107.4 2538.2,3109.9 2535.7,3816.8 1766.3,3821.8\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0249"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c6418299-bc68-40dd-8c8b-491337ea084c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
