@@ -3,52 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0215"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Scie de scieur de long.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-17T13:19:55.286Z",
-            "modified": "2023-08-17T13:19:59.893Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L20",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-17T13:20:03.648Z"
+            "modified": "2023-08-17T13:19:59.893Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Scie de scieur de long."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9243",
+            "created": "2023-08-17T13:20:03.648Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-17T13:20:11.624Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L20"
+        },
+        {
+            "created": "2023-08-17T13:20:11.624Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9243"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C1034???",
+            "purpose": "tagging",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-17T13:20:54.978Z",
+            "modified": "2023-08-17T13:20:58.574Z"
         }
     ],
+    "id": "74e7efd8-09d3-4051-8cf3-43931f986734.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0215",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2228.3,2964 2551.9,2970.3 2497.6,3834.6 2078,3830.4 2171.9,3126.8 2226.2,3083\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0215"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "74e7efd8-09d3-4051-8cf3-43931f986734.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
