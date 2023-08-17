@@ -4,12 +4,44 @@ order: 3
 ---
 {
     "type": "Annotation",
-    "body": [],
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Double-d\u00e9calitre. ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-17T13:05:07.178Z",
+            "modified": "2023-08-17T13:05:22.930Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L2",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-17T13:05:33.788Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8661",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-17T13:05:37.544Z"
+        }
+    ],
     "target": {
         "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0204",
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2436.8,3614.2 2479.5,3593.7 2511.1,3581 2697.6,3579.5 2700.8,3916.1 2398.9,3914.5 2395.8,3694.8\"></polygon></svg>"
+            "value": "<svg><polygon points=\"2437,3610.7 2479.7,3590.2 2511.3,3577.5 2697.8,3576 2701,3912.6 2399.1,3911 2396,3691.3\"></polygon></svg>"
         },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
