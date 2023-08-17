@@ -3,52 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0211"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "la [...]. R\u00e9cipient \u00e0 grains.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-17T12:56:59.419Z",
-            "modified": "2023-08-17T12:59:17.083Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L21",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-17T12:59:05.370Z"
+            "modified": "2023-08-17T13:00:36.554Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "la [...]. R\u00e9cipient \u00e0 grains (hauteur 45cm.)."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8661",
+            "created": "2023-08-17T12:59:05.370Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-17T12:59:14.467Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L21"
+        },
+        {
+            "created": "2023-08-17T12:59:14.467Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8661"
         }
     ],
+    "id": "d18e27e5-1792-4c50-8bad-6774427bea7d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0211",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1901.3,3133.5 2114.5,3136 2266,3303 2181.2,3667.6 2042.6,3683 1873.1,3662.5 1803.7,3387.7\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0211"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "d18e27e5-1792-4c50-8bad-6774427bea7d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
