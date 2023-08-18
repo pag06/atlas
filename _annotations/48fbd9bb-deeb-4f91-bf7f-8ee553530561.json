@@ -3,53 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Habitations rurales isol\u00e9es, fermes\nAude (environs du point L11.13)\nType classique de la ferme du Lauragais audois. Pays de polyculture \u00e0 dominante c\u00e9r\u00e9ali\u00e8re. Vastes greniers et hangars. L'habitation humaine occupe deux niveaux. Tous les b\u00e2timents sont dispos\u00e9s en ligne.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-16T07:22:20.050Z",
-            "modified": "2023-08-16T07:25:45.013Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.13",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T07:26:22.457Z"
+            "modified": "2023-08-16T07:25:45.013Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Habitations rurales isol\u00e9es, fermes\nAude (environs du point L11.13)\nType classique de la ferme du Lauragais audois. Pays de polyculture \u00e0 dominante c\u00e9r\u00e9ali\u00e8re. Vastes greniers et hangars. L'habitation humaine occupe deux niveaux. Tous les b\u00e2timents sont dispos\u00e9s en ligne."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C978",
+            "created": "2023-08-16T07:26:22.457Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T07:26:28.817Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.13"
+        },
+        {
+            "created": "2023-08-16T07:26:28.817Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C978"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T06:56:16.474Z"
         }
     ],
+    "id": "48fbd9bb-deeb-4f91-bf7f-8ee553530561.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=126.26093292236328,3506.349853515625,1389.7856979370117,591.876708984375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=126.26093292236328,3506.349853515625,1389.7856979370117,591.876708984375"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "48fbd9bb-deeb-4f91-bf7f-8ee553530561.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
