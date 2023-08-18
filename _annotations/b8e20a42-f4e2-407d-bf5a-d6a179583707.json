@@ -3,63 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0345"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Habitat\nH\u00e9rault (entre les points L34.01 et L34.10)\nPlan d'une grande ferme du Causse du Larzac. Il s'agit de la ferme du Puech Doussiou, commune du Caylar.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-16T11:15:45.698Z",
-            "modified": "2023-08-16T11:16:37.568Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C979",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T11:16:59.465Z"
+            "modified": "2023-08-16T11:16:37.568Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Habitat\nH\u00e9rault (entre les points L34.01 et L34.10)\nPlan d'une grande ferme du Causse du Larzac. Il s'agit de la ferme du Puech Doussiou, commune du Caylar."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.01",
+            "created": "2023-08-16T11:16:59.465Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T11:17:04.373Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C979"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.10",
+            "created": "2023-08-16T11:17:04.373Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T11:17:07.102Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.01"
+        },
+        {
+            "created": "2023-08-16T11:17:07.102Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.10"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T06:57:05.707Z"
         }
     ],
+    "id": "b8e20a42-f4e2-407d-bf5a-d6a179583707.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0345",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=282.56060791015625,604.1987915039062,1721.1292114257812,476.66009521484375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=282.56060791015625,604.1987915039062,1721.1292114257812,476.66009521484375"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0345"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b8e20a42-f4e2-407d-bf5a-d6a179583707.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
