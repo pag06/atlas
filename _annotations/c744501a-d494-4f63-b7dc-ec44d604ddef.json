@@ -27,14 +27,35 @@ order: 3
             "value": "L30"
         },
         {
-            "created": "2023-08-14T16:11:23.192Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "C???"
+            "value": "R\u00e2teau",
+            "purpose": "commenting",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-18T09:46:47.035Z",
+            "modified": "2023-08-18T09:46:52.859Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C952",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-18T09:47:02.255Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8597",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-18T09:47:10.981Z"
         }
     ],
     "id": "c744501a-d494-4f63-b7dc-ec44d604ddef.json",
