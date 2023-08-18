@@ -3,32 +3,62 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Habitations rurales isol\u00e9es, fermes\nAude (environs du point L11.13)\nAutre exemple de ferme pris dans la m\u00eame r\u00e9gion et plan de la ferme en \u00e9l\u00e9vation.",
-            "purpose": "commenting",
+            "created": "2023-08-16T07:30:26.081Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T07:30:26.081Z",
-            "modified": "2023-08-16T07:31:00.002Z"
+            "modified": "2023-08-16T07:31:00.002Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Habitations rurales isol\u00e9es, fermes\nAude (environs du point L11.13)\nAutre exemple de ferme pris dans la m\u00eame r\u00e9gion et plan de la ferme en \u00e9l\u00e9vation."
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L11.30",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T06:56:40.956Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T06:56:42.907Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C978",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T06:56:45.204Z"
         }
     ],
+    "id": "4b3111e0-aa55-419b-b1e8-fc21592613b9.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1602.2059326171875,427.0942687988281 3224.246826171875,438.3324279785156 3224.246826171875,989.0022583007812 1605.951904296875,959.0338134765625 1605.951904296875,1067.6693115234375 3231.739013671875,1093.8917236328125 3220.5009765625,1771.9273681640625 1609.697998046875,1756.943115234375\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "4b3111e0-aa55-419b-b1e8-fc21592613b9.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
