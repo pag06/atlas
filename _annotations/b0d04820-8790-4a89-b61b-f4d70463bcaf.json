@@ -3,73 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0345"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Entre les points L12.31 et L12.32. \nLe [...] d'entr\u00e9e de la ferme du Mas Nau.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-16T11:46:59.027Z",
-            "modified": "2023-08-16T11:47:44.553Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L12.31",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T11:48:12.342Z"
+            "modified": "2023-08-16T11:47:44.553Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Entre les points L12.31 et L12.32. \nLe [...] d'entr\u00e9e de la ferme du Mas Nau."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L12.32",
+            "created": "2023-08-16T11:48:12.342Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T11:48:15.413Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L12.31"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C979",
+            "created": "2023-08-16T11:48:15.413Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T11:48:21.395Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L12.32"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q798",
+            "created": "2023-08-16T11:48:21.395Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T11:48:38.051Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C979"
+        },
+        {
+            "created": "2023-08-16T11:48:38.051Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q798"
         }
     ],
+    "id": "b0d04820-8790-4a89-b61b-f4d70463bcaf.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0345",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1805.2271728515625,2491.88623046875,950.7435302734375,888.906494140625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1805.2271728515625,2491.88623046875,950.7435302734375,888.906494140625"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0345"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b0d04820-8790-4a89-b61b-f4d70463bcaf.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
