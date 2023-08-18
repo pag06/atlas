@@ -1,0 +1,44 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0272"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Pilon et mortier \u00e0 sel (en bois).",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-18T15:41:27.470Z",
+            "modified": "2023-08-18T15:41:38.281Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L24",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-18T15:41:42.474Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0272",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2164.3,3501.4 2367.9,3490.4 2520.6,3350.4 2584.3,3345 2627.9,3417.7 2575.2,3515.9 2764.3,3519.5 2766.1,3877.7 1962.5,3890.4 1960.6,3603.2\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "1bb8611c-9cf9-43ea-a243-f1f7e2e742f0.json",
+    "motivation": "commenting"
+}
