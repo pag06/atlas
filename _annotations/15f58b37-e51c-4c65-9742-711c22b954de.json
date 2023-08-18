@@ -3,53 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344"
 order: 8
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "H\u00e9rault\nPetite [...] du pays des garrigues, aujourd'hui viticole, mais autrefois essentiellement vou\u00e9 \u00e0 la polyculture et \u00e0 l'\u00e9levage (mouton et ch\u00e8vres). Maison-bloc \u00e9l\u00e9mentaire. L'habitation humaine est \u00e0 gauche (escalier ext\u00e9rieur et balcon d'entr\u00e9e dit [...]). Au-dessous, cave accessible de plain-pied par le c\u00f4t\u00e9 de la maison, gr\u00e2ce \u00e0 la d\u00e9clivit\u00e9 du terrain. Les deux tiers du b\u00e2timent sont occup\u00e9s par la bergerie et le fenil.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-16T17:36:03.107Z",
-            "modified": "2023-08-16T17:39:43.409Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.07",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-16T17:39:50.906Z"
+            "modified": "2023-08-16T17:39:43.409Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "H\u00e9rault\nPetite [...] du pays des garrigues, aujourd'hui viticole, mais autrefois essentiellement vou\u00e9 \u00e0 la polyculture et \u00e0 l'\u00e9levage (mouton et ch\u00e8vres). Maison-bloc \u00e9l\u00e9mentaire. L'habitation humaine est \u00e0 gauche (escalier ext\u00e9rieur et balcon d'entr\u00e9e dit [...]). Au-dessous, cave accessible de plain-pied par le c\u00f4t\u00e9 de la maison, gr\u00e2ce \u00e0 la d\u00e9clivit\u00e9 du terrain. Les deux tiers du b\u00e2timent sont occup\u00e9s par la bergerie et le fenil."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1007",
+            "created": "2023-08-16T17:39:50.906Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-16T17:40:00.182Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T06:57:37.600Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C978",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T06:57:40.190Z"
         }
     ],
+    "id": "15f58b37-e51c-4c65-9742-711c22b954de.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1661.0098876953125,4100.56494140625,1458.3221435546875,515.30810546875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1661.0098876953125,4100.56494140625,1458.3221435546875,515.30810546875"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "15f58b37-e51c-4c65-9742-711c22b954de.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
