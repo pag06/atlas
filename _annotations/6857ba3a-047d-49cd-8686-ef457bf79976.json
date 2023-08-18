@@ -6,25 +6,56 @@ order: 2
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Quelle est la l\u00e9gende ?",
-            "purpose": "questioning",
+            "created": "2023-08-14T13:42:49.176Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-14T13:42:49.176Z",
-            "modified": "2023-08-14T13:43:03.817Z"
+            "modified": "2023-08-14T13:43:03.817Z",
+            "purpose": "questioning",
+            "type": "TextualBody",
+            "value": "Quelle est la l\u00e9gende ?"
+        },
+        {
+            "created": "2023-08-14T13:42:56.905Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L41"
+        },
+        {
+            "type": "TextualBody",
+            "value": "R\u00e2teau type A : le manche est bifurqu\u00e9 \u00e0 l'extr\u00e9mit\u00e9 qui s'engage dans la traverse",
+            "purpose": "commenting",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-18T09:43:54.560Z",
+            "modified": "2023-08-18T09:44:04.765Z"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L41",
+            "value": "C952",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
             },
-            "created": "2023-08-14T13:42:56.905Z"
+            "created": "2023-08-18T09:44:13.963Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8597",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2023-08-18T09:44:19.937Z"
         }
     ],
     "id": "6857ba3a-047d-49cd-8686-ef457bf79976.json",
