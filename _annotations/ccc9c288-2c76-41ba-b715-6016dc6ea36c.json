@@ -3,53 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0345"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Escaliers ext\u00e9rieurs non couverts au hameau de La Pezade.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-16T11:45:41.383Z",
-            "modified": "2023-08-16T11:46:00.361Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L12.36",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T11:46:12.204Z"
+            "modified": "2023-08-16T11:46:00.361Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Escaliers ext\u00e9rieurs non couverts au hameau de La Pezade."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C979",
+            "created": "2023-08-16T11:46:12.204Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T11:46:41.970Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L12.36"
+        },
+        {
+            "created": "2023-08-16T11:46:41.970Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C979"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T06:58:09.442Z"
         }
     ],
+    "id": "ccc9c288-2c76-41ba-b715-6016dc6ea36c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0345",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1928.9012451171875,1399.4332275390625,1311.4591064453125,785.8448486328125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1928.9012451171875,1399.4332275390625,1311.4591064453125,785.8448486328125"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0345"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ccc9c288-2c76-41ba-b715-6016dc6ea36c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
