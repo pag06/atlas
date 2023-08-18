@@ -27,14 +27,24 @@ order: 1
             "value": "L34.07"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C978",
+            "created": "2023-08-15T13:05:16.475Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T13:05:16.475Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C978"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T06:55:54.918Z"
         }
     ],
     "id": "d642c4fc-d9da-4c6a-8dd4-6fb945b304b3.json",
