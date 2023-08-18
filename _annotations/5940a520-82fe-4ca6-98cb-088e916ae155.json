@@ -3,53 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0068"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Les deux versoirs du brabant double",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-13T16:26:00.718Z",
-            "modified": "2023-08-13T16:26:09.315Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.10",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:26:13.272Z"
+            "modified": "2023-08-13T16:26:09.315Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Les deux versoirs du brabant double"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C702",
+            "created": "2023-08-13T16:26:13.272Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:26:18.835Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.10"
+        },
+        {
+            "created": "2023-08-13T16:26:18.835Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C702"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T06:41:28.202Z"
         }
     ],
+    "id": "5940a520-82fe-4ca6-98cb-088e916ae155.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0068",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2022,4118,980,806"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2022,4118,980,806"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0068"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5940a520-82fe-4ca6-98cb-088e916ae155.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
