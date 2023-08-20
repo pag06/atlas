@@ -3,53 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0320"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Charret\u00e9e du foin, le timon repose sur une chambri\u00e8re. ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-20T12:11:39.352Z",
-            "modified": "2023-08-20T12:12:03.498Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L50",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-20T12:12:11.977Z"
+            "modified": "2023-08-20T12:12:03.498Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charret\u00e9e du foin, le timon repose sur une chambri\u00e8re. "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2076",
+            "created": "2023-08-20T12:12:11.977Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-20T12:12:31.287Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L50"
+        },
+        {
+            "created": "2023-08-20T12:12:31.287Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2076"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1934",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-20T12:13:28.398Z"
         }
     ],
+    "id": "3b6f0f37-6dbf-4a3e-a0da-2f5093001dcd.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0320",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1991.422607421875,1506.8310546875,718.20751953125,763.928955078125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1991.422607421875,1506.8310546875,718.20751953125,763.928955078125"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0320"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "3b6f0f37-6dbf-4a3e-a0da-2f5093001dcd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
