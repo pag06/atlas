@@ -3,42 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0315"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\u00c9cheveau de laine sur le d\u00e9vidoir.",
-            "purpose": "commenting",
+            "created": "2023-08-20T12:01:27.799Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-20T12:01:27.799Z",
-            "modified": "2023-08-20T12:01:48.197Z"
+            "modified": "2023-08-20T12:01:48.197Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "\u00c9cheveau de laine sur le d\u00e9vidoir."
+        },
+        {
+            "created": "2023-08-20T12:01:53.280Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L17"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L17",
+            "value": "Q3627",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-20T12:01:53.280Z"
+            "created": "2023-08-20T12:03:20.958Z"
         }
     ],
+    "id": "dc5f815a-62de-4401-943e-9684d58c3107.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0315",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2171.3,3058.3 2617.1,3060.1 2611.7,3786.3 2282.8,3779.1 2250.4,3613.7 1970,3478.9 2167.7,3338.7\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0315"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "dc5f815a-62de-4401-943e-9684d58c3107.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
