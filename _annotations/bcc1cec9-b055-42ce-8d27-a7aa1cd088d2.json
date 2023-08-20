@@ -3,62 +3,62 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0298"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Banquette de lavandi\u00e8re : la lavandi\u00e8re est la femme qui lave le linge au lavoir ou \u00e0 la rivi\u00e8re. La banquette est une sorte de demi-caisse, qui n'a qu'une planche ant\u00e9rieure et deux planches lat\u00e9rales, dans laquelle la lavandi\u00e8re s'agenouille. ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-20T10:21:51.025Z",
-            "modified": "2023-08-20T10:51:38.792Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L10",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-20T10:50:23.566Z"
+            "modified": "2023-08-20T10:51:38.792Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Banquette de lavandi\u00e8re : la lavandi\u00e8re est la femme qui lave le linge au lavoir ou \u00e0 la rivi\u00e8re. La banquette est une sorte de demi-caisse, qui n'a qu'une planche ant\u00e9rieure et deux planches lat\u00e9rales, dans laquelle la lavandi\u00e8re s'agenouille. "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5945",
+            "created": "2023-08-20T10:50:23.566Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-20T10:50:55.365Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L10"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q816",
+            "created": "2023-08-20T10:50:55.365Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-20T10:51:03.612Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5945"
+        },
+        {
+            "created": "2023-08-20T10:51:03.612Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q816"
         }
     ],
+    "id": "bcc1cec9-b055-42ce-8d27-a7aa1cd088d2.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0298",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1503.7,3542 1505.5,3843.1 1761.4,3975.4 2278.4,3966.7 2283.7,3407.9 1721.3,3406.2\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0298"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "bcc1cec9-b055-42ce-8d27-a7aa1cd088d2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
