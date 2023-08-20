@@ -11,8 +11,8 @@ order: 1
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "modified": "2023-08-20T19:55:57.300Z",
-            "purpose": "commenting",
+            "modified": "2023-08-20T19:58:21.966Z",
+            "purpose": "questioning",
             "type": "TextualBody",
             "value": "- Batte et baratte.\n- Couloir \u00e0 lait."
         },
@@ -27,14 +27,36 @@ order: 1
             "value": "L24"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q858",
+            "created": "2023-08-20T19:57:12.026Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-20T19:57:12.026Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q858"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C???",
+            "purpose": "tagging",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-20T19:57:41.981Z",
+            "modified": "2023-08-20T19:57:42.714Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Num\u00e9ro de carte pour le couloir \u00e0 lait ?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-20T19:57:52.184Z",
+            "modified": "2023-08-20T19:58:06.421Z"
         }
     ],
     "id": "4e63975b-d71b-4190-89a4-4207e5c76d77.json",
