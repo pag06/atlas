@@ -1,0 +1,34 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0328"
+order: 7
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Cour ferm\u00e9e.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-23T07:55:26.785Z",
+            "modified": "2023-08-23T07:55:33.502Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0328",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"386.9866027832031,1941.16748046875 1406.4971923828125,1932.3975830078125 1417.4595947265625,2559.451416015625 878.1056518554688,2575.89501953125 753.1333618164062,2635.092529296875 397.9490661621094,2631.8037109375 397.9490661621094,2631.8037109375\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "0ff5f0a2-e96d-4d46-9f37-705b4f5b6f42.json",
+    "motivation": "commenting"
+}
