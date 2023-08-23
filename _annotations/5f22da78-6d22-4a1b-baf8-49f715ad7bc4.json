@@ -1,0 +1,44 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0327"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Cabane \u00e0 toit de germe.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-23T06:46:31.449Z",
+            "modified": "2023-08-23T06:46:47.901Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L37",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-23T06:46:53.160Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0327",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"410.7471923828125,403.44854736328125 1160.580810546875,401.2559814453125 1247.184326171875,519.6507568359375 1309.67041015625,545.960693359375 1576.0587158203125,549.2494506835938 1566.1923828125,786.0390014648438 1155.0994873046875,789.3277587890625 763.7389526367188,786.0390014648438 398.6883850097656,848.525146484375 399.78466796875,850.7177124023438\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "5f22da78-6d22-4a1b-baf8-49f715ad7bc4.json",
+    "motivation": "commenting"
+}
