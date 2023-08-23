@@ -3,63 +3,53 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0330"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Buffet double, coup\u00e9 par l'horloge.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-23T21:48:08.247Z",
-            "modified": "2023-08-23T21:48:18.787Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L28",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T21:48:21.864Z"
+            "modified": "2023-08-23T21:48:18.787Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Buffet double, coup\u00e9 par l'horloge."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C732???",
+            "created": "2023-08-23T21:48:21.864Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T21:50:10.858Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L28"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q1568???",
+            "value": "Q1568",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T21:50:22.924Z"
+            "created": "2023-08-23T21:59:39.737Z"
         }
     ],
+    "id": "4c15eb55-87c6-4886-865a-2945a6bc65b4.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0330",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1689.4239501953125,520.0947265625,889.6051025390625,596.906982421875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1689.4239501953125,520.0947265625,889.6051025390625,596.906982421875"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0330"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "4c15eb55-87c6-4886-865a-2945a6bc65b4.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
