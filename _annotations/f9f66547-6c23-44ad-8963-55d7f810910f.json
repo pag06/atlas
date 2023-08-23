@@ -3,43 +3,53 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0327"
 order: 9
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Toit de grange ogival.",
-            "purpose": "commenting",
+            "created": "2023-08-23T06:55:43.110Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T06:55:43.110Z",
-            "modified": "2023-08-23T06:55:47.250Z"
+            "modified": "2023-08-23T06:55:47.250Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Toit de grange ogival."
+        },
+        {
+            "created": "2023-08-23T06:55:52.505Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L33"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L33",
+            "value": "Q4195",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T06:55:52.505Z"
+            "created": "2023-08-23T07:20:46.630Z"
         }
     ],
+    "id": "f9f66547-6c23-44ad-8963-55d7f810910f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0327",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2018.7725830078125,1815.0306396484375,618.2838134765625,967.9869384765625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2018.7725830078125,1815.0306396484375,618.2838134765625,967.9869384765625"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0327"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f9f66547-6c23-44ad-8963-55d7f810910f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
