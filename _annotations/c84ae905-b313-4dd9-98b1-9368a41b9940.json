@@ -3,43 +3,43 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0327"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Etable \u00e0 toit de chaume.",
-            "purpose": "commenting",
+            "created": "2023-08-23T06:50:00.117Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T06:50:00.117Z",
-            "modified": "2023-08-23T06:50:07.239Z"
+            "modified": "2023-08-23T06:50:07.239Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Etable \u00e0 toit de chaume."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L42",
+            "created": "2023-08-23T06:50:30.611Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T06:50:30.611Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L42"
         }
     ],
+    "id": "c84ae905-b313-4dd9-98b1-9368a41b9940.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0327",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=378.9558410644531,1396.6494140625,663.2300720214844,711.46484375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=378.9558410644531,1396.6494140625,663.2300720214844,711.46484375"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0327"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c84ae905-b313-4dd9-98b1-9368a41b9940.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
