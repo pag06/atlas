@@ -47,14 +47,14 @@ order: 1
             "value": "Q5431"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "T",
+            "created": "2023-08-01T09:03:25.254Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-01T09:03:25.254Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "T"
         }
     ],
     "id": "3bfa0039-a150-4303-a8c2-4ee48b69c8d2.json",
