@@ -3,54 +3,53 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0330"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Porte de la souillarde, horloge et lit-clos.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-23T21:50:48.979Z",
-            "modified": "2023-08-23T21:51:24.650Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L28",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T21:51:31.367Z"
+            "modified": "2023-08-23T21:51:24.650Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Porte de la souillarde, horloge et lit-clos."
         },
         {
-            "type": "TextualBody",
-            "value": "C???",
-            "purpose": "tagging",
+            "created": "2023-08-23T21:51:31.367Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T21:51:31.977Z",
-            "modified": "2023-08-23T21:51:33.004Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L28"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5553",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-23T21:57:37.742Z"
         }
     ],
+    "id": "d6c5754c-56e1-41c9-af80-f753d0d5d21c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0330",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=459.9510803222656,1409.7684326171875,880.2870788574219,563.4715576171875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=459.9510803222656,1409.7684326171875,880.2870788574219,563.4715576171875"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0330"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "d6c5754c-56e1-41c9-af80-f753d0d5d21c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
