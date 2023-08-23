@@ -3,43 +3,53 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0327"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Cabane \u00e0 toit de gen\u00eat.",
-            "purpose": "commenting",
+            "created": "2023-08-23T06:49:27.018Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T06:49:27.018Z",
-            "modified": "2023-08-23T06:49:31.687Z"
+            "modified": "2023-08-23T06:49:31.687Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Cabane \u00e0 toit de gen\u00eat."
+        },
+        {
+            "created": "2023-08-23T06:49:36.224Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L17"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L17",
+            "value": "Q1612",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T06:49:36.224Z"
+            "created": "2023-08-23T07:15:09.817Z"
         }
     ],
+    "id": "3ba00bac-8be6-430d-901c-74979fc9b17c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0327",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=408.5545349121094,891.2789916992188,861.6509094238281,397.93804931640625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=408.5545349121094,891.2789916992188,861.6509094238281,397.93804931640625"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0327"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "3ba00bac-8be6-430d-901c-74979fc9b17c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
