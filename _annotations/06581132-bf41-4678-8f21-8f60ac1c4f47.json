@@ -3,52 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0333"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Bassinoire : c'\u00e9tait le chauffe-lit des riches. Quand elle n'a pas \u00e9t\u00e9 la proie des brocanteurs ou la victime des r\u00e9quisitions de la derni\u00e8re guerre, elle d\u00e9core de son \u00e9clat de cuivre rouge la cuisine ou le salon. Le type le plus courant est une bassine cylindrique dont la face sup\u00e9rieure pr\u00e9sente une large ouverture circulaire par o\u00f9 l'on versait la braise. On trouve aussi des bassinoires dont la face sup\u00e9rieure est un couvercle amovible, perfor\u00e9 d'ouvertures en disposition g\u00e9om\u00e9trique.  ",
+            "created": "2023-08-24T21:19:45.295Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "created": "2023-08-24T21:19:45.295Z"
+            "type": "TextualBody",
+            "value": "Bassinoire : c'\u00e9tait le chauffe-lit des riches. Quand elle n'a pas \u00e9t\u00e9 la proie des brocanteurs ou la victime des r\u00e9quisitions de la derni\u00e8re guerre, elle d\u00e9core de son \u00e9clat de cuivre rouge la cuisine ou le salon. Le type le plus courant est une bassine cylindrique dont la face sup\u00e9rieure pr\u00e9sente une large ouverture circulaire par o\u00f9 l'on versait la braise. On trouve aussi des bassinoires dont la face sup\u00e9rieure est un couvercle amovible, perfor\u00e9 d'ouvertures en disposition g\u00e9om\u00e9trique.  "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L10",
+            "created": "2023-08-24T21:19:54.193Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-24T21:19:54.193Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L10"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2149",
+            "created": "2023-08-24T21:20:14.743Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-24T21:20:14.743Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2149"
         }
     ],
+    "id": "06581132-bf41-4678-8f21-8f60ac1c4f47.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0333",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=379.180419921875,464.80877685546875,707.6280517578125,542.6427001953125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=379.180419921875,464.80877685546875,707.6280517578125,542.6427001953125"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0333"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "06581132-bf41-4678-8f21-8f60ac1c4f47.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
