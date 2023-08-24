@@ -3,53 +3,53 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0333"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Chauffe-pieds : il est utilis\u00e9 par les femmes et se pr\u00e9sente ainsi :",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-24T21:41:21.284Z",
-            "modified": "2023-08-24T21:41:24.709Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L29",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-24T21:41:28.125Z"
+            "modified": "2023-08-24T21:42:43.687Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Chauffe-pieds : il est utilis\u00e9 par les femmes et celui-ci comporte deux pi\u00e8ces : l'une est une petite caisse en bois dont la face sup\u00e9rieure est ferm\u00e9e par des barreaux, tandis qu'une face lat\u00e9rale reste b\u00e9ante. Par cette ouverture, on introduit dans la caisse un r\u00e9cipient \u00e0 feu rempli de braise."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2156",
+            "created": "2023-08-24T21:41:28.125Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-24T21:41:30.546Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L29"
+        },
+        {
+            "created": "2023-08-24T21:41:30.546Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2156"
         }
     ],
+    "id": "0d286e3e-ecf1-4de0-9109-1b64146ddb64.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0333",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1859.3363037109375,1251.461669921875,399.0343017578125,320.1043701171875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1859.3363037109375,1251.461669921875,399.0343017578125,320.1043701171875"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0333"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0d286e3e-ecf1-4de0-9109-1b64146ddb64.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
