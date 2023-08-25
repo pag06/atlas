@@ -37,15 +37,15 @@ order: 2
             "value": "2156"
         },
         {
-            "type": "TextualBody",
-            "value": "Quel est l'objet \u00e0 gauche ?",
-            "purpose": "commenting",
+            "created": "2023-08-24T21:45:27.340Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-24T21:45:27.340Z",
-            "modified": "2023-08-24T21:45:38.189Z"
+            "modified": "2023-08-24T21:45:38.189Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Quel est l'objet \u00e0 gauche ?"
         }
     ],
     "id": "7fc0e436-7748-4e9b-8a0f-49992bfbf522.json",
