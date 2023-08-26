@@ -3,53 +3,53 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0336"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Joug vu de dessous (\u00e0 gauche) et vu de dessus (\u00e0 droite).",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-26T13:06:47.799Z",
-            "modified": "2023-08-26T13:07:21.089Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L35",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-26T13:07:34.572Z"
+            "modified": "2023-08-26T13:07:21.089Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Joug vu de dessous (\u00e0 gauche) et vu de dessus (\u00e0 droite)."
         },
         {
-            "type": "TextualBody",
-            "value": "Q5774",
-            "purpose": "tagging",
+            "created": "2023-08-26T13:07:34.572Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L35"
+        },
+        {
             "created": "2023-08-26T13:07:59.179Z",
-            "modified": "2023-08-26T13:08:01.164Z"
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "modified": "2023-08-26T13:08:01.164Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5774"
         }
     ],
+    "id": "205f68ef-2e79-4b95-9a9e-785146060a50.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0336",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2005.9,310.7 2734.7,312.6 2740.1,1237.5 2500.2,1235.7 2502.1,1112.2 2427.6,1112.2 2427.6,1244.8 2013.2,1244.8\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0336"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "205f68ef-2e79-4b95-9a9e-785146060a50.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
