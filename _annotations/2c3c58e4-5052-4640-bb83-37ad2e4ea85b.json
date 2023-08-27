@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0340"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Char \u00e0 \u00e9chelettes et \u00e0 ridelles",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-27T13:41:41.771Z",
+            "modified": "2023-08-27T13:41:50.820Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L9",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-27T13:41:58.778Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q",
+            "purpose": "tagging",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-27T13:41:59.593Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0340",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1167.8,420.2 1859.2,417.1 1856,1051.4 1437.4,1057.7 1418.4,1057.7 1240.8,1162.4 1167.8,1162.4\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "2c3c58e4-5052-4640-bb83-37ad2e4ea85b.json",
+    "motivation": "commenting"
+}
