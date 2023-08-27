@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0339"
+order: 12
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Char \u00e0 timonettes.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-27T13:24:47.070Z",
+            "modified": "2023-08-27T13:24:54.843Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L33",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-27T13:25:01.273Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C???",
+            "purpose": "tagging",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-27T13:25:02.035Z",
+            "modified": "2023-08-27T13:25:02.390Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0339",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"359.3,3141 524.2,3145.8 558.2,3257.4 1240,3274.4 1237.5,3495.2 1312.7,3500 1312.7,3732.9 352,3723.2\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "5e623d61-f23d-4a3d-9307-62da020149a3.json",
+    "motivation": "commenting"
+}
