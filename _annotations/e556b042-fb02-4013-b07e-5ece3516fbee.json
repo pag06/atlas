@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0339"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Char \u00e0 \u00e9chelette",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-27T12:42:46.942Z",
+            "modified": "2023-08-27T12:42:52.039Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L38",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-27T12:42:57.386Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C???",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-27T12:42:59.713Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0339",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"423.6708679199219,810.0234985351562 426.3282470703125,1163.457763671875 872.7715454101562,1171.429931640625 1093.3358154296875,1264.43896484375 1165.0855712890625,1264.43896484375 1159.7708740234375,1200.661376953125 862.1419677734375,1070.44873046875 856.8271484375,1043.874755859375 987.039794921875,934.9213256835938 957.808349609375,892.4029541015625 816.9661254882812,892.4029541015625 596.4019165039062,881.7733154296875 540.5964965820312,810.0234985351562\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "e556b042-fb02-4013-b07e-5ece3516fbee.json",
+    "motivation": "commenting"
+}
