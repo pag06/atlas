@@ -3,62 +3,62 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0340"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Char \u00e0 \u00e9chelettes et \u00e0 ridelles",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-27T13:43:11.377Z",
-            "modified": "2023-08-27T13:43:19.640Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L23",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-27T13:43:22.330Z"
+            "modified": "2023-08-27T13:43:19.640Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Char \u00e0 \u00e9chelettes et \u00e0 ridelles"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3622",
+            "created": "2023-08-27T13:43:22.330Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-27T13:43:38.120Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L23"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8921",
+            "created": "2023-08-27T13:43:38.120Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-27T13:43:49.150Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3622"
+        },
+        {
+            "created": "2023-08-27T13:43:49.150Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8921"
         }
     ],
+    "id": "86ea4aa2-b017-43ca-af90-af59b34b43a8.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0340",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1881.4,398 2699.7,385.4 2699.7,991.1 2246.1,994.3 2170,1073.6 1884.6,1083.1\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0340"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "86ea4aa2-b017-43ca-af90-af59b34b43a8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
