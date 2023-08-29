@@ -4,7 +4,48 @@ order: 10
 ---
 {
     "type": "Annotation",
-    "body": [],
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Char \u00e0 \u00e9chelettes et \u00e0 ridelles",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-29T15:25:59.894Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L29",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-29T15:26:04.435Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q3621",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-29T15:26:06.862Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8922",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-29T15:26:09.955Z"
+        }
+    ],
     "target": {
         "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0340",
         "selector": {
