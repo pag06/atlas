@@ -1,0 +1,64 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0340"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L21",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-29T15:11:26.749Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q3622",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-29T15:11:29.609Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8921",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-29T15:11:32.758Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Char \u00e0 \u00e9chelettes et \u00e0 ridelles",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-29T15:11:36.910Z",
+            "modified": "2023-08-29T15:11:44.200Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0340",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"667.5939331054688,1074.814208984375 950.7152099609375,1077.017578125 960.6299438476562,1934.6436767578125 805.298828125,1936.2960205078125 782.1643676757812,1860.282958984375 557.4299926757812,1863.587890625 537.6005249023438,1949.5157470703125 448.36773681640625,1951.168212890625 440.1054382324219,1602.4993896484375 483.0693664550781,1511.6141357421875 479.7644348144531,1377.7650146484375 646.6627807617188,1374.4600830078125 646.6627807617188,1374.4600830078125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "61428a29-5112-40fc-bd4e-5f5db6563e41.json",
+    "motivation": "commenting"
+}
