@@ -4,12 +4,53 @@ order: 13
 ---
 {
     "type": "Annotation",
-    "body": [],
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Char \u00e0 \u00e9chelettes et \u00e0 ridelles",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-29T15:32:06.791Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L8",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-29T15:32:09.603Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q3622",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-29T15:32:21.907Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8921",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-08-29T15:32:24.989Z"
+        }
+    ],
     "target": {
         "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0340",
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"435.9,3179.3 1187.5,3181.7 1372.3,3301.7 1375.9,3961.7 1215.9,3961.7 1180.2,3905.3 1035.9,3900.5 919.6,3899.9 895.9,3945.3 455.9,3949 454.1,3945.3\"></polygon></svg>"
+            "value": "<svg><polygon points=\"435.9,3170.8 1168.7,3178.1 1372.3,3301.7 1375.9,3961.7 1215.9,3961.7 1180.2,3905.3 1035.9,3900.5 919.6,3899.9 895.9,3945.3 455.9,3949 454.1,3945.3\"></polygon></svg>"
         },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
