@@ -3,32 +3,32 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0341"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Char \u00e0 pieux",
-            "purpose": "commenting",
+            "created": "2023-08-31T07:33:50.477Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-08-31T07:33:50.477Z",
-            "modified": "2023-08-31T07:33:52.942Z"
+            "modified": "2023-08-31T07:33:52.942Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Char \u00e0 pieux"
         }
     ],
+    "id": "b6506a29-3313-494b-980e-e8ea93c1980c.json",
+    "motivation": "commenting",
     "target": {
         "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0341",
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1231.004638671875,1866.54443359375 1882.5743408203125,1866.54443359375 1882.5743408203125,1335.670654296875 1784.5089111328125,1207.4312744140625 1231.004638671875,1207.4312744140625\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1231,1866.5 1891.1,1866.5 1891.1,1354.5 1784.5,1207.4 1231,1207.4\"></polygon></svg>"
         },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b6506a29-3313-494b-980e-e8ea93c1980c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
