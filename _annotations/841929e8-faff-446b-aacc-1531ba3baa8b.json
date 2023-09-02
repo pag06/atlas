@@ -3,43 +3,43 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0228"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Clifoire",
-            "purpose": "commenting",
+            "created": "2023-09-02T20:49:40.919Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-09-02T20:49:40.919Z",
-            "modified": "2023-09-02T20:49:42.398Z"
+            "modified": "2023-09-02T20:50:49.272Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Clifoire\n\ndonn\u00e9 par un gar\u00e7on de 15 ans (qui a fabriqu\u00e9 le mod\u00e8le dessin\u00e9 ici)"
         },
         {
-            "type": "TextualBody",
-            "value": "L658NO",
-            "purpose": "tagging",
+            "created": "2023-09-02T20:49:46.314Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-09-02T20:49:46.314Z",
-            "modified": "2023-09-02T20:49:48.534Z"
+            "modified": "2023-09-02T20:49:48.534Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L658NO"
         }
     ],
+    "id": "841929e8-faff-446b-aacc-1531ba3baa8b.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0228",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1431.349853515625,1248.873046875 2219.53173828125,1265.2366943359375 2214.0771484375,1597.9639892578125 1886.8043212890625,1589.7821044921875 1886.8043212890625,1526.145751953125 1425.895263671875,1516.145751953125\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0228"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "841929e8-faff-446b-aacc-1531ba3baa8b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
