@@ -1,0 +1,45 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0228"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Clifoire",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2023-09-02T20:49:40.919Z",
+            "modified": "2023-09-02T20:49:42.398Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "L658NO",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2023-09-02T20:49:46.314Z",
+            "modified": "2023-09-02T20:49:48.534Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0228",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1431.349853515625,1248.873046875 2219.53173828125,1265.2366943359375 2214.0771484375,1597.9639892578125 1886.8043212890625,1589.7821044921875 1886.8043212890625,1526.145751953125 1425.895263671875,1516.145751953125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "841929e8-faff-446b-aacc-1531ba3baa8b.json",
+    "motivation": "commenting"
+}
