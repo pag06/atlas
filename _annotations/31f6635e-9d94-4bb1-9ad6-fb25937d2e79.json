@@ -7,21 +7,21 @@ order: 1
     "body": [
         {
             "type": "TextualBody",
-            "value": "Clifoire-",
+            "value": "Clifoire",
             "purpose": "commenting",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
             "created": "2023-09-02T20:48:39.831Z",
-            "modified": "2023-09-02T20:48:42.542Z"
+            "modified": "2023-09-02T20:48:59.304Z"
         }
     ],
     "target": {
         "source": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0228",
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1434.0771484375,1253.41845703125 2218.62255859375,1269.7821044921875 2211.778113094832,1597.9350003584213 1427.232702938582,1581.5713528974838\" /></svg>"
+            "value": "<svg><polygon points=\"1435.895263671875,1253.41845703125 2220.440673828125,1269.7821044921875 2213.596228329207,1597.9350003584213 1429.050818172957,1581.5713528974838\"></polygon></svg>"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
