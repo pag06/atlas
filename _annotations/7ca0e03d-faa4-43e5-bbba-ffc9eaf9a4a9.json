@@ -4,7 +4,19 @@ order: 1
 ---
 {
     "type": "Annotation",
-    "body": [],
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Pi\u00e8ge \u00e0 oiseaux",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2023-09-02T20:38:25.350Z",
+            "modified": "2023-09-02T20:38:27.570Z"
+        }
+    ],
     "target": {
         "source": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0044",
         "selector": {
