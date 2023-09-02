@@ -1,0 +1,22 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0044"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0044",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1742,1542.8 2213.8,1541.9 2214.7,2055.5 2035.6,2058.2 1926.5,1958.2 1873.8,1958.2 1817.4,1902.8 1741.1,1902.8\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "7ca0e03d-faa4-43e5-bbba-ffc9eaf9a4a9.json",
+    "motivation": "commenting"
+}
