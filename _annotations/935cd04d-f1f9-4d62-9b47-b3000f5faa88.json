@@ -1,0 +1,53 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0342"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Char \u00e0 quatre roues. Il est surtout employ\u00e9 pour le charroi du foin, des gerbes, des troncs d'arbres.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-04T09:02:03.524Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L25",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-04T09:02:06.905Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2043",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-04T09:02:15.651Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0342",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"376.734130859375,1179.265380859375 1689.353271484375,1176.05859375 1684.543212890625,1397.8570556640625 1836.862548828125,1389.8402099609375 1865.7230224609375,1412.2872314453125 1859.3095703125,1463.5948486328125 1607.581787109375,1502.0755615234375 1512.9833984375,1742.579833984375 397.04339599609375,1732.959716796875 397.04339599609375,1732.959716796875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "935cd04d-f1f9-4d62-9b47-b3000f5faa88.json",
+    "motivation": "commenting"
+}
