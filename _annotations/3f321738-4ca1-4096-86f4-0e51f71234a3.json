@@ -50,7 +50,7 @@ order: 14
         "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0341",
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1865.1,2941.6 2594.8,2947.7 2594.2,3810.7 2358.5,3811.9 2305.1,3736.2 2090.6,3730.7 2025.1,3732.5 1865.1,3805.3 1832.4,3756.2 1854.2,3699.8 1897.9,3674.4 1883.3,3599.8\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1896,2939.8 2594.8,2947.7 2594.2,3810.7 2358.5,3811.9 2305.1,3736.2 2090.6,3730.7 2025.1,3732.5 1865.1,3805.3 1832.4,3756.2 1854.2,3699.8 1897.9,3674.4 1897.9,3598\"></polygon></svg>"
         },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
