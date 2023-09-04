@@ -40,7 +40,7 @@ order: 9
         "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0342",
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"494.9,3309.1 511.4,3888.6 848.5,3888.6 931.1,3939.8 1531,3944.8 1522.7,3644 1218.6,3320.1 1219.7,3321.2\"></polygon></svg>"
+            "value": "<svg><polygon points=\"507,3315.2 520.2,3886.9 848.5,3888.6 931.1,3939.8 1511.7,3939.8 1503.4,3644 1208.7,3313.5 1208.7,3313.5\"></polygon></svg>"
         },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
