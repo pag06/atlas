@@ -1,0 +1,53 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0342"
+order: 5
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Char \u00e0 quatre roues. Il est surtout employ\u00e9 pour le charroi du foin, des gerbes, des troncs d'arbres.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-04T09:06:40.258Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L24",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-04T09:06:44.205Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2043",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-04T09:06:46.867Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0342",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"416.3826599121094,1861.710205078125 1423.281005859375,1857.3037109375 1414.4678955078125,2397.10693359375 1368.198974609375,2559.0478515625 1503.7005615234375,2644.975830078125 1507.0054931640625,2714.37890625 1460.7366943359375,2767.257568359375 865.8515014648438,2767.257568359375 720.4351196289062,2648.28076171875 429.6023254394531,2644.975830078125 431.8056640625,2646.077392578125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "b36ed8c3-2486-41d8-aed9-be02547bf192.json",
+    "motivation": "commenting"
+}
