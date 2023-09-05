@@ -60,16 +60,16 @@ order: 3
     "id": "fbecd98e-4196-4dcb-9c5c-09da1b9c0d85.json",
     "motivation": "commenting",
     "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0344",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1745.2867431640625,463.5544738769531,990.3028564453125,475.1514587402344"
+        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
-        },
-        "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "type": "FragmentSelector",
-            "value": "xywh=1745.2867431640625,464.76654052734375,981.2120361328125,473.93939208984375"
-        },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0344"
+        }
     },
     "type": "Annotation"
 }
