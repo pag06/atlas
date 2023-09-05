@@ -40,15 +40,15 @@ order: 1
     "id": "62e27f0f-e6a6-402a-abd6-2e6b0a64b39f.json",
     "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"359.3,384 833,387.3 830.8,690.2 989.5,696.8 987.8,809.2 791.2,809.2 721.8,1063.7 665.6,1058.7 583,1017.4 374.8,1014.1 373.1,1014.1\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346"
     },
     "type": "Annotation"
 }
