@@ -13,7 +13,8 @@ order: 14
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "La herse est utilis\u00e9e dans les champs pour briser les mottes de terre, \u00e9galiser le terrain et couvrir les semis."
+            "value": "La herse est utilis\u00e9e dans les champs pour briser les mottes de terre, \u00e9galiser le terrain et couvrir les semis. Ce type d'herse est une armature en bois avec des pointes soit en bois soit en fer.",
+            "modified": "2023-09-06T12:38:57.084Z"
         }
     ],
     "id": "ed9b46c1-1a5b-4049-b61b-58111d816cce.json",
@@ -22,7 +23,7 @@ order: 14
         "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346",
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1679.4,2615.2 1933.8,2040.2 2356.3,2086.5 2348.1,2145.9 2149.8,2706.1 1736.6,2673.1 1736.6,2671.4\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1679.4,2615.2 1933.8,2040.2 2356.3,2086.5 2348.1,2145.9 2149.8,2706.1 1736.6,2673.1 1736.6,2673.1\"></polygon></svg>"
         },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
