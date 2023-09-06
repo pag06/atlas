@@ -3,20 +3,42 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346"
 order: 13
 ---
 {
-    "type": "Annotation",
-    "body": [],
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Herse m\u00e9tallique articul\u00e9e (r\u00e9cente)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-06T12:35:34.309Z",
+            "modified": "2023-09-06T12:35:46.293Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L25",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-06T12:36:05.070Z"
+        }
+    ],
+    "id": "07dc094f-ce0c-4a89-bb98-1b1e8021af36.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"980.9,2376.2 1124.1,2181.2 1565.3,2207.6 1699.2,2265.5 1705.8,2531.5 1633.1,2624.1 1084.5,2612.5 978.7,2528.2 925.8,2434 929.1,2405.9 929.1,2405.9\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "07dc094f-ce0c-4a89-bb98-1b1e8021af36.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
