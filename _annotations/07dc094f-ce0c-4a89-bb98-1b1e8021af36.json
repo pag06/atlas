@@ -6,35 +6,35 @@ order: 13
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Herse m\u00e9tallique articul\u00e9e (r\u00e9cente). La herse est utilis\u00e9e dans les champs pour briser les mottes de terre, \u00e9galiser le terrain et couvrir les semis.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-09-06T12:35:34.309Z",
-            "modified": "2023-09-06T12:37:08.409Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L25",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-06T12:36:05.070Z"
+            "modified": "2023-09-06T12:37:08.409Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Herse m\u00e9tallique articul\u00e9e (r\u00e9cente). La herse est utilis\u00e9e dans les champs pour briser les mottes de terre, \u00e9galiser le terrain et couvrir les semis."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5508",
+            "created": "2023-09-06T12:36:05.070Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-06T12:36:27.370Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L25"
+        },
+        {
+            "created": "2023-09-06T12:36:27.370Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5508"
         }
     ],
     "id": "07dc094f-ce0c-4a89-bb98-1b1e8021af36.json",
