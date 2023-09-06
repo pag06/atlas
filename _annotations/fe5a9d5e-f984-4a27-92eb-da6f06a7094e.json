@@ -1,0 +1,53 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346"
+order: 21
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "La herse est utilis\u00e9e dans les champs pour briser les mottes de terre, \u00e9galiser le terrain et couvrir les semis. Ce type d'herse est une armature en bois avec des pointes soit en bois soit en fer.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-06T12:57:16.046Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L35",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-06T12:57:23.851Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5508",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-06T12:57:26.632Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1779.2,3452.4 2151,3074.6 2281.6,3074.6 2293.1,3137.4 2227,3890.9 2225.4,3907.4 2096.5,3904.1 1805.7,3580.2\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "fe5a9d5e-f984-4a27-92eb-da6f06a7094e.json",
+    "motivation": "commenting"
+}
