@@ -1,0 +1,53 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346"
+order: 17
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "La herse est utilis\u00e9e dans les champs pour briser les mottes de terre, \u00e9galiser le terrain et couvrir les semis. Ce type d'herse est une armature en bois avec des pointes soit en bois soit en fer.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-06T12:47:15.347Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L5",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-06T12:47:18.744Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5508",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-06T12:47:21.463Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1081.0943603515625,2809.03857421875 1211.087646484375,2704.3828125 1781.1859130859375,2759.46484375 1769.6187744140625,2823.91064453125 1569.6712646484375,3000.723876953125 1333.36962890625,2959.412353515625 1227.6123046875,3115.29443359375 1082.1959228515625,3131.81884765625 1007.2844848632812,3183.595947265625 996.26806640625,3131.26806640625 1078.8909912109375,3066.822265625 1184.6483154296875,3045.34033203125 1245.789306640625,2952.802490234375 1092.110595703125,2908.18603515625 1092.110595703125,2909.287841796875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "c0c23882-1e94-4dc1-952d-954c7ce19d49.json",
+    "motivation": "commenting"
+}
