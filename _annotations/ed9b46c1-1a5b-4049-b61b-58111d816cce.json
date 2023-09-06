@@ -3,31 +3,31 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346"
 order: 14
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "La herse est utilis\u00e9e dans les champs pour briser les mottes de terre, \u00e9galiser le terrain et couvrir les semis.",
-            "purpose": "commenting",
+            "created": "2023-09-06T12:38:20.978Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-06T12:38:20.978Z"
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "La herse est utilis\u00e9e dans les champs pour briser les mottes de terre, \u00e9galiser le terrain et couvrir les semis."
         }
     ],
+    "id": "ed9b46c1-1a5b-4049-b61b-58111d816cce.json",
+    "motivation": "commenting",
     "target": {
         "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346",
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1679.36328125,2615.2421875 1933.8419189453125,2040.1866455078125 2356.320556640625,2086.455322265625 2348.05810546875,2145.94384765625 2149.76318359375,2706.12744140625 1736.6484375,2673.078369140625 1736.6484375,2673.629150390625\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1679.4,2615.2 1933.8,2040.2 2356.3,2086.5 2348.1,2145.9 2149.8,2706.1 1736.6,2673.1 1736.6,2671.4\"></polygon></svg>"
         },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ed9b46c1-1a5b-4049-b61b-58111d816cce.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
