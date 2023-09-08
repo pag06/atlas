@@ -1,5 +1,5 @@
 ---
-canvas_id: "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0146"
+canvas_id: "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0145"
 ---
 {% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
 {
