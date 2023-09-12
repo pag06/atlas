@@ -3,63 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0329"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L20",
+            "created": "2023-08-23T08:14:14.052Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T08:14:14.052Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L20"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C623???",
+            "created": "2023-08-23T08:14:17.395Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T08:14:17.395Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C623???"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q950???",
+            "created": "2023-08-23T08:14:20.429Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T08:14:20.429Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q950???"
         },
         {
-            "type": "TextualBody",
-            "value": "Vieille maison de vigneron.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-23T08:14:29.022Z",
-            "modified": "2023-08-23T08:14:37.582Z"
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "modified": "2023-08-23T08:14:37.582Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Vieille maison de vigneron."
         }
     ],
+    "id": "821810ed-5170-452b-a4b3-0d21b9bf78fe.json",
+    "motivation": "commenting",
     "target": {
         "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0329",
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=378.8580627441406,2701.30322265625,710.3686218261719,934.00341796875"
+            "value": "xywh=378.8580627441406,2701.30322265625,690.4737243652344,931.101806640625"
         },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "821810ed-5170-452b-a4b3-0d21b9bf78fe.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
