@@ -1,0 +1,63 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0347"
+order: 5
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Araire \u00e0 timon s\u00e9par\u00e9 : enti\u00e8rement en bois (sauf le soc), il est rest\u00e9 jusque vers 1900 le seul instrument de labour. Il a disparu, ou tout au moins il n'est plus gu\u00e8re employ\u00e9 dans la Basse Ard\u00e8che et le Rouergue ; ailleurs il reste en usage pour certains travaux.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-17T21:32:39.237Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L7",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-17T21:32:44.115Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q354",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-17T21:32:48.119Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9975",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-17T21:33:01.779Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0347",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1753,1087.5 1753,1271.1 2269.4,1278.4 2644,1022.1 2644,974.8 2578.5,974.8 2249.4,1091.1 2250,1091.1\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "78f17d6d-214f-4ae8-806f-1b48339b8281.json",
+    "motivation": "commenting"
+}
