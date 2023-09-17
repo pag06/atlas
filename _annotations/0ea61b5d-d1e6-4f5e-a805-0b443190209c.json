@@ -7,14 +7,45 @@ order: 2
     "body": [
         {
             "type": "TextualBody",
-            "value": "..",
-            "purpose": "commenting",
+            "value": "Types de soc",
+            "purpose": "questioning",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
             "created": "2023-09-17T21:26:32.880Z",
-            "modified": "2023-09-17T21:26:33.015Z"
+            "modified": "2023-09-17T21:27:50.382Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "- A quoi correspond A1, A2, B, \u2026 ?\n- Faut-il d\u00e9couper en une ou diff\u00e9rentes images ?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-17T21:26:53.319Z",
+            "modified": "2023-09-17T21:27:35.123Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L?",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-17T21:27:54.574Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C879",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-17T21:27:59.144Z"
         }
     ],
     "target": {
