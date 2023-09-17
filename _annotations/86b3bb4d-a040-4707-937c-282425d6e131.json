@@ -3,42 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0345"
 order: 18
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "La hotte ",
-            "purpose": "commenting",
+            "created": "2023-09-17T21:12:17.788Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-17T21:12:17.788Z",
-            "modified": "2023-09-17T21:12:19.188Z"
+            "modified": "2023-09-17T21:13:08.403Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "La hotte permet de transporter l'eau de la fontaine ou du puits jusqu'\u00e0 la maison. Le panier \u00e0 la forme d'un prisme triangulaire reposant sur l'ar\u00eate longitudinale ; il est pos\u00e9 sur les \u00e9paules et maintenu en avant par deux longs b\u00e2tons inclin\u00e9s et convergeant vers le sol. "
+        },
+        {
+            "created": "2023-09-17T21:12:22.924Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L8"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L8",
+            "value": "Q5558",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-17T21:12:22.924Z"
+            "created": "2023-09-17T21:13:06.396Z"
         }
     ],
+    "id": "86b3bb4d-a040-4707-937c-282425d6e131.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0345",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"898.21044921875,2950.28173828125 1251.836669921875,2937.062255859375 1370.813720703125,3061.54736328125 1364.203857421875,3111.12109375 1218.7874755859375,3259.842529296875 1220.43994140625,3815.068603515625 1142.7744140625,3823.330810546875 965.9612426757812,3284.62939453125 931.2596435546875,3249.927734375 932.361328125,3251.029296875\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0345"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "86b3bb4d-a040-4707-937c-282425d6e131.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
