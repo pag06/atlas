@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0347"
+order: 7
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Soc servant de plantoir.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-17T21:37:33.238Z",
+            "modified": "2023-09-17T21:37:40.070Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L35",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-17T21:37:50.538Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9459",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-17T21:38:02.294Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0347",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1200.3193359375,1532.3541259765625 1457.2890625,1493.5662841796875 1717.8951416015625,1533.5662841796875 1721.531494140625,1575.990478515625 1697.8951416015625,1609.9298095703125 1488.80419921875,1602.6571044921875 1481.531494140625,1853.566162109375 1539.7132568359375,1868.1116943359375 1468.80419921875,2124.475341796875 1448.80419921875,2313.566162109375 1419.7132568359375,2311.748046875 1397.8951416015625,2155.38427734375 1352.4405517578125,1855.3843994140625 1423.349609375,1839.020751953125 1421.531494140625,1609.9298095703125 1225.1678466796875,1613.566162109375 1225.77392578125,1614.7783203125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "0c988287-0df9-4c08-94a3-76f464cb9f05.json",
+    "motivation": "commenting"
+}
