@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0347"
+order: 12
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Un soc",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-17T21:44:33.973Z",
+            "modified": "2023-09-17T21:44:34.732Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L8",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-17T21:44:54.182Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9458",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-09-17T21:44:57.865Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0347",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1508.9072265625,2648.338134765625 1500.42236328125,2830.15625 1445.876953125,2917.428955078125 1425.2708740234375,3091.974365234375 1413.149658203125,3115.004638671875 1387.695068359375,3105.307861328125 1373.149658203125,2906.519775390625 1341.634521484375,2820.459228515625 1325.876953125,2637.428955078125 1401.028564453125,2609.55029296875 1421.634521484375,2404.70166015625 1469.5133056640625,2411.974365234375 1460.42236328125,2608.338134765625 1461.634521484375,2608.338134765625\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "e0d904ba-48f2-4cab-864a-f3b2d3686f37.json",
+    "motivation": "commenting"
+}
