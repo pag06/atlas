@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0044"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "[...] (L664 Luxey)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-18T18:20:24.381Z",
+            "modified": "2023-09-18T18:20:34.765Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L664",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-18T18:20:38.642Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C31",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-18T18:20:42.195Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0044",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1810.81494140625,674.9630126953125 2223.85205078125,677.4815063476562 2238.963134765625,680 2223.85205078125,1465.77783203125 1911.5556640625,1455.7037353515625\"></polygon></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "3df4c82a-e91b-40b3-9823-a43bee34a3ac.json",
+    "motivation": "commenting"
+}
