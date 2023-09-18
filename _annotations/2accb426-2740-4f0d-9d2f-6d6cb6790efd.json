@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0045"
+order: 7
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "[...] L548 St Vivien",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-18T18:16:34.383Z",
+            "modified": "2023-09-18T18:16:45.204Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L548",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-18T18:16:49.026Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C32",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-18T18:16:50.826Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0045",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1635.3519287109375,1582.9805908203125 1653.53369140625,1901.1624755859375 2085.351806640625,2068.43505859375 2215.351806640625,1949.34423828125 2146.260986328125,1530.25341796875 2015.3519287109375,1550.25341796875 1986.260986328125,1546.6170654296875\"></polygon></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "2accb426-2740-4f0d-9d2f-6d6cb6790efd.json",
+    "motivation": "commenting"
+}
