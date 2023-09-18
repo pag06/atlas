@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0044"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "[...] (L615N Mazerolles)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-18T18:21:33.441Z",
+            "modified": "2023-09-18T18:21:46.294Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L615N",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-18T18:21:56.710Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C31",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-18T18:22:29.666Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0044",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"977.1852416992188,508.7407531738281 1115.7037353515625,455.85186767578125 1367.5556640625,450.8148498535156 1473.3333740234375,405.48150634765625 1687.407470703125,541.4815063476562 1669.77783203125,828.5926513671875 1463.2593994140625,994.8148803710938 1397.77783203125,1027.5556640625 1176.148193359375,959.5556030273438 984.7407836914062,939.407470703125\"></polygon></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "d4b72a55-4dce-4a64-bec9-6e722af1d318.json",
+    "motivation": "commenting"
+}
