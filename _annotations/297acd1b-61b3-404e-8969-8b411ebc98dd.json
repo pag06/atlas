@@ -3,71 +3,87 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0045"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Bol, assiette \u00e0 soupe (L658NO, [...] L657NE), pot \u00e0 r\u00e9sine (L664) pos\u00e9 en \u00e9quilibre sur une galle de chpene ([...] L657NE, [...] L658NO, [...] L664) ou sur une noix creuse (L668SO), pi\u00e8ge \u00e0 souris. N'a pas de nom sp\u00e9cial.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-18T18:04:42.573Z",
-            "modified": "2023-09-18T18:06:52.557Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L668SO",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-18T18:07:04.682Z"
+            "modified": "2023-09-18T18:06:52.557Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Bol, assiette \u00e0 soupe (L658NO, [...] L657NE), pot \u00e0 r\u00e9sine (L664) pos\u00e9 en \u00e9quilibre sur une galle de chpene ([...] L657NE, [...] L658NO, [...] L664) ou sur une noix creuse (L668SO), pi\u00e8ge \u00e0 souris. N'a pas de nom sp\u00e9cial."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L664",
+            "created": "2023-09-18T18:07:04.682Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-18T18:07:10.770Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L668SO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L657NE",
+            "created": "2023-09-18T18:07:10.770Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-18T18:07:15.320Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L664"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L658NO",
+            "created": "2023-09-18T18:07:15.320Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-18T18:07:24.201Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L657NE"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C32",
+            "created": "2023-09-18T18:07:24.201Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-18T18:07:30.284Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L658NO"
+        },
+        {
+            "created": "2023-09-18T18:07:30.284Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C32"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7667",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-19T19:23:34.243Z"
         }
     ],
+    "id": "297acd1b-61b3-404e-8969-8b411ebc98dd.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1276.888916015625,828.5926513671875 1522.4444580078125,1070.370361328125 1331.037109375,1197.5556640625 1273.1112060546875,1134.5926513671875 1089.25927734375,1123.25927734375 1135.8519287109375,931.8518676757812\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
@@ -75,13 +91,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0045",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1276.888916015625,828.5926513671875 1522.4444580078125,1070.370361328125 1331.037109375,1197.5556640625 1273.1112060546875,1134.5926513671875 1089.25927734375,1123.25927734375 1135.8519287109375,931.8518676757812\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "297acd1b-61b3-404e-8969-8b411ebc98dd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
