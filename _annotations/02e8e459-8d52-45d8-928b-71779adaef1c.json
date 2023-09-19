@@ -3,61 +3,77 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0143"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Outil des gemmeurs de pins.\nServent \u00e0 pratiquer la saign\u00e9e par o\u00f9 coule la r\u00e9sine\nIV [...] L681N, [...] L664, [...] L675N : pour placer la goutti\u00e8re \u00e0 r\u00e9sine\nIV\" [...]\nIV' sert pour les pins inclin\u00e9s",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-19T05:55:23.629Z",
-            "modified": "2023-09-19T05:58:02.280Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L681N",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-19T05:58:06.946Z"
+            "modified": "2023-09-19T05:58:02.280Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Outil des gemmeurs de pins.\nServent \u00e0 pratiquer la saign\u00e9e par o\u00f9 coule la r\u00e9sine\nIV [...] L681N, [...] L664, [...] L675N : pour placer la goutti\u00e8re \u00e0 r\u00e9sine\nIV\" [...]\nIV' sert pour les pins inclin\u00e9s"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L664",
+            "created": "2023-09-19T05:58:06.946Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-19T05:58:09.474Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L681N"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L675N",
+            "created": "2023-09-19T05:58:09.474Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-19T05:58:13.714Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L664"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C130",
+            "created": "2023-09-19T05:58:13.714Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-19T05:58:17.280Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L675N"
+        },
+        {
+            "created": "2023-09-19T05:58:17.280Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C130"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5442",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-19T19:25:37.681Z"
         }
     ],
+    "id": "02e8e459-8d52-45d8-928b-71779adaef1c.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"659.07080078125,442.6731262207031 1123.48681640625,421.1723937988281 1119.1866455078125,507.17535400390625 1039.6339111328125,541.5765380859375 1093.3857421875,698.531982421875 1297.642822265625,765.1842651367188 1267.5418701171875,1100.5958251953125 856.8776245117188,1061.89453125 620.3694458007812,803.8856201171875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
@@ -65,13 +81,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0143",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"659.07080078125,442.6731262207031 1123.48681640625,421.1723937988281 1119.1866455078125,507.17535400390625 1039.6339111328125,541.5765380859375 1093.3857421875,698.531982421875 1297.642822265625,765.1842651367188 1267.5418701171875,1100.5958251953125 856.8776245117188,1061.89453125 620.3694458007812,803.8856201171875\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "02e8e459-8d52-45d8-928b-71779adaef1c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
