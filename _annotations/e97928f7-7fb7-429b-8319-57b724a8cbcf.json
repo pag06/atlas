@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0044"
+order: 5
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "[...] (L664 Luxey)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-19T05:39:42.808Z",
+            "modified": "2023-09-19T05:39:57.995Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L664",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-19T05:40:01.012Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C32",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-19T05:40:02.807Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0044",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1592.775390625,1272.02880859375 1598.9547119140625,1560.39501953125 1870.8427734375,1560.39501953125 1856.424560546875,1463.5863037109375 2231.300537109375,1465.6461181640625 2243.6591796875,691.1768798828125 1829.647705078125,707.6549682617188 1831.7073974609375,870.3759155273438 1874.9622802734375,1243.192138671875 1813.1695556640625,1257.6104736328125 1802.870849609375,1272.02880859375 1613.373046875,1263.789794921875\"></polygon></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "e97928f7-7fb7-429b-8319-57b724a8cbcf.json",
+    "motivation": "commenting"
+}
