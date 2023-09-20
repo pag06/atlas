@@ -3,50 +3,57 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0348"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Araire \u00e0 timon s\u00e9par\u00e9 : enti\u00e8rement en bois (sauf le soc), il est rest\u00e9 jusque vers 1900 le seul instrument de labour. Il a disparu, ou tout au moins il n'est plus gu\u00e8re employ\u00e9 dans la Basse Ard\u00e8che et le Rouergue ; ailleurs il reste en usage pour certains travaux.",
+            "created": "2023-09-20T06:52:10.019Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "created": "2023-09-20T06:52:10.019Z"
+            "type": "TextualBody",
+            "value": "Araire \u00e0 timon s\u00e9par\u00e9 (ensemble) : enti\u00e8rement en bois (sauf le soc), il est rest\u00e9 jusque vers 1900 le seul instrument de labour. Il a disparu, ou tout au moins il n'est plus gu\u00e8re employ\u00e9 dans la Basse Ard\u00e8che et le Rouergue ; ailleurs il reste en usage pour certains travaux.",
+            "modified": "2023-09-20T06:55:55.949Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L12",
+            "created": "2023-09-20T06:52:15.063Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-20T06:52:15.063Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L12"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q354",
+            "created": "2023-09-20T06:52:16.872Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-20T06:52:16.872Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q354"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9975",
+            "created": "2023-09-20T06:52:19.158Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-20T06:52:19.158Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9975"
         }
     ],
+    "id": "a6be729a-13c1-4669-9632-67424d278ed4.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"365.33050537109375,577.6906127929688 370.8387145996094,846.4906005859375 1021.907470703125,870.7266235351562 1203.6778564453125,854.2020263671875 1393.710693359375,753.4020385742188 1401.9730224609375,381.59881591796875 1173.9337158203125,388.20867919921875 916.1500854492188,583.1987915039062 917.2517700195312,583.1987915039062\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -54,13 +61,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0348",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"365.33050537109375,577.6906127929688 370.8387145996094,846.4906005859375 1021.907470703125,870.7266235351562 1203.6778564453125,854.2020263671875 1393.710693359375,753.4020385742188 1401.9730224609375,381.59881591796875 1173.9337158203125,388.20867919921875 916.1500854492188,583.1987915039062 917.2517700195312,583.1987915039062\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a6be729a-13c1-4669-9632-67424d278ed4.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
