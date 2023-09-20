@@ -26,6 +26,26 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "L658NO"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2383",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-20T11:23:52.122Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C215",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-20T11:23:55.919Z"
         }
     ],
     "id": "841929e8-faff-446b-aacc-1531ba3baa8b.json",
@@ -39,7 +59,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1431.349853515625,1248.873046875 2219.53173828125,1265.2366943359375 2214.0771484375,1597.9639892578125 1886.8043212890625,1589.7821044921875 1886.8043212890625,1526.145751953125 1425.895263671875,1516.145751953125\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0228"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0228",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
