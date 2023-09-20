@@ -1,0 +1,68 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0143"
+order: 11
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Type de hache",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-20T11:38:35.202Z",
+            "modified": "2023-09-20T11:38:36.946Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-20T11:38:41.281Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5442",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-20T11:38:46.619Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C130",
+            "purpose": "tagging",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-20T11:38:48.636Z",
+            "modified": "2023-09-20T11:38:51.815Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0143",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1848.5926513671875,1846.0740966796875 1943.037109375,1794.4444580078125 2095.407470703125,1934.2222900390625 2109.25927734375,2085.33349609375 2203.703857421875,2176 2238.963134765625,2259.111328125 2135.703857421875,2327.111328125 2094.148193359375,2317.037109375 1940.5185546875,2065.185302734375\"></polygon></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "b355dfa6-d903-45f8-a1c6-c95b95d40da2.json",
+    "motivation": "commenting"
+}
