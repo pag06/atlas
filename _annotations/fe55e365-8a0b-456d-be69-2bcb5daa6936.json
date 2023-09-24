@@ -1,0 +1,66 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0063"
+order: 6
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Herse cadre et traverses en bois, pointes en fer",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-24T18:23:38.659Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5506",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-24T18:23:42.625Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C272",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-24T18:23:44.223Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L668SO",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-24T18:23:54.310Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0063",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"150.48507690429688,1897.6978759765625 1346.1392822265625,1947.2738037109375 1045.767578125,2766.734375 103.82540893554688,2647.1689453125\"></polygon></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "fe55e365-8a0b-456d-be69-2bcb5daa6936.json",
+    "motivation": "commenting"
+}
