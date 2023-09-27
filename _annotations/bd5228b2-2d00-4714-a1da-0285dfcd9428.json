@@ -1,0 +1,67 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0114"
+order: 12
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Transport de la vendange",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-27T05:36:00.200Z",
+            "modified": "2023-09-27T05:36:12.594Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L668SO",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-27T05:36:17.692Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C326",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-27T05:36:43.071Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2531",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-27T05:36:49.011Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0114",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"104.34513092041016,3436.007568359375 104.34513092041016,2756.41796875 1046.50341796875,2524.73974609375 1329.665771484375,2632.856201171875 1329.665771484375,2735.82421875 1628.2733154296875,2849.089111328125 1545.8988037109375,3168.290283203125 1545.8988037109375,3281.555419921875 2621.915771484375,3585.311279296875 2560.134765625,3822.137939453125 2508.650634765625,3827.286376953125 1051.65185546875,3497.788330078125 289.687744140625,3544.1240234375\"></polygon></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "bd5228b2-2d00-4714-a1da-0285dfcd9428.json",
+    "motivation": "commenting"
+}
