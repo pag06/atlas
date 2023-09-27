@@ -7,33 +7,14 @@ order: 9
     "body": [
         {
             "type": "TextualBody",
-            "value": "Panier de vendange",
+            "value": "R\u00e9cipient pour le transport de la vendange",
             "purpose": "commenting",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-27T05:26:37.758Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C325",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-27T05:26:47.850Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7290",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-27T05:26:51.528Z"
+            "created": "2023-09-27T05:26:37.758Z",
+            "modified": "2023-09-27T05:31:15.496Z"
         },
         {
             "type": "TextualBody",
@@ -44,6 +25,26 @@ order: 9
                 "name": "Eulalie"
             },
             "created": "2023-09-27T05:30:20.164Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2531",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-27T05:31:27.337Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C326",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-27T05:31:29.430Z"
         }
     ],
     "target": {
