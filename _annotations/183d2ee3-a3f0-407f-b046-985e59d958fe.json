@@ -7,14 +7,14 @@ order: 1
     "body": [
         {
             "type": "TextualBody",
-            "value": "La courroie ([...]) L791) appuie sur le front du porteur. Se fixe aussi au b\u00e2t de l'\u00e2ne.",
+            "value": "Hotte faite de noisetier refendu : sert \u00e0 transporter pommes de terre, fumier, foin et aussi la terre des champs quand il faut la remonter du bas vers le haut. Les seuls moyens de transport sont ici la hotte et le traineau.\n\nLa courroie ([...]) L791) appuie sur le front du porteur. Se fixe aussi au b\u00e2t de l'\u00e2ne.",
             "purpose": "commenting",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
             "created": "2023-09-27T05:37:26.730Z",
-            "modified": "2023-09-27T05:38:08.405Z"
+            "modified": "2023-09-27T05:41:24.790Z"
         },
         {
             "type": "TextualBody",
@@ -35,6 +35,16 @@ order: 1
                 "name": "Eulalie"
             },
             "created": "2023-09-27T05:38:21.235Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5558",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-27T05:41:41.459Z"
         }
     ],
     "target": {
