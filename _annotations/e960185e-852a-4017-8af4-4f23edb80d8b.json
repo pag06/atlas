@@ -3,41 +3,57 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0048"
 order: 8
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Charrue\nAvant train \u00e0 roue invent\u00e9 par un Bethmalais, vers 1880, s'adaptant \u00e0 un araire de bois pour soulager les \u00e2nes substitu\u00e9 aux vaches \u00e0 ce moment-l\u00e0.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-22T04:38:51.696Z",
-            "modified": "2023-09-22T04:50:19.320Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L790S",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-22T04:38:59.316Z"
+            "modified": "2023-09-22T04:50:19.320Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charrue\nAvant train \u00e0 roue invent\u00e9 par un Bethmalais, vers 1880, s'adaptant \u00e0 un araire de bois pour soulager les \u00e2nes substitu\u00e9 aux vaches \u00e0 ce moment-l\u00e0."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2088",
+            "created": "2023-09-22T04:38:59.316Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-22T04:39:13.381Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L790S"
+        },
+        {
+            "created": "2023-09-22T04:39:13.381Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2088"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C260",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-28T06:18:08.361Z"
         }
     ],
+    "id": "e960185e-852a-4017-8af4-4f23edb80d8b.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"907.4120483398438,1324.6722412109375 983.0744018554688,1484.40380859375 1072.748291015625,2014.0400390625 921.423583984375,2213.00390625 742.0758666992188,2078.4931640625 557.12353515625,2039.2607421875 596.3558349609375,1798.2623291015625 786.9127807617188,1349.8929443359375\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -45,13 +61,7 @@ order: 8
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0048",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"907.4120483398438,1324.6722412109375 983.0744018554688,1484.40380859375 1072.748291015625,2014.0400390625 921.423583984375,2213.00390625 742.0758666992188,2078.4931640625 557.12353515625,2039.2607421875 596.3558349609375,1798.2623291015625 786.9127807617188,1349.8929443359375\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e960185e-852a-4017-8af4-4f23edb80d8b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
