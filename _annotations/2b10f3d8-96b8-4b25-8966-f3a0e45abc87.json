@@ -1,0 +1,66 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0126"
+order: 7
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Faux",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-28T06:48:46.247Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L771NO",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-28T06:48:50.307Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C336",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-28T06:48:51.942Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4474",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-28T06:48:54.075Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0126",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1725.6168212890625,1511.2978515625 2020.1622314453125,1264.025146484375 2489.253173828125,1173.1160888671875 2627.43505859375,1398.570556640625 2587.43505859375,1493.1160888671875 2452.8896484375,1747.6614990234375 2456.52587890625,2038.570556640625 2641.98046875,2100.388671875 2641.98046875,2176.75244140625 2434.707763671875,2373.115966796875 2441.98046875,2627.661376953125 2605.61669921875,2664.025146484375 2605.61669921875,2780.388671875 2191.0712890625,2784.025146484375 2296.52587890625,2271.2978515625 2307.43505859375,1431.2978515625 2158.343994140625,1413.115966796875 1740.162353515625,1616.7523193359375\"></polygon></svg>"
+        }
+    },
+    "id": "2b10f3d8-96b8-4b25-8966-f3a0e45abc87.json",
+    "motivation": "commenting"
+}
