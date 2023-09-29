@@ -1,0 +1,67 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0138"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Charrette",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-29T05:50:51.709Z",
+            "modified": "2023-09-29T05:50:53.424Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L699NO",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-29T05:51:00.808Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C348",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-29T05:51:09.676Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2080",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-29T05:51:12.039Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0138",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2254.438720703125,109.75303649902344 3381.49462890625,105.20845794677734 3399.6728515625,255.1796112060547 3408.761962890625,782.3509521484375 2604.371337890625,727.8159790039062 2477.123046875,541.4881591796875 2245.349365234375,450.5965576171875\"></polygon></svg>"
+        }
+    },
+    "id": "315f6bf9-5cc6-4b9d-ae7c-31c7cc310919.json",
+    "motivation": "commenting"
+}
