@@ -1,0 +1,37 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0158"
+order: 5
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Char VI arri\u00e8re",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-30T07:39:42.638Z",
+            "modified": "2023-09-30T07:40:27.794Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0158",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"184.0034942626953,2964.3525390625 1271.14013671875,2980.39892578125 1487.76513671875,3229.116455078125 1243.05908203125,3718.52880859375 878.005859375,3734.574951171875 878.005859375,3818.818115234375 817.8322143554688,3850.91064453125 188.01507568359375,3883.003173828125\"></polygon></svg>"
+        }
+    },
+    "id": "01b3f38d-6303-473d-9662-f119ce655eba.json",
+    "motivation": "commenting"
+}
