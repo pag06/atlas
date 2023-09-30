@@ -8,13 +8,14 @@ order: 23
     "body": [
         {
             "type": "TextualBody",
-            "value": "Joug",
+            "value": "Joug\nLongueur : 182cm",
             "purpose": "commenting",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T08:22:48.458Z"
+            "created": "2023-09-30T08:22:48.458Z",
+            "modified": "2023-09-30T08:23:11.682Z"
         },
         {
             "type": "TextualBody",
