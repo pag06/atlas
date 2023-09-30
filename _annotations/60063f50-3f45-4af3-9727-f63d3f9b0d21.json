@@ -1,0 +1,37 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0165"
+order: 10
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Transport \u00e0 dos d'\u00e2ne. Se posent sur le [...] (pour fumier)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-30T07:56:06.736Z",
+            "modified": "2023-09-30T07:56:44.538Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0165",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1983.194580078125,3277.255615234375 2015.287109375,2831.970703125 2592.953857421875,2330.524169921875 3154.57421875,2298.431396484375 3363.176025390625,2723.658447265625 3415.32666015625,4119.68603515625 3030.21533203125,4051.489501953125 2717.3125,3891.0263671875 2580.919189453125,3401.614501953125 2131.622802734375,3473.82275390625\"></polygon></svg>"
+        }
+    },
+    "id": "60063f50-3f45-4af3-9727-f63d3f9b0d21.json",
+    "motivation": "commenting"
+}
