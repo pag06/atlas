@@ -8,24 +8,14 @@ order: 1
     "body": [
         {
             "type": "TextualBody",
-            "value": "Appel des poules",
+            "value": "Appel des poules\nOctobre 1953. \nTonom\u00e9trie et chronom\u00e9trie m\u00e9caniques des \u00e9l\u00e9ments vois\u00e9s.\nLes barres de s\u00e9paration sont proportionn\u00e9es \u00e0 la dur\u00e9e des silences",
             "purpose": "commenting",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
             "created": "2023-10-01T20:06:58.566Z",
-            "modified": "2023-10-01T20:07:01.585Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-01T20:07:17.659Z"
+            "modified": "2023-10-01T20:09:36.850Z"
         },
         {
             "type": "TextualBody",
@@ -36,6 +26,27 @@ order: 1
                 "name": "Eulalie"
             },
             "created": "2023-10-01T20:07:19.878Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L791O",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-01T20:07:48.758Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "M. Cultivatrice, 67ans, native.\nEnregistrement magn\u00e9tique transform\u00e9 en electrokymogramme",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-01T20:08:17.454Z",
+            "modified": "2023-10-01T20:08:47.381Z"
         }
     ],
     "target": {
