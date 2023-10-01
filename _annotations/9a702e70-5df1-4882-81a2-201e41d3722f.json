@@ -1,0 +1,66 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0214"
+order: 5
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "\u00c9table \u00e0 porcs",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-01T19:35:40.235Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L692SO",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-01T19:35:51.351Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C430",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-01T19:35:52.972Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q11837",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-01T19:35:55.070Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0214",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2107.55322265625,1951.630859375 3325.06591796875,1927.5614013671875 3335.094970703125,2729.876220703125 2550.83203125,2786.038330078125 2255.9814453125,2517.2626953125\"></polygon></svg>"
+        }
+    },
+    "id": "9a702e70-5df1-4882-81a2-201e41d3722f.json",
+    "motivation": "commenting"
+}
