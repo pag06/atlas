@@ -1,0 +1,67 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0108"
+order: 4
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Charpente complexe d\u2019un toit \u00e0 quadruple pente ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-04T12:24:12.284Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L650",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-04T12:24:17.139Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C669",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-04T12:24:20.477Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2072",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-04T12:24:24.332Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0108",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1209.6558837890625,828.9616088867188,1081.0255126953125,624.5221557617188"
+        }
+    },
+    "id": "bc987bb0-3253-427a-8fcc-d450dea238eb.json",
+    "motivation": "commenting"
+}
