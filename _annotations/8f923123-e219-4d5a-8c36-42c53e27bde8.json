@@ -1,0 +1,66 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0110"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Grande charpente de type basque (maison labourdine), dont l\u2019ampleur n\u2019a pas pu \u00eatre \u00e9voqu\u00e9e sur cette figure ; la perspective est partiellement fauss\u00e9e par la r\u00e9duction n\u00e9cessaire du croquis original ; \u00e0 Labastide-Castel-Amouroux (L647NO), nous avons pu relever le croquis d\u2019une charpente analogue, reposant comme celle-ci sur un plancher \u00e0 deux niveaux",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-04T12:37:04.273Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L691O",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-04T12:37:08.987Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C671",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-04T12:37:10.614Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2072",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-04T12:37:12.660Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0110",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"282.1,2051.8 768.8,2058.8 2260.5,2829.2 2271,3189.8 1027.9,3039.3 310.1,3039.3\"></polygon></svg>"
+        }
+    },
+    "id": "8f923123-e219-4d5a-8c36-42c53e27bde8.json",
+    "motivation": "commenting"
+}
