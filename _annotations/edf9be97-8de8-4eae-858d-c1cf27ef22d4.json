@@ -1,0 +1,67 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0115"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Lucarne et toit de [...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-05T06:07:54.124Z",
+            "modified": "2023-10-05T06:08:01.041Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L685",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-05T06:08:04.432Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C679",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-05T06:08:05.895Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10377",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-05T06:08:07.876Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0115",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1135.552490234375,768.6765747070312 1537.8463134765625,697.347900390625 1566.377685546875,820.033203125 1455.10498046875,1048.284912109375 1263.9442138671875,1099.6416015625 1164.083984375,1088.22900390625\"></polygon></svg>"
+        }
+    },
+    "id": "edf9be97-8de8-4eae-858d-c1cf27ef22d4.json",
+    "motivation": "commenting"
+}
