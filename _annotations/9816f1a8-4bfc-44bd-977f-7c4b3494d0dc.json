@@ -1,0 +1,56 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0094"
+order: 11
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Coiffure f\u00e9minine\nd'apr\u00e8s des sujets pris un jour de semaine en 1953",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-06T20:04:24.401Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L790S",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-06T20:04:28.124Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2446",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-06T20:04:31.087Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0094",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1700.0201416015625,3180.896484375 1711.0052490234375,2895.284423828125 1872.1197509765625,2543.76171875 2069.85302734375,2624.318603515625 2146.746826171875,3158.92626953125 2124.776611328125,3210.18994140625 1725.6519775390625,3232.16015625\"></polygon></svg>"
+        }
+    },
+    "id": "9816f1a8-4bfc-44bd-977f-7c4b3494d0dc.json",
+    "motivation": "commenting"
+}
