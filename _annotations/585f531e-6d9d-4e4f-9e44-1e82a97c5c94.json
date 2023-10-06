@@ -1,0 +1,56 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0176"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Gril \u00e0 m\u00e9ture",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-06T15:14:46.747Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-06T15:14:50.888Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5329",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-06T15:14:54.835Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0176",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1787.7890625,1021.9664306640625 2040.5162353515625,956.5119018554688 2025.974853515625,811.1795654296875 2129.607177734375,794.6936645507812 2153.24365234375,840.1482543945312 2171.42529296875,940.1482543945312 2275.061767578125,952.87548828125 2267.7890625,1140.148193359375 2176.8798828125,1118.330078125 2065.970703125,1034.6937255859375 1818.6981201171875,1081.9664306640625\"></polygon></svg>"
+        }
+    },
+    "id": "585f531e-6d9d-4e4f-9e44-1e82a97c5c94.json",
+    "motivation": "commenting"
+}
