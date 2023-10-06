@@ -1,0 +1,49 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0197"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Chauffe-lit",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-06T20:09:41.525Z",
+            "modified": "2023-10-06T20:09:43.731Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "L679SO",
+            "purpose": "tagging",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-06T20:09:46.027Z",
+            "modified": "2023-10-06T20:09:48.512Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0197",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1432.0689697265625,823.9422607421875,782.9527587890625,351.92706298828125"
+        }
+    },
+    "id": "ba59a499-a573-4d25-844d-613b7fa9201b.json",
+    "motivation": "commenting"
+}
