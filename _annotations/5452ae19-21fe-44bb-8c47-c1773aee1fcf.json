@@ -1,0 +1,68 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0166"
+order: 4
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Pot \u00e0 graisse",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-06T04:59:16.688Z",
+            "modified": "2023-10-06T04:59:20.936Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L699NO",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-06T04:59:25.202Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C733",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-06T04:59:26.255Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8116",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-06T04:59:28.015Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0166",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1704.3724365234375,1230.242919921875,496.1483154296875,413.7261962890625"
+        }
+    },
+    "id": "5452ae19-21fe-44bb-8c47-c1773aee1fcf.json",
+    "motivation": "commenting"
+}
