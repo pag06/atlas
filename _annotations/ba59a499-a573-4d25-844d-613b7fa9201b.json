@@ -8,14 +8,14 @@ order: 2
     "body": [
         {
             "type": "TextualBody",
-            "value": "Chauffe-lit",
+            "value": "Moine",
             "purpose": "commenting",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
             "created": "2023-10-06T20:09:41.525Z",
-            "modified": "2023-10-06T20:09:43.731Z"
+            "modified": "2023-10-06T20:10:25.948Z"
         },
         {
             "type": "TextualBody",
@@ -27,6 +27,16 @@ order: 2
             },
             "created": "2023-10-06T20:09:46.027Z",
             "modified": "2023-10-06T20:09:48.512Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2149",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-10-06T20:10:31.765Z"
         }
     ],
     "target": {
