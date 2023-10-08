@@ -4,40 +4,46 @@ order: 28
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Corbeille",
+            "created": "2023-10-06T20:26:23.330Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-06T20:26:23.330Z"
+            "type": "TextualBody",
+            "value": "Corbeille avec anses lat\u00e9rales",
+            "modified": "2023-10-08T15:58:28.218Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L643E",
+            "created": "2023-10-06T20:26:29.247Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T20:26:29.247Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L643E"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2618",
+            "created": "2023-10-06T20:26:30.812Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T20:26:30.812Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2618"
         }
     ],
+    "id": "b6a8720d-a211-4c91-9f8b-6fe9d3624185.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"474.4,2289.4 654.5,2269.8 899.6,2269.8 899.6,2494.4 899.6,2719.1 654.5,2719.1 491,2625.6 409.5,2494.4\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -45,12 +51,7 @@ order: 28
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0199",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"474.4,2289.4 654.5,2269.8 899.6,2269.8 899.6,2494.4 899.6,2719.1 654.5,2719.1 491,2625.6 409.5,2494.4\"></polygon></svg>"
         }
     },
-    "id": "b6a8720d-a211-4c91-9f8b-6fe9d3624185.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
