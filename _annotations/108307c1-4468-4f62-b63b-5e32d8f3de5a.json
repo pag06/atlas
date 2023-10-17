@@ -1,0 +1,66 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0348"
+order: 4
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Araire \u00e0 timon s\u00e9par\u00e9 (d\u00e9tail) : enti\u00e8rement en bois (sauf le soc), il est rest\u00e9 jusque vers 1900 le seul instrument de labour. Il a disparu, ou tout au moins il n'est plus gu\u00e8re employ\u00e9 dans la Basse Ard\u00e8che et le Rouergue ; ailleurs il reste en usage pour certains travaux.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-17T21:16:48.489Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L36",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-17T21:16:58.664Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q354",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-17T21:17:01.002Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9975",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-17T21:17:05.288Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0348",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"504.826171875,1148.7860107421875 507.0294494628906,1284.28759765625 650.7933349609375,1286.4908447265625 651.8949584960938,1408.221923828125 1136.0654296875,1631.3038330078125 1195.553955078125,1575.1202392578125 1256.6949462890625,1485.887451171875 1545.8751220703125,1287.5924072265625 1542.5703125,1228.1038818359375 1505.114501953125,1205.5203857421875 1363.0030517578125,1311.2777099609375 1353.0882568359375,1332.7596435546875 1234.1112060546875,1413.7301025390625 1141.5736083984375,1405.4678955078125 894.2555541992188,1266.661376953125 824.3014526367188,1153.1925048828125\"></polygon></svg>"
+        }
+    },
+    "id": "108307c1-4468-4f62-b63b-5e32d8f3de5a.json",
+    "motivation": "commenting"
+}
