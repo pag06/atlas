@@ -3,51 +3,57 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0348"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Araire \u00e0 timon s\u00e9par\u00e9 (d\u00e9tail) : enti\u00e8rement en bois (sauf le soc), il est rest\u00e9 jusque vers 1900 le seul instrument de labour. Il a disparu, ou tout au moins il n'est plus gu\u00e8re employ\u00e9 dans la Basse Ard\u00e8che et le Rouergue ; ailleurs il reste en usage pour certains travaux.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-09-20T06:56:53.078Z",
-            "modified": "2023-09-20T06:56:58.558Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L12",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-20T06:57:05.729Z"
+            "modified": "2023-09-20T06:56:58.558Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Araire \u00e0 timon s\u00e9par\u00e9 (d\u00e9tail) : enti\u00e8rement en bois (sauf le soc), il est rest\u00e9 jusque vers 1900 le seul instrument de labour. Il a disparu, ou tout au moins il n'est plus gu\u00e8re employ\u00e9 dans la Basse Ard\u00e8che et le Rouergue ; ailleurs il reste en usage pour certains travaux."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q354",
+            "created": "2023-09-20T06:57:05.729Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-20T06:57:14.704Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L12"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9975",
+            "created": "2023-09-20T06:57:14.704Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-20T06:57:18.417Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q354"
+        },
+        {
+            "created": "2023-09-20T06:57:18.417Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9975"
         }
     ],
+    "id": "b93fdd43-2c60-483b-a67a-71100a75e420.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1456.0003662109375,912.779296875 1457.10205078125,1221.23828125 1796.4068603515625,1220.1365966796875 2244.22314453125,1054.8907470703125 2353.285400390625,1056.543212890625 2437.560791015625,962.35302734375 2437.560791015625,803.7169799804688 2569.757568359375,803.7169799804688 2566.45263671875,301.3695373535156 2163.252685546875,309.6318359375 1989.7445068359375,572.3727416992188 1842.6756591796875,575.6776733398438 1842.6756591796875,575.6776733398438\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -55,13 +61,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0348",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1456.0003662109375,912.779296875 1457.10205078125,1221.23828125 1796.4068603515625,1220.1365966796875 2244.22314453125,1054.8907470703125 2353.285400390625,1056.543212890625 2437.560791015625,962.35302734375 2437.560791015625,803.7169799804688 2569.757568359375,803.7169799804688 2566.45263671875,301.3695373535156 2163.252685546875,309.6318359375 1989.7445068359375,572.3727416992188 1842.6756591796875,575.6776733398438 1842.6756591796875,575.6776733398438\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b93fdd43-2c60-483b-a67a-71100a75e420.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
