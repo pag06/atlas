@@ -8,34 +8,34 @@ order: 2
         {
             "created": "2023-07-27T16:23:37.531Z",
             "creator": {
-                "id": "sf7320",
-                "name": "Serena"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-27T16:24:00.790Z",
+            "modified": "2023-10-18T13:57:26.213Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "la tari\u00e8re"
+            "value": "Tari\u00e8re (outil du charron)"
         },
         {
-            "created": "2023-07-27T16:23:54.483Z",
-            "creator": {
-                "id": "sf7320",
-                "name": "Serena"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "C1739"
-        },
-        {
-            "type": "TextualBody",
-            "value": "L29",
-            "purpose": "tagging",
+            "created": "2023-07-28T07:23:40.505Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-07-28T07:23:40.505Z",
-            "modified": "2023-07-28T07:23:41.083Z"
+            "modified": "2023-07-28T07:23:41.083Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L29"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C1736",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2023-10-18T13:57:12.456Z"
         }
     ],
     "id": "bbfce3b3-309f-4d80-a368-76b6da973dce.json",
@@ -49,7 +49,14 @@ order: 2
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1282.7,3490 1334.5,3462.8 1479,3749.1 1481,3903.1 1270.9,3902.8 1214.5,3489.1\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0255"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0255",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
