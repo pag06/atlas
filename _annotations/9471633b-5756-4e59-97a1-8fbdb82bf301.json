@@ -3,42 +3,45 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0083"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Chapeau - chapeaux ; petit chapeau",
-            "purpose": "commenting",
+            "created": "2023-07-27T09:50:06.357Z",
             "creator": {
                 "id": "sf7320",
                 "name": "Serena"
             },
-            "created": "2023-07-27T09:50:06.357Z",
-            "modified": "2023-07-27T09:50:24.950Z"
+            "modified": "2023-07-27T09:50:24.950Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Chapeau - chapeaux ; petit chapeau"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2030",
+            "created": "2023-07-27T09:50:32.479Z",
             "creator": {
                 "id": "sf7320",
                 "name": "Serena"
             },
-            "created": "2023-07-27T09:50:32.479Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2030"
         }
     ],
+    "id": "9471633b-5756-4e59-97a1-8fbdb82bf301.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0083",
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0083",
+            "type": "Canvas"
+        },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"942.9007568359375,1005.3338012695312 1160.343505859375,1078.6156005859375 1295.043701171875,1084.3594970703125 1332.210205078125,1584.4176025390625 868.1923217773438,1641.856689453125 797.2381591796875,1102.379638671875\"></polygon></svg>"
-        },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
-            "type": "Manifest"
+            "value": "<svg><polygon points=\"942.9,1005.3 1160.3,1078.6 1295,1084.4 1322.8,1631.4 828.4,1631.4 797.2,1102.4\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9471633b-5756-4e59-97a1-8fbdb82bf301.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
