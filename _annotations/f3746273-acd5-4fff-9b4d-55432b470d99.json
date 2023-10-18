@@ -5,7 +5,39 @@ order: 3
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "type": "Annotation",
-    "body": [],
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Herminette (outil du charron)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2023-10-18T13:56:09.459Z",
+            "modified": "2023-10-18T13:56:43.838Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C1734",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2023-10-18T13:56:18.034Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L29",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2023-10-18T13:56:25.874Z"
+        }
+    ],
     "target": {
         "source": {
             "partOf": {
