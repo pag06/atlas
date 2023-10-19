@@ -4,9 +4,86 @@ order: 14
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
-    "body": [],
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Araire \u00e0 timon s\u00e9par\u00e9 :\na. le manche\nf. la cha\u00eene\ng. le timon \nh. la boucle\ni. la cheville",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-19T17:48:40.751Z",
+            "modified": "2023-10-19T17:53:50.300Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L23",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-19T17:49:50.366Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6273",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-19T17:50:29.657Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1902",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-19T17:52:07.151Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9975",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-19T17:52:35.517Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1317",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-19T17:53:35.987Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2243",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-19T17:54:01.285Z"
+        }
+    ],
+    "id": "94e7edb6-33fa-48e1-9f14-458245ddff75.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1193,3208.1 1616,3292.9 1621.5,3456.5 1695.9,3448.3 2143.7,3395.4 2147,3342.5 2160.2,3124.4 1909,3119.4 1775.2,3188.8 1205.1,3147.5\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -14,12 +91,7 @@ order: 14
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0348",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1193,3208.1 1616,3292.9 1621.5,3456.5 1695.9,3448.3 2143.7,3395.4 2147,3342.5 2160.2,3124.4 1909,3119.4 1775.2,3188.8 1205.1,3147.5\"></polygon></svg>"
         }
     },
-    "id": "94e7edb6-33fa-48e1-9f14-458245ddff75.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
