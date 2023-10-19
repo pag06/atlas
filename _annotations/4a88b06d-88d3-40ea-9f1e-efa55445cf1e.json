@@ -4,40 +4,41 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Araire avec age-timon (vu d'arri\u00e8re)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-10-19T18:23:44.891Z",
-            "modified": "2023-10-19T18:24:13.331Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L39",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-19T18:23:58.027Z"
+            "modified": "2023-10-19T18:24:13.331Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Araire avec age-timon (vu d'arri\u00e8re)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q354",
+            "created": "2023-10-19T18:23:58.027Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-19T18:24:00.611Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L39"
+        },
+        {
+            "created": "2023-10-19T18:24:00.611Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q354"
         }
     ],
+    "id": "4a88b06d-88d3-40ea-9f1e-efa55445cf1e.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -49,9 +50,8 @@ order: 3
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1609.26708984375,905.4920654296875 1834.0015869140625,1263.5247802734375 1903.95556640625,1266.8297119140625 2054.329345703125,1230.4755859375 2551.719482421875,942.94775390625 2556.6767578125,858.67236328125 2523.627685546875,848.7576293945312 1970.053955078125,1052.010009765625 1685.8310546875,848.7576293945312\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1609.3,905.5 1834,1263.5 1904,1266.8 2054.3,1230.5 2551.7,942.9 2556.7,858.7 2523.6,848.8 1899,1075.1 1685.8,848.8\"></polygon></svg>"
         }
     },
-    "id": "4a88b06d-88d3-40ea-9f1e-efa55445cf1e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
