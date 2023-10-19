@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0349"
+order: 6
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Araire avec timon s\u00e9par\u00e9",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-19T18:27:53.802Z",
+            "modified": "2023-10-19T18:28:00.157Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L38",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-19T18:28:04.482Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q354",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-19T18:28:06.907Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0349",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2033.053955078125,1990.338623046875 2150.92919921875,1998.050048828125 2421.9326171875,1960.0435791015625 2611.96533203125,1842.718994140625 2616.922607421875,1786.535400390625 2564.594970703125,1772.764892578125 2144.870361328125,1822.338623046875 1682.181884765625,1815.7288818359375 1574.7720947265625,1855.3878173828125 1579.180908203125,1886.227783203125 1657.94580078125,1915.97802734375\"></polygon></svg>"
+        }
+    },
+    "id": "0750df1d-b4b5-4c39-9f5d-ef2fa3d3680d.json",
+    "motivation": "commenting"
+}
