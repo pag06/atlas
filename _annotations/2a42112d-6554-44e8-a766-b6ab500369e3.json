@@ -4,41 +4,46 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Araire avec timon s\u00e9par\u00e9",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-10-19T18:26:45.356Z",
-            "modified": "2023-10-19T18:26:55.377Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L38",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-19T18:26:59.788Z"
+            "modified": "2023-10-19T18:33:54.344Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Araire avec age-timon "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q354",
+            "created": "2023-10-19T18:26:59.788Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-19T18:27:01.506Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L38"
+        },
+        {
+            "created": "2023-10-19T18:27:01.506Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q354"
         }
     ],
+    "id": "2a42112d-6554-44e8-a766-b6ab500369e3.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1587.1,1460.5 1782,1609.3 1908.7,1608.7 2546.6,1460 2551.5,1403.8 2469.5,1371.3 1927.5,1430.8 1785.4,1470.5 1633.3,1420.9\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -46,12 +51,7 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0349",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1587.1,1460.5 1782,1609.3 1908.7,1608.7 2546.6,1460 2551.5,1403.8 2469.5,1371.3 1927.5,1430.8 1785.4,1470.5 1633.3,1420.9\"></polygon></svg>"
         }
     },
-    "id": "2a42112d-6554-44e8-a766-b6ab500369e3.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
