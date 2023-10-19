@@ -27,15 +27,15 @@ order: 1
             "value": "L39"
         },
         {
-            "type": "TextualBody",
-            "value": "Q354",
-            "purpose": "tagging",
+            "created": "2023-10-19T18:20:25.525Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-19T18:20:25.525Z",
-            "modified": "2023-10-19T18:20:26.318Z"
+            "modified": "2023-10-19T18:20:26.318Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q354"
         }
     ],
     "id": "af0f93b0-dcc4-451d-926c-38da851a9992.json",
