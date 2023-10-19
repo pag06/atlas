@@ -4,30 +4,35 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Araire \u00e0 timon s\u00e9par\u00e9 (d\u00e9tail et arri\u00e8re) : enti\u00e8rement en bois (sauf le soc), il est rest\u00e9 jusque vers 1900 le seul instrument de labour. Il a disparu, ou tout au moins il n'est plus gu\u00e8re employ\u00e9 dans la Basse Ard\u00e8che et le Rouergue ; ailleurs il reste en usage pour certains travaux.",
-            "purpose": "commenting",
+            "created": "2023-10-19T17:14:00.950Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-19T17:14:00.950Z"
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Araire \u00e0 timon s\u00e9par\u00e9 (d\u00e9tail et arri\u00e8re) : enti\u00e8rement en bois (sauf le soc), il est rest\u00e9 jusque vers 1900 le seul instrument de labour. Il a disparu, ou tout au moins il n'est plus gu\u00e8re employ\u00e9 dans la Basse Ard\u00e8che et le Rouergue ; ailleurs il reste en usage pour certains travaux."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L36",
+            "created": "2023-10-19T17:15:58.726Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-19T17:15:58.726Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L36"
         }
     ],
+    "id": "8ea9bc20-c7d9-491e-a8b6-bfdceb3cf462.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1665.0296630859375,1337.3197021484375 1669.4364013671875,1509.1754150390625 1893.0689697265625,1513.5819091796875 2544.137939453125,1232.6639404296875 2712.688720703125,1011.2344360351562 2696.1640625,945.1361083984375 2639.98046875,935.2213134765625 2402.0263671875,1021.149169921875 2187.206787109375,1040.978759765625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -35,12 +40,7 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0348",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1665.0296630859375,1337.3197021484375 1669.4364013671875,1509.1754150390625 1893.0689697265625,1513.5819091796875 2544.137939453125,1232.6639404296875 2712.688720703125,1011.2344360351562 2696.1640625,945.1361083984375 2639.98046875,935.2213134765625 2402.0263671875,1021.149169921875 2187.206787109375,1040.978759765625\"></polygon></svg>"
         }
     },
-    "id": "8ea9bc20-c7d9-491e-a8b6-bfdceb3cf462.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
