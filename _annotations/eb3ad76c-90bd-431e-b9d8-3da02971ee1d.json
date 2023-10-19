@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0349"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Araire avec age-timon (ensemble)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-19T18:22:12.329Z",
+            "modified": "2023-10-19T18:22:30.964Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L39",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-19T18:22:37.107Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q354",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-19T18:22:39.338Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0349",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1636.8372802734375,547.3580932617188 1637.93896484375,798.5317993164062 1924.3651123046875,795.2268676757812 1962.3717041015625,705.994140625 2325.91259765625,590.322021484375 2625.007568359375,428.38104248046875 2631.617431640625,388.7220458984375 2619.499267578125,368.8925476074219 2581.492919921875,367.2400817871094 2287.355224609375,520.9187622070312 1846.148681640625,663.0302124023438 1704.0372314453125,550.6630249023438\"></polygon></svg>"
+        }
+    },
+    "id": "eb3ad76c-90bd-431e-b9d8-3da02971ee1d.json",
+    "motivation": "commenting"
+}
