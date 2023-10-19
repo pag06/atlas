@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0349"
+order: 4
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Araire avec age-timon (vu d'arri\u00e8re)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-19T18:25:41.308Z",
+            "modified": "2023-10-19T18:25:58.610Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L38",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-19T18:26:02.212Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q354",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-19T18:26:04.007Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0349",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"429.23565673828125,1374.61767578125 429.23565673828125,1434.106201171875 787.8192138671875,1711.71923828125 948.1077270507812,1746.4208984375 1070.3896484375,1719.4307861328125 1485.15673828125,1299.706298828125 1457.06494140625,1225.3455810546875 1407.4912109375,1230.302978515625 911.7536010742188,1472.11279296875 520.120849609375,1358.0931396484375\"></polygon></svg>"
+        }
+    },
+    "id": "cb57a798-b426-4db0-8f87-a50d757793c0.json",
+    "motivation": "commenting"
+}
