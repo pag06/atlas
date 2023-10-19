@@ -4,21 +4,46 @@ order: 9
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Araire \u00e0 timon s\u00e9par\u00e9 ",
-            "purpose": "commenting",
+            "created": "2023-10-19T18:32:47.787Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-19T18:32:47.787Z",
-            "modified": "2023-10-19T18:32:54.962Z"
+            "modified": "2023-10-19T18:37:16.328Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Araire avec age-timon (ensemble)"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L33",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-19T18:34:52.885Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q354",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-19T18:34:55.362Z"
         }
     ],
+    "id": "042cfdd4-b1f8-4090-a0d1-cd927e822f8e.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"387.1,2695.1 908.9,2963 907.1,2989.7 905.2,3015.1 999.8,3044.2 1098,3037 1258,2895.1 1232.5,2858.8 1170.7,2851.5 1032.5,2913.3 425.2,2626\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -26,12 +51,7 @@ order: 9
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0349",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"387.1,2695.1 908.9,2963 907.1,2989.7 905.2,3015.1 999.8,3044.2 1098,3037 1258,2895.1 1232.5,2858.8 1170.7,2851.5 1032.5,2913.3 425.2,2626\"></polygon></svg>"
         }
     },
-    "id": "042cfdd4-b1f8-4090-a0d1-cd927e822f8e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
