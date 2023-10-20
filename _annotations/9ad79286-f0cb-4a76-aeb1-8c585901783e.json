@@ -41,6 +41,10 @@ order: 1
     "id": "9ad79286-f0cb-4a76-aeb1-8c585901783e.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"676.9,1648.1 612.4,2035.3 627.8,2524.4 975.1,2524.4 851.4,1764.4 795.1,1648.1\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -48,10 +52,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0144",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"676.9,1648.1 612.4,2035.3 627.8,2524.4 975.1,2524.4 851.4,1764.4 795.1,1648.1\"></polygon></svg>"
         }
     },
     "type": "Annotation"
