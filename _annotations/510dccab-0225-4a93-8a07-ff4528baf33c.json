@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-07-27T10:08:51.911Z",
             "creator": {
-                "id": "sf7320",
-                "name": "Serena"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-27T10:08:58.510Z",
+            "modified": "2023-10-20T10:46:37.948Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "L'arbre fourchu"
+            "value": "L'arbre fourchu.\nC'est tenir l'\u00e9quilibre \u00e0 la verticale, la t\u00eate en bas et les pieds en haut."
         },
         {
             "created": "2023-07-27T10:09:12.474Z",
@@ -30,6 +30,10 @@ order: 2
     "id": "510dccab-0225-4a93-8a07-ff4528baf33c.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2352.7,3110.3 2280.9,3645.5 2135.7,3705.8 2135.7,3864.9 2653.9,3864.9 2653.9,3691.2 2473.9,3110.3\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -37,10 +41,6 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0142",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2352.7,3110.3 2280.9,3645.5 2135.7,3705.8 2135.7,3864.9 2653.9,3864.9 2653.9,3691.2 2473.9,3110.3\"></polygon></svg>"
         }
     },
     "type": "Annotation"
