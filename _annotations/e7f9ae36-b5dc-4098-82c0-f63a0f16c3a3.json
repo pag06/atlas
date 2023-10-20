@@ -11,10 +11,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2023-10-20T10:34:00.338Z",
+            "modified": "2023-10-20T10:35:47.425Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Faire la culbute"
+            "value": "La culbute sur gazon (position terminale)"
         },
         {
             "created": "2023-10-20T10:34:06.056Z",
@@ -30,6 +30,13 @@ order: 2
     "id": "e7f9ae36-b5dc-4098-82c0-f63a0f16c3a3.json",
     "motivation": "commenting",
     "target": {
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2452.996826171875,3845.7294921875 2441.1787109375,3221.18408203125 1793.3622052226833,3233.4425503359844 1805.1803204570583,3857.9879604922344\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -37,13 +44,6 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0141",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2452.996826171875,3845.7294921875 2441.1787109375,3221.18408203125 1793.3622052226833,3233.4425503359844 1805.1803204570583,3857.9879604922344\"></polygon></svg>"
-        },
-        "renderedVia": {
-            "name": "annotorious-tilted-box"
         }
     },
     "type": "Annotation"
