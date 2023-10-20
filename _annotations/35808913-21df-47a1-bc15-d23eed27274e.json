@@ -1,0 +1,47 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0141"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "La culbute sur gazon.\n- \u00e0 gauche : position initiale.\n- \u00e0 droite : position terminale.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2023-10-20T10:38:27.096Z",
+            "modified": "2023-10-20T10:38:45.371Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q3066",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2023-10-20T10:38:50.074Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0141",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1154.341064453125,3606.18408203125 1867.068359375,3229.8203125 2441.61376953125,3218.911376953125 2454.341064453125,3844.36572265625 1152.52294921875,3855.27490234375 1156.1593017578125,3715.27490234375\"></polygon></svg>"
+        }
+    },
+    "id": "35808913-21df-47a1-bc15-d23eed27274e.json",
+    "motivation": "commenting"
+}
