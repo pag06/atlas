@@ -27,15 +27,15 @@ order: 2
             "value": "Q369"
         },
         {
-            "type": "TextualBody",
-            "value": "C1512",
-            "purpose": "tagging",
+            "created": "2023-10-20T10:47:25.007Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-10-20T10:47:25.007Z",
-            "modified": "2023-10-20T10:47:25.813Z"
+            "modified": "2023-10-20T10:47:25.813Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1512"
         }
     ],
     "id": "510dccab-0225-4a93-8a07-ff4528baf33c.json",
