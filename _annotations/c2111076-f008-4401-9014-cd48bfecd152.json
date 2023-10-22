@@ -1,0 +1,47 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0349"
+order: 10
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Araire abandonn\u00e9 et d\u00e9sarticul\u00e9 (il manque le soc, l'age est dessin\u00e9 \u00e0 mi- longueur)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-22T22:44:58.490Z",
+            "modified": "2023-10-22T22:45:42.590Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L46",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-22T22:45:50.304Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0349",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1401.78466796875,2859.92919921875 1410.597900390625,2944.75537109375 2003.2796630859375,2899.037353515625 1991.7125244140625,2971.745361328125 2062.768310546875,2973.39794921875 2072.682861328125,2993.227294921875 2535.371337890625,3006.447021484375 2555.200927734375,2950.263427734375 2510.58447265625,2903.99462890625 2411.43701171875,2903.99462890625 2421.351806640625,2857.725830078125 2616.341796875,2738.748779296875 2617.994384765625,2699.08984375 2528.761474609375,2697.437255859375 2414.741943359375,2755.2734375 2204.879638671875,2751.968505859375\"></polygon></svg>"
+        }
+    },
+    "id": "c2111076-f008-4401-9014-cd48bfecd152.json",
+    "motivation": "commenting"
+}
