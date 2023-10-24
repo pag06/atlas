@@ -4,40 +4,41 @@ order: 13
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Ce qui reste d'un araire.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-10-24T21:21:11.805Z",
-            "modified": "2023-10-24T21:21:32.655Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L44",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-24T21:21:23.375Z"
+            "modified": "2023-10-24T21:21:32.655Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Ce qui reste d'un araire."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q354",
+            "created": "2023-10-24T21:21:23.375Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-24T21:21:28.574Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L44"
+        },
+        {
+            "created": "2023-10-24T21:21:28.574Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q354"
         }
     ],
+    "id": "2a8ed23b-1a7d-4dc0-8ae7-3b4597df0a41.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -49,9 +50,8 @@ order: 13
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1989.729248046875,3373.983154296875 1991.9326171875,3442.28466796875 2196.28662109375,3600.9208984375 2197.93896484375,3676.933837890625 2115.3291015625,3737.507568359375 2163.2373046875,3790.402587890625 2351.61767578125,3717.694580078125 2604.44384765625,3469.82568359375 2606.64697265625,3407.0322265625\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1991.9,3383.9 1991.9,3442.3 2196.3,3600.9 2197.9,3676.9 2115.3,3737.5 2163.2,3790.4 2351.6,3717.7 2604.4,3469.8 2608.3,3423.6\"></polygon></svg>"
         }
     },
-    "id": "2a8ed23b-1a7d-4dc0-8ae7-3b4597df0a41.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
