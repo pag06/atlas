@@ -4,40 +4,41 @@ order: 12
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Araire avec age-timon",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-10-24T21:20:10.201Z",
-            "modified": "2023-10-24T21:20:17.166Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L44",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-24T21:20:20.641Z"
+            "modified": "2023-10-24T21:20:17.166Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Araire avec age-timon"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q354",
+            "created": "2023-10-24T21:20:20.641Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-24T21:20:22.449Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L44"
+        },
+        {
+            "created": "2023-10-24T21:20:22.449Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q354"
         }
     ],
+    "id": "b9d4e0cc-2fba-46d9-851b-78cc51981e5d.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -49,9 +50,8 @@ order: 12
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1366.201416015625,3396.79052734375 1367.3031005859375,3467.29541015625 1556.234130859375,3537.24951171875 1557.8865966796875,3643.0068359375 1633.899658203125,3654.573974609375 1680.1685791015625,3649.61669921875 1904.9029541015625,3624.829833984375 1901.5980224609375,3472.803466796875 2339.49951171875,3122.482177734375 2327.932373046875,3092.738037109375 2278.902099609375,3088.33056640625 1738.555419921875,3397.34130859375\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1366.8,3407.6 1367.3,3467.3 1556.2,3537.2 1557.9,3643 1633.9,3654.6 1680.2,3649.6 1904.9,3624.8 1901.6,3472.8 2339.5,3122.5 2327.9,3092.7 2278.9,3088.3 1735.3,3412.5\"></polygon></svg>"
         }
     },
-    "id": "b9d4e0cc-2fba-46d9-851b-78cc51981e5d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
