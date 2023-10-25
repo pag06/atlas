@@ -11,10 +11,10 @@ order: 7
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "modified": "2023-10-25T15:04:08.400Z",
+            "modified": "2023-10-25T15:08:21.171Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Pioche"
+            "value": "Pioche et houe ou b\u00eache ?"
         },
         {
             "created": "2023-10-25T15:04:30.942Z",
@@ -50,6 +50,10 @@ order: 7
     "id": "99947047-d2bd-4be8-a3d8-228d6a37b214.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"397.3,2138.7 409.4,2879 900.7,2883.4 1060.2,2944.7 1146.1,2944.7 1215.2,2519.3 1253.5,2300.2 962.7,2240.7 792.2,2144.2 397.5,2138.3\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -57,10 +61,6 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0350",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"397.3,2138.7 409.4,2879 900.7,2883.4 1060.2,2944.7 1146.1,2944.7 1215.2,2519.3 1253.5,2300.2 962.7,2240.7 792.2,2144.2 397.5,2138.3\"></polygon></svg>"
         }
     },
     "type": "Annotation"
