@@ -4,40 +4,41 @@ order: 8
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "L\u00e9gende ?",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-10-25T15:11:03.984Z",
-            "modified": "2023-10-25T15:11:08.449Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L20",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-25T15:11:14.328Z"
+            "modified": "2023-10-25T15:11:08.449Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "L\u00e9gende ?"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q",
+            "created": "2023-10-25T15:11:14.328Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-25T15:11:16.573Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L20"
+        },
+        {
+            "created": "2023-10-25T15:11:16.573Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q"
         }
     ],
+    "id": "cf9b6092-cca9-4618-9277-dab3e24d9cb8.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -49,9 +50,8 @@ order: 8
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1210.95947265625,2585.68408203125 1202.1463623046875,2948.123291015625 1855.41845703125,2951.42822265625 1852.113525390625,2573.56591796875 1683.562744140625,2573.56591796875 1683.562744140625,2333.959228515625 1495.182373046875,2335.61181640625 1493.5299072265625,2543.821533203125 1212.6119384765625,2550.431396484375\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1204.3,2550.8 1202.1,2948.1 1855.4,2951.4 1852.1,2573.6 1683.6,2573.6 1683.6,2334 1495.2,2335.6 1493.5,2543.8 1212.6,2550.4\"></polygon></svg>"
         }
     },
-    "id": "cf9b6092-cca9-4618-9277-dab3e24d9cb8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
