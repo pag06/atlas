@@ -1,0 +1,58 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0351"
+order: 13
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "A quoi cela correspond -t-il ?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-25T15:39:01.143Z",
+            "modified": "2023-10-25T15:39:49.980Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L25",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-25T15:40:00.679Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q???",
+            "purpose": "tagging",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-10-25T15:40:01.465Z",
+            "modified": "2023-10-25T15:40:02.182Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0351",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1415.593994140625,3130.00048828125 1413.390625,3796.4921875 1800.0660400390625,3800.898681640625 1856.2496337890625,3766.197021484375 2076.026611328125,3767.849609375 2107.42333984375,3804.20361328125 2223.095458984375,3804.20361328125 2226.400390625,3100.25634765625 2038.02001953125,3095.298828125 2031.4102783203125,2816.033447265625 1911.8822021484375,2814.931640625 1895.357666015625,3105.764404296875\"></polygon></svg>"
+        }
+    },
+    "id": "216b4218-5e83-4bb5-a9d4-04ff5ec92180.json",
+    "motivation": "commenting"
+}
