@@ -4,41 +4,47 @@ order: 12
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le rouleau sert de socle au pilier du hangar, depuis 40 ans.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-11-03T20:58:06.433Z",
-            "modified": "2023-11-03T20:58:33.725Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L20",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-03T20:58:51.202Z"
+            "modified": "2023-11-03T20:58:33.725Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le rouleau sert de socle au pilier du hangar, depuis 40 ans."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-11-03T20:58:51.202Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-03T20:58:56.278Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L20"
+        },
+        {
+            "created": "2023-11-03T20:58:56.278Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q???"
         }
     ],
+    "id": "a144df52-dbd3-4461-9244-a40c673252cf.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1005.7250366210938,3036.986572265625,679.7114868164062,884.6162109375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -46,13 +52,7 @@ order: 12
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0352",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1005.7250366210938,3036.986572265625,679.7114868164062,884.6162109375"
         }
     },
-    "id": "a144df52-dbd3-4461-9244-a40c673252cf.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
