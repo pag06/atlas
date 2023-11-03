@@ -4,41 +4,47 @@ order: 7
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Rouleau",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-11-03T18:29:20.875Z",
-            "modified": "2023-11-03T18:29:22.209Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L35",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-03T18:29:26.046Z"
+            "modified": "2023-11-03T18:29:22.209Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Rouleau"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-11-03T18:29:26.046Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-03T18:29:37.244Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L35"
+        },
+        {
+            "created": "2023-11-03T18:29:37.244Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q???"
         }
     ],
+    "id": "f470f88c-0450-44ac-b293-73d1c9c354ba.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=387.779052734375,2391.2666015625,841.6524658203125,469.29833984375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -46,13 +52,7 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0352",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=387.779052734375,2391.2666015625,841.6524658203125,469.29833984375"
         }
     },
-    "id": "f470f88c-0450-44ac-b293-73d1c9c354ba.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
