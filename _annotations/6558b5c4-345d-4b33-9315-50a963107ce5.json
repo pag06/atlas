@@ -4,21 +4,47 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Aire de d\u00e9piquage",
-            "purpose": "commenting",
+            "created": "2023-11-03T18:18:36.724Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-03T18:18:36.724Z",
-            "modified": "2023-11-03T18:18:39.169Z"
+            "modified": "2023-11-03T18:18:39.169Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Aire de d\u00e9piquage"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L50",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-03T18:19:14.365Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-03T18:19:17.086Z"
         }
     ],
+    "id": "6558b5c4-345d-4b33-9315-50a963107ce5.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1552.804931640625,356.0412292480469,1144.603271484375,792.0787658691406"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -26,13 +52,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0352",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1552.804931640625,356.0412292480469,1144.603271484375,792.0787658691406"
         }
     },
-    "id": "6558b5c4-345d-4b33-9315-50a963107ce5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
