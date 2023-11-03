@@ -4,31 +4,57 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
+            "created": "2023-11-03T18:23:33.013Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "modified": "2023-11-03T18:24:58.449Z",
+            "purpose": "questioning",
             "type": "TextualBody",
-            "value": "L\u00e9gende ?",
+            "value": "?"
+        },
+        {
+            "created": "2023-11-03T18:23:43.299Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L12"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Pas de l\u00e9gende ?",
             "purpose": "commenting",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-03T18:23:33.013Z",
-            "modified": "2023-11-03T18:23:35.672Z"
+            "created": "2023-11-03T18:24:43.832Z",
+            "modified": "2023-11-03T18:24:49.827Z"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L12",
+            "value": "Q???",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-03T18:23:43.299Z"
+            "created": "2023-11-03T18:25:03.253Z"
         }
     ],
+    "id": "905cd169-f076-49f7-ae66-39436883b2d3.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1479.4371337890625,1314.8892822265625 1487.1485595703125,2223.74169921875 1647.43701171875,2223.74169921875 1668.9190673828125,2251.83349609375 1695.3583984375,2251.83349609375 1715.1878662109375,2236.961181640625 1837.4698486328125,2236.961181640625 1855.6468505859375,2258.443359375 1895.305908203125,2259.544921875 1781.2862548828125,1314.33837890625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -36,12 +62,7 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0352",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1479.4371337890625,1314.8892822265625 1487.1485595703125,2223.74169921875 1647.43701171875,2223.74169921875 1668.9190673828125,2251.83349609375 1695.3583984375,2251.83349609375 1715.1878662109375,2236.961181640625 1837.4698486328125,2236.961181640625 1855.6468505859375,2258.443359375 1895.305908203125,2259.544921875 1781.2862548828125,1314.33837890625\"></polygon></svg>"
         }
     },
-    "id": "905cd169-f076-49f7-ae66-39436883b2d3.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
