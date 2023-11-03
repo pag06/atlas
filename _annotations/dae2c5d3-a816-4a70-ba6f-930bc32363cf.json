@@ -4,41 +4,46 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Fl\u00e9aux",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-11-03T21:02:12.611Z",
-            "modified": "2023-11-03T21:02:14.378Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L25",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-03T21:02:17.632Z"
+            "modified": "2023-11-03T21:02:14.378Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Fl\u00e9aux"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4703",
+            "created": "2023-11-03T21:02:17.632Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-03T21:03:56.625Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L25"
+        },
+        {
+            "created": "2023-11-03T21:03:56.625Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4703"
         }
     ],
+    "id": "dae2c5d3-a816-4a70-ba6f-930bc32363cf.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"284.45831298828125,377.4424133300781 275.6452331542969,1657.5472412109375 400.13043212890625,1658.64892578125 403.4353332519531,1106.7275390625 595.12060546875,1106.7275390625 641.389404296875,1668.5635986328125 753.7566528320312,1661.9537353515625 654.6090698242188,379.6456604003906\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -46,12 +51,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0353",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"284.45831298828125,377.4424133300781 275.6452331542969,1657.5472412109375 400.13043212890625,1658.64892578125 403.4353332519531,1106.7275390625 595.12060546875,1106.7275390625 641.389404296875,1668.5635986328125 753.7566528320312,1661.9537353515625 654.6090698242188,379.6456604003906\"></polygon></svg>"
         }
     },
-    "id": "dae2c5d3-a816-4a70-ba6f-930bc32363cf.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
