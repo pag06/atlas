@@ -4,31 +4,46 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Fl\u00e9au",
-            "purpose": "commenting",
+            "created": "2023-11-04T07:35:17.403Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-04T07:35:17.403Z",
-            "modified": "2023-11-04T07:35:19.376Z"
+            "modified": "2023-11-04T07:35:19.376Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Fl\u00e9au"
+        },
+        {
+            "created": "2023-11-04T07:37:43.180Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L44"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L44",
+            "value": "Q4703",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-04T07:37:43.180Z"
+            "created": "2023-11-04T07:38:18.213Z"
         }
     ],
+    "id": "46ba514b-d324-4fc3-a696-4ea222c7571f.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1027.8709716796875,856.4813842773438 1102.782470703125,920.3765258789062 1398.021728515625,617.4256591796875 1450.9005126953125,561.2420654296875 1444.2906494140625,1413.910888671875 1503.7791748046875,1420.520751953125 1513.6939697265625,395.99615478515625 1460.815185546875,395.99615478515625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -36,12 +51,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0353",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1027.8709716796875,856.4813842773438 1102.782470703125,920.3765258789062 1398.021728515625,617.4256591796875 1450.9005126953125,561.2420654296875 1444.2906494140625,1413.910888671875 1503.7791748046875,1420.520751953125 1513.6939697265625,395.99615478515625 1460.815185546875,395.99615478515625\"></polygon></svg>"
         }
     },
-    "id": "46ba514b-d324-4fc3-a696-4ea222c7571f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
