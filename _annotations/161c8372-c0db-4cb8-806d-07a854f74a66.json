@@ -4,20 +4,21 @@ order: 6
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Faux",
-            "purpose": "commenting",
+            "created": "2023-11-07T12:06:56.330Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-07T12:06:56.330Z",
-            "modified": "2023-11-07T12:06:56.987Z"
+            "modified": "2023-11-07T12:06:56.987Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Faux"
         }
     ],
+    "id": "161c8372-c0db-4cb8-806d-07a854f74a66.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -29,9 +30,8 @@ order: 6
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"772.9514770507812,1302.1337890625 780.6629638671875,1577.5435791015625 980.0596313476562,1575.34033203125 1039.548095703125,2082.645263671875 1525.3709716796875,2084.297607421875 1525.3709716796875,1943.838623046875 1262.6300048828125,1172.140380859375 1128.7808837890625,1168.83544921875\"></polygon></svg>"
+            "value": "<svg><polygon points=\"777.2,1363.6 780.7,1577.5 980.1,1575.3 1039.5,2082.6 1525.4,2084.3 1525.4,1943.8 1262.6,1172.1 1130.9,1175.3\"></polygon></svg>"
         }
     },
-    "id": "161c8372-c0db-4cb8-806d-07a854f74a66.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
