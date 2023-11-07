@@ -3,40 +3,42 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0353"
 order: 10
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Fl\u00e9au",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-11-07T14:01:30.939Z",
-            "modified": "2023-11-07T14:01:32.597Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L46",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-07T14:01:36.019Z"
+            "modified": "2023-11-07T14:01:32.597Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Fl\u00e9au"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4703",
+            "created": "2023-11-07T14:01:36.019Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-07T14:01:39.283Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L46"
+        },
+        {
+            "created": "2023-11-07T14:01:39.283Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4703"
         }
     ],
+    "id": "e726646a-76d7-4445-a6f4-ab2317b100f0.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -48,13 +50,11 @@ order: 10
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"284.828369140625,2183.728271484375 610.91357421875,2202.456298828125 564.9505015978788,3002.747631518825 238.86529651975374,2984.019604175075\" /></svg>"
+            "value": "<svg><polygon points=\"284.828369140625,2203.5576171875 610.91357421875,2222.28564453125 564.9505015978788,3022.57697722195 238.86529651975374,3003.8489498782\"></polygon></svg>"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e726646a-76d7-4445-a6f4-ab2317b100f0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
