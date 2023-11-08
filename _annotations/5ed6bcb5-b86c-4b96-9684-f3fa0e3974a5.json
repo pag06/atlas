@@ -4,40 +4,41 @@ order: 15
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Fl\u00e9aux",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-11-08T09:45:32.075Z",
-            "modified": "2023-11-08T09:45:33.087Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L28",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-08T09:45:36.457Z"
+            "modified": "2023-11-08T09:45:33.087Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Fl\u00e9aux"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4703",
+            "created": "2023-11-08T09:45:36.457Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-08T09:45:44.029Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L28"
+        },
+        {
+            "created": "2023-11-08T09:45:44.029Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4703"
         }
     ],
+    "id": "5ed6bcb5-b86c-4b96-9684-f3fa0e3974a5.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -50,9 +51,8 @@ order: 15
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1389.123046875,3065.59033203125,993.678466796875,669.796630859375"
+            "value": "xywh=1397.9361572265625,3073.62890625,984.8653564453125,661.758056640625"
         }
     },
-    "id": "5ed6bcb5-b86c-4b96-9684-f3fa0e3974a5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
