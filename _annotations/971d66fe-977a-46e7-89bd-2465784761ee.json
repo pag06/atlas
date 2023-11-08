@@ -6,35 +6,35 @@ order: 13
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Fl\u00e9au",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-11-08T09:41:10.284Z",
-            "modified": "2023-11-08T09:41:11.781Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L15",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-08T09:41:20.082Z"
+            "modified": "2023-11-08T09:41:11.781Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Fl\u00e9au"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4703",
+            "created": "2023-11-08T09:41:20.082Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-08T09:41:25.188Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L15"
+        },
+        {
+            "created": "2023-11-08T09:41:25.188Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4703"
         }
     ],
     "id": "971d66fe-977a-46e7-89bd-2465784761ee.json",
