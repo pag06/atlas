@@ -4,9 +4,46 @@ order: 13
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
-    "body": [],
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Fl\u00e9au",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-08T09:41:10.284Z",
+            "modified": "2023-11-08T09:41:11.781Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L15",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-08T09:41:20.082Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4703",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-08T09:41:25.188Z"
+        }
+    ],
+    "id": "971d66fe-977a-46e7-89bd-2465784761ee.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1801.7,2745.1 1856.4,2883.9 2220.3,2703.7 2270.4,2703.7 2278.4,3078.2 2472.7,3084.2 2477.3,2471.3 2251,2467.3 2168.9,2549.4\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -14,12 +51,7 @@ order: 13
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0353",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1801.7,2745.1 1856.4,2883.9 2220.3,2703.7 2270.4,2703.7 2278.4,3078.2 2472.7,3084.2 2477.3,2471.3 2251,2467.3 2168.9,2549.4\"></polygon></svg>"
         }
     },
-    "id": "971d66fe-977a-46e7-89bd-2465784761ee.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
