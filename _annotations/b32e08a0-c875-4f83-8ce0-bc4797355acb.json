@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0353"
+order: 11
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Fl\u00e9au",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-08T08:51:29.455Z",
+            "modified": "2023-11-08T08:51:30.943Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L44",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-08T08:51:33.523Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4407",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-08T08:51:37.485Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0353",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"584.4197387695312,2809.179931640625 643.9082641601562,2927.055419921875 762.88525390625,2848.8388671875 825.6787109375,2822.399658203125 1027.2786865234375,2589.40283203125 1073.5474853515625,2584.445556640625 1081.809814453125,2726.55712890625 1081.809814453125,3114.884765625 1232.18359375,3119.84228515625 1247.0556640625,2334.92431640625 1147.908203125,2288.655517578125 1149.5606689453125,2197.770263671875 892.8786010742188,2193.36376953125 843.3048706054688,2285.9013671875 873.0491333007812,2375.13427734375 949.0621948242188,2449.494873046875\"></polygon></svg>"
+        }
+    },
+    "id": "b32e08a0-c875-4f83-8ce0-bc4797355acb.json",
+    "motivation": "commenting"
+}
