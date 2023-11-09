@@ -4,31 +4,56 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Paniers et paneton (au milieu) ",
-            "purpose": "commenting",
+            "created": "2023-11-09T21:06:21.507Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-09T21:06:21.507Z",
-            "modified": "2023-11-09T21:07:16.498Z"
+            "modified": "2023-11-09T21:07:16.498Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Paniers et paneton (au milieu) "
+        },
+        {
+            "created": "2023-11-09T21:07:21.433Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L7"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L7",
+            "value": "Q7278",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-09T21:07:21.433Z"
+            "created": "2023-11-09T21:07:35.760Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7274",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-09T21:07:42.598Z"
         }
     ],
+    "id": "c345b8a8-e031-4658-a1ab-3e227c13684d.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1604.6424560546875,570.8037719726562 1605.744140625,690.8824462890625 1732.4326171875,839.6036987304688 1909.2457275390625,874.3053588867188 2054.662109375,836.2987670898438 2277.743896484375,836.8495483398438 2442.98974609375,889.728271484375 2608.78662109375,864.94140625 2615.396240234375,605.50537109375 2428.66845703125,496.4430847167969 2344.39306640625,322.9349060058594 2180.7998046875,322.9349060058594 2025.4686279296875,450.1742248535156 1951.10791015625,498.09552001953125\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -36,12 +61,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0355",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1604.6424560546875,570.8037719726562 1605.744140625,690.8824462890625 1732.4326171875,839.6036987304688 1909.2457275390625,874.3053588867188 2054.662109375,836.2987670898438 2277.743896484375,836.8495483398438 2442.98974609375,889.728271484375 2608.78662109375,864.94140625 2615.396240234375,605.50537109375 2428.66845703125,496.4430847167969 2344.39306640625,322.9349060058594 2180.7998046875,322.9349060058594 2025.4686279296875,450.1742248535156 1951.10791015625,498.09552001953125\"></polygon></svg>"
         }
     },
-    "id": "c345b8a8-e031-4658-a1ab-3e227c13684d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
