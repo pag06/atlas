@@ -4,40 +4,41 @@ order: 9
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "1. cage \u00e0 fromage\n2. couloirs \u00e0 lait \n",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-11-10T13:06:58.964Z",
-            "modified": "2023-11-10T13:07:33.096Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L6",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-10T13:07:10.874Z"
+            "modified": "2023-11-10T13:07:33.096Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "1. cage \u00e0 fromage\n2. couloirs \u00e0 lait \n"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1645",
+            "created": "2023-11-10T13:07:10.874Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-10T13:07:18.995Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L6"
+        },
+        {
+            "created": "2023-11-10T13:07:18.995Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1645"
         }
     ],
+    "id": "ad9a59a8-7fa8-4e48-b1ef-8cad34b817b2.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -50,9 +51,8 @@ order: 9
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1731.9896240234375,1738.6751708984375,901.8182373046875,718.1817626953125"
+            "value": "xywh=1731.9896240234375,1740.4932861328125,910.9090576171875,716.3636474609375"
         }
     },
-    "id": "ad9a59a8-7fa8-4e48-b1ef-8cad34b817b2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
