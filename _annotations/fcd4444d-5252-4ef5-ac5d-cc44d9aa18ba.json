@@ -4,40 +4,41 @@ order: 9
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Meule de paille  \u00e9puis\u00e9e aux trois quarts.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-11-10T22:51:12.375Z",
-            "modified": "2023-11-10T22:51:29.207Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L6",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-10T22:51:32.607Z"
+            "modified": "2023-11-10T22:51:29.207Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Meule de paille  \u00e9puis\u00e9e aux trois quarts."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6578",
+            "created": "2023-11-10T22:51:32.607Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-10T22:51:41.968Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L6"
+        },
+        {
+            "created": "2023-11-10T22:51:41.968Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6578"
         }
     ],
+    "id": "fcd4444d-5252-4ef5-ac5d-cc44d9aa18ba.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -49,9 +50,8 @@ order: 9
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1798.376953125,2149.28759765625 1802.78369140625,2792.64501953125 2674.18017578125,2799.2548828125 2664.265380859375,2171.3203125 2456.0556640625,2171.3203125 2459.360595703125,1688.8023681640625 2042.94091796875,1688.8023681640625 2042.94091796875,2098.612060546875\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1807.9,2100 1802.8,2792.6 2674.2,2799.3 2664.3,2171.3 2456.1,2171.3 2459.4,1688.8 2042.9,1688.8 2042.9,2098.6\"></polygon></svg>"
         }
     },
-    "id": "fcd4444d-5252-4ef5-ac5d-cc44d9aa18ba.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
