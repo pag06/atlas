@@ -11,10 +11,10 @@ order: 9
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "modified": "2023-11-10T13:07:33.096Z",
+            "modified": "2023-11-10T13:13:03.755Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "1. cage \u00e0 fromage\n2. couloirs \u00e0 lait \n"
+            "value": "1. cage \u00e0 fromage\n2. couloirs \u00e0 lait \n3. faisselles sur \u00e9gouttoir\n4. pots \u00e0 lait"
         },
         {
             "created": "2023-11-10T13:07:10.874Z",
@@ -35,11 +35,26 @@ order: 9
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q1645"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4395",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-10T13:11:25.794Z"
         }
     ],
     "id": "ad9a59a8-7fa8-4e48-b1ef-8cad34b817b2.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1731.9896240234375,1740.4932861328125,910.9090576171875,716.3636474609375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -47,11 +62,6 @@ order: 9
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0355",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1731.9896240234375,1740.4932861328125,910.9090576171875,716.3636474609375"
         }
     },
     "type": "Annotation"
