@@ -37,15 +37,15 @@ order: 4
             "value": "Q6576"
         },
         {
-            "type": "TextualBody",
-            "value": "L\u00e9gende \u00e0 transcrire",
-            "purpose": "commenting",
+            "created": "2023-11-10T14:22:43.419Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-10T14:22:43.419Z",
-            "modified": "2023-11-10T14:22:48.936Z"
+            "modified": "2023-11-10T14:22:48.936Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "L\u00e9gende \u00e0 transcrire"
         }
     ],
     "id": "e8913cf5-d605-46fe-9644-81b3ccbbd5d4.json",
