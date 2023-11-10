@@ -4,20 +4,36 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L5",
+            "created": "2023-11-10T14:16:33.311Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-10T14:16:33.311Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L5"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Meule de gerbe conique",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-10T14:16:40.211Z",
+            "modified": "2023-11-10T14:16:45.094Z"
         }
     ],
+    "id": "c8463ec6-b924-4d87-8c86-f07399095f65.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"370,1108.9 382.7,1743.4 728.6,1740.1 751.7,1789.7 986.4,1788.1 986.4,1115.5\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -25,12 +41,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0354",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"370,1108.9 382.7,1743.4 728.6,1740.1 751.7,1789.7 986.4,1788.1 986.4,1115.5\"></polygon></svg>"
         }
     },
-    "id": "c8463ec6-b924-4d87-8c86-f07399095f65.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
