@@ -1,0 +1,47 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0355"
+order: 13
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Fromage de ch\u00e8vre sur clisses en paille",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-10T13:58:19.011Z",
+            "modified": "2023-11-10T13:58:29.934Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L8",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-10T13:58:40.545Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0355",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1880.2137451171875,2573.063720703125 1884.6202392578125,3643.857177734375 2411.203857421875,3663.686767578125 2530.180908203125,3713.260498046875 2579.754638671875,3716.5654296875 2609.498779296875,2586.283447265625\"></polygon></svg>"
+        }
+    },
+    "id": "2c612fda-184b-46d6-8f45-85f2b3d6c917.json",
+    "motivation": "commenting"
+}
