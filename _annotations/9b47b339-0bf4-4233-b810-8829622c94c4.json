@@ -11,10 +11,10 @@ order: 7
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "modified": "2023-11-10T12:54:29.982Z",
+            "modified": "2023-11-10T12:58:33.519Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Cage suspendue sous le hangar"
+            "value": "Cage suspendue sous le hangar."
         },
         {
             "created": "2023-11-10T12:54:46.349Z",
@@ -27,14 +27,14 @@ order: 7
             "value": "L6"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1645",
+            "created": "2023-11-10T12:58:26.352Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-10T12:58:26.352Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1645"
         }
     ],
     "id": "9b47b339-0bf4-4233-b810-8829622c94c4.json",
