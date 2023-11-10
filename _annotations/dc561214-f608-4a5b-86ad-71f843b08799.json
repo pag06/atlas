@@ -4,31 +4,47 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "La moisson, vers 1920.",
-            "purpose": "commenting",
+            "created": "2023-11-10T14:00:27.110Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-10T14:00:27.110Z",
-            "modified": "2023-11-10T14:00:38.555Z"
+            "modified": "2023-11-10T14:00:38.555Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "La moisson, vers 1920."
+        },
+        {
+            "created": "2023-11-10T14:00:42.378Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L24",
+            "value": "Q6673",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-10T14:00:42.378Z"
+            "created": "2023-11-10T14:03:30.074Z"
         }
     ],
+    "id": "dc561214-f608-4a5b-86ad-71f843b08799.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1149.525634765625,367.682373046875,1163.3310546875,706.1507568359375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -36,13 +52,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0354",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1149.525634765625,367.682373046875,1163.3310546875,706.1507568359375"
         }
     },
-    "id": "dc561214-f608-4a5b-86ad-71f843b08799.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
