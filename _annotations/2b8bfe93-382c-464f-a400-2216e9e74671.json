@@ -4,10 +4,47 @@ order: 8
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "body": [],
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "L\u00e9gende ?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-10T13:04:20.044Z",
+            "modified": "2023-11-10T13:04:25.911Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L25",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-10T13:04:29.385Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q???",
+            "purpose": "tagging",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-10T13:04:29.743Z",
+            "modified": "2023-11-10T13:04:30.160Z"
+        }
+    ],
     "id": "2b8bfe93-382c-464f-a400-2216e9e74671.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1130,1948.8 1130.3,2280.7 1450.6,2290.8 1450.6,2347 1412.6,2409.8 1318.9,2408.7 1317.3,2635.6 1715.5,2643.4 1715.5,2412 1715.4,2250.7 1740.9,2119.8 1740.9,1898 1635.4,1681.6 1343.2,1679.4 1328.8,1860.6\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -15,10 +52,6 @@ order: 8
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0355",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1130,1948.8 1130.3,2280.7 1450.6,2290.8 1450.6,2347 1412.6,2409.8 1318.9,2408.7 1317.3,2635.6 1715.5,2643.4 1715.5,2412 1715.4,2250.7 1740.9,2119.8 1740.9,1898 1635.4,1681.6 1343.2,1679.4 1328.8,1860.6\"></polygon></svg>"
         }
     },
     "type": "Annotation"
