@@ -4,21 +4,36 @@ order: 9
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Sauni\u00e8re sous la tablette de la chemin\u00e9e.",
-            "purpose": "commenting",
+            "created": "2023-11-13T08:58:14.014Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-13T08:58:14.014Z",
-            "modified": "2023-11-13T08:58:22.223Z"
+            "modified": "2023-11-13T08:58:22.223Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Sauni\u00e8re sous la tablette de la chemin\u00e9e."
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L25",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-13T08:58:38.568Z"
         }
     ],
+    "id": "fb679d3c-1d5f-44c2-96b1-46792b654000.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"371.29254150390625,2497.025390625 402.1384582519531,3902.717041015625 1085.15478515625,3892.80224609375 1081.849853515625,3796.959716796875 946.3482666015625,3611.88427734375 1009.1416625976562,3535.871337890625 999.2269287109375,3420.19921875 1098.37451171875,3347.490966796875 1075.239990234375,2964.120361328125 1104.9842529296875,2881.49755859375 1098.37451171875,2491.51708984375\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -26,12 +41,7 @@ order: 9
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0356",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"371.29254150390625,2497.025390625 402.1384582519531,3902.717041015625 1085.15478515625,3892.80224609375 1081.849853515625,3796.959716796875 946.3482666015625,3611.88427734375 1009.1416625976562,3535.871337890625 999.2269287109375,3420.19921875 1098.37451171875,3347.490966796875 1075.239990234375,2964.120361328125 1104.9842529296875,2881.49755859375 1098.37451171875,2491.51708984375\"></polygon></svg>"
         }
     },
-    "id": "fb679d3c-1d5f-44c2-96b1-46792b654000.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
