@@ -17,14 +17,24 @@ order: 9
             "value": "Sauni\u00e8re sous la tablette de la chemin\u00e9e."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L25",
+            "created": "2023-11-13T08:58:38.568Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-13T08:58:38.568Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L25"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9703",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-13T08:59:09.077Z"
         }
     ],
     "id": "fb679d3c-1d5f-44c2-96b1-46792b654000.json",
