@@ -27,15 +27,25 @@ order: 6
             "value": "L4"
         },
         {
-            "type": "TextualBody",
-            "value": "Faut-il inclure les l\u00e9gendes dans la d\u00e9coupe de l'image ?",
-            "purpose": "commenting",
+            "created": "2023-11-13T08:10:15.579Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-13T08:10:15.579Z",
-            "modified": "2023-11-13T08:12:11.531Z"
+            "modified": "2023-11-13T08:12:11.531Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Faut-il inclure les l\u00e9gendes dans la d\u00e9coupe de l'image ?"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q858",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-13T08:12:54.470Z"
         }
     ],
     "id": "16bc5c37-b970-4f31-ac4a-c94b2a27495a.json",
