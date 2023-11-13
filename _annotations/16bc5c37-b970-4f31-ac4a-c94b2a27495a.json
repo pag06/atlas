@@ -38,14 +38,14 @@ order: 6
             "value": "Faut-il inclure les l\u00e9gendes dans la d\u00e9coupe de l'image ?"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q858",
+            "created": "2023-11-13T08:12:54.470Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-13T08:12:54.470Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q858"
         }
     ],
     "id": "16bc5c37-b970-4f31-ac4a-c94b2a27495a.json",
