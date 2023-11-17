@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0356"
+order: 10
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Moulin \u00e0 sel (garnit)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-17T14:07:04.290Z",
+            "modified": "2023-11-17T14:07:09.518Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L25",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-17T14:07:16.095Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6800",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-17T14:07:29.764Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0356",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"986.1,3401.8 990.6,3529.6 939.9,3617.7 1085.3,3816 1085.3,3905.3 1822.3,3895.3 1819,3683.8 1766.1,3574.8 1676.9,3214.5 1763.9,3066.9 1542.5,2680.2 1228.5,2680.2 1108.4,2824.6 1063.3,2967.8\"></polygon></svg>"
+        }
+    },
+    "id": "0a25f569-d144-45fa-8ee8-db16906ff2a4.json",
+    "motivation": "commenting"
+}
