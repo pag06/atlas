@@ -1,0 +1,67 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0356"
+order: 11
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Pilons et mortiers (bois)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-17T14:08:58.281Z",
+            "modified": "2023-11-17T14:09:04.012Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6754",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-17T14:09:59.803Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7705",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-17T14:10:58.542Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L25",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-17T14:11:06.102Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0356",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1765.0322265625,3405.591064453125 2055.864990234375,3406.692626953125 2104.337158203125,3569.735107421875 2147.301025390625,3637.48583984375 2122.51416015625,3718.45654296875 2125.26806640625,3809.892333984375 2042.645263671875,3809.892333984375 1983.15673828125,3738.836669921875 1822.8681640625,3735.53173828125 1784.8616943359375,3654.561279296875 1763.379638671875,3581.85302734375\"></polygon></svg>"
+        }
+    },
+    "id": "7c26d21d-f436-44d3-a91d-8c81101eb9d0.json",
+    "motivation": "commenting"
+}
