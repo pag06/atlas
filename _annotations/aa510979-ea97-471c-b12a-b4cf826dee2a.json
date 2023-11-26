@@ -4,31 +4,36 @@ order: 11
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Moulin \u00e0 sel (granit), pilons et mortiers (bois)",
-            "purpose": "commenting",
+            "created": "2023-11-26T21:53:16.402Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-26T21:53:16.402Z",
-            "modified": "2023-11-26T21:53:45.506Z"
+            "modified": "2023-11-26T21:53:45.506Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Moulin \u00e0 sel (granit), pilons et mortiers (bois)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L25",
+            "created": "2023-11-26T21:53:58.049Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-26T21:53:58.049Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L25"
         }
     ],
+    "id": "aa510979-ea97-471c-b12a-b4cf826dee2a.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1975.0919189453125,3107.80810546875 1979.49853515625,3387.62451171875 1785.6099853515625,3389.82763671875 1729.4263916015625,3469.145751953125 1818.6591796875,3710.40478515625 1977.295166015625,3786.417724609375 1977.295166015625,3885.5654296875 2744.0361328125,3892.175048828125 2737.42626953125,2827.99169921875 2294.5673828125,2827.99169921875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -36,12 +41,7 @@ order: 11
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0356",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1975.0919189453125,3107.80810546875 1979.49853515625,3387.62451171875 1785.6099853515625,3389.82763671875 1729.4263916015625,3469.145751953125 1818.6591796875,3710.40478515625 1977.295166015625,3786.417724609375 1977.295166015625,3885.5654296875 2744.0361328125,3892.175048828125 2737.42626953125,2827.99169921875 2294.5673828125,2827.99169921875\"></polygon></svg>"
         }
     },
-    "id": "aa510979-ea97-471c-b12a-b4cf826dee2a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
