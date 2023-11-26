@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0357"
+order: 4
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "L\u00e9gende ???",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-26T22:04:26.081Z",
+            "modified": "2023-11-26T22:04:30.970Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L16",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-26T22:04:34.977Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-26T22:04:37.081Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0357",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"517.3238525390625,1318.8834228515625 520.6287841796875,1966.6473388671875 426.9894104003906,2013.4669189453125 423.6844787597656,2061.38818359375 693.0352783203125,2076.260498046875 866.54345703125,2076.260498046875 871.5007934570312,1720.9818115234375 816.9696655273438,1630.0965576171875 815.3171997070312,1127.7490234375 663.291015625,1126.0965576171875\"></polygon></svg>"
+        }
+    },
+    "id": "e04335c7-d886-4755-9908-0899ac2ff526.json",
+    "motivation": "commenting"
+}
