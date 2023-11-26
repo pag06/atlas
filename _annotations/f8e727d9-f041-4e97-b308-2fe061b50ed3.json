@@ -4,21 +4,47 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "La traite au parc.",
-            "purpose": "commenting",
+            "created": "2023-11-26T21:56:57.282Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-26T21:56:57.282Z",
-            "modified": "2023-11-26T21:57:02.835Z"
+            "modified": "2023-11-26T21:58:04.131Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "La traite au parc"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L16",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-26T21:57:57.153Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10188",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-11-26T21:57:59.892Z"
         }
     ],
+    "id": "f8e727d9-f041-4e97-b308-2fe061b50ed3.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=547.1414184570312,344.7287902832031,810.8064575195312,565.1408996582031"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -26,13 +52,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0357",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=547.1414184570312,344.7287902832031,810.8064575195312,565.1408996582031"
         }
     },
-    "id": "f8e727d9-f041-4e97-b308-2fe061b50ed3.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
