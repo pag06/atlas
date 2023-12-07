@@ -27,25 +27,25 @@ order: 3
             "value": "L13"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6831",
+            "created": "2023-11-26T22:02:37.520Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-26T22:02:37.520Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6831"
         },
         {
-            "type": "TextualBody",
-            "value": "Faut-il marquer 13 ou 13S pour la localisation ?",
-            "purpose": "commenting",
+            "created": "2023-11-26T22:03:16.372Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-26T22:03:16.372Z",
-            "modified": "2023-11-26T22:03:30.106Z"
+            "modified": "2023-11-26T22:03:30.106Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Faut-il marquer 13 ou 13S pour la localisation ?"
         }
     ],
     "id": "4fb9a92e-45a5-43f3-aae0-985563085ce0.json",
