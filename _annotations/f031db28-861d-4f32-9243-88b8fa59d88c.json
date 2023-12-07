@@ -16,15 +16,25 @@ order: 1
             "value": "L46"
         },
         {
-            "type": "TextualBody",
-            "value": "Rouet",
-            "purpose": "commenting",
+            "created": "2023-12-07T14:29:44.948Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-07T14:29:44.948Z",
-            "modified": "2023-12-07T14:29:45.851Z"
+            "modified": "2023-12-07T14:29:45.851Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Rouet"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9017",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-07T14:30:05.712Z"
         }
     ],
     "id": "f031db28-861d-4f32-9243-88b8fa59d88c.json",
