@@ -1,0 +1,47 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0359"
+order: 9
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "D\u00e9vidoir et rouet de dentelli\u00e8re.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-13T17:03:43.225Z",
+            "modified": "2023-12-13T17:03:48.906Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L20",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-13T17:03:56.521Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0359",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1690.8902587890625,2691.47412109375 1696.3985595703125,2973.493896484375 2001.001708984375,2974.044677734375 2005.9591064453125,3246.7001953125 2594.234375,3261.572509765625 2604.149169921875,2575.802001953125 2243.9130859375,2572.4970703125 2159.6376953125,2684.8642578125\"></polygon></svg>"
+        }
+    },
+    "id": "adfacb3b-eb07-436e-92b7-3bbb45f9bc6b.json",
+    "motivation": "commenting"
+}
