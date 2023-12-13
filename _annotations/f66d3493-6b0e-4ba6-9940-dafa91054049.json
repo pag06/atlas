@@ -4,31 +4,37 @@ order: 10
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Vari\u00e9t\u00e9 de fuseaux.\n",
-            "purpose": "commenting",
+            "created": "2023-12-13T17:09:06.784Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-13T17:09:06.784Z",
-            "modified": "2023-12-13T17:09:13.089Z"
+            "modified": "2023-12-13T17:10:11.612Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Vari\u00e9t\u00e9 de fuseaux.\n\n6. La coche du fuseau\n7. Le rebord \n8. La gaine en \u00e9caille"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L21",
+            "created": "2023-12-13T17:09:19.096Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-13T17:09:19.096Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L21"
         }
     ],
+    "id": "f66d3493-6b0e-4ba6-9940-dafa91054049.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1835.3570556640625,3333.595947265625,716.0655517578125,349.219482421875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -36,13 +42,7 @@ order: 10
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0359",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1835.3570556640625,3333.595947265625,716.0655517578125,349.219482421875"
         }
     },
-    "id": "f66d3493-6b0e-4ba6-9940-dafa91054049.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
