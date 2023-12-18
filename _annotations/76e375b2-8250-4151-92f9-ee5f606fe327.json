@@ -4,21 +4,37 @@ order: 6
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Les accessoires du four \u00e0 pain.\n\n1. Le rouable : raclette \u00e0 long manche et en fer, avec laquelle on tire du four la braise, le charbon et les cendres.\n\n2. L'\u00e9couvillon : il est fait d'un long manche (2m.50 \u00e0 3m.) au bout duquel on attache : un gros chiffon ou des rameaux de gen\u00eat, de pin, de sapin, etc. Alternativement, l'\u00e9couvillon est tremp\u00e9 dans un baquet d'au et pass\u00e9 dans le four, pour le nettoyer des cendres et d\u00e9bris de charbon laiss\u00e9s par le rouable.\n3. La pelle \u00e0 enfourner. \n5. ",
-            "purpose": "commenting",
+            "created": "2023-12-18T16:05:15.729Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-18T16:05:15.729Z",
-            "modified": "2023-12-18T16:05:39.357Z"
+            "modified": "2023-12-18T16:06:18.587Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Les accessoires du four \u00e0 pain.\n\n1. Le rouable : raclette \u00e0 long manche et en fer, avec laquelle on tire du four la braise, le charbon et les cendres.\n\n2. L'\u00e9couvillon : il est fait d'un long manche (2m.50 \u00e0 3m.) au bout duquel on attache : un gros chiffon ou des rameaux de gen\u00eat, de pin, de sapin, etc. Alternativement, l'\u00e9couvillon est tremp\u00e9 dans un baquet d'au et pass\u00e9 dans le four, pour le nettoyer des cendres et d\u00e9bris de charbon laiss\u00e9s par le rouable.\n3. La pelle \u00e0 enfourner. \n5. La fourche \u00e0 fagots."
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L39",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-18T16:06:24.582Z"
         }
     ],
+    "id": "76e375b2-8250-4151-92f9-ee5f606fe327.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2268.819091796875,2032.2991943359375,516.6689453125,1119.2655029296875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -26,13 +42,7 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0360",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2268.819091796875,2032.2991943359375,516.6689453125,1119.2655029296875"
         }
     },
-    "id": "76e375b2-8250-4151-92f9-ee5f606fe327.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
