@@ -17,23 +17,19 @@ order: 1
             "value": "Ferme classique"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
+            "created": "2023-12-18T21:07:01.858Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-18T21:07:01.858Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L???"
         }
     ],
     "id": "d5344d1b-0b6b-4ce6-a5f4-d556c2c40bc2.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1890.3,561.6 1893.3,910.7 2654.1,915 2678.9,973.6 2858.6,970.1 2882,916.8 3350.9,910.4 3344.5,509.7 2626.3,298.7\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc3/manifest.json",
@@ -41,6 +37,10 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0285",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1890.3,561.6 1893.3,910.7 2654.1,915 2683.7,965.3 2858.6,970.1 2882,916.8 3350.9,910.4 3344.5,509.7 2626.3,298.7\"></polygon></svg>"
         }
     },
     "type": "Annotation"
