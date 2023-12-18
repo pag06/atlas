@@ -4,8 +4,9 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [],
+    "id": "d5344d1b-0b6b-4ce6-a5f4-d556c2c40bc2.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -17,9 +18,8 @@ order: 1
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1890.3,561.6 1891.8,916.8 2651.1,918.2 2678.9,973.6 2858.6,970.1 2882,916.8 3350.9,910.4 3344.5,509.7 2626.3,298.7\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1890.3,561.6 1893.3,910.7 2654.1,915 2678.9,973.6 2858.6,970.1 2882,916.8 3350.9,910.4 3344.5,509.7 2626.3,298.7\"></polygon></svg>"
         }
     },
-    "id": "d5344d1b-0b6b-4ce6-a5f4-d556c2c40bc2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
