@@ -6,25 +6,45 @@ order: 1
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "La panne est une pi\u00e8ce de bois plac\u00e9e longitudinalement sur les arbal\u00e9triers : elle porte les chevrons.",
-            "purpose": "commenting",
+            "created": "2023-12-18T21:31:09.348Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-18T21:31:09.348Z",
-            "modified": "2023-12-18T21:31:48.559Z"
+            "modified": "2023-12-18T21:31:48.559Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "La panne est une pi\u00e8ce de bois plac\u00e9e longitudinalement sur les arbal\u00e9triers : elle porte les chevrons."
+        },
+        {
+            "created": "2023-12-18T21:33:38.718Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L???"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L???",
+            "value": "Q7297",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-18T21:33:38.718Z"
+            "created": "2023-12-18T21:34:13.120Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9498",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-18T21:34:50.575Z"
         }
     ],
     "id": "b150327d-e4bd-49b4-9967-105688a98038.json",
