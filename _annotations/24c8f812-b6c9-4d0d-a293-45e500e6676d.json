@@ -1,0 +1,58 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0303"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "B\u00e2cle en bois prenant appui obliquement sur le sol. \nOn entend par \"b\u00e2cle\" les diff\u00e9rents dispositifs (barre de bois, ou de fer - le plus souvent) qui servent \u00e0 maintenir ferm\u00e9s les vantaux d'un portail de grange ou m\u00eame d'une porte de maison d'habitation dans les constructions anciennes. ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-18T21:53:21.810Z",
+            "modified": "2023-12-18T21:54:12.132Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-18T21:53:59.752Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q739",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-18T21:54:04.546Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0303",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2565.11572265625,215.58860778808594,630.819580078125,744.4808502197266"
+        }
+    },
+    "id": "24c8f812-b6c9-4d0d-a293-45e500e6676d.json",
+    "motivation": "commenting"
+}
