@@ -4,38 +4,27 @@ order: 4
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Man\u00e8ge utilis\u00e9 autrefois (Collection de l'Ecomus\u00e9e de la Lomagne).",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-12-19T09:09:02.848Z",
-            "modified": "2023-12-19T09:09:52.858Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L82",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-19T09:09:23.025Z"
+            "modified": "2023-12-19T09:09:52.858Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Man\u00e8ge utilis\u00e9 autrefois (Collection de l'Ecomus\u00e9e de la Lomagne)."
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L20",
+            "value": "L82.20",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-19T09:09:28.282Z"
+            "created": "2023-12-19T09:29:40.681Z"
         },
         {
             "type": "TextualBody",
@@ -45,10 +34,17 @@ order: 4
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-19T09:10:15.425Z"
+            "created": "2023-12-19T09:29:43.579Z"
         }
     ],
+    "id": "b378f31a-933e-4425-9b05-80d9bc158eb8.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=297.2364501953125,2111.65478515625,3125.6832275390625,730.273193359375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc3/manifest.json",
@@ -56,13 +52,7 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0315",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=297.2364501953125,2111.65478515625,3125.6832275390625,730.273193359375"
         }
     },
-    "id": "b378f31a-933e-4425-9b05-80d9bc158eb8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
