@@ -4,51 +4,56 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Tra\u00eeneau \u00e0 d\u00e9piquer - [la liso]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-12-19T09:06:45.333Z",
-            "modified": "2023-12-19T09:07:13.651Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L82",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-19T09:08:07.851Z"
+            "modified": "2023-12-19T09:11:36.031Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Tra\u00eeneau \u00e0 d\u00e9piquer - [la liso] (Collection de l'Eco-mus\u00e9e de la Lomagne, \u00e0 Flamarens (Gers)."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L20",
+            "created": "2023-12-19T09:08:07.851Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-19T09:08:33.440Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L82"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10178",
+            "created": "2023-12-19T09:08:33.440Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-19T09:08:37.784Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L20"
+        },
+        {
+            "created": "2023-12-19T09:08:37.784Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10178"
         }
     ],
+    "id": "819a047a-ebfc-4988-ba2c-edff6cc3dd0b.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2093.1,1056.5 2240.1,1384.7 2943.4,1248.3 3216.2,1013.9 3177.8,896.7 2926.3,741.1 2687.6,866.8 2135.7,960.6\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc3/manifest.json",
@@ -56,12 +61,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0315",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2093.1,1056.5 2240.1,1384.7 2943.4,1248.3 3216.2,1013.9 3177.8,896.7 2926.3,741.1 2687.6,866.8 2135.7,960.6\"></polygon></svg>"
         }
     },
-    "id": "819a047a-ebfc-4988-ba2c-edff6cc3dd0b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
