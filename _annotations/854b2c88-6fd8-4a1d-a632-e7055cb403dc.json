@@ -17,25 +17,34 @@ order: 1
             "value": "Charrue dite [la muso]."
         },
         {
-            "created": "2023-12-19T08:59:56.079Z",
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L81",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
+            "created": "2023-12-19T09:02:51.311Z"
         },
         {
             "type": "TextualBody",
-            "value": "Q2088",
             "purpose": "tagging",
+            "value": "L11",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-19T09:00:38.725Z",
-            "modified": "2023-12-19T09:00:39.972Z"
+            "created": "2023-12-19T09:02:54.185Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2088",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-19T09:02:57.495Z"
         }
     ],
     "id": "854b2c88-6fd8-4a1d-a632-e7055cb403dc.json",
