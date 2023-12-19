@@ -1,0 +1,37 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0316"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L12.22",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-19T14:44:01.400Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0316",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=508.56854248046875,3724.451416015625,575.4098510742188,586.065673828125"
+        }
+    },
+    "id": "e293d156-fd37-4e01-b6b0-8341a0d917d2.json",
+    "motivation": "commenting"
+}
