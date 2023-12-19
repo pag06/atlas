@@ -4,31 +4,47 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Charrue dite [la muso].",
-            "purpose": "commenting",
+            "created": "2023-12-19T08:59:31.401Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-19T08:59:31.401Z",
-            "modified": "2023-12-19T08:59:50.341Z"
+            "modified": "2023-12-19T08:59:50.341Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charrue dite [la muso]."
+        },
+        {
+            "created": "2023-12-19T08:59:56.079Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L???"
         },
         {
             "type": "TextualBody",
+            "value": "Q2088",
             "purpose": "tagging",
-            "value": "L???",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-19T08:59:56.079Z"
+            "created": "2023-12-19T09:00:38.725Z",
+            "modified": "2023-12-19T09:00:39.972Z"
         }
     ],
+    "id": "854b2c88-6fd8-4a1d-a632-e7055cb403dc.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"318.4,592.4 324.1,933.4 581.3,1103.9 1126.8,1103.9 1273.9,716 1753.4,571.1 1723.6,421.9 658,588.2\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc3/manifest.json",
@@ -36,12 +52,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0315",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"318.4,592.4 324.1,933.4 581.3,1103.9 1126.8,1103.9 1273.9,716 1753.4,571.1 1723.6,421.9 658,588.2\"></polygon></svg>"
         }
     },
-    "id": "854b2c88-6fd8-4a1d-a632-e7055cb403dc.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
