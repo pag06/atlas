@@ -4,20 +4,37 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L12.22",
+            "created": "2023-12-19T14:44:01.400Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-19T14:44:01.400Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L12.22"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Cours ferm\u00e9e par un portail, les b\u00e2timents occupant trois des c\u00f4t\u00e9s : \n\nM.H. : sans ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-19T14:50:51.158Z",
+            "modified": "2023-12-19T14:51:45.657Z"
         }
     ],
+    "id": "e293d156-fd37-4e01-b6b0-8341a0d917d2.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=508.56854248046875,3724.451416015625,575.4098510742188,586.065673828125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc3/manifest.json",
@@ -25,13 +42,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0316",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=508.56854248046875,3724.451416015625,575.4098510742188,586.065673828125"
         }
     },
-    "id": "e293d156-fd37-4e01-b6b0-8341a0d917d2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
