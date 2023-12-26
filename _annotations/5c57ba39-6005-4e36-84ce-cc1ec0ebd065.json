@@ -17,14 +17,34 @@ order: 1
             "value": "Deux plans possibles : \n\nLe plan qui correspond \u00e0 la figure de gauche est le plus fr\u00e9quent. \nDans la partie M.H. (habitation humaine, maison d'habitation au sens strict) : pi\u00e8ces en enfilade, si bien que l'on passe directement de l'une \u00e0 l'autre. Plus r\u00e9cemment vestibule central en forme de couloir.\nHangar (HA.) s\u00e9par\u00e9 possible.\nET. : \u00e9table "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L31.21",
+            "created": "2023-12-26T11:32:06.187Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-26T11:32:06.187Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L31.21"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5463",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-26T11:32:52.308Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "4195",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-26T11:32:55.995Z"
         }
     ],
     "id": "5c57ba39-6005-4e36-84ce-cc1ec0ebd065.json",
