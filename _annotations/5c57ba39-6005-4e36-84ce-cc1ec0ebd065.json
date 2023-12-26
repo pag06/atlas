@@ -20,11 +20,6 @@ order: 1
     "id": "5c57ba39-6005-4e36-84ce-cc1ec0ebd065.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "type": "FragmentSelector",
-            "value": "xywh=266.3861999511719,887.6265258789062,1543.6612854003906,230.16387939453125"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc3/manifest.json",
@@ -32,6 +27,11 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0317",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=358.3793640136719,896.56787109375,1543.6612854003906,230.16387939453125"
         }
     },
     "type": "Annotation"
