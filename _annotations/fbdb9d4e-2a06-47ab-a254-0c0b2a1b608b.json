@@ -4,41 +4,47 @@ order: 4
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Une trappe dans le sol de la cuisine permet de charger la cuve \u00e0 vendange, laquelle est install\u00e9e au fond de la cave, c'est-\u00e0-dire du c\u00f4t\u00e9 oppos\u00e9 \u00e0 l'entr\u00e9e.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-12-26T11:49:21.534Z",
-            "modified": "2023-12-26T11:50:13.902Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L46.25",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-26T11:50:40.483Z"
+            "modified": "2023-12-26T11:50:13.902Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Une trappe dans le sol de la cuisine permet de charger la cuve \u00e0 vendange, laquelle est install\u00e9e au fond de la cave, c'est-\u00e0-dire du c\u00f4t\u00e9 oppos\u00e9 \u00e0 l'entr\u00e9e."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3095",
+            "created": "2023-12-26T11:50:40.483Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-26T11:50:44.092Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L46.25"
+        },
+        {
+            "created": "2023-12-26T11:50:44.092Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3095"
         }
     ],
+    "id": "fbdb9d4e-2a06-47ab-a254-0c0b2a1b608b.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2342.029052734375,2212.132080078125,439.016357421875,282.732421875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc3/manifest.json",
@@ -46,13 +52,7 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0317",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2342.029052734375,2212.132080078125,439.016357421875,282.732421875"
         }
     },
-    "id": "fbdb9d4e-2a06-47ab-a254-0c0b2a1b608b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
