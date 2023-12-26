@@ -11,15 +11,20 @@ order: 1
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "modified": "2023-12-26T11:28:20.207Z",
+            "modified": "2023-12-26T11:31:17.986Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Deux plans possibles : \n\nLe plan qui correspond \u00e0 la figure de gauche est le plus fr\u00e9quent. \nDans la partie M.H. (habitation humaine, maison d'habitation au sens strict)"
+            "value": "Deux plans possibles : \n\nLe plan qui correspond \u00e0 la figure de gauche est le plus fr\u00e9quent. \nDans la partie M.H. (habitation humaine, maison d'habitation au sens strict) : pi\u00e8ces en enfilade, si bien que l'on passe directement de l'une \u00e0 l'autre. Plus r\u00e9cemment vestibule central en forme de couloir.\nHangar (HA.) s\u00e9par\u00e9 possible.\nET. : \u00e9table "
         }
     ],
     "id": "5c57ba39-6005-4e36-84ce-cc1ec0ebd065.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=359.5151062011719,899.9746704101562,1543.6612854003906,230.16387939453125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc3/manifest.json",
@@ -27,11 +32,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0317",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=359.5151062011719,899.9746704101562,1543.6612854003906,230.16387939453125"
         }
     },
     "type": "Annotation"
