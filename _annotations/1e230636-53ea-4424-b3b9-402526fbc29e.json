@@ -4,31 +4,37 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Plan d'une maison observ\u00e9e dans la localit\u00e9 et repr\u00e9sentative de la construction traditionnelle.",
-            "purpose": "commenting",
+            "created": "2023-12-30T15:24:59.125Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-30T15:24:59.125Z",
-            "modified": "2023-12-30T15:25:51.896Z"
+            "modified": "2023-12-30T15:36:33.287Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Plan d'une maison observ\u00e9e dans la localit\u00e9 et repr\u00e9sentative de la construction traditionnelle.\n\nL'avant-porte : [...], sous un avancement du toit, ferm\u00e9e par un mur bas, le toit soutenu par plusieurs piliers de bois. L'avant-porte peut aussi \u00eatre appel\u00e9e [...], mais le mot est senti comme \u00e9tranger : elle est surmont\u00e9e d'un balcon ferm\u00e9 par une cloison de planches.\nCommunication entre ET; (\u00e9table) et M.H. ( par une porte int\u00e9rieure."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L82.24",
+            "created": "2023-12-30T15:26:08.416Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-30T15:26:08.416Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L82.24"
         }
     ],
+    "id": "1e230636-53ea-4424-b3b9-402526fbc29e.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2079.949951171875,433.63934326171875,976.065673828125,312.568359375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc3/manifest.json",
@@ -36,13 +42,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0318",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2079.949951171875,433.63934326171875,976.065673828125,312.568359375"
         }
     },
-    "id": "1e230636-53ea-4424-b3b9-402526fbc29e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
