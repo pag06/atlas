@@ -16,20 +16,45 @@ order: 1
             "value": "L47.04"
         },
         {
-            "type": "TextualBody",
-            "value": "Maison de la vall\u00e9e de la Garonne, d'un type assez r\u00e9pandu dans l'Agenais.\n\nM.H. : habitation humaine, maison d'habitation au sens strict.\nGR. : grange\nET. : \u00e9table",
-            "purpose": "commenting",
+            "created": "2023-12-30T12:40:34.320Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-30T12:40:34.320Z",
-            "modified": "2023-12-30T12:41:51.035Z"
+            "modified": "2023-12-30T12:41:51.035Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Maison de la vall\u00e9e de la Garonne, d'un type assez r\u00e9pandu dans l'Agenais.\n\nM.H. : habitation humaine, maison d'habitation au sens strict.\nGR. : grange\nET. : \u00e9table"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5271",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-30T12:43:06.523Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4195",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-30T12:43:15.469Z"
         }
     ],
     "id": "41383def-7f6d-44a2-a93a-db642a11e718.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=363.58966064453125,799.4057006835938,1339.8175659179688,797.1710815429688"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc3/manifest.json",
@@ -37,11 +62,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0318",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=363.58966064453125,799.4057006835938,1339.8175659179688,797.1710815429688"
         }
     },
     "type": "Annotation"
