@@ -1,0 +1,48 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0318"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L81.04",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-30T12:43:51.202Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Premier corps : bloc comprenant M.H. (habitation humaine, maison d'habitation au sens strict), HA. (hangar) [...] et CA. (cave)\nDeuxi\u00e8me corps : ET. (\u00e9table)\nLes corps sont en ligne.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-30T12:44:12.557Z",
+            "modified": "2023-12-30T12:46:22.400Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0318",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=373.9232482910156,2146.074951171875,1243.1694030761719,278.469970703125"
+        }
+    },
+    "id": "af8ba4b9-d27f-4808-9336-de4aef2a5e1d.json",
+    "motivation": "commenting"
+}
