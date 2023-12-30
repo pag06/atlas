@@ -4,31 +4,47 @@ order: 7
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Grange\nAu niveau sup\u00e9rieur le local dans lequel est entrepos\u00e9 le foin : une grande porte, perc\u00e9e dans l'un des murs pignons, permet l'acc\u00e8s. ",
-            "purpose": "commenting",
+            "created": "2023-12-30T12:19:38.409Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-30T12:19:38.409Z",
-            "modified": "2023-12-30T12:20:29.074Z"
+            "modified": "2023-12-30T12:20:29.074Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Grange\nAu niveau sup\u00e9rieur le local dans lequel est entrepos\u00e9 le foin : une grande porte, perc\u00e9e dans l'un des murs pignons, permet l'acc\u00e8s. "
+        },
+        {
+            "created": "2023-12-30T12:20:45.850Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L46.25"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L46.25",
+            "value": "Q5271",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-30T12:20:45.850Z"
+            "created": "2023-12-30T12:21:02.668Z"
         }
     ],
+    "id": "d90e65f8-9b98-468f-9934-8fe68ef0e97a.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2226.41943359375,3767.830322265625,650.710205078125,323.934326171875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc3/manifest.json",
@@ -36,13 +52,7 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0317",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2226.41943359375,3767.830322265625,650.710205078125,323.934326171875"
         }
     },
-    "id": "d90e65f8-9b98-468f-9934-8fe68ef0e97a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
