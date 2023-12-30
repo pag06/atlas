@@ -1,0 +1,68 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0318"
+order: 8
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "\"Balet\" - [...] - de la maison \u00e0 terre du Bas-Quercy. Le balcon qui surmonte au niveau du grenier sert de s\u00e9choir.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-30T21:53:42.319Z",
+            "modified": "2023-12-30T21:54:36.179Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L82.03",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-30T21:54:44.624Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-30T21:55:17.674Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "T",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-30T21:55:24.350Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0318",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1972.25634765625,4441.73779296875,1233.934326171875,431.20166015625"
+        }
+    },
+    "id": "7eb1c88c-949d-4eef-ad66-27daa922ee04.json",
+    "motivation": "commenting"
+}
