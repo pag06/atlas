@@ -37,14 +37,14 @@ order: 2
             "value": "Q2088"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "T",
+            "created": "2023-12-30T12:34:04.358Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-30T12:34:04.358Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "T"
         }
     ],
     "id": "548545a7-7322-4ac5-98b6-d69efa6f0b0a.json",
