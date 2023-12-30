@@ -11,41 +11,40 @@ order: 2
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "modified": "2023-12-19T09:02:24.602Z",
-            "purpose": "questioning",
+            "modified": "2023-12-30T12:34:01.201Z",
+            "purpose": "commenting",
             "type": "TextualBody",
             "value": "Charrue m\u00e9tallique appel\u00e9e [...]. Ne sert plus aujourd'hui que pour le travail des vignes. "
         },
         {
-            "created": "2023-12-19T09:02:25.882Z",
+            "created": "2023-12-19T09:29:18.274Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "modified": "2023-12-19T09:02:32.155Z",
-            "purpose": "commenting",
+            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Compl\u00e9ter la l\u00e9gende [...]"
+            "value": "L46.31"
+        },
+        {
+            "created": "2023-12-19T09:29:20.170Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2088"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L46.31",
+            "value": "T",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-19T09:29:18.274Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2088",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "created": "2023-12-19T09:29:20.170Z"
+            "created": "2023-12-30T12:34:04.358Z"
         }
     ],
     "id": "548545a7-7322-4ac5-98b6-d69efa6f0b0a.json",
