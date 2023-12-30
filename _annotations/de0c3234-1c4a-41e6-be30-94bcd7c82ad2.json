@@ -45,6 +45,16 @@ order: 2
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q4195"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "T",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "created": "2023-12-30T12:33:18.492Z"
         }
     ],
     "id": "de0c3234-1c4a-41e6-be30-94bcd7c82ad2.json",
