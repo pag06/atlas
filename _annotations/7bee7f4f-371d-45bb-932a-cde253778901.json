@@ -1,0 +1,49 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0351"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Saugues (vers 1930) : atelier du charron.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "leotrimramadani1",
+                "name": "leotrimramadani1"
+            },
+            "created": "2024-04-11T14:22:38.971Z",
+            "modified": "2024-04-11T14:23:04.181Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "L24",
+            "purpose": "tagging",
+            "creator": {
+                "id": "leotrimramadani1",
+                "name": "leotrimramadani1"
+            },
+            "created": "2024-04-11T14:23:11.106Z",
+            "modified": "2024-04-11T14:23:14.697Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0351",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1469.1715087890625,2588.066650390625,1089.0682373046875,1272.619140625"
+        }
+    },
+    "id": "7bee7f4f-371d-45bb-932a-cde253778901.json",
+    "motivation": "commenting"
+}
