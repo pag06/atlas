@@ -1,0 +1,49 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0351"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "L7",
+            "purpose": "tagging",
+            "creator": {
+                "id": "leotrimramadani1",
+                "name": "leotrimramadani1"
+            },
+            "created": "2024-04-11T14:11:44.327Z",
+            "modified": "2024-04-11T14:11:45.002Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Outils de sabotier.\n1- [...] : tari\u00e8re, C. 1736.\n2- [...] : r\u00e9nette, C. 1736.*\n3- [...] : gouge, C. 1736.\n4- [...].\n5- [...] < pour fa\u00e7onner la talon >.\n6- [...] : paloir. C. 1736.*\n",
+            "purpose": "commenting",
+            "creator": {
+                "id": "leotrimramadani1",
+                "name": "leotrimramadani1"
+            },
+            "created": "2024-04-11T14:11:48.273Z",
+            "modified": "2024-04-11T14:15:18.426Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0351",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=453.5235290527344,538.415771484375,850.4521789550781,1272.619140625"
+        }
+    },
+    "id": "91298bec-b28e-4722-b4cb-61968237dada.json",
+    "motivation": "commenting"
+}
