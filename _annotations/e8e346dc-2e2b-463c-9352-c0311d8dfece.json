@@ -1,0 +1,49 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0351"
+order: 4
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "L25",
+            "purpose": "tagging",
+            "creator": {
+                "id": "eleve10",
+                "name": "eleve10"
+            },
+            "created": "2024-04-11T14:33:21.631Z",
+            "modified": "2024-04-11T14:33:24.073Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "La Vaissi\u00e8re : tour de menuisier.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "eleve10",
+                "name": "eleve10"
+            },
+            "created": "2024-04-11T14:33:26.892Z",
+            "modified": "2024-04-11T14:33:50.515Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0351",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=404.5766296386719,2331.095458984375,972.8193664550781,1529.59033203125"
+        }
+    },
+    "id": "e8e346dc-2e2b-463c-9352-c0311d8dfece.json",
+    "motivation": "commenting"
+}
