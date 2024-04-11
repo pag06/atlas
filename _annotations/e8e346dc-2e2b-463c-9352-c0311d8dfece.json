@@ -4,31 +4,32 @@ order: 4
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "L25",
-            "purpose": "tagging",
+            "created": "2024-04-11T14:33:21.631Z",
             "creator": {
                 "id": "eleve10",
                 "name": "eleve10"
             },
-            "created": "2024-04-11T14:33:21.631Z",
-            "modified": "2024-04-11T14:33:24.073Z"
+            "modified": "2024-04-11T14:33:24.073Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L25"
         },
         {
-            "type": "TextualBody",
-            "value": "La Vaissi\u00e8re : tour de menuisier.",
-            "purpose": "commenting",
+            "created": "2024-04-11T14:33:26.892Z",
             "creator": {
                 "id": "eleve10",
                 "name": "eleve10"
             },
-            "created": "2024-04-11T14:33:26.892Z",
-            "modified": "2024-04-11T14:33:50.515Z"
+            "modified": "2024-04-11T14:33:50.515Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "La Vaissi\u00e8re : tour de menuisier."
         }
     ],
+    "id": "e8e346dc-2e2b-463c-9352-c0311d8dfece.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -41,9 +42,8 @@ order: 4
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=404.5766296386719,2331.095458984375,972.8193664550781,1529.59033203125"
+            "value": "xywh=404.5766296386719,2330.591552734375,961.5571594238281,1530.09423828125"
         }
     },
-    "id": "e8e346dc-2e2b-463c-9352-c0311d8dfece.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
