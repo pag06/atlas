@@ -1,0 +1,48 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0350"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "L28",
+            "purpose": "tagging",
+            "creator": {
+                "id": "eleve10",
+                "name": "eleve10"
+            },
+            "created": "2024-04-12T08:15:49.769Z",
+            "modified": "2024-04-12T08:15:52.144Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Termes",
+            "purpose": "commenting",
+            "creator": {
+                "id": "eleve10",
+                "name": "eleve10"
+            },
+            "created": "2024-04-12T08:15:54.608Z",
+            "modified": "2024-04-12T08:15:55.579Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0350",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1870.33056640625,965.9349975585938 1864.0987548828125,380.14215087890625 2350.18212890625,342.7511291503906 2611.91943359375,423.7650451660156 2643.07861328125,716.6614379882812 2761.483642578125,803.9071655273438 2755.251708984375,1009.557861328125 2624.383056640625,1084.3399658203125\"></polygon></svg>"
+        }
+    },
+    "id": "9a5a9117-4747-46d7-8165-4a25c2aee67b.json",
+    "motivation": "commenting"
+}
