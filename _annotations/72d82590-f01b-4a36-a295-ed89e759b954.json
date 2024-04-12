@@ -1,0 +1,49 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0350"
+order: 6
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "L6",
+            "purpose": "tagging",
+            "creator": {
+                "id": "eleve10",
+                "name": "eleve10"
+            },
+            "created": "2024-04-12T08:24:21.278Z",
+            "modified": "2024-04-12T08:24:22.286Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "St-Romain-de-Lerp",
+            "purpose": "commenting",
+            "creator": {
+                "id": "eleve10",
+                "name": "eleve10"
+            },
+            "created": "2024-04-12T08:24:25.095Z",
+            "modified": "2024-04-12T08:24:38.199Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0350",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1723.8663330078125,3069.8564453125,1078.5924072265625,775.92626953125"
+        }
+    },
+    "id": "72d82590-f01b-4a36-a295-ed89e759b954.json",
+    "motivation": "commenting"
+}
