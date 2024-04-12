@@ -3,43 +3,61 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0349"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le \"couvige\" en Velay (vers 1920) ",
-            "purpose": "commenting",
+            "created": "2023-08-15T15:22:22.113Z",
             "creator": {
                 "id": "sf7320",
                 "name": "Serena"
             },
-            "created": "2023-08-15T15:22:22.113Z",
-            "modified": "2023-08-15T15:22:38.905Z"
+            "modified": "2023-08-15T15:22:38.905Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le \"couvige\" en Velay (vers 1920) "
+        },
+        {
+            "created": "2023-08-15T15:22:47.659Z",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1460"
         },
         {
             "type": "TextualBody",
+            "value": "Q2825",
             "purpose": "tagging",
-            "value": "C1460",
             "creator": {
-                "id": "sf7320",
-                "name": "Serena"
+                "id": "eleve10",
+                "name": "eleve10"
             },
-            "created": "2023-08-15T15:22:47.659Z"
+            "created": "2024-04-12T12:38:10.601Z",
+            "modified": "2024-04-12T12:38:11.133Z"
         }
     ],
+    "id": "51047601-bba3-4cd1-8dde-9621b9ba4ddd.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0349",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1349.81494140625,575.767822265625,1253.562744140625,1138.00390625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1349.81494140625,575.767822265625,1253.562744140625,1138.00390625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0349",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "51047601-bba3-4cd1-8dde-9621b9ba4ddd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
