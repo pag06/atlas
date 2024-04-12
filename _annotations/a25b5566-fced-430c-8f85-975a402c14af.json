@@ -4,21 +4,38 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Type C",
-            "purpose": "commenting",
+            "created": "2024-04-12T09:03:41.379Z",
             "creator": {
                 "id": "eleve10",
                 "name": "eleve10"
             },
-            "created": "2024-04-12T09:03:41.379Z",
-            "modified": "2024-04-12T09:03:43.055Z"
+            "modified": "2024-04-12T09:03:43.055Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Type C"
+        },
+        {
+            "type": "TextualBody",
+            "value": "L19",
+            "purpose": "tagging",
+            "creator": {
+                "id": "eleve10",
+                "name": "eleve10"
+            },
+            "created": "2024-04-12T11:38:14.911Z",
+            "modified": "2024-04-12T11:38:15.505Z"
         }
     ],
+    "id": "a25b5566-fced-430c-8f85-975a402c14af.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1768.615478515625,2247.944580078125,771.41259765625,502.2216796875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc4/manifest.json",
@@ -26,13 +43,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc4/canvas/ALLOc_4_0117",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1768.615478515625,2247.944580078125,771.41259765625,502.2216796875"
         }
     },
-    "id": "a25b5566-fced-430c-8f85-975a402c14af.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
