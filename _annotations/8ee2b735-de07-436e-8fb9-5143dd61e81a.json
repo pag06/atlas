@@ -4,9 +4,26 @@ order: 4
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
-    "body": [],
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "6- [...] : bouvet d'\u00e9cartement.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "eleve10",
+                "name": "eleve10"
+            },
+            "created": "2024-04-12T13:29:13.747Z",
+            "modified": "2024-04-12T13:29:37.886Z"
+        }
+    ],
+    "id": "8ee2b735-de07-436e-8fb9-5143dd61e81a.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1975.5,3256.9 1989.5,3256.9 2002,3280.3 2031.6,3283.4 2125.1,3433 2125.1,3462.6 2106.4,3501.5 2011.3,3521.8 1914.7,3526.4 1892.9,3471.9 1866.4,3406.5 1863.3,3339.5 1911.6,3297.4 1952.1,3263.1\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -14,12 +31,7 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0255",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1975.5,3256.9 1989.5,3256.9 2002,3280.3 2031.6,3283.4 2125.1,3433 2125.1,3462.6 2106.4,3501.5 2011.3,3521.8 1914.7,3526.4 1892.9,3471.9 1866.4,3406.5 1863.3,3339.5 1911.6,3297.4 1952.1,3263.1\"></polygon></svg>"
         }
     },
-    "id": "8ee2b735-de07-436e-8fb9-5143dd61e81a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
