@@ -25,11 +25,25 @@ order: 2
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q8074"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L1515",
+            "creator": {
+                "id": "eleve10",
+                "name": "eleve10"
+            },
+            "created": "2024-04-12T13:00:01.345Z"
         }
     ],
     "id": "48d79cac-cfb4-4c08-bfb5-9dc0eb748489.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2323.6,3220.6 2221.7,3408.8 2221.7,3897 1852.6,3897 1852.6,3591.5 1929.6,3403.1 1929.6,3320.2 2070.8,3076.1 2323.6,3077\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -37,10 +51,6 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0144",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2323.6,3220.6 2221.7,3408.8 2221.7,3897 1852.6,3897 1852.6,3591.5 1929.6,3403.1 1929.6,3320.2 2070.8,3076.1 2323.6,3077\"></polygon></svg>"
         }
     },
     "type": "Annotation"
