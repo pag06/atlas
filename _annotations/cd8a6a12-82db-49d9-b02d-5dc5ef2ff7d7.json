@@ -3,42 +3,59 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0145"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "port sur les mains entre-crois\u00e9es",
-            "purpose": "commenting",
+            "created": "2023-07-27T10:23:47.438Z",
             "creator": {
                 "id": "sf7320",
                 "name": "Serena"
             },
-            "created": "2023-07-27T10:23:47.438Z",
-            "modified": "2023-07-27T10:24:02.437Z"
+            "modified": "2023-07-27T10:24:02.437Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "port sur les mains entre-crois\u00e9es"
+        },
+        {
+            "created": "2023-07-27T10:24:24.659Z",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8076"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q8076",
+            "value": "L1517",
             "creator": {
-                "id": "sf7320",
-                "name": "Serena"
+                "id": "eleve10",
+                "name": "eleve10"
             },
-            "created": "2023-07-27T10:24:24.659Z"
+            "created": "2024-04-12T13:00:45.451Z"
         }
     ],
+    "id": "cd8a6a12-82db-49d9-b02d-5dc5ef2ff7d7.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0145",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"956.0355224609375,3739.128173828125 987.2705688476562,3160.081787109375 1710.47802734375,3128.846923828125 1830.6116943359375,3897.705078125 953.6329956054688,3904.9130859375 954.6838989257812,3903.936767578125\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0145",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "cd8a6a12-82db-49d9-b02d-5dc5ef2ff7d7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
