@@ -1,0 +1,47 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0351"
+order: 5
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Saugues (vers 1930 : atelier du forgeron.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "eleve10",
+                "name": "eleve10"
+            },
+            "created": "2024-04-12T07:29:36.402Z",
+            "modified": "2024-04-12T07:30:00.104Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L24",
+            "creator": {
+                "id": "eleve10",
+                "name": "eleve10"
+            },
+            "created": "2024-04-12T07:30:29.348Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0351",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1671.157958984375,2513.36865234375 1634.684326171875,2523.31591796875 1356.157958984375,2563.10546875 1352.8421630859375,2191.737060546875 1482.157958984375,1565.052734375 2423.84228515625,1555.1053466796875 2659.263427734375,1657.894775390625 2646.000244140625,2486.84228515625 2649.31591796875,2493.473876953125 2649.31591796875,2493.473876953125\"></polygon></svg>"
+        }
+    },
+    "id": "187a3887-5266-48f8-b94a-40c2ba8c2ee3.json",
+    "motivation": "commenting"
+}
