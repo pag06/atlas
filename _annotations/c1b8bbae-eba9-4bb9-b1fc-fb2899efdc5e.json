@@ -1,0 +1,49 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0350"
+order: 4
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "L25",
+            "purpose": "tagging",
+            "creator": {
+                "id": "eleve10",
+                "name": "eleve10"
+            },
+            "created": "2024-04-12T08:21:11.366Z",
+            "modified": "2024-04-12T08:21:14.105Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "La Vaissere (d\u00e9tail).",
+            "purpose": "commenting",
+            "creator": {
+                "id": "eleve10",
+                "name": "eleve10"
+            },
+            "created": "2024-04-12T08:21:16.909Z",
+            "modified": "2024-04-12T08:21:40.446Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0350",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1935.4144287109375,1906.7315673828125,803.1219482421875,1065.3656005859375"
+        }
+    },
+    "id": "c1b8bbae-eba9-4bb9-b1fc-fb2899efdc5e.json",
+    "motivation": "commenting"
+}
