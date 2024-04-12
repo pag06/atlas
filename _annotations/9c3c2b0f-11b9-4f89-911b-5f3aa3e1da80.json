@@ -4,32 +4,37 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "L29",
-            "purpose": "tagging",
+            "created": "2024-04-12T07:46:32.086Z",
             "creator": {
                 "id": "eleve10",
                 "name": "eleve10"
             },
-            "created": "2024-04-12T07:46:32.086Z",
-            "modified": "2024-04-12T07:46:34.504Z"
+            "modified": "2024-04-12T07:46:34.504Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L29"
         },
         {
-            "type": "TextualBody",
-            "value": "Saint Denis",
-            "purpose": "commenting",
+            "created": "2024-04-12T07:46:37.195Z",
             "creator": {
                 "id": "eleve10",
                 "name": "eleve10"
             },
-            "created": "2024-04-12T07:46:37.195Z",
-            "modified": "2024-04-12T07:46:40.166Z"
+            "modified": "2024-04-12T07:46:40.166Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Saint Denis"
         }
     ],
+    "id": "9c3c2b0f-11b9-4f89-911b-5f3aa3e1da80.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1582.1080322265625,1138.8685302734375 1572.76025390625,755.6104736328125 1286.095703125,768.0740966796875 1261.1683349609375,478.2936096191406 547.622802734375,496.9891357421875 591.2457275390625,1026.6954345703125 1267.400146484375,1141.9844970703125\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -37,12 +42,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0350",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1582.1080322265625,1138.8685302734375 1572.76025390625,755.6104736328125 1286.095703125,768.0740966796875 1261.1683349609375,478.2936096191406 547.622802734375,496.9891357421875 591.2457275390625,1026.6954345703125 1267.400146484375,1141.9844970703125\"></polygon></svg>"
         }
     },
-    "id": "9c3c2b0f-11b9-4f89-911b-5f3aa3e1da80.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
