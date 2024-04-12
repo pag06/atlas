@@ -4,41 +4,47 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Herminette (outil du charron)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
             "created": "2023-10-18T13:56:09.459Z",
-            "modified": "2023-10-18T13:56:43.838Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C1734",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-10-18T13:56:18.034Z"
+            "modified": "2023-10-18T13:56:43.838Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Herminette (outil du charron)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L29",
+            "created": "2023-10-18T13:56:18.034Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-10-18T13:56:25.874Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1734"
+        },
+        {
+            "created": "2023-10-18T13:56:25.874Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L29"
         }
     ],
+    "id": "f3746273-acd5-4fff-9b4d-55432b470d99.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1952.0067138671875,3534.911865234375,220.9315185546875,482.3671875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -46,13 +52,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0255",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1952.0067138671875,3534.911865234375,220.9315185546875,482.3671875"
         }
     },
-    "id": "f3746273-acd5-4fff-9b4d-55432b470d99.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
