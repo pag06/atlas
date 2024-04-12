@@ -1,0 +1,37 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0255"
+order: 6
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "3- [...] : riflard rond .C. 1732*.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "eleve10",
+                "name": "eleve10"
+            },
+            "created": "2024-04-12T13:39:10.900Z",
+            "modified": "2024-04-12T13:40:05.198Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0255",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1610.9302978515625,3847.38134765625 1701.2919921875,3842.70751953125 1679.4805908203125,3364.413818359375 1662.343017578125,3350.392333984375 1562.633544921875,3341.04443359375 1539.26416015625,3373.76171875 1523.6845703125,3408.036865234375 1484.735595703125,3417.384521484375 1519.0107421875,3492.16650390625 1556.4017333984375,3450.101806640625 1578.213134765625,3445.427734375 1587.5609130859375,3464.123291015625 1565.74951171875,3515.5361328125 1596.90869140625,3588.760009765625\"></polygon></svg>"
+        }
+    },
+    "id": "176657f4-e508-4cf7-bee9-54029fccae0e.json",
+    "motivation": "commenting"
+}
