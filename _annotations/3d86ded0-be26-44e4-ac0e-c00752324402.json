@@ -40,15 +40,18 @@ order: 1
     "id": "3d86ded0-be26-44e4-ac0e-c00752324402.json",
     "motivation": "commenting",
     "target": {
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0259",
+            "type": "Canvas"
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1715.598876953125,3201.628173828125 1642.7464599609375,3287.041259765625 1647.7708740234375,3402.60009765625 1635.2100830078125,3480.476806640625 1532.2117919921875,3477.964599609375 1527.1876220703125,3628.693603515625 2037.154052734375,3874.884521484375 2353.6845703125,3874.884521484375 2449.146484375,3736.71630859375 2454.170654296875,3214.18896484375 2454.798583984375,3215.759033203125\"></polygon></svg>"
-        },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0259"
+            "value": "<svg><polygon points=\"1715.6,3201.6 1642.7,3287 1647.8,3402.6 1635.2,3480.5 1532.2,3478 1527.2,3628.7 2037.2,3874.9 2353.7,3874.9 2444.4,3734.6 2446.2,3213.7 2440.7,3212.7\"></polygon></svg>"
+        }
     },
     "type": "Annotation"
 }
