@@ -4,40 +4,41 @@ order: 13
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Coiffure f\u00e9minine",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-06T20:05:12.748Z",
-            "modified": "2023-10-06T20:05:16.038Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L762NE",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T20:05:22.659Z"
+            "modified": "2023-10-06T20:05:16.038Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Coiffure f\u00e9minine"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2446",
+            "created": "2023-10-06T20:05:22.659Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T20:05:25.049Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L762NE"
+        },
+        {
+            "created": "2023-10-06T20:05:25.049Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2446"
         }
     ],
+    "id": "7439c118-5aa7-47ff-977e-f71c2939c046.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -49,9 +50,8 @@ order: 13
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1729.3,1979.9 1824.5,1972.5 2128.4,1972.5 2128.4,2272.8 2128.4,2573.1 1820.9,2558.4 1535.2,2660.9 1590.2,2294.8\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1729.3,1979.9 1824.5,1972.5 2052.2,1973 2094,2273 2106.8,2563.9 1820.9,2558.4 1535.2,2660.9 1590.2,2294.8\"></polygon></svg>"
         }
     },
-    "id": "7439c118-5aa7-47ff-977e-f71c2939c046.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
