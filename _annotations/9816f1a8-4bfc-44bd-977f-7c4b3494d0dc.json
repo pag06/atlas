@@ -4,39 +4,40 @@ order: 11
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Coiffure f\u00e9minine\nd'apr\u00e8s des sujets pris un jour de semaine en 1953",
+            "created": "2023-10-06T20:04:24.401Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-06T20:04:24.401Z"
+            "type": "TextualBody",
+            "value": "Coiffure f\u00e9minine\nd'apr\u00e8s des sujets pris un jour de semaine en 1953"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L790S",
+            "created": "2023-10-06T20:04:28.124Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T20:04:28.124Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L790S"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2446",
+            "created": "2023-10-06T20:04:31.087Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T20:04:31.087Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2446"
         }
     ],
+    "id": "9816f1a8-4bfc-44bd-977f-7c4b3494d0dc.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -48,9 +49,8 @@ order: 11
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1700.0201416015625,3180.896484375 1711.0052490234375,2895.284423828125 1872.1197509765625,2543.76171875 2069.85302734375,2624.318603515625 2146.746826171875,3158.92626953125 2124.776611328125,3210.18994140625 1725.6519775390625,3232.16015625\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1707.8,3181 1718.8,2895.4 1879.9,2543.9 2077.7,2624.4 2154.5,3159 2113,3199.7 1740.8,3209.1\"></polygon></svg>"
         }
     },
-    "id": "9816f1a8-4bfc-44bd-977f-7c4b3494d0dc.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
