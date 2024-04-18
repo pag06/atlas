@@ -4,50 +4,51 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Charpente \u00e9l\u00e9mentaire sans arbal\u00e9triers ni poin\u00e7ons : les chevrons reposent sur les sabli\u00e8res, les pannes et la poutre faiti\u00e8re ; on remarque que ces types ont \u00e9t\u00e9 exclusivement relev\u00e9 dans les Pyr\u00e9n\u00e9es. \nEn haut [...] : trou \u00e0 fum\u00e9e tenant lien de chemin\u00e9e et donnant directement dans le grenier.\n\nLes pi\u00e8ces de la charpente et les brins de chaume qui apparaissent entre les chevrons sont recouverts d\u2019une \u00e9paisse couche de goudron d\u00e9pos\u00e9 par la fum\u00e9e qui s\u2019\u00e9chappe non par une chemin\u00e9e, mais pas un simple orifice rectangulaire pratiqu\u00e9 dans le planch\u00e9 du grenier.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-02T16:24:42.038Z",
-            "modified": "2023-10-02T16:34:01.899Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L790S",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T16:25:22.530Z"
+            "modified": "2023-10-02T16:34:01.899Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charpente \u00e9l\u00e9mentaire sans arbal\u00e9triers ni poin\u00e7ons : les chevrons reposent sur les sabli\u00e8res, les pannes et la poutre faiti\u00e8re ; on remarque que ces types ont \u00e9t\u00e9 exclusivement relev\u00e9 dans les Pyr\u00e9n\u00e9es. \nEn haut [...] : trou \u00e0 fum\u00e9e tenant lien de chemin\u00e9e et donnant directement dans le grenier.\n\nLes pi\u00e8ces de la charpente et les brins de chaume qui apparaissent entre les chevrons sont recouverts d\u2019une \u00e9paisse couche de goudron d\u00e9pos\u00e9 par la fum\u00e9e qui s\u2019\u00e9chappe non par une chemin\u00e9e, mais pas un simple orifice rectangulaire pratiqu\u00e9 dans le planch\u00e9 du grenier."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C667",
+            "created": "2023-10-02T16:25:22.530Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T16:25:24.227Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L790S"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2072",
+            "created": "2023-10-02T16:25:24.227Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T16:25:26.285Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C667"
+        },
+        {
+            "created": "2023-10-02T16:25:26.285Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2072"
         }
     ],
+    "id": "77373674-17bc-4cc0-8e2c-c9a8abbf28b4.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -60,9 +61,8 @@ order: 5
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1339.8519287109375,42.8148193359375,911.7037353515625,627.1111450195312"
+            "value": "xywh=1339.8519287109375,49.87643051147461,900.0421142578125,620.0495338439941"
         }
     },
-    "id": "77373674-17bc-4cc0-8e2c-c9a8abbf28b4.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
