@@ -3,53 +3,56 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0262"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Sabotier travaillant au finissage du sabot",
-            "purpose": "commenting",
-            "creator": {
-                "id": "sf7320",
-                "name": "Serena"
-            },
             "created": "2023-08-06T13:07:45.015Z",
-            "modified": "2023-08-06T13:08:15.017Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L24",
             "creator": {
                 "id": "sf7320",
                 "name": "Serena"
             },
-            "created": "2023-08-06T13:08:20.759Z"
+            "modified": "2023-08-06T13:08:15.017Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Sabotier travaillant au finissage du sabot"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C1751",
+            "created": "2023-08-06T13:08:20.759Z",
             "creator": {
                 "id": "sf7320",
                 "name": "Serena"
             },
-            "created": "2023-08-06T13:08:35.954Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
+        },
+        {
+            "created": "2023-08-06T13:08:35.954Z",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1751"
         }
     ],
+    "id": "5568b585-e55c-4661-9313-6f696ae08379.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0262",
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0262",
+            "type": "Canvas"
+        },
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2002.5567626953125,3074.401123046875,591.6363525390625,837.999755859375"
-        },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
-            "type": "Manifest"
+            "value": "xywh=2002.5567626953125,3074.401123046875,591.8536376953125,847.261962890625"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5568b585-e55c-4661-9313-6f696ae08379.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
