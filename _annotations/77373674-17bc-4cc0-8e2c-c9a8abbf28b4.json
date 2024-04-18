@@ -50,18 +50,17 @@ order: 5
     "id": "77373674-17bc-4cc0-8e2c-c9a8abbf28b4.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "value": "<svg><polygon points=\"1339.8519287109375,49.87643051147461 1789.8729858398438,49.87643051147461 2239.89404296875,49.87643051147461 2239.89404296875,359.9011974334717 2239.89404296875,669.9259643554688 1789.8729858398438,669.9259643554688 1339.8519287109375,669.9259643554688 1339.8519287109375,359.9011974334717\"></polygon></svg>",
+            "type": "SvgSelector"
+        },
         "source": {
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0106",
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
                 "type": "Manifest"
             },
-            "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0106",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1339.8519287109375,49.87643051147461,900.0421142578125,620.0495338439941"
         }
     },
     "type": "Annotation"
