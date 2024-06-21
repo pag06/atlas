@@ -27,15 +27,26 @@ order: 1
             "value": "C1384"
         },
         {
-            "type": "TextualBody",
-            "value": "Q1202",
-            "purpose": "tagging",
+            "created": "2024-04-12T12:54:48.523Z",
             "creator": {
                 "id": "eleve10",
                 "name": "eleve10"
             },
-            "created": "2024-04-12T12:54:48.523Z",
-            "modified": "2024-04-12T12:54:49.173Z"
+            "modified": "2024-04-12T12:54:49.173Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1202"
+        },
+        {
+            "type": "TextualBody",
+            "value": "L24",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-06-21T10:36:40.609Z",
+            "modified": "2024-06-21T10:36:41.125Z"
         }
     ],
     "id": "31380804-9745-4f49-ad9b-6ca1619bcd33.json",
