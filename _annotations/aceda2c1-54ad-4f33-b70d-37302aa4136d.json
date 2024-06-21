@@ -105,6 +105,17 @@ order: 7
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "L09.33"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q7278",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-06-21T14:00:00.404Z",
+            "modified": "2024-06-21T14:00:00.774Z"
         }
     ],
     "id": "aceda2c1-54ad-4f33-b70d-37302aa4136d.json",
