@@ -4,32 +4,38 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "L25",
-            "purpose": "tagging",
+            "created": "2024-04-11T13:50:37.954Z",
             "creator": {
                 "id": "leotrimramadani1",
                 "name": "leotrimramadani1"
             },
-            "created": "2024-04-11T13:50:37.954Z",
-            "modified": "2024-04-11T13:50:39.371Z"
+            "modified": "2024-04-11T13:50:39.371Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L25"
         },
         {
-            "type": "TextualBody",
-            "value": "Le Malzieu\n   Le nom patois des pi\u00e8ces num\u00e9rot\u00e9es est le terme employ\u00e9 \u00e0 30w-Pierrefiche. Voir C.1723 \u00e0 1730.\n1- [...] : la tr\u00e9mie.\n2- [...] : couvercle de la meule sup\u00e9rieure.\n3- [...] : auge qui re\u00e7oit le grain de la tr\u00e9mie et qui est secou\u00e9e par le claquer.\n4- [...] : le claquer.\n5- [...] : le banc.\n6- [...] : cha\u00eene \u00e0 godets, qui am\u00e8ne la farine au blutoir.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "leotrimramadani1",
-                "name": "leotrimramadani1"
-            },
             "created": "2024-04-11T13:50:50.587Z",
-            "modified": "2024-04-11T13:55:34.077Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-06-21T10:12:56.454Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le Malzieu\n   Le nom patois des pi\u00e8ces num\u00e9rot\u00e9es est le terme employ\u00e9 \u00e0 L30W - Pierrefiche. Voir C1723 \u00e0 C1730.\n1- [...] : la tr\u00e9mie.\n2- [...] : couvercle de la meule sup\u00e9rieure.\n3- [...] : auge qui re\u00e7oit le grain de la tr\u00e9mie et qui est secou\u00e9e par le claquet.\n4- [...] : le claquet.\n5- [...] : le banc.\n6- [...] : cha\u00eene \u00e0 godets, qui am\u00e8ne la farine au blutoir."
         }
     ],
+    "id": "50ee4571-4696-4df7-8fc8-190ad260e215.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1335.2474365234375,2613.887451171875,1468.4066162109375,1346.03955078125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -37,13 +43,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0352",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1335.2474365234375,2613.887451171875,1468.4066162109375,1346.03955078125"
         }
     },
-    "id": "50ee4571-4696-4df7-8fc8-190ad260e215.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
