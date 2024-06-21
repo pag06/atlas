@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-06T12:55:38.901Z",
             "creator": {
-                "id": "sf7320",
-                "name": "Serena"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-06T13:06:58.648Z",
+            "modified": "2024-06-21T12:11:19.153Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Travail \u00e0 ferrer, la vaissi\u00e8re "
+            "value": "Travail \u00e0 ferrer\n\nLa Vaissi\u00e8re, commune de Le Malzieu-Ville (Loz\u00e8re)."
         },
         {
             "created": "2023-08-06T12:55:51.220Z",
@@ -35,11 +35,25 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "C1746"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10216",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-06-21T12:11:26.436Z"
         }
     ],
     "id": "3d86ded0-be26-44e4-ac0e-c00752324402.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1715.6,3201.6 1642.7,3287 1647.8,3402.6 1635.2,3480.5 1532.2,3478 1527.2,3628.7 2037.2,3874.9 2353.7,3874.9 2444.4,3734.6 2446.2,3213.7 2440.7,3212.7\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -47,10 +61,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0259",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1715.6,3201.6 1642.7,3287 1647.8,3402.6 1635.2,3480.5 1532.2,3478 1527.2,3628.7 2037.2,3874.9 2353.7,3874.9 2444.4,3734.6 2446.2,3213.7 2440.7,3212.7\"></polygon></svg>"
         }
     },
     "type": "Annotation"
