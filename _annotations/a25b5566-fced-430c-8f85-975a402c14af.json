@@ -266,6 +266,26 @@ order: 2
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "L09.11"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L46.14",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-06-21T13:33:30.760Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L46.33",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-06-21T13:33:35.859Z"
         }
     ],
     "id": "a25b5566-fced-430c-8f85-975a402c14af.json",
