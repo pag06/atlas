@@ -4,21 +4,27 @@ order: 7
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Type H",
-            "purpose": "commenting",
-            "creator": {
-                "id": "eleve10",
-                "name": "eleve10"
-            },
             "created": "2024-04-12T09:04:25.877Z",
-            "modified": "2024-04-12T09:04:27.220Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-06-21T12:25:27.959Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Panier"
         }
     ],
+    "id": "aceda2c1-54ad-4f33-b70d-37302aa4136d.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2552.081298828125,2910.877197265625,723.199462890625,662.932861328125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc4/manifest.json",
@@ -26,13 +32,7 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc4/canvas/ALLOc_4_0117",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2552.081298828125,2910.877197265625,723.199462890625,662.932861328125"
         }
     },
-    "id": "aceda2c1-54ad-4f33-b70d-37302aa4136d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
