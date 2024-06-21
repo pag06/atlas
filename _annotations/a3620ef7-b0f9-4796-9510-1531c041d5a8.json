@@ -217,14 +217,24 @@ order: 12
             "value": "L12.03"
         },
         {
+            "created": "2024-06-21T13:53:36.785Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "C988",
+            "value": "C988"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q2618",
             "purpose": "tagging",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T13:53:36.785Z"
+            "created": "2024-06-21T13:54:38.052Z"
         }
     ],
     "id": "a3620ef7-b0f9-4796-9510-1531c041d5a8.json",
