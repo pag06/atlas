@@ -327,14 +327,24 @@ order: 6
             "value": "L46.33"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C987",
+            "created": "2024-06-21T13:58:30.271Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T13:58:30.271Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C987"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7278",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-06-21T13:59:55.990Z"
         }
     ],
     "id": "1c74f7d4-a888-48b6-a4f8-613b44db5993.json",
