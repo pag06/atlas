@@ -155,6 +155,16 @@ order: 5
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "L82.30"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C987",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-06-21T13:58:11.983Z"
         }
     ],
     "id": "d84ecaba-a8ed-4493-a2c7-27ab3c3d536c.json",
