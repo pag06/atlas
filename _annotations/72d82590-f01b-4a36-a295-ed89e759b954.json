@@ -4,32 +4,38 @@ order: 6
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "L6",
-            "purpose": "tagging",
+            "created": "2024-04-12T08:24:21.278Z",
             "creator": {
                 "id": "eleve10",
                 "name": "eleve10"
             },
-            "created": "2024-04-12T08:24:21.278Z",
-            "modified": "2024-04-12T08:24:22.286Z"
+            "modified": "2024-04-12T08:24:22.286Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L6"
         },
         {
-            "type": "TextualBody",
-            "value": "St-Romain-de-Lerp",
-            "purpose": "commenting",
-            "creator": {
-                "id": "eleve10",
-                "name": "eleve10"
-            },
             "created": "2024-04-12T08:24:25.095Z",
-            "modified": "2024-04-12T08:24:38.199Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-06-21T12:08:19.005Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Travail \u00e0 ferrer\n\nSt-Romain-de-Lerp"
         }
     ],
+    "id": "72d82590-f01b-4a36-a295-ed89e759b954.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1723.8663330078125,3069.8564453125,1078.5924072265625,775.92626953125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -37,13 +43,7 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0350",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1723.8663330078125,3069.8564453125,1078.5924072265625,775.92626953125"
         }
     },
-    "id": "72d82590-f01b-4a36-a295-ed89e759b954.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
