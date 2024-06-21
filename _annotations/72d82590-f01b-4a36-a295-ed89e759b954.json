@@ -28,14 +28,25 @@ order: 6
             "value": "Travail \u00e0 ferrer\n\nSt-Romain-de-Lerp"
         },
         {
+            "created": "2024-06-21T12:09:41.732Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q10216",
+            "value": "Q10216"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C1746",
             "purpose": "tagging",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T12:09:41.732Z"
+            "created": "2024-06-21T12:10:08.938Z",
+            "modified": "2024-06-21T12:10:09.203Z"
         }
     ],
     "id": "72d82590-f01b-4a36-a295-ed89e759b954.json",
