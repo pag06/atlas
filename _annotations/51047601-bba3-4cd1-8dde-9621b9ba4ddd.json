@@ -11,20 +11,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T12:04:39.583Z",
+            "modified": "2024-06-21T12:05:04.324Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le \"couvige\"\n\nen Velay (vers 1920) "
-        },
-        {
-            "created": "2023-08-15T15:22:47.659Z",
-            "creator": {
-                "id": "sf7320",
-                "name": "Serena"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "C1460"
+            "value": "Le \"couvige\"\n\nen Velay, vers 1920."
         },
         {
             "created": "2024-04-12T12:38:10.601Z",
@@ -36,6 +26,16 @@ order: 2
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q2825"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C1460*",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-06-21T12:04:53.187Z"
         }
     ],
     "id": "51047601-bba3-4cd1-8dde-9621b9ba4ddd.json",
