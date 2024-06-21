@@ -4,21 +4,27 @@ order: 6
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Type G",
-            "purpose": "commenting",
-            "creator": {
-                "id": "eleve10",
-                "name": "eleve10"
-            },
             "created": "2024-04-12T09:04:18.856Z",
-            "modified": "2024-04-12T09:04:19.990Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-06-21T12:39:50.236Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Panier de forme ovale\n\n\u00e0 couvercle d'une seule pi\u00e8ce et de m\u00eame forme que le corps de la vannerie, de couleur noire le plus souvent, \u00e0 anse double.\n\ncf. Jean S\u00e9guy, \u00ab\u00a0Atlas linguistique et ethnographique de la Gascogne\u00a0\u00bb, III, 766, figure XVI."
         }
     ],
+    "id": "1c74f7d4-a888-48b6-a4f8-613b44db5993.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1873.0775146484375,2918.912841796875,630.7906494140625,638.826171875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc4/manifest.json",
@@ -26,13 +32,7 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc4/canvas/ALLOc_4_0117",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1873.0775146484375,2918.912841796875,630.7906494140625,638.826171875"
         }
     },
-    "id": "1c74f7d4-a888-48b6-a4f8-613b44db5993.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
