@@ -28,14 +28,24 @@ order: 5
             "value": "Travail \u00e0 ferrer (ensemble)\n\nLa Vaissi\u00e8re, commune de Le Malzieu-Ville (Loz\u00e8re)."
         },
         {
-            "type": "TextualBody",
-            "value": "Q10216",
-            "purpose": "tagging",
+            "created": "2024-06-21T12:09:32.055Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T12:09:32.055Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10216"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C1746",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-06-21T12:10:13.321Z"
         }
     ],
     "id": "9293ca34-d182-406e-8bf6-9ec70e984be4.json",
