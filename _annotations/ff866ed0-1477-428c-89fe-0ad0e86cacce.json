@@ -4,32 +4,38 @@ order: 7
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "L38",
-            "purpose": "tagging",
+            "created": "2024-04-12T07:39:38.499Z",
             "creator": {
                 "id": "eleve10",
                 "name": "eleve10"
             },
-            "created": "2024-04-12T07:39:38.499Z",
-            "modified": "2024-04-12T07:39:40.899Z"
+            "modified": "2024-04-12T07:39:40.899Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L38"
         },
         {
-            "type": "TextualBody",
-            "value": "Saint-Germain-du-Teil",
-            "purpose": "commenting",
-            "creator": {
-                "id": "eleve10",
-                "name": "eleve10"
-            },
             "created": "2024-04-12T07:39:44.871Z",
-            "modified": "2024-04-12T07:39:54.728Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-06-21T12:03:33.582Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Berceau\n\nSaint-Germain-du-Teil"
         }
     ],
+    "id": "ff866ed0-1477-428c-89fe-0ad0e86cacce.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1228.451171875,2430.4169921875,922.312255859375,576.4453125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -37,13 +43,7 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0349",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1228.451171875,2430.4169921875,922.312255859375,576.4453125"
         }
     },
-    "id": "ff866ed0-1477-428c-89fe-0ad0e86cacce.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
