@@ -11,10 +11,10 @@ order: 3
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2023-10-20T10:51:11.474Z",
+            "modified": "2024-06-21T15:07:07.689Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Porter sur le dos "
+            "value": "Porter sur le dos\n\nL'enfant est port\u00e9 sur le dos et tenu par les bras ou les jambes.\n\nEn bien des points d'enqu\u00eate, le substantif utilis\u00e9 est le nom du chiffonnier."
         },
         {
             "created": "2023-10-20T10:51:29.038Z",
@@ -27,14 +27,24 @@ order: 3
             "value": "Q8074"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C1515",
+            "created": "2024-06-21T15:05:38.021Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T15:05:38.021Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1515"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C1218",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-06-21T15:07:12.319Z"
         }
     ],
     "id": "ec93ee72-bc0d-4082-9480-28ac079160ee.json",
