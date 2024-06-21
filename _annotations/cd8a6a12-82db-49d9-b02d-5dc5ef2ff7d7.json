@@ -11,10 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T15:03:28.186Z",
+            "modified": "2024-06-21T15:04:18.153Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Port sur les mains entre-crois\u00e9es"
+            "value": "Porter sur les mains entre-crois\u00e9es\n\nL'enfant est assis sur les mains entre-crois\u00e9es de deux porteurs."
         },
         {
             "created": "2023-07-27T10:24:24.659Z",
@@ -27,14 +27,14 @@ order: 1
             "value": "Q8076"
         },
         {
-            "created": "2024-04-12T13:00:45.451Z",
-            "creator": {
-                "id": "eleve10",
-                "name": "eleve10"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "L1517"
+            "purpose": "tagging",
+            "value": "C1517",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-06-21T15:03:57.188Z"
         }
     ],
     "id": "cd8a6a12-82db-49d9-b02d-5dc5ef2ff7d7.json",
