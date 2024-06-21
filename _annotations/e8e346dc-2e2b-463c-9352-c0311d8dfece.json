@@ -19,18 +19,23 @@ order: 4
         {
             "created": "2024-04-11T14:33:26.892Z",
             "creator": {
-                "id": "eleve10",
-                "name": "eleve10"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2024-04-11T14:33:50.515Z",
+            "modified": "2024-06-21T10:47:10.619Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "La Vaissi\u00e8re : tour de menuisier."
+            "value": "Tour de menuisier\n\nLa Vaissi\u00e8re, commune de Malzieu ()."
         }
     ],
     "id": "e8e346dc-2e2b-463c-9352-c0311d8dfece.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=404.5766296386719,2330.591552734375,961.5571594238281,1530.09423828125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -38,11 +43,6 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0351",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=404.5766296386719,2330.591552734375,961.5571594238281,1530.09423828125"
         }
     },
     "type": "Annotation"
