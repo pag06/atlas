@@ -4,32 +4,38 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Saugues (vers 1930) : atelier du charron.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "leotrimramadani1",
-                "name": "leotrimramadani1"
-            },
             "created": "2024-04-11T14:22:38.971Z",
-            "modified": "2024-04-11T14:23:04.181Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-06-21T10:44:20.195Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Atelier du charron, Saugues (Haute-Loire), vers 1930."
         },
         {
-            "type": "TextualBody",
-            "value": "L24",
-            "purpose": "tagging",
+            "created": "2024-04-11T14:23:11.106Z",
             "creator": {
                 "id": "leotrimramadani1",
                 "name": "leotrimramadani1"
             },
-            "created": "2024-04-11T14:23:11.106Z",
-            "modified": "2024-04-11T14:23:14.697Z"
+            "modified": "2024-04-11T14:23:14.697Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
         }
     ],
+    "id": "7bee7f4f-371d-45bb-932a-cde253778901.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1469.1715087890625,2588.066650390625,1089.0682373046875,1272.619140625"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -37,13 +43,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0351",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1469.1715087890625,2588.066650390625,1089.0682373046875,1272.619140625"
         }
     },
-    "id": "7bee7f4f-371d-45bb-932a-cde253778901.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
