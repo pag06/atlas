@@ -8,24 +8,24 @@ order: 1
         {
             "created": "2024-04-12T09:03:23.443Z",
             "creator": {
-                "id": "eleve10",
-                "name": "eleve10"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2024-04-12T09:03:24.983Z",
+            "modified": "2024-06-21T12:20:39.914Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Type B"
+            "value": "Panier \u00e0 vendange\n(Type B)\n\n"
         },
         {
-            "type": "TextualBody",
-            "value": "L31",
-            "purpose": "tagging",
+            "created": "2024-04-12T11:39:54.566Z",
             "creator": {
                 "id": "eleve10",
                 "name": "eleve10"
             },
-            "created": "2024-04-12T11:39:54.566Z",
-            "modified": "2024-04-12T11:39:55.176Z"
+            "modified": "2024-04-12T11:39:55.176Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L31"
         }
     ],
     "id": "df27f690-98a0-4ccd-be35-8003d9571fe2.json",
