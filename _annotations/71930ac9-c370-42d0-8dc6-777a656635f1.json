@@ -31,6 +31,13 @@ order: 1
     "id": "71930ac9-c370-42d0-8dc6-777a656635f1.json",
     "motivation": "commenting",
     "target": {
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1328.858642578125,548.6721801757812 1322.7403564453125,1469.4854736328125 2652.499149881771,1478.3209724724559 2658.6174360145833,557.5076790154246\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -38,13 +45,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0351",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1328.858642578125,548.6721801757812 1322.7403564453125,1469.4854736328125 2652.499149881771,1478.3209724724559 2658.6174360145833,557.5076790154246\"></polygon></svg>"
-        },
-        "renderedVia": {
-            "name": "annotorious-tilted-box"
         }
     },
     "type": "Annotation"
