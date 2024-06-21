@@ -28,14 +28,25 @@ order: 3
             "value": "Travail \u00e0 ferrer\n\nGrazac"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10216",
+            "created": "2024-06-21T12:09:14.016Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T12:09:14.016Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10216"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C1746",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-06-21T12:10:27.656Z",
+            "modified": "2024-06-21T12:10:27.962Z"
         }
     ],
     "id": "1ccec69d-de67-4c53-95f0-429050345ca7.json",
