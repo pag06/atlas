@@ -4,21 +4,27 @@ order: 8
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Type L",
-            "purpose": "commenting",
-            "creator": {
-                "id": "eleve10",
-                "name": "eleve10"
-            },
             "created": "2024-04-12T09:04:33.037Z",
-            "modified": "2024-04-12T09:04:34.135Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-06-21T13:35:26.051Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Corbeille ronde \u00e0 fond plat\n(Type L)\n\nde forme tronconique, avec deux poign\u00e9es tress\u00e9es ; la surface de sa base est inf\u00e9rieure d'environ un quart \u00e0  celle du vide sup\u00e9rieur constituant l'ouverture.\n\nIl s'agit du type de corbeille le plus courant.\n"
         }
     ],
+    "id": "3d511f41-cb45-428c-b9b0-6bf875abf382.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=294.09234619140625,3690.325439453125,984.3546752929688,534.364013671875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc4/manifest.json",
@@ -26,13 +32,7 @@ order: 8
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc4/canvas/ALLOc_4_0117",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=294.09234619140625,3690.325439453125,984.3546752929688,534.364013671875"
         }
     },
-    "id": "3d511f41-cb45-428c-b9b0-6bf875abf382.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
