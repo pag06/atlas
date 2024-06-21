@@ -11,10 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T12:01:21.941Z",
+            "modified": "2024-06-21T12:03:11.000Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Berceau\n\nLa Vaissi\u00e8re"
+            "value": "Berceau\n\nLa Vaissi\u00e8re, commune de Le Malzieu-Ville (Loz\u00e8re)."
         },
         {
             "created": "2023-08-15T15:21:31.870Z",
@@ -27,24 +27,24 @@ order: 1
             "value": "L25"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1087",
+            "created": "2024-06-21T12:01:41.521Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T12:01:41.521Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1087"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C1465",
+            "created": "2024-06-21T12:02:01.057Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T12:02:01.057Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1465"
         }
     ],
     "id": "92de6a68-115a-498d-a352-a1d9afd72dc1.json",
