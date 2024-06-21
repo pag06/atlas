@@ -4,21 +4,27 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Type F",
-            "purpose": "commenting",
-            "creator": {
-                "id": "eleve10",
-                "name": "eleve10"
-            },
             "created": "2024-04-12T09:04:08.008Z",
-            "modified": "2024-04-12T09:04:09.426Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-06-21T12:37:55.195Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Panier dont le corps est de forme rectangulaire\n\nLa partie sup\u00e9rieure consistant en un demi-cylindre, ce qui donne au couvercle la forme d'une tuile canal, ce couvercle se partageant en deux moiti\u00e9s de part et d'autre de la ligne sommitale, chaque battant du couvercle ayant une anse."
         }
     ],
+    "id": "d84ecaba-a8ed-4493-a2c7-27ab3c3d536c.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1101.6649169921875,2902.841796875,691.05712890625,638.825927734375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc4/manifest.json",
@@ -26,13 +32,7 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc4/canvas/ALLOc_4_0117",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1101.6649169921875,2902.841796875,691.05712890625,638.825927734375"
         }
     },
-    "id": "d84ecaba-a8ed-4493-a2c7-27ab3c3d536c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
