@@ -19,18 +19,23 @@ order: 2
         {
             "created": "2024-04-11T14:11:48.273Z",
             "creator": {
-                "id": "leotrimramadani1",
-                "name": "leotrimramadani1"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2024-04-11T14:15:18.426Z",
+            "modified": "2024-06-21T10:04:56.019Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Outils de sabotier.\n1- [...] : tari\u00e8re, C. 1736.\n2- [...] : r\u00e9nette, C. 1736.*\n3- [...] : gouge, C. 1736.\n4- [...].\n5- [...] < pour fa\u00e7onner la talon >.\n6- [...] : paloir. C. 1736.*\n"
+            "value": "Outils de sabotier.\n1- [...] : tari\u00e8re, C. 1736.\n2- [...] : r\u00e9nette, C. 1736.*\n3- [...] : gouge, C. 1736.\n4- [...].\n5- [...] < pour fa\u00e7onner le talon >.\n6- [...] : paloir. C. 1736.*\n"
         }
     ],
     "id": "91298bec-b28e-4722-b4cb-61968237dada.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=453.5235290527344,540.4828491210938,856.5335998535156,1270.5520629882812"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -38,11 +43,6 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0351",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=453.5235290527344,540.4828491210938,856.5335998535156,1270.5520629882812"
         }
     },
     "type": "Annotation"
