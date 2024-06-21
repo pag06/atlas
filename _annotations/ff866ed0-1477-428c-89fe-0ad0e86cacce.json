@@ -28,15 +28,15 @@ order: 7
             "value": "Berceau\n\nSaint-Germain-du-Teil"
         },
         {
-            "type": "TextualBody",
-            "value": "Q1087",
-            "purpose": "tagging",
+            "created": "2024-06-21T14:50:24.896Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T14:50:24.896Z",
-            "modified": "2024-06-21T14:50:26.100Z"
+            "modified": "2024-06-21T14:50:26.100Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1087"
         }
     ],
     "id": "ff866ed0-1477-428c-89fe-0ad0e86cacce.json",
