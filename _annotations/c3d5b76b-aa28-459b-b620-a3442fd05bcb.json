@@ -558,14 +558,14 @@ order: 4
             "value": "Q7278"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L09.11",
+            "created": "2024-06-21T15:09:47.165Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T15:09:47.165Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L09.11"
         }
     ],
     "id": "c3d5b76b-aa28-459b-b620-a3442fd05bcb.json",
