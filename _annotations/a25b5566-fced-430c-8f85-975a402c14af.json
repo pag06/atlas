@@ -98,14 +98,24 @@ order: 2
             "value": "L82.12"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L82.30",
+            "created": "2024-06-21T13:20:44.166Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T13:20:44.166Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L82.30"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L82.03",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-06-21T13:20:54.698Z"
         }
     ],
     "id": "a25b5566-fced-430c-8f85-975a402c14af.json",
