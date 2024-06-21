@@ -19,18 +19,25 @@ order: 1
         {
             "created": "2024-04-11T13:58:58.660Z",
             "creator": {
-                "id": "leotrimramadani1",
-                "name": "leotrimramadani1"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2024-04-11T13:59:33.404Z",
+            "modified": "2024-06-21T10:10:39.166Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Sauges (vers 1930) : boulangerie; \u00e0 droite : la maie dans la 'gloriette'"
+            "value": "Saugues (vers 1930) : boulangerie\n\n\u00e0 droite : la maie dans la 'gloriette'"
         }
     ],
     "id": "71930ac9-c370-42d0-8dc6-777a656635f1.json",
     "motivation": "commenting",
     "target": {
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1343.404052734375,550.4903564453125 1335.421142578125,1471.2022705078125 2652.4857559570955,1482.6217040113816 2660.4686661133455,561.9097899488816\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -38,13 +45,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0351",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1343.404052734375,550.4903564453125 1335.421142578125,1471.2022705078125 2652.4857559570955,1482.6217040113816 2660.4686661133455,561.9097899488816\"></polygon></svg>"
-        },
-        "renderedVia": {
-            "name": "annotorious-tilted-box"
         }
     },
     "type": "Annotation"
