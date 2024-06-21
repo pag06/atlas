@@ -6,15 +6,35 @@ order: 3
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "4 - [...] : plane, C.1735",
-            "purpose": "commenting",
-            "creator": {
-                "id": "eleve10",
-                "name": "eleve10"
-            },
             "created": "2024-04-12T13:11:11.490Z",
-            "modified": "2024-04-12T13:11:38.004Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-06-21T10:26:37.644Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Plane (outil du charron)\n\n[...]"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L29",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-06-21T10:26:27.315Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C1735",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-06-21T10:26:31.420Z"
         }
     ],
     "id": "9964ab7e-bff7-45f3-bd24-e8de1e2bf6b1.json",
