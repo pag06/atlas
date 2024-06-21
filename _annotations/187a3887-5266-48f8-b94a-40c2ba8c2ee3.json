@@ -8,13 +8,13 @@ order: 5
         {
             "created": "2024-04-12T07:29:36.402Z",
             "creator": {
-                "id": "eleve10",
-                "name": "eleve10"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2024-04-12T07:30:00.104Z",
+            "modified": "2024-06-21T10:44:51.503Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Saugues (vers 1930 : atelier du forgeron."
+            "value": "Atelier du forgeron, Saugues (Haute-Loire), vers 1930."
         },
         {
             "created": "2024-04-12T07:30:29.348Z",
@@ -30,6 +30,10 @@ order: 5
     "id": "187a3887-5266-48f8-b94a-40c2ba8c2ee3.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1671.2,2513.4 1634.7,2523.3 1356.2,2563.1 1352.8,2191.7 1482.2,1565.1 2423.8,1555.1 2639.3,1643.2 2643,2510.5 2643,2508.7 2641.1,2517.8\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -37,10 +41,6 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0351",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1671.2,2513.4 1634.7,2523.3 1356.2,2563.1 1352.8,2191.7 1482.2,1565.1 2423.8,1555.1 2639.3,1643.2 2643,2510.5 2643,2508.7 2641.1,2517.8\"></polygon></svg>"
         }
     },
     "type": "Annotation"
