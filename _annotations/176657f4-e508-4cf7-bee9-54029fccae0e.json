@@ -11,20 +11,30 @@ order: 6
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T10:25:41.993Z",
+            "modified": "2024-06-21T10:25:51.805Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Riflard rond\n\n[...]\n\nC. 1732*"
+            "value": "Riflard rond (outil du charron)\n\n[...]\n\nC. 1732*"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C1732*",
+            "created": "2024-06-21T10:25:20.905Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T10:25:20.905Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1732*"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L29",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-06-21T10:25:57.085Z"
         }
     ],
     "id": "176657f4-e508-4cf7-bee9-54029fccae0e.json",
