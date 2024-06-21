@@ -4,32 +4,38 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "L25",
-            "purpose": "tagging",
+            "created": "2024-04-12T08:23:44.041Z",
             "creator": {
                 "id": "eleve10",
                 "name": "eleve10"
             },
-            "created": "2024-04-12T08:23:44.041Z",
-            "modified": "2024-04-12T08:23:45.052Z"
+            "modified": "2024-04-12T08:23:45.052Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L25"
         },
         {
-            "type": "TextualBody",
-            "value": "La Vaissi\u00e8re (ensemble)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "eleve10",
-                "name": "eleve10"
-            },
             "created": "2024-04-12T08:23:47.468Z",
-            "modified": "2024-04-12T08:24:03.381Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-06-21T12:06:35.709Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "La Vaissi\u00e8re (ensemble)\n\nLa Vaissi\u00e8re, commune de Le Malzieu-Ville (Loz\u00e8re)."
         }
     ],
+    "id": "9293ca34-d182-406e-8bf6-9ec70e984be4.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=485.68609619140625,2183.869873046875,1194.1559448242188,781.42919921875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -37,13 +43,7 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0350",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=485.68609619140625,2183.869873046875,1194.1559448242188,781.42919921875"
         }
     },
-    "id": "9293ca34-d182-406e-8bf6-9ec70e984be4.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
