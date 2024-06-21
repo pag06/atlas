@@ -4,21 +4,27 @@ order: 4
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Type E",
-            "purpose": "commenting",
-            "creator": {
-                "id": "eleve10",
-                "name": "eleve10"
-            },
             "created": "2024-04-12T09:04:00.992Z",
-            "modified": "2024-04-12T09:04:02.423Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-06-21T12:35:25.736Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Panier de forme rectangulaire\n\nAvec couvercle plat maintenu g\u00e9n\u00e9ralement par une tringle, elle aussi en mati\u00e8re v\u00e9g\u00e9tale, ce couvercle \u00e9tant muni d'une poign\u00e9e centrale dispos\u00e9e dans le sens de la longueur.\n\nPour une repr\u00e9sentation de l'objet, v. Jean S\u00e9guy, Atlas linguistique et ethnographique de la Gascogne, III, 766, figure XIV.\n"
         }
     ],
+    "id": "c3d5b76b-aa28-459b-b620-a3442fd05bcb.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=322.2167663574219,2882.7529296875,747.3059387207031,650.87939453125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc4/manifest.json",
@@ -26,13 +32,7 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc4/canvas/ALLOc_4_0117",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=322.2167663574219,2882.7529296875,747.3059387207031,650.87939453125"
         }
     },
-    "id": "c3d5b76b-aa28-459b-b620-a3442fd05bcb.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
