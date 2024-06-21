@@ -4,21 +4,46 @@ order: 7
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "7- [...] : gouges, C. 1736",
-            "purpose": "commenting",
-            "creator": {
-                "id": "eleve10",
-                "name": "eleve10"
-            },
             "created": "2024-04-12T13:41:56.629Z",
-            "modified": "2024-04-12T13:42:23.464Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-06-21T10:28:00.249Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Gouges (outil du charron)\n\n[...]"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C1736",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-06-21T10:27:53.722Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L29",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-06-21T10:27:54.976Z"
         }
     ],
+    "id": "8653f619-1df4-4095-aa44-fecff466c702.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2008.2100830078125,3021.662841796875 1998.8623046875,3272.494384765625 2005.0941162109375,3281.842041015625 2031.5794677734375,3281.842041015625 2128.1728515625,3443.869873046875 2428.859130859375,3771.04150390625 2472.48193359375,3721.186767578125 2407.047607421875,3579.412353515625 2181.1435546875,3344.160400390625 2206.07080078125,3194.596435546875 2054.94873046875,2988.945556640625 2033.1373291015625,2992.0615234375\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -26,12 +51,7 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0255",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2008.2100830078125,3021.662841796875 1998.8623046875,3272.494384765625 2005.0941162109375,3281.842041015625 2031.5794677734375,3281.842041015625 2128.1728515625,3443.869873046875 2428.859130859375,3771.04150390625 2472.48193359375,3721.186767578125 2407.047607421875,3579.412353515625 2181.1435546875,3344.160400390625 2206.07080078125,3194.596435546875 2054.94873046875,2988.945556640625 2033.1373291015625,2992.0615234375\"></polygon></svg>"
         }
     },
-    "id": "8653f619-1df4-4095-aa44-fecff466c702.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
