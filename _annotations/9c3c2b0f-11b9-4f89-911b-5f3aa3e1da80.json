@@ -28,15 +28,26 @@ order: 1
             "value": "Travail \u00e0 ferrer\n\nSaint Denis"
         },
         {
+            "created": "2024-06-21T12:08:54.847Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-06-21T12:08:55.166Z",
+            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q10216",
+            "value": "Q10216"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C1746",
             "purpose": "tagging",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T12:08:54.847Z",
-            "modified": "2024-06-21T12:08:55.166Z"
+            "created": "2024-06-21T12:10:42.444Z",
+            "modified": "2024-06-21T12:10:42.667Z"
         }
     ],
     "id": "9c3c2b0f-11b9-4f89-911b-5f3aa3e1da80.json",
