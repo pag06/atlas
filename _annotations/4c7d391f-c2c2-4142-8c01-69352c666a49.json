@@ -4,21 +4,37 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Coiffe de la r\u00e9gion toulousaine",
-            "purpose": "commenting",
+            "created": "2024-04-12T08:50:03.365Z",
             "creator": {
                 "id": "eleve10",
                 "name": "eleve10"
             },
-            "created": "2024-04-12T08:50:03.365Z",
-            "modified": "2024-04-12T08:50:09.957Z"
+            "modified": "2024-04-12T08:50:09.957Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Coiffe de la r\u00e9gion toulousaine"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C1142",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-06-21T14:30:53.706Z"
         }
     ],
+    "id": "4c7d391f-c2c2-4142-8c01-69352c666a49.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=570.0934448242188,2915.455810546875,1056.8778686523438,936.321533203125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc4/manifest.json",
@@ -26,13 +42,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc4/canvas/ALLOc_4_0324",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=570.0934448242188,2915.455810546875,1056.8778686523438,936.321533203125"
         }
     },
-    "id": "4c7d391f-c2c2-4142-8c01-69352c666a49.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
