@@ -67,34 +67,44 @@ order: 7
             "value": "L81.04"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.02",
+            "created": "2024-06-21T13:16:01.210Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T13:16:01.210Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.02"
+        },
+        {
+            "created": "2024-06-21T13:16:07.295Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L09.10"
+        },
+        {
+            "created": "2024-06-21T13:16:22.595Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L09.21"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L09.10",
+            "value": "L09.33",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T13:16:07.295Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L09.21",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
-            "created": "2024-06-21T13:16:22.595Z"
+            "created": "2024-06-21T13:16:40.398Z"
         }
     ],
     "id": "aceda2c1-54ad-4f33-b70d-37302aa4136d.json",
