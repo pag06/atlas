@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-07-27T10:23:47.438Z",
             "creator": {
-                "id": "sf7320",
-                "name": "Serena"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-27T10:24:02.437Z",
+            "modified": "2024-06-21T15:03:28.186Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "port sur les mains entre-crois\u00e9es"
+            "value": "Port sur les mains entre-crois\u00e9es"
         },
         {
             "created": "2023-07-27T10:24:24.659Z",
@@ -40,6 +40,10 @@ order: 1
     "id": "cd8a6a12-82db-49d9-b02d-5dc5ef2ff7d7.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"956,3739.1 963.8,3130.1 1710.5,3128.8 1711,3897.3 954.7,3897.3 956.5,3739.2\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -47,10 +51,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0145",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"956,3739.1 963.8,3130.1 1710.5,3128.8 1711,3897.3 954.7,3897.3 956.5,3739.2\"></polygon></svg>"
         }
     },
     "type": "Annotation"
