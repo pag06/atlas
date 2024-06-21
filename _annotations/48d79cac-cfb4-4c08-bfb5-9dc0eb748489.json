@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-07-27T10:21:18.005Z",
             "creator": {
-                "id": "sf7320",
-                "name": "Serena"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-27T10:21:27.567Z",
+            "modified": "2024-06-21T15:06:42.895Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Porter sur le dos "
+            "value": "Porter sur le dos\n\nL'enfant est port\u00e9 sur le dos et tenu par les bras ou les jambes.\n\nEn bien des points d'enqu\u00eate, le substantif utilis\u00e9 est le nom du chiffonnier."
         },
         {
             "created": "2023-07-27T10:21:44.704Z",
@@ -27,14 +27,24 @@ order: 2
             "value": "Q8074"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C1515",
+            "created": "2024-06-21T15:05:31.068Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T15:05:31.068Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1515"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C1218",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-06-21T15:06:52.118Z"
         }
     ],
     "id": "48d79cac-cfb4-4c08-bfb5-9dc0eb748489.json",
