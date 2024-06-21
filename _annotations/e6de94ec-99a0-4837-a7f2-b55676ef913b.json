@@ -3,52 +3,59 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0258"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "travail \u00e0 ferrer, Saint-Denis",
-            "purpose": "commenting",
-            "creator": {
-                "id": "sf7320",
-                "name": "Serena"
-            },
             "created": "2023-08-06T13:04:21.135Z",
-            "modified": "2023-08-06T13:04:29.632Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-06-21T12:13:17.835Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Travail \u00e0 ferrer\n\nC'est un dispositif o\u00f9 l'on attache les b\u00eates pour les ferrer.\n\nSaint-Denis"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L29",
+            "created": "2023-08-06T13:04:36.576Z",
             "creator": {
                 "id": "sf7320",
                 "name": "Serena"
             },
-            "created": "2023-08-06T13:04:36.576Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L29"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C1746",
+            "created": "2023-08-06T13:04:47.453Z",
             "creator": {
                 "id": "sf7320",
                 "name": "Serena"
             },
-            "created": "2023-08-06T13:04:47.453Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1746"
         }
     ],
+    "id": "e6de94ec-99a0-4837-a7f2-b55676ef913b.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0258",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"587.9,924.9 536.6,1460 823.5,1563.5 907.9,1505.3 1159.5,1537.3 1305,1434 1259.9,1080.6 1003.9,879.8 587.9,920.6 587.5,920\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0258",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e6de94ec-99a0-4837-a7f2-b55676ef913b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
