@@ -6,15 +6,25 @@ order: 4
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "6- [...] : bouvet d'\u00e9cartement.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "eleve10",
-                "name": "eleve10"
-            },
             "created": "2024-04-12T13:29:13.747Z",
-            "modified": "2024-04-12T13:29:37.886Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-06-21T10:27:29.349Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Bouvet d'\u00e9cartement (outil du charron)\n\n[...]"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L29",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-06-21T10:27:32.576Z"
         }
     ],
     "id": "8ee2b735-de07-436e-8fb9-5143dd61e81a.json",
