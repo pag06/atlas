@@ -107,24 +107,34 @@ order: 3
             "value": "L81.13"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L81.34",
+            "created": "2024-06-21T12:53:15.606Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T12:53:15.606Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L81.34"
+        },
+        {
+            "created": "2024-06-21T12:53:21.069Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L81.35"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L81.35",
+            "value": "L09.10",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T12:53:21.069Z"
+            "created": "2024-06-21T12:53:39.761Z"
         }
     ],
     "id": "809fbc9d-64d0-4655-a8a0-4924d0ea7ca7.json",
