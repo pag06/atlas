@@ -4,32 +4,38 @@ order: 4
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "L25",
-            "purpose": "tagging",
+            "created": "2024-04-12T08:21:11.366Z",
             "creator": {
                 "id": "eleve10",
                 "name": "eleve10"
             },
-            "created": "2024-04-12T08:21:11.366Z",
-            "modified": "2024-04-12T08:21:14.105Z"
+            "modified": "2024-04-12T08:21:14.105Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L25"
         },
         {
-            "type": "TextualBody",
-            "value": "La Vaissere (d\u00e9tail).",
-            "purpose": "commenting",
-            "creator": {
-                "id": "eleve10",
-                "name": "eleve10"
-            },
             "created": "2024-04-12T08:21:16.909Z",
-            "modified": "2024-04-12T08:21:40.446Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-06-21T12:07:52.397Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Travail \u00e0 ferrer (d\u00e9tail)\n\n"
         }
     ],
+    "id": "c1b8bbae-eba9-4bb9-b1fc-fb2899efdc5e.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1935.4144287109375,1906.7315673828125,803.1219482421875,1065.3656005859375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -37,13 +43,7 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0350",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1935.4144287109375,1906.7315673828125,803.1219482421875,1065.3656005859375"
         }
     },
-    "id": "c1b8bbae-eba9-4bb9-b1fc-fb2899efdc5e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
