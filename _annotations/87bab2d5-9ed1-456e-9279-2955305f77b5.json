@@ -4,32 +4,37 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Faux",
-            "purpose": "commenting",
+            "created": "2024-11-12T16:36:22.050Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T16:36:22.050Z",
-            "modified": "2024-11-12T16:36:28.248Z"
+            "modified": "2024-11-12T16:36:28.248Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Faux"
         },
         {
-            "type": "TextualBody",
-            "value": "L21 C929 Q4474",
-            "purpose": "tagging",
+            "created": "2024-11-12T16:36:32.586Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T16:36:32.586Z",
-            "modified": "2024-11-12T16:36:48.109Z"
+            "modified": "2024-11-12T16:36:48.109Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L21 C929 Q4474"
         }
     ],
+    "id": "87bab2d5-9ed1-456e-9279-2955305f77b5.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1315.6363525390625,2939.181884765625 1779.272705078125,2931.9091796875 1758.3636474609375,3773.727294921875 1504.727294921875,3771 1506.54541015625,3379.181884765625 1292,3223.727294921875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -37,12 +42,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0169",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1315.6363525390625,2939.181884765625 1779.272705078125,2931.9091796875 1758.3636474609375,3773.727294921875 1504.727294921875,3771 1506.54541015625,3379.181884765625 1292,3223.727294921875\"></polygon></svg>"
         }
     },
-    "id": "87bab2d5-9ed1-456e-9279-2955305f77b5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
