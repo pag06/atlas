@@ -3,53 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0135"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le paneton est une petite corbeille qui a, le plus souvent, une forme de calotte sph\u00e9rique au sommet aplani et qui est faite avec des boudins de paille de seigle, joint\u00e9s et tress\u00e9s avec des lani\u00e8res d'osier, de saule ou de noisetier.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-10T08:19:29.584Z",
-            "modified": "2023-08-10T08:21:29.799Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L31",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-10T08:22:36.258Z"
+            "modified": "2023-08-10T08:21:29.799Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le paneton est une petite corbeille qui a, le plus souvent, une forme de calotte sph\u00e9rique au sommet aplani et qui est faite avec des boudins de paille de seigle, joint\u00e9s et tress\u00e9s avec des lani\u00e8res d'osier, de saule ou de noisetier."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7274",
+            "created": "2023-08-10T08:22:36.258Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-10T08:22:39.883Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L31"
+        },
+        {
+            "created": "2023-08-10T08:22:39.883Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7274"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C1111",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T15:26:18.554Z",
+            "modified": "2024-11-12T15:26:22.993Z"
         }
     ],
+    "id": "02d63802-aaa4-4afb-bd1f-a65c2e2cc139.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0135",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2146.129150390625,3484.919677734375,279.306396484375,218.4521484375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2146.129150390625,3484.919677734375,279.306396484375,218.4521484375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0135",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "02d63802-aaa4-4afb-bd1f-a65c2e2cc139.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
