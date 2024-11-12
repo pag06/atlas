@@ -27,24 +27,35 @@ order: 1
             "value": "L5"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C198",
+            "created": "2023-07-31T08:58:46.119Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-07-31T08:58:46.119Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C198"
+        },
+        {
+            "created": "2023-07-31T08:58:53.097Z",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7833"
         },
         {
             "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7833",
+            "value": "Ce plantoir est connu encore \u00e0 L6, \u00e0 Vocance (\u00e0 30 km de L5); \u00e0 Desaignes (\u00e0 30 km de L5SE), on l'appelle aussi [l\u0259 bu\u0303d\u02c8u]. Le t\u00e9moin de L5 a ajout\u00e9: < ordinairement, le [bu\u0303d\u02c8u] est le bouchon qui bouche [l e\u0303k\u028e\u02c8awz\u0254] (= r\u00e9servoir \u00e0 eau), et il a la m\u00eame forme que ce plantoir >.",
+            "purpose": "commenting",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-07-31T08:58:53.097Z"
+            "created": "2024-11-12T09:32:35.681Z",
+            "modified": "2024-11-12T09:35:31.862Z"
         }
     ],
     "id": "35b84af7-0f05-4e88-953d-ea0c8ef865a1.json",
@@ -61,7 +72,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1347.6966552734375,3606.702880859375 2092.939208984375,2956.675537109375 2221.770646269123,3104.3780456937857 1476.5280925581856,3754.4053894437857\" /></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0115"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0115",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
