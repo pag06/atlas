@@ -11,10 +11,10 @@ order: 7
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-12T16:02:05.361Z",
+            "modified": "2024-11-12T16:09:59.255Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "[e\u0303d\u0292aj\u02c8ajre]"
+            "value": "[e\u0303d\u0292aj\u02c8ajre] : pioche-hache"
         },
         {
             "created": "2023-08-13T14:23:13.289Z",
@@ -27,24 +27,24 @@ order: 7
             "value": "L36"
         },
         {
-            "created": "2023-08-16T10:43:52.907Z",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "C909"
+            "purpose": "tagging",
+            "value": "C907",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T16:10:13.306Z"
         },
         {
-            "created": "2023-08-16T10:44:04.332Z",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q5561"
+            "purpose": "tagging",
+            "value": "Q7724",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T16:10:26.306Z"
         }
     ],
     "id": "303a98b4-79ca-4b63-8631-51238f2339d2.json",
