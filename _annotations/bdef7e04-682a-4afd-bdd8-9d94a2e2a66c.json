@@ -3,72 +3,79 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328"
 order: 9
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "R\u00e9cipients \u00e0 p\u00e2t\u00e9e, type B",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-27T12:17:53.152Z",
-            "modified": "2023-07-27T12:18:11.095Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-12T11:18:25.155Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "R\u00e9cipients \u00e0 p\u00e2t\u00e9e, type B : petite cuve cylindrique, munie d'une anse m\u00e9tallique ordinaire."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L6",
+            "created": "2023-07-27T12:18:14.605Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-27T12:18:14.605Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L6"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L21",
+            "created": "2023-07-27T12:18:17.248Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-27T12:18:17.248Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L21"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C525",
+            "created": "2023-07-27T12:18:21.725Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-27T12:18:21.725Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C525"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8662",
+            "created": "2023-07-27T12:18:35.115Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-27T12:18:35.115Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8662"
         }
     ],
+    "id": "bdef7e04-682a-4afd-bdd8-9d94a2e2a66c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"578.1818237304688,1534.4241943359375 580,1850.787841796875 918.1817626953125,1852.6060791015625 939.9999389648438,1821.6968994140625 1061.818115234375,1821.6968994140625 1412.7271728515625,1828.9697265625 1416.363525390625,1552.6060791015625 1012.7272338867188,1547.1514892578125 918.1817626953125,1527.1514892578125 720,1512.6060791015625 576.3635864257812,1532.6060791015625\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "bdef7e04-682a-4afd-bdd8-9d94a2e2a66c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
