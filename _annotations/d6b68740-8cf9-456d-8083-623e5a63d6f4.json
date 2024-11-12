@@ -27,44 +27,44 @@ order: 1
             "value": "L28"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C723",
+            "created": "2023-08-16T11:37:29.116Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T11:37:29.116Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C723"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9694",
+            "created": "2023-08-16T11:37:33.843Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T11:37:33.843Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9694"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C726",
+            "created": "2023-08-16T11:37:37.924Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T11:37:37.924Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C726"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9999",
+            "created": "2023-08-16T11:37:41.859Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T11:37:41.859Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9999"
         }
     ],
     "id": "d6b68740-8cf9-456d-8083-623e5a63d6f4.json",
@@ -79,7 +79,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=1744.626220703125,3065.09912109375,780.185791015625,739.6162109375"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0061"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0061",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
