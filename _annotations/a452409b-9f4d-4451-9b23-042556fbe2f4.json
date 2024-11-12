@@ -3,53 +3,60 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0112"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Joug \u00e0 cornes : le joug est pos\u00e9 sur la t\u00eate des bovins et fix\u00e9 \u00e0 leurs cornes par deux longues courroies.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-06T13:09:52.164Z",
-            "modified": "2023-08-06T13:11:07.974Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-12T14:56:25.927Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Joug \u00e0 cornes"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L21",
+            "created": "2023-08-06T13:11:15.448Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-06T13:11:15.448Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L21"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5774",
+            "created": "2023-08-06T13:11:26.231Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-06T13:11:26.231Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5774"
         }
     ],
+    "id": "a452409b-9f4d-4451-9b23-042556fbe2f4.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0112",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2163.141845703125,3126.862060546875,583.578857421875,248.09912109375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2163.141845703125,3126.862060546875,583.578857421875,248.09912109375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0112",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a452409b-9f4d-4451-9b23-042556fbe2f4.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
