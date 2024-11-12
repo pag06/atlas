@@ -39,15 +39,15 @@ order: 1
             "value": "C623"
         },
         {
-            "type": "TextualBody",
-            "value": "Q5431",
-            "purpose": "tagging",
+            "created": "2024-11-12T11:31:10.680Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T11:31:10.680Z",
-            "modified": "2024-11-12T11:31:14.853Z"
+            "modified": "2024-11-12T11:31:14.853Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5431"
         }
     ],
     "id": "e5ad1d27-f7a1-4eee-a308-2a921aa7c943.json",
