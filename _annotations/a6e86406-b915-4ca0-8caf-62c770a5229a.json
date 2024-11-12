@@ -3,53 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0160"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Vanne d'une grande rigole.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-13T14:32:13.691Z",
-            "modified": "2023-08-13T14:32:21.849Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L42",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-13T14:32:26.176Z"
+            "modified": "2023-08-13T14:32:21.849Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Vanne d'une grande rigole."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8930",
+            "created": "2023-08-13T14:32:26.176Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-13T14:32:43.820Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L42"
+        },
+        {
+            "created": "2023-08-13T14:32:43.820Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8930"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q10473",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T16:18:28.527Z",
+            "modified": "2024-11-12T16:18:31.317Z"
         }
     ],
+    "id": "a6e86406-b915-4ca0-8caf-62c770a5229a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0160",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1627.285888671875,3283.019775390625,1031.405517578125,622.588134765625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1627.285888671875,3283.019775390625,1031.405517578125,622.588134765625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0160",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a6e86406-b915-4ca0-8caf-62c770a5229a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
