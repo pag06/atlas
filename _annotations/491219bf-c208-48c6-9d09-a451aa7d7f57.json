@@ -3,53 +3,82 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0258"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
+            "created": "2023-07-26T15:46:46.223Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-26T15:46:53.138Z",
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "B\u00e2t, type C",
+            "value": "B\u00e2t, type C"
+        },
+        {
+            "created": "2023-07-26T15:46:58.323Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L7"
+        },
+        {
+            "created": "2023-07-26T15:47:28.801Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q929"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Dispositif en bois, form\u00e9 d'arceaux munis de crochets",
             "purpose": "commenting",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
             },
-            "created": "2023-07-26T15:46:46.223Z",
-            "modified": "2023-07-26T15:46:53.138Z"
+            "created": "2024-11-12T10:23:18.818Z",
+            "modified": "2024-11-12T10:23:50.448Z"
         },
         {
             "type": "TextualBody",
+            "value": "C484",
             "purpose": "tagging",
-            "value": "L7",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
             },
-            "created": "2023-07-26T15:46:58.323Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q929",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "created": "2023-07-26T15:47:28.801Z"
+            "created": "2024-11-12T10:24:00.668Z",
+            "modified": "2024-11-12T10:24:03.470Z"
         }
     ],
+    "id": "491219bf-c208-48c6-9d09-a451aa7d7f57.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0258",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1512.02294921875,3614.95947265625,590.28662109375,223.90185546875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1512.02294921875,3614.95947265625,590.28662109375,223.90185546875"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0258",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "491219bf-c208-48c6-9d09-a451aa7d7f57.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
