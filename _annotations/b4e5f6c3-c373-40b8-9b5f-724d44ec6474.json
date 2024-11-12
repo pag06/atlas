@@ -3,51 +3,58 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0089"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "La chambri\u00e8re est form\u00e9e d'une anse, que l'on suspend \u00e0 la cr\u00e9maill\u00e8re, et d'un cercle sur lequel on pose la po\u00eale.",
+            "created": "2023-08-05T12:15:30.480Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "created": "2023-08-05T12:15:30.480Z"
+            "type": "TextualBody",
+            "value": "La chambri\u00e8re est form\u00e9e d'une anse, que l'on suspend \u00e0 la cr\u00e9maill\u00e8re, et d'un cercle sur lequel on pose la po\u00eale."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L35",
+            "created": "2023-08-05T12:15:39.366Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-05T12:15:39.366Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L35"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1933",
+            "created": "2023-08-05T12:15:49.398Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-05T12:15:49.398Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1933"
         }
     ],
+    "id": "b4e5f6c3-c373-40b8-9b5f-724d44ec6474.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0089",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2215.42333984375,3411.135009765625 2340.8779296875,3411.135009765625 2384.51416015625,3531.135009765625 2515.42333984375,3582.044189453125 2519.0595703125,3823.8623046875 2048.150634765625,3818.40771484375 2048.150634765625,3572.953369140625 2184.51416015625,3525.6806640625\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0089",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b4e5f6c3-c373-40b8-9b5f-724d44ec6474.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
