@@ -3,52 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0249"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
+            "created": "2023-07-26T15:36:52.994Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-26T15:37:25.082Z",
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Les coupe-paille, type C2",
+            "value": "Les coupe-paille, type C2"
+        },
+        {
+            "created": "2023-07-26T15:37:32.248Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L27"
+        },
+        {
+            "created": "2023-07-26T15:37:36.924Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2733"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Lame \u00e0 faux avec manche horizontal",
             "purpose": "commenting",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
             },
-            "created": "2023-07-26T15:36:52.994Z",
-            "modified": "2023-07-26T15:37:25.082Z"
+            "created": "2024-11-12T10:13:37.671Z",
+            "modified": "2024-11-12T10:13:52.817Z"
         },
         {
             "type": "TextualBody",
+            "value": "C464",
             "purpose": "tagging",
-            "value": "L27",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
             },
-            "created": "2023-07-26T15:37:32.248Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2733",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "created": "2023-07-26T15:37:36.924Z"
+            "created": "2024-11-12T10:13:57.440Z",
+            "modified": "2024-11-12T10:14:01.007Z"
         }
     ],
+    "id": "1093cddf-f5f6-4989-ab55-91148ac5c19e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0249",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1371.2342529296875,2963.025390625 1687.327880859375,2960.80712890625 1676.2369384765625,3131.608642578125 1499.889892578125,3441.047607421875 1449.9803466796875,3419.974853515625 1434.452880859375,3161.554443359375 1454.416748046875,3144.917724609375 1454.416748046875,3099.44482421875 1413.3800048828125,3062.844482421875 1373.452392578125,2963.025390625\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0249",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1093cddf-f5f6-4989-ab55-91148ac5c19e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
