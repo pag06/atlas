@@ -3,73 +3,91 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0278"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Pilons \u00e0 pat\u00e9e",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-27T11:39:20.405Z",
-            "modified": "2023-07-27T11:39:23.839Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L7",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-27T11:39:28.926Z"
+            "modified": "2023-07-27T11:39:23.839Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Pilons \u00e0 pat\u00e9e"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L24",
+            "created": "2023-07-27T11:39:28.926Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-27T11:39:32.171Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L7"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L3",
+            "created": "2023-07-27T11:39:32.171Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-27T11:39:34.172Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C526",
+            "created": "2023-07-27T11:39:34.172Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-27T11:40:09.171Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L3"
+        },
+        {
+            "created": "2023-07-27T11:40:09.171Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C526"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q7705",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T10:56:57.539Z",
+            "modified": "2024-11-12T10:56:59.866Z"
         }
     ],
+    "id": "ce32cc48-f026-4114-a93f-c5aae516d2b7.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0278",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2310.36376953125,3192.8935546875,387.234375,673.541015625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2310.36376953125,3192.8935546875,387.234375,673.541015625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0278",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ce32cc48-f026-4114-a93f-c5aae516d2b7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
