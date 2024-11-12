@@ -8,12 +8,13 @@ order: 2
         {
             "created": "2023-08-08T15:28:37.908Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Vieille roue, hors d'usage depuis 50 ans ; elle n'a que dix rayons et mesure 1m.05 de diam\u00e8tre."
+            "value": "Vieille roue, hors d'usage depuis 50 ans ; elle n'a que dix rayons et mesure 1m.05 de diam\u00e8tre.\nOn a le souvenir de roues \u00e0 jantes robustes ou \u00e0 jantes doubles (L41), d\u00e9pourvues de bandage m\u00e9tallique ; on les appelaient [d\u0259 r\u02c8oda mas\u02c8ota] (L10) ; pour un long parcours, on avait soin de se munir d'une paire de roues de rechange (L28). Elles sont hors d'usage depuis 70 (L7, L10), depuis 50 ans (L28, L41, L52).",
+            "modified": "2024-11-12T15:16:17.500Z"
         },
         {
             "created": "2023-08-08T15:28:41.498Z",
@@ -54,6 +55,46 @@ order: 2
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "C863"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L41",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T15:16:36.947Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L7",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T15:16:45.844Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L10",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T15:16:50.813Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L52",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T15:16:59.439Z"
         }
     ],
     "id": "c56c3cd4-3a50-434b-aeb8-33c7cc6c8366.json",
