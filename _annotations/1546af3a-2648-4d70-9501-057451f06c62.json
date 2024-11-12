@@ -57,15 +57,46 @@ order: 1
             "value": "Cha\u00eene : il s'agit de la cha\u00eene qui attache chaque vache \u00e0 la cr\u00e8che, et du collier de la vache, auquel est suspendu la clochette. Ce collier est g\u00e9n\u00e9ralement une courroie de 3 \u00e0 5 cm, de large ; il est parfois en bois de ch\u00eane, \u00e0 L15 ; c'est une cha\u00eene \u00e0 L14, L16, L41, L43, L50."
         },
         {
+            "created": "2024-11-12T11:39:13.063Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-12T11:39:13.882Z",
+            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "L14",
+            "value": "L14"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L16",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T11:39:22.436Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L41",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T11:39:30.229Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "L43",
             "purpose": "tagging",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T11:39:13.063Z",
-            "modified": "2024-11-12T11:39:13.882Z"
+            "created": "2024-11-12T11:39:33.700Z",
+            "modified": "2024-11-12T11:39:42.381Z"
         }
     ],
     "id": "1546af3a-2648-4d70-9501-057451f06c62.json",
