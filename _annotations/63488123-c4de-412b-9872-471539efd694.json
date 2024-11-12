@@ -37,15 +37,15 @@ order: 1
             "value": "Q5508"
         },
         {
-            "type": "TextualBody",
-            "value": "C900",
-            "purpose": "tagging",
+            "created": "2024-11-12T15:29:51.634Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T15:29:51.634Z",
-            "modified": "2024-11-12T15:29:53.552Z"
+            "modified": "2024-11-12T15:29:53.552Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C900"
         }
     ],
     "id": "63488123-c4de-412b-9872-471539efd694.json",
