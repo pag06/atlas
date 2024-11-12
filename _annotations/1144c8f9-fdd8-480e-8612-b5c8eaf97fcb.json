@@ -48,14 +48,25 @@ order: 1
             "value": "Proc\u00e9d\u00e9 d'alimentation des bovins diff\u00e9rent que ceux cit\u00e9s sur la carte C461"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7290",
+            "created": "2023-07-31T08:52:44.696Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-07-31T08:52:44.696Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7290"
+        },
+        {
+            "type": "TextualBody",
+            "value": "L18, L42 [l ars\u02c8u] ; L41 [ars\u02b2\u02c8u] ; L42 contenu [l \u0254rsun\u02c8ad\u0254]",
+            "purpose": "replying",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2024-11-12T10:00:23.183Z",
+            "modified": "2024-11-12T10:02:59.122Z"
         }
     ],
     "id": "1144c8f9-fdd8-480e-8612-b5c8eaf97fcb.json",
@@ -70,7 +81,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=1785.277587890625,2938.70556640625,748.950927734375,377.118896484375"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0247"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0247",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
