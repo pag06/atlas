@@ -48,7 +48,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1425.1,3473.1 1585.9,3471.6 1587.4,3936.6 1489.1,3935 1486,3861.7 1381.7,3838 1381.7,3794.3 1426.7,3774.3\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0164"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0164",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
