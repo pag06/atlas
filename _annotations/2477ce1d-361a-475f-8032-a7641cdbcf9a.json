@@ -119,7 +119,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=1458.765380859375,2969.51708984375,1098.50146484375,724.012451171875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0051"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0051",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
