@@ -3,53 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0277"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "l'enclos des porcs\n[...], devant la ferme \u00e0 L24 (La Baraque-du-Cros)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-27T11:35:52.287Z",
-            "modified": "2023-07-27T11:36:44.043Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3852",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-27T11:36:07.831Z"
+            "modified": "2023-07-27T11:36:44.043Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "l'enclos des porcs\n[...], devant la ferme \u00e0 L24 (La Baraque-du-Cros)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L24",
+            "created": "2023-07-27T11:36:07.831Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-27T11:36:11.132Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3852"
+        },
+        {
+            "created": "2023-07-27T11:36:11.132Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C523",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2024-11-12T10:28:36.708Z"
         }
     ],
+    "id": "c5bce891-860e-404a-968a-577d13bcaab2.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0277",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1263.59375,3214.8017578125,1310.908935546875,498.181884765625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1263.59375,3214.8017578125,1310.908935546875,498.181884765625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0277",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c5bce891-860e-404a-968a-577d13bcaab2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
