@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0034"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Goutti\u00e8re (ch\u00e9neau) : le mot \"ch\u00e9neau\" d\u00e9signe \"le petit canal, de t\u00f4le ou de zinc le plus souvent, dispos\u00e9 sous la bordure du toit pour recevoir les eaux de pluie et les d\u00e9verser dans le tuyau de descente\". En fait, c'est une simple \"goutti\u00e8re\" plut\u00f4t qu'un vrai \"ch\u00e9neau\". En fran\u00e7ais local, on dit \"la [...].",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-07-30T11:37:36.674Z",
-            "modified": "2023-07-30T11:57:31.419Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-12T13:18:26.118Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Goutti\u00e8re (ch\u00e9neau) : le mot \"ch\u00e9neau\" d\u00e9signe \"le petit canal, de t\u00f4le ou de zinc le plus souvent, dispos\u00e9 sous la bordure du toit pour recevoir les eaux de pluie et les d\u00e9verser dans le tuyau de descente\". En fait, c'est une simple \"goutti\u00e8re\" plut\u00f4t qu'un vrai \"ch\u00e9neau\". En fran\u00e7ais local, on dit \"la [\u0283\u02c8\u0153n\u0254]."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L24",
+            "created": "2023-07-30T11:39:14.614Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-30T11:39:14.614Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C671",
+            "created": "2023-07-30T11:51:35.206Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-30T11:51:35.206Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C671"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2196",
+            "created": "2023-07-30T11:53:17.092Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-30T11:53:17.092Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2196"
         }
     ],
+    "id": "951ac996-d5a1-4eab-aa62-dd46f12f76a5.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0034",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1995.533203125,3384.8359375,621.02783203125,435.343505859375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1995.533203125,3384.8359375,621.02783203125,435.343505859375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0034",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "951ac996-d5a1-4eab-aa62-dd46f12f76a5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
