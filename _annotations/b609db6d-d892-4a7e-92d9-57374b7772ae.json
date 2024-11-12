@@ -97,14 +97,14 @@ order: 1
             "value": "Q6818"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8515",
+            "created": "2024-11-12T15:09:20.164Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T15:09:20.164Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8515"
         }
     ],
     "id": "b609db6d-d892-4a7e-92d9-57374b7772ae.json",
