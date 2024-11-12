@@ -3,52 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328"
 order: 13
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Porcheries, \n\u00e0 droite : sous un escalier\n\u00e0 gauche sous le montoir de grange",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-27T12:25:01.708Z",
-            "modified": "2023-07-27T12:26:56.193Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L28",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-27T12:27:07.088Z"
+            "modified": "2023-07-27T12:26:56.193Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Porcheries, \n\u00e0 droite : sous un escalier\n\u00e0 gauche sous le montoir de grange"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q11837",
+            "created": "2023-07-27T12:27:07.088Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-27T12:27:17.769Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L28"
+        },
+        {
+            "created": "2023-07-27T12:27:17.769Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q11837"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C524",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T11:21:49.448Z",
+            "modified": "2024-11-12T11:21:52.133Z"
         }
     ],
+    "id": "79776819-3766-4868-91a0-96fc530e814d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"560.6641235351562,1998.172119140625 1533.94140625,2022.1297607421875 1563.888427734375,2680.963623046875 887.0863647460938,2692.9423828125 584.6217651367188,2908.560791015625 557.66943359375,1998.172119140625\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "79776819-3766-4868-91a0-96fc530e814d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
