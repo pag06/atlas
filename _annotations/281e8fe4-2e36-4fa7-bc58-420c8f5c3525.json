@@ -3,52 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0249"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
+            "created": "2023-07-26T15:33:38.395Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-26T15:33:51.562Z",
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Les coupe-paille, type C3",
+            "value": "Les coupe-paille, type C3"
+        },
+        {
+            "created": "2023-07-26T15:33:59.343Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L10"
+        },
+        {
+            "created": "2023-07-26T15:34:39.728Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2733"
+        },
+        {
+            "type": "TextualBody",
+            "value": "\u0266ache-paille \u00e0 socle et \u00e0 levier",
             "purpose": "commenting",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
             },
-            "created": "2023-07-26T15:33:38.395Z",
-            "modified": "2023-07-26T15:33:51.562Z"
+            "created": "2024-11-12T10:10:56.813Z",
+            "modified": "2024-11-12T10:11:12.960Z"
         },
         {
             "type": "TextualBody",
+            "value": "C464",
             "purpose": "tagging",
-            "value": "L10",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
             },
-            "created": "2023-07-26T15:33:59.343Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2733",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "created": "2023-07-26T15:34:39.728Z"
+            "created": "2024-11-12T10:11:50.661Z",
+            "modified": "2024-11-12T10:11:52.898Z"
         }
     ],
+    "id": "281e8fe4-2e36-4fa7-bc58-420c8f5c3525.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0249",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1140.39501953125,2968.345703125 1254.468994140625,2970.073974609375 1460.1480712890625,3478.22216796875 1518.9134521484375,3409.08642578125 1594.962890625,3312.296142578125 1695.209716796875,3409.08642578125 1712.4937744140625,3794.518310546875 1057.4320068359375,3796.246826171875 1117.9259033203125,3657.97509765625 1332.246826171875,3626.864013671875 1301.1357421875,3412.543212890625 1142.1234130859375,2971.802490234375\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0249",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "281e8fe4-2e36-4fa7-bc58-420c8f5c3525.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
