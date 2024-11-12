@@ -3,53 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0081"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L29",
+            "created": "2023-08-02T21:45:10.304Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-02T21:45:10.304Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L29"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9572",
+            "created": "2023-08-02T21:45:22.942Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-02T21:45:22.942Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9572"
         },
         {
-            "type": "TextualBody",
-            "value": "Soufflet \u00e0 main : il est fait de deux planchettes, jointes par une bande de cuir souple, que deux manettes \u00e9cartent et rapprochent alternativement, expulsant ainsi par une tubulure l'air aspir\u00e9 par une soupape. Le soufflet \u00e0 main est plus r\u00e9cent, plus moderne que le soufflet \u00e0 bouche.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-02T21:45:26.489Z",
-            "modified": "2023-08-02T21:49:41.746Z"
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "modified": "2023-08-02T21:49:41.746Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Soufflet \u00e0 main : il est fait de deux planchettes, jointes par une bande de cuir souple, que deux manettes \u00e9cartent et rapprochent alternativement, expulsant ainsi par une tubulure l'air aspir\u00e9 par une soupape. Le soufflet \u00e0 main est plus r\u00e9cent, plus moderne que le soufflet \u00e0 bouche."
+        },
+        {
+            "type": "TextualBody",
+            "value": "C767",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T13:59:28.561Z",
+            "modified": "2024-11-12T13:59:31.122Z"
         }
     ],
+    "id": "a29049f9-dc0b-46c0-a9b1-dbf451e21956.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0081",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1832.28955078125,2967.158935546875,546.130126953125,764.58203125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1832.28955078125,2967.158935546875,546.130126953125,764.58203125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0081",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a29049f9-dc0b-46c0-a9b1-dbf451e21956.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
