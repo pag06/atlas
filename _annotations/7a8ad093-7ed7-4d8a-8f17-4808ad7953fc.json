@@ -27,24 +27,24 @@ order: 3
             "value": "L35"
         },
         {
-            "created": "2023-08-16T11:27:18.422Z",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "C907"
+            "purpose": "tagging",
+            "value": "C909",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T15:43:33.540Z"
         },
         {
-            "created": "2023-08-16T11:27:26.542Z",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q7724"
+            "purpose": "tagging",
+            "value": "Q1155",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T15:43:43.007Z"
         }
     ],
     "id": "7a8ad093-7ed7-4d8a-8f17-4808ad7953fc.json",
