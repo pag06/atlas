@@ -3,51 +3,58 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0044"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Butoir en pierre (hauteur : 10 cm), devant la porte ferm\u00e9e.",
+            "created": "2023-07-30T14:11:14.004Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "created": "2023-07-30T14:11:14.004Z"
+            "type": "TextualBody",
+            "value": "Butoir en pierre (hauteur : 10 cm), devant la porte ferm\u00e9e."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L3",
+            "created": "2023-07-30T14:11:19.176Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-30T14:11:19.176Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L3"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1590",
+            "created": "2023-07-30T14:11:24.040Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-30T14:11:24.040Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1590"
         }
     ],
+    "id": "2f3ae8af-9b08-4644-83c9-1a90355b2983.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0044",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1550.2,3561.5 1902.9,3561.5 1902.9,3692.4 1988.4,3696.1 2001.1,3696.1 2001.1,3852.4 1548.4,3841.5\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0044",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "2f3ae8af-9b08-4644-83c9-1a90355b2983.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
