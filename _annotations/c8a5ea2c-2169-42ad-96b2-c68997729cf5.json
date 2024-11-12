@@ -27,17 +27,6 @@ order: 1
             "value": "L12"
         },
         {
-            "created": "2023-08-05T12:55:27.314Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "modified": "2023-08-05T12:55:51.015Z",
-            "purpose": "commenting",
-            "type": "TextualBody",
-            "value": "Est-ce bien la l\u00e9gende correspond \u00e0 cette illustration ?"
-        },
-        {
             "created": "2023-08-16T11:33:52.743Z",
             "creator": {
                 "id": "GBT-Unice",
@@ -58,15 +47,14 @@ order: 1
             "value": "Q8659"
         },
         {
-            "created": "2023-08-16T11:34:09.631Z",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
-            "modified": "2023-08-16T11:34:12.933Z",
-            "purpose": "replying",
             "type": "TextualBody",
-            "value": "oui c'est \u00e7a"
+            "purpose": "tagging",
+            "value": "Q9271",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T14:14:54.562Z"
         }
     ],
     "id": "c8a5ea2c-2169-42ad-96b2-c68997729cf5.json",
