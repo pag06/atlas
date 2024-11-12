@@ -17,16 +17,6 @@ order: 1
             "value": "Parties de la ferme (charpente)."
         },
         {
-            "created": "2023-07-30T12:14:08.758Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L51"
-        },
-        {
             "created": "2023-07-30T12:14:25.166Z",
             "creator": {
                 "id": "ls7320",
@@ -79,24 +69,34 @@ order: 1
             "value": "C676"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C677",
+            "created": "2024-11-12T13:24:08.479Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T13:24:08.479Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C677"
+        },
+        {
+            "created": "2024-11-12T13:24:16.913Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C678"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C678",
+            "value": "Q4016",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T13:24:16.913Z"
+            "created": "2024-11-12T13:26:09.930Z"
         }
     ],
     "id": "a8bfc54c-5661-4d23-9b4d-648ca3602b03.json",
