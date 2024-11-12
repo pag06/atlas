@@ -27,25 +27,25 @@ order: 1
             "value": "L20"
         },
         {
-            "type": "TextualBody",
-            "value": "Pas de carte pour le rouleau",
-            "purpose": "replying",
+            "created": "2023-08-16T11:31:50.893Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T11:31:50.893Z",
-            "modified": "2023-08-16T11:32:01.754Z"
+            "modified": "2023-08-16T11:32:01.754Z",
+            "purpose": "replying",
+            "type": "TextualBody",
+            "value": "Pas de carte pour le rouleau"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9033",
+            "created": "2023-08-16T11:32:15.933Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T11:32:15.933Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9033"
         }
     ],
     "id": "975d3a77-921b-4a7f-b4f6-4a4bb07ffe5a.json",
@@ -60,7 +60,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=1895.74951171875,3555.8623046875,761.3095703125,328.376220703125"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0148"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0148",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
