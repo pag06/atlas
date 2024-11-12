@@ -11,10 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-12T16:31:03.703Z",
+            "modified": "2024-11-12T16:37:43.780Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Faux"
+            "value": "Rateau"
         },
         {
             "created": "2023-08-13T15:45:36.096Z",
@@ -29,28 +29,32 @@ order: 1
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q4474",
+            "value": "C952",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T16:31:20.113Z"
+            "created": "2024-11-12T16:38:36.346Z"
         },
         {
             "type": "TextualBody",
-            "value": "C929",
             "purpose": "tagging",
+            "value": "Q8597",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T16:31:22.571Z",
-            "modified": "2024-11-12T16:31:26.165Z"
+            "created": "2024-11-12T16:38:44.442Z"
         }
     ],
     "id": "33e3c1a4-c129-4349-be9d-1bd2ee739973.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1022.0557250976562,2919.76318359375,277.32537841796875,864.698974609375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -58,11 +62,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0169",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1022.0557250976562,2919.76318359375,277.32537841796875,864.698974609375"
         }
     },
     "type": "Annotation"
