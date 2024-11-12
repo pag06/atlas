@@ -6,17 +6,6 @@ order: 1
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "created": "2023-08-14T13:33:11.953Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "modified": "2023-08-14T13:33:28.645Z",
-            "purpose": "questioning",
-            "type": "TextualBody",
-            "value": "Quelle est la l\u00e9gende ?"
-        },
-        {
             "created": "2023-08-14T13:33:43.569Z",
             "creator": {
                 "id": "ls7320",
@@ -27,35 +16,35 @@ order: 1
             "value": "L27"
         },
         {
-            "type": "TextualBody",
-            "value": "R\u00e2teau type B : le manche est enti\u00e8rement rectiligne, et une cheville (oblique et coupant l'angle aigu) le relie \u00e0 la traverse",
-            "purpose": "commenting",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
             "created": "2023-08-18T09:44:38.961Z",
-            "modified": "2023-08-18T09:45:09.327Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C952",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-18T09:45:23.426Z"
+            "modified": "2023-08-18T09:45:09.327Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "R\u00e2teau type B : le manche est enti\u00e8rement rectiligne, et une cheville (oblique et coupant l'angle aigu) le relie \u00e0 la traverse"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8597",
+            "created": "2023-08-18T09:45:23.426Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-18T09:45:29.458Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C952"
+        },
+        {
+            "created": "2023-08-18T09:45:29.458Z",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8597"
         }
     ],
     "id": "9f4e7272-bb5f-4cbd-9f30-80eaecf9d41c.json",
@@ -69,7 +58,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1612,3165.8 1696.3,3122.1 1911.6,3527.8 2222.8,3611.8 2173.7,3786.4 1546.4,3681.4 1559.1,3621.4 1666.6,3487.2 1763.3,3502.8\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0175"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0175",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
