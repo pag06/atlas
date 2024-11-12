@@ -3,62 +3,69 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0073"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le moine (hauteur 1m) \u00e9tait le chauffe-lit des pauvres : il est compos\u00e9 de deux paires de barreaux incurv\u00e9s dont les concavit\u00e9s se font face, tout comme les deux t\u00f4les qu'elles soutiennent. On glissait le moine entre les draps et l'on pla\u00e7ait sur la t\u00f4le inf\u00e9rieure un r\u00e9chaud, une chaufferette, ou un r\u00e9cipient rempli de braise. ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-02T21:25:38.369Z",
-            "modified": "2023-08-02T21:29:36.101Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L20",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-02T21:29:57.636Z"
+            "modified": "2023-08-02T21:29:36.101Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le moine (hauteur 1m) \u00e9tait le chauffe-lit des pauvres : il est compos\u00e9 de deux paires de barreaux incurv\u00e9s dont les concavit\u00e9s se font face, tout comme les deux t\u00f4les qu'elles soutiennent. On glissait le moine entre les draps et l'on pla\u00e7ait sur la t\u00f4le inf\u00e9rieure un r\u00e9chaud, une chaufferette, ou un r\u00e9cipient rempli de braise. "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L24",
+            "created": "2023-08-02T21:29:57.636Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-02T21:30:00.861Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L20"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2149",
+            "created": "2023-08-02T21:30:00.861Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-02T21:30:28.750Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
+        },
+        {
+            "created": "2023-08-02T21:30:28.750Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2149"
         }
     ],
+    "id": "3e2ca15e-b350-4506-99d9-ad6228146b7b.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0073",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2126.6,3065 2540.1,3060.3 2551,3775 1984.6,3770.3 1980,3501.9 2121.9,3297.5\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0073",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "3e2ca15e-b350-4506-99d9-ad6228146b7b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
