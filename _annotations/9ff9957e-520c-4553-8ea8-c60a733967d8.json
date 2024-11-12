@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-08T15:00:09.789Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-08T15:01:04.930Z",
+            "modified": "2024-11-12T15:02:15.939Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Tombereau muni d'une hausse (C860), pour transporter du b\u00e9tail : veaux, porcs, moutons."
+            "value": "Tombereau muni d'une hausse, pour transporter du b\u00e9tail : veaux, porcs, moutons."
         },
         {
             "created": "2023-08-08T15:01:33.169Z",
@@ -35,19 +35,37 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q10044"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C860",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T15:02:43.339Z",
+            "modified": "2024-11-12T15:02:47.408Z"
         }
     ],
     "id": "9ff9957e-520c-4553-8ea8-c60a733967d8.json",
     "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0125",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1864.2,2987.9 2502.4,2992.6 2490.8,3647.7 2159.9,3645.9 1867.1,3831.4 1678.5,3832.1 1680.1,3549.6 1488.1,3543.4 1491.3,3349.9 1861.1,3348.4\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0125",
+            "type": "Canvas"
         }
     },
     "type": "Annotation"
