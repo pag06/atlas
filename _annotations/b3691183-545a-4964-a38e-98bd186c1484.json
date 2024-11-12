@@ -48,15 +48,46 @@ order: 2
             "value": "C461"
         },
         {
-            "type": "TextualBody",
-            "value": "Q7290",
-            "purpose": "tagging",
+            "created": "2023-07-31T08:51:53.959Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-07-31T08:51:53.959Z",
-            "modified": "2023-07-31T08:51:55.888Z"
+            "modified": "2023-07-31T08:51:55.888Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7290"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L33",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2024-11-12T10:04:55.859Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L51",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2024-11-12T10:05:06.026Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "L33 [lu pa\u0272\u0254 pastyrad\u02c8u] ; L50, L51 [lu p\u0254nj\u0254 p\u0254styrad\u02c8u]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2024-11-12T10:05:25.071Z",
+            "modified": "2024-11-12T10:07:20.743Z"
         }
     ],
     "id": "b3691183-545a-4964-a38e-98bd186c1484.json",
@@ -70,7 +101,14 @@ order: 2
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1805.943115234375,3330.115478515625 1800.488525390625,3753.751708984375 2402.306640625,3755.56982421875 2345.943115234375,3613.751708984375 2324.125,3606.47900390625 2298.67041015625,3521.0244140625 2295.033935546875,3326.47900390625 1807.76123046875,3330.115478515625\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0247"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0247",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
