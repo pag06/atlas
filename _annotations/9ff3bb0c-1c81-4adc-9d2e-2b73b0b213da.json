@@ -37,15 +37,15 @@ order: 1
             "value": "Q9057"
         },
         {
-            "type": "TextualBody",
-            "value": "C611",
-            "purpose": "tagging",
+            "created": "2024-11-12T10:59:31.928Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T10:59:31.928Z",
-            "modified": "2024-11-12T10:59:33.688Z"
+            "modified": "2024-11-12T10:59:33.688Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C611"
         }
     ],
     "id": "9ff3bb0c-1c81-4adc-9d2e-2b73b0b213da.json",
