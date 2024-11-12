@@ -58,15 +58,35 @@ order: 1
             "value": "Q7290"
         },
         {
-            "type": "TextualBody",
-            "value": "L18, L42 [l ars\u02c8u] ; L41 [ars\u02b2\u02c8u] ; L42 contenu [l \u0254rsun\u02c8ad\u0254]",
-            "purpose": "replying",
+            "created": "2024-11-12T10:00:23.183Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2024-11-12T10:00:23.183Z",
-            "modified": "2024-11-12T10:02:59.122Z"
+            "modified": "2024-11-12T10:02:59.122Z",
+            "purpose": "replying",
+            "type": "TextualBody",
+            "value": "L18, L42 [l ars\u02c8u] ; L41 [ars\u02b2\u02c8u] ; L42 contenu [l \u0254rsun\u02c8ad\u0254]"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L41",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2024-11-12T10:04:23.484Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L42",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2024-11-12T10:04:29.736Z"
         }
     ],
     "id": "1144c8f9-fdd8-480e-8612-b5c8eaf97fcb.json",
