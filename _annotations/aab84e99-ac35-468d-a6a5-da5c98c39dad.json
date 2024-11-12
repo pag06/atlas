@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-08-12T13:25:16.652Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-12T13:25:19.381Z",
+            "modified": "2024-11-12T15:41:56.205Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "[...]"
+            "value": "[lit\u0283j\u02c8e b\u0254n\u02c8ar] : b\u00eache \u00e0 dents"
         },
         {
             "created": "2023-08-12T13:25:24.333Z",
@@ -27,24 +27,24 @@ order: 2
             "value": "L35"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C905",
+            "created": "2023-08-16T11:25:44.220Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T11:25:44.220Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C905"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1047",
+            "created": "2023-08-16T11:25:49.396Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T11:25:49.396Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1047"
         }
     ],
     "id": "aab84e99-ac35-468d-a6a5-da5c98c39dad.json",
@@ -58,7 +58,14 @@ order: 2
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2087.1,3590.4 2260.6,3590.4 2257.4,3846.7 2230.9,3901.4 2082.4,3899.8\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0152"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0152",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
