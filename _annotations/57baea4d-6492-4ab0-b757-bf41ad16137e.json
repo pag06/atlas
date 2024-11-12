@@ -3,83 +3,90 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0114"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le Monastier (horizontal) la curette \u00e0 la base de l'aiguillon ; (vertical) le soc de l'araire",
-            "purpose": "commenting",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
             "created": "2023-08-16T11:48:00.180Z",
-            "modified": "2023-08-16T11:48:56.176Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C833",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T11:50:07.892Z"
+            "modified": "2023-08-16T11:48:56.176Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le Monastier (horizontal) la curette \u00e0 la base de l'aiguillon ; (vertical) le soc de l'araire"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3085",
+            "created": "2023-08-16T11:50:07.892Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T11:50:17.132Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C833"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C879",
+            "created": "2023-08-16T11:50:17.132Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T11:50:49.809Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3085"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9459",
+            "created": "2023-08-16T11:50:49.809Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T11:51:00.602Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C879"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L23",
+            "created": "2023-08-16T11:51:00.602Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T11:51:08.610Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9459"
+        },
+        {
+            "created": "2023-08-16T11:51:08.610Z",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L23"
         }
     ],
+    "id": "57baea4d-6492-4ab0-b757-bf41ad16137e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0114",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1754.1036376953125,3311.230712890625,842.2095947265625,577.94189453125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1754.1036376953125,3311.230712890625,842.2095947265625,577.94189453125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0114",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "57baea4d-6492-4ab0-b757-bf41ad16137e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
