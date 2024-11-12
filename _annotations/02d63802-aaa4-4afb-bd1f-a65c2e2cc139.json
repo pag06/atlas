@@ -37,15 +37,15 @@ order: 1
             "value": "Q7274"
         },
         {
-            "type": "TextualBody",
-            "value": "C1111",
-            "purpose": "tagging",
+            "created": "2024-11-12T15:26:18.554Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T15:26:18.554Z",
-            "modified": "2024-11-12T15:26:22.993Z"
+            "modified": "2024-11-12T15:26:22.993Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1111"
         }
     ],
     "id": "02d63802-aaa4-4afb-bd1f-a65c2e2cc139.json",
