@@ -26,15 +26,15 @@ order: 2
             "value": "Q9330"
         },
         {
-            "type": "TextualBody",
-            "value": "Semoir : ici, c'est une petite corbeille oblongue, non ajour\u00e9e, faite en paille tress\u00e9e.",
-            "purpose": "commenting",
+            "created": "2023-08-14T15:36:53.782Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-14T15:36:53.782Z",
-            "modified": "2023-08-14T15:36:58.691Z"
+            "modified": "2023-08-14T15:36:58.691Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Semoir : ici, c'est une petite corbeille oblongue, non ajour\u00e9e, faite en paille tress\u00e9e."
         }
     ],
     "id": "c608e74d-d70c-46e7-9c01-3a1ca8bd6f90.json",
@@ -49,7 +49,14 @@ order: 2
             "type": "FragmentSelector",
             "value": "xywh=2318.642333984375,3489.396240234375,354.54541015625,407.272705078125"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0184"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0184",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
