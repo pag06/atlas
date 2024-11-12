@@ -3,52 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0101"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "La cruche est en terre, pansue et munie d'un court versoir tubulaire. Elle a une anse au sommet, pour la transporter, et souvent une poign\u00e9e, \u00e0 l'oppos\u00e9 du versoir, pour la vider . Elle servait surtout \u00e0 porter l'eau aux travailleurs des champs. ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-06T12:05:15.582Z",
-            "modified": "2023-08-06T12:09:40.820Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L10",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-06T12:05:25.307Z"
+            "modified": "2023-08-06T12:09:40.820Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "La cruche est en terre, pansue et munie d'un court versoir tubulaire. Elle a une anse au sommet, pour la transporter, et souvent une poign\u00e9e, \u00e0 l'oppos\u00e9 du versoir, pour la vider . Elle servait surtout \u00e0 porter l'eau aux travailleurs des champs. "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3028",
+            "created": "2023-08-06T12:05:25.307Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-06T12:10:16.871Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L10"
+        },
+        {
+            "created": "2023-08-06T12:10:16.871Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3028"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C794",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T14:15:31.624Z",
+            "modified": "2024-11-12T14:15:36.878Z"
         }
     ],
+    "id": "64d1e769-5b41-4755-a2d9-8a2050d4afde.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0101",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2158.454833984375,3131.025390625 2336.33740234375,3127.904541015625 2351.94091796875,3184.077880859375 2472.089599609375,3184.077880859375 2476.770751953125,3700.560791015625 2027.3837890625,3700.560791015625 2018.021484375,3246.49267578125 2018.021484375,3198.121337890625 2138.170166015625,3193.440185546875\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0101",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "64d1e769-5b41-4755-a2d9-8a2050d4afde.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
