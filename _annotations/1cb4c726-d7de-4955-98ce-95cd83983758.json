@@ -27,26 +27,26 @@ order: 1
             "value": "L8"
         },
         {
-            "type": "TextualBody",
-            "value": "Pas de carte pour le rouleau",
-            "purpose": "replying",
+            "created": "2023-08-16T11:31:02.444Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T11:31:02.444Z",
-            "modified": "2023-08-16T11:31:17.776Z"
+            "modified": "2023-08-16T11:31:17.776Z",
+            "purpose": "replying",
+            "type": "TextualBody",
+            "value": "Pas de carte pour le rouleau"
         },
         {
-            "type": "TextualBody",
-            "value": "Q9033",
-            "purpose": "tagging",
+            "created": "2023-08-16T11:31:20.303Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T11:31:20.303Z",
-            "modified": "2023-08-16T11:31:32.228Z"
+            "modified": "2023-08-16T11:31:32.228Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9033"
         }
     ],
     "id": "1cb4c726-d7de-4955-98ce-95cd83983758.json",
@@ -60,7 +60,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1602.6,3340 2051.1,3222.7 2535.6,3399.3 2534,3641.6 1695.7,3622.1 1654.8,3471.1 1654.8,3472.1 1639.4,3420.2 1599.5,3421.2\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0145"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0145",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
