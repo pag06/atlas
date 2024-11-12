@@ -27,15 +27,26 @@ order: 2
             "value": "L29"
         },
         {
+            "created": "2024-11-12T14:20:49.017Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-12T14:20:57.146Z",
+            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "C794",
+            "value": "C794"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q8115",
             "purpose": "tagging",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T14:20:49.017Z",
-            "modified": "2024-11-12T14:20:57.146Z"
+            "created": "2024-11-12T14:21:04.193Z",
+            "modified": "2024-11-12T14:21:11.186Z"
         }
     ],
     "id": "c0bbaca5-f3ec-422f-a796-bba20cd7577d.json",
