@@ -16,16 +16,6 @@ order: 1
             "value": "L33"
         },
         {
-            "created": "2023-08-14T12:58:34.988Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q10231"
-        },
-        {
             "created": "2023-08-14T12:58:38.705Z",
             "creator": {
                 "id": "ls7320",
@@ -35,6 +25,26 @@ order: 1
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "R\u00e2teau \u00e0 foin"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8597",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T16:44:55.310Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C952",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T16:45:06.905Z"
         }
     ],
     "id": "f1fec9de-65bb-4627-a3ab-94d7e70fdf13.json",
@@ -48,7 +58,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2133.7,3099.1 2363.1,3256.7 2360,3303.5 2344.4,3319.1 2266.3,3278.5 2221.1,3372.1 2199.2,3913.6 2122.8,3938.6 2168,3317.5 2152.4,3197.4 2074.4,3133.4 2079.1,3114.7 2088.5,3102.2 2088.5,3099.1\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0172"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0172",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
