@@ -37,15 +37,15 @@ order: 1
             "value": "Q2796"
         },
         {
-            "type": "TextualBody",
-            "value": "C818",
-            "purpose": "tagging",
+            "created": "2024-11-12T14:57:57.501Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T14:57:57.501Z",
-            "modified": "2024-11-12T14:57:59.415Z"
+            "modified": "2024-11-12T14:57:59.415Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C818"
         }
     ],
     "id": "9a52442c-e5f3-4080-b6da-4685720ec585.json",
