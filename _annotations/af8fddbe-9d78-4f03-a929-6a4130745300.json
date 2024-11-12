@@ -11,10 +11,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2023-07-26T10:13:15.647Z",
+            "modified": "2024-11-12T11:57:13.480Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le mur gouttereau\n\nIl n'atteint pas la rive du toit et laisse un espace b\u00e9ant sous les combles"
+            "value": "Le mur gouttereau [mur lat\u00e9ral d'un \u00e9difice]\n\nIl n'atteint pas la rive du toit et laisse un espace b\u00e9ant sous les combles"
         },
         {
             "created": "2023-07-26T10:13:01.089Z",
@@ -28,46 +28,15 @@ order: 2
             "value": "L21"
         },
         {
-            "created": "2023-07-26T10:16:11.435Z",
+            "type": "TextualBody",
+            "value": "C659",
+            "purpose": "tagging",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2023-07-26T10:17:12.978Z",
-            "purpose": "questioning",
-            "type": "TextualBody",
-            "value": "La carte C660 indique bien \"il s'agit de l'angle EXTERIEUR D'UN BAT\u00ceMENT\". Or sur cette illustration, c'est l'angle int\u00e9rieur... \nEst-ce que la Q254 dans le THESOC fait la m\u00eame distinction s\u00e9mantique ??"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Le croquis s'applique au mur pignon (gouttereau)",
-            "purpose": "replying",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
-            "created": "2023-07-31T09:06:17.867Z",
-            "modified": "2023-07-31T09:06:53.547Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C661",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
-            "created": "2023-07-31T09:07:05.013Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7698",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
-            "created": "2023-07-31T09:07:12.733Z"
+            "created": "2024-11-12T11:58:09.146Z",
+            "modified": "2024-11-12T11:58:11.524Z"
         }
     ],
     "id": "af8fddbe-9d78-4f03-a929-6a4130745300.json",
@@ -82,7 +51,14 @@ order: 2
             "type": "FragmentSelector",
             "value": "xywh=2026.990966796875,3033.691162109375,632.508056640625,819.7763671875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0028"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0028",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
