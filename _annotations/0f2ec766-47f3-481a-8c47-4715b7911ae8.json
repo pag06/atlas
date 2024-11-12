@@ -3,53 +3,61 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0103"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Pot \u00e0 graisse",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-06T12:44:57.606Z",
-            "modified": "2023-08-06T12:45:02.400Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L29",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-06T12:46:08.259Z"
+            "modified": "2023-08-06T12:45:02.400Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Pot \u00e0 graisse"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8112",
+            "created": "2023-08-06T12:46:08.259Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-06T12:47:28.529Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L29"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q8816",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T14:21:58.399Z",
+            "modified": "2024-11-12T14:22:00.589Z"
         }
     ],
+    "id": "0f2ec766-47f3-481a-8c47-4715b7911ae8.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0103",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2176.073486328125,3369.780029296875,329.238525390625,273.065185546875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2176.073486328125,3369.780029296875,329.238525390625,273.065185546875"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0103",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0f2ec766-47f3-481a-8c47-4715b7911ae8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
