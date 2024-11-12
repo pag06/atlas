@@ -38,15 +38,15 @@ order: 1
             "value": "C382"
         },
         {
-            "type": "TextualBody",
-            "value": "Q7667",
-            "purpose": "tagging",
+            "created": "2024-11-12T09:55:01.064Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2024-11-12T09:55:01.064Z",
-            "modified": "2024-11-12T09:55:17.939Z"
+            "modified": "2024-11-12T09:55:17.939Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7667"
         }
     ],
     "id": "40afdcaa-a1ec-409a-9cdc-edfcb8b44e90.json",
