@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-07-27T11:35:52.287Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-27T11:36:44.043Z",
+            "modified": "2024-11-12T10:52:47.974Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "l'enclos des porcs\n[...], devant la ferme \u00e0 L24 (La Baraque-du-Cros)"
+            "value": "Enclos des porcs\n[lu kud\u02c8er], devant la ferme \u00e0 L24 (La Baraque-du-Cros)"
         },
         {
             "created": "2023-07-27T11:36:07.831Z",
@@ -37,14 +37,14 @@ order: 1
             "value": "L24"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C523",
+            "created": "2024-11-12T10:28:36.708Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2024-11-12T10:28:36.708Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C523"
         }
     ],
     "id": "c5bce891-860e-404a-968a-577d13bcaab2.json",
