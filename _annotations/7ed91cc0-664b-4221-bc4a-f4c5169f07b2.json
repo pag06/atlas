@@ -3,72 +3,79 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0109"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L24",
+            "created": "2023-08-06T12:53:37.403Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-06T12:53:37.403Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L25",
+            "created": "2023-08-06T12:53:42.431Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-06T12:53:42.431Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L25"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q270",
+            "created": "2023-08-06T12:54:08.249Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-06T12:54:08.249Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q270"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q540",
+            "created": "2023-08-06T12:54:26.258Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-06T12:54:26.258Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q540"
         },
         {
-            "type": "TextualBody",
-            "value": "Les anneaux : pour atteler, on engage le timon dans deux anneaux suspendus au joug, l'un sur la face ant\u00e9rieure, l'autre sur la face post\u00e9rieure. \nLe support : c'est un dispositif fix\u00e9, et souvent encastr\u00e9, exactement au milieu du joug et qui supporte les anneaux. \n",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-06T12:55:33.370Z",
-            "modified": "2023-08-06T12:59:01.958Z"
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "modified": "2023-08-06T12:59:01.958Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Les anneaux : pour atteler, on engage le timon dans deux anneaux suspendus au joug, l'un sur la face ant\u00e9rieure, l'autre sur la face post\u00e9rieure. \nLe support : c'est un dispositif fix\u00e9, et souvent encastr\u00e9, exactement au milieu du joug et qui supporte les anneaux. \n"
         }
     ],
+    "id": "7ed91cc0-664b-4221-bc4a-f4c5169f07b2.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0109",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2026,3283 2487.9,3357.9 2489.5,3776.1 2422.4,3777.6 2327.2,3585.7 1935.5,3582.6\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0109",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7ed91cc0-664b-4221-bc4a-f4c5169f07b2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
