@@ -3,83 +3,120 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0052"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Porte d'\u00e9table.\n- La chati\u00e8re : le terme s'applique \u00e0 \"l'orifice par o\u00f9 passe le chat, au bas d'une porte int\u00e9rieure de la maison\", mais plus souvent encore \u00e0 \"l'orifice par o\u00f9 passent les poules, au bas de la porte de l'\u00e9table\".\n- Le birloir : taquet de bois tournant autour d'une axe et maintenant ferm\u00e9s les deux vantaux d'une porte. Il est encore fr\u00e9quent sur des portes de grange, d'\u00e9table, d'armoires, de garde-manger, mais on le remplace de plus en plus par une targette.  \n- Le guichet : petite fen\u00eatre pratiqu\u00e9e, \u00e0 hauteur d'homme, dans la porte de la grange ou de l'\u00e9table.\n- Les chasse-roues d\u00e9t\u00e9rior\u00e9s (C 691)\n",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-01T08:04:16.043Z",
-            "modified": "2023-08-01T08:19:54.461Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L3",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-01T08:06:24.902Z"
+            "modified": "2023-08-01T08:19:54.461Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Porte d'\u00e9table.\n- La chati\u00e8re : le terme s'applique \u00e0 \"l'orifice par o\u00f9 passe le chat, au bas d'une porte int\u00e9rieure de la maison\", mais plus souvent encore \u00e0 \"l'orifice par o\u00f9 passent les poules, au bas de la porte de l'\u00e9table\".\n- Le birloir : taquet de bois tournant autour d'une axe et maintenant ferm\u00e9s les deux vantaux d'une porte. Il est encore fr\u00e9quent sur des portes de grange, d'\u00e9table, d'armoires, de garde-manger, mais on le remplace de plus en plus par une targette.  \n- Le guichet : petite fen\u00eatre pratiqu\u00e9e, \u00e0 hauteur d'homme, dans la porte de la grange ou de l'\u00e9table.\n- Les chasse-roues d\u00e9t\u00e9rior\u00e9s (C 691)\n"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2130",
+            "created": "2023-08-01T08:06:24.902Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-01T08:06:29.560Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L3"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1156",
+            "created": "2023-08-01T08:06:29.560Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-01T08:09:28.613Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2130"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5416",
+            "created": "2023-08-01T08:09:28.613Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-01T08:10:43.800Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1156"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2104",
+            "created": "2023-08-01T08:10:43.800Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-01T08:18:55.093Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5416"
+        },
+        {
+            "created": "2023-08-01T08:18:55.093Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2104"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C700",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T13:49:22.880Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C711",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T13:49:28.418Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C691",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T13:49:39.571Z"
         }
     ],
+    "id": "9275c1dc-2819-4af5-a895-4beb4ff8dae5.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0052",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1686.304931640625,3112.16015625,929.9814453125,727.133056640625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1686.304931640625,3112.16015625,929.9814453125,727.133056640625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0052",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9275c1dc-2819-4af5-a895-4beb4ff8dae5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
