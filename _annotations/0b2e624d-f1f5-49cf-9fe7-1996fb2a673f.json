@@ -3,51 +3,58 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0149"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "La herse-buisson est compos\u00e9e d'une barre de bois (parfois deux), dans laquelle sont enfonc\u00e9es des tiges de buissons rigides et touffus (prunellier, aub\u00e9pine, etc.). On charge ces buissons de pierres ou de lourdes mottes de gazon, et un attelage tra\u00eene l'instrument. Dans les pr\u00e9s, il sert \u00e0 \u00e9mietter et \u00e9parpiller le fumier d\u00e9j\u00e0 \u00e9pandu et \u00e0 en ramasser la paille ; dans les champs, il sert \u00e0 briser les mottes de terre et \u00e0 \u00e9galiser le terrain.",
+            "created": "2023-08-12T12:52:39.548Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "created": "2023-08-12T12:52:39.548Z"
+            "type": "TextualBody",
+            "value": "La herse-buisson est compos\u00e9e d'une barre de bois (parfois deux), dans laquelle sont enfonc\u00e9es des tiges de buissons rigides et touffus (prunellier, aub\u00e9pine, etc.). On charge ces buissons de pierres ou de lourdes mottes de gazon, et un attelage tra\u00eene l'instrument. Dans les pr\u00e9s, il sert \u00e0 \u00e9mietter et \u00e9parpiller le fumier d\u00e9j\u00e0 \u00e9pandu et \u00e0 en ramasser la paille ; dans les champs, il sert \u00e0 briser les mottes de terre et \u00e0 \u00e9galiser le terrain."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L25",
+            "created": "2023-08-12T12:52:48.247Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-12T12:52:48.247Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L25"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5508",
+            "created": "2023-08-12T12:52:51.355Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-12T12:52:51.355Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5508"
         }
     ],
+    "id": "0b2e624d-f1f5-49cf-9fe7-1996fb2a673f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0149",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1763.3,2952.9 2541.6,2956 2544.7,3803 1766.4,3799.9 1763.3,3706.2 1838.3,3705.3 1835.2,3646.8 1775.8,3646.8\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0149",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0b2e624d-f1f5-49cf-9fe7-1996fb2a673f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
