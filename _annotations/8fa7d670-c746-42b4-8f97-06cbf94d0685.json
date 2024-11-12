@@ -3,53 +3,60 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0044"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Chasse-roue A : les chasse-roues, au bas des pieds-droits des portes charreti\u00e8res, sont : \n- soit des bornes distinctes de la ma\u00e7onnerie ;\n- soit des saillies de la panneresse de base ;\n- soit, plus rarement, des arcs m\u00e9talliques.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-07-30T13:50:03.072Z",
-            "modified": "2023-07-30T13:53:37.921Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L1",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-30T13:53:53.920Z"
+            "modified": "2023-07-30T13:53:37.921Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Chasse-roue A : les chasse-roues, au bas des pieds-droits des portes charreti\u00e8res, sont : \n- soit des bornes distinctes de la ma\u00e7onnerie ;\n- soit des saillies de la panneresse de base ;\n- soit, plus rarement, des arcs m\u00e9talliques."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2104",
+            "created": "2023-07-30T13:53:53.920Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-07-30T13:54:13.536Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L1"
+        },
+        {
+            "created": "2023-07-30T13:54:13.536Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2104"
         }
     ],
+    "id": "8fa7d670-c746-42b4-8f97-06cbf94d0685.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0044",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1547.70654296875,3020.827392578125,383.8514404296875,530.526123046875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1547.70654296875,3020.827392578125,383.8514404296875,530.526123046875"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0044",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "8fa7d670-c746-42b4-8f97-06cbf94d0685.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
