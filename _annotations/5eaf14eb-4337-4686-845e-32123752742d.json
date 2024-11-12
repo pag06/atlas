@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-07-30T10:13:17.668Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-30T10:13:27.268Z",
+            "modified": "2024-11-12T13:13:22.015Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "la [...] (du toit)"
+            "value": "la [f\u02c8al\u02d0\u0254] (du toit)"
         },
         {
             "created": "2023-07-30T10:13:35.346Z",
@@ -37,25 +37,25 @@ order: 1
             "value": "C668"
         },
         {
-            "type": "TextualBody",
-            "value": "Partie inf\u00e9rieure des pans du toit, moins inclin\u00e9e que la partie sup\u00e9rieure.",
-            "purpose": "commenting",
+            "created": "2023-07-31T08:30:24.668Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-07-31T08:30:24.668Z",
-            "modified": "2023-07-31T08:31:03.165Z"
+            "modified": "2023-07-31T08:31:03.165Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Partie inf\u00e9rieure des pans du toit, moins inclin\u00e9e que la partie sup\u00e9rieure."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8951",
+            "created": "2023-07-31T08:31:30.359Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-07-31T08:31:30.359Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8951"
         }
     ],
     "id": "5eaf14eb-4337-4686-845e-32123752742d.json",
@@ -70,7 +70,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=1954.9635009765625,3185.524658203125,748.9783935546875,652.2353515625"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0032"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0032",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
