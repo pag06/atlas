@@ -48,15 +48,15 @@ order: 1
             "value": "Q4201"
         },
         {
-            "type": "TextualBody",
-            "value": "C619",
-            "purpose": "tagging",
+            "created": "2024-11-12T11:04:29.755Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T11:04:29.755Z",
-            "modified": "2024-11-12T11:04:31.567Z"
+            "modified": "2024-11-12T11:04:31.567Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C619"
         }
     ],
     "id": "ba686424-aed9-4942-9239-eeccdcf5c8b6.json",
