@@ -27,14 +27,25 @@ order: 4
             "value": "L42"
         },
         {
-            "type": "TextualBody",
-            "value": "Q5645",
-            "purpose": "tagging",
+            "created": "2023-07-26T04:43:51.675Z",
             "creator": {
                 "id": "Pigeo",
                 "name": "Pierre-Aur\u00e9lien Georges"
             },
-            "created": "2023-07-26T04:43:51.675Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5645"
+        },
+        {
+            "type": "TextualBody",
+            "value": "[lu gr'awfi]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2024-11-12T09:48:04.350Z",
+            "modified": "2024-11-12T09:48:35.346Z"
         }
     ],
     "id": "02ce668b-5891-4af9-bb1f-b6f6fda546e5.json",
@@ -49,7 +60,14 @@ order: 4
             "type": "FragmentSelector",
             "value": "xywh=2494.448486328125,3119.434814453125,113.52587890625,725.100830078125"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0138"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0138",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
