@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-07-30T12:13:49.657Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-30T12:14:33.937Z",
+            "modified": "2024-11-12T13:20:09.703Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Pi\u00e8ce de bois, encastr\u00e9e dans le mur et supportant la ferme."
+            "value": "Parties de la ferme."
         },
         {
             "created": "2023-07-30T12:14:08.758Z",
@@ -48,14 +48,14 @@ order: 1
             "value": "Q4512"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "T",
+            "created": "2023-08-01T09:01:02.216Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-01T09:01:02.216Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "T"
         }
     ],
     "id": "a8bfc54c-5661-4d23-9b4d-648ca3602b03.json",
@@ -70,7 +70,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=1820.771484375,3136.03466796875,741.176513671875,569.53564453125"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0035"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0035",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
