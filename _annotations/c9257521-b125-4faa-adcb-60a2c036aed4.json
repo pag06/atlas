@@ -37,14 +37,14 @@ order: 14
             "value": "C579"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6940",
+            "created": "2023-07-31T08:41:14.843Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-07-31T08:41:14.843Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6940"
         }
     ],
     "id": "c9257521-b125-4faa-adcb-60a2c036aed4.json",
@@ -59,7 +59,14 @@ order: 14
             "type": "FragmentSelector",
             "value": "xywh=613.2478637695312,3011.278076171875,764.1703491210938,309.99365234375"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0328",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
