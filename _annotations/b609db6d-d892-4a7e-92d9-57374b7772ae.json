@@ -95,16 +95,6 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q6818"
-        },
-        {
-            "created": "2023-08-08T15:40:44.402Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q8851"
         }
     ],
     "id": "b609db6d-d892-4a7e-92d9-57374b7772ae.json",
@@ -119,7 +109,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=1511.2708740234375,3133.592041015625,1132.8297119140625,766.142333984375"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0130"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0130",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
