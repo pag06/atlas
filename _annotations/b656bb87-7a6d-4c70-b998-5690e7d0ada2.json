@@ -6,48 +6,65 @@ order: 1
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Semoir : c'est une caisse de coupe rectangulaire d'environ 45-50 cm. x 25 cm. et de 20 \u00e0 25 cm. de profondeur. Elle est maintenue \u00e0 mi-corps, du c\u00f4t\u00e9 externe par une main du semeur, au moyen d'un trou ou  d'une poign\u00e9e, du c\u00f4t\u00e9 interne, souvent incurv\u00e9 pour mieux coller au tronc, par une courroie suspendue \u00e0 l'\u00e9paule.",
+            "created": "2023-08-14T15:16:03.100Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "created": "2023-08-14T15:16:03.100Z"
+            "type": "TextualBody",
+            "value": "Semoir : c'est une caisse de coupe rectangulaire d'environ 45-50 cm. x 25 cm. et de 20 \u00e0 25 cm. de profondeur. Elle est maintenue \u00e0 mi-corps, du c\u00f4t\u00e9 externe par une main du semeur, au moyen d'un trou ou  d'une poign\u00e9e, du c\u00f4t\u00e9 interne, souvent incurv\u00e9 pour mieux coller au tronc, par une courroie suspendue \u00e0 l'\u00e9paule."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L17",
+            "created": "2023-08-14T15:16:24.314Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-14T15:16:24.314Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L17"
         },
         {
-            "type": "TextualBody",
-            "value": "Q9330",
-            "purpose": "tagging",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-14T15:16:29.032Z",
-            "modified": "2023-08-14T15:16:32.540Z"
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "modified": "2023-08-14T15:16:32.540Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9330"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C972",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T16:54:36.931Z"
         }
     ],
     "id": "b656bb87-7a6d-4c70-b998-5690e7d0ada2.json",
     "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0183",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1060.3,3167.7 1511.3,3162.4 1519.3,3331.7 1555.1,3372.8 1555.1,3486.9 1555.1,3559.8 1555.1,3607.6 1771.2,3608.1 1771.2,3788.4 1052.4,3791.1\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0183",
+            "type": "Canvas"
         }
     },
     "type": "Annotation"
