@@ -48,15 +48,15 @@ order: 1
             "value": "Q10473"
         },
         {
-            "type": "TextualBody",
-            "value": "C925",
-            "purpose": "tagging",
+            "created": "2024-11-12T16:19:28.111Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T16:19:28.111Z",
-            "modified": "2024-11-12T16:19:30.786Z"
+            "modified": "2024-11-12T16:19:30.786Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C925"
         }
     ],
     "id": "a6e86406-b915-4ca0-8caf-62c770a5229a.json",
