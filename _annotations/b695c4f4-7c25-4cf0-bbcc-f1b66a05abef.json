@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-07-28T19:59:12.677Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-29T13:02:06.284Z",
+            "modified": "2024-11-12T11:45:12.034Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Clochettes et colliers : La clochette de vache est en bronze g\u00e9n\u00e9ralement. En certains points (sigle T), elle est en t\u00f4le de cuivre ou d'alliage de cuivre, comme la \"sonnaille des moutons\". Son nom est connu m\u00eame dans les localit\u00e9s o\u00f9 l'emploi est rare. Portent seulement une clochette, \u00e0 L9 : [...] \"celles qui donnent des coups de cornes\" ; \u00e0 L10, la b\u00eate qui a la manie de courir : [...]."
+            "value": "Clochette [eskil:'u]"
         },
         {
             "created": "2023-07-28T19:59:34.526Z",
@@ -48,7 +48,14 @@ order: 2
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1891.2110595703125,3466.9208984375 1894.336669921875,3841.990478515625 2319.415771484375,3845.1162109375 2313.16455078125,3495.051025390625 2075.620361328125,3448.167236328125\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0019"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0019",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
