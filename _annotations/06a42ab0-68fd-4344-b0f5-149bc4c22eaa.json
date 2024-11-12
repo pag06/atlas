@@ -35,6 +35,17 @@ order: 5
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q4474"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C929",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T16:24:27.088Z",
+            "modified": "2024-11-12T16:24:29.882Z"
         }
     ],
     "id": "06a42ab0-68fd-4344-b0f5-149bc4c22eaa.json",
@@ -48,7 +59,14 @@ order: 5
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2548.4,3102.3 2610,3092.3 2615.9,3159.9 2645.7,3249.3 2625.8,3533.4 2582.1,3563.2 2548.4,3863.2 2606,3873.7 2597,3924.4 2445.1,3909.5 2449,3863.8 2484.8,3862.8 2510.6,3583 2461,3567.1 2464.9,3521.5 2512.6,3509.5\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0164"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0164",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
