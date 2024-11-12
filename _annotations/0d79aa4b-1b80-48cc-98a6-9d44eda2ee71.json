@@ -3,52 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0258"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
+            "created": "2023-07-26T15:48:42.026Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-26T15:49:15.624Z",
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "B\u00e2t, type B",
+            "value": "B\u00e2t, type B"
+        },
+        {
+            "created": "2023-07-26T15:48:51.381Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L7"
+        },
+        {
+            "created": "2023-07-26T15:48:57.819Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q929"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Selle rigide et rembour\u00e9e, en forme d'arc de cercle",
             "purpose": "commenting",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
             },
-            "created": "2023-07-26T15:48:42.026Z",
-            "modified": "2023-07-26T15:49:15.624Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L7",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "created": "2023-07-26T15:48:51.381Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q929",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "created": "2023-07-26T15:48:57.819Z"
+            "created": "2024-11-12T10:22:06.200Z",
+            "modified": "2024-11-12T10:22:22.783Z"
         }
     ],
+    "id": "0d79aa4b-1b80-48cc-98a6-9d44eda2ee71.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0258",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2705.7529296875,3127.624267578125 2379.739013671875,3229.833984375 2381.501220703125,3407.820068359375 2804.438232421875,3427.20458984375 2836.15869140625,3265.07861328125 2800.913818359375,3124.099609375 2705.7529296875,3127.624267578125\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0258",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0d79aa4b-1b80-48cc-98a6-9d44eda2ee71.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
