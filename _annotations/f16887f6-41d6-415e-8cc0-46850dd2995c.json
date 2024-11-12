@@ -57,15 +57,15 @@ order: 1
             "value": "Q4195"
         },
         {
-            "type": "TextualBody",
-            "value": "Q8926",
-            "purpose": "tagging",
+            "created": "2024-11-12T11:36:35.927Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T11:36:35.927Z",
-            "modified": "2024-11-12T11:36:38.679Z"
+            "modified": "2024-11-12T11:36:38.679Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8926"
         }
     ],
     "id": "f16887f6-41d6-415e-8cc0-46850dd2995c.json",
