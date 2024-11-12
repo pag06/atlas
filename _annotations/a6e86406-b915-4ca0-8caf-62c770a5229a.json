@@ -37,15 +37,26 @@ order: 1
             "value": "Q8930"
         },
         {
+            "created": "2024-11-12T16:19:11.385Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-12T16:19:15.535Z",
+            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q10473",
+            "value": "Q10473"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C925",
             "purpose": "tagging",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T16:19:11.385Z",
-            "modified": "2024-11-12T16:19:15.535Z"
+            "created": "2024-11-12T16:19:28.111Z",
+            "modified": "2024-11-12T16:19:30.786Z"
         }
     ],
     "id": "a6e86406-b915-4ca0-8caf-62c770a5229a.json",
