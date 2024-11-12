@@ -11,10 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-12T13:20:09.703Z",
+            "modified": "2024-11-12T13:25:07.346Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Parties de la ferme."
+            "value": "Parties de la ferme (charpente)."
         },
         {
             "created": "2023-07-30T12:14:08.758Z",
@@ -58,25 +58,45 @@ order: 1
             "value": "T"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C675",
+            "created": "2024-11-12T13:23:40.324Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T13:23:40.324Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C675"
+        },
+        {
+            "created": "2024-11-12T13:23:54.009Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-12T13:23:55.439Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C676"
         },
         {
             "type": "TextualBody",
-            "value": "C676",
             "purpose": "tagging",
+            "value": "C677",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T13:23:54.009Z",
-            "modified": "2024-11-12T13:23:55.439Z"
+            "created": "2024-11-12T13:24:08.479Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C678",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-12T13:24:16.913Z"
         }
     ],
     "id": "a8bfc54c-5661-4d23-9b4d-648ca3602b03.json",
