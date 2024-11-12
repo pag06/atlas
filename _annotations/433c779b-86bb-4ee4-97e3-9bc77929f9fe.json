@@ -35,6 +35,28 @@ order: 2
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q2733"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Lame de faux avec manche vertical",
+            "purpose": "commenting",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2024-11-12T10:14:51.192Z",
+            "modified": "2024-11-12T10:14:57.045Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C464",
+            "purpose": "tagging",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2024-11-12T10:14:59.995Z",
+            "modified": "2024-11-12T10:15:05.691Z"
         }
     ],
     "id": "433c779b-86bb-4ee4-97e3-9bc77929f9fe.json",
@@ -48,7 +70,14 @@ order: 2
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1703.9644775390625,2968.57080078125 1857.020263671875,2970.7890625 1845.9293212890625,3773.778076171875 1754.9830322265625,3769.341552734375 1735.019287109375,3250.282470703125 1761.6376953125,3190.39111328125 1701.7462158203125,2968.57080078125\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0249"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0249",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
