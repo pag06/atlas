@@ -55,6 +55,17 @@ order: 4
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q2730"
+        },
+        {
+            "type": "TextualBody",
+            "value": "L17 et L41 : type B1 sorte de b\u00eache \u00e0 rebord tranchant qu'on enfonce, le pied appuyant sur un \u00e9peron.\nL22 : type B2 lame robuste, largement dent\u00e9e, qu'on actionne de haut en bas, avec les deux mains.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "created": "2024-11-12T10:17:09.255Z",
+            "modified": "2024-11-12T10:19:56.040Z"
         }
     ],
     "id": "74ac2932-6009-41b4-b6fa-a6a7b8c4419b.json",
@@ -69,7 +80,14 @@ order: 4
             "type": "FragmentSelector",
             "value": "xywh=1882.2222900390625,3013.111083984375,765.3333740234375,790.22216796875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0249"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC1/canvas/ALMC_1_0249",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
