@@ -8,13 +8,13 @@ order: 4
         {
             "created": "2023-07-28T20:28:45.685Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-29T13:13:11.072Z",
+            "modified": "2024-11-13T15:20:20.577Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Crocs \u00e0 fumier (dents robustes) : cet outil sert \u00e0 tirer le fumier du tombereau. C'est, soit une fourche aux becs recourb\u00e9s \u00e0 angle droit, soit une pioche \u00e0 dents, qui sert \u00e9galement pour arracher les pommes de terre. "
+            "value": "Crocs \u00e0 fumier (dents robustes)\nCet outil sert \u00e0 tirer le fumier du tombereau. C'est, soit une fourche aux becs recourb\u00e9s \u00e0 angle droit, soit une pioche \u00e0 dents, qui sert \u00e9galement pour arracher les pommes de terre. "
         },
         {
             "created": "2023-07-28T20:29:00.612Z",
@@ -49,7 +49,14 @@ order: 4
             "type": "FragmentSelector",
             "value": "xywh=2333.6630859375,3228.7255859375,240.669677734375,490.71630859375"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0022"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0022",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
