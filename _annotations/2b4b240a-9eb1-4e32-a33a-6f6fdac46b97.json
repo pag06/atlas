@@ -8,12 +8,13 @@ order: 1
         {
             "created": "2023-08-15T13:30:51.280Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le tarare est mont\u00e9 sur quatre pieds et il est transportable. Les pi\u00e8ces principales sont (voir dessins, C1016, 1018) :\n- une tr\u00e9mie (C1016) prismatique \u00e0 fond r\u00e9glable, qui re\u00e7oit le grain pr\u00e9alablement pass\u00e9 au crible grossier ;\n- une manivelle (C1016) actionn\u00e9e \u00e0 la main, qui met en mouvement, par le moyen d'un engrenage : 1\u00b0) les grilles du trembleur qui re\u00e7oivent et criblent le grain ; 2\u00b0) les palettes en croix qui, d'un souffle violent, chassent la vannure.  "
+            "value": "Le tarare est mont\u00e9 sur quatre pieds et il est transportable. Les pi\u00e8ces principales sont :\n- une tr\u00e9mie (prismatique \u00e0 fond r\u00e9glable, qui re\u00e7oit le grain pr\u00e9alablement pass\u00e9 au crible grossier ;\n- une manivelle actionn\u00e9e \u00e0 la main, qui met en mouvement, par le moyen d'un engrenage : 1\u00b0) les grilles du trembleur qui re\u00e7oivent et criblent le grain ; 2\u00b0) les palettes en croix qui, d'un souffle violent, chassent la vannure.  ",
+            "modified": "2024-11-13T09:10:44.321Z"
         },
         {
             "created": "2023-08-15T13:30:57.339Z",
@@ -48,15 +49,15 @@ order: 1
             "value": "Q6318"
         },
         {
-            "type": "TextualBody",
-            "value": "Q10263",
-            "purpose": "tagging",
+            "created": "2024-11-13T09:10:02.188Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-13T09:10:02.188Z",
-            "modified": "2024-11-13T09:10:12.097Z"
+            "modified": "2024-11-13T09:10:12.097Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10263"
         }
     ],
     "id": "2b4b240a-9eb1-4e32-a33a-6f6fdac46b97.json",
