@@ -1,0 +1,48 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0219"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Cogn\u00e9e",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T09:56:30.582Z",
+            "modified": "2024-11-13T09:56:31.315Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "L2",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T09:56:34.763Z",
+            "modified": "2024-11-13T09:56:35.063Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0219",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2128.136962890625,3141.476806640625 2062.41552734375,3187.481689453125 2062.41552734375,3821.69189453125 2496.176025390625,3841.408203125 2499.462158203125,3138.190673828125\"></polygon></svg>"
+        }
+    },
+    "id": "3997ee04-014a-4b21-9cf9-2e366ea17959.json",
+    "motivation": "commenting"
+}
