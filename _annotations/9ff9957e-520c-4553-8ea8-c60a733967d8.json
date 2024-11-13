@@ -11,10 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-12T15:02:15.939Z",
+            "modified": "2024-11-13T11:38:10.925Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Tombereau muni d'une hausse, pour transporter du b\u00e9tail : veaux, porcs, moutons."
+            "value": "Tombereau\nCe tombereau est muni d'une hausse, pour transporter du b\u00e9tail : veaux, porcs, moutons."
         },
         {
             "created": "2023-08-08T15:01:33.169Z",
@@ -48,15 +48,15 @@ order: 1
             "value": "C860"
         },
         {
-            "type": "TextualBody",
-            "value": "Q5480",
-            "purpose": "tagging",
+            "created": "2024-11-12T15:02:54.079Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T15:02:54.079Z",
-            "modified": "2024-11-12T15:03:08.462Z"
+            "modified": "2024-11-12T15:03:08.462Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5480"
         }
     ],
     "id": "9ff9957e-520c-4553-8ea8-c60a733967d8.json",
