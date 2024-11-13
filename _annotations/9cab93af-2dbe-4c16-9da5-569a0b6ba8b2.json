@@ -17,45 +17,56 @@ order: 1
             "value": "Outillage pour le bois (de gauche \u00e0 droite) : chevalet, cogn\u00e9e, masse"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L29",
+            "created": "2024-11-13T10:45:07.340Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-13T10:45:07.340Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L29"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2228",
+            "created": "2024-11-13T10:45:23.149Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-13T10:45:23.149Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2228"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C1035",
+            "created": "2024-11-13T10:45:31.621Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-13T10:45:31.621Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1035"
         },
         {
-            "type": "TextualBody",
-            "value": "Q2444",
-            "purpose": "tagging",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
             "created": "2024-11-13T10:45:33.780Z",
-            "modified": "2024-11-13T10:45:40.325Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-13T10:45:40.325Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2444"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C1039",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T10:45:55.049Z",
+            "modified": "2024-11-13T10:45:59.642Z"
         }
     ],
     "id": "9cab93af-2dbe-4c16-9da5-569a0b6ba8b2.json",
