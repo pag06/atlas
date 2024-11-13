@@ -8,13 +8,13 @@ order: 8
         {
             "created": "2023-08-23T06:55:04.228Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-23T06:57:53.432Z",
+            "modified": "2024-11-13T17:11:23.025Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Grange et \u00e9table."
+            "value": "Grange et \u00e9table (Saint-Paul-des-Landes, Cantal)"
         },
         {
             "created": "2023-08-23T06:55:11.121Z",
@@ -27,14 +27,24 @@ order: 8
             "value": "L40"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4195",
+            "created": "2023-08-23T07:22:56.237Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T07:22:56.237Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4195"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5271",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T17:11:32.872Z"
         }
     ],
     "id": "e3208c0c-eb0d-4f10-922e-dcc278c1d29c.json",
@@ -49,7 +59,14 @@ order: 8
             "type": "FragmentSelector",
             "value": "xywh=1362.1199951171875,1948.77294921875,641.3050537109375,850.14013671875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0327"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0327",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
