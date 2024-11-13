@@ -11,10 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-12T14:14:24.576Z",
+            "modified": "2024-11-13T11:47:34.972Z",
             "purpose": "questioning",
             "type": "TextualBody",
-            "value": "[la k\u02c8asa] : sorte de grande cuiller \u00e0 long manche, en cuivre ou en fer battu, ayant souvent la forme d'un cylindre \u00e9vas\u00e9 au sommet, qui sert \u00e0 puiser l'eau dans le seau [l\u0259 far\u02c8a]."
+            "value": "Casse pour puiser l'eau [la k\u02c8asa]\nLa casse est une sorte de grande cuiller \u00e0 long manche, en cuivre ou en fer battu, ayant souvent la forme d'un cylindre \u00e9vas\u00e9 au sommet, qui sert \u00e0 puiser l'eau dans le seau [l\u0259 far\u02c8a]."
         },
         {
             "created": "2023-08-05T12:53:46.799Z",
@@ -47,14 +47,14 @@ order: 1
             "value": "Q8659"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9271",
+            "created": "2024-11-12T14:14:54.562Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T14:14:54.562Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9271"
         }
     ],
     "id": "c8a5ea2c-2169-42ad-96b2-c68997729cf5.json",
