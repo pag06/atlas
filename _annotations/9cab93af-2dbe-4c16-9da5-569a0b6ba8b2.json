@@ -1,0 +1,49 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0221"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Outillage pour le bois (de gauche \u00e0 droite) : chevalet, cogn\u00e9e, masse",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T10:42:34.363Z",
+            "modified": "2024-11-13T10:43:27.347Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "L29 Q2228 C1035 Q2444 C1039 Q6401 C1041",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T10:43:46.187Z",
+            "modified": "2024-11-13T10:44:29.704Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0221",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1636.1571044921875,2982.873046875,875.3072509765625,862.8916015625"
+        }
+    },
+    "id": "9cab93af-2dbe-4c16-9da5-569a0b6ba8b2.json",
+    "motivation": "commenting"
+}
