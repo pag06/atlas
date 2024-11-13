@@ -3,53 +3,60 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0205"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Crible fin \u00e0 peau de porc (diam.60cm.) : il est d'un diam\u00e8tre moindre et il a pour fond, soit une peau perfor\u00e9e de petits trous r\u00e9guliers, soit une grille ou un treillis fins en fil de fer ; il sert \u00e0 trier le grain.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-15T13:13:19.963Z",
-            "modified": "2023-08-15T13:18:33.396Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L12",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-15T13:15:40.621Z"
+            "modified": "2023-08-15T13:18:33.396Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Crible fin \u00e0 peau de porc (diam.60cm.) : il est d'un diam\u00e8tre moindre et il a pour fond, soit une peau perfor\u00e9e de petits trous r\u00e9guliers, soit une grille ou un treillis fins en fil de fer ; il sert \u00e0 trier le grain."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2947",
+            "created": "2023-08-15T13:15:40.621Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-15T13:19:48.576Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L12"
+        },
+        {
+            "created": "2023-08-15T13:19:48.576Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2947"
         }
     ],
+    "id": "223572dc-72a9-4cd4-9a1e-72fb426f4dab.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0205",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1781.6180419921875,3004.936767578125,746.0379638671875,699.548828125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1781.6180419921875,3004.936767578125,746.0379638671875,699.548828125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0205",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "223572dc-72a9-4cd4-9a1e-72fb426f4dab.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
