@@ -11,10 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-12T12:00:53.652Z",
+            "modified": "2024-11-13T15:04:21.181Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Paysan r\u00e9parant un toit de chaume. L15 Ouest (ALLy)"
+            "value": "Paysan r\u00e9parant un toit de chaume. \nL15 Ouest (Ally)"
         },
         {
             "created": "2023-07-28T20:56:11.246Z",
@@ -58,6 +58,17 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q2836"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Ally sont deux villages l'un dans le Cantal et l'autre dans la Haute-Loire. Le premier est au sud du point 15 (Mauriac) et le deuxi\u00e8me = point 19N de l'enqu\u00eate en Haute-Loire. Donc rien ne correspond \u00e0 la mention \"15 W\" qui figure en commentaire de l'illustration",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T15:04:34.246Z",
+            "modified": "2024-11-13T15:07:11.806Z"
         }
     ],
     "id": "8bde3987-3c2b-423a-99c5-59741eeaf8ff.json",
