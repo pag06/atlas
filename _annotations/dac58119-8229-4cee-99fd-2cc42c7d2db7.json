@@ -3,53 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0328"
 order: 11
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L23",
+            "created": "2023-08-23T08:01:43.369Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T08:01:43.369Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L23"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4195",
+            "created": "2023-08-23T08:01:46.791Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T08:01:46.791Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4195"
         },
         {
-            "type": "TextualBody",
-            "value": "Toit de chaume.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-23T08:01:48.922Z",
-            "modified": "2023-08-23T08:01:51.687Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-13T17:39:24.616Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Toit de chaume (Le Chabanis, Haute-Loire).\nMaison \u00e9l\u00e9mentaire : on entre au logis par l'\u00e9table"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5431",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T17:39:39.687Z"
         }
     ],
+    "id": "dac58119-8229-4cee-99fd-2cc42c7d2db7.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0328",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1674.5482177734375,3286.462158203125,1065.5531005859375,567.8564453125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1674.5482177734375,3286.462158203125,1065.5531005859375,567.8564453125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0328",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "dac58119-8229-4cee-99fd-2cc42c7d2db7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
