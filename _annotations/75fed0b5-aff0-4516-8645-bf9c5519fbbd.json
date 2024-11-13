@@ -3,52 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0213"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Chevalet : le chevalet ordinaire est tr\u00e8s souvent form\u00e9 de deux assemblages en forme de X, espac\u00e9s d'un m\u00e8tre et reli\u00e9s par un barreau. Parfois, c'est une bille de bois ou l'enfourchure d'un arbre, mont\u00e9es sur pieds et garnies de chevilles verticales. ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-17T13:11:49.685Z",
-            "modified": "2023-08-17T13:11:59.919Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L4",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-17T13:13:07.627Z"
+            "modified": "2023-08-17T13:11:59.919Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Chevalet : le chevalet ordinaire est tr\u00e8s souvent form\u00e9 de deux assemblages en forme de X, espac\u00e9s d'un m\u00e8tre et reli\u00e9s par un barreau. Parfois, c'est une bille de bois ou l'enfourchure d'un arbre, mont\u00e9es sur pieds et garnies de chevilles verticales. "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2228",
+            "created": "2023-08-17T13:13:07.627Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-17T13:13:13.148Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L4"
+        },
+        {
+            "created": "2023-08-17T13:13:13.148Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2228"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C1035",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T09:30:24.605Z",
+            "modified": "2024-11-13T09:30:26.647Z"
         }
     ],
+    "id": "75fed0b5-aff0-4516-8645-bf9c5519fbbd.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0213",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1915.5,3306.3 2601.1,3309.7 2599.3,3760.4 2344,3762.1 2340.6,3601 1920.7,3604.5\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0213",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "75fed0b5-aff0-4516-8645-bf9c5519fbbd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
