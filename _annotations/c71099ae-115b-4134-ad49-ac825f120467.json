@@ -8,13 +8,13 @@ order: 6
         {
             "created": "2023-08-23T06:52:26.060Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-23T06:52:37.060Z",
+            "modified": "2024-11-13T17:01:42.755Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "la [...] en pierres basaltiques."
+            "value": "la [tsibw\u02c8\u0254ta] en pierres basaltiques."
         },
         {
             "created": "2023-08-23T06:52:40.744Z",
@@ -27,14 +27,14 @@ order: 6
             "value": "L21"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C???",
+            "created": "2023-08-23T07:19:18.107Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T07:19:18.107Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C???"
         }
     ],
     "id": "c71099ae-115b-4134-ad49-ac825f120467.json",
@@ -49,7 +49,14 @@ order: 6
             "type": "FragmentSelector",
             "value": "xywh=1964.95263671875,1053.301025390625,684.05859375,596.906982421875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0327"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0327",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
