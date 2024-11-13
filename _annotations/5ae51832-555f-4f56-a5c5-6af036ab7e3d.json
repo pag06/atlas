@@ -37,36 +37,35 @@ order: 1
             "value": "Q3088"
         },
         {
-            "created": "2024-11-13T16:06:23.023Z",
+            "created": "2024-11-13T16:06:42.633Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-13T16:06:25.607Z",
             "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q2168"
+            "value": "Q2143"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2143",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
-            "created": "2024-11-13T16:06:42.633Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Q12201",
-            "purpose": "tagging",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
             "created": "2024-11-13T16:06:45.201Z",
-            "modified": "2024-11-13T16:06:49.112Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-13T16:06:49.112Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q12201"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2618",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T16:08:41.106Z"
         }
     ],
     "id": "5ae51832-555f-4f56-a5c5-6af036ab7e3d.json",
