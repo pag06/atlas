@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-23T07:28:34.523Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-23T07:28:42.799Z",
+            "modified": "2024-11-13T17:27:49.315Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Maison-bloc \u00e0 terre."
+            "value": "Maison-bloc \u00e0 terre (Os, Haute-Loire)"
         },
         {
             "created": "2023-08-23T07:28:46.487Z",
@@ -49,7 +49,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=419.8942565917969,405.7110900878906,890.1532287597656,406.7080383300781"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0328"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0328",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
