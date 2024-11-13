@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-08-23T07:32:27.854Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-23T07:32:32.873Z",
+            "modified": "2024-11-13T17:30:02.756Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Maison-bloc \u00e0 terre."
+            "value": "Maison-bloc \u00e0 terre (Cizi\u00e8re, Haute-Loire)"
         },
         {
             "created": "2023-08-23T07:32:36.370Z",
@@ -27,19 +27,24 @@ order: 2
             "value": "L20"
         },
         {
-            "created": "2023-08-23T07:32:48.925Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q6143"
+            "purpose": "tagging",
+            "value": "Q5431",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T17:30:14.187Z"
         }
     ],
     "id": "9e01f7ff-5f9d-4971-a7d7-180334bcb76a.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1343.934326171875,428.2367858886719,978.966552734375,376.4560852050781"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -47,11 +52,6 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0328",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1343.934326171875,428.2367858886719,978.966552734375,376.4560852050781"
         }
     },
     "type": "Annotation"
