@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0329"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Maison en hauteur.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-23T08:13:01.092Z",
-            "modified": "2023-08-23T08:13:07.123Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-13T17:46:55.390Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Maison en hauteur (Thueyts, Ard\u00e8che)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L31",
+            "created": "2023-08-23T08:13:10.199Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T08:13:10.199Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L31"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C623???",
+            "value": "Q5431",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-23T08:13:14.918Z"
+            "created": "2024-11-13T17:47:11.311Z"
         },
         {
             "type": "TextualBody",
-            "value": "Q950???",
-            "purpose": "tagging",
+            "value": "C'est bien Thueyts le nom de la commune",
+            "purpose": "describing",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-23T08:13:16.206Z",
-            "modified": "2023-08-23T08:13:18.127Z"
+            "created": "2024-11-13T17:47:15.162Z",
+            "modified": "2024-11-13T17:47:39.194Z"
         }
     ],
+    "id": "32941a77-5e89-46ae-9d11-0ee2b509ccfe.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0329",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=413.93798828125,1835.26708984375,944.9658203125,776.1435546875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=413.93798828125,1835.26708984375,944.9658203125,776.1435546875"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0329",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "32941a77-5e89-46ae-9d11-0ee2b509ccfe.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
