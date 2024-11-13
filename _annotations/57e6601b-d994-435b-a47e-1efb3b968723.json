@@ -27,24 +27,15 @@ order: 1
             "value": "Maison \u00e0 logis s\u00e9par\u00e9."
         },
         {
-            "created": "2023-08-23T08:06:43.460Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "C623???"
-        },
-        {
-            "created": "2023-08-23T08:06:48.786Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
+            "value": "Q5431",
             "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q950???"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T17:40:32.489Z",
+            "modified": "2024-11-13T17:40:35.790Z"
         }
     ],
     "id": "57e6601b-d994-435b-a47e-1efb3b968723.json",
@@ -59,7 +50,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=459.6573181152344,313.87347412109375,1126.9427795410156,542.6427001953125"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0329"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0329",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
