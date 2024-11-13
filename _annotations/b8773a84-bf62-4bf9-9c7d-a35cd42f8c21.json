@@ -16,16 +16,6 @@ order: 8
             "value": "L25"
         },
         {
-            "created": "2023-08-23T07:57:11.689Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q6143"
-        },
-        {
             "created": "2023-08-23T07:57:15.427Z",
             "creator": {
                 "id": "ls7320",
@@ -35,21 +25,35 @@ order: 8
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "Maison-bloc \u00e0 terre."
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q5431",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T17:36:18.396Z",
+            "modified": "2024-11-13T17:36:21.464Z"
         }
     ],
     "id": "b8773a84-bf62-4bf9-9c7d-a35cd42f8c21.json",
     "motivation": "commenting",
     "target": {
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0328",
+            "type": "Canvas"
         },
         "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
             "type": "FragmentSelector",
-            "value": "xywh=391.8558654785156,2623.46630859375,988.8156433105469,587.589111328125"
-        },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0328"
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=417.090087890625,2623.46630859375,963.5814208984375,585.21728515625"
+        }
     },
     "type": "Annotation"
 }
