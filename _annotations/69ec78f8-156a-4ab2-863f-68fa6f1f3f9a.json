@@ -3,63 +3,66 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0264"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le moulin \u00e0 sel \u00e9tait en granit et pesait de 15 \u00e0 20 kg.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-18T14:36:16.429Z",
-            "modified": "2023-08-18T14:37:24.119Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-13T15:37:42.102Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Moulin \u00e0 sel\nLe moulin \u00e0 sel \u00e9tait en granit et pesait de 15 \u00e0 20 kg."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L21",
+            "created": "2023-08-18T14:36:27.730Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-18T14:36:27.730Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L21"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6800",
+            "created": "2023-08-18T14:36:36.340Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-18T14:36:36.340Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6800"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "T",
+            "created": "2023-08-18T14:36:39.601Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-18T14:36:39.601Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "T"
         }
     ],
+    "id": "69ec78f8-156a-4ab2-863f-68fa6f1f3f9a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0264",
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0264",
+            "type": "Canvas"
+        },
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1203.0872802734375,3340.65185546875,1552.9117431640625,630.2177734375"
-        },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+            "value": "xywh=1210.919189453125,3343.70458984375,1533.339599609375,627.1650390625"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "69ec78f8-156a-4ab2-863f-68fa6f1f3f9a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
