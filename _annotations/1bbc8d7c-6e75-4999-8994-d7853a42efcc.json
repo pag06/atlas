@@ -37,14 +37,25 @@ order: 3
             "value": "Q2392"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q11014",
+            "created": "2024-11-13T15:22:16.478Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-13T15:22:16.478Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q11014"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C640",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T15:22:44.362Z",
+            "modified": "2024-11-13T15:22:47.004Z"
         }
     ],
     "id": "1bbc8d7c-6e75-4999-8994-d7853a42efcc.json",
