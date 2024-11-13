@@ -11,10 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-12T11:44:16.953Z",
+            "modified": "2024-11-13T15:23:15.902Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Clochette [i\u02b2\u0283i\u0303l\u02c8u]"
+            "value": "Clochette [i\u02b2\u0283i\u0303l\u02c8u] et collier"
         },
         {
             "created": "2023-07-28T19:57:21.677Z",
@@ -35,6 +35,27 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q2392"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q11014",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T15:23:25.349Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C640",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T15:23:28.346Z",
+            "modified": "2024-11-13T15:23:31.263Z"
         }
     ],
     "id": "0eb9dcc8-0480-4a70-9e3c-b4a1fd964f25.json",
