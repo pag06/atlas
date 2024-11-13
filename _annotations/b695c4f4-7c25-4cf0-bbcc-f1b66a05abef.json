@@ -11,10 +11,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-12T11:47:09.726Z",
+            "modified": "2024-11-13T15:24:02.592Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Clochette [eskil\u02d0\u02c8u]"
+            "value": "Clochette [eskil\u02d0\u02c8u] et collier"
         },
         {
             "created": "2023-07-28T19:59:34.526Z",
@@ -35,6 +35,27 @@ order: 2
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q2392"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q11014",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T15:24:11.311Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C640",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T15:24:14.406Z",
+            "modified": "2024-11-13T15:24:16.239Z"
         }
     ],
     "id": "b695c4f4-7c25-4cf0-bbcc-f1b66a05abef.json",
