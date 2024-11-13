@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-08-06T12:40:17.551Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-06T12:43:46.486Z",
+            "modified": "2024-11-13T11:45:24.001Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le pot \u00e0 eau est un pot sp\u00e9cial, pos\u00e9 sur la table pendant les repas et o\u00f9 l'on puise de l'eau. Parfois, une bouteille, une carafe, la cruche ou un pot quelconque tiennent lieu. "
+            "value": "Pot \u00e0 eau\nLe pot \u00e0 eau est un pot sp\u00e9cial, pos\u00e9 sur la table pendant les repas et o\u00f9 l'on puise de l'eau. Parfois, une bouteille, une carafe, la cruche ou un pot quelconque tiennent lieu. "
         },
         {
             "created": "2023-08-06T12:40:23.581Z",
@@ -38,15 +38,15 @@ order: 2
             "value": "C794"
         },
         {
-            "type": "TextualBody",
-            "value": "Q8115",
-            "purpose": "tagging",
+            "created": "2024-11-12T14:21:04.193Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T14:21:04.193Z",
-            "modified": "2024-11-12T14:21:11.186Z"
+            "modified": "2024-11-12T14:21:11.186Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8115"
         }
     ],
     "id": "c0bbaca5-f3ec-422f-a796-bba20cd7577d.json",
