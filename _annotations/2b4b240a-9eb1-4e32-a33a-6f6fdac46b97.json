@@ -6,48 +6,66 @@ order: 1
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le tarare est mont\u00e9 sur quatre pieds et il est transportable. Les pi\u00e8ces principales sont (voir dessins, C1016, 1018) :\n- une tr\u00e9mie (C1016) prismatique \u00e0 fond r\u00e9glable, qui re\u00e7oit le grain pr\u00e9alablement pass\u00e9 au crible grossier ;\n- une manivelle (C1016) actionn\u00e9e \u00e0 la main, qui met en mouvement, par le moyen d'un engrenage : 1\u00b0) les grilles du trembleur qui re\u00e7oivent et criblent le grain ; 2\u00b0) les palettes en croix qui, d'un souffle violent, chassent la vannure.  ",
+            "created": "2023-08-15T13:30:51.280Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "created": "2023-08-15T13:30:51.280Z"
+            "type": "TextualBody",
+            "value": "Le tarare est mont\u00e9 sur quatre pieds et il est transportable. Les pi\u00e8ces principales sont (voir dessins, C1016, 1018) :\n- une tr\u00e9mie (C1016) prismatique \u00e0 fond r\u00e9glable, qui re\u00e7oit le grain pr\u00e9alablement pass\u00e9 au crible grossier ;\n- une manivelle (C1016) actionn\u00e9e \u00e0 la main, qui met en mouvement, par le moyen d'un engrenage : 1\u00b0) les grilles du trembleur qui re\u00e7oivent et criblent le grain ; 2\u00b0) les palettes en croix qui, d'un souffle violent, chassent la vannure.  "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L24",
+            "created": "2023-08-15T13:30:57.339Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-15T13:30:57.339Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
         },
         {
-            "type": "TextualBody",
-            "value": "Q9778",
-            "purpose": "tagging",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-15T13:31:01.832Z",
-            "modified": "2023-08-15T13:31:03.573Z"
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "modified": "2023-08-15T13:31:03.573Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9778"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q6318",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T09:09:46.878Z",
+            "modified": "2024-11-13T09:09:50.766Z"
         }
     ],
     "id": "2b4b240a-9eb1-4e32-a33a-6f6fdac46b97.json",
     "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0207",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1751.4,2955 2511.1,2952.5 2518.8,3802.1 2228.8,3799.5 2141.5,3702 1764.2,3704.5 1759.1,3442.7 1720.6,3358 1751.4,3281\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0207",
+            "type": "Canvas"
         }
     },
     "type": "Annotation"
