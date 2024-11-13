@@ -6,17 +6,6 @@ order: 2
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "created": "2023-08-14T16:07:39.276Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "modified": "2023-08-14T16:07:54.973Z",
-            "purpose": "questioning",
-            "type": "TextualBody",
-            "value": "Quelle l\u00e9gende ?"
-        },
-        {
             "created": "2023-08-14T16:07:59.634Z",
             "creator": {
                 "id": "ls7320",
@@ -27,35 +16,35 @@ order: 2
             "value": "L30"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C989",
+            "created": "2023-08-16T09:38:47.249Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T09:38:47.249Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C989"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8598",
+            "created": "2023-08-16T09:39:02.761Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T09:39:02.761Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8598"
         },
         {
-            "type": "TextualBody",
-            "value": "Faux \u00e0 moissonner et r\u00e2teau de la faux",
-            "purpose": "commenting",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
             "created": "2023-08-16T09:39:06.345Z",
-            "modified": "2023-08-16T09:39:21.480Z"
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "modified": "2023-08-16T09:39:21.480Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Faux \u00e0 moissonner et r\u00e2teau de la faux"
         }
     ],
     "id": "5b749cd0-b4b6-4990-8e59-fbfb91408eab.json",
@@ -69,7 +58,14 @@ order: 2
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1903.9,3261.8 1916.1,3954.8 1973.4,3963.4 2023.8,3914.8 2030.7,3871.4 1987.3,3838.4 1985.6,3676.9 2068.9,3652.6 2067.2,3597 1997.7,3571 1996,3456.4 2218.3,3399 2279,3136.8 1930,3095.1 1726.8,3178.5 1660.8,3341.7 1709.4,3343.5 1794.5,3268.8\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0190"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0190",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
