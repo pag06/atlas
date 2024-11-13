@@ -6,17 +6,6 @@ order: 3
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "created": "2023-08-14T16:11:13.651Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "modified": "2023-08-14T16:12:32.558Z",
-            "purpose": "questioning",
-            "type": "TextualBody",
-            "value": "Quelle l\u00e9gende ?"
-        },
-        {
             "created": "2023-08-14T16:11:21.841Z",
             "creator": {
                 "id": "ls7320",
@@ -27,35 +16,35 @@ order: 3
             "value": "L30"
         },
         {
-            "type": "TextualBody",
-            "value": "R\u00e2teau",
-            "purpose": "commenting",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
             "created": "2023-08-18T09:46:47.035Z",
-            "modified": "2023-08-18T09:46:52.859Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C952",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-18T09:47:02.255Z"
+            "modified": "2023-08-18T09:46:52.859Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "R\u00e2teau"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8597",
+            "created": "2023-08-18T09:47:02.255Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-18T09:47:10.981Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C952"
+        },
+        {
+            "created": "2023-08-18T09:47:10.981Z",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8597"
         }
     ],
     "id": "c744501a-d494-4f63-b7dc-ec44d604ddef.json",
@@ -69,7 +58,14 @@ order: 3
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1990.186767578125,3016.778076171875 2101.86962890625,3093.30126953125 2199.074951171875,3961.944580078125 2250.77978515625,3961.944580078125 2174.256591796875,3142.938232421875 2215.620361328125,3093.30126953125 2163.91552734375,3037.4599609375 2037.75537109375,2969.20947265625 2002.595947265625,2973.345947265625\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0190"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0190",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
