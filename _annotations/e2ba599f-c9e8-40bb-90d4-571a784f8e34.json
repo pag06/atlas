@@ -6,35 +6,46 @@ order: 1
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L6",
+            "created": "2023-08-17T13:07:51.452Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-17T13:07:51.452Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L6"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2228",
+            "created": "2023-08-17T13:07:56.791Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-17T13:07:56.791Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2228"
         },
         {
-            "type": "TextualBody",
-            "value": "Chevalets : le chevalet ordinaire est tr\u00e8s souvent form\u00e9 de deux assemblages en forme de X, espac\u00e9s d'un m\u00e8tre et reli\u00e9s par un barreau. Parfois, c'est une bille de bois ou l'enfourchure d'un arbre, mont\u00e9es sur pieds et garnies de chevilles verticales. ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-17T13:08:17.853Z",
-            "modified": "2023-08-17T13:10:10.576Z"
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "modified": "2023-08-17T13:10:10.576Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Chevalets : le chevalet ordinaire est tr\u00e8s souvent form\u00e9 de deux assemblages en forme de X, espac\u00e9s d'un m\u00e8tre et reli\u00e9s par un barreau. Parfois, c'est une bille de bois ou l'enfourchure d'un arbre, mont\u00e9es sur pieds et garnies de chevilles verticales. "
+        },
+        {
+            "type": "TextualBody",
+            "value": "C1035",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T09:29:56.205Z",
+            "modified": "2024-11-13T09:29:58.430Z"
         }
     ],
     "id": "e2ba599f-c9e8-40bb-90d4-571a784f8e34.json",
@@ -49,7 +60,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=1770.5601806640625,3269.646240234375,938.8206787109375,521.567138671875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0212"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0212",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
