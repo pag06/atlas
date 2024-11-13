@@ -4,49 +4,50 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Scie",
+            "created": "2024-11-13T09:54:29.303Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
-            "created": "2024-11-13T09:54:29.303Z"
+            "type": "TextualBody",
+            "value": "Scie"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L21",
+            "created": "2024-11-13T09:54:40.452Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-13T09:54:40.452Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L21"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1243",
+            "created": "2024-11-13T09:54:46.116Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-13T09:54:46.116Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1243"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C1031",
+            "created": "2024-11-13T09:54:50.579Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-13T09:54:50.579Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1031"
         }
     ],
+    "id": "40c8690f-4a0a-47f8-bfa1-64f2134867fc.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -58,9 +59,8 @@ order: 1
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1543.034912109375,3160.645263671875 2010.38623046875,3167.94775390625 2003.0838623046875,3281.13427734375 1900.8507080078125,3343.204345703125 1900.8507080078125,3481.94921875 1992.1302490234375,3529.414794921875 2017.6885986328125,3799.60205078125 1418.894775390625,3799.60205078125 1418.894775390625,3514.81005859375 1521.1278076171875,3514.81005859375 1524.779052734375,3200.808349609375\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1543,3160.6 2010.4,3167.9 2003.1,3281.1 1900.9,3343.2 1900.9,3481.9 2000,3527.6 1996.7,3800.4 1418.9,3799.6 1418.9,3514.8 1521.1,3514.8 1524.8,3200.8\"></polygon></svg>"
         }
     },
-    "id": "40c8690f-4a0a-47f8-bfa1-64f2134867fc.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
