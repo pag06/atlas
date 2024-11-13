@@ -8,13 +8,13 @@ order: 8
         {
             "created": "2023-08-23T22:21:20.138Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-23T22:21:30.188Z",
+            "modified": "2024-11-13T17:55:58.136Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "L'\u00e9vier et les ustensiles."
+            "value": "L'\u00e9vier et les ustensiles (La Vaissi\u00e8re, Loz\u00e8re)"
         },
         {
             "created": "2023-08-23T22:21:41.879Z",
@@ -59,7 +59,14 @@ order: 8
             "type": "FragmentSelector",
             "value": "xywh=1411.58203125,3088.366943359375,1001.970458984375,752.026123046875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0330"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0330",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
