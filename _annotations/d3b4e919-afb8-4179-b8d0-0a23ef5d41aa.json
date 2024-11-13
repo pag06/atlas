@@ -27,39 +27,35 @@ order: 9
             "value": "L8"
         },
         {
-            "created": "2023-08-23T08:16:37.424Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "C623???"
-        },
-        {
-            "created": "2023-08-23T08:16:38.119Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "modified": "2023-08-23T08:16:41.248Z",
             "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q950???"
+            "value": "Q5431",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T17:49:53.965Z"
         }
     ],
     "id": "d3b4e919-afb8-4179-b8d0-0a23ef5d41aa.json",
     "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0329",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1839.060302734375,2717.7470703125,758.453125,958.7490234375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1839.060302734375,2717.7470703125,758.453125,958.7490234375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0329",
+            "type": "Canvas"
         }
     },
     "type": "Annotation"
