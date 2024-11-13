@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-07-30T12:20:15.240Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-30T12:26:58.476Z",
+            "modified": "2024-11-13T14:48:04.610Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Maison en ruine ; remarquer la sabli\u00e8re m\u00e9diane."
+            "value": "Sabli\u00e8re m\u00e9diane dans une maison en ruine"
         },
         {
             "created": "2023-07-30T12:22:18.124Z",
@@ -37,34 +37,34 @@ order: 1
             "value": "Q9089"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6406",
+            "created": "2023-07-31T08:24:24.511Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-07-31T08:24:24.511Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6406"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C674",
+            "created": "2023-07-31T08:24:40.783Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-07-31T08:24:40.783Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C674"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C649",
+            "created": "2023-07-31T08:24:48.222Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-07-31T08:24:48.222Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C649"
         }
     ],
     "id": "31619b84-45c2-4a7e-b26c-f2756b640dc2.json",
@@ -78,7 +78,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1344.858154296875,3012.3232421875 2469.885986328125,3046.6513671875 2454.282470703125,3758.180908203125 1323.0130615234375,3698.88671875 1321.45263671875,3698.88671875\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0036"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0036",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
