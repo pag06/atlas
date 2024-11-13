@@ -8,12 +8,13 @@ order: 3
         {
             "created": "2023-07-30T14:09:13.932Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Chasse-roue B : les chasse-roues, au bas des pieds-droits des portes charreti\u00e8res, sont : \n- soit des bornes distinctes de la ma\u00e7onnerie ;\n- soit des saillies de la panneresse de base ;\n- soit, plus rarement, des arcs m\u00e9talliques."
+            "value": "Chasse-roue\nType B : ce chasse-roues, au bas des pieds-droits des portes charreti\u00e8res, est une saillie de la panneresse de base.",
+            "modified": "2024-11-13T13:26:07.171Z"
         },
         {
             "created": "2023-07-30T14:09:29.096Z",
@@ -39,15 +40,22 @@ order: 3
     "id": "6ba71075-c78f-486a-88a8-f5e9ebe40648.json",
     "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0044",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1899.2723388671875,3112.431640625,421.8182373046875,605.454345703125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1899.2723388671875,3112.431640625,421.8182373046875,605.454345703125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0044",
+            "type": "Canvas"
         }
     },
     "type": "Annotation"
