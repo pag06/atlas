@@ -4,9 +4,26 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
-    "body": [],
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Ustensiles pour la lessive (chaudron et planche, corbeille, chaudi\u00e8re)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T16:01:47.933Z",
+            "modified": "2024-11-13T16:02:23.717Z"
+        }
+    ],
+    "id": "5ae51832-555f-4f56-a5c5-6af036ab7e3d.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1584.9422607421875,3297.1455078125 2596.822265625,3306.457275390625 2578.19873046875,3829.468994140625 2329.884521484375,3787.56591796875 2241.422607421875,3741.007080078125 1971.381103515625,3730.143310546875 1605.1177978515625,3727.039306640625 1533.7275390625,3515.972412109375\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -14,12 +31,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0291",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1584.9422607421875,3297.1455078125 2596.822265625,3306.457275390625 2578.19873046875,3829.468994140625 2329.884521484375,3787.56591796875 2241.422607421875,3741.007080078125 1971.381103515625,3730.143310546875 1605.1177978515625,3727.039306640625 1533.7275390625,3515.972412109375\"></polygon></svg>"
         }
     },
-    "id": "5ae51832-555f-4f56-a5c5-6af036ab7e3d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
