@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-15T12:43:46.857Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-15T12:50:46.258Z",
+            "modified": "2024-11-13T10:07:00.338Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "R\u00e2ble \u00e0 grain : ce r\u00e2ble est un grand racloir en bois pour ramasser le grain sur l'aire apr\u00e8s le battage."
+            "value": "R\u00e2ble \u00e0 grain :\nce r\u00e2ble est un grand racloir en bois pour ramasser le grain sur l'aire apr\u00e8s le battage."
         },
         {
             "created": "2023-08-15T12:43:59.255Z",
@@ -40,6 +40,10 @@ order: 1
     "id": "623adecb-1e72-4de1-b07b-649c322781b9.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2121.5,3298.7 2165.6,3221.1 2399.7,3202.3 2523.4,3280.5 2528.8,3327.8 2337.9,3344.7 2185,3969.5 2126.9,3968.6 2254.4,3341.3 2156.9,3337.8\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -47,10 +51,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0204",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2121.5,3298.7 2165.6,3221.1 2399.7,3202.3 2523.4,3280.5 2528.8,3327.8 2337.9,3344.7 2185,3969.5 2126.9,3968.6 2254.4,3341.3 2156.9,3337.8\"></polygon></svg>"
         }
     },
     "type": "Annotation"
