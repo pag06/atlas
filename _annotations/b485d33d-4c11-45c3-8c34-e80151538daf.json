@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-07-28T20:38:12.828Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-28T20:38:17.298Z",
+            "modified": "2024-11-13T15:18:18.925Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Pierres de blocage"
+            "value": "Pierres de blocage et pierre de traverse\nL31 [lu tr\u0254fw\u02c8\u0254ri] \u02d0 pierre qui traverse le \u0261ros de mur, d\u02c8un parement \u00e0 l'autre.\n"
         },
         {
             "created": "2023-07-28T20:38:22.187Z",
@@ -46,6 +46,16 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "T"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L31",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T15:14:38.380Z"
         }
     ],
     "id": "b485d33d-4c11-45c3-8c34-e80151538daf.json",
