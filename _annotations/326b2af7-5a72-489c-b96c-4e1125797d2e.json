@@ -3,52 +3,55 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0290"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "L\u00e9gende ???",
-            "purpose": "questioning",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-18T15:46:54.676Z",
-            "modified": "2023-08-18T15:47:04.183Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L38",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-18T15:47:11.058Z"
+            "modified": "2023-08-18T15:47:04.183Z",
+            "purpose": "questioning",
+            "type": "TextualBody",
+            "value": "L\u00e9gende ???"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C???",
+            "created": "2023-08-18T15:47:11.058Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-18T15:47:14.006Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L38"
+        },
+        {
+            "created": "2023-08-18T15:47:14.006Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C???"
         }
     ],
+    "id": "326b2af7-5a72-489c-b96c-4e1125797d2e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0290",
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0290",
+            "type": "Canvas"
+        },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2089.3,3187.6 2225.1,3173.6 2284.3,3260.7 2778.7,3250.2 2787.4,3953.6 1829.9,4007.5 1824.7,3734.2 1958.7,3497.5 2146.7,3347.7 2101.5,3260.7\"></polygon></svg>"
-        },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+            "value": "<svg><polygon points=\"2089.3,3187.6 2225.1,3173.6 2284.3,3260.7 2778.7,3250.2 2787.4,3953.6 1829.9,4007.5 1824.7,3734.2 1696.7,3637 2008.6,3450.8 1945,3256.8\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "326b2af7-5a72-489c-b96c-4e1125797d2e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
