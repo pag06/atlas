@@ -8,12 +8,13 @@ order: 1
         {
             "created": "2023-08-14T15:16:03.100Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Semoir : c'est une caisse de coupe rectangulaire d'environ 45-50 cm. x 25 cm. et de 20 \u00e0 25 cm. de profondeur. Elle est maintenue \u00e0 mi-corps, du c\u00f4t\u00e9 externe par une main du semeur, au moyen d'un trou ou  d'une poign\u00e9e, du c\u00f4t\u00e9 interne, souvent incurv\u00e9 pour mieux coller au tronc, par une courroie suspendue \u00e0 l'\u00e9paule."
+            "value": "Semoir\nLe semoir est une caisse de coupe rectangulaire d'environ 45-50 cm. x 25 cm. et de 20 \u00e0 25 cm. de profondeur. Elle est maintenue \u00e0 mi-corps, du c\u00f4t\u00e9 externe par une main du semeur, au moyen d'un trou ou  d'une poign\u00e9e, du c\u00f4t\u00e9 interne, souvent incurv\u00e9 pour mieux coller au tronc, par une courroie suspendue \u00e0 l'\u00e9paule.",
+            "modified": "2024-11-13T11:05:10.317Z"
         },
         {
             "created": "2023-08-14T15:16:24.314Z",
@@ -37,14 +38,14 @@ order: 1
             "value": "Q9330"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C972",
+            "created": "2024-11-12T16:54:36.931Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-12T16:54:36.931Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C972"
         }
     ],
     "id": "b656bb87-7a6d-4c70-b998-5690e7d0ada2.json",
