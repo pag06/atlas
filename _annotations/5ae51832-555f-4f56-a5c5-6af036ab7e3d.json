@@ -6,15 +6,15 @@ order: 1
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Ustensiles pour la lessive (chaudron et planche, corbeille, chaudi\u00e8re)",
-            "purpose": "commenting",
+            "created": "2024-11-13T16:01:47.933Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-13T16:01:47.933Z",
-            "modified": "2024-11-13T16:02:23.717Z"
+            "modified": "2024-11-13T16:05:23.760Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Ustensiles pour la lessive (chaudron et planche, corbeille, chaudi\u00e8re)\nLe chaudron a une contenance de 120l et la chaudi\u00e8re sert de lessiveuse."
         }
     ],
     "id": "5ae51832-555f-4f56-a5c5-6af036ab7e3d.json",
