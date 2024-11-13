@@ -3,63 +3,60 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0329"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Maison en hauteur.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-23T08:12:28.627Z",
-            "modified": "2023-08-23T08:12:32.334Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-13T17:44:34.341Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Maison \u00e0 logis s\u00e9par\u00e9 (Combret, Aveyron)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L46",
+            "created": "2023-08-23T08:12:35.686Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T08:12:35.686Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L46"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C623",
+            "value": "Q5431",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-23T08:12:39.071Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q950???",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "created": "2023-08-23T08:12:43.974Z"
+            "created": "2024-11-13T17:44:45.523Z"
         }
     ],
+    "id": "700da60e-3a9b-43df-9412-91ceb463c8b1.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0329",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1497.0308837890625,1039.3912353515625,1120.3653564453125,780.5286865234375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1497.0308837890625,1039.3912353515625,1120.3653564453125,780.5286865234375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0329",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "700da60e-3a9b-43df-9412-91ceb463c8b1.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
