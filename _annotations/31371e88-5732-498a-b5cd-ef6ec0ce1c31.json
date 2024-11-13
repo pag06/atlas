@@ -8,13 +8,13 @@ order: 4
         {
             "created": "2023-08-23T21:52:18.517Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-23T21:53:59.059Z",
+            "modified": "2024-11-13T17:53:17.337Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Deux lits-clos avec archebancs, s\u00e9par\u00e9s par un buffet ferm\u00e9 ; au plafond, r\u00e2telier \u00e0 fromage."
+            "value": "Deux lits-clos avec archebancs, s\u00e9par\u00e9s par un buffet ferm\u00e9 ; au plafond, r\u00e2telier \u00e0 fromage (Nozerolles, Loz\u00e8re)"
         },
         {
             "created": "2023-08-23T21:54:43.120Z",
@@ -69,7 +69,14 @@ order: 4
             "type": "FragmentSelector",
             "value": "xywh=1543.0440673828125,1283.699951171875,1079.8040771484375,735.5823974609375"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0330"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0330",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
