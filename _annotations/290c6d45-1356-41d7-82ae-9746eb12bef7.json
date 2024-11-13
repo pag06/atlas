@@ -3,52 +3,59 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0328"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Maison-bloc \u00e0 terre.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-23T07:37:07.563Z",
-            "modified": "2023-08-23T07:37:11.112Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-13T17:32:06.174Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Maison-bloc \u00e0 terre (Arnissac, Haute-Loire)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L4",
+            "created": "2023-08-23T07:37:21.779Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T07:37:21.779Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L4"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q6143",
+            "value": "Q5431",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-23T07:37:24.816Z"
+            "created": "2024-11-13T17:32:17.192Z"
         }
     ],
+    "id": "290c6d45-1356-41d7-82ae-9746eb12bef7.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0328",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1604.5,995 2277.6,973.1 2272.1,784.5 2400.3,659.6 2474.9,653 2472.7,653 2637.1,870 2601,1001.6 2607.5,1175.9 2712.8,1179.2 2716.1,1511.3 1620.9,1527.8 1617.6,1527.8\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0328",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "290c6d45-1356-41d7-82ae-9746eb12bef7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
