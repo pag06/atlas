@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-08-15T13:02:56.949Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-15T13:05:50.278Z",
+            "modified": "2024-11-13T10:07:13.906Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le crible grossier est de large diam\u00e8tre (50-75 cm.) et le fond est fait de vannerie largement ajour\u00e9e ; il enl\u00e8ve les gros d\u00e9bris, brins de paille et \u00e9pis. "
+            "value": "Crible grossier :\nLe crible grossier est de large diam\u00e8tre (50-75 cm.) et le fond est fait de vannerie largement ajour\u00e9e ; il enl\u00e8ve les gros d\u00e9bris, brins de paille et \u00e9pis. "
         },
         {
             "created": "2023-08-15T13:03:09.603Z",
@@ -37,15 +37,15 @@ order: 2
             "value": "Q2947"
         },
         {
-            "type": "TextualBody",
-            "value": "C1013",
-            "purpose": "tagging",
+            "created": "2024-11-13T08:53:38.548Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-13T08:53:38.548Z",
-            "modified": "2024-11-13T08:53:40.864Z"
+            "modified": "2024-11-13T08:53:40.864Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1013"
         }
     ],
     "id": "bd02eda8-f01b-48e6-aeed-094a8fb56e24.json",
