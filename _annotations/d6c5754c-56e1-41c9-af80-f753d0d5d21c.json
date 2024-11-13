@@ -57,14 +57,14 @@ order: 3
             "value": "Q6097"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4320",
+            "created": "2023-08-23T22:23:26.864Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T22:23:26.864Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4320"
         }
     ],
     "id": "d6c5754c-56e1-41c9-af80-f753d0d5d21c.json",
@@ -79,7 +79,14 @@ order: 3
             "type": "FragmentSelector",
             "value": "xywh=459.9510803222656,1409.7684326171875,880.2870788574219,563.4715576171875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0330"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0330",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
