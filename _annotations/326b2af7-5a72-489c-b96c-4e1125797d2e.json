@@ -48,15 +48,26 @@ order: 1
             "value": "C1187"
         },
         {
+            "created": "2024-11-13T15:56:38.586Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-13T15:56:43.415Z",
+            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q10275",
+            "value": "Q10275"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C1188",
             "purpose": "tagging",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-13T15:56:38.586Z",
-            "modified": "2024-11-13T15:56:43.415Z"
+            "created": "2024-11-13T15:56:50.179Z",
+            "modified": "2024-11-13T15:56:53.149Z"
         }
     ],
     "id": "326b2af7-5a72-489c-b96c-4e1125797d2e.json",
