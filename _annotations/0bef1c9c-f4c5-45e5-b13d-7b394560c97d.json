@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-23T21:43:20.510Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-23T21:43:40.127Z",
+            "modified": "2024-11-13T17:51:05.791Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Lit-clos sous l'escalier et lis clos de face."
+            "value": "Lit-clos sous l'escalier et lis-clos de face."
         },
         {
             "created": "2023-08-23T21:43:45.683Z",
@@ -28,13 +28,14 @@ order: 1
         },
         {
             "type": "TextualBody",
+            "value": "Q6101",
             "purpose": "tagging",
-            "value": "Q6097",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-23T21:59:07.846Z"
+            "created": "2024-11-13T17:51:15.647Z",
+            "modified": "2024-11-13T17:51:17.813Z"
         }
     ],
     "id": "0bef1c9c-f4c5-45e5-b13d-7b394560c97d.json",
@@ -49,7 +50,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=475.5971374511719,485.1893310546875,928.4847717285156,661.8182373046875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0330"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0330",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
