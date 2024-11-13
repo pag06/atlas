@@ -17,43 +17,39 @@ order: 3
             "value": "Cogn\u00e9e"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L21",
+            "created": "2024-11-13T09:58:24.004Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-13T09:58:24.004Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L21"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2444",
+            "created": "2024-11-13T09:58:33.735Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-13T09:58:33.735Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2444"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C1039",
+            "created": "2024-11-13T09:58:36.999Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-13T09:58:36.999Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1039"
         }
     ],
     "id": "3997ee04-014a-4b21-9cf9-2e366ea17959.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2128.1,3141.5 2026.3,3162.9 2026.3,3823.4 2489.6,3823.4 2489.6,3141.5\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -61,6 +57,10 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0219",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2128.1,3141.5 2026.3,3162.9 2026,3833.1 2489.7,3833.1 2489.6,3141.5\"></polygon></svg>"
         }
     },
     "type": "Annotation"
