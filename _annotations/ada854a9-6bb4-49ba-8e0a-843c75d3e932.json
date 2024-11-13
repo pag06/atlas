@@ -17,35 +17,24 @@ order: 6
             "value": "Maison en hauteur."
         },
         {
-            "created": "2023-08-23T08:13:41.725Z",
+            "created": "2023-08-23T08:13:55.235Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
             "purpose": "tagging",
             "type": "TextualBody",
-            "value": "C623???"
-        },
-        {
-            "created": "2023-08-23T08:13:42.669Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "modified": "2023-08-23T08:13:45.502Z",
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q950???"
+            "value": "L35"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L35",
+            "value": "Q5431",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-23T08:13:55.235Z"
+            "created": "2024-11-13T17:48:09.679Z"
         }
     ],
     "id": "ada854a9-6bb4-49ba-8e0a-843c75d3e932.json",
@@ -60,7 +49,14 @@ order: 6
             "type": "FragmentSelector",
             "value": "xywh=1410.4273681640625,1950.3731689453125,1165.3116455078125,641.3050537109375"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0329"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0329",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
