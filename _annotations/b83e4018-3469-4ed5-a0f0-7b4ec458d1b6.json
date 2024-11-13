@@ -6,17 +6,6 @@ order: 1
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "created": "2023-08-15T13:33:58.933Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "modified": "2023-08-15T13:35:09.751Z",
-            "purpose": "commenting",
-            "type": "TextualBody",
-            "value": "[...] (la grande \u00e0 60 cm. de haut)."
-        },
-        {
             "created": "2023-08-15T13:34:27.834Z",
             "creator": {
                 "id": "ls7320",
@@ -27,36 +16,36 @@ order: 1
             "value": "L31"
         },
         {
-            "type": "TextualBody",
-            "value": "R\u00e9cipent \u00e0 grains [...] (la grande \u00e0 60 cm. de haut)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
             "created": "2023-08-16T08:59:31.450Z",
-            "modified": "2023-08-16T09:00:21.568Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-13T09:12:24.873Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "R\u00e9cipent \u00e0 grains [l\u0254 dz\u0254rb\u02c8us\u0254] (la grande \u00e0 60 cm. de haut)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C1018",
+            "created": "2023-08-16T08:59:50.156Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T08:59:50.156Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1018"
         },
         {
-            "type": "TextualBody",
-            "value": "Q8661",
-            "purpose": "tagging",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
             "created": "2023-08-16T08:59:51.888Z",
-            "modified": "2023-08-16T08:59:55.006Z"
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "modified": "2023-08-16T08:59:55.006Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8661"
         }
     ],
     "id": "b83e4018-3469-4ed5-a0f0-7b4ec458d1b6.json",
@@ -70,7 +59,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1973.1,3107.3 2714.1,3099.8 2711.6,3674.4 2232.7,3679.5 1980.6,3493\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0208"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0208",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
