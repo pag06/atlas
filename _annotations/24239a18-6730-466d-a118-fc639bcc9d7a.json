@@ -8,13 +8,13 @@ order: 9
         {
             "created": "2023-08-23T22:25:12.166Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-23T22:25:24.386Z",
+            "modified": "2024-11-13T17:56:12.405Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "D\u00e9bouch\u00e9 de l'\u00e9vier sur la cour."
+            "value": "D\u00e9bouch\u00e9 de l'\u00e9vier sur la cour (La Vaissi\u00e8re, Loz\u00e8re)"
         },
         {
             "created": "2023-08-23T22:25:57.517Z",
@@ -37,14 +37,14 @@ order: 9
             "value": "Q4320"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2754",
+            "created": "2023-08-23T22:26:54.112Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T22:26:54.112Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2754"
         }
     ],
     "id": "24239a18-6730-466d-a118-fc639bcc9d7a.json",
@@ -59,7 +59,14 @@ order: 9
             "type": "FragmentSelector",
             "value": "xywh=2402.48095703125,3285.31005859375,342.029541015625,575.5302734375"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0330"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0330",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
