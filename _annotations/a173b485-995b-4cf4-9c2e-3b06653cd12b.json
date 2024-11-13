@@ -3,53 +3,60 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0319"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "La chantepleure de vigneron.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-20T12:08:44.905Z",
-            "modified": "2023-08-20T12:08:58.114Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-13T16:14:51.908Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Chantepleure de vigneron."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L12",
+            "created": "2023-08-20T12:09:02.705Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-20T12:09:02.705Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L12"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C???",
+            "created": "2023-08-20T12:09:05.030Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-20T12:09:05.030Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C???"
         }
     ],
+    "id": "a173b485-995b-4cf4-9c2e-3b06653cd12b.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0319",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1795.6278076171875,2315.250732421875,806.7598876953125,321.955078125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1795.6278076171875,2315.250732421875,806.7598876953125,321.955078125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0319",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a173b485-995b-4cf4-9c2e-3b06653cd12b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
