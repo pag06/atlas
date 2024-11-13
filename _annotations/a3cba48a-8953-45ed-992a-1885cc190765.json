@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-20T11:02:25.906Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-20T11:05:21.175Z",
+            "modified": "2024-11-13T16:11:08.455Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Lavandi\u00e8re (Melle Petiot) au ruisseau Le Courbi\u00e8re. \nRemarquer : \n- la banquette\n- la planche \u00e0 deux pieds.\n\nLa lavandi\u00e8re est la femme qui lave le linge au lavoir ou \u00e0 la rivi\u00e8re. La banquette est une sorte de demi-caisse, qui n'a qu'une planche ant\u00e9rieure et deux planches lat\u00e9rales, dans laquelle la lavandi\u00e8re s'agenouille."
+            "value": "Lavandi\u00e8re (Melle Petiot) au ruisseau Le Courbi\u00e8re (banquette et planche \u00e0 deux pieds)\n\nLa lavandi\u00e8re est la femme qui lave le linge au lavoir ou \u00e0 la rivi\u00e8re. La banquette est une sorte de demi-caisse, qui n'a qu'une planche ant\u00e9rieure et deux planches lat\u00e9rales, dans laquelle la lavandi\u00e8re s'agenouille."
         },
         {
             "created": "2023-08-20T11:03:45.370Z",
@@ -69,7 +69,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=1687.81201171875,2967.282958984375,831.6234130859375,835.50048828125"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0299"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0299",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
