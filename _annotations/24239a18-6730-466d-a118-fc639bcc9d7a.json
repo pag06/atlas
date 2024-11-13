@@ -37,14 +37,15 @@ order: 9
             "value": "Q4320"
         },
         {
-            "created": "2023-08-23T22:26:54.112Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q2754"
+            "value": "Q2543",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T18:00:23.427Z",
+            "modified": "2024-11-13T18:00:25.377Z"
         }
     ],
     "id": "24239a18-6730-466d-a118-fc639bcc9d7a.json",
