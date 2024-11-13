@@ -8,13 +8,13 @@ order: 4
         {
             "created": "2023-08-23T06:50:00.117Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-23T06:50:07.239Z",
+            "modified": "2024-11-13T17:08:27.148Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Etable \u00e0 toit de chaume."
+            "value": "Etable \u00e0 toit de chaume (Boussac, Cantal)"
         },
         {
             "created": "2023-08-23T06:50:30.611Z",
@@ -40,6 +40,11 @@ order: 4
     "id": "c84ae905-b313-4dd9-98b1-9368a41b9940.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=391.482666015625,1391.8004150390625,658.0323486328125,701.4874267578125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -47,11 +52,6 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0327",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=391.482666015625,1391.8004150390625,658.0323486328125,701.4874267578125"
         }
     },
     "type": "Annotation"
