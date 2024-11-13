@@ -8,13 +8,13 @@ order: 5
         {
             "created": "2023-08-23T06:51:07.298Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-23T06:51:12.701Z",
+            "modified": "2024-11-13T17:07:26.761Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Etable \u00e0 toit de chaume."
+            "value": "Etable \u00e0 toit de chaume (La Brousse, Loz\u00e8re)"
         },
         {
             "created": "2023-08-23T06:51:19.516Z",
@@ -40,6 +40,11 @@ order: 5
     "id": "569866d5-bdb8-4aaa-9393-f8362e4eb004.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1041.911865234375,1280.224365234375,941.8848876953125,580.2689208984375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -47,11 +52,6 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0327",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1041.911865234375,1280.224365234375,941.8848876953125,580.2689208984375"
         }
     },
     "type": "Annotation"
