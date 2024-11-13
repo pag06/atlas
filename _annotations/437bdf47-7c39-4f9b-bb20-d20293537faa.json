@@ -27,29 +27,32 @@ order: 11
             "value": "L21"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6716",
+            "created": "2023-08-23T07:31:48.569Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T07:31:48.569Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6716"
         }
     ],
     "id": "437bdf47-7c39-4f9b-bb20-d20293537faa.json",
     "motivation": "commenting",
     "target": {
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0327",
+            "type": "Canvas"
         },
         "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
             "type": "FragmentSelector",
-            "value": "xywh=1496.1456298828125,2850.855712890625,1091.6466064453125,898.479736328125"
-        },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0327"
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1496.1456298828125,2870.8212890625,1092.9168701171875,878.51416015625"
+        }
     },
     "type": "Annotation"
 }
