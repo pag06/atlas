@@ -17,24 +17,24 @@ order: 7
             "value": "Cour ferm\u00e9e."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L10",
+            "created": "2023-08-23T07:56:00.267Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T07:56:00.267Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L10"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2754",
+            "created": "2023-08-23T07:56:04.533Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T07:56:04.533Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2754"
         }
     ],
     "id": "0ff5f0a2-e96d-4d46-9f37-705b4f5b6f42.json",
@@ -48,7 +48,14 @@ order: 7
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"386.9866027832031,1941.16748046875 1406.4971923828125,1932.3975830078125 1417.4595947265625,2559.451416015625 878.1056518554688,2575.89501953125 753.1333618164062,2635.092529296875 397.9490661621094,2631.8037109375 397.9490661621094,2631.8037109375\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0328"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0328",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
