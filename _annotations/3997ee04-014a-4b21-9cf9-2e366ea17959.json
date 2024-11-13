@@ -17,20 +17,43 @@ order: 3
             "value": "Cogn\u00e9e"
         },
         {
-            "created": "2024-11-13T09:56:34.763Z",
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L21",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-13T09:56:35.063Z",
-            "purpose": "tagging",
+            "created": "2024-11-13T09:58:24.004Z"
+        },
+        {
             "type": "TextualBody",
-            "value": "L2"
+            "purpose": "tagging",
+            "value": "Q2444",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T09:58:33.735Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C1039",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T09:58:36.999Z"
         }
     ],
     "id": "3997ee04-014a-4b21-9cf9-2e366ea17959.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2128.1,3141.5 2026.3,3162.9 2026.3,3823.4 2489.6,3823.4 2489.6,3141.5\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -38,10 +61,6 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0219",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2128.1,3141.5 2026.3,3162.9 2026.3,3823.4 2489.6,3823.4 2489.6,3141.5\"></polygon></svg>"
         }
     },
     "type": "Annotation"
