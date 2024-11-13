@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-17T12:56:59.419Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-17T13:00:36.554Z",
+            "modified": "2024-11-13T09:27:35.956Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "la [...]. R\u00e9cipient \u00e0 grains (hauteur 45cm.)."
+            "value": "La [\u0261ar\u0261\u02c8usa]. R\u00e9cipient \u00e0 grains (hauteur 45cm.)."
         },
         {
             "created": "2023-08-17T12:59:05.370Z",
@@ -35,6 +35,16 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q8661"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C1018",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-13T09:28:03.163Z"
         }
     ],
     "id": "d18e27e5-1792-4c50-8bad-6774427bea7d.json",
@@ -48,7 +58,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1901.3,3133.5 2114.5,3136 2266,3303 2181.2,3667.6 2042.6,3683 1873.1,3662.5 1803.7,3387.7\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0211"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0211",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
