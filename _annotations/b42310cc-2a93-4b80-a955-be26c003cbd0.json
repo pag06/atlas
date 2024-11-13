@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-08-18T15:58:55.405Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-18T15:58:56.950Z",
+            "modified": "2024-11-13T16:07:41.788Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Corbeilles"
+            "value": "Corbeilles \u00e0 linge"
         },
         {
             "created": "2023-08-18T15:59:02.845Z",
@@ -27,14 +27,14 @@ order: 2
             "value": "L41"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2618",
+            "created": "2023-08-18T16:00:55.651Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-18T16:00:55.651Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2618"
         }
     ],
     "id": "b42310cc-2a93-4b80-a955-be26c003cbd0.json",
@@ -48,7 +48,14 @@ order: 2
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2383.6,3490.1 2601.2,3498.8 2601.2,3848.7 2289.6,3838.3 2289.6,3686.8\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0293"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0293",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
