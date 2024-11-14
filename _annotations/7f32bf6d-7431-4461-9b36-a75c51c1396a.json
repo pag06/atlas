@@ -11,10 +11,10 @@ order: 6
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-14T10:25:11.512Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Char \u00e0 ridelles",
-            "modified": "2024-11-14T10:25:11.512Z"
+            "value": "Char \u00e0 ridelles"
         },
         {
             "created": "2023-08-29T15:17:36.865Z",
@@ -37,14 +37,14 @@ order: 6
             "value": "Q8921"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2043",
+            "created": "2024-11-14T10:25:29.149Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-14T10:25:29.149Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2043"
         }
     ],
     "id": "7f32bf6d-7431-4461-9b36-a75c51c1396a.json",
