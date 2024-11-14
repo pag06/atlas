@@ -3,52 +3,59 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0336"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Attache des anneaux \u00e0 tringle m\u00e9tallique.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-26T13:12:54.668Z",
-            "modified": "2023-08-26T13:13:09.883Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-14T09:53:51.236Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Joug"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L6",
+            "created": "2023-08-26T13:13:13.659Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-26T13:13:13.659Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L6"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q540",
+            "value": "Q5774",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-26T13:13:16.817Z"
+            "created": "2024-11-14T09:54:00.475Z"
         }
     ],
+    "id": "94bfdfca-75c8-407c-b98b-20475e006f6c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0336",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1486.6,1583.2 1572,1741.3 1768.4,1677.7 1859.3,1728.6 1939.3,1712.3 1948.4,1628.6 2173.8,1570.4 2135.7,1419.5\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0336",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "94bfdfca-75c8-407c-b98b-20475e006f6c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
