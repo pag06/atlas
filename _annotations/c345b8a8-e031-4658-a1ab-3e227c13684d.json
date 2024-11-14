@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-11-09T21:06:21.507Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-11-09T21:07:16.498Z",
+            "modified": "2024-11-14T14:20:08.555Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Paniers et paneton (au milieu) "
+            "value": "Pani\u00e8re [lu dzalar\u02c8\u025be], paneton (au milieu) et panier"
         },
         {
             "created": "2023-11-09T21:07:21.433Z",
@@ -50,6 +50,10 @@ order: 3
     "id": "c345b8a8-e031-4658-a1ab-3e227c13684d.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1604.6,570.8 1605.7,690.9 1732.4,839.6 1909.2,874.3 2054.7,836.3 2277.7,836.8 2443,889.7 2608.8,864.9 2615.4,605.5 2428.7,496.4 2344.4,322.9 2180.8,322.9 2025.5,450.2 1664.1,432.2\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -57,10 +61,6 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0355",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1604.6,570.8 1605.7,690.9 1732.4,839.6 1909.2,874.3 2054.7,836.3 2277.7,836.8 2443,889.7 2608.8,864.9 2615.4,605.5 2428.7,496.4 2344.4,322.9 2180.8,322.9 2025.5,450.2 1664.1,432.2\"></polygon></svg>"
         }
     },
     "type": "Annotation"
