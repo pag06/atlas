@@ -11,10 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-14T08:28:22.319Z",
+            "modified": "2024-11-14T08:35:59.469Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Chaudrons (de gauche \u00e0 droite [lu pi\u02b2r\u02c8\u0254\u0281], [l 'u\u0281a], [la pi\u02b2r\u02c8\u0254\u0281a])"
+            "value": "Chaudrons et marmite (de gauche \u00e0 droite [lu pi\u02b2r\u02c8\u0254\u0281], [l 'u\u0281a], [la pi\u02b2r\u02c8\u0254\u0281a])"
         },
         {
             "created": "2023-08-24T20:49:35.438Z",
@@ -46,6 +46,16 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q7245"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6379",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T08:36:19.518Z"
         }
     ],
     "id": "e5ef9819-979e-4f2f-aa83-a020f445b1d4.json",
