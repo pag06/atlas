@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-09-05T18:16:16.646Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-05T18:20:02.900Z",
+            "modified": "2024-11-14T12:13:21.365Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Vieilles herses \u00e0 dents en bois. La herse est utilis\u00e9e dans les champs pour briser les mottes de terre, \u00e9galiser le terrain et couvrir les semis. Ce type d'herse est une armature en bois avec les pointes en bois : \u00e0 peu pr\u00e8s abandonn\u00e9e."
+            "value": "Vieilles herses \u00e0 dents en bois. \nLa herse est utilis\u00e9e dans les champs pour briser les mottes de terre, \u00e9galiser le terrain et couvrir les semis. Ce type d'herse est une armature en bois avec les pointes en bois : \u00e0 peu pr\u00e8s abandonn\u00e9e."
         },
         {
             "created": "2023-09-05T18:16:31.851Z",
@@ -27,14 +27,14 @@ order: 2
             "value": "L12"
         },
         {
-            "created": "2023-09-05T18:16:52.346Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q5508"
+            "purpose": "tagging",
+            "value": "Q5506",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T12:13:12.796Z"
         }
     ],
     "id": "39fcddd9-1227-4677-8697-0e7fe18bb1a5.json",
@@ -48,7 +48,14 @@ order: 2
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"836.3,564.6 1696.7,572.4 1723.2,625.2 1719.9,721.1 1519.9,717.8 1529.8,883 1747.9,914.4 1760.6,959 1750.7,1046.1 1671.9,1041.7 895.3,922.7 893.6,850 908.5,800.4 992.8,800.4 991.1,691.3 830.8,672.6 825.9,671.5 827.5,671.5\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
