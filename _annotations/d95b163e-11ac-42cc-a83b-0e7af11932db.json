@@ -27,26 +27,26 @@ order: 5
             "value": "L12"
         },
         {
-            "type": "TextualBody",
-            "value": "Croquis de M. Massebeuf",
-            "purpose": "identifying",
+            "created": "2024-11-14T17:00:24.999Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-14T17:00:24.999Z",
-            "modified": "2024-11-14T17:00:31.495Z"
+            "modified": "2024-11-14T17:00:31.495Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Croquis de M. Massebeuf"
         },
         {
-            "type": "TextualBody",
-            "value": "Q9142",
-            "purpose": "tagging",
+            "created": "2024-11-14T17:00:41.777Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-14T17:00:41.777Z",
-            "modified": "2024-11-14T17:00:44.221Z"
+            "modified": "2024-11-14T17:00:44.221Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9142"
         }
     ],
     "id": "d95b163e-11ac-42cc-a83b-0e7af11932db.json",
