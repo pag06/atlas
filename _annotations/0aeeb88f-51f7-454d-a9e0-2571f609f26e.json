@@ -4,42 +4,58 @@ order: 12
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Quelle l\u00e9gende ?",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-10-25T15:37:00.151Z",
-            "modified": "2023-10-25T15:37:09.178Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-14T13:39:28.081Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Coffin et pierre \u00e0 aiguiser"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L27",
+            "created": "2023-10-25T15:37:15.923Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-25T15:37:15.923Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L27"
         },
         {
             "type": "TextualBody",
-            "value": "Q???",
+            "purpose": "tagging",
+            "value": "Q2436",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T13:39:38.138Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q11770",
             "purpose": "tagging",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-10-25T15:37:16.858Z",
-            "modified": "2023-10-25T15:37:17.748Z"
+            "created": "2024-11-14T13:39:40.190Z",
+            "modified": "2024-11-14T13:39:44.839Z"
         }
     ],
+    "id": "0aeeb88f-51f7-454d-a9e0-2571f609f26e.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=880.8947143554688,2764.649169921875,231.34429931640625,733.691650390625"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -47,13 +63,7 @@ order: 12
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0351",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=880.8947143554688,2764.649169921875,231.34429931640625,733.691650390625"
         }
     },
-    "id": "0aeeb88f-51f7-454d-a9e0-2571f609f26e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
