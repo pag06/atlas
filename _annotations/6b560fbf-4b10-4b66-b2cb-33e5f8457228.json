@@ -3,53 +3,56 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0337"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L25",
+            "created": "2023-08-26T13:41:48.063Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-26T13:41:48.063Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L25"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q270",
+            "created": "2023-08-26T13:41:51.257Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-26T13:41:51.257Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q270"
         },
         {
-            "type": "TextualBody",
-            "value": "Un anneau en bois, l'autre en fer.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-26T13:41:54.167Z",
-            "modified": "2023-08-26T13:42:01.748Z"
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "modified": "2023-08-26T13:42:01.748Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Un anneau en bois, l'autre en fer."
         }
     ],
+    "id": "6b560fbf-4b10-4b66-b2cb-33e5f8457228.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0337",
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0337",
+            "type": "Canvas"
+        },
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=370.18994140625,1386.698486328125,1181.887939453125,1019.76025390625"
-        },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+            "value": "xywh=379.0670166015625,1388.23095703125,1154.6605224609375,991.704345703125"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "6b560fbf-4b10-4b66-b2cb-33e5f8457228.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
