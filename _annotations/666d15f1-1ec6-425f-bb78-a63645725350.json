@@ -3,61 +3,69 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0340"
 order: 15
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Char \u00e0 \u00e9chelettes et \u00e0 ridelles",
+            "created": "2023-08-29T15:34:32.248Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Char \u00e0 ridelles",
+            "modified": "2024-11-14T10:30:55.005Z"
+        },
+        {
+            "created": "2023-08-29T15:34:35.378Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-29T15:34:32.248Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L8"
+        },
+        {
+            "created": "2023-08-29T15:34:43.830Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8921"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L8",
+            "value": "Q2043",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-29T15:34:35.378Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3622",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "created": "2023-08-29T15:34:41.408Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8921",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "created": "2023-08-29T15:34:43.830Z"
+            "created": "2024-11-14T10:31:03.723Z"
         }
     ],
+    "id": "666d15f1-1ec6-425f-bb78-a63645725350.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0340",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1373.5,3367.2 2062.6,3375.6 2066.2,3764.7 2331.7,3881.7 2332.9,3968.4 2299,3965.3 1946.2,3814.4 1895.3,3849 1640.8,3847.2 1591.7,3923.5 1384.4,3919.9 1382.6,3918.1\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0340",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "666d15f1-1ec6-425f-bb78-a63645725350.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
