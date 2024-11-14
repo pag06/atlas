@@ -3,51 +3,59 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0331"
 order: 8
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Chenets, landiers. Les chenets servent surtout \u00e0 tenir, soulev\u00e9 du foyer, le bois \u00e0 br\u00fbler et les landiers ou h\u00e2tiers, dont le bras vertical, plus \u00e9lev\u00e9, est muni de crochets pour soutenir la broche \u00e0 r\u00f4tir, et souvent couronn\u00e9 d'un r\u00e9cipient ajour\u00e9 pour contenir de la braise, un pot ou une \u00e9cuelle. ",
+            "created": "2023-08-23T23:00:07.492Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "created": "2023-08-23T23:00:07.492Z"
+            "type": "TextualBody",
+            "value": "Chenets, landiers\nLes chenets servent surtout \u00e0 tenir, soulev\u00e9 du foyer, le bois \u00e0 br\u00fbler et les landiers ou h\u00e2tiers, dont le bras vertical, plus \u00e9lev\u00e9, est muni de crochets pour soutenir la broche \u00e0 r\u00f4tir, et souvent couronn\u00e9 d'un r\u00e9cipient ajour\u00e9 pour contenir de la braise, un pot ou une \u00e9cuelle. ",
+            "modified": "2024-11-14T08:14:52.928Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L35",
+            "created": "2023-08-23T23:00:12.047Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T23:00:12.047Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L35"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2199",
+            "created": "2023-08-23T23:00:18.754Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T23:00:18.754Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2199"
         }
     ],
+    "id": "a43add7d-78ca-42ce-b383-2ecbb4d97a42.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0331",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1653.3,3115.7 1839.4,3115 1834.4,3529.3 2007.8,3613.2 2009.7,3720 1651.4,3716.1 1652.6,3716.1\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0331",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a43add7d-78ca-42ce-b383-2ecbb4d97a42.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
