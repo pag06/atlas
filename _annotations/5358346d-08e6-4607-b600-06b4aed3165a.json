@@ -6,35 +6,35 @@ order: 12
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L25",
+            "created": "2023-11-12T10:30:36.168Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-12T10:30:36.168Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L25"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9778",
+            "created": "2023-11-12T10:30:50.284Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-12T10:30:50.284Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9778"
         },
         {
-            "type": "TextualBody",
-            "value": "Tarare",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-11-12T10:30:54.824Z",
-            "modified": "2023-11-12T10:30:56.540Z"
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "modified": "2023-11-12T10:30:56.540Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Tarare"
         }
     ],
     "id": "5358346d-08e6-4607-b600-06b4aed3165a.json",
