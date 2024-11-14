@@ -8,13 +8,13 @@ order: 7
         {
             "created": "2023-09-05T18:37:50.997Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-05T18:45:14.504Z",
+            "modified": "2024-11-14T12:16:13.042Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "La herse est utilis\u00e9e dans les champs pour briser les mottes de terre, \u00e9galiser le terrain et couvrir les semis. Ce type d'herse est une armature en bois avec les pointes soit en bois soit en fer."
+            "value": "Herse\nLa herse est utilis\u00e9e dans les champs pour briser les mottes de terre, \u00e9galiser le terrain et couvrir les semis. Ce type d'herse est une armature en bois avec les pointes en fer : encore en usage."
         },
         {
             "created": "2023-09-05T18:45:23.745Z",
@@ -27,14 +27,14 @@ order: 7
             "value": "L30"
         },
         {
-            "created": "2023-09-05T18:45:26.480Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q5508"
+            "purpose": "tagging",
+            "value": "Q5506",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T12:16:21.757Z"
         }
     ],
     "id": "6d1c9f33-4c53-40eb-a6c6-871b927ea3a5.json",
@@ -48,7 +48,14 @@ order: 7
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"383.64581298828125,1378.9844970703125 620.4982299804688,1376.7811279296875 620.4982299804688,1477.5811767578125 1027.0030517578125,1489.1483154296875 1013.7833862304688,1831.207275390625 984.0391235351562,1832.8597412109375 984.0391235351562,1872.518798828125 998.9112548828125,1877.4761962890625 998.9112548828125,1928.702392578125 787.3965454101562,1946.87939453125 717.9932861328125,1981.5810546875 392.4588928222656,1991.495849609375 392.4588928222656,1991.495849609375\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
