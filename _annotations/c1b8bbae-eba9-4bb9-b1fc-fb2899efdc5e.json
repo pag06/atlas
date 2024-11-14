@@ -22,10 +22,10 @@ order: 4
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T12:08:01.278Z",
+            "modified": "2024-11-14T17:10:51.516Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Travail \u00e0 ferrer (d\u00e9tail)\n\nLa Vaissi\u00e8re, commune de Le Malzieu-Ville (Loz\u00e8re)."
+            "value": "Travail \u00e0 ferrer (d\u00e9tail) (La Vaissi\u00e8re, Loz\u00e8re)."
         },
         {
             "created": "2024-06-21T12:09:27.830Z",
@@ -39,15 +39,15 @@ order: 4
             "value": "Q10216"
         },
         {
-            "type": "TextualBody",
-            "value": "C1746",
-            "purpose": "tagging",
+            "created": "2024-06-21T12:10:18.883Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T12:10:18.883Z",
-            "modified": "2024-06-21T12:10:19.007Z"
+            "modified": "2024-06-21T12:10:19.007Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1746"
         }
     ],
     "id": "c1b8bbae-eba9-4bb9-b1fc-fb2899efdc5e.json",
