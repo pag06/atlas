@@ -8,13 +8,13 @@ order: 6
         {
             "created": "2023-08-25T07:28:21.756Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-25T07:29:08.941Z",
-            "purpose": "questioning",
+            "modified": "2024-11-14T09:08:30.269Z",
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "..."
+            "value": "Bassinoire\nLa bassinoire \u00e9tait le chauffe-lit des riches, c'est une bassine cylindrique en cuivre rouge dont la surface sup\u00e9rieure pr\u00e9sente une large ouverture circulaire par o\u00f9 on versait la braise. On trouve aussi des bassinoires dont la face sup\u00e9rieure est un couvercle amovible, perfor\u00e9 d'ouvertures en disposition g\u00e9om\u00e9trique."
         },
         {
             "created": "2023-08-25T07:28:33.928Z",
@@ -27,15 +27,14 @@ order: 6
             "value": "L25"
         },
         {
-            "created": "2023-08-25T07:34:09.430Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "modified": "2023-08-25T07:34:10.616Z",
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "C???"
+            "purpose": "tagging",
+            "value": "Q2149",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T09:08:40.414Z"
         }
     ],
     "id": "870ca064-df03-44de-bdbb-0ae8263377fb.json",
