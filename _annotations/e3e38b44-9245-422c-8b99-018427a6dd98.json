@@ -3,43 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0348"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Paysanne de 70 ans en 1918, avec coiffe de f\u00eate et sautoir.",
-            "purpose": "commenting",
+            "created": "2023-08-15T14:49:25.132Z",
             "creator": {
                 "id": "sf7320",
                 "name": "Serena"
             },
-            "created": "2023-08-15T14:49:25.132Z",
-            "modified": "2023-08-15T14:53:10.198Z"
+            "modified": "2023-08-15T14:53:10.198Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Paysanne de 70 ans en 1918, avec coiffe de f\u00eate et sautoir."
+        },
+        {
+            "created": "2023-08-15T14:53:03.019Z",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L24",
+            "value": "Q2446",
             "creator": {
-                "id": "sf7320",
-                "name": "Serena"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-15T14:53:03.019Z"
+            "created": "2024-11-14T16:58:37.465Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q9222",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T16:58:39.813Z",
+            "modified": "2024-11-14T16:58:43.121Z"
         }
     ],
+    "id": "e3e38b44-9245-422c-8b99-018427a6dd98.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0348",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=489.4053955078125,447.07904052734375,641.1634521484375,756.0204467773438"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=489.4053955078125,447.07904052734375,641.1634521484375,756.0204467773438"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0348",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e3e38b44-9245-422c-8b99-018427a6dd98.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
