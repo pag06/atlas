@@ -8,13 +8,13 @@ order: 7
         {
             "created": "2023-08-27T12:57:52.240Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-27T12:57:58.112Z",
+            "modified": "2024-11-14T10:18:33.706Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Char \u00e0 \u00e9chelette "
+            "value": "Char \u00e0 \u00e9chelette (d\u00e9tail)"
         },
         {
             "created": "2023-08-27T12:58:02.522Z",
@@ -37,14 +37,14 @@ order: 7
             "value": "Q3622"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2043",
+            "created": "2024-11-14T10:18:22.188Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-14T10:18:22.188Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2043"
         }
     ],
     "id": "5781f375-e6fb-4472-9822-b46f67317752.json",
