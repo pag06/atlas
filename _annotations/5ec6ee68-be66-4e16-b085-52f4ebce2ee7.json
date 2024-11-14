@@ -37,16 +37,6 @@ order: 3
             "value": "Q2143"
         },
         {
-            "created": "2023-08-23T22:38:11.357Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q6847"
-        },
-        {
             "created": "2023-08-23T22:38:36.358Z",
             "creator": {
                 "id": "ls7320",
@@ -55,6 +45,16 @@ order: 3
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q2187"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4846",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T08:05:42.329Z"
         }
     ],
     "id": "5ec6ee68-be66-4e16-b085-52f4ebce2ee7.json",
