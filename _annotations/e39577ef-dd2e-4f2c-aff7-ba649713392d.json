@@ -3,42 +3,51 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0358"
 order: 9
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "[...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-12-13T16:25:49.548Z",
-            "modified": "2023-12-13T16:25:52.069Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-14T15:31:30.725Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "[f'yze]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L42",
+            "created": "2023-12-13T16:25:55.709Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-13T16:25:55.709Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L42"
         },
         {
             "type": "TextualBody",
-            "value": "Q???",
+            "value": "Q4971",
             "purpose": "tagging",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-12-13T16:25:58.756Z",
-            "modified": "2023-12-13T16:25:59.858Z"
+            "created": "2024-11-14T15:31:36.459Z",
+            "modified": "2024-11-14T15:31:38.713Z"
         }
     ],
+    "id": "e39577ef-dd2e-4f2c-aff7-ba649713392d.json",
+    "motivation": "commenting",
     "target": {
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"705.3445434570312,2131.315185546875 756.02001953125,2096.062744140625 1008.0410544586382,2458.343636362701 957.3655783844195,2493.596077768951\" /></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -46,16 +55,7 @@ order: 9
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0358",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"705.3445434570312,2131.315185546875 756.02001953125,2096.062744140625 1008.0410544586382,2458.343636362701 957.3655783844195,2493.596077768951\" /></svg>"
-        },
-        "renderedVia": {
-            "name": "annotorious-tilted-box"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e39577ef-dd2e-4f2c-aff7-ba649713392d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
