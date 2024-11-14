@@ -28,13 +28,14 @@ order: 10
         },
         {
             "type": "TextualBody",
+            "value": "Q9976",
             "purpose": "tagging",
-            "value": "C???",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-05T15:36:41.005Z"
+            "created": "2024-11-14T11:00:25.033Z",
+            "modified": "2024-11-14T11:00:26.885Z"
         }
     ],
     "id": "2e74956b-0976-4e19-b049-ec4f6d9fcb24.json",
@@ -49,7 +50,14 @@ order: 10
             "type": "FragmentSelector",
             "value": "xywh=356.4820556640625,2264.64111328125,700.6424560546875,128.891845703125"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0345"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0345",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
