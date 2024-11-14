@@ -3,51 +3,59 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0342"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Char \u00e0 quatre roues. Il est surtout employ\u00e9 pour le charroi du foin, des gerbes, des troncs d'arbres.",
+            "created": "2023-09-04T09:06:40.258Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "created": "2023-09-04T09:06:40.258Z"
+            "type": "TextualBody",
+            "value": "Char \u00e0 quatre roues. \nIl est surtout employ\u00e9 pour le charroi du foin, des gerbes, des troncs d'arbres.",
+            "modified": "2024-11-14T10:42:00.223Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L24",
+            "created": "2023-09-04T09:06:44.205Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-04T09:06:44.205Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2043",
+            "created": "2023-09-04T09:06:46.867Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-04T09:06:46.867Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2043"
         }
     ],
+    "id": "b36ed8c3-2486-41d8-aed9-be02547bf192.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0342",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"416.4,1848.5 1417.8,1845.2 1414.5,2380.6 1368.2,2559 1503.7,2645 1507,2714.4 1460.7,2767.3 865.9,2767.3 720.4,2648.3 429.6,2645 431.8,2646.1\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0342",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b36ed8c3-2486-41d8-aed9-be02547bf192.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
