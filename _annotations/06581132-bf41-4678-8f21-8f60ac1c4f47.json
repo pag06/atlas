@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-24T21:19:45.295Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-24T21:36:15.382Z",
+            "modified": "2024-11-14T08:50:03.502Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Chauffe-pieds : il est utilis\u00e9 par les femmes et se pr\u00e9sente ainsi : un petit coffre en t\u00f4le que l'on remplit de braise et de charbon de bois. Il est muni d'une anse et d'un couvercle perfor\u00e9 d'orifices qui s'intercalent entre des baguettes de bois sur lesquelles reposent les pieds."
+            "value": "Chauffe-pieds\nLe chauffe-pieds est utilis\u00e9 par les femmes et se pr\u00e9sente ainsi : un petit coffre en t\u00f4le que l'on remplit de braise et de charbon de bois. Il est muni d'une anse et d'un couvercle perfor\u00e9 d'orifices qui s'intercalent entre des baguettes de bois sur lesquelles reposent les pieds."
         },
         {
             "created": "2023-08-24T21:19:54.193Z",
@@ -49,7 +49,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=379.180419921875,464.80877685546875,707.6280517578125,542.6427001953125"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0333"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0333",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
