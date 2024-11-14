@@ -4,61 +4,67 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Pioches et houes ?",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-10-25T14:57:38.335Z",
-            "modified": "2023-10-25T14:58:49.069Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-14T13:25:19.420Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Pioches et houes"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L10",
+            "created": "2023-10-25T14:58:53.674Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-25T14:58:53.674Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L10"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7724",
+            "created": "2023-10-25T14:59:07.339Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-25T14:59:07.339Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7724"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5562",
+            "created": "2023-10-25T14:59:10.554Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-25T14:59:10.554Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5562"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q",
+            "created": "2023-10-25T14:59:11.887Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-25T14:59:11.887Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q"
         }
     ],
+    "id": "631ff655-67be-4683-94bf-8c148eca4e33.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1181.7908935546875,1464.4794921875,787.8787841796875,747.87890625"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -66,13 +72,7 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0350",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1181.7908935546875,1464.4794921875,787.8787841796875,747.87890625"
         }
     },
-    "id": "631ff655-67be-4683-94bf-8c148eca4e33.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
