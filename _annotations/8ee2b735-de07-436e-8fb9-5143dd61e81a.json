@@ -11,20 +11,31 @@ order: 4
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T10:27:29.349Z",
+            "modified": "2024-11-14T16:43:01.009Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Bouvet d'\u00e9cartement (outil du charron)\n\n[...]"
+            "value": "Bouvet d'\u00e9cartement (outil du charron) [lu ru\u0283\u02c8il]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L29",
+            "created": "2024-06-21T10:27:32.576Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T10:27:32.576Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L29"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q2086",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T16:43:08.995Z",
+            "modified": "2024-11-14T16:43:11.365Z"
         }
     ],
     "id": "8ee2b735-de07-436e-8fb9-5143dd61e81a.json",
