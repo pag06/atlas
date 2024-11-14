@@ -3,53 +3,56 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0336"
 order: 9
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Museli\u00e8res et pinces nasales.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-26T13:18:49.542Z",
-            "modified": "2023-08-26T13:18:58.774Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L8",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-26T13:19:01.612Z"
+            "modified": "2023-08-26T13:18:58.774Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Museli\u00e8res et pinces nasales."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6866",
+            "created": "2023-08-26T13:19:01.612Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-26T13:19:18.006Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L8"
+        },
+        {
+            "created": "2023-08-26T13:19:18.006Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6866"
         }
     ],
+    "id": "1711acee-910d-4fac-8e30-a107e86f4cbb.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0336",
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0336",
+            "type": "Canvas"
+        },
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=428.45452880859375,2450.829345703125,899.2330932617188,578.439208984375"
-        },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+            "value": "xywh=428.45452880859375,2450.829345703125,884.8942260742188,554.547119140625"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1711acee-910d-4fac-8e30-a107e86f4cbb.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
