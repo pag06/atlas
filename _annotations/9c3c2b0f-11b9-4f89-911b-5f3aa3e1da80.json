@@ -22,10 +22,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T12:07:08.710Z",
+            "modified": "2024-11-14T17:09:15.781Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Travail \u00e0 ferrer\n\nSaint Denis"
+            "value": "Travail \u00e0 ferrer"
         },
         {
             "created": "2024-06-21T12:08:54.847Z",
@@ -39,15 +39,15 @@ order: 1
             "value": "Q10216"
         },
         {
-            "type": "TextualBody",
-            "value": "C1746",
-            "purpose": "tagging",
+            "created": "2024-06-21T12:10:42.444Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T12:10:42.444Z",
-            "modified": "2024-06-21T12:10:42.667Z"
+            "modified": "2024-06-21T12:10:42.667Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1746"
         }
     ],
     "id": "9c3c2b0f-11b9-4f89-911b-5f3aa3e1da80.json",
