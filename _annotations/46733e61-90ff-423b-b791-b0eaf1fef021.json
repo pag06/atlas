@@ -4,41 +4,56 @@ order: 4
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "(sur le banc) : jatte et pots \u00e0 cr\u00e8me\n(sur le sol) : jatte et pots \u00e0 lait ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-11-13T08:01:56.523Z",
-            "modified": "2023-11-13T08:02:25.568Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L15",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-13T08:02:29.185Z"
+            "modified": "2023-11-13T08:02:25.568Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "(sur le banc) : jatte et pots \u00e0 cr\u00e8me\n(sur le sol) : jatte et pots \u00e0 lait "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8114",
+            "created": "2023-11-13T08:02:29.185Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-13T08:03:08.310Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L15"
+        },
+        {
+            "created": "2023-11-13T08:03:08.310Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8114"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8666",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T14:30:59.957Z"
         }
     ],
+    "id": "46733e61-90ff-423b-b791-b0eaf1fef021.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1156.3,1054.8 1153,1656.3 2060.2,1653 2220.4,1567.1 2218.8,1209 2022.2,1210.1 2022.2,1049.9\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -46,12 +61,7 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0356",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1156.3,1054.8 1153,1656.3 2060.2,1653 2220.4,1567.1 2218.8,1209 2022.2,1210.1 2022.2,1049.9\"></polygon></svg>"
         }
     },
-    "id": "46733e61-90ff-423b-b791-b0eaf1fef021.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
