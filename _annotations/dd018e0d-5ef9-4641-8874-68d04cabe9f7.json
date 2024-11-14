@@ -27,14 +27,24 @@ order: 4
             "value": "L3"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2796",
+            "created": "2023-08-26T13:46:19.074Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-26T13:46:19.074Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2796"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5774",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T10:02:55.021Z"
         }
     ],
     "id": "dd018e0d-5ef9-4641-8874-68d04cabe9f7.json",
@@ -49,7 +59,14 @@ order: 4
             "type": "FragmentSelector",
             "value": "xywh=1560.3125,1106.487060546875,1057.35498046875,679.056884765625"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0337"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0337",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
