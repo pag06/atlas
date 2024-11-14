@@ -3,52 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0343"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le char-cage, d'introduction r\u00e9cente, n'est autre que le char \u00e0 foin \u00e0 deux roues, sur lequel certains paysans adaptent une 'cage' d\u00e9montable en bois, pour le transport du foin et des gerbes.",
+            "created": "2023-09-04T09:25:45.247Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Char-cage\nLe char-cage, d'introduction r\u00e9cente, n'est autre que le char \u00e0 foin \u00e0 deux roues, sur lequel certains paysans adaptent une 'cage' d\u00e9montable en bois, pour le transport du foin et des gerbes.",
+            "modified": "2024-11-14T10:47:01.548Z"
+        },
+        {
+            "created": "2023-09-04T09:25:48.013Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-04T09:25:45.247Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L32"
+        },
+        {
+            "created": "2023-09-04T09:25:50.647Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2043"
         },
         {
             "type": "TextualBody",
+            "value": "Q1649",
             "purpose": "tagging",
-            "value": "L32",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-04T09:25:48.013Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2043",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "created": "2023-09-04T09:25:50.647Z"
+            "created": "2024-11-14T10:47:04.695Z",
+            "modified": "2024-11-14T10:47:08.566Z"
         }
     ],
+    "id": "f0ff3998-6924-46da-b5d9-9b58250cd6ee.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0343",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1365.8907470703125,770.7338256835938,679.1605224609375,529.8884887695312"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1365.8907470703125,770.7338256835938,679.1605224609375,529.8884887695312"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0343",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f0ff3998-6924-46da-b5d9-9b58250cd6ee.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
