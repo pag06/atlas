@@ -4,40 +4,41 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Transport de la gerle",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-11-26T21:58:29.325Z",
-            "modified": "2023-11-26T21:58:32.570Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L17",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-26T21:58:40.290Z"
+            "modified": "2023-11-26T21:58:32.570Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Transport de la gerle"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-11-26T21:58:40.290Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-26T21:59:30.579Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L17"
+        },
+        {
+            "created": "2023-11-26T21:59:30.579Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q???"
         }
     ],
+    "id": "95b5960f-6765-4afa-9860-1976ca2b227e.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -50,9 +51,8 @@ order: 2
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1698.9285888671875,363.9250183105469,827.8817138671875,507.3048400878906"
+            "value": "xywh=1698.9285888671875,363.9250183105469,824.9512939453125,488.8786926269531"
         }
     },
-    "id": "95b5960f-6765-4afa-9860-1976ca2b227e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
