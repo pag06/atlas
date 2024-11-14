@@ -27,24 +27,14 @@ order: 1
             "value": "L1"
         },
         {
-            "created": "2023-09-05T13:59:13.186Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "C644"
-        },
-        {
-            "created": "2023-09-05T13:59:14.750Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
+            "value": "Q2043",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T10:53:21.745Z"
         }
     ],
     "id": "f5b1e7f5-1c4b-413b-8196-417af9091e17.json",
@@ -58,7 +48,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"411.0706787109375,493.0014343261719 1086.37548828125,485.28997802734375 1098.4935302734375,1162.798095703125 969.6017456054688,1161.1456298828125 822.5328979492188,1058.693115234375 427.5952453613281,1060.3455810546875 427.5952453613281,1060.3455810546875\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0344"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0344",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
