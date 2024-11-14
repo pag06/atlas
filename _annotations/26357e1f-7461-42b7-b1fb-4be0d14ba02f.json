@@ -3,54 +3,60 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0338"
 order: 11
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Char \u00e0 pneus, vu de l'arri\u00e8re.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-27T12:37:29.621Z",
-            "modified": "2023-08-27T12:37:42.875Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L5",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-27T12:37:45.976Z"
+            "modified": "2023-08-27T12:37:42.875Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Char \u00e0 pneus, vu de l'arri\u00e8re."
         },
         {
-            "type": "TextualBody",
-            "value": "C???",
-            "purpose": "tagging",
+            "created": "2023-08-27T12:37:45.976Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-27T12:38:01.029Z",
-            "modified": "2023-08-27T12:38:01.703Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L5"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2043",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T10:15:05.269Z"
         }
     ],
+    "id": "26357e1f-7461-42b7-b1fb-4be0d14ba02f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0338",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=449.67523193359375,3264.3427734375,1174.4202270507812,640.592529296875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=449.67523193359375,3264.3427734375,1174.4202270507812,640.592529296875"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0338",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "26357e1f-7461-42b7-b1fb-4be0d14ba02f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
