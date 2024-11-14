@@ -6,39 +6,6 @@ order: 1
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "created": "2023-07-27T10:31:23.820Z",
-            "creator": {
-                "id": "sf7320",
-                "name": "Serena"
-            },
-            "modified": "2023-07-27T10:31:41.605Z",
-            "purpose": "questioning",
-            "type": "TextualBody",
-            "value": "je ne trouve pas de l\u00e9gende ou autre"
-        },
-        {
-            "created": "2023-07-27T13:12:22.548Z",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
-            "modified": "2023-07-27T13:14:12.851Z",
-            "purpose": "replying",
-            "type": "TextualBody",
-            "value": "La l\u00e9gende se trouve dans la marge de la carte suivante en bas de la page. Illustration C. 1660 : la cr\u00e9celle \u00e0 42, St-Simon."
-        },
-        {
-            "created": "2023-07-27T14:48:44.106Z",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
-            "modified": "2023-07-27T14:49:04.562Z",
-            "purpose": "replying",
-            "type": "TextualBody",
-            "value": "L'illustration est sur la carte 1660, mais elle concerne la carte 1662"
-        },
-        {
             "created": "2023-07-28T10:30:37.224Z",
             "creator": {
                 "id": "GBT-Unice",
@@ -74,10 +41,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2023-08-17T16:49:01.626Z",
+            "modified": "2024-11-14T16:32:32.139Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "La cr\u00e9celle\n\nsorte de moulinet en bois, o\u00f9 une languette cr\u00e9pite sur la roue ou le cylindre dent\u00e9s, la cr\u00e9celle \u00e9tait utilis\u00e9e par les enfants de ch\u0153ur, du jeudi au samedi saint :\n- dans les rues, pour annoncer les offices.\n- en partant du ch\u0153ur.\n- \u00e0 l\u2019\u00e9glise par le servant de messe, et pendant les offices des T\u00e9n\u00e8bres."
+            "value": "La cr\u00e9celle\nSorte de moulinet en bois, o\u00f9 une languette cr\u00e9pite sur la roue ou le cylindre dent\u00e9s, la cr\u00e9celle \u00e9tait utilis\u00e9e par les enfants de ch\u0153ur, du jeudi au samedi saint :\n- dans les rues, pour annoncer les offices.\n- en partant du ch\u0153ur.\n- \u00e0 l\u2019\u00e9glise par le servant de messe, et pendant les offices des T\u00e9n\u00e8bres."
         }
     ],
     "id": "d4f950cb-f4a1-4480-b766-e7d0524602e2.json",
