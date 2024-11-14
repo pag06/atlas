@@ -8,12 +8,13 @@ order: 13
         {
             "created": "2023-10-19T17:46:18.132Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Araire \u00e0 timon s\u00e9par\u00e9 (ensemble et d\u00e9tail) : enti\u00e8rement en bois (sauf le soc), il est rest\u00e9 jusque vers 1900 le seul instrument de labour. Il a disparu, ou tout au moins il n'est plus gu\u00e8re employ\u00e9 dans la Basse Ard\u00e8che et le Rouergue ; ailleurs il reste en usage pour certains travaux."
+            "value": "Araire \u00e0 timon s\u00e9par\u00e9 (ensemble) (l : grand aiguillon ; m : curette)",
+            "modified": "2024-11-14T13:03:13.107Z"
         },
         {
             "created": "2023-10-19T17:46:25.316Z",
@@ -44,11 +45,26 @@ order: 13
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q9975"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q127",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T13:04:44.022Z",
+            "modified": "2024-11-14T13:04:45.773Z"
         }
     ],
     "id": "82d8c2af-2019-4f37-8049-fc8de8776250.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1749.8,3032.7 1951.4,3079 2737.2,3063.4 2733.9,2655.3 2507.5,2661.9 2291,2822.2 1858.9,2884\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -56,10 +72,6 @@ order: 13
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0348",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1749.8,3032.7 1951.4,3079 2737.2,3063.4 2733.9,2655.3 2507.5,2661.9 2291,2822.2 1858.9,2884\"></polygon></svg>"
         }
     },
     "type": "Annotation"
