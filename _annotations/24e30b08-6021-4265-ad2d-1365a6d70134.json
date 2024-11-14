@@ -3,62 +3,69 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0337"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L54",
+            "created": "2023-08-26T13:39:04.735Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-26T13:39:04.735Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L54"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q270",
+            "created": "2023-08-26T13:39:07.763Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-26T13:39:07.763Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q270"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q540",
+            "created": "2023-08-26T13:39:11.803Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-26T13:39:11.803Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q540"
         },
         {
-            "type": "TextualBody",
-            "value": "Anneaux en cuir, attache en fer.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-26T13:39:14.112Z",
-            "modified": "2023-08-26T13:39:21.384Z"
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "modified": "2023-08-26T13:39:21.384Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Anneaux en cuir, attache en fer."
         }
     ],
+    "id": "24e30b08-6021-4265-ad2d-1365a6d70134.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0337",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"395.3,849.3 1389.8,863.8 1393.5,1362 898.9,1354.7 898.9,1320.2 388,1307.5\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0337",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "24e30b08-6021-4265-ad2d-1365a6d70134.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
