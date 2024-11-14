@@ -8,13 +8,13 @@ order: 9
         {
             "created": "2023-08-27T12:35:57.819Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-27T12:35:59.742Z",
+            "modified": "2024-11-14T10:14:26.714Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le freinage"
+            "value": "Char : le freinage"
         },
         {
             "created": "2023-08-27T12:36:02.742Z",
@@ -29,12 +29,12 @@ order: 9
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C???",
+            "value": "Q4871",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-27T13:34:40.097Z"
+            "created": "2024-11-14T10:14:41.063Z"
         }
     ],
     "id": "d3dff455-6151-469f-92ac-67f19af63d34.json",
@@ -49,7 +49,14 @@ order: 9
             "type": "FragmentSelector",
             "value": "xywh=1995.2325439453125,2043.941162109375,770.2366943359375,976.141357421875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0338"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0338",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
