@@ -8,12 +8,13 @@ order: 11
         {
             "created": "2023-08-29T15:27:14.657Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Char \u00e0 \u00e9chelettes et \u00e0 ridelles"
+            "value": "Char \u00e0 ridelles",
+            "modified": "2024-11-14T10:26:12.125Z"
         },
         {
             "created": "2023-08-29T15:27:21.457Z",
@@ -26,16 +27,6 @@ order: 11
             "value": "L35"
         },
         {
-            "created": "2023-08-29T15:27:24.454Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q3621"
-        },
-        {
             "created": "2023-08-29T15:27:26.663Z",
             "creator": {
                 "id": "ls7320",
@@ -44,6 +35,16 @@ order: 11
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q8922"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2043",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T10:26:20.047Z"
         }
     ],
     "id": "d66bc175-9f2f-4736-9e8a-6d2c28723a16.json",
@@ -57,7 +58,14 @@ order: 11
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1078.33984375,2713.416259765625 1700.1580810546875,2712.2041015625 1703.79443359375,2788.56787109375 1728.642822265625,2821.295166015625 1908.642822265625,2795.840576171875 1935.3095703125,2811.59814453125 1926.82470703125,2850.385986328125 1823.188232421875,2877.65869140625 1821.3701171875,3090.385986328125 1414.097412109375,3094.022216796875 1341.3701171875,2984.931396484375 1075.9156494140625,2979.476806640625 1075.9156494140625,2980.0830078125\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0340"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0340",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
