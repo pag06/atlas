@@ -8,13 +8,13 @@ order: 9
         {
             "created": "2023-08-27T13:14:40.539Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-27T13:14:44.983Z",
+            "modified": "2024-11-14T10:19:34.254Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Char \u00e0 timonettes"
+            "value": "Char \u00e0 timonettes (La Brousse, Loz\u00e8re)"
         },
         {
             "created": "2023-08-27T13:14:50.305Z",
@@ -27,14 +27,24 @@ order: 9
             "value": "L37"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3622",
+            "created": "2023-08-27T13:36:20.285Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-27T13:36:20.285Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3622"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2043",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T10:19:42.854Z"
         }
     ],
     "id": "b0338645-81fc-40f9-bdd8-70be738b0910.json",
@@ -48,7 +58,14 @@ order: 9
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"388.25787353515625,2434.79736328125 539.1669921875,2438.43359375 548.2578735351562,2574.79736328125 964.6215209960938,2718.43359375 966.439697265625,2778.43359375 924.6215209960938,2834.79736328125 911.8942260742188,2978.43359375 1082.8033447265625,3103.88818359375 1086.439697265625,3158.43359375 1002.8033447265625,3165.706298828125 577.3488159179688,2896.615478515625 546.439697265625,2896.615478515625 522.8033447265625,2989.3427734375 371.8942565917969,2982.070068359375\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0339"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0339",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
