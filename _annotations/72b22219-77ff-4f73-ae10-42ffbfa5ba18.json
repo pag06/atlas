@@ -8,13 +8,13 @@ order: 7
         {
             "created": "2023-11-13T08:31:34.617Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-11-13T08:31:39.019Z",
+            "modified": "2024-11-14T14:53:04.045Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "[...]"
+            "value": "Seaux \u00e0 traire [dzarl\u02c8u], pot \u00e0 lait [la bj\u02c8itsa], couloir [lu ku\u0281ad\u02c8u] et faisselles"
         },
         {
             "created": "2023-11-13T08:31:54.672Z",
@@ -27,19 +27,53 @@ order: 7
             "value": "L24"
         },
         {
-            "created": "2023-11-13T08:32:02.420Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q???"
+            "purpose": "tagging",
+            "value": "Q9275",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T14:52:12.386Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8666",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T14:53:42.963Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2714",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T14:53:55.859Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4395",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T14:54:08.092Z"
         }
     ],
     "id": "72b22219-77ff-4f73-ae10-42ffbfa5ba18.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1029.9,2255.3 1127,2526.7 1771.6,2533.1 1926.3,2386.1 2033,2385.8 2044.5,1731 1527.2,1734.3 1398.9,1923.8 1033.7,1925.5\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -47,10 +81,6 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0356",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1029.9,2255.3 1127,2526.7 1771.6,2533.1 1926.3,2386.1 2033,2385.8 2044.5,1731 1527.2,1734.3 1398.9,1923.8 1033.7,1925.5\"></polygon></svg>"
         }
     },
     "type": "Annotation"
