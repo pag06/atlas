@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-29T15:45:21.157Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-29T15:45:26.820Z",
+            "modified": "2024-11-14T10:34:24.193Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Char \u00e0 \u00e9chelettes et \u00e0 pieux"
+            "value": "Char \u00e0 \u00e9chelettes"
         },
         {
             "created": "2023-08-29T15:45:50.033Z",
@@ -37,14 +37,14 @@ order: 1
             "value": "Q3622"
         },
         {
-            "created": "2023-08-29T15:49:20.507Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q7694"
+            "purpose": "tagging",
+            "value": "Q2043",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T10:34:34.447Z"
         }
     ],
     "id": "5587093c-893e-4085-931e-b7d03c4145a5.json",
@@ -59,7 +59,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=372.9049072265625,355.382080078125,770.0458984375,591.580322265625"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0341"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0341",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
