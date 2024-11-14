@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-08-26T13:03:06.268Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-26T13:03:12.585Z",
+            "modified": "2024-11-14T09:51:24.008Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Courroies assembl\u00e9es "
+            "value": "Joug : courroies assembl\u00e9es "
         },
         {
             "created": "2023-08-26T13:03:18.066Z",
@@ -35,6 +35,16 @@ order: 2
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q2777"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5774",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T09:51:34.174Z"
         }
     ],
     "id": "a38e655b-7230-4b25-980e-6faf526139c3.json",
