@@ -3,53 +3,60 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0334"
 order: 13
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "[...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-25T21:44:57.018Z",
-            "modified": "2023-08-25T21:45:02.262Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-14T09:28:53.781Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Lampe \u00e0 p\u00e9trole [la ka\u0281\u02c8ija]\nDe petite taille, repose sur le r\u00e9servoir et peut s'introduire dans la lanterne."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L24",
+            "created": "2023-08-25T21:45:06.810Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-25T21:45:06.810Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C???",
+            "created": "2023-08-25T21:45:08.662Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-25T21:45:08.662Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C???"
         }
     ],
+    "id": "056a995b-e96e-4962-8bd5-c1c9e5ecc12c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0334",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1871.2803955078125,3581.039306640625,170.9091796875,175.757568359375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1871.2803955078125,3581.039306640625,170.9091796875,175.757568359375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0334",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "056a995b-e96e-4962-8bd5-c1c9e5ecc12c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
