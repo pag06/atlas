@@ -3,63 +3,69 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0333"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "...",
-            "purpose": "questioning",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-25T07:32:56.608Z",
-            "modified": "2023-08-25T07:34:00.356Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L36",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-25T07:33:36.049Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "L\u00e9gende ?",
+            "modified": "2024-11-14T09:01:55.111Z",
             "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Bassinoire et chauffe-pieds\nLe chauffe-pieds est un petit coffre en t\u00f4le que l'on remplit de braise et de charbon de bois. Il est muni d'une anse et d'un couvercle perfor\u00e9 d'orifices qui s'intercalent entre des baguettes de bois sur lesquelles reposent les pieds. La bassinoire \u00e9tait le chauffe-lit des riches, c'est une bassine cylindrique en cuivre rouge dont la surface sup\u00e9rieure pr\u00e9sente une large ouverture circulaire par o\u00f9 on versait la braise. On trouve aussi des bassinoires dont la face sup\u00e9rieure est un couvercle amovible, perfor\u00e9 d'ouvertures en disposition g\u00e9om\u00e9trique."
+        },
+        {
+            "created": "2023-08-25T07:33:36.049Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-25T07:33:54.133Z",
-            "modified": "2023-08-25T07:33:55.972Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L36"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C???",
+            "value": "Q2149",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-25T07:34:04.831Z"
+            "created": "2024-11-14T09:02:18.152Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2156",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T09:02:40.501Z"
         }
     ],
+    "id": "72072309-3cac-4af5-a3e3-e7e7313d9bd5.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0333",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"984.2,1786.5 1418.3,1785.4 1427.1,1247.8 1559.3,1247.8 1552.7,1855.9 1651.8,1984.8 1651.8,2060.9 1565.9,2249.2 990.8,2239.3 987.5,2239.3\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0333",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "72072309-3cac-4af5-a3e3-e7e7313d9bd5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
