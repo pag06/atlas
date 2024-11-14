@@ -3,52 +3,59 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346"
 order: 18
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Herse actionn\u00e9e par un homme.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-09-06T12:49:30.084Z",
-            "modified": "2023-09-06T12:49:51.137Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L36",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-06T12:49:55.129Z"
+            "modified": "2023-09-06T12:49:51.137Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Herse actionn\u00e9e par un homme."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5508",
+            "created": "2023-09-06T12:49:55.129Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-06T12:49:57.526Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L36"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5506",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T12:18:37.558Z"
         }
     ],
+    "id": "984c1f9e-36cc-4a23-99a8-436fdd4d1a14.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1604.1,2940.2 1415.7,3189.1 1439.4,3238.7 1493.9,3261.9 2002.9,3169.3 1986.3,3103.2 1933.5,3066.9 2191.2,2752.9 1936.8,2673.6 1682.3,2933\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "984c1f9e-36cc-4a23-99a8-436fdd4d1a14.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
