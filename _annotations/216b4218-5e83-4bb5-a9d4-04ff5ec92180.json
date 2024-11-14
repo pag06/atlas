@@ -8,13 +8,13 @@ order: 13
         {
             "created": "2023-10-25T15:39:01.143Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-25T15:39:49.980Z",
+            "modified": "2024-11-14T13:41:56.283Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "A quoi cela correspond -t-il ?"
+            "value": "Coffin, pierre \u00e0 aiguiser, marteau et enclumette"
         },
         {
             "created": "2023-10-25T15:40:00.679Z",
@@ -27,20 +27,34 @@ order: 13
             "value": "L25"
         },
         {
-            "created": "2023-10-25T15:40:01.465Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "modified": "2023-10-25T15:40:02.182Z",
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q???"
+            "purpose": "tagging",
+            "value": "Q2436",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T13:42:07.102Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q11770",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T13:42:08.846Z",
+            "modified": "2024-11-14T13:42:12.345Z"
         }
     ],
     "id": "216b4218-5e83-4bb5-a9d4-04ff5ec92180.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1424.4,3101.8 1413.5,3789.1 1800.1,3800.9 1856.2,3766.2 2076,3767.8 2107.4,3804.2 2223.1,3804.2 2226.4,3100.3 2023.1,3094.2 1995.1,2824.8 1910.7,2823.2 1903,3105.8\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -48,10 +62,6 @@ order: 13
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0351",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1424.4,3101.8 1413.5,3789.1 1800.1,3800.9 1856.2,3766.2 2076,3767.8 2107.4,3804.2 2223.1,3804.2 2226.4,3100.3 2023.1,3094.2 1995.1,2824.8 1910.7,2823.2 1903,3105.8\"></polygon></svg>"
         }
     },
     "type": "Annotation"
