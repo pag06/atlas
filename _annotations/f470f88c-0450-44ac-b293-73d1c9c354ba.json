@@ -27,15 +27,15 @@ order: 7
             "value": "L35"
         },
         {
-            "type": "TextualBody",
-            "value": "Q9035",
-            "purpose": "tagging",
+            "created": "2024-11-14T13:47:49.414Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-14T13:47:49.414Z",
-            "modified": "2024-11-14T13:47:51.902Z"
+            "modified": "2024-11-14T13:47:51.902Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9035"
         }
     ],
     "id": "f470f88c-0450-44ac-b293-73d1c9c354ba.json",
