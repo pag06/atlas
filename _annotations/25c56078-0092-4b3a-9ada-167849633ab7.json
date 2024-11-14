@@ -4,41 +4,56 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Pots \u00e0 lait \u00e0 cr\u00e8me",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-11-13T07:52:03.993Z",
-            "modified": "2023-11-13T07:52:17.174Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-14T14:29:14.905Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Pots \u00e0 lait et \u00e0 cr\u00e8me"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L42",
+            "created": "2023-11-13T07:52:21.710Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-13T07:52:21.710Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L42"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8114",
+            "created": "2023-11-13T07:52:52.587Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-13T07:52:52.587Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8114"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8666",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T14:29:36.531Z"
         }
     ],
+    "id": "25c56078-0092-4b3a-9ada-167849633ab7.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"376.2,447.2 386.1,1107.1 604.2,1108.2 597.6,840.5 1509.7,838.9 1508.1,453.8\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -46,12 +61,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0356",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"376.2,447.2 386.1,1107.1 604.2,1108.2 597.6,840.5 1509.7,838.9 1508.1,453.8\"></polygon></svg>"
         }
     },
-    "id": "25c56078-0092-4b3a-9ada-167849633ab7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
