@@ -11,10 +11,10 @@ order: 6
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T14:57:02.807Z",
+            "modified": "2024-11-14T17:08:06.469Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Enfant au berceau\n\n\u00e0 Saugues (Haute-Loire)"
+            "value": "Enfant au berceau"
         },
         {
             "created": "2023-08-15T15:28:45.243Z",
@@ -27,15 +27,14 @@ order: 6
             "value": "L24"
         },
         {
-            "created": "2024-06-21T14:56:44.687Z",
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1087",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T14:56:44.950Z",
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q1034"
+            "created": "2024-11-14T17:08:42.239Z"
         }
     ],
     "id": "f8e253ce-2fa4-49ed-b376-6fbc9b6d84ee.json",
