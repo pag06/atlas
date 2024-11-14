@@ -28,13 +28,23 @@ order: 4
         {
             "created": "2023-08-26T13:09:24.746Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-26T13:09:29.357Z",
+            "modified": "2024-11-14T09:52:17.239Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Courroies en longueur"
+            "value": "Joug : courroies en longueur"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5774",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T09:52:24.374Z"
         }
     ],
     "id": "f3f1a6cd-ac85-4060-98b3-3c2407f723ba.json",
@@ -48,7 +58,14 @@ order: 4
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1084.9,1009 1935.8,1003.6 1937.6,1216.3 1675.8,1219.9 1677.6,1565.4 1555.8,1567.2 1552.2,1507.2 1415.8,1509 1408.5,1259.9 1086.7,1261.8\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0336"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0336",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
