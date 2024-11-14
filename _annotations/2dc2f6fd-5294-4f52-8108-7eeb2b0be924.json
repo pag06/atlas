@@ -4,41 +4,47 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Deux seilles en fer-blanc.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-11-13T07:56:49.504Z",
-            "modified": "2023-11-13T07:57:10.377Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L5",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-13T07:57:55.561Z"
+            "modified": "2023-11-13T07:57:10.377Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Deux seilles en fer-blanc."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-11-13T07:57:55.561Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-13T07:57:57.462Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L5"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9275",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T14:30:38.670Z"
         }
     ],
+    "id": "2dc2f6fd-5294-4f52-8108-7eeb2b0be924.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1751.7958984375,350.8339538574219,908.852294921875,699.5409240722656"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -46,13 +52,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0356",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1751.7958984375,350.8339538574219,908.852294921875,699.5409240722656"
         }
     },
-    "id": "2dc2f6fd-5294-4f52-8108-7eeb2b0be924.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
