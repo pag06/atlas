@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-12-18T15:18:08.323Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-12-18T15:18:46.507Z",
+            "modified": "2024-11-14T15:40:22.039Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le four banal et la fontaine du village (au centre). "
+            "value": "Le four banal et la fontaine du village (au centre) (La Vaissi\u00e8re, Loz\u00e8re)"
         },
         {
             "created": "2023-12-18T15:19:18.460Z",
@@ -37,14 +37,14 @@ order: 1
             "value": "Q4764"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4816",
+            "created": "2023-12-18T15:19:59.549Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-18T15:19:59.549Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4816"
         }
     ],
     "id": "08d92a21-4089-4d78-b6cf-8331ed0f1a39.json",
