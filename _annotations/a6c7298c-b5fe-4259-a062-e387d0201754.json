@@ -11,10 +11,10 @@ order: 5
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T10:25:01.207Z",
+            "modified": "2024-11-14T16:36:32.443Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Guimbarde \u00e0 fond (outil du charron)\n\n[...]"
+            "value": "Guimbarde \u00e0 fond (outil du charron) [lu rab\u02c8\u0254 des rat\u0283]"
         },
         {
             "created": "2024-06-21T10:23:56.169Z",
@@ -25,6 +25,17 @@ order: 5
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "L29"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q8466",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T16:36:47.455Z",
+            "modified": "2024-11-14T16:36:53.240Z"
         }
     ],
     "id": "a6c7298c-b5fe-4259-a062-e387d0201754.json",
