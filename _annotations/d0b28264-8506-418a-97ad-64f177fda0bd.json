@@ -47,15 +47,15 @@ order: 5
             "value": "Q7495"
         },
         {
-            "type": "TextualBody",
-            "value": "Q9990",
-            "purpose": "tagging",
+            "created": "2024-11-14T15:44:08.489Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-14T15:44:08.489Z",
-            "modified": "2024-11-14T15:44:14.197Z"
+            "modified": "2024-11-14T15:44:14.197Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9990"
         }
     ],
     "id": "d0b28264-8506-418a-97ad-64f177fda0bd.json",
