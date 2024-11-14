@@ -27,15 +27,25 @@ order: 18
             "value": "L36"
         },
         {
-            "type": "TextualBody",
-            "value": "Quelle est la bonne l\u00e9gende ?",
-            "purpose": "commenting",
+            "created": "2023-09-17T21:56:03.121Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-17T21:56:03.121Z",
-            "modified": "2023-09-17T21:56:10.406Z"
+            "modified": "2023-09-17T21:56:10.406Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Quelle est la bonne l\u00e9gende ?"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q354",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T12:55:52.528Z"
         }
     ],
     "id": "cf62ca42-2bf7-4ea9-9434-694f1a2ae7e6.json",
@@ -50,7 +60,14 @@ order: 18
             "type": "FragmentSelector",
             "value": "xywh=381.90570068359375,3450.109130859375,860.6061401367188,264.848388671875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0347"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0347",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
