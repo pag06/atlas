@@ -35,6 +35,16 @@ order: 7
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "Joug \u00e0 chevilles."
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5774",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T10:04:50.392Z"
         }
     ],
     "id": "bbe5228f-8644-4c2b-8284-d164f810b062.json",
@@ -48,7 +58,14 @@ order: 7
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"347.1,2480.8 1320.9,2480.8 1320.9,2803.8 1257.3,2801.4 1257.3,2980 1308.7,3026.5 1308.7,3131.7 330,3126.8\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0337"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0337",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
