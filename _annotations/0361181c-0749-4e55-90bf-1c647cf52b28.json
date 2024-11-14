@@ -50,15 +50,18 @@ order: 8
     "id": "0361181c-0749-4e55-90bf-1c647cf52b28.json",
     "motivation": "commenting",
     "target": {
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0334",
+            "type": "Canvas"
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1442.4,2149.2 1862.1,2150.3 1865.4,2946.8 1257.3,2953.4 1257.3,2444.5 1257.3,2444.5\"></polygon></svg>"
-        },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0334"
+            "value": "<svg><polygon points=\"1496.5,2153.3 1862.1,2150.3 1865.4,2946.8 1257.3,2953.4 1257.3,2444.5 1257.3,2444.5\"></polygon></svg>"
+        }
     },
     "type": "Annotation"
 }
