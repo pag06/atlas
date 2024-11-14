@@ -4,71 +4,77 @@ order: 6
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Pioche, b\u00eaches et houes ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-10-25T14:59:59.943Z",
-            "modified": "2023-10-25T15:00:38.632Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L24",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-25T15:00:44.843Z"
+            "modified": "2023-10-25T15:00:38.632Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Pioche, b\u00eaches et houes "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7724",
+            "created": "2023-10-25T15:00:44.843Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-25T15:00:50.164Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1047",
+            "created": "2023-10-25T15:00:50.164Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-25T15:00:56.382Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7724"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5562",
+            "created": "2023-10-25T15:00:56.382Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-25T15:01:04.472Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1047"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q",
+            "created": "2023-10-25T15:01:04.472Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-25T15:01:07.908Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5562"
+        },
+        {
+            "created": "2023-10-25T15:01:07.908Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q"
         }
     ],
+    "id": "3f97eb0a-7b1a-41ae-aec6-a16a85036e80.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2002.3968505859375,1568.7220458984375,709.0909423828125,709.0909423828125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -76,13 +82,7 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0350",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2002.3968505859375,1568.7220458984375,709.0909423828125,709.0909423828125"
         }
     },
-    "id": "3f97eb0a-7b1a-41ae-aec6-a16a85036e80.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
