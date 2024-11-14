@@ -4,41 +4,48 @@ order: 13
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Rouleaux hors d'usage",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-11-03T20:59:51.060Z",
-            "modified": "2023-11-03T21:00:11.169Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-14T13:51:30.481Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Rouleaux hors d'usage et corbeille [dz\u025brb\u02c8\u0254l\u0254]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L6",
+            "created": "2023-11-03T21:00:13.893Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-03T21:00:13.893Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L6"
         },
         {
             "type": "TextualBody",
+            "value": "Q9035",
             "purpose": "tagging",
-            "value": "Q???",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-11-03T21:00:15.627Z"
+            "created": "2024-11-14T13:51:01.768Z",
+            "modified": "2024-11-14T13:51:04.588Z"
         }
     ],
+    "id": "b2748e3f-eaff-4736-9321-d07ed8b6b748.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1688.7413330078125,3197.05126953125,1057.5736083984375,730.38671875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -46,13 +53,7 @@ order: 13
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0352",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1688.7413330078125,3197.05126953125,1057.5736083984375,730.38671875"
         }
     },
-    "id": "b2748e3f-eaff-4736-9321-d07ed8b6b748.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
