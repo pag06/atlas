@@ -8,13 +8,13 @@ order: 10
         {
             "created": "2023-12-07T14:26:06.700Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-12-07T14:26:26.882Z",
+            "modified": "2024-11-14T15:22:55.604Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "[...] (partie)"
+            "value": "Ustensiles utilis\u00e9s dans les burons"
         },
         {
             "created": "2023-12-07T14:26:32.079Z",
@@ -25,21 +25,15 @@ order: 10
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "L17"
-        },
-        {
-            "created": "2023-12-07T14:26:34.907Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
         }
     ],
     "id": "172bf635-83d2-4bf0-be66-e5992f3e38e0.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"368.1,2784.9 352.7,3703.6 815.4,3710.2 868.3,3763.1 1416.9,3763.1 1410.3,3049.3 934.4,3042.6 517.9,3036 511.3,2784.9\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -47,10 +41,6 @@ order: 10
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0357",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"368.1,2784.9 352.7,3703.6 815.4,3710.2 868.3,3763.1 1416.9,3763.1 1410.3,3049.3 934.4,3042.6 517.9,3036 511.3,2784.9\"></polygon></svg>"
         }
     },
     "type": "Annotation"
