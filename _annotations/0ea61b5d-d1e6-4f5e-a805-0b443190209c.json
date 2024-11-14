@@ -3,64 +3,56 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0347"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Types de soc",
-            "purpose": "questioning",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-09-17T21:26:32.880Z",
-            "modified": "2023-09-17T21:27:50.382Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "- A quoi correspond A1, A2, B, \u2026 ?\n- Faut-il d\u00e9couper en une ou diff\u00e9rentes images ?",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-14T12:32:04.095Z",
             "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Types de soc : \nA1 : tige quadranculaire, pointue \u00e0 un bout\nA2 : tige quadranculaire, pointue aux deux bouts\nB : une extr\u00e9mit\u00e9 est plate et trap\u00e9zo\u00efde\nC1 : une extr\u00e9mit\u00e9 est plate et triangulaire\nC2 : les deux extr\u00e9mit\u00e9s sont plates et triangulaires\nD : lame trap\u00e9zo\u00efdale \u00e0 l'arri\u00e8re de la pointe\nE : lame semi-conique embrassant la pointe du sep"
+        },
+        {
+            "created": "2023-09-17T21:27:59.144Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-17T21:26:53.319Z",
-            "modified": "2023-09-17T21:27:35.123Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C879"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L?",
+            "value": "Q9459",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-17T21:27:54.574Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C879",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "created": "2023-09-17T21:27:59.144Z"
+            "created": "2024-11-14T12:32:44.380Z"
         }
     ],
+    "id": "0ea61b5d-d1e6-4f5e-a805-0b443190209c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0347",
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0347",
+            "type": "Canvas"
+        },
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1362.895263671875,665.7157592773438,355.1513671875,613.3334350585938"
-        },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+            "value": "xywh=1276.0863037109375,665.7157592773438,441.9603271484375,619.8705444335938"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0ea61b5d-d1e6-4f5e-a805-0b443190209c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
