@@ -8,12 +8,13 @@ order: 4
         {
             "created": "2023-09-04T09:04:31.178Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Char \u00e0 quatre roues. Il est surtout employ\u00e9 pour le charroi du foin, des gerbes, des troncs d'arbres."
+            "value": "Char \u00e0 quatre roues. \nIl est surtout employ\u00e9 pour le charroi du foin, des gerbes, des troncs d'arbres.",
+            "modified": "2024-11-14T10:41:45.594Z"
         },
         {
             "created": "2023-09-04T09:04:34.304Z",
@@ -39,14 +40,21 @@ order: 4
     "id": "074b3bd5-c9eb-4ab4-becf-7c8762a7d324.json",
     "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0342",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2170.4,915.2 2542.3,881.6 2577.6,1128.5 2720.3,1126.9 2725.1,1476.4 2462.2,1473.2 2407.7,1550.2 1923.4,1550.2 1889.8,1524.5 1897.8,1473.2 2053.3,1413.9 2051.7,1245.5 2051.7,1245.5\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0342",
+            "type": "Canvas"
         }
     },
     "type": "Annotation"
