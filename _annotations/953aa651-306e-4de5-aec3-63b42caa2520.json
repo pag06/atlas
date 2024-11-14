@@ -27,19 +27,24 @@ order: 6
             "value": "Puits"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8361",
+            "created": "2024-11-14T09:41:21.793Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-14T09:41:21.793Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8361"
         }
     ],
     "id": "953aa651-306e-4de5-aec3-63b42caa2520.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1903.0947265625,1397.1680908203125,695.279541015625,732.9012451171875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -47,11 +52,6 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0335",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1903.0947265625,1397.1680908203125,695.279541015625,732.9012451171875"
         }
     },
     "type": "Annotation"
