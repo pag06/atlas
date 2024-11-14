@@ -3,64 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0333"
 order: 12
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Table de cuisine \u00e0 plateau amovible.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-25T07:39:18.651Z",
-            "modified": "2023-08-25T07:39:26.723Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L4",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-25T07:39:32.014Z"
+            "modified": "2023-08-25T07:39:26.723Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Table de cuisine \u00e0 plateau amovible."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C723???",
+            "created": "2023-08-25T07:39:32.014Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-25T07:40:47.364Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L4"
         },
         {
             "type": "TextualBody",
-            "value": "Q9694???",
             "purpose": "tagging",
+            "value": "Q9694",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-25T07:40:48.121Z",
-            "modified": "2023-08-25T07:40:55.844Z"
+            "created": "2024-11-14T09:17:29.728Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C723",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T09:17:40.693Z"
         }
     ],
+    "id": "bdc7c426-b423-4ab0-85dd-506634cbdb05.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0333",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=358.50030517578125,3105.205078125,1824.3146362304688,643.357421875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=358.50030517578125,3105.205078125,1824.3146362304688,643.357421875"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0333",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "bdc7c426-b423-4ab0-85dd-506634cbdb05.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
