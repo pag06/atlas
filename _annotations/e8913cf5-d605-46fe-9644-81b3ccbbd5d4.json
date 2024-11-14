@@ -6,17 +6,6 @@ order: 4
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "created": "2023-11-10T14:19:46.655Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "modified": "2023-11-10T14:22:41.487Z",
-            "purpose": "questioning",
-            "type": "TextualBody",
-            "value": "[...]"
-        },
-        {
             "created": "2023-11-10T14:20:32.333Z",
             "creator": {
                 "id": "ls7320",
@@ -27,25 +16,26 @@ order: 4
             "value": "L9"
         },
         {
-            "created": "2023-11-10T14:22:28.465Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q6576"
-        },
-        {
             "created": "2023-11-10T14:22:43.419Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-11-10T14:22:48.936Z",
+            "modified": "2024-11-14T14:12:58.516Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "L\u00e9gende \u00e0 transcrire"
+            "value": "[lu rud\u02c8\u0254l] \u02d0 tas circulaire o\u00f9 les \u0261erbes sont assembl\u00e9es et superpos\u00e9es, autour de l'emplacement de la meule "
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q6562",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T14:13:09.736Z",
+            "modified": "2024-11-14T14:13:12.365Z"
         }
     ],
     "id": "e8913cf5-d605-46fe-9644-81b3ccbbd5d4.json",
