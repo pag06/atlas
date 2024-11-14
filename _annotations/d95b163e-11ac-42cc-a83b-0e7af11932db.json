@@ -3,43 +3,72 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0348"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "le \"saint-esprit\" (deux types)\nCroquis de M. Massebeuf",
+            "created": "2023-08-15T15:03:06.071Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-14T17:01:07.599Z",
             "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le \"saint-esprit\" (penfentif)"
+        },
+        {
+            "created": "2023-08-15T15:03:50.192Z",
             "creator": {
                 "id": "sf7320",
                 "name": "Serena"
             },
-            "created": "2023-08-15T15:03:06.071Z",
-            "modified": "2023-08-15T15:03:41.959Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L12"
         },
         {
             "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L12",
+            "value": "Croquis de M. Massebeuf",
+            "purpose": "identifying",
             "creator": {
-                "id": "sf7320",
-                "name": "Serena"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-15T15:03:50.192Z"
+            "created": "2024-11-14T17:00:24.999Z",
+            "modified": "2024-11-14T17:00:31.495Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q9142",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T17:00:41.777Z",
+            "modified": "2024-11-14T17:00:44.221Z"
         }
     ],
+    "id": "d95b163e-11ac-42cc-a83b-0e7af11932db.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0348",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1325.3895263671875,1219.09228515625,383.8258056640625,740.0277099609375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1325.3895263671875,1219.09228515625,383.8258056640625,740.0277099609375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0348",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "d95b163e-11ac-42cc-a83b-0e7af11932db.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
