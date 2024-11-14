@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-08-27T13:43:11.377Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-27T13:43:19.640Z",
+            "modified": "2024-11-14T10:23:55.424Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Char \u00e0 \u00e9chelettes et \u00e0 ridelles"
+            "value": "Char \u00e0 ridelles"
         },
         {
             "created": "2023-08-27T13:43:22.330Z",
@@ -27,16 +27,6 @@ order: 3
             "value": "L23"
         },
         {
-            "created": "2023-08-27T13:43:38.120Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q3622"
-        },
-        {
             "created": "2023-08-27T13:43:49.150Z",
             "creator": {
                 "id": "ls7320",
@@ -45,19 +35,36 @@ order: 3
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q8921"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2043",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T10:24:05.610Z"
         }
     ],
     "id": "86ea4aa2-b017-43ca-af90-af59b34b43a8.json",
     "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0340",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1881.4,398 2699.7,385.4 2699.7,991.1 2246.1,994.3 2170,1073.6 1888.1,1071\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0340",
+            "type": "Canvas"
         }
     },
     "type": "Annotation"
