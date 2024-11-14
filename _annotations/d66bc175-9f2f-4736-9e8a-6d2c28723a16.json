@@ -11,10 +11,10 @@ order: 11
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-14T10:26:12.125Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Char \u00e0 ridelles",
-            "modified": "2024-11-14T10:26:12.125Z"
+            "value": "Char \u00e0 ridelles"
         },
         {
             "created": "2023-08-29T15:27:21.457Z",
@@ -27,24 +27,24 @@ order: 11
             "value": "L35"
         },
         {
-            "created": "2023-08-29T15:27:26.663Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q8922"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2043",
+            "created": "2024-11-14T10:26:20.047Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-14T10:26:20.047Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2043"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8921",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T10:30:04.370Z"
         }
     ],
     "id": "d66bc175-9f2f-4736-9e8a-6d2c28723a16.json",
