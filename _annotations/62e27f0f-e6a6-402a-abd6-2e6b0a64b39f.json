@@ -16,25 +16,25 @@ order: 1
             "value": "L5"
         },
         {
-            "created": "2023-09-05T16:42:28.276Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q5508"
-        },
-        {
             "created": "2023-09-05T16:47:45.272Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-05T18:39:28.264Z",
+            "modified": "2024-11-14T12:12:51.502Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Vieilles herses \u00e0 dents en bois. La herse est utilis\u00e9e dans les champs pour briser les mottes de terre, \u00e9galiser le terrain et couvrir les semis. Ce type d'herse est une armature en bois avec les pointes en bois : \u00e0 peu pr\u00e8s abandonn\u00e9e."
+            "value": "Vieille herse \u00e0 dents en bois. \nLa herse est utilis\u00e9e dans les champs pour briser les mottes de terre, \u00e9galiser le terrain et couvrir les semis. Ce type d'herse est une armature en bois avec les pointes en bois : \u00e0 peu pr\u00e8s abandonn\u00e9e."
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5506",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T12:12:29.902Z"
         }
     ],
     "id": "62e27f0f-e6a6-402a-abd6-2e6b0a64b39f.json",
@@ -48,7 +48,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"359.3,384 833,387.3 830.8,690.2 989.5,696.8 987.8,809.2 791.2,809.2 721.8,1063.7 665.6,1058.7 583,1017.4 374.8,1014.1 373.1,1014.1\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
