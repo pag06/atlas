@@ -11,10 +11,10 @@ order: 13
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-14T13:03:13.107Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Araire \u00e0 timon s\u00e9par\u00e9 (ensemble) (l : grand aiguillon ; m : curette)",
-            "modified": "2024-11-14T13:03:13.107Z"
+            "value": "Araire \u00e0 timon s\u00e9par\u00e9 (ensemble) (l : grand aiguillon ; m : curette)"
         },
         {
             "created": "2023-10-19T17:46:25.316Z",
@@ -47,15 +47,26 @@ order: 13
             "value": "Q9975"
         },
         {
+            "created": "2024-11-14T13:04:44.022Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-14T13:04:45.773Z",
+            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q127",
+            "value": "Q127"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q4125",
             "purpose": "tagging",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-14T13:04:44.022Z",
-            "modified": "2024-11-14T13:04:45.773Z"
+            "created": "2024-11-14T13:04:54.390Z",
+            "modified": "2024-11-14T13:04:57.474Z"
         }
     ],
     "id": "82d8c2af-2019-4f37-8049-fc8de8776250.json",
