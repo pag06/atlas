@@ -35,11 +35,26 @@ order: 5
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "Un anneau en bois, l'autre en fer."
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5774",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T10:03:09.876Z"
         }
     ],
     "id": "6b560fbf-4b10-4b66-b2cb-33e5f8457228.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=379.0670166015625,1388.23095703125,1154.6605224609375,991.704345703125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -47,11 +62,6 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0337",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=379.0670166015625,1388.23095703125,1154.6605224609375,991.704345703125"
         }
     },
     "type": "Annotation"
