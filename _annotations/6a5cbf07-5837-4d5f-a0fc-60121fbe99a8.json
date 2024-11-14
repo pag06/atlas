@@ -3,43 +3,60 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0348"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Paysanne de 70 ans en 1946, avec coiffe (type A)",
-            "purpose": "commenting",
+            "created": "2023-08-15T14:53:42.594Z",
             "creator": {
                 "id": "sf7320",
                 "name": "Serena"
             },
-            "created": "2023-08-15T14:53:42.594Z",
-            "modified": "2023-08-15T14:54:00.883Z"
+            "modified": "2023-08-15T14:54:00.883Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Paysanne de 70 ans en 1946, avec coiffe (type A)"
+        },
+        {
+            "created": "2023-08-15T14:54:07.027Z",
+            "creator": {
+                "id": "sf7320",
+                "name": "Serena"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L2"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L2",
+            "value": "Q2446",
             "creator": {
-                "id": "sf7320",
-                "name": "Serena"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-15T14:54:07.027Z"
+            "created": "2024-11-14T16:59:13.741Z"
         }
     ],
+    "id": "6a5cbf07-5837-4d5f-a0fc-60121fbe99a8.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0348",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1232.3409423828125,564.8438110351562,632.440185546875,505.95208740234375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1232.3409423828125,564.8438110351562,632.440185546875,505.95208740234375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0348",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "6a5cbf07-5837-4d5f-a0fc-60121fbe99a8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
