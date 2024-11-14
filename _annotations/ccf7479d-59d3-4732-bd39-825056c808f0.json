@@ -4,61 +4,67 @@ order: 9
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Plan \u00e0 l'\u00e9chelle 1/100\u00e8me. \n1. Chemin\u00e9e. \n2. Echelle d'acc\u00e8s au galetas.\n3. Table des repas. \n4. Etag\u00e8res, \u00e9cr\u00e9meuse.\n5. Gerle ou cuve \u00e0 cailler.\n6. Egouttoir pour le caill\u00e9.\n7. Moules \u00e0 fromages.\n8. Fromages en fermentation.\n\n",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-12-07T14:14:45.181Z",
-            "modified": "2023-12-07T14:22:58.507Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-14T15:11:33.435Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Buron d'Aubrac, plan \u00e0 l'\u00e9chelle 1/100\u00e8me. \n"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L32",
+            "created": "2023-12-07T14:15:19.653Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-07T14:15:19.653Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L32"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2187",
+            "created": "2023-12-07T14:15:51.000Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-07T14:15:51.000Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2187"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1658",
+            "created": "2023-12-07T14:21:01.414Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-07T14:21:01.414Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1658"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4906",
+            "created": "2023-12-07T14:22:42.751Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-07T14:22:42.751Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4906"
         }
     ],
+    "id": "ccf7479d-59d3-4732-bd39-825056c808f0.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1394.64404296875,2002.125244140625,1221.1669921875,598.03515625"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -66,13 +72,7 @@ order: 9
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0357",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1394.64404296875,2002.125244140625,1221.1669921875,598.03515625"
         }
     },
-    "id": "ccf7479d-59d3-4732-bd39-825056c808f0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
