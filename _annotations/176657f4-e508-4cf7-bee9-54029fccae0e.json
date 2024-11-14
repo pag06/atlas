@@ -11,20 +11,10 @@ order: 6
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T10:26:46.759Z",
+            "modified": "2024-11-14T16:37:41.831Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Riflard rond (outil du charron)\n\n[...]"
-        },
-        {
-            "created": "2024-06-21T10:25:20.905Z",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "C1732*"
+            "value": "Riflard rond (outil du charron) [la pl\u02c8an\u0254 de tunelj\u02c8\u0254]"
         },
         {
             "created": "2024-06-21T10:25:57.085Z",
@@ -35,6 +25,17 @@ order: 6
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "L29"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q8925",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T16:37:59.480Z",
+            "modified": "2024-11-14T16:38:05.476Z"
         }
     ],
     "id": "176657f4-e508-4cf7-bee9-54029fccae0e.json",
