@@ -27,28 +27,31 @@ order: 2
             "value": "L21"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2796",
+            "created": "2023-08-26T13:46:51.619Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-26T13:46:51.619Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2796"
         }
     ],
     "id": "61d8e44b-53ab-411e-8392-53cad2131415.json",
     "motivation": "commenting",
     "target": {
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0337",
+            "type": "Canvas"
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1576.3,358.8 2650.6,365.9 2630.3,1056.2 2246.2,1052.6 2246.2,930.6 2050.1,930.6 2050.1,985.6 1583.5,973.7\"></polygon></svg>"
-        },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0337"
+            "value": "<svg><polygon points=\"1576.3,358.8 2621.7,365.5 2617,1053 2246.2,1052.6 2246.2,930.6 2050.1,930.6 2050.1,985.6 1583.5,973.7\"></polygon></svg>"
+        }
     },
     "type": "Annotation"
 }
