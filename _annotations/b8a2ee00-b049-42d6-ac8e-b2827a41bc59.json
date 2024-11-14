@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-27T12:20:23.997Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-27T12:20:25.572Z",
+            "modified": "2024-11-14T10:09:38.611Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le b\u00e2ti"
+            "value": "Char : le b\u00e2ti"
         },
         {
             "created": "2023-08-27T12:20:29.030Z",
@@ -29,12 +29,22 @@ order: 1
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q3622",
+            "value": "Q2043",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-27T13:31:51.190Z"
+            "created": "2024-11-14T10:09:53.628Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2112",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T10:10:02.713Z"
         }
     ],
     "id": "b8a2ee00-b049-42d6-ac8e-b2827a41bc59.json",
@@ -48,7 +58,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"503.5,489.4 1051.7,481.5 1056.7,1372.4 708.2,1372.3 620.8,1037.5 513.1,1034.6\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0338"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0338",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
