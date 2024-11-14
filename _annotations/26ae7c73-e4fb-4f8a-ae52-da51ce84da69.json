@@ -4,41 +4,47 @@ order: 4
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "L'int\u00e9rieur du four banal.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-12-18T15:24:18.277Z",
-            "modified": "2023-12-18T15:24:23.236Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-14T15:41:35.656Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "L'int\u00e9rieur du four banal (La Vaissi\u00e8re, Loz\u00e8re)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L25",
+            "created": "2023-12-18T15:24:28.040Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-18T15:24:28.040Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L25"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4816",
+            "created": "2023-12-18T15:24:36.586Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-18T15:24:36.586Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4816"
         }
     ],
+    "id": "26ae7c73-e4fb-4f8a-ae52-da51ce84da69.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=499.6594543457031,2104.571044921875,1147.0109558105469,760.445556640625"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -46,13 +52,7 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0360",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=499.6594543457031,2104.571044921875,1147.0109558105469,760.445556640625"
         }
     },
-    "id": "26ae7c73-e4fb-4f8a-ae52-da51ce84da69.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
