@@ -8,13 +8,13 @@ order: 5
         {
             "created": "2023-08-26T13:11:04.199Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-26T13:11:13.522Z",
+            "modified": "2024-11-14T09:52:50.492Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Attache des anneaux \u00e0 tringle m\u00e9tallique."
+            "value": "Joug : attache des anneaux \u00e0 tringle m\u00e9tallique."
         },
         {
             "created": "2023-08-26T13:11:16.520Z",
@@ -27,14 +27,24 @@ order: 5
             "value": "L6"
         },
         {
-            "created": "2023-08-26T13:11:22.211Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q540"
+            "purpose": "tagging",
+            "value": "Q270",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T09:53:15.440Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5774",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T09:53:22.624Z"
         }
     ],
     "id": "1596d70e-99c6-4c33-8b53-de8f880a0733.json",
@@ -48,7 +58,14 @@ order: 5
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"423.8,1389 1272.9,1389 1392.9,1523.5 1498.4,1529 1502,1609 1391.1,1612.6 1387.5,1945.3 1223.8,1943.5 1227.5,2221.7 429.3,2227.2\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0336"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0336",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
