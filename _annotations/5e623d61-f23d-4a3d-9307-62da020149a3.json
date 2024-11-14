@@ -8,13 +8,13 @@ order: 12
         {
             "created": "2023-08-27T13:24:47.070Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-27T13:24:54.843Z",
+            "modified": "2024-11-14T10:20:41.870Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Char \u00e0 timonettes."
+            "value": "Char \u00e0 timonettes (Chaldecoste, Loz\u00e8re)"
         },
         {
             "created": "2023-08-27T13:25:01.273Z",
@@ -27,14 +27,24 @@ order: 12
             "value": "L33"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3622",
+            "created": "2023-08-27T13:36:41.472Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-27T13:36:41.472Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3622"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2043",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T10:20:52.487Z"
         }
     ],
     "id": "5e623d61-f23d-4a3d-9307-62da020149a3.json",
@@ -48,7 +58,14 @@ order: 12
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"359.3,3141 524.2,3145.8 558.2,3257.4 1240,3274.4 1237.5,3495.2 1312.7,3500 1312.7,3732.9 352,3723.2\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0339"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0339",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
