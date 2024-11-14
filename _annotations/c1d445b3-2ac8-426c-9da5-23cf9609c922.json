@@ -4,41 +4,37 @@ order: 6
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Transport avec le chariot",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-11-26T22:07:48.570Z",
-            "modified": "2023-11-26T22:08:52.663Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-14T15:08:36.904Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Transport du lait avec le chariot"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L16",
+            "created": "2023-11-26T22:09:18.539Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-26T22:09:18.539Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "created": "2023-11-26T22:09:19.782Z"
+            "type": "TextualBody",
+            "value": "L16"
         }
     ],
+    "id": "c1d445b3-2ac8-426c-9da5-23cf9609c922.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1507.942138671875,1035.436279296875,1135.239013671875,872.498291015625"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -46,13 +42,7 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0357",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1507.942138671875,1035.436279296875,1135.239013671875,872.498291015625"
         }
     },
-    "id": "c1d445b3-2ac8-426c-9da5-23cf9609c922.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
