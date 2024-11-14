@@ -27,14 +27,25 @@ order: 1
             "value": "L25"
         },
         {
-            "created": "2023-08-24T20:52:28.314Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "C???"
+            "purpose": "tagging",
+            "value": "Q2144",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T08:28:40.967Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q7245",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T08:28:43.163Z",
+            "modified": "2024-11-14T08:28:46.038Z"
         }
     ],
     "id": "e5ef9819-979e-4f2f-aa83-a020f445b1d4.json",
