@@ -11,30 +11,41 @@ order: 3
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T10:26:37.644Z",
+            "modified": "2024-11-14T16:38:35.310Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Plane (outil du charron)\n\n[...]"
+            "value": "Plane (outil du charron) [lu parad'u]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L29",
+            "created": "2024-06-21T10:26:27.315Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T10:26:27.315Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L29"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C1735",
+            "created": "2024-06-21T10:26:31.420Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T10:26:31.420Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1735"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q7813",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T16:38:40.974Z",
+            "modified": "2024-11-14T16:38:51.509Z"
         }
     ],
     "id": "9964ab7e-bff7-45f3-bd24-e8de1e2bf6b1.json",
