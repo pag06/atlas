@@ -3,52 +3,59 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0334"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Lampes \u00e0 huile.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-25T07:44:33.887Z",
-            "modified": "2023-08-25T07:44:37.971Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L36",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-25T07:44:41.903Z"
+            "modified": "2023-08-25T07:44:37.971Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Lampes \u00e0 huile."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5903",
+            "created": "2023-08-25T07:44:41.903Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-25T07:44:54.736Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L36"
+        },
+        {
+            "created": "2023-08-25T07:44:54.736Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5903"
         }
     ],
+    "id": "323f29ae-f655-437c-b987-b58bdc558732.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0334",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"359.7326354980469,480.98626708984375 1448.15234375,474.37640380859375 1456.96533203125,1227.897705078125 1192.5718994140625,1227.897705078125 961.2276611328125,1320.4354248046875 736.4932861328125,1320.4354248046875 660.4801635742188,1376.6190185546875 386.1719665527344,1376.6190185546875 386.1719665527344,1377.720703125\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0334",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "323f29ae-f655-437c-b987-b58bdc558732.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
