@@ -3,52 +3,59 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346"
 order: 8
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "La herse est utilis\u00e9e dans les champs pour briser les mottes de terre, \u00e9galiser le terrain et couvrir les semis. Ce type d'herse est une armature en bois avec des pointes soit en bois soit en fer.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-09-05T21:39:58.217Z",
-            "modified": "2023-09-05T21:40:24.015Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-14T12:16:30.758Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Herse\nLa herse est utilis\u00e9e dans les champs pour briser les mottes de terre, \u00e9galiser le terrain et couvrir les semis. Ce type d'herse est une armature en bois avec les pointes en fer : encore en usage."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L26",
+            "created": "2023-09-05T21:40:37.910Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-05T21:40:37.910Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L26"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q5508",
+            "value": "Q5506",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-05T21:40:41.317Z"
+            "created": "2024-11-14T12:16:39.690Z"
         }
     ],
+    "id": "09ad5d27-57d8-4d06-8ee2-2fa48c49418e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"981.70361328125,1907.973876953125 1405.834716796875,2175.67236328125 1465.3232421875,2147.58056640625 1587.6051025390625,1835.2657470703125 1562.8182373046875,1774.124755859375 1290.16259765625,1564.2625732421875 1225.7166748046875,1574.17724609375 969.5855712890625,1833.61328125 970.687255859375,1834.1641845703125\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "09ad5d27-57d8-4d06-8ee2-2fa48c49418e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
