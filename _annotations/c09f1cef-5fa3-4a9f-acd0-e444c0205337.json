@@ -8,13 +8,13 @@ order: 8
         {
             "created": "2023-08-27T12:59:05.987Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-27T12:59:10.405Z",
+            "modified": "2024-11-14T10:18:45.238Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Char \u00e0 \u00e9chelette "
+            "value": "Char \u00e0 \u00e9chelette (ensemble)"
         },
         {
             "created": "2023-08-27T12:59:14.733Z",
@@ -27,14 +27,24 @@ order: 8
             "value": "L39"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3622",
+            "created": "2023-08-27T13:36:08.444Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-27T13:36:08.444Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3622"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2043",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T10:18:51.900Z"
         }
     ],
     "id": "c09f1cef-5fa3-4a9f-acd0-e444c0205337.json",
@@ -48,7 +58,14 @@ order: 8
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1852.9,1778.6 2465.6,1776.8 2462,2238.6 2158.3,2229.5 1996.5,2384.1 1867.4,2384.1\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0339"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0339",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
