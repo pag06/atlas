@@ -8,13 +8,13 @@ order: 7
         {
             "created": "2023-08-27T12:33:50.400Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-27T12:34:03.889Z",
+            "modified": "2024-11-14T10:12:54.052Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Char \u00e0 \u00e9chelette (vue lat\u00e9rale)"
+            "value": "Char \u00e0 \u00e9chelette (vue lat\u00e9rale) (Bourzey, Haute-Loire)"
         },
         {
             "created": "2023-08-27T12:34:07.905Z",
@@ -27,15 +27,25 @@ order: 7
             "value": "L2"
         },
         {
-            "type": "TextualBody",
-            "value": "Q3622",
-            "purpose": "tagging",
+            "created": "2023-08-27T13:34:13.066Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-27T13:34:13.066Z",
-            "modified": "2023-08-27T13:34:15.553Z"
+            "modified": "2023-08-27T13:34:15.553Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3622"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2043",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T10:12:23.758Z"
         }
     ],
     "id": "1d1c5684-df74-42b1-a310-104178898cf7.json",
@@ -49,7 +59,14 @@ order: 7
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"434.4,2059.2 612.4,2056.7 632.7,2234.6 1039.4,2239.7 1097.9,2071.9 1293.6,2079.5 1293.6,2163.4 1125.9,2529.5 1395.3,2682 1336.8,2778.6 749.6,2557.4 688.6,2651.5 553.9,2646.4 444.6,2389.7\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0338"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0338",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
