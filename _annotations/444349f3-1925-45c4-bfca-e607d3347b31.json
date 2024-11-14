@@ -3,61 +3,69 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0347"
 order: 14
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Araire \u00e0 timon s\u00e9par\u00e9 : enti\u00e8rement en bois (sauf le soc), il est rest\u00e9 jusque vers 1900 le seul instrument de labour. Il a disparu, ou tout au moins il n'est plus gu\u00e8re employ\u00e9 dans la Basse Ard\u00e8che et le Rouergue ; ailleurs il reste en usage pour certains travaux.",
+            "created": "2023-09-17T21:48:06.124Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "created": "2023-09-17T21:48:06.124Z"
+            "type": "TextualBody",
+            "value": "Araire \u00e0 timon s\u00e9par\u00e9\nEnti\u00e8rement en bois (sauf le soc), l'araire est rest\u00e9 jusque vers 1900 le seul instrument de labour. Il a disparu, ou tout au moins il n'est plus gu\u00e8re employ\u00e9 dans la Basse Ard\u00e8che et le Rouergue ; ailleurs il reste en usage pour certains travaux.",
+            "modified": "2024-11-14T12:53:32.055Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L8",
+            "created": "2023-09-17T21:48:14.190Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-17T21:48:14.190Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L8"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q354",
+            "created": "2023-09-17T21:48:17.132Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-17T21:48:17.132Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q354"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9975",
+            "created": "2023-09-17T21:48:19.458Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-09-17T21:48:19.458Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9975"
         }
     ],
+    "id": "444349f3-1925-45c4-bfca-e607d3347b31.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0347",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"394.8,2627.8 725.7,2861.7 803.9,2889.6 1256.6,2878.7 1263.9,2707.8 863.9,2711.4 438.4,2573.3 438.4,2573.3\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0347",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "444349f3-1925-45c4-bfca-e607d3347b31.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
