@@ -8,12 +8,13 @@ order: 12
         {
             "created": "2023-09-05T21:55:19.005Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "La herse est utilis\u00e9e dans les champs pour briser les mottes de terre, \u00e9galiser le terrain et couvrir les semis. Ce type d'herse est une armature en bois avec les pointes soit en bois soit en fer."
+            "value": "Herse\nLa herse est utilis\u00e9e dans les champs pour briser les mottes de terre, \u00e9galiser le terrain et couvrir les semis. Ce type d'herse est une armature en bois avec les pointes en fer : encore en usage.",
+            "modified": "2024-11-14T12:17:53.973Z"
         },
         {
             "created": "2023-09-05T21:55:55.141Z",
@@ -26,14 +27,14 @@ order: 12
             "value": "L25"
         },
         {
-            "created": "2023-09-05T21:55:58.863Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q5508"
+            "purpose": "tagging",
+            "value": "Q5506",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T12:18:03.741Z"
         }
     ],
     "id": "5d562265-b208-4992-9391-1c4f0aa8501a.json",
@@ -47,7 +48,14 @@ order: 12
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"393.4968566894531,2371.309814453125 694.0987548828125,1973.947509765625 1086.945556640625,2195.85107421875 968.89794921875,2393.2421875 934.0642700195312,2418.399658203125 934.0642700195312,2505.484130859375 841.1743774414062,2631.2724609375 392.2066650390625,2453.2333984375 393.4968566894531,2453.878662109375\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0346",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
