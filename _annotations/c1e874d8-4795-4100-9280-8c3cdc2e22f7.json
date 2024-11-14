@@ -3,52 +3,59 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0083"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Manteau de berger",
-            "purpose": "commenting",
-            "creator": {
-                "id": "sf7320",
-                "name": "Serena"
-            },
             "created": "2023-07-27T09:48:00.993Z",
-            "modified": "2023-07-27T09:48:13.392Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-14T16:14:29.593Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Manteau de berger [lu s\u02c8a\u0303je], en 1930"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6325",
+            "created": "2023-07-27T09:48:24.736Z",
             "creator": {
                 "id": "sf7320",
                 "name": "Serena"
             },
-            "created": "2023-07-27T09:48:24.736Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6325"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L24",
+            "created": "2023-07-27T09:48:41.944Z",
             "creator": {
                 "id": "sf7320",
                 "name": "Serena"
             },
-            "created": "2023-07-27T09:48:41.944Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
         }
     ],
+    "id": "c1e874d8-4795-4100-9280-8c3cdc2e22f7.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0083",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2376.10009765625,3107.680419921875 2233.140625,3202.58642578125 2192.294921875,3949.8203125 2651.207275390625,3961.833740234375 2628.006103515625,3156.597412109375 2571.693359375,3140.829833984375\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0083",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c1e874d8-4795-4100-9280-8c3cdc2e22f7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
