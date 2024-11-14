@@ -11,10 +11,10 @@ order: 15
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-14T10:30:55.005Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Char \u00e0 ridelles",
-            "modified": "2024-11-14T10:30:55.005Z"
+            "value": "Char \u00e0 ridelles"
         },
         {
             "created": "2023-08-29T15:34:35.378Z",
@@ -37,27 +37,19 @@ order: 15
             "value": "Q8921"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2043",
+            "created": "2024-11-14T10:31:03.723Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-14T10:31:03.723Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2043"
         }
     ],
     "id": "666d15f1-1ec6-425f-bb78-a63645725350.json",
     "motivation": "commenting",
     "target": {
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1373.5,3367.2 2062.6,3375.6 2066.2,3764.7 2331.7,3881.7 2332.9,3968.4 2299,3965.3 1946.2,3814.4 1895.3,3849 1640.8,3847.2 1591.7,3923.5 1384.4,3919.9 1382.6,3918.1\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -65,6 +57,10 @@ order: 15
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0340",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1373.5,3367.2 2062.6,3375.6 2066.2,3764.7 2326.8,3894.7 2332.9,3968.4 2299,3965.3 1946.2,3814.4 1895.3,3849 1640.8,3847.2 1591.7,3923.5 1384.4,3919.9 1382.6,3918.1\"></polygon></svg>"
         }
     },
     "type": "Annotation"
