@@ -11,10 +11,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T10:24:48.888Z",
+            "modified": "2024-11-14T16:35:02.905Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Tari\u00e8re (outil du charron)\n\n[...]"
+            "value": "Tari\u00e8re (outil du charron) [la tarab\u02c8\u025bl\u0254]"
         },
         {
             "created": "2023-07-28T07:23:40.505Z",
@@ -36,6 +36,16 @@ order: 2
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "C1736"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9785",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T16:35:46.257Z"
         }
     ],
     "id": "bbfce3b3-309f-4d80-a368-76b6da973dce.json",
