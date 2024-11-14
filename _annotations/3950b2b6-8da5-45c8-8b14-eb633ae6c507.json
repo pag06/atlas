@@ -4,51 +4,56 @@ order: 11
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Araire \u00e0 timon s\u00e9par\u00e9 (arri\u00e8re) : enti\u00e8rement en bois (sauf le soc), il est rest\u00e9 jusque vers 1900 le seul instrument de labour. Il a disparu, ou tout au moins il n'est plus gu\u00e8re employ\u00e9 dans la Basse Ard\u00e8che et le Rouergue ; ailleurs il reste en usage pour certains travaux.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-10-19T17:41:45.202Z",
-            "modified": "2023-10-19T17:41:54.499Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-14T13:02:05.053Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Araire \u00e0 timon s\u00e9par\u00e9 (arri\u00e8re)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L4",
+            "created": "2023-10-19T17:42:01.258Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-19T17:42:01.258Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L4"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q354",
+            "created": "2023-10-19T17:42:03.342Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-19T17:42:03.342Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q354"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9975",
+            "created": "2023-10-19T17:42:05.844Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-10-19T17:42:05.844Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9975"
         }
     ],
+    "id": "3950b2b6-8da5-45c8-8b14-eb633ae6c507.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1788.93994140625,2388.980224609375 2186.6318359375,2549.819580078125 2183.326904296875,2630.2392578125 2274.212158203125,2704.599853515625 2603.05126953125,2583.97021484375 2684.021728515625,2456.73095703125 2631.14306640625,2417.072021484375 2460.93994140625,2388.980224609375 2327.0908203125,2456.73095703125 1816.48095703125,2332.796630859375\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -56,12 +61,7 @@ order: 11
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0348",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1788.93994140625,2388.980224609375 2186.6318359375,2549.819580078125 2183.326904296875,2630.2392578125 2274.212158203125,2704.599853515625 2603.05126953125,2583.97021484375 2684.021728515625,2456.73095703125 2631.14306640625,2417.072021484375 2460.93994140625,2388.980224609375 2327.0908203125,2456.73095703125 1816.48095703125,2332.796630859375\"></polygon></svg>"
         }
     },
-    "id": "3950b2b6-8da5-45c8-8b14-eb633ae6c507.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
