@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-26T13:34:17.824Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-26T13:34:27.468Z",
+            "modified": "2024-11-14T10:00:40.453Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Anneau et attache en cuir "
+            "value": "Anneaux et attache en cuir "
         },
         {
             "created": "2023-08-26T13:34:30.280Z",
@@ -60,7 +60,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=480.4969787597656,334.8431396484375,892.4458312988281,466.5601806640625"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0337"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0337",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
