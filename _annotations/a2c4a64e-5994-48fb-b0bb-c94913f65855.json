@@ -11,10 +11,10 @@ order: 7
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-14T08:09:56.862Z",
+            "modified": "2024-11-14T08:14:22.228Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Potager."
+            "value": "Potager\nLe 'potager' est un r\u00e9chaud \u00e0 charbon de bois. Il est fait d'une grande dalle de pierre, perfor\u00e9e de plusieurs trous de la dimension d'un plat, dont le fond est ferm\u00e9 par une grille. Sous la dalle, pos\u00e9e \u00e0 hauteur d'une table, s'ouvre une excavation servant de cendrier. Ce potager a \u00e9t\u00e9 am\u00e9nag\u00e9 dans l'embrasure d'une fen\u00eatre."
         },
         {
             "created": "2023-08-23T22:46:59.068Z",
@@ -37,15 +37,15 @@ order: 7
             "value": "C784"
         },
         {
-            "type": "TextualBody",
-            "value": "Q8644",
-            "purpose": "tagging",
+            "created": "2024-11-14T08:10:09.861Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-14T08:10:09.861Z",
-            "modified": "2024-11-14T08:10:14.663Z"
+            "modified": "2024-11-14T08:10:14.663Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8644"
         }
     ],
     "id": "a2c4a64e-5994-48fb-b0bb-c94913f65855.json",
