@@ -21,20 +21,20 @@ order: 11
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-14T09:12:00.302Z",
+            "modified": "2024-11-14T09:12:36.354Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Bassinoire"
+            "value": "Bassinoire ("
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2149",
+            "created": "2024-11-14T09:12:14.634Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-14T09:12:14.634Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2149"
         }
     ],
     "id": "5f9de74a-4f33-4e49-97d5-cc32f8d8ae04.json",
