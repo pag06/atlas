@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-08-24T20:53:08.751Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-24T20:53:17.999Z",
+            "modified": "2024-11-14T08:39:50.204Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Par rang de taille : [...]"
+            "value": "Chaudrons et marmites. Par rang de taille : [lu pi\u02b2r\u02c8\u0254], [la pi\u02b2r\u02c8\u0254\u0281a], [lu pi\u02b2ru\u0281\u02c8e], [l 'u\u0281a]"
         },
         {
             "created": "2023-08-24T20:53:24.749Z",
@@ -27,19 +27,45 @@ order: 3
             "value": "L24"
         },
         {
-            "created": "2023-08-24T20:53:26.689Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "C???"
+            "purpose": "tagging",
+            "value": "Q6379",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T08:40:02.419Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2144",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T08:40:08.352Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q7245",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T08:40:10.183Z",
+            "modified": "2024-11-14T08:40:13.818Z"
         }
     ],
     "id": "e7d19ab5-0cce-4355-9520-5d55d5e2d074.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=390.7066955566406,1251.97509765625,1026.6182556152344,705.8262939453125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -47,11 +73,6 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0332",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=390.7066955566406,1251.97509765625,1026.6182556152344,705.8262939453125"
         }
     },
     "type": "Annotation"
