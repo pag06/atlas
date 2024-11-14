@@ -45,6 +45,16 @@ order: 4
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "Char \u00e0 \u00e9chelettes et \u00e0 ridelles"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2043",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T10:24:17.531Z"
         }
     ],
     "id": "61428a29-5112-40fc-bd4e-5f5db6563e41.json",
@@ -58,7 +68,14 @@ order: 4
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"667.5939331054688,1074.814208984375 950.7152099609375,1077.017578125 960.6299438476562,1934.6436767578125 805.298828125,1936.2960205078125 782.1643676757812,1860.282958984375 557.4299926757812,1863.587890625 537.6005249023438,1949.5157470703125 448.36773681640625,1951.168212890625 440.1054382324219,1602.4993896484375 483.0693664550781,1511.6141357421875 479.7644348144531,1377.7650146484375 646.6627807617188,1374.4600830078125 646.6627807617188,1374.4600830078125\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0340"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0340",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
