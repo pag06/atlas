@@ -8,24 +8,24 @@ order: 1
         {
             "created": "2023-07-27T16:10:51.586Z",
             "creator": {
-                "id": "sf7320",
-                "name": "Serena"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-27T16:11:06.634Z",
+            "modified": "2024-11-14T16:07:53.308Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "types de sabots en Haute-Loire"
+            "value": "Types de sabots en Haute-Loire\nA - [eskl\u02c8\u0254 muru]\nB - [eskl\u02c8\u0254 pu\u0303c\u02c8y] (pour hommes)\nC - [eskl\u02c8\u0254 pu\u0303c\u02c8y]], avec brides (pour femmes)\nD - sabots de fabrique ; actuellement ils sont livr\u00e9s sous cette forme aux sabotiers pour le finissage."
         },
         {
             "created": "2023-07-27T21:16:31.731Z",
             "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-27T21:20:06.867Z",
+            "modified": "2024-11-14T16:06:27.613Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "A - [...]\nB - [...] (pour hommes)\nC - [...], avec brides (pour femmes)\nD - sabots de fabrique ; actuellement ils sont livr\u00e9s sous cette forme aux sabotiers pour le finissage."
+            "value": ""
         },
         {
             "created": "2023-07-27T21:20:55.564Z",
@@ -89,7 +89,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2681.9,3270.2 2227.3,3269.3 1829.1,3278.4 1780,3483.8 1705.5,3665.6 1811,3871.1 2024.6,3913.8 2197.3,3922 2463.7,3922 2689.1,3802.9 2694.6,3585.6\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0074"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0074",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
