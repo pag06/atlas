@@ -4,61 +4,66 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Panier pour le march\u00e9",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-11-09T21:13:17.683Z",
-            "modified": "2023-11-09T21:13:21.006Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L24",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-09T21:13:25.879Z"
+            "modified": "2023-11-09T21:13:21.006Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Panier pour le march\u00e9"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L26",
+            "created": "2023-11-09T21:13:25.879Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-09T21:13:29.740Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L27",
+            "created": "2023-11-09T21:13:29.740Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-09T21:13:31.594Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L26"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7290",
+            "created": "2023-11-09T21:13:31.594Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-09T21:14:27.741Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L27"
+        },
+        {
+            "created": "2023-11-09T21:14:27.741Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7290"
         }
     ],
+    "id": "5ab63011-d5b3-4aab-9e84-cf6426df690b.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1285.6458740234375,916.0660400390625 1284.544189453125,1070.2955322265625 1163.9146728515625,1069.19384765625 1074.131103515625,1155.1217041015625 1095.613037109375,1208.0003662109375 1259.2064208984375,1356.7216796875 1589.6981201171875,1488.9183349609375 1768.1636962890625,1492.2232666015625 1909.724365234375,1380.9576416015625 1916.334228515625,1045.5084228515625 1799.0096435546875,921.5740966796875 1610.6292724609375,829.036376953125 1460.255615234375,822.4265747070312\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -66,12 +71,7 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0355",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1285.6458740234375,916.0660400390625 1284.544189453125,1070.2955322265625 1163.9146728515625,1069.19384765625 1074.131103515625,1155.1217041015625 1095.613037109375,1208.0003662109375 1259.2064208984375,1356.7216796875 1589.6981201171875,1488.9183349609375 1768.1636962890625,1492.2232666015625 1909.724365234375,1380.9576416015625 1916.334228515625,1045.5084228515625 1799.0096435546875,921.5740966796875 1610.6292724609375,829.036376953125 1460.255615234375,822.4265747070312\"></polygon></svg>"
         }
     },
-    "id": "5ab63011-d5b3-4aab-9e84-cf6426df690b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
