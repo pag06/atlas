@@ -3,73 +3,80 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0331"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\u00e2tre remplac\u00e9 par le fourneau et la chaudi\u00e8re ; mur de la chemin\u00e9e en partie carrel\u00e9.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-23T22:35:57.665Z",
-            "modified": "2023-08-23T22:36:40.438Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-14T08:04:26.339Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "\u00c2tre remplac\u00e9 par le fourneau et la chaudi\u00e8re ; mur de la chemin\u00e9e en partie carrel\u00e9."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L21",
+            "created": "2023-08-23T22:37:17.961Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T22:37:17.961Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L21"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2143",
+            "created": "2023-08-23T22:37:27.577Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T22:37:27.577Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2143"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6847",
+            "created": "2023-08-23T22:38:11.357Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T22:38:11.357Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6847"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2187",
+            "created": "2023-08-23T22:38:36.358Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-23T22:38:36.358Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2187"
         }
     ],
+    "id": "5ec6ee68-be66-4e16-b085-52f4ebce2ee7.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0331",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=476.9552001953125,1337.2059326171875,887.0421142578125,644.312744140625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=476.9552001953125,1337.2059326171875,887.0421142578125,644.312744140625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0331",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5ec6ee68-be66-4e16-b085-52f4ebce2ee7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
