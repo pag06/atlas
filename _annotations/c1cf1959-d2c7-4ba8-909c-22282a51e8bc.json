@@ -3,63 +3,59 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0336"
 order: 16
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Joug",
-            "purpose": "questioning",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-26T13:31:28.013Z",
-            "modified": "2023-08-26T13:32:47.614Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L35",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-26T13:31:40.546Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C5774",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "created": "2023-08-26T13:31:46.081Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Faut-il ajout\u00e9 tonneau \u00e0 la l\u00e9gende ?",
+            "modified": "2024-11-14T09:59:59.712Z",
             "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Joug"
+        },
+        {
+            "created": "2023-08-26T13:31:40.546Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-26T13:32:35.192Z",
-            "modified": "2023-08-26T13:32:44.780Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L35"
+        },
+        {
+            "created": "2023-08-26T13:31:46.081Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C5774"
         }
     ],
+    "id": "c1cf1959-d2c7-4ba8-909c-22282a51e8bc.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0336",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1732.9,3424.9 2701,3424.9 2703.4,3765.7 2480.9,3765.7 2485.6,3981.1 1737.6,3990.6\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0336",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c1cf1959-d2c7-4ba8-909c-22282a51e8bc.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
