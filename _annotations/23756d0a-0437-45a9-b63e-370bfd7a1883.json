@@ -4,41 +4,46 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Meule de gerbes coniques.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-11-10T14:25:01.992Z",
-            "modified": "2023-11-10T14:25:08.357Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L24",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-10T14:25:14.242Z"
+            "modified": "2023-11-10T14:25:08.357Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Meule de gerbes coniques."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6576",
+            "created": "2023-11-10T14:25:14.242Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-11-10T14:26:02.033Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L24"
+        },
+        {
+            "created": "2023-11-10T14:26:02.033Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6576"
         }
     ],
+    "id": "23756d0a-0437-45a9-b63e-370bfd7a1883.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2096.9,1108.8 2096.9,1545 2676.9,1548.3 2678.5,963.3 2364.6,958.4 2260.5,1049.3\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -46,12 +51,7 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0354",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2096.9,1108.8 2096.9,1545 2676.9,1548.3 2678.5,963.3 2364.6,958.4 2260.5,1049.3\"></polygon></svg>"
         }
     },
-    "id": "23756d0a-0437-45a9-b63e-370bfd7a1883.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
