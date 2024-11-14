@@ -27,25 +27,20 @@ order: 8
             "value": "L32"
         },
         {
-            "type": "TextualBody",
-            "value": "Q5889",
-            "purpose": "tagging",
+            "created": "2024-11-14T15:23:48.604Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-14T15:23:48.604Z",
-            "modified": "2024-11-14T15:23:51.292Z"
+            "modified": "2024-11-14T15:23:51.292Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5889"
         }
     ],
     "id": "ea6505ed-75fa-48f9-b3b1-381581f7f0cf.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "type": "FragmentSelector",
-            "value": "xywh=1405.5787353515625,2909.73193359375,1212.9046630859375,787.672119140625"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -53,6 +48,11 @@ order: 8
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0357",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1405.5787353515625,2909.73193359375,1208.3150634765625,783.1640625"
         }
     },
     "type": "Annotation"
