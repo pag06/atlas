@@ -8,13 +8,13 @@ order: 4
         {
             "created": "2023-11-26T22:04:26.081Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-11-26T22:04:30.970Z",
+            "modified": "2024-11-14T15:07:47.078Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "L\u00e9gende ???"
+            "value": "Selle \u00e0 traire et seau"
         },
         {
             "created": "2023-11-26T22:04:34.977Z",
@@ -27,19 +27,33 @@ order: 4
             "value": "L16"
         },
         {
-            "created": "2023-11-26T22:04:37.081Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q???"
+            "purpose": "tagging",
+            "value": "Q9275",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T15:07:59.844Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9710",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T15:08:06.653Z"
         }
     ],
     "id": "e04335c7-d886-4755-9908-0899ac2ff526.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"530.8,1315.6 520.6,1966.6 427,2013.5 423.7,2061.4 693,2076.3 866.5,2076.3 871.5,1721 817,1630.1 815.3,1127.7 663.3,1126.1\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -47,10 +61,6 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0357",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"530.8,1315.6 520.6,1966.6 427,2013.5 423.7,2061.4 693,2076.3 866.5,2076.3 871.5,1721 817,1630.1 815.3,1127.7 663.3,1126.1\"></polygon></svg>"
         }
     },
     "type": "Annotation"
