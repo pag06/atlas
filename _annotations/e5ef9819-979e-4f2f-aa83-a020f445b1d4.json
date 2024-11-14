@@ -11,10 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-14T08:35:59.469Z",
+            "modified": "2024-11-14T08:28:22.319Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Chaudrons et marmite (de gauche \u00e0 droite [lu pi\u02b2r\u02c8\u0254\u0281], [l 'u\u0281a], [la pi\u02b2r\u02c8\u0254\u0281a])"
+            "value": "Chaudrons (de gauche \u00e0 droite [lu pi\u02b2r\u02c8\u0254\u0281], [l 'u\u0281a], [la pi\u02b2r\u02c8\u0254\u0281a])"
         },
         {
             "created": "2023-08-24T20:49:35.438Z",
@@ -46,30 +46,11 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q7245"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6379",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
-            "created": "2024-11-14T08:36:19.518Z"
         }
     ],
     "id": "e5ef9819-979e-4f2f-aa83-a020f445b1d4.json",
     "motivation": "commenting",
     "target": {
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        },
-        "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "type": "FragmentSelector",
-            "value": "xywh=349.0931701660156,472.70892333984375,1181.7554626464844,547.0277099609375"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -77,6 +58,11 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0332",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=364.3233337402344,472.70892333984375,1166.5252990722656,538.39501953125"
         }
     },
     "type": "Annotation"
