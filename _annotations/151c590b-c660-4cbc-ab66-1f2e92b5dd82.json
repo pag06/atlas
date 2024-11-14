@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-08-26T12:24:56.743Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-26T12:25:13.338Z",
+            "modified": "2024-11-14T09:38:10.205Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Pompe en bois (sauf le piston)"
+            "value": "Pompe en bois (sauf le piston)\nLes puits sont rares dans la r\u00e9gion."
         },
         {
             "created": "2023-08-26T12:25:17.974Z",
@@ -27,14 +27,14 @@ order: 3
             "value": "L25"
         },
         {
-            "created": "2023-08-26T12:27:06.754Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q8659"
+            "purpose": "tagging",
+            "value": "Q8361",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T09:37:50.589Z"
         }
     ],
     "id": "151c590b-c660-4cbc-ab66-1f2e92b5dd82.json",
