@@ -27,38 +27,29 @@ order: 6
             "value": "Atteloire en bois"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2242",
+            "created": "2024-11-14T10:03:38.244Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-14T10:03:38.244Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2242"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5774",
+            "created": "2024-11-14T10:03:45.940Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-14T10:03:45.940Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5774"
         }
     ],
     "id": "a4c6fddb-2cbd-4204-b7c9-2be09ef86c86.json",
     "motivation": "commenting",
     "target": {
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
-            "type": "Manifest"
-        },
-        "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "type": "FragmentSelector",
-            "value": "xywh=1519.182373046875,1889.529541015625,1099.649169921875,815.338134765625"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -66,6 +57,11 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0337",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1519.182373046875,1891.0670166015625,1082.295654296875,813.8006591796875"
         }
     },
     "type": "Annotation"
