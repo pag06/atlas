@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-08-24T21:20:55.982Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-24T21:45:52.824Z",
+            "modified": "2024-11-14T09:01:26.580Z",
             "purpose": "questioning",
             "type": "TextualBody",
-            "value": "Chauffe-pieds : il est utilis\u00e9 par les femmes et se pr\u00e9sente ainsi : un petit coffre en t\u00f4le que l'on remplit de braise et de charbon de bois. Il est muni d'une anse et d'un couvercle perfor\u00e9 d'orifices qui s'intercalent entre des baguettes de bois sur lesquelles reposent les pieds."
+            "value": "Bassinoire et chauffe-pieds\nLe chauffe-pieds est un petit coffre en t\u00f4le que l'on remplit de braise et de charbon de bois. Il est muni d'une anse et d'un couvercle perfor\u00e9 d'orifices qui s'intercalent entre des baguettes de bois sur lesquelles reposent les pieds. La bassinoire \u00e9tait le chauffe-lit des riches, c'est une bassine cylindrique en cuivre rouge dont la surface sup\u00e9rieure pr\u00e9sente une large ouverture circulaire par o\u00f9 on versait la braise. On trouve aussi des bassinoires dont la face sup\u00e9rieure est un couvercle amovible, perfor\u00e9 d'ouvertures en disposition g\u00e9om\u00e9trique."
         },
         {
             "created": "2023-08-24T21:21:35.167Z",
@@ -46,6 +46,16 @@ order: 2
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "Quel est l'objet \u00e0 gauche ?"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2149",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T09:01:12.379Z"
         }
     ],
     "id": "7fc0e436-7748-4e9b-8a0f-49992bfbf522.json",
