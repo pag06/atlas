@@ -37,14 +37,14 @@ order: 11
             "value": "Q540"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q270",
+            "created": "2024-11-14T09:55:33.891Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-14T09:55:33.891Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q270"
         }
     ],
     "id": "27caf27c-427f-43e4-bb0e-25b83eb8bfa7.json",
