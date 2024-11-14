@@ -8,13 +8,13 @@ order: 12
         {
             "created": "2023-11-08T08:58:40.189Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-11-08T09:33:06.043Z",
+            "modified": "2024-11-14T14:00:11.235Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Fl\u00e9au, d\u00e9tails : \n\n1. manche\n\n2. douille : partie qui enserre le sommet du manche o\u00f9 s'enfonce le clou.\n\n3. clou\n\n4. boucle\n \n5. courroie : unit le battoir au manche, en reliant : \n- la boucle \u00e0 la 'chape' du battoir ;\n- la boucle \u00e0 un trou au sommet du battoir ;\n- la 'chape' du manche au trou du battoir ;\n- la 'chape' du manche \u00e0 la 'chape' du battoir.\n\n6. 'chape' : coiffe le battoir et forme une boucle au sommet. C'est : \n- soit une lani\u00e8re de bois, li\u00e9e au battoir par un anneau ; \n- soir une lani\u00e8re de cuir, ligatur\u00e9e ou clou\u00e9e au battoir.\n\n7. anneau : enserre la 'chape' en bois autour du battoir.\n\n8. battoir : il est en bois dur et lourd ; sa longueur est inf\u00e9rieure \u00e0 la moiti\u00e9 du manche pour le battage en grange, \u00e9gale ou sup\u00e9rieure aux 2/3 du manche pour le battage en plein air. "
+            "value": "Fl\u00e9au, d\u00e9tails : \n\n1. manche\n2. douille : partie qui enserre le sommet du manche o\u00f9 s'enfonce le clou.\n3. clou\n4. boucle\n 5. courroie : unit le battoir au manche, en reliant : \n- la boucle \u00e0 la 'chape' du battoir ;\n- la boucle \u00e0 un trou au sommet du battoir ;\n- la 'chape' du manche au trou du battoir ;\n- la 'chape' du manche \u00e0 la 'chape' du battoir.\n6. 'chape' : coiffe le battoir et forme une boucle au sommet. C'est : \n- soit une lani\u00e8re de bois, li\u00e9e au battoir par un anneau ; \n- soir une lani\u00e8re de cuir, ligatur\u00e9e ou clou\u00e9e au battoir.\n\n7. anneau : enserre la 'chape' en bois autour du battoir.\n\n8. battoir : il est en bois dur et lourd ; sa longueur est inf\u00e9rieure \u00e0 la moiti\u00e9 du manche pour le battage en grange, \u00e9gale ou sup\u00e9rieure aux 2/3 du manche pour le battage en plein air. "
         },
         {
             "created": "2023-11-08T08:58:59.596Z",
@@ -111,6 +111,10 @@ order: 12
     "id": "7ef44362-93c0-48a1-bfeb-55f15b55022f.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1248.4,2159.4 1246.2,2428.2 1260.6,2584.8 1288.5,2965 1555.5,2952.6 1687.4,2947 1814.6,2948.7 1824.5,2368.7 1867.5,2213.3 1824.5,2134 1294.1,2130.7\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -118,10 +122,6 @@ order: 12
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0353",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1248.4,2159.4 1246.2,2428.2 1260.6,2584.8 1288.5,2965 1555.5,2952.6 1687.4,2947 1814.6,2948.7 1824.5,2368.7 1867.5,2213.3 1824.5,2134 1294.1,2130.7\"></polygon></svg>"
         }
     },
     "type": "Annotation"
