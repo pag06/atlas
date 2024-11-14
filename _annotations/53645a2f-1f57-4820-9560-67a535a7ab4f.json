@@ -4,51 +4,56 @@ order: 7
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Une tourte dans la maie, des panetons sur le couvercle.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-12-18T16:10:12.841Z",
-            "modified": "2023-12-18T16:10:25.596Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L25",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-18T16:10:32.265Z"
+            "modified": "2023-12-18T16:10:25.596Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Une tourte dans la maie, des panetons sur le couvercle."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10143",
+            "created": "2023-12-18T16:10:32.265Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-18T16:10:54.890Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L25"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7274",
+            "created": "2023-12-18T16:10:54.890Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-18T16:11:05.004Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10143"
+        },
+        {
+            "created": "2023-12-18T16:11:05.004Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7274"
         }
     ],
+    "id": "53645a2f-1f57-4820-9560-67a535a7ab4f.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"514.2,3173.8 668.4,3472.4 971.9,3596.9 1095.9,3653 1099.2,3745.6 1330.5,3755.5 1535.4,3567.1 1548.6,3230 1471,3197 1472.6,2997 1115.7,2993.7 1074.4,2922.7 874.4,2922.7 821.6,3011.9\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -56,12 +61,7 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0360",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"514.2,3173.8 668.4,3472.4 971.9,3596.9 1095.9,3653 1099.2,3745.6 1330.5,3755.5 1535.4,3567.1 1548.6,3230 1471,3197 1472.6,2997 1115.7,2993.7 1074.4,2922.7 874.4,2922.7 821.6,3011.9\"></polygon></svg>"
         }
     },
-    "id": "53645a2f-1f57-4820-9560-67a535a7ab4f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
