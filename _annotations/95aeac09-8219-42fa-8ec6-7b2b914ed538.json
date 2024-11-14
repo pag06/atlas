@@ -8,13 +8,13 @@ order: 11
         {
             "created": "2023-08-26T12:52:29.680Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-26T12:55:11.534Z",
-            "purpose": "questioning",
+            "modified": "2024-11-14T09:46:05.360Z",
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Chaudron en cuivre"
+            "value": "Chaudron en cuivre [et casse \u00e0 eau]"
         },
         {
             "created": "2023-08-26T12:52:34.002Z",
@@ -27,14 +27,24 @@ order: 11
             "value": "L24"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2144",
+            "created": "2023-08-26T12:55:24.022Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-26T12:55:24.022Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2144"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8659",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T09:46:24.628Z"
         }
     ],
     "id": "95aeac09-8219-42fa-8ec6-7b2b914ed538.json",
@@ -48,7 +58,14 @@ order: 11
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"324.9,3274.9 819.5,3280.3 1003.1,3494.9 1304.9,3505.8 1303.1,3767.6 935.8,3764 877.6,3691.3 794,3689.4 721.3,3756.7 308.6,3751.3\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0335"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0335",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
