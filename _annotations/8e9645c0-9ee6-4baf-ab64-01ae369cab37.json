@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0334"
 order: 9
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Lanterne, lampe \u00e0 huile (cuivre)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-25T21:35:59.344Z",
-            "modified": "2023-08-25T21:36:11.627Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L17",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-25T21:36:16.145Z"
+            "modified": "2023-08-25T21:36:11.627Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Lanterne, lampe \u00e0 huile (cuivre)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5921",
+            "created": "2023-08-25T21:36:16.145Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-25T21:36:19.331Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L17"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5903",
+            "created": "2023-08-25T21:36:19.331Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-25T21:36:36.797Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5921"
+        },
+        {
+            "created": "2023-08-25T21:36:36.797Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5903"
         }
     ],
+    "id": "8e9645c0-9ee6-4baf-ab64-01ae369cab37.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0334",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1902.8746337890625,2054.505126953125,795.3836669921875,852.6689453125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1902.8746337890625,2054.505126953125,795.3836669921875,852.6689453125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0334",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "8e9645c0-9ee6-4baf-ab64-01ae369cab37.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
