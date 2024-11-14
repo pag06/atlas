@@ -60,11 +60,6 @@ order: 9
     "id": "ccf7479d-59d3-4732-bd39-825056c808f0.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "type": "FragmentSelector",
-            "value": "xywh=1394.64404296875,2002.125244140625,1221.1669921875,598.03515625"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -72,6 +67,11 @@ order: 9
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0357",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1395.602783203125,2002.125244140625,1220.208251953125,886.85400390625"
         }
     },
     "type": "Annotation"
