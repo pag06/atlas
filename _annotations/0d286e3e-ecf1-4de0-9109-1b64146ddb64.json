@@ -8,13 +8,13 @@ order: 4
         {
             "created": "2023-08-24T21:41:21.284Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-24T21:42:43.687Z",
+            "modified": "2024-11-14T09:10:11.090Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Chauffe-pieds : il est utilis\u00e9 par les femmes et celui-ci comporte deux pi\u00e8ces : l'une est une petite caisse en bois dont la face sup\u00e9rieure est ferm\u00e9e par des barreaux, tandis qu'une face lat\u00e9rale reste b\u00e9ante. Par cette ouverture, on introduit dans la caisse un r\u00e9cipient \u00e0 feu rempli de braise."
+            "value": "Chauffe-pieds\nC'est une petite caisse en bois dont la face sup\u00e9rieure est ferm\u00e9e par des barreaux, tandis qu'une face lat\u00e9rale reste b\u00e9ante. Par cette ouverture, on introduit dans la caisse un r\u00e9cipient \u00e0 feu rempli de braise."
         },
         {
             "created": "2023-08-24T21:41:28.125Z",
@@ -49,7 +49,14 @@ order: 4
             "type": "FragmentSelector",
             "value": "xywh=1859.3363037109375,1251.461669921875,399.0343017578125,320.1043701171875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0333"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0333",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
