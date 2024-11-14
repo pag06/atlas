@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-11-26T21:58:29.325Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-11-26T21:58:32.570Z",
+            "modified": "2024-11-14T15:05:56.963Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Transport de la gerle"
+            "value": "Transport de la gerle 'caill\u00e8re'"
         },
         {
             "created": "2023-11-26T21:58:40.290Z",
@@ -27,19 +27,25 @@ order: 2
             "value": "L17"
         },
         {
-            "created": "2023-11-26T21:59:30.579Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q???"
+            "value": "Q1661",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T15:06:04.854Z",
+            "modified": "2024-11-14T15:06:07.233Z"
         }
     ],
     "id": "95b5960f-6765-4afa-9860-1976ca2b227e.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1698.9285888671875,363.9250183105469,824.9512939453125,488.8786926269531"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
@@ -47,11 +53,6 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0357",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1698.9285888671875,363.9250183105469,824.9512939453125,488.8786926269531"
         }
     },
     "type": "Annotation"
