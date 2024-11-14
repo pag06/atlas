@@ -45,6 +45,16 @@ order: 3
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "Anneaux en cuir, attache en fer."
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5774",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-14T10:02:33.691Z"
         }
     ],
     "id": "24e30b08-6021-4265-ad2d-1365a6d70134.json",
