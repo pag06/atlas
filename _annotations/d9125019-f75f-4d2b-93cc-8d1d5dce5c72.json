@@ -37,45 +37,55 @@ order: 2
             "value": "Q5442"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L650",
+            "created": "2024-11-15T12:25:41.980Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-15T12:25:41.980Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L650"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L664",
+            "created": "2024-11-15T12:25:48.100Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-15T12:25:48.100Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L664"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L681N",
+            "created": "2024-11-15T12:25:55.059Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-15T12:25:55.059Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L681N"
         },
         {
-            "type": "TextualBody",
-            "value": "L665S",
-            "purpose": "tagging",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
             "created": "2024-11-15T12:25:58.007Z",
-            "modified": "2024-11-15T12:26:00.748Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-15T12:26:00.748Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L665S"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L675N",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-15T12:26:16.438Z"
         }
     ],
     "id": "d9125019-f75f-4d2b-93cc-8d1d5dce5c72.json",
