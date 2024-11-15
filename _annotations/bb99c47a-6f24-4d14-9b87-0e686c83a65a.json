@@ -3,50 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0025"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L698",
+            "created": "2023-09-20T14:33:16.831Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-20T14:33:16.831Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L698"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C235",
+            "created": "2023-09-20T14:33:51.630Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-20T14:33:51.630Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C235"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-09-20T14:33:53.254Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-20T14:33:53.254Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "R\u00e9cipient de bois servant \u00e0 mesurer.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-20T14:33:57.056Z",
-            "modified": "2023-09-20T14:35:58.191Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-20T14:35:58.191Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "R\u00e9cipient de bois servant \u00e0 mesurer."
         }
     ],
+    "id": "bb99c47a-6f24-4d14-9b87-0e686c83a65a.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -58,10 +60,8 @@ order: 1
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1248.956787109375,1897.945068359375 1902.707763671875,1908.2811279296875 1884.6197509765625,2321.720458984375 1768.3399658203125,2347.560302734375 1677.900146484375,2445.752197265625 1310.97265625,2381.15234375\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1249,1897.9 1902.7,1908.3 1884.6,2321.7 1768.3,2347.6 1677.9,2445.8 1238.6,2379.7\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "bb99c47a-6f24-4d14-9b87-0e686c83a65a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
