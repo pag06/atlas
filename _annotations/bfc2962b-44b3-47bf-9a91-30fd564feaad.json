@@ -3,50 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0147"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Petite scie \u00e0 main, faite d'une lame et d'une poign\u00e9e, qui sert surtout pour tailler la vige (\u00e9go\u00efne)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-19T19:49:51.599Z",
-            "modified": "2023-09-19T19:50:18.025Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C134",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-19T19:50:33.246Z"
+            "modified": "2023-09-19T19:50:18.025Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Petite scie \u00e0 main, faite d'une lame et d'une poign\u00e9e, qui sert surtout pour tailler la vige (\u00e9go\u00efne)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9245",
+            "created": "2023-09-19T19:50:33.246Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-19T19:50:41.140Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C134"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L548",
+            "created": "2023-09-19T19:50:41.140Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-19T19:50:58.108Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9245"
+        },
+        {
+            "created": "2023-09-19T19:50:58.108Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L548"
         }
     ],
+    "id": "bfc2962b-44b3-47bf-9a91-30fd564feaad.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -58,10 +60,8 @@ order: 2
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"36.518524169921875,1012.4444580078125 411.7778015136719,1006.1481323242188 392.888916015625,1178.6666259765625 380.29632568359375,1446.888916015625 215.33334350585938,1706.29638671875 28.962966918945312,1691.1851806640625\"></polygon></svg>"
+            "value": "<svg><polygon points=\"39.3,1015.8 411.8,1006.1 392.9,1178.7 380.3,1446.9 215.3,1706.3 29,1691.2\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "bfc2962b-44b3-47bf-9a91-30fd564feaad.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
