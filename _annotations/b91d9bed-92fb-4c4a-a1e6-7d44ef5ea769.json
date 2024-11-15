@@ -3,50 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0023"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Portillon",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-20T14:29:00.479Z",
-            "modified": "2023-09-20T14:29:01.937Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-15T16:01:16.498Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Portillon [kl\u02c8e\u00f0o]\nPetite barri\u00e8re devant la porte d'entr\u00e9e de la maison"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L657NE",
+            "created": "2023-09-20T14:29:06.562Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-20T14:29:06.562Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L657NE"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C233",
+            "created": "2023-09-20T14:29:08.925Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-20T14:29:08.925Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C233"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8101",
+            "created": "2023-09-20T14:30:31.944Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-20T14:30:31.944Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8101"
         }
     ],
+    "id": "b91d9bed-92fb-4c4a-a1e6-7d44ef5ea769.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -58,10 +60,8 @@ order: 2
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2654.650634765625,1634.37744140625 3274.809814453125,1634.37744140625 3323.90576171875,2768.751708984375 3011.2421875,2742.911865234375 2644.314697265625,2825.599609375 2592.634765625,2458.672119140625 2703.74658203125,2231.280517578125 2623.642822265625,1776.497314453125\"></polygon></svg>"
+            "value": "<svg><polygon points=\"2654.7,1634.4 3274.8,1634.4 3323.9,2768.8 3011.2,2742.9 2637,2798.6 2592.6,2458.7 2649,2228.3 2623.6,1776.5\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b91d9bed-92fb-4c4a-a1e6-7d44ef5ea769.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
