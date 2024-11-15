@@ -3,51 +3,58 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0146"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Scie \u00e0 cadre ; de dimensions variables, man\u0153uvr\u00e9e d'une main.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-19T19:43:57.406Z",
-            "modified": "2023-09-19T19:44:15.873Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L771NO",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-19T19:44:32.998Z"
+            "modified": "2023-09-19T19:44:15.873Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Scie \u00e0 cadre ; de dimensions variables, man\u0153uvr\u00e9e d'une main."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C133",
+            "created": "2023-09-19T19:44:32.998Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-19T19:44:36.810Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L771NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9245",
+            "created": "2023-09-19T19:44:36.810Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-19T19:44:50.791Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C133"
+        },
+        {
+            "created": "2023-09-19T19:44:50.791Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9245"
         }
     ],
+    "id": "882a8175-9c6b-4f62-ae40-ea8831e94bad.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1395.998046875,225.2953643798828,810.962890625,355.1111297607422"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
@@ -55,14 +62,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0146",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1395.998046875,225.2953643798828,810.962890625,355.1111297607422"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "882a8175-9c6b-4f62-ae40-ea8831e94bad.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
