@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-09-20T14:37:46.408Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-20T14:38:09.418Z",
+            "modified": "2024-11-15T16:07:27.347Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Mesure \u00e0 grain (creus\u00e9 dans un tronc)"
+            "value": "Mesure \u00e0 grain (creus\u00e9 dans un tronc) [katrj\u02c8\u025bm\u0254]"
         },
         {
             "created": "2023-09-20T14:38:20.251Z",
@@ -47,14 +47,14 @@ order: 1
             "value": "Q6116"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6525",
+            "created": "2024-11-15T16:07:00.048Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-15T16:07:00.048Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6525"
         }
     ],
     "id": "92938230-3888-48a2-8411-978f81ee64b4.json",
