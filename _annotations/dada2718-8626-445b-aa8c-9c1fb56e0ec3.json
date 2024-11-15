@@ -6,26 +6,37 @@ order: 1
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Sifflet\n[utilis\u00e9 dans tous le domaine]",
-            "purpose": "commenting",
+            "created": "2024-11-15T14:55:00.581Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-15T14:55:00.581Z",
-            "modified": "2024-11-15T14:55:22.683Z"
+            "modified": "2024-11-15T14:55:22.683Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Sifflet\n[utilis\u00e9 dans tous le domaine]"
+        },
+        {
+            "created": "2024-11-15T14:55:30.335Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-15T14:55:31.975Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C202"
         },
         {
             "type": "TextualBody",
-            "value": "C202",
+            "value": "Q9439",
             "purpose": "tagging",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-15T14:55:30.335Z",
-            "modified": "2024-11-15T14:55:31.975Z"
+            "created": "2024-11-15T14:55:57.723Z",
+            "modified": "2024-11-15T14:56:00.511Z"
         }
     ],
     "id": "dada2718-8626-445b-aa8c-9c1fb56e0ec3.json",
