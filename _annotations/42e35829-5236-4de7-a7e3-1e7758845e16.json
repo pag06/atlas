@@ -8,13 +8,13 @@ order: 9
         {
             "created": "2023-09-19T20:21:09.280Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-20T06:50:16.917Z",
+            "modified": "2024-11-15T15:19:13.588Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Fl\u00fbtet basque\nlongueur : 34cm"
+            "value": "Fl\u00fbtet basque [la\u0263\u02c8yts \u00f0e tres ur\u02c8ats]\nlongueur : 33cm"
         },
         {
             "created": "2023-09-19T20:21:28.365Z",
@@ -50,6 +50,10 @@ order: 9
     "id": "42e35829-5236-4de7-a7e3-1e7758845e16.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"177,2334.5 1092,2092.4 1079.6,1955.4 1428.5,1850.3 1611,2048.5 1348.4,2125.1 824.5,2323.6 526.7,2425.4 193.8,2527.2\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
@@ -57,10 +61,6 @@ order: 9
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0219",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"177,2334.5 1092,2092.4 1079.6,1955.4 1428.5,1850.3 1611,2048.5 1348.4,2125.1 824.5,2323.6 526.7,2425.4 193.8,2527.2\"></polygon></svg>"
         }
     },
     "type": "Annotation"
