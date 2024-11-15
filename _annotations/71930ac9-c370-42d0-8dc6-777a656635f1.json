@@ -22,10 +22,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T14:59:16.759Z",
+            "modified": "2024-11-15T08:34:13.480Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Boulangerie\n\n\u00e0 droite : la maie dans la 'gloriette'.\n\n\u00e0 Saugues (Haute-Loire), vers 1930."
+            "value": "Boulangerie, vers 1930. \u00c0 droite : la maie dans la 'gloriette'.\n\n"
         },
         {
             "created": "2024-06-21T10:11:05.521Z",
@@ -46,6 +46,16 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "C1756"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7597",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-15T08:35:19.610Z"
         }
     ],
     "id": "71930ac9-c370-42d0-8dc6-777a656635f1.json",
