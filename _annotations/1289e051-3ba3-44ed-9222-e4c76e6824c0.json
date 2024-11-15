@@ -3,51 +3,48 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0150"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Masse\nOutil form\u00e9 d'une lourde t\u00eate et d'un long manche, man\u0153uvr\u00e9e \u00e0 deux mains.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-19T19:56:11.982Z",
-            "modified": "2023-09-19T19:56:45.520Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-15T14:36:39.724Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Masse\nOutil form\u00e9 d'une lourde t\u00eate et d'un long manche, man\u0153uvr\u00e9e \u00e0 deux mains. Sert surtout \u00e0 enfoncer les coins. [utilis\u00e9e partout dans le domaine]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
+            "created": "2023-09-19T19:56:52.410Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-19T19:56:49.368Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C137"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C137",
+            "created": "2023-09-19T19:56:55.037Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-19T19:56:52.410Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q6401",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-19T19:56:55.037Z"
+            "type": "TextualBody",
+            "value": "Q6401"
         }
     ],
+    "id": "1289e051-3ba3-44ed-9222-e4c76e6824c0.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1620.3092041015625,203.46388244628906,747.2728271484375,239.99998474121094"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
@@ -55,14 +52,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0150",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1620.3092041015625,203.46388244628906,747.2728271484375,239.99998474121094"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1289e051-3ba3-44ed-9222-e4c76e6824c0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
