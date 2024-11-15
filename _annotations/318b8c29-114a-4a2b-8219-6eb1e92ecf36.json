@@ -3,50 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0024"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Haie (branches de noyer enchev\u00eatr\u00e9es)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-20T14:31:17.553Z",
-            "modified": "2023-09-20T14:31:42.902Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L692SO",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-20T14:31:54.889Z"
+            "modified": "2023-09-20T14:31:42.902Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Haie (branches de noyer enchev\u00eatr\u00e9es)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C234",
+            "created": "2023-09-20T14:31:54.889Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-20T14:32:05.875Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L692SO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5449",
+            "created": "2023-09-20T14:32:05.875Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-20T14:32:11.425Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C234"
+        },
+        {
+            "created": "2023-09-20T14:32:11.425Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5449"
         }
     ],
+    "id": "318b8c29-114a-4a2b-8219-6eb1e92ecf36.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -58,10 +60,8 @@ order: 1
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2357.4912109375,1820.42529296875 2874.290283203125,1766.161376953125 3251.5537109375,1846.26513671875 3251.5537109375,2419.912353515625 2391.0830078125,2409.576416015625\"></polygon></svg>"
+            "value": "<svg><polygon points=\"2357.5,1820.4 2874.3,1766.2 3265.4,1778 3251.6,2419.9 2391.1,2409.6\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "318b8c29-114a-4a2b-8219-6eb1e92ecf36.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
