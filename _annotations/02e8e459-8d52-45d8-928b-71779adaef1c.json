@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-09-19T05:55:23.629Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-19T05:58:02.280Z",
+            "modified": "2024-11-15T12:15:59.686Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Outil des gemmeurs de pins.\nServent \u00e0 pratiquer la saign\u00e9e par o\u00f9 coule la r\u00e9sine\nIV [...] L681N, [...] L664, [...] L675N : pour placer la goutti\u00e8re \u00e0 r\u00e9sine\nIV\" [...]\nIV' sert pour les pins inclin\u00e9s"
+            "value": "Outil des gemmeurs de pins.\nServent \u00e0 pratiquer la saign\u00e9e par o\u00f9 coule la r\u00e9sine\nIV [\u0261\u02c8u\u0292\u0259] f., [pus\u0259kra\u0303p\u02c8u\u0303\u014b] m. L681N, IV' [b\u02c8ir\u0259] f. L664, [tre\u03b2\u025brsik\u02c8ar] m. L675N : pour placer la goutti\u00e8re \u00e0 r\u00e9sine\nIV\" [kra\u0303mp\u02c8u\u0303\u014b]. IV' sert pour les pins inclin\u00e9s"
         },
         {
             "created": "2023-09-19T05:58:06.946Z",
@@ -57,14 +57,14 @@ order: 3
             "value": "C130"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5442",
+            "created": "2023-09-19T19:25:37.681Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-19T19:25:37.681Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5442"
         }
     ],
     "id": "02e8e459-8d52-45d8-928b-71779adaef1c.json",
