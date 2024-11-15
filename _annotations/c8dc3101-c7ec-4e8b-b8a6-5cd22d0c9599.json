@@ -3,41 +3,58 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0219"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Corne de vache \u00e9vid\u00e9e pour effrayer les blaireaux et les sangliers, ou appeler la famille au repas\n[...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-19T20:10:42.175Z",
-            "modified": "2023-09-19T20:14:49.563Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L675N",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-19T20:10:53.022Z"
+            "modified": "2023-09-19T20:14:49.563Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Corne de vache \u00e9vid\u00e9e pour effrayer les blaireaux et les sangliers, ou appeler la famille au repas\n[...]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5636",
+            "created": "2023-09-19T20:10:53.022Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-19T20:11:00.118Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L675N"
+        },
+        {
+            "created": "2023-09-19T20:11:00.118Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5636"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C205",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-15T15:07:34.098Z"
         }
     ],
+    "id": "c8dc3101-c7ec-4e8b-b8a6-5cd22d0c9599.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=164.81094360351562,385.63592529296875,301.87042236328125,721.7798461914062"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
@@ -45,14 +62,7 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0219",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=164.81094360351562,385.63592529296875,301.87042236328125,721.7798461914062"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c8dc3101-c7ec-4e8b-b8a6-5cd22d0c9599.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
