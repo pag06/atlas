@@ -26,30 +26,34 @@ order: 1
             "value": "C235"
         },
         {
-            "created": "2023-09-20T14:33:53.254Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-20T14:33:57.056Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-20T14:35:58.191Z",
+            "modified": "2024-11-15T16:04:18.711Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "R\u00e9cipient de bois servant \u00e0 mesurer."
+            "value": "R\u00e9cipient de bois servant \u00e0 mesurer le grain [kup\u02c8\u025bt]"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6525",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-15T16:04:31.219Z"
         }
     ],
     "id": "bb99c47a-6f24-4d14-9b87-0e686c83a65a.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1249,1897.9 1902.7,1908.3 1884.6,2321.7 1768.3,2347.6 1677.9,2445.8 1238.6,2379.7\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,10 +61,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0025",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1249,1897.9 1902.7,1908.3 1884.6,2321.7 1768.3,2347.6 1677.9,2445.8 1238.6,2379.7\"></polygon></svg>"
         }
     },
     "type": "Annotation"
