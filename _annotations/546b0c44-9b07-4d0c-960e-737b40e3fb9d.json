@@ -17,24 +17,34 @@ order: 9
             "value": "Outil du tonnelier [e\u0283\u02c8\u0254l\u0254]"
         },
         {
-            "created": "2023-09-19T19:30:28.178Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "L???"
+            "purpose": "tagging",
+            "value": "C130",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-15T12:31:34.225Z"
         },
         {
-            "created": "2023-09-19T19:30:31.352Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "C32"
+            "purpose": "tagging",
+            "value": "L658NO",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-15T12:31:45.377Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5503",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-15T12:31:52.728Z"
         }
     ],
     "id": "546b0c44-9b07-4d0c-960e-737b40e3fb9d.json",
