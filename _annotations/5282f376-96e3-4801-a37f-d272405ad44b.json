@@ -3,51 +3,57 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0044"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
+            "created": "2023-09-20T11:27:36.759Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-20T11:27:32.011Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7667"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7667",
+            "created": "2023-09-20T11:27:55.553Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-20T11:27:36.759Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C31"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C31",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-20T11:27:55.553Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Pi\u00e8ge \u00e0 oiseaux (dans la Garonne et l'Ari\u00e8ge, tous les pi\u00e8ges sont de ce type achet\u00e9 dans le commerce)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-20T11:32:17.470Z",
-            "modified": "2023-09-20T11:32:41.825Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-20T11:32:41.825Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Pi\u00e8ge \u00e0 oiseaux (dans la Garonne et l'Ari\u00e8ge, tous les pi\u00e8ges sont de ce type achet\u00e9 dans le commerce)"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L548",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-15T12:38:55.927Z"
         }
     ],
+    "id": "5282f376-96e3-4801-a37f-d272405ad44b.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"1949.3334350585938\" cy=\"413.4148635864258\" rx=\"289.62969970703125\" ry=\"193.92595672607422\"></ellipse></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
@@ -55,13 +61,7 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0044",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><ellipse cx=\"1949.3334350585938\" cy=\"413.4148635864258\" rx=\"289.62969970703125\" ry=\"193.92595672607422\"></ellipse></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5282f376-96e3-4801-a37f-d272405ad44b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
