@@ -11,10 +11,10 @@ order: 3
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T14:59:10.985Z",
+            "modified": "2024-11-15T08:39:21.435Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Atelier du charron\n\n\u00e0 Saugues (Haute-Loire), vers 1930."
+            "value": "Atelier du charron, vers 1930."
         },
         {
             "created": "2024-04-11T14:23:11.106Z",
@@ -26,6 +26,17 @@ order: 3
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "L24"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q2086",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-15T08:40:19.190Z",
+            "modified": "2024-11-15T08:40:22.827Z"
         }
     ],
     "id": "7bee7f4f-371d-45bb-932a-cde253778901.json",
