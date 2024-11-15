@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0044"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Cage pour prendre les geais",
-            "purpose": "commenting",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
             "created": "2023-09-02T20:38:25.350Z",
-            "modified": "2023-09-02T20:39:42.868Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "L691O",
-            "purpose": "tagging",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-15T12:45:49.046Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Cage pour prendre les geais [k\u02c8awj\u0259]"
+        },
+        {
             "created": "2023-09-02T20:38:56.602Z",
-            "modified": "2023-09-02T20:38:58.148Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C31",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2023-09-02T20:39:57.917Z"
+            "modified": "2023-09-02T20:38:58.148Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L691O"
         },
         {
-            "type": "TextualBody",
-            "value": "Q7669",
-            "purpose": "tagging",
+            "created": "2023-09-02T20:39:57.917Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C31"
+        },
+        {
             "created": "2023-09-02T20:40:00.508Z",
-            "modified": "2023-09-02T20:40:03.423Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2023-09-02T20:40:03.423Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7669"
         }
     ],
+    "id": "7ca0e03d-faa4-43e5-bbba-ffc9eaf9a4a9.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0044",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1742,1542.8 2213.8,1541.9 2214.7,2055.5 2035.6,2058.2 1926.5,1958.2 1873.8,1958.2 1817.4,1902.8 1741.1,1902.8\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0044",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7ca0e03d-faa4-43e5-bbba-ffc9eaf9a4a9.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
