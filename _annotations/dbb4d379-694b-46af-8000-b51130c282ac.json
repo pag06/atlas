@@ -3,51 +3,47 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0143"
 order: 11
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Hacheron \u00e0 manche court, man\u0153uvr\u00e9 d'une seule main. Le dos a souvent un talon qui peut servir de marteau. ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-19T19:39:40.157Z",
-            "modified": "2023-09-19T19:40:34.731Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-19T19:40:45.209Z"
+            "modified": "2023-09-19T19:40:34.731Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Hacheron \u00e0 manche court, man\u0153uvr\u00e9 d'une seule main. Le dos a souvent un talon qui peut servir de marteau. "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5442",
+            "created": "2023-09-19T19:40:48.392Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-19T19:40:48.392Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5442"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C130",
+            "created": "2023-09-19T19:40:50.475Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-19T19:40:50.475Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C130"
         }
     ],
+    "id": "dbb4d379-694b-46af-8000-b51130c282ac.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1813.65380859375,450.3591613769531 2068.870361328125,436.3362731933594 2077.283935546875,984.6307983398438 1970.7100830078125,979.0216674804688 1955.284912109375,620.0360107421875 1824.8721923828125,646.679443359375\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
@@ -55,13 +51,7 @@ order: 11
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0143",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1813.65380859375,450.3591613769531 2068.870361328125,436.3362731933594 2077.283935546875,984.6307983398438 1970.7100830078125,979.0216674804688 1955.284912109375,620.0360107421875 1824.8721923828125,646.679443359375\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "dbb4d379-694b-46af-8000-b51130c282ac.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
