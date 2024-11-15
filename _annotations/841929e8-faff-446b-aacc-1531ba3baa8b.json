@@ -11,10 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2023-09-02T20:52:29.809Z",
+            "modified": "2024-11-15T15:39:59.544Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Clifoire\n\nfabriqu\u00e9 par [...]"
+            "value": "Clifoire\nFabriqu\u00e9e par le t\u00e9moin"
         },
         {
             "created": "2023-09-02T20:49:46.314Z",
@@ -28,24 +28,24 @@ order: 1
             "value": "L658NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2383",
+            "created": "2023-09-20T11:23:52.122Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-20T11:23:52.122Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2383"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C215",
+            "created": "2023-09-20T11:23:55.919Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-20T11:23:55.919Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C215"
         }
     ],
     "id": "841929e8-faff-446b-aacc-1531ba3baa8b.json",
