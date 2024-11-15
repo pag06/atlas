@@ -37,25 +37,36 @@ order: 3
             "value": "Trompe d'\u00e9corce enroul\u00e9e, sert au bruit du Stabat."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L691O",
+            "created": "2024-11-15T15:06:12.555Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-15T15:06:12.555Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L691O"
+        },
+        {
+            "created": "2024-11-15T15:06:14.794Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-15T15:06:18.964Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L687S"
         },
         {
             "type": "TextualBody",
-            "value": "L687S",
+            "value": "L689NO",
             "purpose": "tagging",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-15T15:06:14.794Z",
-            "modified": "2024-11-15T15:06:18.964Z"
+            "created": "2024-11-15T15:06:27.240Z",
+            "modified": "2024-11-15T15:06:33.236Z"
         }
     ],
     "id": "a50f9985-c7c6-4455-825c-909ca1c157dd.json",
