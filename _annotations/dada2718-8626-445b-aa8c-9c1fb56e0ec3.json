@@ -3,41 +3,39 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0219"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
             "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
+            "value": "Sifflet\n[utilis\u00e9 dans tous le domaine]",
+            "purpose": "commenting",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-19T20:02:19.260Z"
+            "created": "2024-11-15T14:55:00.581Z",
+            "modified": "2024-11-15T14:55:22.683Z"
         },
         {
             "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C206",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-19T20:02:22.469Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Q5636",
+            "value": "C202",
             "purpose": "tagging",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-19T20:02:23.415Z",
-            "modified": "2023-09-19T20:02:31.026Z"
+            "created": "2024-11-15T14:55:30.335Z",
+            "modified": "2024-11-15T14:55:31.975Z"
         }
     ],
+    "id": "dada2718-8626-445b-aa8c-9c1fb56e0ec3.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=914.2222900390625,75.55555725097656,551.5555419921875,269.4814910888672"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
@@ -45,14 +43,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0219",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=914.2222900390625,75.55555725097656,551.5555419921875,269.4814910888672"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "dada2718-8626-445b-aa8c-9c1fb56e0ec3.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
