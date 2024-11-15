@@ -58,15 +58,45 @@ order: 3
             "value": "L687S"
         },
         {
-            "type": "TextualBody",
-            "value": "L689NO",
-            "purpose": "tagging",
+            "created": "2024-11-15T15:06:27.240Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-15T15:06:27.240Z",
-            "modified": "2024-11-15T15:06:33.236Z"
+            "modified": "2024-11-15T15:06:33.236Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L689NO"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L689",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-15T15:06:46.273Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L790NO",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-15T15:06:58.444Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L790S",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-15T15:07:08.081Z"
         }
     ],
     "id": "a50f9985-c7c6-4455-825c-909ca1c157dd.json",
