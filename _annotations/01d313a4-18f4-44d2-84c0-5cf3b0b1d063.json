@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-09-20T11:45:56.446Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-20T11:45:58.001Z",
+            "modified": "2024-11-15T15:51:24.743Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Barri\u00e8res"
+            "value": "Barri\u00e8re [bar\u02d0\u02c8\u025bjr\u0259]"
         },
         {
             "created": "2023-09-20T11:46:02.034Z",
@@ -25,16 +25,6 @@ order: 2
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "L650"
-        },
-        {
-            "created": "2023-09-20T11:46:06.253Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L675N"
         },
         {
             "created": "2023-09-20T11:46:12.393Z",
@@ -60,6 +50,10 @@ order: 2
     "id": "01d313a4-18f4-44d2-84c0-5cf3b0b1d063.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"75.5,879 488.8,912 764.9,904 938,887.9 944.6,954.8 982.5,1028.3 951.3,1050.6 137.9,1077.3\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -67,10 +61,6 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0022",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"75.5,879 488.8,912 764.9,904 938,887.9 944.6,954.8 982.5,1028.3 951.3,1050.6 137.9,1077.3\"></polygon></svg>"
         }
     },
     "type": "Annotation"
