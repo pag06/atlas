@@ -8,13 +8,13 @@ order: 9
         {
             "created": "2023-09-20T11:52:54.951Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-20T14:24:35.175Z",
+            "modified": "2024-11-15T15:57:27.775Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Cl\u00f4ture avec piquets et planches (dosses) horizontales."
+            "value": "Cl\u00f4ture avec piquets et planches (dosses) horizontales [bar\u02d0\u0259\u00f0\u02c8yr\u0153]"
         },
         {
             "created": "2023-09-20T11:53:04.782Z",
@@ -50,10 +50,6 @@ order: 9
     "id": "d27aa928-7e3c-4dbd-81f3-87ddcc4fe31a.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2409.748291015625,2350.401611328125 2532.73779296875,2338.960693359375 3176.28857421875,2373.283447265625 3176.28857421875,2673.607177734375 2961.771728515625,2665.0263671875 2424.04931640625,2690.7685546875\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -61,6 +57,10 @@ order: 9
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0022",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2409.7,2350.4 2532.7,2339 3176.3,2373.3 3176.3,2673.6 2776.1,2655 2424,2690.8\"></polygon></svg>"
         }
     },
     "type": "Annotation"
