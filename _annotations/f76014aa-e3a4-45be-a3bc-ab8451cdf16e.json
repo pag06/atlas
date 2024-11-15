@@ -3,50 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0023"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Portillon",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-20T14:26:11.741Z",
-            "modified": "2023-09-20T14:26:15.162Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L647NO",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-20T14:27:35.355Z"
+            "modified": "2023-09-20T14:26:15.162Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Portillon"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C233",
+            "created": "2023-09-20T14:27:35.355Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-20T14:27:37.787Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L647NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8101",
+            "created": "2023-09-20T14:27:37.787Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-20T14:30:42.412Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C233"
+        },
+        {
+            "created": "2023-09-20T14:30:42.412Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8101"
         }
     ],
+    "id": "f76014aa-e3a4-45be-a3bc-ab8451cdf16e.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -58,10 +60,8 @@ order: 1
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1827.7718505859375,1339.802001953125 2646.898681640625,1329.4659423828125 2626.2265625,1838.51318359375 2688.24267578125,2347.560302734375 2577.130859375,2388.904296875 1982.8116455078125,2394.072265625\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1936.6,1331.8 2646.9,1329.5 2626.2,1838.5 2688.2,2347.6 2577.1,2388.9 1982.8,2394.1\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f76014aa-e3a4-45be-a3bc-ab8451cdf16e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
