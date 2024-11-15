@@ -141,15 +141,36 @@ order: 4
             "value": "L688N"
         },
         {
+            "created": "2024-11-15T12:43:10.661Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-15T12:43:15.274Z",
+            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "L689N",
+            "value": "L689N"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L695O",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-15T12:43:30.539Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "L762SO",
             "purpose": "tagging",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-15T12:43:10.661Z",
-            "modified": "2024-11-15T12:43:15.274Z"
+            "created": "2024-11-15T12:43:34.276Z",
+            "modified": "2024-11-15T12:43:42.283Z"
         }
     ],
     "id": "5282f376-96e3-4801-a37f-d272405ad44b.json",
