@@ -28,15 +28,15 @@ order: 3
             "value": "L24"
         },
         {
-            "type": "TextualBody",
-            "value": "Q2086",
-            "purpose": "tagging",
+            "created": "2024-11-15T08:40:19.190Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-15T08:40:19.190Z",
-            "modified": "2024-11-15T08:40:22.827Z"
+            "modified": "2024-11-15T08:40:22.827Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2086"
         }
     ],
     "id": "7bee7f4f-371d-45bb-932a-cde253778901.json",
