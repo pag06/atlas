@@ -3,61 +3,67 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0219"
 order: 12
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Flutet basque et tambourin b\u00e9arnais",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-20T06:48:51.168Z",
-            "modified": "2023-09-20T06:49:18.017Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-15T15:33:13.370Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Haubois et tambourin b\u00e9arnais"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C205",
+            "created": "2023-09-20T06:49:27.307Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-20T06:49:27.307Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C205"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L695O",
+            "created": "2023-09-20T06:49:32.041Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-20T06:49:32.041Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L695O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4730",
+            "created": "2023-09-20T06:49:41.657Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-20T06:49:41.657Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4730"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5636",
+            "created": "2023-09-20T06:49:55.914Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-20T06:49:55.914Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5636"
         }
     ],
+    "id": "eed0bab6-f8ef-4588-a6d2-a6f0aaf21735.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1175.33203125,2415.5546875 1282.401611328125,2314.97412109375 1668.5009765625,2240.349853515625 1808.0159912109375,2460.97802734375 1606.8548583984375,2934.679931640625 1483.5626220703125,3174.775390625 1052.039794921875,2999.570556640625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
@@ -65,13 +71,7 @@ order: 12
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0219",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1175.33203125,2415.5546875 1282.401611328125,2314.97412109375 1668.5009765625,2240.349853515625 1808.0159912109375,2460.97802734375 1606.8548583984375,2934.679931640625 1483.5626220703125,3174.775390625 1052.039794921875,2999.570556640625\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "eed0bab6-f8ef-4588-a6d2-a6f0aaf21735.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
