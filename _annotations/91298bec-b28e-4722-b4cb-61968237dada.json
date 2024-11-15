@@ -68,15 +68,15 @@ order: 2
             "value": "Q7354"
         },
         {
-            "type": "TextualBody",
-            "value": "Q9101",
-            "purpose": "tagging",
+            "created": "2024-11-15T08:32:58.792Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-15T08:32:58.792Z",
-            "modified": "2024-11-15T08:33:01.250Z"
+            "modified": "2024-11-15T08:33:01.250Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9101"
         }
     ],
     "id": "91298bec-b28e-4722-b4cb-61968237dada.json",
