@@ -6,16 +6,6 @@ order: 3
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "created": "2023-09-19T20:06:32.234Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-19T20:06:35.805Z",
             "creator": {
                 "id": "ej7320",
@@ -45,6 +35,27 @@ order: 3
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "Trompe d'\u00e9corce enroul\u00e9e, sert au bruit du Stabat."
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L691O",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-15T15:06:12.555Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "L687S",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-15T15:06:14.794Z",
+            "modified": "2024-11-15T15:06:18.964Z"
         }
     ],
     "id": "a50f9985-c7c6-4455-825c-909ca1c157dd.json",
