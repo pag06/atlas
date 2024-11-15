@@ -22,10 +22,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T10:05:05.624Z",
+            "modified": "2024-11-15T08:31:35.389Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Outils de sabotier.\n1- [...] : tari\u00e8re, C. 1736.\n2- [...] : r\u00e9nette, C. 1736.*\n3- [...] : gouge, C. 1736.\n4- [...].\n5- [...] < pour fa\u00e7onner le talon >.\n6- [...] : paroir. C. 1736.*\n"
+            "value": "Outils de sabotier.\n1- [l\u0254 t\u0254rv\u02c8\u025bl\u0254] : tari\u00e8re\n2- [la sul\u02c8\u025bjr\u0254] : r\u00e9nette\n3- [lu kupj\u02c8e] : gouge\n4- [la ra\u0303v\u02c8ersa]\n5- [la kruk\u02c8et\u0254] < pour fa\u00e7onner le talon >.\n6- [lu kute p\u0254r\u02c8\u0254] : paroir\n\nLa tari\u00e8re est une grande vrille. La gouge est un genre de ciseau creus\u00e9 en canal dont l'extr\u00e9mit\u00e9 est semi-sph\u00e9rique. La r\u00e9nette est un outil \u00e0 pointe recourb\u00e9e et tranchante. Le paroir est un long couteau dont une extr\u00e9mit\u00e9 est munie d'une poign\u00e9e, tandis que l'autre est fix\u00e9e par un anneau sur le banc."
         },
         {
             "created": "2024-06-21T10:05:26.110Z",
@@ -66,6 +66,17 @@ order: 2
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q7354"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q9101",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-15T08:32:58.792Z",
+            "modified": "2024-11-15T08:33:01.250Z"
         }
     ],
     "id": "91298bec-b28e-4722-b4cb-61968237dada.json",
