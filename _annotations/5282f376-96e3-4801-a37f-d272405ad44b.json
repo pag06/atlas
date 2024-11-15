@@ -37,14 +37,25 @@ order: 4
             "value": "Pi\u00e8ge \u00e0 oiseaux (dans la Garonne et l'Ari\u00e8ge, tous les pi\u00e8ges sont de ce type achet\u00e9 dans le commerce)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L548",
+            "created": "2024-11-15T12:38:55.927Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-15T12:38:55.927Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L548"
+        },
+        {
+            "type": "TextualBody",
+            "value": "L630",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-15T12:41:30.496Z",
+            "modified": "2024-11-15T12:41:32.357Z"
         }
     ],
     "id": "5282f376-96e3-4801-a37f-d272405ad44b.json",
