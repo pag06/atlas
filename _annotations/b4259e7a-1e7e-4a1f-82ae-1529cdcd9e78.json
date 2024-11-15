@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-09-18T18:01:32.344Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-18T18:01:43.173Z",
+            "modified": "2024-11-15T12:47:03.198Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Pi\u00e8ge \u00e0 taupes (achet\u00e9)"
+            "value": "Pi\u00e8ge \u00e0 taupes (achet\u00e9) [ar\u02d0at\u02c8\u025b]"
         },
         {
             "created": "2023-09-18T18:01:51.365Z",
@@ -37,14 +37,14 @@ order: 2
             "value": "C32"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7667",
+            "created": "2023-09-19T19:23:15.054Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-19T19:23:15.054Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7667"
         }
     ],
     "id": "b4259e7a-1e7e-4a1f-82ae-1529cdcd9e78.json",
