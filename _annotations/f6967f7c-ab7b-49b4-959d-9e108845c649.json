@@ -8,24 +8,13 @@ order: 1
         {
             "created": "2024-04-11T12:55:36.462Z",
             "creator": {
-                "id": "leotrimramadani1",
-                "name": "leotrimramadani1"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2024-04-11T12:57:02.558Z",
+            "modified": "2024-11-15T08:46:42.109Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le Moulin du Bav\u00e8s.\n\n- au premier plan : [...] < pour la farine de pain >\n- \u00e0 l'arri\u00e8re plan : [...] < pour la farine des b\u00eates >"
-        },
-        {
-            "created": "2024-04-11T13:17:17.042Z",
-            "creator": {
-                "id": "leotrimramadani1",
-                "name": "leotrimramadani1"
-            },
-            "modified": "2024-04-11T13:17:25.474Z",
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L30w"
+            "value": "Le Moulin du Bav\u00e8s (Cantal)\n\n- au premier plan : [lu mu\u02b2i bl\u0254\u0303\u207f] < pour la farine de pain >\n- \u00e0 l'arri\u00e8re plan : [lu mu\u02b2i des pw\u02c8\u0254rs] < pour la farine des b\u00eates >"
         },
         {
             "created": "2024-04-11T13:18:02.466Z",
@@ -36,6 +25,26 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q6798"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L30",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-15T08:47:00.624Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10262",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-15T08:47:33.407Z"
         }
     ],
     "id": "f6967f7c-ab7b-49b4-959d-9e108845c649.json",
