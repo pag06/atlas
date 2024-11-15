@@ -22,10 +22,10 @@ order: 4
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T14:59:22.570Z",
+            "modified": "2024-11-15T08:37:29.767Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Tour de menuisier\n\n\u00e0 La Vaissi\u00e8re, commune de Le Malzieu-Ville (Loz\u00e8re)."
+            "value": "Tour de menuisier (La Vaissi\u00e8re, Loz\u00e8re)."
         },
         {
             "created": "2024-06-21T10:48:53.582Z",
@@ -46,6 +46,17 @@ order: 4
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "C1730"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q6484",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-15T08:38:33.196Z",
+            "modified": "2024-11-15T08:38:35.804Z"
         }
     ],
     "id": "e8e346dc-2e2b-463c-9352-c0311d8dfece.json",
