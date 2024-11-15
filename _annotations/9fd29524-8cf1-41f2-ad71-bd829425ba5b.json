@@ -3,51 +3,47 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0147"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Grande scie pour abattre et d\u00e9biter, toujours manoeuvr\u00e9e par deux ouvriers, dite \"passe-partout\"\nLe calque \"passe-partout\" es not\u00e9 en abr\u00e9g\u00e9 [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-19T19:47:33.548Z",
-            "modified": "2023-09-19T19:48:20.500Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-15T14:33:36.793Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Passe-partout\nGrande scie pour abattre et d\u00e9biter, toujours manoeuvr\u00e9e par deux ouvriers. [utilis\u00e9e sur l'ensemble du domaine]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
+            "created": "2023-09-19T19:48:54.555Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-19T19:48:50.168Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C134"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C134",
+            "created": "2023-09-19T19:48:58.116Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-19T19:48:54.555Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q9245",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-19T19:48:58.116Z"
+            "type": "TextualBody",
+            "value": "Q9245"
         }
     ],
+    "id": "9fd29524-8cf1-41f2-ad71-bd829425ba5b.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"816.0000610351562,219.11111450195312 2176.000244140625,211.55555725097656 2173.481689453125,468.4444580078125 1886.3704833984375,498.66668701171875 1838.5186767578125,523.8518676757812 836.148193359375,544\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG1/manifest.json",
@@ -55,13 +51,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG1/canvas/ALG_1_0147",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"816.0000610351562,219.11111450195312 2176.000244140625,211.55555725097656 2173.481689453125,468.4444580078125 1886.3704833984375,498.66668701171875 1838.5186767578125,523.8518676757812 836.148193359375,544\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9fd29524-8cf1-41f2-ad71-bd829425ba5b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
