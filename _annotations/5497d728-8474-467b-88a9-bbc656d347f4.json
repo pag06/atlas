@@ -3,50 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0063"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Herse enti\u00e8rement de bois y compris les pointes",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-24T18:18:16.372Z",
-            "modified": "2023-09-24T18:18:31.113Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5506",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-24T18:18:58.584Z"
+            "modified": "2023-09-24T18:18:31.113Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Herse enti\u00e8rement de bois y compris les pointes"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C272",
+            "created": "2023-09-24T18:18:58.584Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-24T18:19:01.464Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5506"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L675N",
+            "created": "2023-09-24T18:19:01.464Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-24T18:19:06.657Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C272"
+        },
+        {
+            "created": "2023-09-24T18:19:06.657Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L675N"
         }
     ],
+    "id": "5497d728-8474-467b-88a9-bbc656d347f4.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -58,10 +60,8 @@ order: 1
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"79.99711608886719,573.767333984375 1191.1470947265625,585.1287841796875 1297.9447021484375,1203.1917724609375 1229.7760009765625,1248.6375732421875 82.2694091796875,1232.7314453125\"></polygon></svg>"
+            "value": "<svg><polygon points=\"72.8,581 1183.9,592.3 1290.7,1210.4 1222.6,1255.8 75.1,1239.9\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5497d728-8474-467b-88a9-bbc656d347f4.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
