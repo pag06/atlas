@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0272"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Pilon (20 cm.) et mortier \u00e0 sel (en bois).",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-08-18T15:32:30.589Z",
-            "modified": "2023-08-18T15:32:50.663Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L42",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-18T15:32:53.977Z"
+            "modified": "2023-08-18T15:32:50.663Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Pilon (20 cm.) et mortier \u00e0 sel (en bois)."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6754",
+            "created": "2023-08-18T15:32:53.977Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-18T15:33:08.201Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L42"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7705",
+            "created": "2023-08-18T15:33:08.201Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-08-18T15:33:34.203Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6754"
+        },
+        {
+            "created": "2023-08-18T15:33:34.203Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7705"
         }
     ],
+    "id": "f23209bb-70f0-4428-9362-37eba94c6ee2.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0272",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1255.1904296875,3348.630615234375,472.7271728515625,409.0908203125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1255.1904296875,3348.630615234375,472.7271728515625,409.0908203125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALMC2/canvas/ALMC_2_0272",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f23209bb-70f0-4428-9362-37eba94c6ee2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
