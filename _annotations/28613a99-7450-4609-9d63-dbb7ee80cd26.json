@@ -3,51 +3,57 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0063"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Herse cadre et traverses en bois, pointes en fer",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-24T18:19:30.126Z",
-            "modified": "2023-09-24T18:20:32.956Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-18T13:23:50.565Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Herse cadre et traverses en bois, pointes en fer [kar\u02d0\u02c8ys]\nFigure III"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5506",
+            "created": "2023-09-24T18:19:37.479Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-24T18:19:37.479Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5506"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C272",
+            "created": "2023-09-24T18:19:39.464Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-24T18:19:39.464Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C272"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L691O",
+            "created": "2023-09-24T18:19:43.707Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-24T18:19:43.707Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L691O"
         }
     ],
+    "id": "28613a99-7450-4609-9d63-dbb7ee80cd26.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"66.49050903320312,1390.615966796875 614.7957763671875,1326.260986328125 1186.268798828125,1681.5009765625 1101.320068359375,1802.488525390625 699.7444458007812,1853.9725341796875 388.2658996582031,1743.2818603515625 27.877466201782227,1506.4552001953125\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -55,13 +61,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0063",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"66.49050903320312,1390.615966796875 614.7957763671875,1326.260986328125 1186.268798828125,1681.5009765625 1101.320068359375,1802.488525390625 699.7444458007812,1853.9725341796875 388.2658996582031,1743.2818603515625 27.877466201782227,1506.4552001953125\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "28613a99-7450-4609-9d63-dbb7ee80cd26.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
