@@ -3,51 +3,77 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0072"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\u00e9pi de ma\u00efs\nLes femmes l'\u00e9grainent \u00e0 la main en s'aidant d'un axe vide, ou d'un outil comme celui de la figure.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-24T18:37:10.280Z",
-            "modified": "2023-09-24T18:37:48.942Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-18T13:49:27.342Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "D\u00e9pouillement du ma\u00efs [d\u0259\u0263r\u02c8i\u028e\u0259 mi\u028e\u02c8\u0254k]\nLes femmes l'\u00e9grainent \u00e0 la main en s'aidant d'un axe vide, ou d'un outil comme celui de la figure."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6217",
+            "created": "2023-09-24T18:38:45.960Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-24T18:38:45.960Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6217"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C282",
+            "created": "2023-09-24T18:38:47.887Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-24T18:38:47.887Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C282"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L664",
+            "created": "2023-09-24T18:38:52.289Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-24T18:38:52.289Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L664"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q3297",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-18T13:48:43.095Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q724",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-18T13:48:50.651Z"
         }
     ],
+    "id": "91b4c5ed-0c96-4af7-bde4-5444935b768c.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2674.20947265625,665.8511962890625 2948.462646484375,628.2822875976562 3297.853759765625,902.5354614257812 3121.27978515625,1477.340087890625 2677.96630859375,1627.61572265625 2403.713134765625,1635.1295166015625 2433.768310546875,1161.7611083984375 2636.640625,1003.9715576171875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -55,13 +81,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0072",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2674.20947265625,665.8511962890625 2948.462646484375,628.2822875976562 3297.853759765625,902.5354614257812 3121.27978515625,1477.340087890625 2677.96630859375,1627.61572265625 2403.713134765625,1635.1295166015625 2433.768310546875,1161.7611083984375 2636.640625,1003.9715576171875\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "91b4c5ed-0c96-4af7-bde4-5444935b768c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
