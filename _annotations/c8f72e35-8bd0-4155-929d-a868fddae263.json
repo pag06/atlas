@@ -8,13 +8,13 @@ order: 9
         {
             "created": "2023-09-24T18:26:25.076Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-24T18:26:28.959Z",
+            "modified": "2024-11-18T13:32:20.416Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Herse "
+            "value": "Herse [h\u02c8\u025brso]\nFigure IX"
         },
         {
             "created": "2023-09-24T18:26:32.642Z",
@@ -50,6 +50,10 @@ order: 9
     "id": "c8f72e35-8bd0-4155-929d-a868fddae263.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"80.5,3204.2 538.3,2973.8 1567.8,2793 1585.3,2845.5 1451.1,2962.1 1413.2,3527.9 812.5,3866.2 44.2,3633.7\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,10 +61,6 @@ order: 9
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0063",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"80.5,3204.2 538.3,2973.8 1567.8,2793 1585.3,2845.5 1451.1,2962.1 1413.2,3527.9 812.5,3866.2 44.2,3633.7\"></polygon></svg>"
         }
     },
     "type": "Annotation"
