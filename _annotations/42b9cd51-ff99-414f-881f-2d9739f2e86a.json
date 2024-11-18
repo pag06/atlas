@@ -3,50 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0097"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Fourche ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-25T06:14:14.978Z",
-            "modified": "2023-09-25T06:14:17.492Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-18T17:09:03.685Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Fourches en fer \u00e0 deux, trois et quatre dents"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L771NO",
+            "created": "2023-09-25T06:14:27.665Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-25T06:14:27.665Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L771NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C307",
+            "created": "2023-09-25T06:14:36.408Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-25T06:14:36.408Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C307"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4820",
+            "created": "2023-09-25T06:14:41.968Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-25T06:14:41.968Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4820"
         }
     ],
+    "id": "42b9cd51-ff99-414f-881f-2d9739f2e86a.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -58,10 +60,8 @@ order: 4
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1010.2362670898438,1080.521240234375 1948.944580078125,1016.3359985351562 2109.40771484375,1642.1416015625 1760.400634765625,1786.5582275390625 1198.7802734375,1774.5235595703125\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1010.2,1080.5 1948.9,1016.3 2109.4,1642.1 1757.5,1764.7 1198.8,1774.5\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "42b9cd51-ff99-414f-881f-2d9739f2e86a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
