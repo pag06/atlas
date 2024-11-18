@@ -1,0 +1,37 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0084"
+order: 13
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Fl\u00e9au",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-18T14:26:58.714Z",
+            "modified": "2024-11-18T14:27:00.911Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0084",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2474.459228515625,3533.2705078125 2827.890869140625,3451.709228515625 2714.9599609375,5126.849609375 2487.007080078125,5122.6669921875 2564.385498046875,4091.650634765625\"></polygon></svg>"
+        }
+    },
+    "id": "f8af404c-6345-4144-a78a-9ce6568f7bb3.json",
+    "motivation": "commenting"
+}
