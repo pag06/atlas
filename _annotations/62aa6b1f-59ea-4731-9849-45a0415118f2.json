@@ -11,10 +11,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-18T14:44:50.086Z",
+            "modified": "2024-11-18T14:49:14.370Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Crible pour haricots"
+            "value": "Crible en peau pour haricots"
         },
         {
             "created": "2023-09-25T05:55:56.254Z",
@@ -37,14 +37,14 @@ order: 2
             "value": "C302"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2947",
+            "created": "2024-11-18T14:44:59.721Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-18T14:44:59.721Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2947"
         }
     ],
     "id": "62aa6b1f-59ea-4731-9849-45a0415118f2.json",
