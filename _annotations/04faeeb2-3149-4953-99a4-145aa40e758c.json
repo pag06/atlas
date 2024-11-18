@@ -8,13 +8,13 @@ order: 7
         {
             "created": "2023-09-23T14:11:41.886Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-23T14:12:05.722Z",
+            "modified": "2024-11-18T11:46:32.185Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Charrue\nDiam\u00e8tre de la roue : 20\nLongueur : 41"
+            "value": "Charrue [\u0283ar\u02d0\u02c8yw\u0153]\nFigure X\n1. age [C261] [Q79]\n2. manche [C266] [Q6273]\n3. sep [C262] [Q9345]\n4. versoir [C263] [Q10644]\n6. soc [C264] [Q9459]\n8. roulette de la charrue (diam. 20 cm) [C268] [Q9016]\n14. coutre (longueur 41 cm) [C265] [Q2806]\n16. poign\u00e9es [C268] [Q2090]\n17. entretoise [268] [Q2090]\n21. r\u00e9gulateur [268] [Q8730]\n\nDiam\u00e8tre de la roue : 20\nLongueur : 41"
         },
         {
             "created": "2023-09-23T14:12:10.780Z",
@@ -50,6 +50,10 @@ order: 7
     "id": "04faeeb2-3149-4953-99a4-145aa40e758c.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"480,587.5 1087.2,591.1 1039.9,1075.6 1174.5,1227.5 1087.1,1334.7 1118.9,1495.6 1192.7,1591.1 1181.8,1700.2 952.7,1722 789,1522 741.8,1372.9 403.6,1343.8\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,10 +61,6 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0049",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"480,587.5 1087.2,591.1 1039.9,1075.6 1174.5,1227.5 1087.1,1334.7 1118.9,1495.6 1192.7,1591.1 1181.8,1700.2 952.7,1722 789,1522 741.8,1372.9 403.6,1343.8\"></polygon></svg>"
         }
     },
     "type": "Annotation"
