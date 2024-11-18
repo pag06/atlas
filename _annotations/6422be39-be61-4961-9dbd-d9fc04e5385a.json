@@ -8,13 +8,13 @@ order: 4
         {
             "created": "2023-11-09T21:09:07.740Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "purpose": "questioning",
+            "modified": "2024-11-18T08:34:53.931Z",
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Pani\u00e8re ",
-            "modified": "2023-11-09T21:11:19.313Z"
+            "value": "Pani\u00e8re "
         },
         {
             "created": "2023-11-09T21:09:29.013Z",
@@ -27,25 +27,14 @@ order: 4
             "value": "L8"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-11-09T21:11:14.135Z",
+            "creator": {
+                "id": "ls7320",
+                "name": "L\u00e9ane"
+            },
             "purpose": "tagging",
-            "value": "Q7289",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "created": "2023-11-09T21:11:14.135Z"
-        },
-        {
             "type": "TextualBody",
-            "value": "Traduction l\u00e9gende ?",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "created": "2023-11-09T21:11:23.765Z",
-            "modified": "2023-11-09T21:11:39.315Z"
+            "value": "Q7289"
         }
     ],
     "id": "6422be39-be61-4961-9dbd-d9fc04e5385a.json",
