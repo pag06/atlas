@@ -8,12 +8,13 @@ order: 3
         {
             "created": "2023-09-24T18:51:08.277Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Traineau de bois renforc\u00e9 de bandes de fer directement rattach\u00e9 au rouleau pour battre de bl\u00e9."
+            "value": "Instrument de battage [r:e\u03b2\u02c8al\u0254]\n\nTraineau de bois renforc\u00e9 de bandes de fer directement rattach\u00e9 au rouleau pour battre de bl\u00e9.",
+            "modified": "2024-11-18T14:06:41.126Z"
         },
         {
             "created": "2023-09-24T18:51:14.456Z",
@@ -49,6 +50,10 @@ order: 3
     "id": "4baa1268-29ea-4636-bdb0-842dc1b0e851.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1768,1856.1 2287.3,1695.5 2762,1492.7 3303.1,1795.6 3298,2161.6 2464.9,2351 1995.3,2371.2 1768,2108.6\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,10 +61,6 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0084",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1768,1856.1 2287.3,1695.5 2762,1492.7 3303.1,1795.6 3298,2161.6 2464.9,2351 1995.3,2371.2 1768,2108.6\"></polygon></svg>"
         }
     },
     "type": "Annotation"
