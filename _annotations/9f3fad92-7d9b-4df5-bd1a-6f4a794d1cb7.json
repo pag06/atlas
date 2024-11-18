@@ -3,51 +3,57 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0084"
 order: 10
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Battoir (partie gauche), manche (partie droite)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-24T19:03:46.402Z",
-            "modified": "2023-09-24T19:04:07.528Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-18T14:34:34.444Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Fl\u00e9au\nFigure XII\n- battoir (\u00e0 gauche) [\u03b2er\u00f0\u02c8era]\n- manche (\u00e0 droite) [m\u02c8a\u0303\u0272\u00f0e]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L699NE",
+            "created": "2023-09-24T19:04:12.507Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-24T19:04:12.507Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L699NE"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C295",
+            "created": "2023-09-24T19:04:16.268Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-24T19:04:16.268Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C295"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q969",
+            "created": "2023-09-24T19:04:25.936Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-24T19:04:25.936Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q969"
         }
     ],
+    "id": "9f3fad92-7d9b-4df5-bd1a-6f4a794d1cb7.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1095.255859375,4965.92236328125 1616.93701171875,3909.59912109375 1691.462890625,3942.001708984375 1681.7420654296875,4045.68994140625 1902.0794677734375,4382.67626953125 2378.39697265625,4998.3251953125 2329.793212890625,5043.6884765625 1655.820068359375,4233.62451171875 1182.7427978515625,5011.2861328125\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -55,13 +61,7 @@ order: 10
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0084",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1095.255859375,4965.92236328125 1616.93701171875,3909.59912109375 1691.462890625,3942.001708984375 1681.7420654296875,4045.68994140625 1902.0794677734375,4382.67626953125 2378.39697265625,4998.3251953125 2329.793212890625,5043.6884765625 1655.820068359375,4233.62451171875 1182.7427978515625,5011.2861328125\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9f3fad92-7d9b-4df5-bd1a-6f4a794d1cb7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
