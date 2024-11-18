@@ -8,13 +8,13 @@ order: 13
         {
             "created": "2023-09-23T14:20:23.255Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-23T14:20:25.557Z",
+            "modified": "2024-11-18T11:20:32.212Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Araire m\u00e9tallique"
+            "value": "Araire m\u00e9tallique [ar\u02c8ai]\nFigure V\n1. age [C261] [Q79]\n2. manche [C266] [Q6273]\n3. sep [C262] [Q9345]\n4. versoir [C263] [Q10644]\n6. soc [C264] [Q9459]\n14. coutre [C265] [Q2806]\n15. (non retrouv\u00e9)\n16. poign\u00e9es [C268] [Q2090]\n19. pi\u00e8ce amovible de certains araires m\u00e9talliques."
         },
         {
             "created": "2023-09-23T14:20:30.628Z",
@@ -50,6 +50,10 @@ order: 13
     "id": "89cc1d58-3efd-4d69-9706-783d56b8efa8.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2446.1,3885.5 2723.9,3890.6 2887,3962 3098.2,3953.6 3095,4928.2 2590,4895.4 2514.3,4446 2413.3,4233.9\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,10 +61,6 @@ order: 13
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0049",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2446.1,3885.5 2723.9,3890.6 2887,3962 3098.2,3953.6 3095,4928.2 2590,4895.4 2514.3,4446 2413.3,4233.9\"></polygon></svg>"
         }
     },
     "type": "Annotation"
