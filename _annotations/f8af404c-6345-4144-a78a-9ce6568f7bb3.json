@@ -4,20 +4,21 @@ order: 13
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Fl\u00e9au",
-            "purpose": "commenting",
+            "created": "2024-11-18T14:26:58.714Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-18T14:26:58.714Z",
-            "modified": "2024-11-18T14:27:00.911Z"
+            "modified": "2024-11-18T14:27:00.911Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Fl\u00e9au"
         }
     ],
+    "id": "f8af404c-6345-4144-a78a-9ce6568f7bb3.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -29,9 +30,8 @@ order: 13
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2474.459228515625,3533.2705078125 2827.890869140625,3451.709228515625 2714.9599609375,5126.849609375 2487.007080078125,5122.6669921875 2564.385498046875,4091.650634765625\"></polygon></svg>"
+            "value": "<svg><polygon points=\"2499.6,3489.4 2827.9,3451.7 2715,5126.8 2487,5122.7 2564.4,4091.7\"></polygon></svg>"
         }
     },
-    "id": "f8af404c-6345-4144-a78a-9ce6568f7bb3.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
