@@ -3,50 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0049"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Charrue\nDiam\u00e8tre de la roue : 20\nLongueur : 41",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-23T14:11:41.886Z",
-            "modified": "2023-09-23T14:12:05.722Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L650",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-23T14:12:10.780Z"
+            "modified": "2023-09-23T14:12:05.722Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charrue\nDiam\u00e8tre de la roue : 20\nLongueur : 41"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2088",
+            "created": "2023-09-23T14:12:10.780Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-23T14:12:17.241Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L650"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C257",
+            "created": "2023-09-23T14:12:17.241Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-23T14:12:19.427Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2088"
+        },
+        {
+            "created": "2023-09-23T14:12:19.427Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C257"
         }
     ],
+    "id": "04faeeb2-3149-4953-99a4-145aa40e758c.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -58,10 +60,8 @@ order: 7
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"479.9584045410156,587.4851684570312 1087.2310791015625,591.1215209960938 1029.04931640625,1009.3033447265625 1174.5037841796875,1227.485107421875 1105.4129638671875,1307.485107421875 1109.04931640625,1532.939697265625 1192.6856689453125,1591.1214599609375 1181.776611328125,1700.21240234375 952.6856689453125,1722.0306396484375 789.04931640625,1522.0306396484375 741.776611328125,1372.939697265625 403.59478759765625,1343.8487548828125\"></polygon></svg>"
+            "value": "<svg><polygon points=\"480,587.5 1087.2,591.1 1039.9,1075.6 1174.5,1227.5 1087.1,1334.7 1118.9,1495.6 1192.7,1591.1 1181.8,1700.2 952.7,1722 789,1522 741.8,1372.9 403.6,1343.8\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "04faeeb2-3149-4953-99a4-145aa40e758c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
