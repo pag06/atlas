@@ -37,23 +37,39 @@ order: 10
             "value": "C295"
         },
         {
-            "created": "2023-09-24T19:04:25.936Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q969"
+            "purpose": "tagging",
+            "value": "Q4703",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-18T14:35:40.722Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6279",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-18T14:35:50.470Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q987",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-18T14:35:57.906Z"
         }
     ],
     "id": "9f3fad92-7d9b-4df5-bd1a-6f4a794d1cb7.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1095.255859375,4965.92236328125 1616.93701171875,3909.59912109375 1691.462890625,3942.001708984375 1681.7420654296875,4045.68994140625 1902.0794677734375,4382.67626953125 2378.39697265625,4998.3251953125 2329.793212890625,5043.6884765625 1655.820068359375,4233.62451171875 1182.7427978515625,5011.2861328125\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -61,6 +77,10 @@ order: 10
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0084",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1095.3,4965.9 1616.9,3909.6 1691.5,3942 1681.7,4045.7 1902.1,4382.7 2378.4,4998.3 2329.8,5043.7 1637.9,4337.9 1182.7,5011.3\"></polygon></svg>"
         }
     },
     "type": "Annotation"
