@@ -8,13 +8,13 @@ order: 12
         {
             "created": "2023-09-24T19:07:09.991Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-24T19:07:13.746Z",
+            "modified": "2024-11-18T14:20:16.747Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Deux battoirs"
+            "value": "Fl\u00e9au\nFigure X"
         },
         {
             "created": "2023-09-24T19:07:25.290Z",
@@ -50,6 +50,10 @@ order: 12
     "id": "3e13e05f-3189-477f-932c-9ffb7a6901d7.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2651.8,3009.2 2983.2,2952.1 2981.8,3649.2 3005.5,4547.4 2871.4,4565.7 2849.5,3442 2623.6,3483.8\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,10 +61,6 @@ order: 12
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0084",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2651.8,3009.2 2983.2,2952.1 2981.8,3649.2 3005.5,4547.4 2871.4,4565.7 2849.5,3442 2623.6,3483.8\"></polygon></svg>"
         }
     },
     "type": "Annotation"
