@@ -3,50 +3,56 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0084"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Traineau de bois renforc\u00e9 de bandes de fer directement rattach\u00e9 au rouleau pour battre de bl\u00e9.",
+            "created": "2023-09-24T18:51:08.277Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-24T18:51:08.277Z"
+            "type": "TextualBody",
+            "value": "Traineau de bois renforc\u00e9 de bandes de fer directement rattach\u00e9 au rouleau pour battre de bl\u00e9."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q969",
+            "created": "2023-09-24T18:51:14.456Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-24T18:51:14.456Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q969"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L658NO",
+            "created": "2023-09-24T18:51:20.988Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-24T18:51:20.988Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L658NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C295",
+            "created": "2023-09-24T18:57:22.065Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-24T18:57:22.065Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C295"
         }
     ],
+    "id": "4baa1268-29ea-4636-bdb0-842dc1b0e851.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1768.0281982421875,1856.1494140625 2419.41796875,1527.9296875 2833.479736328125,1459.760986328125 3303.08642578125,1795.554931640625 3298.036865234375,2161.646240234375 2464.86376953125,2351.003662109375 1995.2572021484375,2371.201904296875 1768.0281982421875,2108.6259765625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -54,13 +60,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0084",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1768.0281982421875,1856.1494140625 2419.41796875,1527.9296875 2833.479736328125,1459.760986328125 3303.08642578125,1795.554931640625 3298.036865234375,2161.646240234375 2464.86376953125,2351.003662109375 1995.2572021484375,2371.201904296875 1768.0281982421875,2108.6259765625\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "4baa1268-29ea-4636-bdb0-842dc1b0e851.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
