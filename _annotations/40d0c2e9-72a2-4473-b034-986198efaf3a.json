@@ -11,10 +11,10 @@ order: 8
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-18T14:14:44.503Z",
+            "modified": "2024-11-18T14:16:08.288Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Articulation du fl\u00e9au"
+            "value": "Articulation du fl\u00e9au\nFigure VIII"
         },
         {
             "created": "2023-09-24T19:00:32.001Z",
@@ -37,14 +37,14 @@ order: 8
             "value": "L643E"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q477",
+            "created": "2024-11-18T14:14:15.952Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-18T14:14:15.952Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q477"
         }
     ],
     "id": "40d0c2e9-72a2-4473-b034-986198efaf3a.json",
