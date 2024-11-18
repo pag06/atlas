@@ -3,50 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0048"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Araire de bois",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-21T05:39:27.192Z",
-            "modified": "2023-09-21T05:39:29.560Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-18T10:12:43.069Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Araire de bois [ar\u02c8ai]\nFigure II\n2. manche [C266] [Q6273]\n3. sep [C262] [Q9345]\n4. versoir [C263] [Q10644]\n5. \u00e9tan\u00e7on [C267] [Q4218]\n6. soc [C264] [Q9459]\n"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q354",
+            "created": "2023-09-21T05:39:36.988Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-21T05:39:36.988Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q354"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C260",
+            "created": "2023-09-21T05:39:39.789Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-21T05:39:39.789Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C260"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L699NO",
+            "created": "2023-09-21T05:39:49.431Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-21T05:39:49.431Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L699NO"
         }
     ],
+    "id": "b355f0fe-cf40-40f7-9c52-e2f8d34f828d.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -58,10 +60,8 @@ order: 4
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2780.703857421875,1396.2376708984375 2899.826416015625,1356.5301513671875 3254.988037109375,1583.745361328125 3296.9013671875,2349.2177734375 3168.955078125,2360.247802734375 3016.742919921875,2163.916259765625 2824.8232421875,2135.238525390625 2846.883056640625,1866.10986328125\"></polygon></svg>"
+            "value": "<svg><polygon points=\"2780.7,1396.2 2899.8,1356.5 3255,1583.7 3296.9,2349.2 3169,2360.2 2909.1,2102 2824.8,2135.2 2846.9,1866.1\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b355f0fe-cf40-40f7-9c52-e2f8d34f828d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
