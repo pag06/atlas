@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-09-25T05:57:40.995Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-25T05:57:46.863Z",
+            "modified": "2024-11-18T17:01:04.972Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Coffre pour conserver le grain"
+            "value": "Coffre pour conserver le grain [ek ka\u0283\u02c8u\u0303\u014b]"
         },
         {
             "created": "2023-09-25T05:57:53.301Z",
@@ -50,6 +50,10 @@ order: 1
     "id": "533ce904-4b79-429d-ac1d-a7be71845427.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2381.4,1973.7 3026.2,1785.2 3282.9,1869.4 3262.9,2338.7 2725.3,2587.5 2633.1,2579.4 2400.4,2423\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,10 +61,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0095",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2381.4,1973.7 3026.2,1785.2 3282.9,1869.4 3262.9,2338.7 2725.3,2587.5 2633.1,2579.4 2400.4,2423\"></polygon></svg>"
         }
     },
     "type": "Annotation"
