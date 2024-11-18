@@ -3,41 +3,47 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0048"
 order: 9
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Charrue pour nettoyer le fond des sillons",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-22T04:40:25.696Z",
-            "modified": "2023-09-22T04:48:41.887Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-18T11:00:06.460Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charrue pour nettoyer le fond des sillons [kal'\u0153t]\nFigure XIII\n1. age [C261] [Q79]\n2. manche [C266] [Q6273]\n3. sep [C262] [Q9345]\n4. versoir [C263] [Q10644]\n5. \u00e9tan\u00e7on [C267] [Q4218]\n6. soc [C264] [Q9459]\n8. roulette de la charrue [C268] [Q9016]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L664",
+            "created": "2023-09-22T04:40:32.866Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-22T04:40:32.866Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L664"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2088",
+            "created": "2023-09-22T04:40:35.445Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-22T04:40:35.445Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2088"
         }
     ],
+    "id": "682a4fde-4923-445a-94a9-5632be565f0e.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"742.0758666992188,1055.650634765625 781.3081665039062,1086.47607421875 674.8204956054688,1246.2076416015625 562.7281494140625,1882.33154296875 627.1812744140625,2229.817626953125 601.96044921875,2661.373046875 349.75274658203125,2664.175537109375 338.54351806640625,2190.58544921875 279.6950378417969,2067.283935546875 229.25350952148438,1613.3099365234375 209.63734436035156,1366.706787109375 629.9835815429688,1198.568359375\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -45,13 +51,7 @@ order: 9
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0048",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"742.0758666992188,1055.650634765625 781.3081665039062,1086.47607421875 674.8204956054688,1246.2076416015625 562.7281494140625,1882.33154296875 627.1812744140625,2229.817626953125 601.96044921875,2661.373046875 349.75274658203125,2664.175537109375 338.54351806640625,2190.58544921875 279.6950378417969,2067.283935546875 229.25350952148438,1613.3099365234375 209.63734436035156,1366.706787109375 629.9835815429688,1198.568359375\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "682a4fde-4923-445a-94a9-5632be565f0e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
