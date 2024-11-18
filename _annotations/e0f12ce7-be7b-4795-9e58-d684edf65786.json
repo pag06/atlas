@@ -3,51 +3,57 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0049"
 order: 14
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Araire m\u00e9tallique",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-23T14:23:31.422Z",
-            "modified": "2023-09-23T14:23:33.613Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-18T11:17:28.669Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Araire m\u00e9tallique [k\u02c8ur]\nFigure IV\n1. age [C261] [Q79]\n2. manche [C266] [Q6273]\n3. sep [C262] [Q9345]\n4. versoir pour chausser la vigne [C263] [Q10644]\n4. versoir pour labourer les pommes de terre [C263] [Q10644]\n5. \u00e9tan\u00e7on [C267] [Q4218]\n5''. \u00e9tan\u00e7on coupant faisant office de coutre\n6. soc [C264] [Q9459]\n14. coutre [C265] [Q2806]\n16. poign\u00e9es [C268] [Q2090]\n17. entretoise [268] [Q2090]\n21. r\u00e9gulateur [268] [Q8730]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L548",
+            "created": "2023-09-23T14:23:38.568Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-23T14:23:38.568Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L548"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C257",
+            "created": "2023-09-23T14:23:41.773Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-23T14:23:41.773Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C257"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q354",
+            "created": "2023-09-23T14:23:43.785Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-23T14:23:43.785Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q354"
         }
     ],
+    "id": "e0f12ce7-be7b-4795-9e58-d684edf65786.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3039.666015625,2302.340576171875 3282.5615234375,2328.180419921875 3344.57763671875,4498.7373046875 3075.842041015625,4333.361328125 3117.185791015625,3976.77001953125 2703.74658203125,3950.929931640625 2584.8828125,3764.88232421875 2703.74658203125,3465.138671875 2517.69873046875,3113.71533203125 2817.4423828125,2586.580078125 3039.666015625,2467.71630859375\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -55,13 +61,7 @@ order: 14
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0049",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"3039.666015625,2302.340576171875 3282.5615234375,2328.180419921875 3344.57763671875,4498.7373046875 3075.842041015625,4333.361328125 3117.185791015625,3976.77001953125 2703.74658203125,3950.929931640625 2584.8828125,3764.88232421875 2703.74658203125,3465.138671875 2517.69873046875,3113.71533203125 2817.4423828125,2586.580078125 3039.666015625,2467.71630859375\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e0f12ce7-be7b-4795-9e58-d684edf65786.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
