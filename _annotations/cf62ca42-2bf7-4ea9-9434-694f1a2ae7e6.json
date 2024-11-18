@@ -8,13 +8,13 @@ order: 18
         {
             "created": "2023-09-17T21:55:10.637Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-17T21:56:00.830Z",
+            "modified": "2024-11-18T08:33:35.042Z",
             "purpose": "questioning",
             "type": "TextualBody",
-            "value": "Araire ou charrue ? (tir\u00e9 par un homme) "
+            "value": "Araire \u00e0 timon s\u00e9par\u00e9, tir\u00e9 par un homme"
         },
         {
             "created": "2023-09-17T21:55:33.989Z",
@@ -38,14 +38,14 @@ order: 18
             "value": "Quelle est la bonne l\u00e9gende ?"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q354",
+            "created": "2024-11-14T12:55:52.528Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-14T12:55:52.528Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q354"
         }
     ],
     "id": "cf62ca42-2bf7-4ea9-9434-694f1a2ae7e6.json",
