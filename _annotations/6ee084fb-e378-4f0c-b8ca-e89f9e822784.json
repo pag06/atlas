@@ -11,10 +11,10 @@ order: 5
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-18T14:02:50.674Z",
+            "modified": "2024-11-18T14:04:12.003Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Battage \u00e0 la main [bata\u00f0\u02c8er\u0254]\nFigure IV\nOn frappe avec un b\u00e2ton."
+            "value": "Battage \u00e0 la main [bata\u00f0\u02c8er\u0254]\nFigure IV\nOn frappe avec un b\u00e2ton [gar\u02d0\u02c8at]."
         },
         {
             "created": "2023-09-24T18:56:09.051Z",
@@ -50,6 +50,10 @@ order: 5
     "id": "6ee084fb-e378-4f0c-b8ca-e89f9e822784.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1182.3,1894 1341.3,1603.7 1876.6,1280.5 2182.1,1538 2310.3,1720.6 1775.6,1856.1 1760.5,2022.8 1750.4,2022.8\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,10 +61,6 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0084",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1182.3,1894 1341.3,1603.7 1876.6,1280.5 2182.1,1538 2310.3,1720.6 1775.6,1856.1 1760.5,2022.8 1750.4,2022.8\"></polygon></svg>"
         }
     },
     "type": "Annotation"
