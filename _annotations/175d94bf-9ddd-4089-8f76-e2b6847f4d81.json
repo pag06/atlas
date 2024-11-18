@@ -3,49 +3,51 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0063"
 order: 13
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Herse cadre et traverses en bois, pointes en fer",
+            "created": "2023-09-24T18:29:14.540Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-24T18:29:14.540Z"
+            "type": "TextualBody",
+            "value": "Herse cadre et traverses en bois, pointes en fer"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5506",
+            "created": "2023-09-24T18:29:20.066Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-24T18:29:20.066Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5506"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C272",
+            "created": "2023-09-24T18:29:21.907Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-24T18:29:21.907Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C272"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L664",
+            "created": "2023-09-24T18:29:25.078Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-24T18:29:25.078Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L664"
         }
     ],
+    "id": "175d94bf-9ddd-4089-8f76-e2b6847f4d81.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -57,10 +59,8 @@ order: 13
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1742.74658203125,4711.859375 2308.4951171875,4303.58740234375 2681.7724609375,4361.912109375 2206.427001953125,4950.990234375 2218.092041015625,5146.3779296875 1200.327880859375,5134.712890625 1276.1497802734375,4816.84375\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1742.7,4711.9 2308.5,4303.6 2681.8,4361.9 2194,4878.8 2207.2,5123.8 1200.3,5134.7 1276.1,4816.8\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "175d94bf-9ddd-4089-8f76-e2b6847f4d81.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
