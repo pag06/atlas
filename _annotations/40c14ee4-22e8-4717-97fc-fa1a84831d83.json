@@ -3,50 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0048"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Araire de bois",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-21T05:42:08.274Z",
-            "modified": "2023-09-21T05:42:11.003Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-18T10:43:10.025Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Araire de bois [ar\u02d0d\u0153r\u02c8u\u0303\u014b]\n1. age [C261] [Q79]\n2. manche [C266] [Q6273]\n3. sep [C262] [Q9345]\n4. versoir [C263] [Q10644]\n5. \u00e9tan\u00e7on [C267] [Q4218]\n6. soc [C264] [Q9459]\n"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L681N",
+            "created": "2023-09-21T05:42:16.119Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-21T05:42:16.119Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L681N"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C260",
+            "created": "2023-09-21T05:42:18.919Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-21T05:42:18.919Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C260"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q354",
+            "created": "2023-09-21T05:42:20.855Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-21T05:42:20.855Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q354"
         }
     ],
+    "id": "40c14ee4-22e8-4717-97fc-fa1a84831d83.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -58,10 +60,8 @@ order: 6
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1305.5611572265625,1213.0338134765625 2112.18115234375,1409.23876953125 2177.582763671875,1847.0662841796875 2112.18115234375,2121.389892578125 1659.8199462890625,2054.17138671875 1343.7120361328125,1687.1956787109375\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1297.5,1206.7 2104.1,1402.9 2169.5,1840.8 2104.1,2115.1 1651.7,2047.9 1335.6,1680.9\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "40c14ee4-22e8-4717-97fc-fa1a84831d83.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
