@@ -3,50 +3,52 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0084"
 order: 12
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Deux battoirs",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-24T19:07:09.991Z",
-            "modified": "2023-09-24T19:07:13.746Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L699NO",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-24T19:07:25.290Z"
+            "modified": "2023-09-24T19:07:13.746Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Deux battoirs"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C295",
+            "created": "2023-09-24T19:07:25.290Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-24T19:07:37.450Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L699NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q969",
+            "created": "2023-09-24T19:07:37.450Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-24T19:07:40.272Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C295"
+        },
+        {
+            "created": "2023-09-24T19:07:40.272Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q969"
         }
     ],
+    "id": "3e13e05f-3189-477f-932c-9ffb7a6901d7.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -58,10 +60,8 @@ order: 12
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2326.145263671875,3029.1787109375 2983.214599609375,2952.09228515625 3225.486083984375,3616.50341796875 3225.486083984375,4820.51904296875 2597.78271484375,5136.2060546875 2483.98876953125,5114.18115234375 2223.36328125,4603.94287109375\"></polygon></svg>"
+            "value": "<svg><polygon points=\"2326.1,3029.2 2983.2,2952.1 3225.5,3616.5 3225.5,4820.5 2597.8,5136.2 2484,5114.2 2384.1,3473\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "3e13e05f-3189-477f-932c-9ffb7a6901d7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
