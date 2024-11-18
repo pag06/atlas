@@ -8,13 +8,13 @@ order: 8
         {
             "created": "2023-09-22T04:38:51.696Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-22T04:50:19.320Z",
+            "modified": "2024-11-18T10:57:59.441Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Charrue\nAvant train \u00e0 roue invent\u00e9 par un Bethmalais, vers 1880, s'adaptant \u00e0 un araire de bois pour soulager les \u00e2nes substitu\u00e9 aux vaches \u00e0 ce moment-l\u00e0."
+            "value": "Charrue [era r\u02d0\u02c8\u0254\u00f0\u0254]\nFigure XII\nAvant train \u00e0 roue invent\u00e9 par un Bethmalais, vers 1880, s'adaptant \u00e0 un araire de bois pour soulager les \u00e2nes substitu\u00e9 aux vaches \u00e0 ce moment-l\u00e0."
         },
         {
             "created": "2023-09-22T04:38:59.316Z",
@@ -37,14 +37,24 @@ order: 8
             "value": "Q2088"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C260",
+            "created": "2023-09-28T06:18:08.361Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T06:18:08.361Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C260"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9016",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-18T10:58:23.461Z"
         }
     ],
     "id": "e960185e-852a-4017-8af4-4f23edb80d8b.json",
