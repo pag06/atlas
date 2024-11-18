@@ -17,16 +17,6 @@ order: 12
             "value": "Tra\u00eeneau [\u0261al\u02c8\u025br\u0254]\nFigure XIV\nSert \u00e0 transporter la terre d'un point \u00e0 l'autre du champ."
         },
         {
-            "created": "2023-09-24T18:28:47.532Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q5506"
-        },
-        {
             "created": "2023-09-24T18:28:49.518Z",
             "creator": {
                 "id": "ej7320",
@@ -45,6 +35,16 @@ order: 12
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "L658NO"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10178",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-18T13:43:48.531Z"
         }
     ],
     "id": "a140d149-2a91-404a-9482-05e806e95bcb.json",
