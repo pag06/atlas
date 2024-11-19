@@ -3,49 +3,51 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0114"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Panier trap\u00e9zo\u00efdale \u00e0 anse, en bois",
+            "created": "2023-09-27T05:23:01.206Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-27T05:23:01.206Z"
+            "type": "TextualBody",
+            "value": "Panier trap\u00e9zo\u00efdale \u00e0 anse, en bois"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L675N",
+            "created": "2023-09-27T05:23:06.323Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-27T05:23:06.323Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L675N"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C325",
+            "created": "2023-09-27T05:23:08.292Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-27T05:23:08.292Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C325"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7290",
+            "created": "2023-09-27T05:23:10.735Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-27T05:23:10.735Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7290"
         }
     ],
+    "id": "32da2fa5-8a85-418f-9e76-326eafa816d4.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -57,10 +59,8 @@ order: 4
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1099.653076171875,1051.9486083984375 1881.4520263671875,792.0420532226562 2367.9970703125,1033.2353515625 2328.4912109375,1577.99951171875 1688.08154296875,1665.328125 1290.9443359375,1478.1954345703125\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1099.7,1051.9 1881.5,792 2368,1033.2 2195.3,1441.4 1688.1,1665.3 1290.9,1478.2\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "32da2fa5-8a85-418f-9e76-326eafa816d4.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
