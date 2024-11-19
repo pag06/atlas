@@ -3,41 +3,47 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0114"
 order: 11
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Fouloir enti\u00e8rement en bois y compris les cylindres",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-27T05:33:06.597Z",
-            "modified": "2023-09-27T05:33:19.948Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-19T13:48:32.696Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Fouloir [fulw'ar]\nFigure XII\nEnti\u00e8rement en bois y compris les cylindres"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L681N",
+            "created": "2023-09-27T05:33:26.673Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-27T05:33:26.673Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L681N"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-09-27T05:33:42.793Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-27T05:33:42.793Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q???"
         }
     ],
+    "id": "4fedf063-f292-4d79-bd3b-a0676ccf32eb.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2165.72119140625,3973.464111328125 2177.755859375,5012.4619140625 2715.306884765625,5116.7626953125 2711.295166015625,4799.8486328125 2779.491943359375,4743.6865234375 3024.197998046875,4815.89453125 3068.325439453125,4751.70947265625 3056.290771484375,3784.920166015625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -45,13 +51,7 @@ order: 11
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0114",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2165.72119140625,3973.464111328125 2177.755859375,5012.4619140625 2715.306884765625,5116.7626953125 2711.295166015625,4799.8486328125 2779.491943359375,4743.6865234375 3024.197998046875,4815.89453125 3068.325439453125,4751.70947265625 3056.290771484375,3784.920166015625\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "4fedf063-f292-4d79-bd3b-a0676ccf32eb.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
