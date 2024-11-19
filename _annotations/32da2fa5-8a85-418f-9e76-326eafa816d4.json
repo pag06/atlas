@@ -8,12 +8,13 @@ order: 4
         {
             "created": "2023-09-27T05:23:01.206Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Panier trap\u00e9zo\u00efdale \u00e0 anse, en bois"
+            "value": "Panier de vendange en bois [nawk'et]\nTrap\u00e9zo\u00efdale \u00e0 anse.",
+            "modified": "2024-11-19T13:36:07.656Z"
         },
         {
             "created": "2023-09-27T05:23:06.323Z",
@@ -49,6 +50,10 @@ order: 4
     "id": "32da2fa5-8a85-418f-9e76-326eafa816d4.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1099.7,1051.9 1881.5,792 2368,1033.2 2195.3,1441.4 1688.1,1665.3 1290.9,1478.2\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,10 +61,6 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0114",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1099.7,1051.9 1881.5,792 2368,1033.2 2195.3,1441.4 1688.1,1665.3 1290.9,1478.2\"></polygon></svg>"
         }
     },
     "type": "Annotation"
