@@ -3,51 +3,57 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0114"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "R\u00e9cipient pour le transport de la vendange\nLongueur totale de la perche 160",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-27T05:24:48.475Z",
-            "modified": "2023-09-27T05:32:24.874Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-19T13:40:27.214Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Comporte [ku\u0303p\u02c8\u0254rt\u0259]\nFigure VII\nR\u00e9cipient pour le transport de la vendange\nLongueur totale de la perche 160"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L647NO",
+            "created": "2023-09-27T05:25:11.693Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-27T05:25:11.693Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L647NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C326",
+            "created": "2023-09-27T05:32:32.179Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-27T05:32:32.179Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C326"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2531",
+            "created": "2023-09-27T05:34:53.449Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-27T05:34:53.449Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2531"
         }
     ],
+    "id": "0425607c-c012-46d2-aa0d-8342f05c7144.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1445.6435546875,1704.9190673828125 1686.3380126953125,1700.907470703125 2428.479248046875,1789.162109375 2504.69921875,1917.532470703125 2580.919189453125,1953.63671875 2540.803466796875,2178.284912109375 3054.284912109375,2451.07177734375 2990.099609375,2547.349609375 2019.2987060546875,2523.2802734375 1850.8126220703125,2515.257080078125 1826.7431640625,2061.94921875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -55,13 +61,7 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0114",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1445.6435546875,1704.9190673828125 1686.3380126953125,1700.907470703125 2428.479248046875,1789.162109375 2504.69921875,1917.532470703125 2580.919189453125,1953.63671875 2540.803466796875,2178.284912109375 3054.284912109375,2451.07177734375 2990.099609375,2547.349609375 2019.2987060546875,2523.2802734375 1850.8126220703125,2515.257080078125 1826.7431640625,2061.94921875\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0425607c-c012-46d2-aa0d-8342f05c7144.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
