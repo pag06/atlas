@@ -11,10 +11,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-19T13:25:31.723Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Petite serpe sans talon [p\u02c8u\u00f0\u0259]",
-            "modified": "2024-11-19T13:25:31.723Z"
+            "value": "Petite serpe sans talon [p\u02c8u\u00f0\u0259]"
         },
         {
             "created": "2023-09-26T19:10:39.532Z",
@@ -50,10 +50,6 @@ order: 2
     "id": "6c692aa2-8d8f-47f9-910a-e5f7a636d0e4.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2436.474365234375,1679.1944580078125 2929.561279296875,1686.01123046875 2886.3876953125,2947.13232421875 2618.257568359375,2938.043212890625 2663.703369140625,2504.03564453125 2563.722412109375,2474.49609375\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -61,6 +57,10 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0105",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2455.8,1689.1 2929.6,1686 2886.4,2947.1 2618.3,2938 2663.7,2504 2548.6,2483.6\"></polygon></svg>"
         }
     },
     "type": "Annotation"
