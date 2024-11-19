@@ -4,51 +4,56 @@ order: 10
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Enclumette \u00e0 syst\u00e8me mixte. Le faucheur est assis sur un madrier.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-28T06:37:04.159Z",
-            "modified": "2023-09-28T06:37:37.195Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-19T14:10:48.813Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Enclumette \u00e0 syst\u00e8me mixte [h\u02c8ar\u0263\u0259]\nLe faucheur est assis sur un madrier."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L664",
+            "created": "2023-09-28T06:37:46.190Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T06:37:46.190Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L664"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C335",
+            "created": "2023-09-28T06:37:48.278Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T06:37:48.278Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C335"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3855",
+            "created": "2023-09-28T06:37:50.986Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T06:37:50.986Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3855"
         }
     ],
+    "id": "9c77d289-0186-4ed4-a1cd-5f02d73df3e9.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1926.6832275390625,2026.8095703125 2315.497314453125,1804.630126953125 2355.8935546875,1708.68896484375 2974.46142578125,1718.7880859375 2971.936767578125,1930.868408203125 2128.66455078125,2339.880615234375\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +61,7 @@ order: 10
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0125",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1926.6832275390625,2026.8095703125 2315.497314453125,1804.630126953125 2355.8935546875,1708.68896484375 2974.46142578125,1718.7880859375 2971.936767578125,1930.868408203125 2128.66455078125,2339.880615234375\"></polygon></svg>"
         }
     },
-    "id": "9c77d289-0186-4ed4-a1cd-5f02d73df3e9.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
