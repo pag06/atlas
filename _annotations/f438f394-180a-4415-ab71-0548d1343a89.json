@@ -8,12 +8,13 @@ order: 2
         {
             "created": "2023-09-27T05:20:54.152Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Panier de vannerie plus sp\u00e9cialement affect\u00e9 \u00e0 la vendange"
+            "value": "Panier de vendange [pan\u02c8\u025b \u03b2re\u0272a\u00f0\u02c8e]",
+            "modified": "2024-11-19T13:31:41.618Z"
         },
         {
             "created": "2023-09-27T05:20:59.048Z",
@@ -49,6 +50,10 @@ order: 2
     "id": "f438f394-180a-4415-ab71-0548d1343a89.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1962.1,95.7 3045.4,92.5 3054.2,609.3 2979.5,627.9 2987.6,792.3 2667.4,875.4 2197.5,883.7\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,10 +61,6 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0114",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1962.1,95.7 3045.4,92.5 3054.2,609.3 2979.5,627.9 2987.6,792.3 2667.4,875.4 2197.5,883.7\"></polygon></svg>"
         }
     },
     "type": "Annotation"
