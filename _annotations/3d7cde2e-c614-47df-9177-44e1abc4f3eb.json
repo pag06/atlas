@@ -3,61 +3,67 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0102"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Houe \u00e0 fer droit, qui peut aussi bien passer pour une pioche",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-26T18:41:41.038Z",
-            "modified": "2023-09-26T18:42:01.167Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-19T11:45:52.785Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Houe [e\u0283\u02c8at]\n\u00c0 fer droit, qui peut aussi bien passer pour une pioche"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L698",
+            "created": "2023-09-26T18:42:12.751Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-26T18:42:12.751Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L698"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C312",
+            "created": "2023-09-26T18:42:25.717Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-26T18:42:25.717Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C312"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5501",
+            "created": "2023-09-26T18:42:35.186Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-26T18:42:33.337Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7723"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q7723",
+            "value": "Q5561",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-26T18:42:35.186Z"
+            "created": "2024-11-19T11:46:02.098Z"
         }
     ],
+    "id": "3d7cde2e-c614-47df-9177-44e1abc4f3eb.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2032.2247314453125,2269.659423828125 2495.784423828125,2184.970703125 2567.101318359375,2202.7998046875 2549.272216796875,2354.34814453125 2090.169677734375,2390.006591796875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -65,13 +71,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0102",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2032.2247314453125,2269.659423828125 2495.784423828125,2184.970703125 2567.101318359375,2202.7998046875 2549.272216796875,2354.34814453125 2090.169677734375,2390.006591796875\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "3d7cde2e-c614-47df-9177-44e1abc4f3eb.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
