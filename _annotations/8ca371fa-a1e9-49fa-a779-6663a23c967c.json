@@ -4,51 +4,56 @@ order: 12
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Enclumette \u00e0 ar\u00eate plane. Le faucheur est assis sur un si\u00e8ge sp\u00e9cial o\u00f9 est fix\u00e9e l'enclumette.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-28T06:40:04.087Z",
-            "modified": "2023-09-28T06:40:15.823Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-19T14:12:04.446Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Enclumette \u00e0 ar\u00eate plane [esklup\u02c8\u025br\u0254]\nLe faucheur est assis sur un si\u00e8ge sp\u00e9cial o\u00f9 est fix\u00e9e l'enclumette."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L692SO",
+            "created": "2023-09-28T06:40:21.413Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T06:40:21.413Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L692SO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C335",
+            "created": "2023-09-28T06:40:23.414Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T06:40:23.414Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C335"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3855",
+            "created": "2023-09-28T06:40:29.299Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T06:40:29.299Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3855"
         }
     ],
+    "id": "8ca371fa-a1e9-49fa-a779-6663a23c967c.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2458.178955078125,2489.707275390625 3121.751220703125,2558.3525390625 3259.042236328125,2532.610595703125 3299.085205078125,2592.67529296875 3176.095703125,3056.03173828125 2955.858154296875,2958.7841796875 3010.20263671875,2821.493408203125 2649.814208984375,2855.816162109375 2581.168701171875,2941.622802734375 2409.55517578125,2861.53662109375\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +61,7 @@ order: 12
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0125",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2458.178955078125,2489.707275390625 3121.751220703125,2558.3525390625 3259.042236328125,2532.610595703125 3299.085205078125,2592.67529296875 3176.095703125,3056.03173828125 2955.858154296875,2958.7841796875 3010.20263671875,2821.493408203125 2649.814208984375,2855.816162109375 2581.168701171875,2941.622802734375 2409.55517578125,2861.53662109375\"></polygon></svg>"
         }
     },
-    "id": "8ca371fa-a1e9-49fa-a779-6663a23c967c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
