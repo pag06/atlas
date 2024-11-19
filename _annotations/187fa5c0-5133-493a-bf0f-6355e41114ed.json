@@ -4,51 +4,57 @@ order: 7
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Enclumette \u00e0 ar\u00eate",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-28T06:32:33.589Z",
-            "modified": "2023-09-28T06:33:12.675Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-19T14:07:45.953Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Enclumette \u00e0 ar\u00eate [e\u0303\u014bkl\u02c8ymi]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C335",
+            "created": "2023-09-28T06:32:41.064Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T06:32:41.064Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C335"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3855",
+            "created": "2023-09-28T06:32:44.125Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T06:32:44.125Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3855"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L691O",
+            "created": "2023-09-28T06:32:48.606Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T06:32:48.606Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L691O"
         }
     ],
+    "id": "187fa5c0-5133-493a-bf0f-6355e41114ed.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2344.236083984375,854.242431640625,332.069091796875,713.168701171875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,13 +62,7 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0125",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2344.236083984375,854.242431640625,332.069091796875,713.168701171875"
         }
     },
-    "id": "187fa5c0-5133-493a-bf0f-6355e41114ed.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
