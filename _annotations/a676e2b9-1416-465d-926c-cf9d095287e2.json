@@ -3,51 +3,57 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0100"
 order: 13
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Pioche",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-26T18:39:58.670Z",
-            "modified": "2023-09-26T18:39:59.753Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-19T11:26:38.712Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Pioche \u00e0 quatre dents (fumier) [a\u02d0est\u02c8\u025bt dett j\u02c8e\u0303m]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L780NO",
+            "created": "2023-09-26T18:40:04.886Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-26T18:40:04.886Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L780NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C310",
+            "created": "2023-09-26T18:40:06.515Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-26T18:40:06.515Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C310"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7723",
+            "created": "2023-09-26T18:40:08.308Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-26T18:40:08.308Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7723"
         }
     ],
+    "id": "a676e2b9-1416-465d-926c-cf9d095287e2.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2540.80322265625,2782.026611328125 2949.98388671875,2495.198974609375 3070.3310546875,2515.2568359375 3186.666748046875,2898.3623046875 3118.469970703125,2980.599609375 2671.179443359375,2996.645751953125\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -55,13 +61,7 @@ order: 13
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0100",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2540.80322265625,2782.026611328125 2949.98388671875,2495.198974609375 3070.3310546875,2515.2568359375 3186.666748046875,2898.3623046875 3118.469970703125,2980.599609375 2671.179443359375,2996.645751953125\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a676e2b9-1416-465d-926c-cf9d095287e2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
