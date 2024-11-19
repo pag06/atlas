@@ -3,51 +3,67 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0116"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Hotte faite de noisetier refendu : sert \u00e0 transporter pommes de terre, fumier, foin et aussi la terre des champs quand il faut la remonter du bas vers le haut. Les seuls moyens de transport sont ici la hotte et le traineau.\n\nLa courroie ([...]) L791) appuie sur le front du porteur. Se fixe aussi au b\u00e2t de l'\u00e2ne.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-27T05:37:26.730Z",
-            "modified": "2023-09-27T05:41:24.790Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-19T13:58:18.305Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Hotte  [k\u02c8aw\u0292o]\nHotte faite de noisetier refendu : sert \u00e0 transporter pommes de terre, fumier, foin et aussi la terre des champs quand il faut la remonter du bas vers le haut. Les seuls moyens de transport sont ici la hotte et le traineau.\n\nLa courroie ([s\u02c8i\u0303n\u026c]\u0254) L791) appuie sur le front du porteur. Se fixe aussi au b\u00e2t de l'\u00e2ne."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L790SE",
+            "created": "2023-09-27T05:38:18.693Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-27T05:38:18.693Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L790SE"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C325",
+            "created": "2023-09-27T05:38:21.235Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-27T05:38:21.235Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C325"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5558",
+            "created": "2023-09-27T05:41:41.459Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-27T05:41:41.459Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5558"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L791",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-19T13:58:37.195Z"
         }
     ],
+    "id": "183d2ee3-a3f0-407f-b046-985e59d958fe.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"95.74884796142578,4099.82861328125 739.6065063476562,4141.9501953125 773.7048950195312,4378.63330078125 709.5197143554688,4482.93408203125 581.1493530273438,4864.03369140625 200.04977416992188,4900.1376953125\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -55,13 +71,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0116",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"95.74884796142578,4099.82861328125 739.6065063476562,4141.9501953125 773.7048950195312,4378.63330078125 709.5197143554688,4482.93408203125 581.1493530273438,4864.03369140625 200.04977416992188,4900.1376953125\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "183d2ee3-a3f0-407f-b046-985e59d958fe.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
