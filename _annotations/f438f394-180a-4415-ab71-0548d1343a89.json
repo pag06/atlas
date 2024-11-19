@@ -3,49 +3,51 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0114"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Panier de vannerie plus sp\u00e9cialement affect\u00e9 \u00e0 la vendange",
+            "created": "2023-09-27T05:20:54.152Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-27T05:20:54.152Z"
+            "type": "TextualBody",
+            "value": "Panier de vannerie plus sp\u00e9cialement affect\u00e9 \u00e0 la vendange"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L771NO",
+            "created": "2023-09-27T05:20:59.048Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-27T05:20:59.048Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L771NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C325",
+            "created": "2023-09-27T05:21:01.158Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-27T05:21:01.158Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C325"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7290",
+            "created": "2023-09-27T05:21:08.690Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-27T05:21:08.690Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7290"
         }
     ],
+    "id": "f438f394-180a-4415-ab71-0548d1343a89.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -57,10 +59,8 @@ order: 2
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1960.463623046875,110.25526428222656 3029.199462890625,76.98722076416016 3054.150390625,609.27587890625 2946.029296875,625.9098510742188 2987.6142578125,792.2500610351562 2667.409423828125,875.420166015625 2197.498291015625,883.7371826171875\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1962.1,95.7 3045.4,92.5 3054.2,609.3 2946,625.9 2987.6,792.3 2667.4,875.4 2197.5,883.7\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f438f394-180a-4415-ab71-0548d1343a89.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
