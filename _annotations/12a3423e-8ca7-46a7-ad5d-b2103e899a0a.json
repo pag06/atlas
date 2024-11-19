@@ -3,51 +3,57 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0114"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "R\u00e9cipient pour le transport de la vendange",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-27T05:23:59.438Z",
-            "modified": "2023-09-27T05:34:11.125Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-19T13:38:18.654Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "R\u00e9cipient pour le transport de la vendange [sem'aw]\nFigure VIII"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L668SO",
+            "created": "2023-09-27T05:24:11.351Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-27T05:24:11.351Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L668SO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C326",
+            "created": "2023-09-27T05:34:19.490Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-27T05:34:19.490Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C326"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2531",
+            "created": "2023-09-27T05:34:47.629Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-27T05:34:47.629Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2531"
         }
     ],
+    "id": "12a3423e-8ca7-46a7-ad5d-b2103e899a0a.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2380.34033203125,918.6505126953125 3106.435302734375,786.2685546875 3359.16455078125,958.7662353515625 3343.1181640625,2029.8565673828125 2617.023193359375,2053.926025390625 2524.757080078125,1905.497802734375 2428.479248046875,1841.3126220703125\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -55,13 +61,7 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0114",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2380.34033203125,918.6505126953125 3106.435302734375,786.2685546875 3359.16455078125,958.7662353515625 3343.1181640625,2029.8565673828125 2617.023193359375,2053.926025390625 2524.757080078125,1905.497802734375 2428.479248046875,1841.3126220703125\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "12a3423e-8ca7-46a7-ad5d-b2103e899a0a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
