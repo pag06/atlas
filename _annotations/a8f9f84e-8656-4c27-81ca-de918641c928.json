@@ -4,50 +4,56 @@ order: 6
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Enclumette plane, on frappe avec un marteau \u00e0 double panne.",
+            "created": "2023-09-28T06:32:12.003Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-28T06:32:12.003Z"
+            "type": "TextualBody",
+            "value": "Enclumette plane [f\u02c8\u0254rdz\u0259]\nOn frappe avec un marteau \u00e0 double panne.",
+            "modified": "2024-11-19T14:07:01.049Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L548",
+            "created": "2023-09-28T06:32:17.006Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T06:32:17.006Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L548"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C335",
+            "created": "2023-09-28T06:32:18.412Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T06:32:18.412Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C335"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3855",
+            "created": "2023-09-28T06:32:20.749Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T06:32:20.749Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3855"
         }
     ],
+    "id": "a8f9f84e-8656-4c27-81ca-de918641c928.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1967.5938720703125,856.4710693359375 2174.8583984375,863.1570434570312 2223.888916015625,1317.8021240234375 2139.2001953125,1337.8599853515625 2110.2275390625,1576.3258056640625 2016.624267578125,1431.46337890625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -55,12 +61,7 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0125",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1967.5938720703125,856.4710693359375 2174.8583984375,863.1570434570312 2223.888916015625,1317.8021240234375 2139.2001953125,1337.8599853515625 2110.2275390625,1576.3258056640625 2016.624267578125,1431.46337890625\"></polygon></svg>"
         }
     },
-    "id": "a8f9f84e-8656-4c27-81ca-de918641c928.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
