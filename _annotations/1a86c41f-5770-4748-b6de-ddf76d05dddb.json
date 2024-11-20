@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-09-30T07:49:10.887Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-30T07:49:13.409Z",
+            "modified": "2024-11-20T16:09:07.167Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Civi\u00e8re"
+            "value": "Civi\u00e8re [\u00a0syw\u02c8\u025bj]\nFigure I"
         },
         {
             "created": "2023-09-30T07:49:18.165Z",
@@ -50,6 +50,10 @@ order: 1
     "id": "1a86c41f-5770-4748-b6de-ddf76d05dddb.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1124.7,633.8 1128.7,208.6 2305.2,238 2294.5,335.4 2166.1,409.2 2167.7,517.7 2366.2,595.3 2316.2,694 1128.7,690\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,10 +61,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0165",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1124.7,633.8 1128.7,208.6 2305.2,238 2294.5,335.4 2166.1,409.2 2167.7,517.7 2366.2,595.3 2316.2,694 1128.7,690\"></polygon></svg>"
         }
     },
     "type": "Annotation"
