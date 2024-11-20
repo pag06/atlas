@@ -4,50 +4,51 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Coffin en zinc",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-28T10:55:04.665Z",
-            "modified": "2023-09-28T10:55:07.693Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L548",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T10:55:11.307Z"
+            "modified": "2023-09-28T10:55:07.693Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Coffin en zinc"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C340",
+            "created": "2023-09-28T10:55:11.307Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T10:55:12.633Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L548"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2436",
+            "created": "2023-09-28T10:55:12.633Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T10:55:14.108Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C340"
+        },
+        {
+            "created": "2023-09-28T10:55:14.108Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2436"
         }
     ],
+    "id": "54ae2125-c7fe-4239-9541-128f7c55f971.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -59,9 +60,8 @@ order: 3
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"160.1569061279297,2332.061767578125 467.7109375,2510.35400390625 405.30865478515625,3089.803466796875 249.30300903320312,3254.7236328125 151.2423095703125,2978.370849609375\"></polygon></svg>"
+            "value": "<svg><polygon points=\"146.4,2346 446,2423 428.8,3086.2 249.3,3254.7 151.2,2978.4\"></polygon></svg>"
         }
     },
-    "id": "54ae2125-c7fe-4239-9541-128f7c55f971.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
