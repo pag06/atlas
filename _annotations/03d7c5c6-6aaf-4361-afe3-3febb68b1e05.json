@@ -4,51 +4,56 @@ order: 7
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Charrette",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-29T05:54:34.745Z",
-            "modified": "2023-09-29T05:54:36.204Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-20T13:38:52.297Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charrette [kat\u02c8a\u03b2\u0254]\nFigure VII\n5. fermeture \u00e0 claire-voie [C358] [Q7800]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L692SO",
+            "created": "2023-09-29T05:54:41.725Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T05:54:41.725Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L692SO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C348",
+            "created": "2023-09-29T05:54:43.235Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T05:54:43.235Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C348"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2080",
+            "created": "2023-09-29T05:54:44.851Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T05:54:44.851Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2080"
         }
     ],
+    "id": "03d7c5c6-6aaf-4361-afe3-3febb68b1e05.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1020.4,2258.5 1349.4,2001.8 1738.5,1941.6 2131.6,2278.6 1983.2,2519.3 1842.8,2575.4 2219.9,2892.3 2195.8,2948.5 2027.3,2916.4 1959.1,2800.1 1245.1,2703.8\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +61,7 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0138",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1020.4,2258.5 1349.4,2001.8 1738.5,1941.6 2131.6,2278.6 1983.2,2519.3 1842.8,2575.4 2219.9,2892.3 2195.8,2948.5 2027.3,2916.4 1959.1,2800.1 1245.1,2703.8\"></polygon></svg>"
         }
     },
-    "id": "03d7c5c6-6aaf-4361-afe3-3febb68b1e05.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
