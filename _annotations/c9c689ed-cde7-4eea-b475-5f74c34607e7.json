@@ -8,13 +8,13 @@ order: 5
         {
             "created": "2023-09-29T09:38:25.644Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-29T09:38:29.107Z",
+            "modified": "2024-11-20T14:49:13.906Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Charrette tombereau"
+            "value": "Charrette [br\u02c8\u0254s]\nFigure V'\n21. arr\u00eat de bascule [C378] [Q10795]"
         },
         {
             "created": "2023-09-29T09:38:35.163Z",
@@ -50,6 +50,10 @@ order: 5
     "id": "c9c689ed-cde7-4eea-b475-5f74c34607e7.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2313.3,1056.3 3365.1,1045.4 3371.2,1560.5 3218.8,1721 2492.7,1704.9\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,10 +61,6 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0141",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2313.3,1056.3 3365.1,1045.4 3371.2,1560.5 3218.8,1721 2492.7,1704.9\"></polygon></svg>"
         }
     },
     "type": "Annotation"
