@@ -8,13 +8,13 @@ order: 10
         {
             "created": "2023-09-30T07:22:55.644Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-30T07:23:06.561Z",
+            "modified": "2024-11-20T15:22:08.240Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Traineau pour fumier"
+            "value": "Traineau pour fumier [l\u02c8e\u03b2j\u0252]\nFigure XII"
         },
         {
             "created": "2023-09-30T07:23:14.383Z",
@@ -50,6 +50,10 @@ order: 10
     "id": "ee53bc18-1c11-4d78-95ff-9da328e3ae2c.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2356.3,2346.8 2869.8,2218.4 3359.2,2210.4 3354.6,2702.7 2921.9,2772 2428.5,2916.4 2235.9,2647.6\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,10 +61,6 @@ order: 10
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0143",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2356.3,2346.8 2869.8,2218.4 3359.2,2210.4 3354.6,2702.7 2921.9,2772 2428.5,2916.4 2235.9,2647.6\"></polygon></svg>"
         }
     },
     "type": "Annotation"
