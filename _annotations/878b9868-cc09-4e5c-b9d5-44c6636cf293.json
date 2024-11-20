@@ -4,51 +4,56 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Faux pour trancher la paille dans la meule.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-28T06:41:24.338Z",
-            "modified": "2023-09-28T06:41:35.693Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-20T08:10:19.268Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Outil pour trancher la paille dans la meule [d\u02c8a\u028e\u0254]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L659",
+            "created": "2023-09-28T06:41:42.139Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T06:41:42.139Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L659"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C336",
+            "created": "2023-09-28T06:41:44.103Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T06:41:44.103Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C336"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q4474",
+            "value": "Q2730",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-28T06:41:49.423Z"
+            "created": "2024-11-20T08:09:48.981Z"
         }
     ],
+    "id": "878b9868-cc09-4e5c-b9d5-44c6636cf293.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"129.84725952148438,1961.6597900390625 326.4143981933594,1047.0208740234375 579.1435546875,1055.0439453125 535.0162963867188,2992.63427734375 310.36810302734375,2968.56494140625 362.5185852050781,1965.67138671875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +61,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0126",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"129.84725952148438,1961.6597900390625 326.4143981933594,1047.0208740234375 579.1435546875,1055.0439453125 535.0162963867188,2992.63427734375 310.36810302734375,2968.56494140625 362.5185852050781,1965.67138671875\"></polygon></svg>"
         }
     },
-    "id": "878b9868-cc09-4e5c-b9d5-44c6636cf293.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
