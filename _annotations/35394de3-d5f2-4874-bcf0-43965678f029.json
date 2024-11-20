@@ -4,51 +4,56 @@ order: 8
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Charrette",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-29T05:55:15.020Z",
-            "modified": "2023-09-29T05:55:16.590Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-20T13:31:58.450Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charrette [br\u02c8\u0254s] (gascon) [\u0254r\u0263\u02c8a] (basque)\nFigure IV\n2. ridelles [C355] [Q8921]\n4. anneaux des ridelles [C357] [Q272]\n5. fermeture \u00e0 claire-voie [C358] [Q7800]\n25. et 26. cheville d'attelage [C381] [Q2242]\n29. Sert \u00e0 r\u00e9gler et \u00e0 fixer l'avant de la perche du char [C378] [Q10795]\n35. bride de l'essieu [C378] [Q10795]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L691O",
+            "created": "2023-09-29T05:55:22.868Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T05:55:22.868Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L691O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C348",
+            "created": "2023-09-29T05:55:36.245Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T05:55:36.245Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C348"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2080",
+            "created": "2023-09-29T05:55:39.342Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T05:55:39.342Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2080"
         }
     ],
+    "id": "35394de3-d5f2-4874-bcf0-43965678f029.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2500.687744140625,1087.1365966796875 3335.094970703125,970.8009033203125 3311.025634765625,1881.42822265625 2476.6181640625,1861.370361328125 2143.657470703125,1985.729248046875 1927.032470703125,2098.05322265625 1762.5579833984375,1468.2362060546875 2087.495361328125,1307.773193359375 2380.34033203125,1331.8426513671875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +61,7 @@ order: 8
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0138",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2500.687744140625,1087.1365966796875 3335.094970703125,970.8009033203125 3311.025634765625,1881.42822265625 2476.6181640625,1861.370361328125 2143.657470703125,1985.729248046875 1927.032470703125,2098.05322265625 1762.5579833984375,1468.2362060546875 2087.495361328125,1307.773193359375 2380.34033203125,1331.8426513671875\"></polygon></svg>"
         }
     },
-    "id": "35394de3-d5f2-4874-bcf0-43965678f029.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
