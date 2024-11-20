@@ -4,51 +4,56 @@ order: 9
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Charrette",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-29T05:56:05.406Z",
-            "modified": "2023-09-29T05:56:07.086Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-20T13:41:09.350Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charrette [kat\u02c8a\u03b2\u0259]\nFigure VIII\n1. limons-brancards [C354] [Q6128]\n2. ridelles [C355] [Q8921]\n3. barres [C356] [Q903]\n18. (non nomm\u00e9e) [C378] [Q10795]\n26. cheville d'attelage [C381] [Q2242]\n27. frette du moyeu [C378] [Q4884]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L685",
+            "created": "2023-09-29T05:56:11.401Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T05:56:11.401Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L685"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C348",
+            "created": "2023-09-29T05:56:14.553Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T05:56:14.553Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C348"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2080",
+            "created": "2023-09-29T05:56:16.017Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T05:56:16.017Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2080"
         }
     ],
+    "id": "62823756-adc8-42c7-ba0e-d87c24961a65.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2155.7,2049.9 2372.3,2001.8 2649.1,2049.9 3066.3,2118.1 2990.1,2535.3 2865.7,2587.5 3254.9,2836.2 3399.3,2916.4 3262.9,3098.7 3022.2,3012.7 2641.1,2667.7 2223.9,2731.9\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +61,7 @@ order: 9
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0138",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2155.7,2049.9 2372.3,2001.8 2649.1,2049.9 3066.3,2118.1 2990.1,2535.3 2865.7,2587.5 3254.9,2836.2 3399.3,2916.4 3262.9,3098.7 3022.2,3012.7 2641.1,2667.7 2223.9,2731.9\"></polygon></svg>"
         }
     },
-    "id": "62823756-adc8-42c7-ba0e-d87c24961a65.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
