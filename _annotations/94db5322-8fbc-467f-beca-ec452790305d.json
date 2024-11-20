@@ -8,12 +8,13 @@ order: 8
         {
             "created": "2023-09-30T07:54:11.749Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Civi\u00e8re"
+            "value": "Civi\u00e8re [se\u03b2i\u02c8\u025bra]",
+            "modified": "2024-11-20T16:17:08.095Z"
         },
         {
             "created": "2023-09-30T07:54:15.530Z",
@@ -49,6 +50,10 @@ order: 8
     "id": "94db5322-8fbc-467f-beca-ec452790305d.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2111.6,1716.4 3353.5,1713.2 3354.6,1812.7 3360,2114.4 2105.1,2104.7\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,10 +61,6 @@ order: 8
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0165",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2111.6,1716.4 3353.5,1713.2 3354.6,1812.7 3360,2114.4 2105.1,2104.7\"></polygon></svg>"
         }
     },
     "type": "Annotation"
