@@ -8,12 +8,13 @@ order: 8
         {
             "created": "2023-09-30T07:45:07.801Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Char"
+            "value": "Char [k\u02c8ar\u02d0]\nFigure VI\n7. fourrag\u00e8re horizontale [C359] [Q4843]\n14 armon [C372] [Q414]\n28. treuil du c\u00e2ble pour serrer la charge [C386] [Q10283]",
+            "modified": "2024-11-20T16:03:25.938Z"
         },
         {
             "created": "2023-09-30T07:45:13.558Z",
@@ -49,6 +50,10 @@ order: 8
     "id": "1c28b23e-f4d5-4223-8e57-3d5f0484e8a7.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"206.1,4292.4 457.2,4298.8 1305.2,4280.3 1449.7,5034.5 1277.2,5154.9 972.3,5038.5 210.1,5053\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,10 +61,6 @@ order: 8
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0158",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"206.1,4292.4 457.2,4298.8 1305.2,4280.3 1449.7,5034.5 1277.2,5154.9 972.3,5038.5 210.1,5053\"></polygon></svg>"
         }
     },
     "type": "Annotation"
