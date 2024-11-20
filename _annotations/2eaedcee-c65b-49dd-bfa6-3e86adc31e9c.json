@@ -11,10 +11,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-20T08:12:40.772Z",
+            "modified": "2024-11-20T08:17:42.698Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Faux [da\u028e\u02c8\u0254t]\nFaux \u00e0 lame plus courte et plus \u00e9paisse, pour couper les broussailles ou les joncs et foug\u00e8res servant \u00e0 confectionner la liti\u00e8re."
+            "value": "Faux [da\u028e\u02c8\u0254t]\nFaux \u00e0 lame plus courte et plus \u00e9paisse, pour couper les broussailles ou les joncs et foug\u00e8res servant \u00e0 confectionner la liti\u00e8re.\nAnneau de la faux [b'awk]"
         },
         {
             "created": "2023-09-28T06:42:14.975Z",
@@ -37,14 +37,24 @@ order: 2
             "value": "C336"
         },
         {
-            "created": "2023-09-28T06:42:19.896Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q4474"
+            "purpose": "tagging",
+            "value": "Q4477",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-20T08:17:02.029Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q268",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-20T08:17:52.721Z"
         }
     ],
     "id": "2eaedcee-c65b-49dd-bfa6-3e86adc31e9c.json",
