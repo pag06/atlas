@@ -4,50 +4,51 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Frein. Syst\u00e8me \u00e0 treuil et levier",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-30T07:32:26.818Z",
-            "modified": "2023-09-30T07:34:48.139Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L647NO",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:32:42.483Z"
+            "modified": "2023-09-30T07:34:48.139Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Frein. Syst\u00e8me \u00e0 treuil et levier"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C365",
+            "created": "2023-09-30T07:32:42.483Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:32:44.772Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L647NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4871",
+            "created": "2023-09-30T07:32:44.772Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:32:59.456Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C365"
+        },
+        {
+            "created": "2023-09-30T07:32:59.456Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4871"
         }
     ],
+    "id": "5dddad1d-7319-4eb0-893e-a22cacd60462.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -59,9 +60,8 @@ order: 1
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2111.56494140625,1688.872802734375 2941.960693359375,1648.757080078125 2889.810302734375,1989.7408447265625 2444.525634765625,2009.7987060546875 2243.94677734375,2154.21533203125 2067.47900390625,2109.99267578125\"></polygon></svg>"
+            "value": "<svg><polygon points=\"2061.3,1657 2942,1648.8 2887.1,1939.5 2444.5,2009.8 2243.9,2154.2 2067.5,2110\"></polygon></svg>"
         }
     },
-    "id": "5dddad1d-7319-4eb0-893e-a22cacd60462.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
