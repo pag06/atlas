@@ -8,12 +8,13 @@ order: 6
         {
             "created": "2023-09-28T06:47:46.348Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Faux"
+            "value": "Faux [d\u02c8a\u028e\u0254]\nManche [m\u02c8a\u0303\u014b\u0283e]\nR\u00e2teau de la faux [s\u02c8ewkle]\nPoign\u00e9e [ma\u0272\u02c8\u0254t]",
+            "modified": "2024-11-20T08:37:16.844Z"
         },
         {
             "created": "2023-09-28T06:47:51.469Z",
@@ -49,6 +50,10 @@ order: 6
     "id": "24871f39-5eae-4782-8f9b-163db27f30fd.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2292.9,1085.8 2751.1,1118.6 3183.8,1674.9 3118.3,1754.9 2788.8,1486.4 2859.7,1801 2816.1,2217.3 2838.3,2925.8 2558.3,2994.9 2543.8,2762.2 2612.9,2725.8 2576.5,2605.8 2445.2,2532.9 2456.5,2271.3 2645.6,2144 2634.7,2104 2383.8,1769.5\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,10 +61,6 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0126",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2292.9,1085.8 2751.1,1118.6 3183.8,1674.9 3118.3,1754.9 2788.8,1486.4 2859.7,1801 2816.1,2217.3 2838.3,2925.8 2558.3,2994.9 2543.8,2762.2 2612.9,2725.8 2576.5,2605.8 2445.2,2532.9 2456.5,2271.3 2645.6,2144 2634.7,2104 2383.8,1769.5\"></polygon></svg>"
         }
     },
     "type": "Annotation"
