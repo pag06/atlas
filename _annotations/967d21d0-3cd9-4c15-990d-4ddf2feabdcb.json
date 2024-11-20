@@ -4,51 +4,56 @@ order: 18
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Traineau pour foin",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-30T07:29:53.037Z",
-            "modified": "2023-09-30T07:29:55.969Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-20T15:33:57.186Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Traineau pour foin [le\u03b2j\u02c8\u0254t]\nFigure XIX\n5. fermeture \u00e0 claire-voie [C358] [Q7800]\n30. patin du tra\u00eeneau [C378] [Q10795]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L698",
+            "created": "2023-09-30T07:29:59.929Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:29:59.929Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L698"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C351",
+            "created": "2023-09-30T07:30:01.313Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:30:01.313Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C351"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10178",
+            "created": "2023-09-30T07:30:06.439Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:30:06.439Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10178"
         }
     ],
+    "id": "967d21d0-3cd9-4c15-990d-4ddf2feabdcb.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1893.5,4565.3 2867.5,4472 3097.9,4232.8 3383.7,4317.4 3342.8,4757.8 2669.2,5049.4 2561.3,5046.5 2330.9,5171.9 1887.7,4996.9\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +61,7 @@ order: 18
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0143",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1893.5,4565.3 2867.5,4472 3097.9,4232.8 3383.7,4317.4 3342.8,4757.8 2669.2,5049.4 2561.3,5046.5 2330.9,5171.9 1887.7,4996.9\"></polygon></svg>"
         }
     },
-    "id": "967d21d0-3cd9-4c15-990d-4ddf2feabdcb.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
