@@ -40,14 +40,6 @@ order: 6
     "id": "f8e253ce-2fa4-49ed-b376-6fbc9b6d84ee.json",
     "motivation": "commenting",
     "target": {
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
-            "type": "Manifest"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1523.3048095703125,3389.419921875 2389.996337890625,3256.27587890625 2629.90673828125,3741.120849609375 2607.29736328125,3861.703857421875 2201.585205078125,3875.52099609375 1596.1571044921875,3729.816162109375 1595.529052734375,3729.129150390625\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -55,6 +47,10 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0349",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1538.5,3309.9 2488,3309.9 2618.3,3744.9 2618.3,3875.2 2201.6,3875.5 1668.8,3749.4 1538.5,3718.4\"></polygon></svg>"
         }
     },
     "type": "Annotation"
