@@ -4,51 +4,57 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Traineau",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-29T09:55:39.348Z",
-            "modified": "2023-09-29T09:55:40.472Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-20T15:13:36.050Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Traineau [livj\u02c8\u0254t]\nFigure III"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10178",
+            "created": "2023-09-29T09:55:53.144Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:55:53.144Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10178"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C351",
+            "created": "2023-09-29T09:55:55.180Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:55:55.180Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C351"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L699NO",
+            "created": "2023-09-29T09:56:00.573Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:56:00.573Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L699NO"
         }
     ],
+    "id": "c7db5304-6242-4cf3-bd8a-4ad0c85f5789.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=91.85773468017578,766.4051513671875,1060.9409713745117,581.48388671875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,13 +62,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0143",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=91.85773468017578,766.4051513671875,1060.9409713745117,581.48388671875"
         }
     },
-    "id": "c7db5304-6242-4cf3-bd8a-4ad0c85f5789.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
