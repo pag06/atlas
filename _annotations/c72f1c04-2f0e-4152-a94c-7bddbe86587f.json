@@ -4,51 +4,56 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Char",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-30T07:35:29.357Z",
-            "modified": "2023-09-30T07:35:30.262Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-20T15:44:10.404Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Char [k\u02c8ar\u02d0]\nFigure I\n9. barre horizontale sup\u00e9rieure (ridelles)  [C368] [Q891]\n10 pi\u00e8ce de bois sur le corps de l'essieu [C369] [Q7648]\n31. (char) non nomm\u00e9e [C378] [Q10795]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L679SO",
+            "created": "2023-09-30T07:35:42.542Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:35:42.542Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L679SO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C366",
+            "created": "2023-09-30T07:35:45.335Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:35:45.335Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C366"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2043",
+            "created": "2023-09-30T07:35:54.508Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:35:54.508Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2043"
         }
     ],
+    "id": "c72f1c04-2f0e-4152-a94c-7bddbe86587f.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"97.75469970703125,525.5162353515625 1778.6043701171875,461.3310546875 1963.13671875,1392.0162353515625 1529.88671875,1636.7222900390625 1261.1112060546875,1484.282470703125 783.73388671875,1516.3751220703125 643.3287963867188,1664.8033447265625 133.85887145996094,1624.6876220703125\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +61,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0158",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"97.75469970703125,525.5162353515625 1778.6043701171875,461.3310546875 1963.13671875,1392.0162353515625 1529.88671875,1636.7222900390625 1261.1112060546875,1484.282470703125 783.73388671875,1516.3751220703125 643.3287963867188,1664.8033447265625 133.85887145996094,1624.6876220703125\"></polygon></svg>"
         }
     },
-    "id": "c72f1c04-2f0e-4152-a94c-7bddbe86587f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
