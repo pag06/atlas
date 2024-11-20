@@ -3,8 +3,10 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0349"
 order: 9
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [],
+    "id": "045fa477-2b4f-465c-a5e1-945f86200bfa.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -16,13 +18,11 @@ order: 9
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2232.340087890625,1865.44091796875 2505.0673828125,1798.168212890625 2680.152849742919,2507.9744518491007 2407.425554821044,2575.2471569272257\" /></svg>"
+            "value": "<svg><polygon points=\"2185.976318359375,2013.6226806640625 2454.158203125,1934.5318603515625 2660.959170032813,2635.7544909622807 2392.777285267188,2714.8453112747807\"></polygon></svg>"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "045fa477-2b4f-465c-a5e1-945f86200bfa.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
