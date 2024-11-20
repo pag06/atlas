@@ -4,50 +4,96 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L691O",
+            "created": "2023-09-28T14:16:10.069Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T14:16:04.762Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L697NE"
+        },
+        {
+            "created": "2023-09-28T14:16:18.682Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L698N"
+        },
+        {
+            "created": "2023-09-28T14:16:20.956Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C345"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Moyen de transport du foin [sawm\u02c8et\u0153]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-20T10:12:04.080Z",
+            "modified": "2024-11-20T10:12:41.082Z"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L697NE",
+            "value": "L697",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-28T14:16:10.069Z"
+            "created": "2024-11-20T10:13:11.975Z"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L698N",
+            "value": "L697O",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-28T14:16:18.682Z"
+            "created": "2024-11-20T10:13:21.581Z"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C345",
+            "value": "Q7543",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-28T14:16:20.956Z"
+            "created": "2024-11-20T10:13:30.004Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L698",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-20T10:13:52.212Z"
         }
     ],
+    "id": "084acfaf-848f-4b23-87d2-1c3a859d08a1.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2308.132080078125,1243.5880126953125 2548.82666015625,1235.5648193359375 2596.96533203125,1664.80322265625 3290.9677734375,1945.6134033203125 2982.076416015625,2278.573974609375 2853.7060546875,2198.342529296875 2777.197265625,2093.771240234375 2276.03955078125,1933.5787353515625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -55,12 +101,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0135",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2308.132080078125,1243.5880126953125 2548.82666015625,1235.5648193359375 2596.96533203125,1664.80322265625 3290.9677734375,1945.6134033203125 2982.076416015625,2278.573974609375 2853.7060546875,2198.342529296875 2777.197265625,2093.771240234375 2276.03955078125,1933.5787353515625\"></polygon></svg>"
         }
     },
-    "id": "084acfaf-848f-4b23-87d2-1c3a859d08a1.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
