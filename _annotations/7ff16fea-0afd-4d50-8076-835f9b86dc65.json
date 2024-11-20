@@ -8,12 +8,13 @@ order: 5
         {
             "created": "2023-09-28T06:46:41.802Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Faux"
+            "value": "Faux [d\u02c8a\u028e\u00e6]",
+            "modified": "2024-11-20T08:38:40.980Z"
         },
         {
             "created": "2023-09-28T06:46:44.895Z",
@@ -49,6 +50,10 @@ order: 5
     "id": "7ff16fea-0afd-4d50-8076-835f9b86dc65.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3332.9,1271.3 3347.4,3227.7 3042,3114.9 3172.9,2682.2 2922,2329.5 3114.7,2119.3 3150.2,1879.3 2714.7,1642.2 2906.5,1414.7\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,10 +61,6 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0126",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"3332.9,1271.3 3347.4,3227.7 3042,3114.9 3172.9,2682.2 2922,2329.5 3114.7,2119.3 3150.2,1879.3 2714.7,1642.2 2906.5,1414.7\"></polygon></svg>"
         }
     },
     "type": "Annotation"
