@@ -4,51 +4,56 @@ order: 7
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Charrette tombereau",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-29T09:44:37.990Z",
-            "modified": "2023-09-29T09:44:41.731Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-20T14:55:11.935Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charrette [kar\u02d0\u02c8et\u0259]\nFigure VII'\n1. limons-brancards [C354] [Q6128]\n2. ridelles [C355] [Q8921]\n23. plaque \u00e0 l'extr\u00e9mit\u00e9 du timon [C378] [Q10795]\n25. cheville d'attelage [C381] [Q2242]\n35. bride de l'essieu [C378] [Q10795]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L675N",
+            "created": "2023-09-29T09:44:46.999Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:44:46.999Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L675N"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C349",
+            "created": "2023-09-29T09:44:49.251Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:44:49.251Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C349"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2080",
+            "created": "2023-09-29T09:44:50.722Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:44:50.722Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2080"
         }
     ],
+    "id": "c7144e02-4463-4b4a-bfa8-f74341e15c8e.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2408.42138671875,1813.2314453125 3371.19921875,1773.11572265625 3383.23388671875,2607.523193359375 2677.19677734375,2611.53466796875 1983.194580078125,3421.872802734375 1906.974609375,3357.6875 2003.25244140625,3060.8310546875 2412.43310546875,2523.280029296875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +61,7 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0141",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2408.42138671875,1813.2314453125 3371.19921875,1773.11572265625 3383.23388671875,2607.523193359375 2677.19677734375,2611.53466796875 1983.194580078125,3421.872802734375 1906.974609375,3357.6875 2003.25244140625,3060.8310546875 2412.43310546875,2523.280029296875\"></polygon></svg>"
         }
     },
-    "id": "c7144e02-4463-4b4a-bfa8-f74341e15c8e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
