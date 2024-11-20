@@ -11,10 +11,10 @@ order: 5
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-20T13:33:17.332Z",
+            "modified": "2024-11-20T13:34:46.384Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Charrette [kar\u02d0\u02c8et\u0254]\nFigure V\n"
+            "value": "Charrette [kar\u02d0\u02c8et\u0254]\nFigure V\n1. limons-brancards [C354] [Q6128]\n2. ridelles [C355] [Q8921]\n3. barres [C356] [Q903]\n4. anneaux des ridelles [C357] [Q272]\n27. frette du moyeu [C378] [Q4884]\n"
         },
         {
             "created": "2023-09-29T05:53:26.744Z",
@@ -50,6 +50,10 @@ order: 5
     "id": "76f2ff5f-6170-4654-abb0-a45dece7472b.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"84.6,1508.8 79.1,1870.7 350.5,2098.1 462.8,2074 896.1,2082 1092.6,2158.2 1277.2,2025.8 1213,1789.2\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,10 +61,6 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0138",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"84.6,1508.8 79.1,1870.7 350.5,2098.1 462.8,2074 896.1,2082 1092.6,2158.2 1277.2,2025.8 1213,1789.2\"></polygon></svg>"
         }
     },
     "type": "Annotation"
