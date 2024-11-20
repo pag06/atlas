@@ -26,25 +26,25 @@ order: 2
             "value": "C345"
         },
         {
-            "type": "TextualBody",
-            "value": "Moyen de transport du foin [er \u02c8arja]\nLes ballots de foin sont transport\u00e9s sur la t\u00eate au moyen de cet engin.",
-            "purpose": "commenting",
+            "created": "2024-11-20T10:05:28.970Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-20T10:05:28.970Z",
-            "modified": "2024-11-20T10:06:32.657Z"
+            "modified": "2024-11-20T10:07:05.978Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Moyen de transport du foin [er \u02c8ar\u02d0j\u0252]\nLes ballots de foin sont transport\u00e9s sur la t\u00eate au moyen de cet engin."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7543",
+            "created": "2024-11-20T10:06:45.254Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-20T10:06:45.254Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7543"
         }
     ],
     "id": "64c2a092-0448-4bfa-ba6b-c85e8f2d9033.json",
