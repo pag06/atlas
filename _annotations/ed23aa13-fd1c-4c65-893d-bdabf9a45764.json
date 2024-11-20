@@ -8,12 +8,13 @@ order: 5
         {
             "created": "2023-09-28T06:56:00.189Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Faucille"
+            "value": "Faucille [bul\u02c8a\u0303\u014b]",
+            "modified": "2024-11-20T09:33:01.013Z"
         },
         {
             "created": "2023-09-28T06:56:04.476Z",
@@ -49,6 +50,10 @@ order: 5
     "id": "ed23aa13-fd1c-4c65-893d-bdabf9a45764.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2372.3,1615.7 2704,1486.2 2965.4,1593 3017.6,1813.4 3026.7,2190.6 3117.6,2597.3 3004,2629.1 2784.4,2103.7 2765.2,1907.9 2887.1,1900.4 2762,1651.2 2424.6,1679.3\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,10 +61,6 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0129",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2372.3,1615.7 2704,1486.2 2965.4,1593 3017.6,1813.4 3026.7,2190.6 3117.6,2597.3 3004,2629.1 2784.4,2103.7 2765.2,1907.9 2887.1,1900.4 2762,1651.2 2424.6,1679.3\"></polygon></svg>"
         }
     },
     "type": "Annotation"
