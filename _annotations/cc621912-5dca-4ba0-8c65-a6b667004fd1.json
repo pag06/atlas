@@ -4,50 +4,51 @@ order: 18
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Pi\u00e8ce de la charrette de L647NO (n\u00b0XIII)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-29T09:32:45.784Z",
-            "modified": "2023-09-29T09:33:07.384Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L647NO",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:33:13.725Z"
+            "modified": "2023-09-29T09:33:07.384Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Pi\u00e8ce de la charrette de L647NO (n\u00b0XIII)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C348",
+            "created": "2023-09-29T09:33:13.725Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:33:16.288Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L647NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2080",
+            "created": "2023-09-29T09:33:16.288Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:33:18.560Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C348"
+        },
+        {
+            "created": "2023-09-29T09:33:18.560Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2080"
         }
     ],
+    "id": "cc621912-5dca-4ba0-8c65-a6b667004fd1.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -59,9 +60,8 @@ order: 18
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"154.7894287109375,5022.6083984375 397.58197021484375,5063.07373046875 572.9321899414062,5022.6083984375 586.420654296875,4787.9091796875 451.535888671875,4771.72265625 421.8612365722656,3495.713134765625 338.2326965332031,3460.64306640625 111.62631225585938,3603.620849609375 117.0217056274414,4804.09521484375\"></polygon></svg>"
+            "value": "<svg><polygon points=\"154.8,5022.6 397.6,5063.1 572.9,5022.6 755.5,4730.7 447.3,4736.1 421.9,3495.7 338.2,3460.6 111.6,3603.6 117,4804.1\"></polygon></svg>"
         }
     },
-    "id": "cc621912-5dca-4ba0-8c65-a6b667004fd1.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
