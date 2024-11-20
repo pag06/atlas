@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-09-30T07:37:09.049Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-30T07:37:09.866Z",
+            "modified": "2024-11-20T15:47:13.611Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Char"
+            "value": "Char [k'ar]\nFigure II\n7. fourrag\u00e8re horizontale [C359] [Q4843]\n8. porte-fourrag\u00e8re [C359] [Q4843]\n10 pi\u00e8ce de bois sur le corps de l'essieu [C369] [Q7648]\n12 avant-train [C371] [Q672]\n13 partie ant\u00e9rieure de l'avant-train du char [C371] [Q672]\n29. Sert \u00e0 r\u00e9gler et \u00e0 fixer l'avant de la perche du char [C378] [Q10795]"
         },
         {
             "created": "2023-09-30T07:37:22.903Z",
@@ -50,6 +50,10 @@ order: 2
     "id": "9979830e-dd38-4608-a421-d0b7ba98112d.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1786.6,216.6 3391.3,196.6 3395.3,720.5 3287,1291.7 2865.7,1271.7 2837.7,1187.4 2436.5,1227.5 2211.9,1396 1951.1,1199.5\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,10 +61,6 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0158",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1786.6,216.6 3391.3,196.6 3395.3,720.5 3287,1291.7 2865.7,1271.7 2837.7,1187.4 2436.5,1227.5 2211.9,1396 1951.1,1199.5\"></polygon></svg>"
         }
     },
     "type": "Annotation"
