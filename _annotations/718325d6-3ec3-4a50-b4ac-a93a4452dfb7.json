@@ -4,51 +4,66 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Pour tirer du foin de la meule du f\u00e9nil",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-28T14:18:26.368Z",
-            "modified": "2023-09-28T14:19:53.930Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-20T10:16:41.877Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Croc \u00e0 foin [k\u02c8aj] L695O [p\u02c8ik\u0254] L692O\nPour tirer du foin de la meule du f\u00e9nil"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L695O",
+            "created": "2023-09-28T14:20:02.068Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T14:20:02.068Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L695O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L692SO",
+            "created": "2023-09-28T14:20:07.126Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T14:20:07.126Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L692SO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C345",
+            "created": "2023-09-28T14:20:17.804Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-28T14:20:17.804Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C345"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2979",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-20T10:17:26.259Z"
         }
     ],
+    "id": "718325d6-3ec3-4a50-b4ac-a93a4452dfb7.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2697.254638671875,1656.7801513671875 3098.412109375,1672.826416015625 3114.45849609375,3068.854248046875 2949.98388671875,3060.8310546875 2937.94921875,2049.91455078125 2721.32421875,2110.087890625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +71,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0136",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2697.254638671875,1656.7801513671875 3098.412109375,1672.826416015625 3114.45849609375,3068.854248046875 2949.98388671875,3060.8310546875 2937.94921875,2049.91455078125 2721.32421875,2110.087890625\"></polygon></svg>"
         }
     },
-    "id": "718325d6-3ec3-4a50-b4ac-a93a4452dfb7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
