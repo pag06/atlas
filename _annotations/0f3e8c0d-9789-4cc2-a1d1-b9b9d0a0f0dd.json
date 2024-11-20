@@ -4,51 +4,56 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Frein.  Semelle m\u00e9tallique pass\u00e9e sous la roue.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-30T07:33:17.296Z",
-            "modified": "2023-09-30T07:34:41.798Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L679",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:33:22.614Z"
+            "modified": "2023-09-30T07:34:41.798Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Frein.  Semelle m\u00e9tallique pass\u00e9e sous la roue."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C365",
+            "created": "2023-09-30T07:33:22.614Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:33:24.803Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L679"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4871",
+            "created": "2023-09-30T07:33:24.803Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:33:27.656Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C365"
+        },
+        {
+            "created": "2023-09-30T07:33:27.656Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4871"
         }
     ],
+    "id": "0f3e8c0d-9789-4cc2-a1d1-b9b9d0a0f0dd.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2424.4677734375,2583.453857421875 3206.724609375,2302.6435546875 3286.9560546875,2499.210693359375 2901.844970703125,2699.78955078125 2500.6875,2763.974609375\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +61,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0157",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2424.4677734375,2583.453857421875 3206.724609375,2302.6435546875 3286.9560546875,2499.210693359375 2901.844970703125,2699.78955078125 2500.6875,2763.974609375\"></polygon></svg>"
         }
     },
-    "id": "0f3e8c0d-9789-4cc2-a1d1-b9b9d0a0f0dd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
