@@ -4,50 +4,51 @@ order: 10
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Traineau pour fumier",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-30T07:22:55.644Z",
-            "modified": "2023-09-30T07:23:06.561Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L689SE",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:23:14.383Z"
+            "modified": "2023-09-30T07:23:06.561Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Traineau pour fumier"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10178",
+            "created": "2023-09-30T07:23:14.383Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:23:17.033Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L689SE"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C351",
+            "created": "2023-09-30T07:23:17.033Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:23:18.819Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10178"
+        },
+        {
+            "created": "2023-09-30T07:23:18.819Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C351"
         }
     ],
+    "id": "ee53bc18-1c11-4d78-95ff-9da328e3ae2c.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -59,9 +60,8 @@ order: 10
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2356.27099609375,2346.770751953125 2869.75244140625,2218.400390625 3359.16455078125,2210.377197265625 3363.176025390625,2776.00927734375 2921.90283203125,2771.997802734375 2428.479248046875,2916.414306640625 2235.923828125,2647.638916015625\"></polygon></svg>"
+            "value": "<svg><polygon points=\"2356.3,2346.8 2869.8,2218.4 3359.2,2210.4 3354.6,2702.7 2921.9,2772 2428.5,2916.4 2235.9,2647.6\"></polygon></svg>"
         }
     },
-    "id": "ee53bc18-1c11-4d78-95ff-9da328e3ae2c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
