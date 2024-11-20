@@ -4,50 +4,51 @@ order: 15
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Charrette",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-29T09:28:17.971Z",
-            "modified": "2023-09-29T09:28:19.878Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C348",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:28:26.254Z"
+            "modified": "2023-09-29T09:28:19.878Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charrette"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2080",
+            "created": "2023-09-29T09:28:26.254Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:28:28.356Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C348"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L647NO",
+            "created": "2023-09-29T09:28:28.356Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:28:34.105Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2080"
+        },
+        {
+            "created": "2023-09-29T09:28:34.105Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L647NO"
         }
     ],
+    "id": "695d476c-6a1d-4c43-a183-99d221c83782.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -59,9 +60,8 @@ order: 15
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"412.5025329589844,5127.4189453125 929.2443237304688,4791.65576171875 879.237060546875,4298.72705078125 1312.6334228515625,4303.48974609375 1315.0146484375,4448.74853515625 1617.4395751953125,4289.20166015625 1626.96484375,5001.2099609375 781.6038208007812,5058.361328125 533.9487915039062,5201.2392578125\"></polygon></svg>"
+            "value": "<svg><polygon points=\"412.5,5127.4 929.2,4791.7 879.2,4298.7 1312.6,4303.5 1315,4448.7 1617.4,4289.2 1627,5001.2 781.6,5058.4 519.1,5188.8\"></polygon></svg>"
         }
     },
-    "id": "695d476c-6a1d-4c43-a183-99d221c83782.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
