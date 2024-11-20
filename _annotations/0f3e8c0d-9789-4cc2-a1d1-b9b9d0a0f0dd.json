@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-09-30T07:33:17.296Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-30T07:34:41.798Z",
+            "modified": "2024-11-20T15:36:59.684Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Frein.  Semelle m\u00e9tallique pass\u00e9e sous la roue."
+            "value": "Frein.  Semelle m\u00e9tallique pass\u00e9e sous la roue "
         },
         {
             "created": "2023-09-30T07:33:22.614Z",
@@ -50,10 +50,6 @@ order: 2
     "id": "0f3e8c0d-9789-4cc2-a1d1-b9b9d0a0f0dd.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2424.4677734375,2583.453857421875 3206.724609375,2302.6435546875 3286.9560546875,2499.210693359375 2901.844970703125,2699.78955078125 2500.6875,2763.974609375\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -61,6 +57,10 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0157",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2424.5,2583.5 3206.7,2302.6 3287,2499.2 2901.8,2699.8 2502,2738\"></polygon></svg>"
         }
     },
     "type": "Annotation"
