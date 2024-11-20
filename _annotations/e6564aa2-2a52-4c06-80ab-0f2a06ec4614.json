@@ -11,10 +11,10 @@ order: 10
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-20T13:45:51.914Z",
+            "modified": "2024-11-20T13:48:12.174Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Charrette [kar\u02d0\u02c8et\u0259]\nFigure XI\n"
+            "value": "Charrette [kar\u02d0\u02c8et\u0259]\nFigure XI\n1. limons-brancards [C354] [Q6128]\n2. ridelles [C355] [Q8921]\n24. (non nomm\u00e9e) [C378] [Q10795]\n"
         },
         {
             "created": "2023-09-29T05:57:02.149Z",
@@ -50,6 +50,10 @@ order: 10
     "id": "e6564aa2-2a52-4c06-80ab-0f2a06ec4614.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3191.9,3822.5 3367.1,3707.4 2835.6,3281.6 2937.9,3149.8 2877.7,2836.9 2367.3,2740.7 2157.3,2845.2 2215.8,3398.5 2336.1,3450.6 2480.6,3298.2\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,10 +61,6 @@ order: 10
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0138",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"3191.9,3822.5 3367.1,3707.4 2835.6,3281.6 2937.9,3149.8 2877.7,2836.9 2367.3,2740.7 2157.3,2845.2 2215.8,3398.5 2336.1,3450.6 2480.6,3298.2\"></polygon></svg>"
         }
     },
     "type": "Annotation"
