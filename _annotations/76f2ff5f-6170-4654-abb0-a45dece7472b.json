@@ -4,50 +4,51 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Charrette",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-29T05:53:05.019Z",
-            "modified": "2023-09-29T05:53:06.643Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-20T13:33:17.332Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charrette [kar\u02d0\u02c8et\u0254]\nFigure V\n"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L668SO",
+            "created": "2023-09-29T05:53:26.744Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T05:53:26.744Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L668SO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C348",
+            "created": "2023-09-29T05:53:29.009Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T05:53:29.009Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C348"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2080",
+            "created": "2023-09-29T05:53:31.154Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T05:53:31.154Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2080"
         }
     ],
+    "id": "76f2ff5f-6170-4654-abb0-a45dece7472b.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -59,9 +60,8 @@ order: 5
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"93.74311065673828,1512.3634033203125 61.6505126953125,1877.4166259765625 350.4838562011719,2098.05322265625 462.8079528808594,2073.98388671875 896.0579833984375,2082.007080078125 1092.6251220703125,2158.22705078125 1277.157470703125,2025.844970703125 1212.97216796875,1789.162109375\"></polygon></svg>"
+            "value": "<svg><polygon points=\"93.7,1512.4 82.8,1874.3 350.5,2098.1 462.8,2074 896.1,2082 1092.6,2158.2 1277.2,2025.8 1213,1789.2\"></polygon></svg>"
         }
     },
-    "id": "76f2ff5f-6170-4654-abb0-a45dece7472b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
