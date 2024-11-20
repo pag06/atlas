@@ -4,51 +4,57 @@ order: 7
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Traineau",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-29T09:58:43.626Z",
-            "modified": "2023-09-29T09:58:45.019Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-20T15:19:05.976Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Traineau pour le fumier [kar\u02d0as\u02c8u\u0303\u014b, li\u03b2j\u02c8\u0254t]\nFigure VIII"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L699NE",
+            "created": "2023-09-29T09:58:50.655Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:58:50.655Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L699NE"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C351",
+            "created": "2023-09-29T09:58:52.732Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:58:52.732Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C351"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10178",
+            "created": "2023-09-29T09:58:54.842Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:58:54.842Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10178"
         }
     ],
+    "id": "6dc9335b-728f-45b8-b38b-e3151b600539.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2227.900634765625,1500.3287353515625,1099.17138671875,625.8055419921875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,13 +62,7 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0143",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2227.900634765625,1500.3287353515625,1099.17138671875,625.8055419921875"
         }
     },
-    "id": "6dc9335b-728f-45b8-b38b-e3151b600539.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
