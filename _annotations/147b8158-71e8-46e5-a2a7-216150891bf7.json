@@ -11,10 +11,10 @@ order: 3
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-20T08:23:02.939Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Faux [tra\u0303\u0272\u0283\u02c8\u0153t]\nPetite lame de 14 cm de long, avec un manche sans poign\u00e9e pour couper le millet.",
-            "modified": "2024-11-20T08:23:02.939Z"
+            "value": "Faux [tra\u0303\u0272\u0283\u02c8\u0153t]\nPetite lame de 14 cm de long, avec un manche sans poign\u00e9e pour couper le millet."
         },
         {
             "created": "2023-09-28T06:43:21.676Z",
@@ -50,10 +50,6 @@ order: 3
     "id": "147b8158-71e8-46e5-a2a7-216150891bf7.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1052.50927734375,1440.1551513671875 1698.372802734375,1432.1319580078125 1658.257080078125,1885.43994140625 1485.7593994140625,1841.3126220703125 1517.8226318359375,1632.751220703125 1140.7640380859375,1604.629638671875\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -61,6 +57,10 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0126",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1052.5,1440.2 1682,1428.7 1658.3,1885.4 1485.8,1841.3 1517.8,1632.8 1140.8,1604.6\"></polygon></svg>"
         }
     },
     "type": "Annotation"
