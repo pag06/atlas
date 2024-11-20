@@ -8,12 +8,13 @@ order: 7
         {
             "created": "2023-09-30T07:53:32.219Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Civi\u00e8re"
+            "value": "Civi\u00e8re [\u0261am\u02c8ata]\nFigure VII",
+            "modified": "2024-11-20T16:15:56.478Z"
         },
         {
             "created": "2023-09-30T07:53:36.973Z",
@@ -49,6 +50,10 @@ order: 7
     "id": "76e93f79-841f-4c14-88f8-04340a465e95.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1315.7,1627.6 2071.4,1801.2 2091.5,1973.7 1908.3,2194.6 1726.4,2198.3 1260,2079.1\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,10 +61,6 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0165",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1315.7,1627.6 2071.4,1801.2 2091.5,1973.7 1908.3,2194.6 1726.4,2198.3 1260,2079.1\"></polygon></svg>"
         }
     },
     "type": "Annotation"
