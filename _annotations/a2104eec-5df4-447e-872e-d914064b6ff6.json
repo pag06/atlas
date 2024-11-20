@@ -4,51 +4,56 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Charrette tombereau",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-29T09:37:11.742Z",
-            "modified": "2023-09-29T09:37:15.399Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-20T14:44:13.430Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charrette [kar\u02d0\u02c8et\u0254]\nFigure III'\n2. ridelles [C355] [Q8921]\n3. barres [C356] [Q903]\n4. anneaux des ridelles [C357] [Q272]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L548",
+            "created": "2023-09-29T09:37:18.873Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:37:18.873Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L548"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2080",
+            "created": "2023-09-29T09:37:20.963Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:37:20.963Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2080"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C349",
+            "created": "2023-09-29T09:37:22.604Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:37:22.604Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C349"
         }
     ],
+    "id": "a2104eec-5df4-447e-872e-d914064b6ff6.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"97.7546615600586,894.5810546875 1096.6365966796875,874.523193359375 1164.8333740234375,1833.2894287109375 671.4097900390625,1897.474609375 651.3539428710938,1789.175537109375 165.951416015625,1753.0579833984375\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +61,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0141",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"97.7546615600586,894.5810546875 1096.6365966796875,874.523193359375 1164.8333740234375,1833.2894287109375 671.4097900390625,1897.474609375 651.3539428710938,1789.175537109375 165.951416015625,1753.0579833984375\"></polygon></svg>"
         }
     },
-    "id": "a2104eec-5df4-447e-872e-d914064b6ff6.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
