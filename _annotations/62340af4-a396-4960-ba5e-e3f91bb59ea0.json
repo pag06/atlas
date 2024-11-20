@@ -8,13 +8,13 @@ order: 11
         {
             "created": "2023-09-29T05:57:36.772Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-29T05:57:38.105Z",
+            "modified": "2024-11-20T13:43:40.584Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Charrette"
+            "value": "Charrette [kar\u02d0\u02c8et\u0254]\nFigure IX\n1. limons-brancards [C354] [Q6128]\n2. ridelles [C355] [Q8921]\n3. barres [C356] [Q903]\n4. anneaux des ridelles [C357] [Q272]\n24. (non nomm\u00e9e) [C378] [Q10795]"
         },
         {
             "created": "2023-09-29T05:57:44.750Z",
@@ -50,6 +50,10 @@ order: 11
     "id": "62340af4-a396-4960-ba5e-e3f91bb59ea0.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"186,2795.9 815.8,2739.7 1013.1,2801.1 1083.9,3200.9 1604.5,3604.9 1583.7,3696.5 1408.7,3746.5 641.8,3359.8 191.8,3377.9\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,10 +61,6 @@ order: 11
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0138",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"186,2795.9 815.8,2739.7 1013.1,2801.1 1083.9,3200.9 1604.5,3604.9 1583.7,3696.5 1408.7,3746.5 641.8,3359.8 191.8,3377.9\"></polygon></svg>"
         }
     },
     "type": "Annotation"
