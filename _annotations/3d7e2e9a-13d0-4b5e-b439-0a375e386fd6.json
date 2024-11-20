@@ -8,12 +8,13 @@ order: 6
         {
             "created": "2023-09-30T07:53:09.306Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Civi\u00e8re"
+            "value": "Civi\u00e8re [ban\u02c8astr\u0254]\nFigure VI",
+            "modified": "2024-11-20T16:15:01.773Z"
         },
         {
             "created": "2023-09-30T07:53:15.725Z",
@@ -49,6 +50,10 @@ order: 6
     "id": "3d7e2e9a-13d0-4b5e-b439-0a375e386fd6.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"95.1,2030.9 93.7,1801.2 322.4,1612.7 1269.1,1897.5 1188.9,2278.6 868,2298.6\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,10 +61,6 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0165",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"95.1,2030.9 93.7,1801.2 322.4,1612.7 1269.1,1897.5 1188.9,2278.6 868,2298.6\"></polygon></svg>"
         }
     },
     "type": "Annotation"
