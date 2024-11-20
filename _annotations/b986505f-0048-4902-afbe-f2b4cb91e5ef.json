@@ -52,6 +52,10 @@ order: 5
     "id": "b986505f-0048-4902-afbe-f2b4cb91e5ef.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2171.4,2031.6 2361.4,2647.1 2636.2,2565.4 2481.7,1956.2 2481.1,1955.6\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALMC3/manifest.json",
@@ -59,10 +63,6 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALMC3/canvas/ALMC_3_0349",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2171.4,2031.6 2361.4,2647.1 2636.2,2565.4 2481.7,1956.2 2481.1,1955.6\"></polygon></svg>"
         }
     },
     "type": "Annotation"
