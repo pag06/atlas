@@ -4,40 +4,41 @@ order: 8
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Charrette tombereau",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-29T09:45:33.282Z",
-            "modified": "2023-09-29T09:45:38.406Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-20T14:59:32.043Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charrette [kar\u02d0\u02c8et]\nFigure VIII'\n1. limons-brancards [C354] [Q6128]\n2. ridelles [C355] [Q8921]\n3. barres [C356] [Q903]\n4. anneaux des ridelles [C357] [Q272]\n6. fermeture pleine [C358] [Q7800]\n9. barre horizontale sup\u00e9rieure (ridelles)  [C368] [Q891]\n23. plaque \u00e0 l'extr\u00e9mit\u00e9 du timon [C378] [Q10795]\n25. cheville d'attelage [C381] [Q2242]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2080",
+            "created": "2023-09-29T09:45:43.878Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:45:43.878Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2080"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C349",
+            "created": "2023-09-29T09:45:46.126Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:45:46.126Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C349"
         }
     ],
+    "id": "1d13b324-6e67-45d5-af43-7bf5cd1bf85f.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -49,9 +50,8 @@ order: 8
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"29.557899475097656,2667.69677734375 699.4907836914062,2667.69677734375 1233.0301513671875,2828.15966796875 1152.7987060546875,3273.444580078125 1658.257080078125,3574.3125 1810.6968994140625,3522.162109375 1923.02099609375,3554.254638671875 1886.916748046875,3666.578857421875 2043.3681640625,3758.844970703125 2015.287109375,3867.157470703125 1890.9283447265625,3879.192138671875 976.2894287109375,3373.733642578125 811.8148803710938,3482.046142578125 723.5602416992188,3389.780029296875 89.73149871826172,3401.814697265625\"></polygon></svg>"
+            "value": "<svg><polygon points=\"36,2672.3 699.5,2667.7 1233,2828.2 1152.8,3273.4 1658.3,3574.3 1810.7,3522.2 1923,3554.3 1886.9,3666.6 2043.4,3758.8 2015.3,3867.2 1890.9,3879.2 976.3,3373.7 811.8,3482 723.6,3389.8 89.7,3401.8\"></polygon></svg>"
         }
     },
-    "id": "1d13b324-6e67-45d5-af43-7bf5cd1bf85f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
