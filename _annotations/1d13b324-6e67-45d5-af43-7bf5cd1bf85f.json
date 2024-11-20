@@ -35,11 +35,25 @@ order: 8
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "C349"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L675N",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-20T14:59:44.753Z"
         }
     ],
     "id": "1d13b324-6e67-45d5-af43-7bf5cd1bf85f.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"36,2672.3 699.5,2667.7 1233,2828.2 1152.8,3273.4 1658.3,3574.3 1810.7,3522.2 1923,3554.3 1886.9,3666.6 2043.4,3758.8 2015.3,3867.2 1890.9,3879.2 976.3,3373.7 811.8,3482 723.6,3389.8 89.7,3401.8\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -47,10 +61,6 @@ order: 8
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0141",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"36,2672.3 699.5,2667.7 1233,2828.2 1152.8,3273.4 1658.3,3574.3 1810.7,3522.2 1923,3554.3 1886.9,3666.6 2043.4,3758.8 2015.3,3867.2 1890.9,3879.2 976.3,3373.7 811.8,3482 723.6,3389.8 89.7,3401.8\"></polygon></svg>"
         }
     },
     "type": "Annotation"
