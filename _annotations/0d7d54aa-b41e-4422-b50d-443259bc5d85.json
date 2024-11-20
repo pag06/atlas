@@ -4,50 +4,56 @@ order: 16
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Traineau",
+            "created": "2023-09-30T07:28:25.761Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-30T07:28:25.761Z"
+            "type": "TextualBody",
+            "value": "Traineau [levj\u02c8aw]\nFigure XVII\n1. limons-brancards [C354] [Q6128]\n3. barres [C356] [Q903]\n4. anneaux des ridelles [C357] [Q272]\n30. patin du tra\u00eeneau [C378] [Q10795]",
+            "modified": "2024-11-20T15:31:40.884Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L689SE",
+            "created": "2023-09-30T07:28:36.149Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:28:36.149Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L689SE"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C351",
+            "created": "2023-09-30T07:28:38.214Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:28:38.214Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C351"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10178",
+            "created": "2023-09-30T07:28:40.120Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:28:40.120Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10178"
         }
     ],
+    "id": "0d7d54aa-b41e-4422-b50d-443259bc5d85.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"324.4540100097656,3907.275634765625 679.6940307617188,3660.152099609375 993.746826171875,3479.9580078125 1184.23779296875,3768.268798828125 2188.177001953125,3799.1591796875 2213.9189453125,3572.629150390625 2296.29345703125,3562.33251953125 2502.229736328125,3716.78466796875 2507.378173828125,3912.424072265625 3027.3671875,4257.3671875 2914.116455078125,4447.81591796875 2692.720703125,4545.67822265625 2013.131103515625,4468.4521484375 1137.902099609375,4519.93603515625 478.9061584472656,4267.6640625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -55,12 +61,7 @@ order: 16
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0143",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"324.4540100097656,3907.275634765625 679.6940307617188,3660.152099609375 993.746826171875,3479.9580078125 1184.23779296875,3768.268798828125 2188.177001953125,3799.1591796875 2213.9189453125,3572.629150390625 2296.29345703125,3562.33251953125 2502.229736328125,3716.78466796875 2507.378173828125,3912.424072265625 3027.3671875,4257.3671875 2914.116455078125,4447.81591796875 2692.720703125,4545.67822265625 2013.131103515625,4468.4521484375 1137.902099609375,4519.93603515625 478.9061584472656,4267.6640625\"></polygon></svg>"
         }
     },
-    "id": "0d7d54aa-b41e-4422-b50d-443259bc5d85.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
