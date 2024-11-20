@@ -4,51 +4,57 @@ order: 17
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Pi\u00e8ce de la charrette de L657NE (n\u00b0IX)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-29T09:31:06.261Z",
-            "modified": "2023-09-29T09:31:35.613Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-20T13:49:39.720Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Pi\u00e8ce de la charrette de L657NE (Figure IX)\n29. Sert \u00e0 r\u00e9gler et \u00e0 fixer l'avant de la perche du char [C378] [Q10795]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L657NE",
+            "created": "2023-09-29T09:31:40.876Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:31:40.876Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L657NE"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2080",
+            "created": "2023-09-29T09:31:52.814Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:31:52.814Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2080"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C348",
+            "created": "2023-09-29T09:31:54.833Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:31:54.833Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C348"
         }
     ],
+    "id": "28b540f7-ffff-4451-82fd-ab6b38614473.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=494.6990051269531,3514.59716796875,258.9787292480469,1038.6123046875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,13 +62,7 @@ order: 17
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0138",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=494.6990051269531,3514.59716796875,258.9787292480469,1038.6123046875"
         }
     },
-    "id": "28b540f7-ffff-4451-82fd-ab6b38614473.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
