@@ -8,13 +8,13 @@ order: 5
         {
             "created": "2023-09-29T09:57:36.250Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-29T09:57:37.634Z",
+            "modified": "2024-11-20T15:16:17.439Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Traineau"
+            "value": "Traineau\nFigure V"
         },
         {
             "created": "2023-09-29T09:57:40.982Z",
@@ -50,6 +50,10 @@ order: 5
     "id": "5a69a70b-f943-42ad-9d26-2ffbdb05a1d0.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2231.9,782.3 2633.1,794.3 2858.3,841.4 3170.6,858.5 3274.9,1199.5 2921.9,1400 2257.1,1300.3\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,10 +61,6 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0143",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2231.9,782.3 2633.1,794.3 2858.3,841.4 3170.6,858.5 3274.9,1199.5 2921.9,1400 2257.1,1300.3\"></polygon></svg>"
         }
     },
     "type": "Annotation"
