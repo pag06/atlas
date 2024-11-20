@@ -4,51 +4,56 @@ order: 7
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Char VI, avant-train",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-30T07:44:02.998Z",
-            "modified": "2023-09-30T07:44:13.354Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-20T16:01:36.889Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Char, avant-train\nFigure VIa\n10 pi\u00e8ce de bois sur le corps de l'essieu [C369] [Q7648]\n11 pi\u00e8ce de bois sur le corps de l'essieu [C370] [Q7648]\n12 avant-train (du char, etc.) [C371] [Q672]\n15 fl\u00e8che du char [C373] [Q4705]\n35. bride de l'essieu [C378] [Q10795]\n"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L698",
+            "created": "2023-09-30T07:44:19.077Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:44:19.077Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L698"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C366",
+            "created": "2023-09-30T07:44:20.980Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:44:20.980Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C366"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q672",
+            "created": "2023-09-30T07:44:29.912Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:44:29.912Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q672"
         }
     ],
+    "id": "6ccda0ee-2b12-40b6-a550-c712522f2dea.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"262.2292175292969,3915.296142578125 759.6644287109375,3887.215087890625 871.9884643554688,3823.0302734375 1397.5047607421875,3995.52783203125 1313.26171875,4188.08349609375 920.1273803710938,4208.1416015625 896.0579223632812,4292.38427734375 338.4491271972656,4284.361328125\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +61,7 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0158",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"262.2292175292969,3915.296142578125 759.6644287109375,3887.215087890625 871.9884643554688,3823.0302734375 1397.5047607421875,3995.52783203125 1313.26171875,4188.08349609375 920.1273803710938,4208.1416015625 896.0579223632812,4292.38427734375 338.4491271972656,4284.361328125\"></polygon></svg>"
         }
     },
-    "id": "6ccda0ee-2b12-40b6-a550-c712522f2dea.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
