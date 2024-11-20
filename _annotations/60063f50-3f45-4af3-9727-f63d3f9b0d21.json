@@ -4,51 +4,56 @@ order: 10
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Transport \u00e0 dos d'\u00e2ne. Se posent sur le [...] (pour fumier)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-30T07:56:06.736Z",
-            "modified": "2023-09-30T07:56:44.538Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-20T16:22:14.667Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Transport \u00e0 dos d'\u00e2ne [eras k\u02c8\u0254rs]\nFigure II\nSe posent sur le [sar\u02d0ah\u02c8yat] (pour fumier)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L790S",
+            "created": "2023-09-30T07:57:15.583Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:57:15.583Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L790S"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C381",
+            "created": "2023-09-30T07:57:18.668Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:57:18.668Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C381"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q929???",
+            "value": "Q932",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-30T07:57:28.802Z"
+            "created": "2024-11-20T16:21:41.507Z"
         }
     ],
+    "id": "60063f50-3f45-4af3-9727-f63d3f9b0d21.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1983.194580078125,3277.255615234375 2015.287109375,2831.970703125 2592.953857421875,2330.524169921875 3154.57421875,2298.431396484375 3363.176025390625,2723.658447265625 3415.32666015625,4119.68603515625 3030.21533203125,4051.489501953125 2717.3125,3891.0263671875 2580.919189453125,3401.614501953125 2131.622802734375,3473.82275390625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +61,7 @@ order: 10
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0165",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1983.194580078125,3277.255615234375 2015.287109375,2831.970703125 2592.953857421875,2330.524169921875 3154.57421875,2298.431396484375 3363.176025390625,2723.658447265625 3415.32666015625,4119.68603515625 3030.21533203125,4051.489501953125 2717.3125,3891.0263671875 2580.919189453125,3401.614501953125 2131.622802734375,3473.82275390625\"></polygon></svg>"
         }
     },
-    "id": "60063f50-3f45-4af3-9727-f63d3f9b0d21.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
