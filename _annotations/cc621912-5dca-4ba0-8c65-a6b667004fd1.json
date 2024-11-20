@@ -8,13 +8,13 @@ order: 18
         {
             "created": "2023-09-29T09:32:45.784Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-29T09:33:07.384Z",
+            "modified": "2024-11-20T13:52:33.615Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Pi\u00e8ce de la charrette de L647NO (n\u00b0XIII)"
+            "value": "Pi\u00e8ce de la charrette de L647NO (Figure XIII) [exkal\u02c8\u0254t]\n29. Sert \u00e0 r\u00e9gler et \u00e0 fixer l'avant de la perche du char [C378] [Q10795]"
         },
         {
             "created": "2023-09-29T09:33:13.725Z",
@@ -50,6 +50,10 @@ order: 18
     "id": "cc621912-5dca-4ba0-8c65-a6b667004fd1.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"154.8,5022.6 397.6,5063.1 572.9,5022.6 755.5,4730.7 447.3,4736.1 421.9,3495.7 338.2,3460.6 111.6,3603.6 117,4804.1\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,10 +61,6 @@ order: 18
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0138",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"154.8,5022.6 397.6,5063.1 572.9,5022.6 755.5,4730.7 447.3,4736.1 421.9,3495.7 338.2,3460.6 111.6,3603.6 117,4804.1\"></polygon></svg>"
         }
     },
     "type": "Annotation"
