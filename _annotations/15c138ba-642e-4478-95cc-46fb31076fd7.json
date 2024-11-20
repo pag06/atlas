@@ -4,51 +4,56 @@ order: 13
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Traineau pour pierre",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-30T07:25:52.381Z",
-            "modified": "2023-09-30T07:26:10.320Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-20T15:28:41.066Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Traineau pour pierre [levj\u02c8u\u0303\u014b]\nFigure XV"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L689SE",
+            "created": "2023-09-30T07:26:14.777Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:26:14.777Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L689SE"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C351",
+            "created": "2023-09-30T07:26:17.521Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:26:17.521Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C351"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10178",
+            "created": "2023-09-30T07:26:20.139Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T07:26:20.139Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10178"
         }
     ],
+    "id": "15c138ba-642e-4478-95cc-46fb31076fd7.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2623.026611328125,3024.530517578125 2911.607421875,2751.855712890625 2945.691650390625,2756.400390625 2954.78076171875,2883.648681640625 3363.793212890625,2956.36181640625 3368.337646484375,3042.708984375 3245.634033203125,3231.30908203125 2738.913330078125,3160.8681640625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +61,7 @@ order: 13
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0143",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2623.026611328125,3024.530517578125 2911.607421875,2751.855712890625 2945.691650390625,2756.400390625 2954.78076171875,2883.648681640625 3363.793212890625,2956.36181640625 3368.337646484375,3042.708984375 3245.634033203125,3231.30908203125 2738.913330078125,3160.8681640625\"></polygon></svg>"
         }
     },
-    "id": "15c138ba-642e-4478-95cc-46fb31076fd7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
