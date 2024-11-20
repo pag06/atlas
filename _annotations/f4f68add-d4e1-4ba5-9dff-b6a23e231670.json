@@ -4,51 +4,56 @@ order: 14
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Charrette \u00e0 patin en descente. Les patins, en frottant sur le sol font office de freins.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-29T09:22:47.017Z",
-            "modified": "2023-09-29T09:24:37.359Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-20T10:44:43.830Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charrette \u00e0 patin en descente. "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L699NO",
+            "created": "2023-09-29T09:24:45.372Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:24:45.372Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L699NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C348",
+            "created": "2023-09-29T09:24:47.229Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:24:47.229Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C348"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2080",
+            "created": "2023-09-29T09:24:49.626Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-29T09:24:49.626Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2080"
         }
     ],
+    "id": "f4f68add-d4e1-4ba5-9dff-b6a23e231670.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2219.358154296875,107.5108413696289 3403.1533203125,92.66700744628906 3399.4423828125,790.3269653320312 2746.31396484375,742.08447265625 2471.703125,563.9585571289062 2275.0224609375,430.3641052246094\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +61,7 @@ order: 14
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0138",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2219.358154296875,107.5108413696289 3403.1533203125,92.66700744628906 3399.4423828125,790.3269653320312 2746.31396484375,742.08447265625 2471.703125,563.9585571289062 2275.0224609375,430.3641052246094\"></polygon></svg>"
         }
     },
-    "id": "f4f68add-d4e1-4ba5-9dff-b6a23e231670.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
