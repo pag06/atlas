@@ -8,12 +8,13 @@ order: 17
         {
             "created": "2023-09-30T08:15:46.406Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Joug"
+            "value": "Joug\nFigure XIX",
+            "modified": "2024-11-21T09:00:29.451Z"
         },
         {
             "created": "2023-09-30T08:15:51.820Z",
@@ -49,6 +50,10 @@ order: 17
     "id": "8632ca9f-2e9a-4025-9f69-9fad13cf7eea.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1868.9,3225.1 2486.6,2964.4 3268.9,2920.2 3329.1,3273.3 2825.7,3382.1 2811.5,3570.4 2683.2,3574.1 2237.9,3445.7 2037.4,3493.9\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,10 +61,6 @@ order: 17
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0166",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1868.9,3225.1 2486.6,2964.4 3268.9,2920.2 3329.1,3273.3 2825.7,3382.1 2811.5,3570.4 2683.2,3574.1 2237.9,3445.7 2037.4,3493.9\"></polygon></svg>"
         }
     },
     "type": "Annotation"
