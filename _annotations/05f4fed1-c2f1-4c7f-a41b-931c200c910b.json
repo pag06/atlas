@@ -11,10 +11,10 @@ order: 14
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-21T08:59:30.719Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Joug\nB\u00eates attel\u00e9es avec \u00e9mouchette\nFigure XVI\n",
-            "modified": "2024-11-21T08:59:30.719Z"
+            "value": "Joug\nB\u00eates attel\u00e9es avec \u00e9mouchette\nFigure XVI\n"
         },
         {
             "created": "2023-09-30T08:13:59.709Z",
@@ -47,14 +47,24 @@ order: 14
             "value": "Q5774"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3811",
+            "created": "2024-11-21T08:59:40.142Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-21T08:59:40.142Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3811"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q540",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T08:59:52.001Z"
         }
     ],
     "id": "05f4fed1-c2f1-4c7f-a41b-931c200c910b.json",
