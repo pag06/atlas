@@ -11,10 +11,10 @@ order: 4
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-21T17:31:28.463Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Poulailler (poules et lapins)\nFigure IV",
-            "modified": "2024-11-21T17:31:28.463Z"
+            "value": "Poulailler (poules et lapins)\nFigure IV"
         },
         {
             "created": "2023-10-01T19:43:28.217Z",
@@ -50,10 +50,6 @@ order: 4
     "id": "de6be261-ccf1-4694-ac41-54f1c927f560.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2071.44921875,1636.7222900390625 2653.12744140625,1512.3634033203125 2713.301025390625,1592.594970703125 2685.219970703125,2082.007080078125 2372.317138671875,2186.307861328125 2111.56494140625,2322.701416015625\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -61,6 +57,10 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0216",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2090.1,1620 2653.1,1512.4 2682,1641.8 2685.2,2082 2372.3,2186.3 2111.6,2322.7\"></polygon></svg>"
         }
     },
     "type": "Annotation"
