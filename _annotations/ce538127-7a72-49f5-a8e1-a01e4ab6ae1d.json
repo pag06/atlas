@@ -4,49 +4,50 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Support pour tuer le cochon",
+            "created": "2023-10-01T19:27:14.826Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-01T19:27:14.826Z"
+            "type": "TextualBody",
+            "value": "Support pour tuer le cochon"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L692SO",
+            "created": "2023-10-01T19:27:19.043Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:27:19.043Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L692SO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C428",
+            "created": "2023-10-01T19:27:21.285Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:27:21.285Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C428"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9667",
+            "created": "2023-10-01T19:27:23.670Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:27:23.670Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9667"
         }
     ],
+    "id": "ce538127-7a72-49f5-a8e1-a01e4ab6ae1d.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -58,9 +59,8 @@ order: 5
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2043.3681640625,2114.099609375 3050.273193359375,1700.907470703125 3315.037109375,1825.2662353515625 3114.45849609375,2082.007080078125 2372.317138671875,2422.99072265625\"></polygon></svg>"
+            "value": "<svg><polygon points=\"2043.4,2114.1 3050.3,1700.9 3315,1825.3 3113.6,2047.9 2372.3,2423\"></polygon></svg>"
         }
     },
-    "id": "ce538127-7a72-49f5-a8e1-a01e4ab6ae1d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
