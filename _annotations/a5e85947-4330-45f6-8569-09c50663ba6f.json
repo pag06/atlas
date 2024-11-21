@@ -8,12 +8,13 @@ order: 5
         {
             "created": "2023-10-01T18:50:28.893Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9table "
+            "value": "\u00c9table\nFigure IV\n1. [kur'a]\n2. [bat\u0283\u02c8ews]\n3. [kul\u02c8an\u0254s]\n4. [prez\u02c8ej]\n5. [\u0261awj\u02c8e\u0303n]\n6. [bar\u02c8at]\nChaque s\u00e9paration [j'asa]",
+            "modified": "2024-11-21T14:39:08.850Z"
         },
         {
             "created": "2023-10-01T18:50:37.665Z",
@@ -49,6 +50,11 @@ order: 5
     "id": "a5e85947-4330-45f6-8569-09c50663ba6f.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=74.9705581665039,1379.821533203125,1252.8100814819336,1185.02734375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,11 +62,6 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0188",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=74.9705581665039,1379.821533203125,1252.8100814819336,1185.02734375"
         }
     },
     "type": "Annotation"
