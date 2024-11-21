@@ -4,51 +4,57 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Perchoir",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-01T19:46:19.009Z",
-            "modified": "2023-10-01T19:46:26.011Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-21T17:39:30.470Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Perchoir\nFigure II"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L658NO",
+            "created": "2023-10-01T19:46:29.768Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:46:29.768Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L658NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C433",
+            "created": "2023-10-01T19:46:31.229Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:46:31.229Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C433"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7550",
+            "created": "2023-10-01T19:46:33.118Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:46:33.118Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7550"
         }
     ],
+    "id": "221d3aa9-23f6-4021-ae89-40cd1cf69527.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2328.18994140625,1283.7037353515625,934.69677734375,722.0833740234375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,13 +62,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0217",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2328.18994140625,1283.7037353515625,934.69677734375,722.0833740234375"
         }
     },
-    "id": "221d3aa9-23f6-4021-ae89-40cd1cf69527.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
