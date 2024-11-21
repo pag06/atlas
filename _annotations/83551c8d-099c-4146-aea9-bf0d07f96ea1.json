@@ -4,50 +4,56 @@ order: 6
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Support pour tuer le cochon",
+            "created": "2023-10-01T19:27:44.892Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-01T19:27:44.892Z"
+            "type": "TextualBody",
+            "value": "Support pour tuer le cochon [\u025bskana\u00f0\u02c8e]\nFigure III\nBanc sp\u00e9cial \u00e0 ",
+            "modified": "2024-11-21T16:57:56.026Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L699NO",
+            "created": "2023-10-01T19:27:48.989Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:27:48.989Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L699NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C428",
+            "created": "2023-10-01T19:27:51.176Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:27:51.176Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C428"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9667",
+            "created": "2023-10-01T19:27:53.699Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:27:53.699Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9667"
         }
     ],
+    "id": "83551c8d-099c-4146-aea9-bf0d07f96ea1.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3270.909912109375,2174.273193359375 3190.678466796875,2868.275634765625 2600.97705078125,2796.067138671875 2657.1220703125,2374.98876953125 2873.763916015625,2174.273193359375\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -55,12 +61,7 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0212",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"3270.909912109375,2174.273193359375 3190.678466796875,2868.275634765625 2600.97705078125,2796.067138671875 2657.1220703125,2374.98876953125 2873.763916015625,2174.273193359375\"></polygon></svg>"
         }
     },
-    "id": "83551c8d-099c-4146-aea9-bf0d07f96ea1.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
