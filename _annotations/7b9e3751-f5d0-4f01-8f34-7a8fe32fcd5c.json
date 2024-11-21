@@ -4,50 +4,57 @@ order: 10
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\u00c9table ",
+            "created": "2023-10-01T19:05:56.013Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "\u00c9curie\nFigure XVII",
+            "modified": "2024-11-21T16:06:01.073Z"
+        },
+        {
+            "created": "2023-10-01T19:05:59.097Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:05:56.013Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L664"
+        },
+        {
+            "created": "2023-10-01T19:06:00.839Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C402"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L664",
+            "value": "Q3711",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-10-01T19:05:59.097Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C402",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-01T19:06:00.839Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4195",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-01T19:06:02.760Z"
+            "created": "2024-11-21T16:06:27.290Z"
         }
     ],
+    "id": "7b9e3751-f5d0-4f01-8f34-7a8fe32fcd5c.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=691.6749267578125,2099.965576171875,1102.5050048828125,930.238525390625"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -55,13 +62,7 @@ order: 10
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0189",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=691.6749267578125,2099.965576171875,1102.5050048828125,930.238525390625"
         }
     },
-    "id": "7b9e3751-f5d0-4f01-8f34-7a8fe32fcd5c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
