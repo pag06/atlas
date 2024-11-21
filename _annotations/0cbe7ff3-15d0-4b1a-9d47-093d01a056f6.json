@@ -4,51 +4,56 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Auge pour poules",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-01T19:13:24.892Z",
-            "modified": "2023-10-01T19:15:29.038Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-21T16:34:02.507Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Auge en pierre pour les poules\nFigure II"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L699NO",
+            "created": "2023-10-01T19:13:37.794Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:13:37.794Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L699NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q603",
+            "created": "2023-10-01T19:13:55.269Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:13:55.269Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q603"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C406",
+            "created": "2023-10-01T19:14:09.706Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:14:09.706Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C406"
         }
     ],
+    "id": "0cbe7ff3-15d0-4b1a-9d47-093d01a056f6.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2544.81494140625,1183.414306640625 2809.578857421875,1331.8426513671875 2588.942138671875,1624.6875 2444.525634765625,1544.4560546875 2308.132080078125,1383.9930419921875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +61,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0190",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2544.81494140625,1183.414306640625 2809.578857421875,1331.8426513671875 2588.942138671875,1624.6875 2444.525634765625,1544.4560546875 2308.132080078125,1383.9930419921875\"></polygon></svg>"
         }
     },
-    "id": "0cbe7ff3-15d0-4b1a-9d47-093d01a056f6.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
