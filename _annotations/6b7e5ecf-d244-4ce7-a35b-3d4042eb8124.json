@@ -4,61 +4,67 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Barre de suspension. Pass\u00e9e dans les jarrets perc\u00e9s du cochon \u00e9gorg\u00e9 : sert \u00e0 le suspendre pour l'ouvrir et le d\u00e9biter",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-01T19:22:42.030Z",
-            "modified": "2023-10-01T19:23:42.886Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-21T16:59:11.546Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Barre de suspension [t'ur]\nFigure IV\nPass\u00e9e dans les jarrets perc\u00e9s du cochon \u00e9gorg\u00e9 : sert \u00e0 le suspendre pour l'ouvrir et le d\u00e9biter"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L695O",
+            "created": "2023-10-01T19:22:54.066Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:22:54.066Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L695O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L771NO",
+            "created": "2023-10-01T19:22:56.347Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:22:56.347Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L771NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C428",
+            "created": "2023-10-01T19:22:59.626Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:22:59.626Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C428"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q890",
+            "created": "2023-10-01T19:24:30.859Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:24:30.859Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q890"
         }
     ],
+    "id": "6b7e5ecf-d244-4ce7-a35b-3d4042eb8124.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=77.69678497314453,1183.4144287109375,665.9213180541992,561.620361328125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -66,13 +72,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0212",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=77.69678497314453,1183.4144287109375,665.9213180541992,561.620361328125"
         }
     },
-    "id": "6b7e5ecf-d244-4ce7-a35b-3d4042eb8124.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
