@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-10-01T18:55:21.800Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-01T18:55:35.187Z",
+            "modified": "2024-11-21T15:04:29.166Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9table (c\u00f4t\u00e9 b\u00eates)"
+            "value": "\u00c9table (c\u00f4t\u00e9 b\u00eates)\nFigure XIII\n1. [kul\u02c8u\u0303ndr\u0259]\n2. abreuvoir [t\u02c8\u0254s]"
         },
         {
             "created": "2023-10-01T18:55:41.669Z",
@@ -50,6 +50,11 @@ order: 2
     "id": "c8df57b3-b29f-492a-aec1-d17e9f17b4c2.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1147.5283203125,74.07284545898438,1045.40234375,907.4625549316406"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,11 +62,6 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0189",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1147.5283203125,74.07284545898438,1045.40234375,907.4625549316406"
         }
     },
     "type": "Annotation"
