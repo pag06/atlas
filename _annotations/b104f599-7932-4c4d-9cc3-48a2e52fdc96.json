@@ -8,12 +8,13 @@ order: 9
         {
             "created": "2023-10-01T18:52:53.930Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9table "
+            "value": "\u00c9table\nFigure IX\n1. r\u00e2telier [mi\u0303\u0272ja\u00f0\u02c8\u025br\u0259]\n2. [tru\u028e\u02c8\u025bjts]",
+            "modified": "2024-11-21T14:54:40.726Z"
         },
         {
             "created": "2023-10-01T18:52:59.824Z",
@@ -44,11 +45,26 @@ order: 9
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q4195"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8605",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T14:54:55.879Z"
         }
     ],
     "id": "b104f599-7932-4c4d-9cc3-48a2e52fdc96.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=91.3318862915039,3905.308837890625,898.2043075561523,1149.967529296875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,11 +72,6 @@ order: 9
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0188",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=91.3318862915039,3905.308837890625,898.2043075561523,1149.967529296875"
         }
     },
     "type": "Annotation"
