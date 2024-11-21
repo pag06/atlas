@@ -8,12 +8,13 @@ order: 5
         {
             "created": "2023-10-01T19:30:53.604Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Saloir"
+            "value": "Saloir\nFigure III\nC'est le m\u00eame p\u00e9trin qui sert pour tuer le cochon, avec un couvercle",
+            "modified": "2024-11-21T17:08:10.387Z"
         },
         {
             "created": "2023-10-01T19:31:00.687Z",
@@ -49,6 +50,10 @@ order: 5
     "id": "e834c6d6-9fd0-4e08-ba35-661f6ae3dc55.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2649.1,1127.3 3347.1,1372 3347.1,1692.9 2910,1665 2838.3,1646 2576.1,1612.4 2593,1323.8\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,10 +61,6 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0213",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2649.1,1127.3 3347.1,1372 3347.1,1692.9 2910,1665 2838.3,1646 2576.1,1612.4 2593,1323.8\"></polygon></svg>"
         }
     },
     "type": "Annotation"
