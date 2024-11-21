@@ -11,10 +11,10 @@ order: 22
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-21T09:04:47.406Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Joug\nFigure XXII\nFigure XXII bis\n",
-            "modified": "2024-11-21T09:04:47.406Z"
+            "value": "Joug\nFigure XXII\nFigure XXII bis\n"
         },
         {
             "created": "2023-09-30T08:21:57.145Z",
@@ -50,10 +50,6 @@ order: 22
     "id": "5061836f-98d6-4687-9684-41548c221bc5.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2356.27099609375,4364.5927734375 2797.544189453125,4352.5576171875 3423.349609375,4003.55078125 3411.31494140625,3425.88427734375 2869.75244140625,3526.173583984375 2404.409912109375,3738.786865234375 2151.6806640625,3802.97216796875 1999.2408447265625,3987.5048828125 2039.3565673828125,4115.875 2320.166748046875,4107.85205078125\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -61,6 +57,10 @@ order: 22
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0166",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2356.3,4364.6 2797.5,4352.6 3406.4,4002.7 3397.8,3424.8 2869.8,3526.2 2404.4,3738.8 2151.7,3803 1999.2,3987.5 2039.4,4115.9 2320.2,4107.9\"></polygon></svg>"
         }
     },
     "type": "Annotation"
