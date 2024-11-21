@@ -8,13 +8,12 @@ order: 4
         {
             "created": "2023-10-01T19:15:44.737Z",
             "creator": {
-                "id": "pag06",
-                "name": "pag06"
+                "id": "ej7320",
+                "name": "Eulalie"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Auge en bois\nFigure IV",
-            "modified": "2024-11-21T16:38:24.012Z"
+            "value": "Auge"
         },
         {
             "created": "2023-10-01T19:15:50.617Z",
@@ -50,10 +49,6 @@ order: 4
     "id": "c9885147-431b-412b-9a25-dedce08c3675.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2685.219970703125,1989.74072265625 3234.8056640625,1600.6180419921875 3335.094970703125,1716.9537353515625 2805.5673828125,2126.13427734375\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -61,6 +56,10 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0190",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2685.2,1989.7 3234.8,1600.6 3335.1,1717 2802.2,2121.7\"></polygon></svg>"
         }
     },
     "type": "Annotation"
