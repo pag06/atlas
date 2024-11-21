@@ -4,49 +4,50 @@ order: 13
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Joug",
+            "created": "2023-09-30T08:10:41.062Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-30T08:10:41.062Z"
+            "type": "TextualBody",
+            "value": "Joug"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L668SO",
+            "created": "2023-09-30T08:10:44.137Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T08:10:44.137Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L668SO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C383",
+            "created": "2023-09-30T08:10:45.452Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T08:10:45.452Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C383"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5774",
+            "created": "2023-09-30T08:10:46.941Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T08:10:46.941Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5774"
         }
     ],
+    "id": "59ed3ba4-ae6f-4d71-ac27-17442cb8b84d.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -58,9 +59,8 @@ order: 13
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"892.0463256835938,2561.189697265625 1389.4815673828125,2296.42578125 1529.88671875,2083.812255859375 1810.6968994140625,2115.90478515625 2023.310302734375,2071.777587890625 2328.18994140625,2075.7890625 2332.201416015625,2272.356201171875 2187.784912109375,2284.390869140625 1770.5811767578125,2440.84228515625 1433.60888671875,2609.328369140625 1253.0880126953125,2609.328369140625 996.3472900390625,2866.0693359375\"></polygon></svg>"
+            "value": "<svg><polygon points=\"892,2561.2 1389.5,2296.4 1529.9,2083.8 1810.7,2115.9 2023.3,2071.8 2328.2,2075.8 2332.2,2272.4 2187.8,2284.4 1770.6,2440.8 1433.6,2609.3 1266.6,2634.8 996.3,2866.1\"></polygon></svg>"
         }
     },
-    "id": "59ed3ba4-ae6f-4d71-ac27-17442cb8b84d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
