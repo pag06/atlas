@@ -8,12 +8,13 @@ order: 9
         {
             "created": "2023-10-01T19:05:24.349Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9table "
+            "value": "\u00c9table\nFigure XVIII",
+            "modified": "2024-11-21T16:08:13.834Z"
         },
         {
             "created": "2023-10-01T19:05:27.736Z",
@@ -49,6 +50,11 @@ order: 9
     "id": "1bc215cd-da5d-42cc-b1bc-b46bac31b76a.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1774.4017333984375,2099.616943359375,749.9998779296875,912.727294921875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,11 +62,6 @@ order: 9
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0189",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1774.4017333984375,2099.616943359375,749.9998779296875,912.727294921875"
         }
     },
     "type": "Annotation"
