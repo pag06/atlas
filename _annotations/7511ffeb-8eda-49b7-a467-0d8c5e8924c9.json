@@ -4,50 +4,77 @@ order: 8
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\u00c9table ",
+            "created": "2023-10-01T19:05:04.748Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "\u00c9curie\nFigure XIX\n1. r\u00e2telier [r\u02d0ast\u0153l\u02c8ej]\n2. cr\u00e8che [kr\u02c8e\u0283\u0259, ma\u0303\u014b\u0292w\u02c8ar\u0259]",
+            "modified": "2024-11-21T16:20:31.445Z"
+        },
+        {
+            "created": "2023-10-01T19:05:09.498Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:05:04.748Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L643E"
+        },
+        {
+            "created": "2023-10-01T19:05:11.466Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C402"
+        },
+        {
+            "created": "2023-10-01T19:05:13.922Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4195"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L643E",
+            "value": "Q8605",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-10-01T19:05:09.498Z"
+            "created": "2024-11-21T16:20:44.173Z"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C402",
+            "value": "Q2859",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-10-01T19:05:11.466Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4195",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-01T19:05:13.922Z"
+            "created": "2024-11-21T16:20:51.838Z"
         }
     ],
+    "id": "7511ffeb-8eda-49b7-a467-0d8c5e8924c9.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2511.95654296875,2089.916748046875,901.527587890625,918.754150390625"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -55,13 +82,7 @@ order: 8
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0189",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2511.95654296875,2089.916748046875,901.527587890625,918.754150390625"
         }
     },
-    "id": "7511ffeb-8eda-49b7-a467-0d8c5e8924c9.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
