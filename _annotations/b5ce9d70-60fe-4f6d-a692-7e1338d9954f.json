@@ -4,50 +4,51 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Gaver. L'oie est enferm\u00e9e dans une caisse sp\u00e9ciale",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-01T19:48:33.377Z",
-            "modified": "2023-10-01T19:48:51.258Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L687E",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:49:11.618Z"
+            "modified": "2023-10-01T19:48:51.258Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Gaver. L'oie est enferm\u00e9e dans une caisse sp\u00e9ciale"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C445",
+            "created": "2023-10-01T19:49:11.618Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:49:21.032Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L687E"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5058",
+            "created": "2023-10-01T19:49:21.032Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:49:44.146Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C445"
+        },
+        {
+            "created": "2023-10-01T19:49:44.146Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5058"
         }
     ],
+    "id": "b5ce9d70-60fe-4f6d-a692-7e1338d9954f.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -59,9 +60,8 @@ order: 1
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2968.425537109375,1677.913330078125 3293.363037109375,1842.3878173828125 3297.374755859375,2055.001220703125 2948.36767578125,2408.019775390625 2623.145751953125,2259.432861328125 2639.4765625,2034.943359375\"></polygon></svg>"
+            "value": "<svg><polygon points=\"2968.4,1677.9 3293.4,1842.4 3297.4,2055 2948.4,2408 2636.4,2255.5 2639.5,2034.9\"></polygon></svg>"
         }
     },
-    "id": "b5ce9d70-60fe-4f6d-a692-7e1338d9954f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
