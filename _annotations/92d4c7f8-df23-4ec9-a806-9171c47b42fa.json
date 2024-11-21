@@ -4,50 +4,51 @@ order: 4
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\u00c9table \n1) Chevaux\n2) Veaux",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-01T18:49:26.550Z",
-            "modified": "2023-10-01T18:49:39.878Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L695O",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T18:50:00.212Z"
+            "modified": "2023-10-01T18:49:39.878Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "\u00c9table \n1) Chevaux\n2) Veaux"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C402",
+            "created": "2023-10-01T18:50:00.212Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T18:50:07.165Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L695O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4195",
+            "created": "2023-10-01T18:50:07.165Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T18:50:09.923Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C402"
+        },
+        {
+            "created": "2023-10-01T18:50:09.923Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4195"
         }
     ],
+    "id": "92d4c7f8-df23-4ec9-a806-9171c47b42fa.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -60,9 +61,8 @@ order: 4
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1337.9295654296875,1357.9381103515625,2072.8336181640625,1224.5120849609375"
+            "value": "xywh=1339.46728515625,1357.9381103515625,2060.3583984375,1178.8626708984375"
         }
     },
-    "id": "92d4c7f8-df23-4ec9-a806-9171c47b42fa.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
