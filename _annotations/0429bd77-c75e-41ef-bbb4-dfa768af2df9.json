@@ -8,12 +8,13 @@ order: 12
         {
             "created": "2023-10-01T19:06:42.524Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9table "
+            "value": "\u00c9curie\nFigure XX\n1. [\u0261r\u02c8\u025bpi]\n2. [ma\u0303\u014b\u0292w\u02c8art]",
+            "modified": "2024-11-21T16:12:22.917Z"
         },
         {
             "created": "2023-10-01T19:06:49.629Z",
@@ -49,6 +50,11 @@ order: 12
     "id": "0429bd77-c75e-41ef-bbb4-dfa768af2df9.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=76.21997833251953,3126.8896484375,1166.363639831543,903.636474609375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,11 +62,6 @@ order: 12
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0189",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=76.21997833251953,3126.8896484375,1166.363639831543,903.636474609375"
         }
     },
     "type": "Annotation"
