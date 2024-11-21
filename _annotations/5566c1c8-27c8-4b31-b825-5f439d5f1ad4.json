@@ -8,12 +8,13 @@ order: 11
         {
             "created": "2023-10-01T18:53:39.000Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9table "
+            "value": "\u00c9table\nFigure XI\n1. r\u00e2telier [r\u0153st\u0153lj\u02c8\u025b]",
+            "modified": "2024-11-21T14:58:39.042Z"
         },
         {
             "created": "2023-10-01T18:53:42.875Z",
@@ -49,6 +50,11 @@ order: 11
     "id": "5566c1c8-27c8-4b31-b825-5f439d5f1ad4.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2450.8916015625,3871.41748046875,971.138671875,1167.49755859375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,11 +62,6 @@ order: 11
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0188",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2450.8916015625,3871.41748046875,971.138671875,1167.49755859375"
         }
     },
     "type": "Annotation"
