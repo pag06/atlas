@@ -8,12 +8,13 @@ order: 2
         {
             "created": "2023-10-01T18:48:04.070Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9table "
+            "value": "\u00c9table\nFigure II\n1. r\u00e2telier [r\u02d0astelj\u02c8\u025b, r\u02d0astilj\u02c8\u025b]\n2. chaque place [era \u0263r\u02c8esa ed\u0292 estaka\u00f0\u02c8e]",
+            "modified": "2024-11-21T09:22:53.368Z"
         },
         {
             "created": "2023-10-01T18:48:09.435Z",
@@ -49,6 +50,11 @@ order: 2
     "id": "29e35b20-9f5d-4181-add6-9cb8c1e97015.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1057.6802978515625,80.40603637695312,1294.3577880859375,1194.6935729980469"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,11 +62,6 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0188",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1057.6802978515625,80.40603637695312,1294.3577880859375,1194.6935729980469"
         }
     },
     "type": "Annotation"
