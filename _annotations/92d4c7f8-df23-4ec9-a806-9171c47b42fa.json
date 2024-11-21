@@ -8,13 +8,13 @@ order: 4
         {
             "created": "2023-10-01T18:49:26.550Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-01T18:49:39.878Z",
+            "modified": "2024-11-21T14:43:08.331Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9table \n1) Chevaux\n2) Veaux"
+            "value": "\u00c9table\nFigure V\n1. [ja\u0263ar\u02c8isa] (chevaux)\n2. [be\u00f0er\u02c8a] (veaux)"
         },
         {
             "created": "2023-10-01T18:50:00.212Z",
@@ -50,6 +50,11 @@ order: 4
     "id": "92d4c7f8-df23-4ec9-a806-9171c47b42fa.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1337.1298828125,1368.1348876953125,2061.527099609375,1168.6658935546875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,11 +62,6 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0188",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1337.1298828125,1368.1348876953125,2061.527099609375,1168.6658935546875"
         }
     },
     "type": "Annotation"
