@@ -8,12 +8,13 @@ order: 2
         {
             "created": "2023-10-01T19:42:03.162Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Poulailler"
+            "value": "Poulailler et perchoir\nFigure II",
+            "modified": "2024-11-21T17:30:01.678Z"
         },
         {
             "created": "2023-10-01T19:42:07.495Z",
@@ -44,11 +45,25 @@ order: 2
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q8143"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7550",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T17:30:10.593Z"
         }
     ],
     "id": "6a3a5a65-db25-4daa-abb6-8827a404fad1.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1882.9,673.9 2564.7,678.2 2568.9,1508.4 1801,1486.4 1802.7,1175.4 1894.7,1171.8\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,10 +71,6 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0216",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1882.9,673.9 2564.7,678.2 2568.9,1508.4 1801,1486.4 1802.7,1175.4 1894.7,1171.8\"></polygon></svg>"
         }
     },
     "type": "Annotation"
