@@ -11,10 +11,10 @@ order: 5
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-21T17:08:10.387Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Saloir\nFigure III\nC'est le m\u00eame p\u00e9trin qui sert pour tuer le cochon, avec un couvercle",
-            "modified": "2024-11-21T17:08:10.387Z"
+            "value": "Saloir\nFigure III\nC'est le m\u00eame p\u00e9trin qui sert pour tuer le cochon, avec un couvercle"
         },
         {
             "created": "2023-10-01T19:31:00.687Z",
@@ -45,6 +45,16 @@ order: 5
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q9165"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9667",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T17:08:46.566Z"
         }
     ],
     "id": "e834c6d6-9fd0-4e08-ba35-661f6ae3dc55.json",
