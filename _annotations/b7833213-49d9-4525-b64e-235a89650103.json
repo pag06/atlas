@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-10-01T18:54:24.102Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-01T18:54:28.264Z",
+            "modified": "2024-11-21T15:01:39.970Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Guichet \u00e0 boeufs"
+            "value": "Guichet \u00e0 boeufs\nFigure XII"
         },
         {
             "created": "2023-10-01T18:54:34.671Z",
@@ -45,6 +45,16 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q4195"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5416",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T15:01:27.489Z"
         }
     ],
     "id": "b7833213-49d9-4525-b64e-235a89650103.json",
