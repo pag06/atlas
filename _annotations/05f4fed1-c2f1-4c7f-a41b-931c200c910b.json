@@ -8,12 +8,13 @@ order: 14
         {
             "created": "2023-09-30T08:13:49.911Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Joug"
+            "value": "Joug\nB\u00eates attel\u00e9es avec \u00e9mouchette\nFigure XVI\n",
+            "modified": "2024-11-21T08:59:30.719Z"
         },
         {
             "created": "2023-09-30T08:13:59.709Z",
@@ -44,11 +45,25 @@ order: 14
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q5774"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q3811",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T08:59:40.142Z"
         }
     ],
     "id": "05f4fed1-c2f1-4c7f-a41b-931c200c910b.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2392.4,2039.7 2665.2,2103.9 3400.2,2176.7 3369.3,2747.6 2804.8,2744.8 2512.7,2813.9 2400.4,2525.1 2292,2480.9 2328.2,2196.1\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,10 +71,6 @@ order: 14
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0166",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2392.4,2039.7 2665.2,2103.9 3400.2,2176.7 3369.3,2747.6 2804.8,2744.8 2512.7,2813.9 2400.4,2525.1 2292,2480.9 2328.2,2196.1\"></polygon></svg>"
         }
     },
     "type": "Annotation"
