@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-10-01T19:25:33.292Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-01T19:25:39.640Z",
+            "modified": "2024-11-21T17:02:00.946Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Spatule pour remuer la graisse fondue"
+            "value": "Spatule pour remuer la graisse fondue [spl\u02c8en\u0254]"
         },
         {
             "created": "2023-10-01T19:25:47.720Z",
@@ -50,11 +50,6 @@ order: 3
     "id": "ab00a04c-73df-465b-a5bf-ec36425aaba6.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "type": "FragmentSelector",
-            "value": "xywh=302.3449401855469,2254.504638671875,200.5787353515625,617.782470703125"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -62,6 +57,11 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0212",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=302.3449401855469,2254.504638671875,197.59976196289062,608.834716796875"
         }
     },
     "type": "Annotation"
