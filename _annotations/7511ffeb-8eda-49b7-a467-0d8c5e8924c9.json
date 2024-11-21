@@ -11,10 +11,10 @@ order: 8
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-21T16:20:31.445Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9curie\nFigure XIX\n1. r\u00e2telier [r\u02d0ast\u0153l\u02c8ej]\n2. cr\u00e8che [kr\u02c8e\u0283\u0259, ma\u0303\u014b\u0292w\u02c8ar\u0259]",
-            "modified": "2024-11-21T16:20:31.445Z"
+            "value": "\u00c9curie\nFigure XIX\n1. r\u00e2telier [r\u02d0ast\u0153l\u02c8ej]\n2. cr\u00e8che [kr\u02c8e\u0283\u0259, ma\u0303\u014b\u0292w\u02c8ar\u0259]"
         },
         {
             "created": "2023-10-01T19:05:09.498Z",
@@ -47,24 +47,34 @@ order: 8
             "value": "Q4195"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8605",
+            "created": "2024-11-21T16:20:44.173Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-21T16:20:44.173Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8605"
+        },
+        {
+            "created": "2024-11-21T16:20:51.838Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2859"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q2859",
+            "value": "Q3711",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-21T16:20:51.838Z"
+            "created": "2024-11-21T16:22:08.741Z"
         }
     ],
     "id": "7511ffeb-8eda-49b7-a467-0d8c5e8924c9.json",
