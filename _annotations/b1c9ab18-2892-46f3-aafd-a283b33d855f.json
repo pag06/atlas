@@ -8,12 +8,13 @@ order: 2
         {
             "created": "2023-10-01T19:50:02.626Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Gaver. L'oie est enferm\u00e9e dans une caisse sp\u00e9ciale"
+            "value": "Gava\u0261e\nL'oie est enferm\u00e9e dans une caisse sp\u00e9ciale [k\u02c8a\u0283o \u00f0 e\u0303mbyk\u02c8a]",
+            "modified": "2024-11-21T17:52:33.140Z"
         },
         {
             "created": "2023-10-01T19:50:07.680Z",
@@ -49,6 +50,10 @@ order: 2
     "id": "b1c9ab18-2892-46f3-aafd-a283b33d855f.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2715.5,2440.1 3297.4,2656.7 3288.2,2979.2 2900.2,3086 2520.9,2795.5 2508.2,2606.4\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,10 +61,6 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0229",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2715.5,2440.1 3297.4,2656.7 3288.2,2979.2 2900.2,3086 2520.9,2795.5 2508.2,2606.4\"></polygon></svg>"
         }
     },
     "type": "Annotation"
