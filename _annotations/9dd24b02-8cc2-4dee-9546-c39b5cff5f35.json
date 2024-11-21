@@ -4,51 +4,56 @@ order: 7
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Poulailler (lapins)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-01T19:45:14.124Z",
-            "modified": "2023-10-01T19:45:27.735Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-21T17:35:33.623Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Cage \u00e0 lapins\nFigure VII"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L691O",
+            "created": "2023-10-01T19:45:17.913Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:45:17.913Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L691O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C432",
+            "created": "2023-10-01T19:45:21.208Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:45:21.208Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C432"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8143",
+            "created": "2023-10-01T19:45:22.726Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:45:22.726Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8143"
         }
     ],
+    "id": "9dd24b02-8cc2-4dee-9546-c39b5cff5f35.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2711.295166015625,2647.638916015625 2759.43408203125,3121.004638671875 2811.61669921875,3100.9384765625 3204.71875,3121.004638671875 3232.7998046875,3301.525390625 3339.1064453125,3307.542724609375 3351.14111328125,2571.4189453125 3162.59716796875,2585.45947265625 2978.06494140625,2651.650390625 2901.844970703125,2625.5751953125\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +61,7 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0216",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2711.295166015625,2647.638916015625 2759.43408203125,3121.004638671875 2811.61669921875,3100.9384765625 3204.71875,3121.004638671875 3232.7998046875,3301.525390625 3339.1064453125,3307.542724609375 3351.14111328125,2571.4189453125 3162.59716796875,2585.45947265625 2978.06494140625,2651.650390625 2901.844970703125,2625.5751953125\"></polygon></svg>"
         }
     },
-    "id": "9dd24b02-8cc2-4dee-9546-c39b5cff5f35.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
