@@ -8,12 +8,13 @@ order: 10
         {
             "created": "2023-10-01T18:53:12.395Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9table "
+            "value": "\u00c9table\nFigure X\n1. r\u00e2telier  [r\u02d0est\u0259lj\u02c8\u025b]\n2. bat-flanc [bafl\u02c8a\u0303\u014b]\n3. cr\u00e8che [kr\u02c8\u025b\u0283\u0259]",
+            "modified": "2024-11-21T14:57:13.749Z"
         },
         {
             "created": "2023-10-01T18:53:17.059Z",
@@ -44,11 +45,36 @@ order: 10
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q4195"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8605",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T14:57:24.214Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2859",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T14:57:31.062Z"
         }
     ],
     "id": "4a5e8f17-8c95-44c3-8b54-b0104528a975.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=997.048095703125,3889.62939453125,1466.80419921875,1157.46630859375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,11 +82,6 @@ order: 10
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0188",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=997.048095703125,3889.62939453125,1466.80419921875,1157.46630859375"
         }
     },
     "type": "Annotation"
