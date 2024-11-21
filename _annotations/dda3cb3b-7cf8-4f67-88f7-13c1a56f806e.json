@@ -8,13 +8,13 @@ order: 28
         {
             "created": "2023-09-30T08:32:14.047Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-30T08:32:29.508Z",
+            "modified": "2024-11-21T08:49:46.591Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Anneau du joug I\nIndistinction entre l'anneau et le joug"
+            "value": "Anneau du joug\nFigure I bis\nIndistinction entre l'anneau et le joug"
         },
         {
             "created": "2023-09-30T08:32:39.885Z",
@@ -50,10 +50,6 @@ order: 28
     "id": "dda3cb3b-7cf8-4f67-88f7-13c1a56f806e.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"130.29393005371094,1298.470703125 490.3973388671875,1169.6263427734375 658.8861083984375,1202.663330078125 639.0639038085938,1440.52978515625 536.649169921875,1480.1741943359375 500.3084411621094,1671.788818359375 364.79876708984375,1685.01220703125\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -61,6 +57,10 @@ order: 28
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0166",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"130.3,1298.5 490.4,1169.6 658.9,1202.7 639.1,1440.5 524.8,1453 500.3,1671.8 364.8,1685\"></polygon></svg>"
         }
     },
     "type": "Annotation"
