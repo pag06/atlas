@@ -11,10 +11,10 @@ order: 5
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-21T16:36:15.067Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Auge\nFigure V\nEn planche, trap\u00e9zo\u00efdale",
-            "modified": "2024-11-21T16:36:15.067Z"
+            "value": "Auge\nFigure V\nEn planche, trap\u00e9zo\u00efdale"
         },
         {
             "created": "2023-10-01T19:16:15.708Z",
@@ -50,10 +50,6 @@ order: 5
     "id": "31bf6181-9176-46c2-972b-6550fc715cef.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2352.25927734375,1897.474609375 2741.382080078125,2082.007080078125 2572.89599609375,2390.898193359375 2484.641357421875,2394.90966796875 2119.588134765625,2170.26171875\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -61,6 +57,10 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0190",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2352.3,1897.5 2741.4,2082 2549.5,2404.4 2484,2382.6 2137.7,2139\"></polygon></svg>"
         }
     },
     "type": "Annotation"
