@@ -11,10 +11,10 @@ order: 3
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-21T08:14:46.965Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Joug\nFigure III",
-            "modified": "2024-11-21T08:14:46.965Z"
+            "value": "Joug\nFigure III"
         },
         {
             "created": "2023-09-30T08:02:20.723Z",
@@ -45,6 +45,16 @@ order: 3
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "C383"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q540",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T08:47:30.745Z"
         }
     ],
     "id": "8656ae11-2a02-4fba-9836-1dd4081cafdd.json",
