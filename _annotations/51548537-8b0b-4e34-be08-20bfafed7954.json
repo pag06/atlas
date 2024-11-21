@@ -4,51 +4,56 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Entrave proprement dite : cha\u00eene reliant deux anneaux dans lesquels on emprisonne les pattes de devant au-dessus du sabot. Surtout pour chevaux ; dans les Landes pour mules et vaches.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-30T08:42:21.586Z",
-            "modified": "2023-09-30T08:43:39.871Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-21T09:15:27.768Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Entrave\nCha\u00eene reliant deux anneaux dans lesquels on emprisonne les pattes de devant au-dessus du sabot. Surtout pour chevaux ; dans les Landes pour mules et vaches."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L681N",
+            "created": "2023-09-30T08:43:47.811Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T08:43:47.811Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L681N"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C388",
+            "created": "2023-09-30T08:43:52.968Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T08:43:52.968Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C388"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4017",
+            "created": "2023-09-30T08:44:00.204Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T08:44:00.204Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4017"
         }
     ],
+    "id": "51548537-8b0b-4e34-be08-20bfafed7954.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1983.194580078125,1492.3056640625 3098.412109375,1476.25927734375 3082.365966796875,1821.254638671875 2681.20849609375,1785.1505126953125 2284.0625,1801.19677734375 2027.3218994140625,1873.4051513671875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +61,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0172",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1983.194580078125,1492.3056640625 3098.412109375,1476.25927734375 3082.365966796875,1821.254638671875 2681.20849609375,1785.1505126953125 2284.0625,1801.19677734375 2027.3218994140625,1873.4051513671875\"></polygon></svg>"
         }
     },
-    "id": "51548537-8b0b-4e34-be08-20bfafed7954.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
