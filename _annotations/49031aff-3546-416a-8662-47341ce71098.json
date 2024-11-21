@@ -11,10 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-21T17:38:53.004Z",
+            "modified": "2024-11-21T17:41:37.841Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Perchoir\nFigure I"
+            "value": "Perchoir [\u0272ja\u00f0\u02c8\u025bs]\nFigure I"
         },
         {
             "created": "2023-10-01T19:46:00.280Z",
@@ -50,6 +50,11 @@ order: 1
     "id": "49031aff-3546-416a-8662-47341ce71098.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1265.1781005859375,1203.4722900390625,1063.0118408203125,522.0579833984375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,11 +62,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0217",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1265.1781005859375,1203.4722900390625,1063.0118408203125,522.0579833984375"
         }
     },
     "type": "Annotation"
