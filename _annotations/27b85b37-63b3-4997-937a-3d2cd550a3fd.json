@@ -41,19 +41,15 @@ order: 3
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-21T16:34:48.903Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Auge\nFigure III\nCreus\u00e9e dans un tronc d'arbre",
-            "modified": "2024-11-21T16:34:48.903Z"
+            "value": "Auge\nFigure III\nCreus\u00e9e dans un tronc d'arbre"
         }
     ],
     "id": "27b85b37-63b3-4997-937a-3d2cd550a3fd.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2404.409912109375,1765.0926513671875 2625.04638671875,1672.826416015625 3246.84033203125,1207.4837646484375 3355.15283203125,1383.9930419921875 3326.827880859375,1501.0159912109375 2629.05810546875,1973.6944580078125 2396.38671875,1921.5440673828125\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -61,6 +57,10 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0190",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2404.4,1765.1 2625,1672.8 3190.4,1201.7 3355.2,1384 3326.8,1501 2629.1,1973.7 2396.4,1921.5\"></polygon></svg>"
         }
     },
     "type": "Annotation"
