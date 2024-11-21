@@ -8,13 +8,13 @@ order: 24
         {
             "created": "2023-09-30T08:23:46.686Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-30T08:24:46.895Z",
+            "modified": "2024-11-21T09:08:52.870Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Joug\nLongueur : 190cm\nLabastidette (10kmNE de L771NO)"
+            "value": "Joug\nFigure XXVIII\nFigure XXVIII bis\nPour labourer la vigne ou butter les pommes de terre\nLongueur : 190cm\nLabastidette (10kmNE de L771NO)"
         },
         {
             "created": "2023-09-30T08:24:22.046Z",
@@ -50,6 +50,10 @@ order: 24
     "id": "c78e2293-3b83-4fb8-8f69-3c137556d094.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2498.7,4589 3272.9,4488.8 3333.1,4532.9 3405.3,4926 3196.7,5042.3 2845.5,5049.2 2807.6,5130.6 2398.4,5142.6\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,10 +61,6 @@ order: 24
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0166",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2498.7,4589 3272.9,4488.8 3333.1,4532.9 3405.3,4926 3196.7,5042.3 2845.5,5049.2 2807.6,5130.6 2398.4,5142.6\"></polygon></svg>"
         }
     },
     "type": "Annotation"
