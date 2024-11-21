@@ -8,13 +8,13 @@ order: 6
         {
             "created": "2023-10-01T19:16:37.762Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-01T19:16:44.164Z",
+            "modified": "2024-11-21T16:40:16.107Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Auge (ext\u00e9rieur)"
+            "value": "Auge (ext\u00e9rieur / int\u00e9rieur) pour les porcs"
         },
         {
             "created": "2023-10-01T19:16:51.314Z",
@@ -50,6 +50,10 @@ order: 6
     "id": "a981c95a-cb99-4962-8549-b29345cb93af.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2757.4,2134.2 2613,2362.8 2803.1,2537.2 3354.9,2526.3 3324,2064.4\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,10 +61,6 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0190",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2757.4,2134.2 2613,2362.8 2803.1,2537.2 3354.9,2526.3 3324,2064.4\"></polygon></svg>"
         }
     },
     "type": "Annotation"
