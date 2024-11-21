@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-10-01T19:41:04.388Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-01T19:41:06.623Z",
+            "modified": "2024-11-21T17:28:39.294Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Poulailler"
+            "value": "Poulailler\nFigure I\nPerchoir"
         },
         {
             "created": "2023-10-01T19:41:12.248Z",
@@ -45,11 +45,25 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q8143"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7550",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T17:28:54.055Z"
         }
     ],
     "id": "c44ce309-2c37-4f46-85b5-b66752a2aaa3.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"964.3,569.6 1742.5,597.7 1907,842.4 1890.9,1179.4 1785.6,1173.7 1886.9,1508.4 1570,1580.6 1325.3,1580.6 763.7,1259.6\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,10 +71,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0216",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"964.3,569.6 1742.5,597.7 1907,842.4 1890.9,1179.4 1785.6,1173.7 1886.9,1508.4 1570,1580.6 1325.3,1580.6 763.7,1259.6\"></polygon></svg>"
         }
     },
     "type": "Annotation"
