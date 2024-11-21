@@ -11,10 +11,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-21T17:12:33.786Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9table \u00e0 porcs et poulailler\nFigure II",
-            "modified": "2024-11-21T17:12:33.786Z"
+            "value": "\u00c9table \u00e0 porcs et poulailler\nFigure II"
         },
         {
             "created": "2023-10-01T19:33:52.092Z",
@@ -45,6 +45,16 @@ order: 2
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q11837"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8143",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T17:13:47.443Z"
         }
     ],
     "id": "bf7c2503-3a0c-4172-a4f8-cff9fd2bfe55.json",
