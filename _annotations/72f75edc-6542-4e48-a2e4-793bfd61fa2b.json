@@ -49,11 +49,6 @@ order: 6
     "id": "72f75edc-6542-4e48-a2e4-793bfd61fa2b.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "type": "FragmentSelector",
-            "value": "xywh=1621.6744384765625,1082.158203125,1761.8179931640625,948.367919921875"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -61,6 +56,11 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0189",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1620.7652587890625,1096.889892578125,1762.7271728515625,933.63623046875"
         }
     },
     "type": "Annotation"
