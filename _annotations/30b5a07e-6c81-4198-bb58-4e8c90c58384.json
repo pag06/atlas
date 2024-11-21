@@ -8,12 +8,13 @@ order: 3
         {
             "created": "2023-10-01T19:34:14.011Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9table \u00e0 porcs"
+            "value": "\u00c9table \u00e0 porcs\nFigure III",
+            "modified": "2024-11-21T17:15:08.276Z"
         },
         {
             "created": "2023-10-01T19:34:23.088Z",
@@ -44,11 +45,26 @@ order: 3
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q11837"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q603",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T17:15:20.943Z"
         }
     ],
     "id": "30b5a07e-6c81-4198-bb58-4e8c90c58384.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2451.76025390625,681.9675903320312,879.572265625,486.68695068359375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,11 +72,6 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0214",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2451.76025390625,681.9675903320312,879.572265625,486.68695068359375"
         }
     },
     "type": "Annotation"
