@@ -4,51 +4,57 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Ruche\nTronc creus\u00e9, persiste surtout en montagne",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-01T19:53:03.834Z",
-            "modified": "2023-10-01T19:54:50.043Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-21T17:58:29.610Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Ruche\nFigure I\nTronc creus\u00e9, les extr\u00e9mit\u00e9s sont ferm\u00e9es par des lames de schiste"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L790S",
+            "created": "2023-10-01T19:53:19.165Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:53:19.165Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L790S"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C446",
+            "created": "2023-10-01T19:53:22.314Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:53:22.314Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C446"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9057",
+            "created": "2023-10-01T19:53:36.123Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:53:36.123Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9057"
         }
     ],
+    "id": "f3430749-1b0d-48b8-935d-e882affff109.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=839.8958740234375,533.5393676757812,694.0023193359375,702.0254516601562"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,13 +62,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0230",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=839.8958740234375,533.5393676757812,694.0023193359375,702.0254516601562"
         }
     },
-    "id": "f3430749-1b0d-48b8-935d-e882affff109.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
