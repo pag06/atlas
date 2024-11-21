@@ -8,12 +8,13 @@ order: 4
         {
             "created": "2023-10-01T19:02:48.489Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9table (c\u00f4t\u00e9 b\u00eates)"
+            "value": "\u00c9table (c\u00f4t\u00e9 b\u00eates / c\u00f4t\u00e9 bouvier)\nFigure XIV\n1. [est\u02c8aks]\n2. [kul\u02c8an\u0153s]\n3. [\u0261r\u02c8ip\u0259s]\n4. [fri\u02c8\u025bst\u0153s]\n5. [mar\u0283\u0259p\u02c8\u025b]\n",
+            "modified": "2024-11-21T15:54:07.542Z"
         },
         {
             "created": "2023-10-01T19:02:54.870Z",
@@ -49,6 +50,11 @@ order: 4
     "id": "ad06c263-288c-413f-9c35-73a61297e36a.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=67.39118194580078,1100.8204345703125,1540.6520309448242,942.924560546875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,11 +62,6 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0189",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=67.39118194580078,1100.8204345703125,1540.6520309448242,942.924560546875"
         }
     },
     "type": "Annotation"
