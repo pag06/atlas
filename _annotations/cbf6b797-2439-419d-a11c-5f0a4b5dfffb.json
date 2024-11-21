@@ -11,10 +11,10 @@ order: 16
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-21T09:05:44.390Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Joug\nFigure XVIII",
-            "modified": "2024-11-21T09:01:17.360Z"
+            "value": "Joug\nFigure XVIII\nL'anneau est articul\u00e9"
         },
         {
             "created": "2023-09-30T08:15:20.573Z",
@@ -45,6 +45,16 @@ order: 16
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q5774"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q270",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T09:05:58.467Z"
         }
     ],
     "id": "cbf6b797-2439-419d-a11c-5f0a4b5dfffb.json",
