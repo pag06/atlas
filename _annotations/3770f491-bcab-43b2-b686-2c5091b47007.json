@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-10-01T18:55:55.815Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-01T18:56:00.971Z",
+            "modified": "2024-11-21T15:06:45.946Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9table  (c\u00f4t\u00e9 bouvier)"
+            "value": "\u00c9table  (c\u00f4t\u00e9 bouvier)\nFigure XIII\n1. [kul\u02c8u\u0303ndr\u0259]\n3. cr\u00e8che [kr\u02c8\u025b\u0283\u0259]"
         },
         {
             "created": "2023-10-01T18:56:04.252Z",
@@ -45,11 +45,26 @@ order: 3
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q4195"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2859",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T15:07:00.682Z"
         }
     ],
     "id": "3770f491-bcab-43b2-b686-2c5091b47007.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2195.171630859375,77.312744140625,1180.979736328125,896.3793334960938"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,11 +72,6 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0189",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2195.171630859375,77.312744140625,1180.979736328125,896.3793334960938"
         }
     },
     "type": "Annotation"
