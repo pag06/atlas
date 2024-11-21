@@ -8,12 +8,13 @@ order: 5
         {
             "created": "2023-10-01T19:35:40.235Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9table \u00e0 porcs"
+            "value": "\u00c9table \u00e0 porcs\nFigure V\nPigeonnier et cages \u00e0 lapins",
+            "modified": "2024-11-21T17:18:10.748Z"
         },
         {
             "created": "2023-10-01T19:35:51.351Z",
@@ -44,11 +45,35 @@ order: 5
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q11837"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7697",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T17:18:20.276Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1646",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T17:18:26.725Z"
         }
     ],
     "id": "9a702e70-5df1-4882-81a2-201e41d3722f.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2238.9,1937.3 3325.1,1927.6 3335.1,2729.9 2550.8,2786 2240,2514.3\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,10 +81,6 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0214",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2238.9,1937.3 3325.1,1927.6 3335.1,2729.9 2550.8,2786 2240,2514.3\"></polygon></svg>"
         }
     },
     "type": "Annotation"
