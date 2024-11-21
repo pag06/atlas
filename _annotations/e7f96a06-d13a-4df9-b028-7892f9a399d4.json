@@ -11,10 +11,10 @@ order: 7
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-21T14:47:45.568Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9table\nFigure VII\n1. r\u00e2telier  [r:estalj\u02c8\u025b]\n2. [tawl\u02c8ars]\n3. [mi\u0272\u02b2a\u00f0\u02c8er\u0259]",
-            "modified": "2024-11-21T14:47:45.568Z"
+            "value": "\u00c9table\nFigure VII\n1. r\u00e2telier  [r:estalj\u02c8\u025b]\n2. [tawl\u02c8ars]\n3. [mi\u0272\u02b2a\u00f0\u02c8er\u0259]"
         },
         {
             "created": "2023-10-01T18:52:04.471Z",
@@ -45,6 +45,16 @@ order: 7
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q4195"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8605",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T14:48:10.706Z"
         }
     ],
     "id": "e7f96a06-d13a-4df9-b028-7892f9a399d4.json",
