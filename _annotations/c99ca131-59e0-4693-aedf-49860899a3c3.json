@@ -8,12 +8,13 @@ order: 8
         {
             "created": "2023-10-01T18:52:26.933Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9table "
+            "value": "\u00c9table\nFigure VIII\n1. r\u00e2telier [r\u02d0astelj\u02c8\u025b]\n2. [e\u0303ntremj\u02c8\u025b\u0292o]\n3. cr\u00e8che [\u0261r\u02c8epjo]",
+            "modified": "2024-11-21T14:50:47.001Z"
         },
         {
             "created": "2023-10-01T18:52:32.994Z",
@@ -49,6 +50,11 @@ order: 8
     "id": "c99ca131-59e0-4693-aedf-49860899a3c3.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2349.19482421875,2653.66748046875,1058.8115234375,1130.10009765625"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,11 +62,6 @@ order: 8
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0188",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2349.19482421875,2653.66748046875,1058.8115234375,1130.10009765625"
         }
     },
     "type": "Annotation"
