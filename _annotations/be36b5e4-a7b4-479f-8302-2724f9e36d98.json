@@ -8,12 +8,13 @@ order: 9
         {
             "created": "2023-10-01T19:18:29.008Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Auge"
+            "value": "Auge (ext\u00e9rieur) en pierre pour les porcs\nFigure VIII",
+            "modified": "2024-11-21T16:45:00.486Z"
         },
         {
             "created": "2023-10-01T19:18:34.799Z",
@@ -49,6 +50,10 @@ order: 9
     "id": "be36b5e4-a7b4-479f-8302-2724f9e36d98.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3316.8,2623.1 2817.6,2619.6 2849.7,3149.1 3330.5,3183.1\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,10 +61,6 @@ order: 9
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0190",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"3316.8,2623.1 2817.6,2619.6 2849.7,3149.1 3330.5,3183.1\"></polygon></svg>"
         }
     },
     "type": "Annotation"
