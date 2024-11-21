@@ -8,12 +8,13 @@ order: 15
         {
             "created": "2023-10-01T19:08:02.977Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9table "
+            "value": "Bergerie\nFigure XXIII\n1. r\u00e2telier [ar\u02d0ast\u02c8\u025bt]\n2. [lapa\u00f0\u02c8er\u0254]\n3. [p\u02c8ar\u02d0et] (pour a\u0261neaux ou volaille)",
+            "modified": "2024-11-21T16:27:25.751Z"
         },
         {
             "created": "2023-10-01T19:08:07.977Z",
@@ -44,11 +45,36 @@ order: 15
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q4195"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1093",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T16:27:41.084Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8605",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T16:27:48.144Z"
         }
     ],
     "id": "3f31ba21-b205-4ba8-bf1f-7c7bd7004269.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=78.03813934326172,4128.7080078125,1261.8181838989258,915.45458984375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,11 +82,6 @@ order: 15
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0189",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=78.03813934326172,4128.7080078125,1261.8181838989258,915.45458984375"
         }
     },
     "type": "Annotation"
