@@ -11,10 +11,10 @@ order: 5
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-21T17:32:45.537Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Cage \u00e0 lapins\nFigure V",
-            "modified": "2024-11-21T17:32:45.537Z"
+            "value": "Cage \u00e0 lapins\nFigure V"
         },
         {
             "created": "2023-10-01T19:43:59.308Z",
@@ -37,23 +37,19 @@ order: 5
             "value": "L681N"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1646",
+            "created": "2024-11-21T17:33:05.870Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-21T17:33:05.870Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1646"
         }
     ],
     "id": "2d2f2651-5cbb-4246-bb88-9731d12508dd.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2721.32421875,2069.97216796875 2721.32421875,1472.2476806640625 3266.898193359375,1488.2940673828125 3258.875244140625,1785.1505126953125 3170.62060546875,1833.2894287109375 3162.597412109375,1949.625 3254.863525390625,1961.6597900390625 3234.763427734375,2054.06298828125 3042.250244140625,2086.0185546875\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -61,6 +57,10 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0216",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2721.3,2070 2721.3,1472.2 3268.3,1475.5 3258.9,1785.2 3161,1786.4 3162,1949.1 3218.3,1955.5 3234.8,2054.1 3042.3,2086\"></polygon></svg>"
         }
     },
     "type": "Annotation"
