@@ -8,12 +8,13 @@ order: 25
         {
             "created": "2023-09-30T08:25:27.594Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Joug"
+            "value": "Joug pour les mules\nFigure XXVII",
+            "modified": "2024-11-21T09:10:23.762Z"
         },
         {
             "created": "2023-09-30T08:25:34.432Z",
@@ -60,6 +61,10 @@ order: 25
     "id": "89156dc1-47d9-48f3-b8ef-5cd260cd1198.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1158.8,4556.9 1359.4,4488.8 1463.7,4609.1 1784.6,4593.1 2029.3,4380.4 2141.7,4372.4 2233.9,4613.1 2482.6,4633.2 2334.2,5122.6 2121.6,5122.6 2081.5,5074.4 1483.8,5094.5 1407.7,5143.5 1074.6,5150.7\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -67,10 +72,6 @@ order: 25
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0166",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1158.8,4556.9 1359.4,4488.8 1463.7,4609.1 1784.6,4593.1 2029.3,4380.4 2141.7,4372.4 2233.9,4613.1 2482.6,4633.2 2334.2,5122.6 2121.6,5122.6 2081.5,5074.4 1483.8,5094.5 1407.7,5143.5 1074.6,5150.7\"></polygon></svg>"
         }
     },
     "type": "Annotation"
