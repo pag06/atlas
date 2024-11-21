@@ -4,50 +4,51 @@ order: 29
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Anneau de joug\nIndistinction entre l'anneau et le joug",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-30T08:33:21.217Z",
-            "modified": "2023-09-30T08:33:35.797Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-21T08:49:18.791Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Anneau de joug\nFigure II bis\nIndistinction entre l'anneau et le joug"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L650",
+            "created": "2023-09-30T08:33:41.522Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T08:33:41.522Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L650"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C384",
+            "created": "2023-09-30T08:33:43.854Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T08:33:43.854Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C384"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q270",
+            "created": "2023-09-30T08:33:47.018Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T08:33:47.018Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q270"
         }
     ],
+    "id": "057f8e66-1be7-4ece-89f4-9e835907fd08.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -59,9 +60,8 @@ order: 29
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"672.1008911132812,1301.7744140625 919.87841796875,1242.3077392578125 1065.2413330078125,1192.752197265625 1154.441162109375,1404.1890869140625 995.8635864257812,1400.8853759765625 992.5598754882812,1628.8408203125 840.589599609375,1655.2703857421875 754.6934204101562,1566.0704345703125 665.140869140625,1562.7667236328125\"></polygon></svg>"
+            "value": "<svg><polygon points=\"672.1,1301.8 911.1,1194.8 1065.2,1192.8 1154.4,1404.2 995.9,1400.9 992.6,1628.8 840.6,1655.3 754.7,1566.1 665.1,1562.8\"></polygon></svg>"
         }
     },
-    "id": "057f8e66-1be7-4ece-89f4-9e835907fd08.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
