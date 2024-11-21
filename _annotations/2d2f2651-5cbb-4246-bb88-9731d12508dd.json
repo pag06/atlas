@@ -4,50 +4,56 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Poulailler",
+            "created": "2023-10-01T19:43:55.059Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Cage \u00e0 lapins\nFigure V",
+            "modified": "2024-11-21T17:32:45.537Z"
+        },
+        {
+            "created": "2023-10-01T19:43:59.308Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:43:55.059Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C432"
+        },
+        {
+            "created": "2023-10-01T19:44:10.376Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L681N"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C432",
+            "value": "Q1646",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-10-01T19:43:59.308Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8143",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-01T19:44:01.845Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L681N",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-01T19:44:10.376Z"
+            "created": "2024-11-21T17:33:05.870Z"
         }
     ],
+    "id": "2d2f2651-5cbb-4246-bb88-9731d12508dd.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2721.32421875,2069.97216796875 2721.32421875,1472.2476806640625 3266.898193359375,1488.2940673828125 3258.875244140625,1785.1505126953125 3170.62060546875,1833.2894287109375 3162.597412109375,1949.625 3254.863525390625,1961.6597900390625 3234.763427734375,2054.06298828125 3042.250244140625,2086.0185546875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -55,12 +61,7 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0216",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2721.32421875,2069.97216796875 2721.32421875,1472.2476806640625 3266.898193359375,1488.2940673828125 3258.875244140625,1785.1505126953125 3170.62060546875,1833.2894287109375 3162.597412109375,1949.625 3254.863525390625,1961.6597900390625 3234.763427734375,2054.06298828125 3042.250244140625,2086.0185546875\"></polygon></svg>"
         }
     },
-    "id": "2d2f2651-5cbb-4246-bb88-9731d12508dd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
