@@ -4,60 +4,86 @@ order: 9
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Joug",
+            "created": "2023-09-30T08:07:55.154Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Joug\nFigure X\nFigure X bis\nL'anneau est remplac\u00e9 par une cha\u00eene",
+            "modified": "2024-11-21T08:52:13.160Z"
+        },
+        {
+            "created": "2023-09-30T08:07:59.185Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T08:07:55.154Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "T"
+        },
+        {
+            "created": "2023-09-30T08:08:01.192Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C383"
+        },
+        {
+            "created": "2023-09-30T08:08:03.314Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5774"
+        },
+        {
+            "created": "2023-09-30T08:08:12.193Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L699NE"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "T",
+            "value": "Q540",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-30T08:07:59.185Z"
+            "created": "2024-11-21T08:52:29.548Z"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C383",
+            "value": "Q270",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-30T08:08:01.192Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5774",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-30T08:08:03.314Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L699NE",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-30T08:08:12.193Z"
+            "created": "2024-11-21T08:52:39.414Z"
         }
     ],
+    "id": "c2de2c6b-3a76-4a55-bbe7-775a08036950.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2356.27099609375,1313.5899658203125 2476.6181640625,1373.7635498046875 2829.63671875,1249.40478515625 3395.268798828125,1277.4857177734375 3383.23388671875,2095.846923828125 2536.791748046875,2075.7890625 2444.525634765625,1694.689453125 2332.201416015625,1526.203369140625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -65,12 +91,7 @@ order: 9
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0166",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2356.27099609375,1313.5899658203125 2476.6181640625,1373.7635498046875 2829.63671875,1249.40478515625 3395.268798828125,1277.4857177734375 3383.23388671875,2095.846923828125 2536.791748046875,2075.7890625 2444.525634765625,1694.689453125 2332.201416015625,1526.203369140625\"></polygon></svg>"
         }
     },
-    "id": "c2de2c6b-3a76-4a55-bbe7-775a08036950.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
