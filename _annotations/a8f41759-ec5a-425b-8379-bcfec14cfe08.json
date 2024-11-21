@@ -8,12 +8,13 @@ order: 13
         {
             "created": "2023-10-01T19:07:05.540Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9table "
+            "value": "Bergerie\nFigure XXI\n",
+            "modified": "2024-11-21T16:16:53.748Z"
         },
         {
             "created": "2023-10-01T19:07:10.875Z",
@@ -49,6 +50,11 @@ order: 13
     "id": "a8f41759-ec5a-425b-8379-bcfec14cfe08.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1239.8563232421875,3113.46630859375,967.7628173828125,912.514404296875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,11 +62,6 @@ order: 13
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0189",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1239.8563232421875,3113.46630859375,967.7628173828125,912.514404296875"
         }
     },
     "type": "Annotation"
