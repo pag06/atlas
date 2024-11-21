@@ -4,50 +4,66 @@ order: 7
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Joug",
+            "created": "2023-09-30T08:06:07.750Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Joug\nFigure IX",
+            "modified": "2024-11-21T08:53:00.976Z"
+        },
+        {
+            "created": "2023-09-30T08:06:11.967Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T08:06:07.750Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L657NE"
+        },
+        {
+            "created": "2023-09-30T08:06:13.493Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C383"
+        },
+        {
+            "created": "2023-09-30T08:06:15.499Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5774"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L657NE",
+            "value": "Q540",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-30T08:06:11.967Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C383",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-30T08:06:13.493Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5774",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-30T08:06:15.499Z"
+            "created": "2024-11-21T08:53:10.521Z"
         }
     ],
+    "id": "758ee006-959a-454b-b914-f783a0025ddd.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1239.0474853515625,1654.57373046875 1614.129638671875,1411.87353515625 1846.8009033203125,1355.71142578125 1896.9456787109375,1229.346923828125 2195.807861328125,1225.3353271484375 2308.132080078125,1267.4569091796875 2342.23046875,1315.595703125 2306.126220703125,1391.815673828125 1900.957275390625,1584.3712158203125 1856.8299560546875,1562.3076171875 1762.5579833984375,1620.475341796875 1309.25,1817.04248046875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -55,12 +71,7 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0166",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1239.0474853515625,1654.57373046875 1614.129638671875,1411.87353515625 1846.8009033203125,1355.71142578125 1896.9456787109375,1229.346923828125 2195.807861328125,1225.3353271484375 2308.132080078125,1267.4569091796875 2342.23046875,1315.595703125 2306.126220703125,1391.815673828125 1900.957275390625,1584.3712158203125 1856.8299560546875,1562.3076171875 1762.5579833984375,1620.475341796875 1309.25,1817.04248046875\"></polygon></svg>"
         }
     },
-    "id": "758ee006-959a-454b-b914-f783a0025ddd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
