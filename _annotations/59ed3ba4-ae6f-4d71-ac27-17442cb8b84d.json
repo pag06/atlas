@@ -8,12 +8,13 @@ order: 13
         {
             "created": "2023-09-30T08:10:41.062Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Joug"
+            "value": "Joug\nFigure XIV",
+            "modified": "2024-11-21T08:56:54.992Z"
         },
         {
             "created": "2023-09-30T08:10:44.137Z",
@@ -44,11 +45,25 @@ order: 13
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q5774"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q540",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T08:57:02.420Z"
         }
     ],
     "id": "59ed3ba4-ae6f-4d71-ac27-17442cb8b84d.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"892,2561.2 1389.5,2296.4 1529.9,2083.8 1810.7,2115.9 2023.3,2071.8 2328.2,2075.8 2332.2,2272.4 2187.8,2284.4 1770.6,2440.8 1433.6,2609.3 1266.6,2634.8 996.3,2866.1\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,10 +71,6 @@ order: 13
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0166",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"892,2561.2 1389.5,2296.4 1529.9,2083.8 1810.7,2115.9 2023.3,2071.8 2328.2,2075.8 2332.2,2272.4 2187.8,2284.4 1770.6,2440.8 1433.6,2609.3 1266.6,2634.8 996.3,2866.1\"></polygon></svg>"
         }
     },
     "type": "Annotation"
