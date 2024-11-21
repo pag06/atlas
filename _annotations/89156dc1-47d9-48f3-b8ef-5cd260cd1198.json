@@ -4,60 +4,61 @@ order: 25
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Joug",
+            "created": "2023-09-30T08:25:27.594Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Joug"
+        },
+        {
+            "created": "2023-09-30T08:25:34.432Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T08:25:27.594Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-30T08:25:36.349Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T08:25:34.432Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C383",
+            "type": "TextualBody",
+            "value": "C383"
+        },
+        {
+            "created": "2023-09-30T08:25:38.971Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-30T08:25:36.349Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q5774",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-30T08:25:38.971Z"
+            "type": "TextualBody",
+            "value": "Q5774"
         },
         {
-            "type": "TextualBody",
-            "value": "D'apr\u00e8s une photo de E. Vignes",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-30T08:25:45.420Z",
-            "modified": "2023-09-30T08:25:59.107Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-30T08:25:59.107Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "D'apr\u00e8s une photo de E. Vignes"
         }
     ],
+    "id": "89156dc1-47d9-48f3-b8ef-5cd260cd1198.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -69,9 +70,8 @@ order: 25
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1158.8160400390625,4556.94775390625 1359.394775390625,4488.7509765625 1463.6956787109375,4609.09814453125 1784.62158203125,4593.0517578125 2029.32763671875,4380.4384765625 2141.65185546875,4372.4150390625 2233.91796875,4613.10986328125 2482.635498046875,4633.16748046875 2334.207275390625,5122.57958984375 2121.59375,5122.57958984375 2081.47802734375,5074.44091796875 1483.7535400390625,5094.49853515625 1399.510498046875,5178.74169921875 1074.572998046875,5150.66064453125\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1158.8,4556.9 1359.4,4488.8 1463.7,4609.1 1784.6,4593.1 2029.3,4380.4 2141.7,4372.4 2233.9,4613.1 2482.6,4633.2 2334.2,5122.6 2121.6,5122.6 2081.5,5074.4 1483.8,5094.5 1407.7,5143.5 1074.6,5150.7\"></polygon></svg>"
         }
     },
-    "id": "89156dc1-47d9-48f3-b8ef-5cd260cd1198.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
