@@ -4,50 +4,56 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L692SO",
+            "created": "2023-10-01T19:14:45.958Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:14:45.958Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L692SO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C406",
+            "created": "2023-10-01T19:14:49.001Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:14:49.001Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C406"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q603",
+            "created": "2023-10-01T19:14:52.010Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:14:52.010Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q603"
         },
         {
-            "type": "TextualBody",
-            "value": "Auge",
+            "created": "2023-10-01T19:15:16.865Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-01T19:15:16.865Z"
+            "type": "TextualBody",
+            "value": "Auge\nFigure III\nCreus\u00e9e dans un tronc d'arbre",
+            "modified": "2024-11-21T16:34:48.903Z"
         }
     ],
+    "id": "27b85b37-63b3-4997-937a-3d2cd550a3fd.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2404.409912109375,1765.0926513671875 2625.04638671875,1672.826416015625 3246.84033203125,1207.4837646484375 3355.15283203125,1383.9930419921875 3326.827880859375,1501.0159912109375 2629.05810546875,1973.6944580078125 2396.38671875,1921.5440673828125\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -55,12 +61,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0190",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2404.409912109375,1765.0926513671875 2625.04638671875,1672.826416015625 3246.84033203125,1207.4837646484375 3355.15283203125,1383.9930419921875 3326.827880859375,1501.0159912109375 2629.05810546875,1973.6944580078125 2396.38671875,1921.5440673828125\"></polygon></svg>"
         }
     },
-    "id": "27b85b37-63b3-4997-937a-3d2cd550a3fd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
