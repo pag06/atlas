@@ -4,50 +4,56 @@ order: 4
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Poulailler",
+            "created": "2023-10-01T19:43:22.187Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-01T19:43:22.187Z"
+            "type": "TextualBody",
+            "value": "Poulailler (poules et lapins)\nFigure IV",
+            "modified": "2024-11-21T17:31:28.463Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L643E",
+            "created": "2023-10-01T19:43:28.217Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:43:28.217Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L643E"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C432",
+            "created": "2023-10-01T19:43:29.892Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:43:29.892Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C432"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8143",
+            "created": "2023-10-01T19:43:33.578Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:43:33.578Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8143"
         }
     ],
+    "id": "de6be261-ccf1-4694-ac41-54f1c927f560.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2071.44921875,1636.7222900390625 2653.12744140625,1512.3634033203125 2713.301025390625,1592.594970703125 2685.219970703125,2082.007080078125 2372.317138671875,2186.307861328125 2111.56494140625,2322.701416015625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -55,12 +61,7 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0216",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2071.44921875,1636.7222900390625 2653.12744140625,1512.3634033203125 2713.301025390625,1592.594970703125 2685.219970703125,2082.007080078125 2372.317138671875,2186.307861328125 2111.56494140625,2322.701416015625\"></polygon></svg>"
         }
     },
-    "id": "de6be261-ccf1-4694-ac41-54f1c927f560.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
