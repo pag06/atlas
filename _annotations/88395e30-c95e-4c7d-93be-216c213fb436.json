@@ -11,10 +11,10 @@ order: 15
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-21T09:01:56.468Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Joug\nFigure XVII",
-            "modified": "2024-11-21T09:01:56.468Z"
+            "value": "Joug\nFigure XVII"
         },
         {
             "created": "2023-09-30T08:14:38.873Z",
@@ -50,10 +50,6 @@ order: 15
     "id": "88395e30-c95e-4c7d-93be-216c213fb436.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"90.2,2895.7 1130.7,3084.7 1415.6,3337.4 1287.2,3477.8 1002.4,3393.6 645.3,3449.8 529,3445.8 83.7,3209.1\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -61,6 +57,10 @@ order: 15
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0166",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"90.2,2895.7 1130.7,3084.7 1415.6,3337.4 1287.2,3477.8 1002.4,3393.6 668.4,3407.6 616.6,3460.3 83.7,3209.1\"></polygon></svg>"
         }
     },
     "type": "Annotation"
