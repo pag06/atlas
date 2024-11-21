@@ -11,10 +11,10 @@ order: 14
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-21T16:23:33.676Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Bergerie\nFigure XXII",
-            "modified": "2024-11-21T16:21:50.241Z"
+            "value": "Bergerie\nFigure XXII\n1. r\u00e2telier [ar\u02d0asti\u028e\u02c8\u025b]\n2. pour le sel [las\u02c8er\u0252]"
         },
         {
             "created": "2023-10-01T19:07:43.910Z",
@@ -45,6 +45,26 @@ order: 14
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q4195"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1093",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T16:23:45.657Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8605",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-21T16:23:54.718Z"
         }
     ],
     "id": "9a89b86b-7939-4c39-a5d1-5a01e759dcd0.json",
