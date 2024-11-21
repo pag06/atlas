@@ -4,49 +4,50 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\u00c9table ",
+            "created": "2023-10-01T18:48:04.070Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-01T18:48:04.070Z"
+            "type": "TextualBody",
+            "value": "\u00c9table "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L699NO",
+            "created": "2023-10-01T18:48:09.435Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T18:48:09.435Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L699NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C402",
+            "created": "2023-10-01T18:48:11.387Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T18:48:11.387Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C402"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4195",
+            "created": "2023-10-01T18:48:14.171Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T18:48:14.171Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4195"
         }
     ],
+    "id": "29e35b20-9f5d-4181-add6-9cb8c1e97015.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -59,9 +60,8 @@ order: 2
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1057.6802978515625,80.40603637695312,1307.8292236328125,1221.9871520996094"
+            "value": "xywh=1057.6802978515625,80.40603637695312,1294.3577880859375,1194.6935729980469"
         }
     },
-    "id": "29e35b20-9f5d-4181-add6-9cb8c1e97015.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
