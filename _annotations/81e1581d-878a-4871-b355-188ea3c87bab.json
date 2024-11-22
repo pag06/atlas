@@ -4,41 +4,47 @@ order: 12
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Coiffure f\u00e9minine de f\u00eate",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-06T20:04:43.273Z",
-            "modified": "2023-10-06T20:04:52.975Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T13:29:43.397Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Coiffure f\u00e9minine : coiffe de f\u00eate"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L771NO",
+            "created": "2023-10-06T20:04:58.240Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T20:04:58.240Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L771NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2446",
+            "created": "2023-10-06T20:05:04.326Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T20:05:04.326Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2446"
         }
     ],
+    "id": "81e1581d-878a-4871-b355-188ea3c87bab.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1004.2982177734375,2269.134765625,377.154541015625,406.447998046875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -46,13 +52,7 @@ order: 12
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0094",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1004.2982177734375,2269.134765625,377.154541015625,406.447998046875"
         }
     },
-    "id": "81e1581d-878a-4871-b355-188ea3c87bab.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
