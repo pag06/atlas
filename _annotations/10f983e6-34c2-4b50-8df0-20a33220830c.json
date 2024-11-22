@@ -4,40 +4,47 @@ order: 20
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Outil du sabotier",
+            "created": "2023-10-05T07:06:51.271Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Outil du sabotier : paroir [ar\u02d0\u02c8az\u0252]\nFigure XXVI",
+            "modified": "2024-11-22T11:51:29.920Z"
+        },
+        {
+            "created": "2023-10-05T07:06:57.665Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T07:06:51.271Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L695O"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L695O",
+            "value": "Q7354",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-10-05T07:06:57.665Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9091",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-05T07:06:59.844Z"
+            "created": "2024-11-22T11:51:42.219Z"
         }
     ],
+    "id": "10f983e6-34c2-4b50-8df0-20a33220830c.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1994.0233154296875,2327.950927734375,100.6966552734375,710.36865234375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -45,13 +52,7 @@ order: 20
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0092",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1994.0233154296875,2327.950927734375,100.6966552734375,710.36865234375"
         }
     },
-    "id": "10f983e6-34c2-4b50-8df0-20a33220830c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
