@@ -4,50 +4,57 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Ruche en planches, de formes diverses, souvent recouvertes de tuiles canal, et dans le type actuel presque partout en usage, garnies de cadres mobiles.",
+            "created": "2023-10-01T19:58:02.420Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-01T19:58:02.420Z"
+            "type": "TextualBody",
+            "value": "Ruche\nFigure II\nTronc creus\u00e9, les extr\u00e9mit\u00e9s sont ferm\u00e9es par des lames de schiste",
+            "modified": "2024-11-22T08:50:11.684Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L790SE",
+            "created": "2023-10-01T19:58:08.644Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:58:08.644Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L790SE"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C446",
+            "created": "2023-10-01T19:58:13.562Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:58:13.562Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C446"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9057",
+            "created": "2023-10-01T19:58:18.052Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:58:18.052Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9057"
         }
     ],
+    "id": "302d3f31-df06-4e5e-b3e3-5520ca66c166.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1550.8853759765625,561.3723754882812,538.5032958984375,640.9180297851562"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -55,13 +62,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0230",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1550.8853759765625,561.3723754882812,538.5032958984375,640.9180297851562"
         }
     },
-    "id": "302d3f31-df06-4e5e-b3e3-5520ca66c166.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
