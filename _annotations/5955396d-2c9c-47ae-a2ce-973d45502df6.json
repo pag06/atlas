@@ -4,51 +4,57 @@ order: 11
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Costume pour vieillard mais arbor\u00e9 lors de f\u00eate r\u00e9gionale",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-02T06:03:11.143Z",
-            "modified": "2023-10-02T06:03:40.300Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T10:47:45.560Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Costume masculin\nFigure X\nAutrefois port\u00e9 par les vieillard mais arbor\u00e9 lors de f\u00eate r\u00e9gionale"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L790S",
+            "created": "2023-10-02T06:04:06.277Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T06:04:06.277Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L790S"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2660",
+            "created": "2023-10-02T06:04:17.770Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T06:04:17.770Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2660"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C647",
+            "created": "2023-10-02T06:04:21.097Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T06:04:21.097Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C647"
         }
     ],
+    "id": "5955396d-2c9c-47ae-a2ce-973d45502df6.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=561.4006958007812,1553.3271484375,379.46856689453125,659.076904296875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,13 +62,7 @@ order: 11
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0092",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=561.4006958007812,1553.3271484375,379.46856689453125,659.076904296875"
         }
     },
-    "id": "5955396d-2c9c-47ae-a2ce-973d45502df6.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
