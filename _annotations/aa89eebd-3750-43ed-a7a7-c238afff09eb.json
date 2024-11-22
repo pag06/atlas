@@ -8,13 +8,13 @@ order: 23
         {
             "created": "2023-10-05T14:27:59.530Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-05T14:28:00.341Z",
+            "modified": "2024-11-22T10:59:14.405Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Sabot"
+            "value": "Sabot\nFigure XIV"
         },
         {
             "created": "2023-10-05T14:29:30.426Z",
@@ -35,6 +35,16 @@ order: 23
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q9091"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C661",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-22T10:59:21.588Z"
         }
     ],
     "id": "aa89eebd-3750-43ed-a7a7-c238afff09eb.json",
