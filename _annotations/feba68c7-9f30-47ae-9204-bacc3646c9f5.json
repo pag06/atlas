@@ -41,20 +41,15 @@ order: 6
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-22T14:31:50.598Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Charpente\nFigure XIV\nType de construction tout \u00e0 fait exceptionnel, dans lequel poin\u00e7ons et entraits sont remplac\u00e9s par un mur central o\u00f9 repose la faiti\u00e8re.\n1. poutre faiti\u00e8re [C673] [Q8202]\n2. panne [C675] [Q7293]\n3. chevron [C676] [Q2262]\n4. sabli\u00e8re [C677] [Q9089]\n5. volige [C678] [Q10816]\n11. contre-fiche [C666] [Q2072]\n13. ferme [C666] [Q4512]",
-            "modified": "2024-11-22T14:31:50.598Z"
+            "value": "Charpente\nFigure XIV\nType de construction tout \u00e0 fait exceptionnel, dans lequel poin\u00e7ons et entraits sont remplac\u00e9s par un mur central o\u00f9 repose la faiti\u00e8re.\n1. poutre faiti\u00e8re [C673] [Q8202]\n2. panne [C675] [Q7293]\n3. chevron [C676] [Q2262]\n4. sabli\u00e8re [C677] [Q9089]\n5. volige [C678] [Q10816]\n11. contre-fiche [C666] [Q2072]\n13. ferme [C666] [Q4512]"
         }
     ],
     "id": "feba68c7-9f30-47ae-9204-bacc3646c9f5.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "type": "FragmentSelector",
-            "value": "xywh=1266.71875,1577.1201171875,1049.323974609375,672.07470703125"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -62,6 +57,11 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0108",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1266.71875,1578.253173828125,1032.27490234375,670.941650390625"
         }
     },
     "type": "Annotation"
