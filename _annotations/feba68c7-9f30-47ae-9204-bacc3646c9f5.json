@@ -4,50 +4,57 @@ order: 6
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L658NO",
+            "created": "2023-10-04T12:26:06.175Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-04T12:26:06.175Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L658NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C669",
+            "created": "2023-10-04T12:26:07.746Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-04T12:26:07.746Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C669"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2072",
+            "created": "2023-10-04T12:26:09.490Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-04T12:26:09.490Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2072"
         },
         {
-            "type": "TextualBody",
-            "value": "Type de construction tout \u00e0 fait exceptionnel, dans lequel poin\u00e7ons et entraits sont remplac\u00e9s par un mur central o\u00f9 repose la faiti\u00e8re. ",
+            "created": "2023-10-04T12:27:35.348Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-04T12:27:35.348Z"
+            "type": "TextualBody",
+            "value": "Charpente\nFigure XIV\nType de construction tout \u00e0 fait exceptionnel, dans lequel poin\u00e7ons et entraits sont remplac\u00e9s par un mur central o\u00f9 repose la faiti\u00e8re.\n1. poutre faiti\u00e8re [C673] [Q8202]\n2. panne [C675] [Q7293]\n3. chevron [C676] [Q2262]\n4. sabli\u00e8re [C677] [Q9089]\n5. volige [C678] [Q10816]\n11. contre-fiche [C666] [Q2072]\n13. ferme [C666] [Q4512]",
+            "modified": "2024-11-22T14:31:50.598Z"
         }
     ],
+    "id": "feba68c7-9f30-47ae-9204-bacc3646c9f5.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1266.71875,1577.1201171875,1049.323974609375,672.07470703125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -55,13 +62,7 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0108",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1266.71875,1577.1201171875,1049.323974609375,672.07470703125"
         }
     },
-    "id": "feba68c7-9f30-47ae-9204-bacc3646c9f5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
