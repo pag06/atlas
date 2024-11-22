@@ -8,12 +8,13 @@ order: 8
         {
             "created": "2023-10-02T05:23:04.537Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Fuseau"
+            "value": "Fuseau\nFigure VIII\nFigur\u00e9 au quart de sa dimension r\u00e9elle.",
+            "modified": "2024-11-22T09:35:41.159Z"
         },
         {
             "created": "2023-10-02T05:23:08.214Z",
@@ -49,6 +50,11 @@ order: 8
     "id": "1cf92cab-8928-43b9-87c5-43c2e9c836f4.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1480.04931640625,273.3992004394531,141.4073486328125,653.7864074707031"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,11 +62,6 @@ order: 8
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0069",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1480.04931640625,273.3992004394531,141.4073486328125,653.7864074707031"
         }
     },
     "type": "Annotation"
