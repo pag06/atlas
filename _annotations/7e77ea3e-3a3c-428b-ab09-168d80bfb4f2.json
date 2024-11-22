@@ -11,10 +11,10 @@ order: 19
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-22T11:28:27.828Z",
+            "modified": "2024-11-22T11:50:16.535Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Outil du sabotier, pour taille des araires de bois [u\u0283\u02c8\u0254l\u0254 \u00f0etz arais]\nFigure XXV"
+            "value": "Outil du sabotier, herminette, pour taille des araires de bois [u\u0283\u02c8\u0254l\u0254 \u00f0etz arais]\nFigure XXV"
         },
         {
             "created": "2023-10-05T07:06:26.870Z",
@@ -27,14 +27,14 @@ order: 19
             "value": "L790S"
         },
         {
-            "created": "2023-10-05T07:06:29.217Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q9091"
+            "purpose": "tagging",
+            "value": "Q5503",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-22T11:50:27.288Z"
         }
     ],
     "id": "7e77ea3e-3a3c-428b-ab09-168d80bfb4f2.json",
