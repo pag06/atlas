@@ -4,50 +4,51 @@ order: 6
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\u00c2tre. La hotte traversant le plafond en pente sans grenier est sp\u00e9ciale au M\u00e9doc\n=VII avec jambage",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-05T06:43:00.882Z",
-            "modified": "2023-10-05T06:43:55.608Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L685",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:44:04.538Z"
+            "modified": "2023-10-05T06:43:55.608Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "\u00c2tre. La hotte traversant le plafond en pente sans grenier est sp\u00e9ciale au M\u00e9doc\n=VII avec jambage"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C694",
+            "created": "2023-10-05T06:44:04.538Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:44:06.469Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L685"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4846",
+            "created": "2023-10-05T06:44:06.469Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:44:09.471Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C694"
+        },
+        {
+            "created": "2023-10-05T06:44:09.471Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4846"
         }
     ],
+    "id": "49be26b3-9bd1-48ed-89be-7b00f3ead7e8.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -60,9 +61,8 @@ order: 6
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1708.048828125,956.138916015625,602.0140380859375,656.2237548828125"
+            "value": "xywh=1708.048828125,957.1728515625,585.25341796875,655.1898193359375"
         }
     },
-    "id": "49be26b3-9bd1-48ed-89be-7b00f3ead7e8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
