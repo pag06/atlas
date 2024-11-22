@@ -4,50 +4,57 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Ruche en planches, de formes diverses, souvent recouvertes de tuiles canal, et dans le type actuel presque partout en usage, garnies de cadres mobiles.",
+            "created": "2023-10-01T19:58:29.405Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-01T19:58:29.405Z"
+            "type": "TextualBody",
+            "value": "Ruche\nFigure III\nEn planches, de formes diverses, souvent recouvertes de tuiles canal, et dans le type actuel presque partout en usage, garnies de cadres mobiles.",
+            "modified": "2024-11-22T08:54:04.760Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L695O",
+            "created": "2023-10-01T19:58:37.685Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:58:37.685Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L695O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C446",
+            "created": "2023-10-01T19:58:42.517Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:58:42.517Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C446"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9057",
+            "created": "2023-10-01T19:58:46.775Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:58:46.775Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9057"
         }
     ],
+    "id": "92f06317-8cc5-4889-925f-3152fb1e1b01.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2109.210693359375,574.5872192382812,525.28857421875,657.4364624023438"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -55,13 +62,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0230",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2109.210693359375,574.5872192382812,525.28857421875,657.4364624023438"
         }
     },
-    "id": "92f06317-8cc5-4889-925f-3152fb1e1b01.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
