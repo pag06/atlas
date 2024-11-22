@@ -4,49 +4,50 @@ order: 7
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L685",
+            "created": "2023-10-04T12:27:57.447Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-04T12:27:57.447Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L685"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C669",
+            "created": "2023-10-04T12:27:59.595Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-04T12:27:59.595Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C669"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2072",
+            "created": "2023-10-04T12:28:01.527Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-04T12:28:01.527Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2072"
         },
         {
-            "type": "TextualBody",
-            "value": "Chef d\u2019\u0153uvre de charpente complexe de type b\u00e9arnais ; pour la pente secondaire cf VI",
+            "created": "2023-10-04T12:29:09.626Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-04T12:29:09.626Z"
+            "type": "TextualBody",
+            "value": "Chef d\u2019\u0153uvre de charpente complexe de type b\u00e9arnais ; pour la pente secondaire cf VI"
         }
     ],
+    "id": "cee3b64b-c15d-41d6-ac09-1dc40ae97753.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -59,9 +60,8 @@ order: 7
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=258.6070251464844,2347.4697265625,862.2843322753906,738.648193359375"
+            "value": "xywh=336.2663879394531,2339.162353515625,753.6363220214844,740.9091796875"
         }
     },
-    "id": "cee3b64b-c15d-41d6-ac09-1dc40ae97753.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
