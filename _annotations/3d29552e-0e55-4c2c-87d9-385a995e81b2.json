@@ -51,10 +51,6 @@ order: 1
     "id": "3d29552e-0e55-4c2c-87d9-385a995e81b2.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"988.3241577148438,942.7199096679688 3311.025634765625,938.7083129882812 3294.979248046875,2122.122802734375 2043.3681640625,2146.192138671875 1060.532470703125,1367.94677734375\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -62,6 +58,10 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0244",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1066.7,949.6 3311,938.7 3295,2122.1 2043.4,2146.2 1060.5,1367.9\"></polygon></svg>"
         }
     },
     "type": "Annotation"
