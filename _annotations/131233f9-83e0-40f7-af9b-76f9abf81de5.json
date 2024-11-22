@@ -4,51 +4,56 @@ order: 9
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Charpente classique : le toit, plus lourd, repose directement sur un syst\u00e8me d\u2019arcatures parall\u00e8les aux chevrons qui s\u2019appuient sur elles : apparition des arbal\u00e9triers (7), entraits (6) et poin\u00e7ons(10).",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-02T16:26:53.656Z",
-            "modified": "2023-10-02T16:44:32.018Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T14:15:35.318Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charpente\nFigure VIIIa\nCharpente classique : le toit, plus lourd, repose directement \nsur un syst\u00e8me d\u2019arcatures parall\u00e8les aux chevrons qui s\u2019appuient sur elles : apparition des arbal\u00e9triers (7), entraits (6) et poin\u00e7ons(10)."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L668SO",
+            "created": "2023-10-02T16:27:01.641Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T16:27:01.641Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L668SO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C667",
+            "created": "2023-10-02T16:27:03.668Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T16:27:03.668Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C667"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2072",
+            "created": "2023-10-02T16:27:05.719Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T16:27:05.719Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2072"
         }
     ],
+    "id": "131233f9-83e0-40f7-af9b-76f9abf81de5.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1392.44140625,2396.854736328125 1392.44140625,2727.81982421875 2097.168701171875,3047.372314453125 2282.623291015625,2787.736083984375 2265.50439453125,2288.435302734375 1751.93798828125,2388.29541015625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,12 +61,7 @@ order: 9
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0106",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1392.44140625,2396.854736328125 1392.44140625,2727.81982421875 2097.168701171875,3047.372314453125 2282.623291015625,2787.736083984375 2265.50439453125,2288.435302734375 1751.93798828125,2388.29541015625\"></polygon></svg>"
         }
     },
-    "id": "131233f9-83e0-40f7-af9b-76f9abf81de5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
