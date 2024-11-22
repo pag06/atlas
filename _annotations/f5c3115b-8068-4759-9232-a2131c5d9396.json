@@ -47,15 +47,15 @@ order: 6
             "value": "Q2660"
         },
         {
-            "type": "TextualBody",
-            "value": "Lithographie de Deveria (vers 1840)",
-            "purpose": "identifying",
+            "created": "2024-11-22T10:05:31.799Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-22T10:05:31.799Z",
-            "modified": "2024-11-22T10:06:05.826Z"
+            "modified": "2024-11-22T10:06:05.826Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Lithographie de Deveria (vers 1840)"
         }
     ],
     "id": "f5c3115b-8068-4759-9232-a2131c5d9396.json",
