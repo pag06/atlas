@@ -4,50 +4,51 @@ order: 4
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L791O",
+            "created": "2023-10-05T06:08:53.886Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:08:53.886Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L791O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C679",
+            "created": "2023-10-05T06:08:55.693Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:08:55.693Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C679"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10377",
+            "created": "2023-10-05T06:08:57.929Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:08:57.929Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10377"
         },
         {
-            "type": "TextualBody",
-            "value": "Type de tuiles",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-05T06:09:11.820Z",
-            "modified": "2023-10-05T06:09:15.018Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-10-05T06:09:15.018Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Type de tuiles"
         }
     ],
+    "id": "6b206050-4271-460e-8193-cbce17e14dbf.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -59,9 +60,8 @@ order: 4
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1577.790283203125,931.3059692382812 1883.0770263671875,700.2010498046875 2119.88818359375,700.2010498046875 2094.2099609375,976.956298828125 1968.6715087890625,1005.48779296875 1651.97216796875,1016.9003295898438\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1577.8,931.3 1883.1,700.2 2119.9,700.2 2094.2,977 1972.9,994.9 1650.9,1000\"></polygon></svg>"
         }
     },
-    "id": "6b206050-4271-460e-8193-cbce17e14dbf.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
