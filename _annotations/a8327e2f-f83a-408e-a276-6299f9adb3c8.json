@@ -11,10 +11,10 @@ order: 7
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-22T16:44:40.385Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c2tre. \nFigure VII\nLa hotte traversant le plafond en pente sans grenier est sp\u00e9ciale au M\u00e9doc\nAvec jambage",
-            "modified": "2024-11-22T16:44:40.385Z"
+            "value": "\u00c2tre. \nFigure VII\nLa hotte traversant le plafond en pente sans grenier est sp\u00e9ciale au M\u00e9doc\nAvec jambage"
         },
         {
             "created": "2023-10-05T06:44:42.571Z",
@@ -50,11 +50,6 @@ order: 7
     "id": "a8327e2f-f83a-408e-a276-6299f9adb3c8.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "type": "FragmentSelector",
-            "value": "xywh=232.9718475341797,1675.1318359375,593.4546051025391,696.167724609375"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -62,6 +57,11 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0127",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=257.8477783203125,1679.900146484375,569.0908813476562,664.54541015625"
         }
     },
     "type": "Annotation"
