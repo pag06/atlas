@@ -4,51 +4,56 @@ order: 9
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Taquet \u00e0 pivot",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-05T06:30:32.599Z",
-            "modified": "2023-10-05T06:30:34.984Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T16:31:54.864Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Taquet \u00e0 pivot [birul'et]\nFigure IX"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L695O",
+            "created": "2023-10-05T06:30:42.273Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:30:42.273Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L695O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C690",
+            "created": "2023-10-05T06:30:43.949Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:30:43.949Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C690"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6132",
+            "created": "2023-10-05T06:30:48.186Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:30:48.186Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6132"
         }
     ],
+    "id": "98d7bd31-88c9-48db-97d3-a1981c89c052.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1468.33154296875,1283.2861328125 1631.27685546875,1272.301025390625 1702.679931640625,1402.291259765625 1678.87890625,1446.2315673828125 1506.779296875,1464.5400390625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,12 +61,7 @@ order: 9
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0123",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1468.33154296875,1283.2861328125 1631.27685546875,1272.301025390625 1702.679931640625,1402.291259765625 1678.87890625,1446.2315673828125 1506.779296875,1464.5400390625\"></polygon></svg>"
         }
     },
-    "id": "98d7bd31-88c9-48db-97d3-a1981c89c052.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
