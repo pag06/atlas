@@ -4,51 +4,57 @@ order: 6
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Fuseau",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-02T05:22:04.057Z",
-            "modified": "2023-10-02T05:22:12.142Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T09:35:01.278Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Fuseau\nFigure VI\nFigur\u00e9 au quart de sa dimension r\u00e9elle."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L791O",
+            "created": "2023-10-02T05:22:16.844Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T05:22:16.844Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L791O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C886",
+            "created": "2023-10-02T05:22:24.052Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T05:22:24.052Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C886"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4970",
+            "created": "2023-10-02T05:22:30.148Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T05:22:30.148Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4970"
         }
     ],
+    "id": "01def513-896d-4ecf-aa14-79719b8e4743.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1063.0946044921875,334.96295166015625,162.3045654296875,528.888916015625"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,13 +62,7 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0069",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1063.0946044921875,334.96295166015625,162.3045654296875,528.888916015625"
         }
     },
-    "id": "01def513-896d-4ecf-aa14-79719b8e4743.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
