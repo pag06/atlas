@@ -4,51 +4,56 @@ order: 6
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Hache \u00e0 fendre les ardoises",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-05T06:10:36.529Z",
-            "modified": "2023-10-05T06:10:44.913Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T16:20:32.602Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Hache \u00e0 fendre les ardoises [pik\u02c8eta]\nFigure XIII"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L695O",
+            "created": "2023-10-05T06:10:50.338Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:10:50.338Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L695O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C679",
+            "created": "2023-10-05T06:10:52.386Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:10:52.386Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C679"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-10-05T06:10:53.823Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:10:53.823Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q???"
         }
     ],
+    "id": "ec505987-c223-4234-b75e-99832370519f.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1651.97216796875,1402.0751953125 1811.7484130859375,1279.389892578125 2225.45458984375,1593.236083984375 2131.30078125,1658.8583984375 1908.75537109375,1539.0262451171875 1737.5665283203125,1544.7325439453125\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,12 +61,7 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0115",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1651.97216796875,1402.0751953125 1811.7484130859375,1279.389892578125 2225.45458984375,1593.236083984375 2131.30078125,1658.8583984375 1908.75537109375,1539.0262451171875 1737.5665283203125,1544.7325439453125\"></polygon></svg>"
         }
     },
-    "id": "ec505987-c223-4234-b75e-99832370519f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
