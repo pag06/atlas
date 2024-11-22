@@ -4,51 +4,57 @@ order: 11
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Fuseau (de rouet)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-02T05:24:13.912Z",
-            "modified": "2023-10-02T05:24:21.911Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T09:37:35.920Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Fuseau (de rouet)\nFigure XI\nFigur\u00e9 au quart de sa dimension r\u00e9elle."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L647NO",
+            "created": "2023-10-02T05:24:27.726Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T05:24:27.726Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L647NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C886",
+            "created": "2023-10-02T05:24:30.013Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T05:24:30.013Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C886"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4970",
+            "created": "2023-10-02T05:24:33.573Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T05:24:33.573Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4970"
         }
     ],
+    "id": "c0e93d4c-be3d-4052-9b4e-caf982efff8d.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2084.493896484375,309.77777099609375,151.111083984375,576.4609375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,13 +62,7 @@ order: 11
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0069",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2084.493896484375,309.77777099609375,151.111083984375,576.4609375"
         }
     },
-    "id": "c0e93d4c-be3d-4052-9b4e-caf982efff8d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
