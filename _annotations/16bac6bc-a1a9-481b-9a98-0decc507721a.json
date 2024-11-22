@@ -4,51 +4,56 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Tuile rectangle dite [...], formant comme un rev\u00eatement \u00e9cailleux.\nle [...] est proprement le crochet de terre cuite de la brique",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-05T06:05:34.149Z",
-            "modified": "2023-10-05T06:06:49.111Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T16:12:57.740Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Tuile (type)\nTuile rectangle dite [...], formant comme un rev\u00eatement \u00e9cailleux.\nle [...] est proprement le crochet de terre cuite de la brique"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L685",
+            "created": "2023-10-05T06:06:55.534Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:06:55.534Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L685"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C679",
+            "created": "2023-10-05T06:06:57.525Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:06:57.525Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C679"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10377",
+            "created": "2023-10-05T06:07:00.460Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:07:00.460Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10377"
         }
     ],
+    "id": "16bac6bc-a1a9-481b-9a98-0decc507721a.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"249.3333740234375,644.7407836914062 544.0000610351562,571.7037353515625 682.5186157226562,755.5556030273438 586.8148803710938,795.8519287109375 329.92596435546875,816.0000610351562\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,12 +61,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0115",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"249.3333740234375,644.7407836914062 544.0000610351562,571.7037353515625 682.5186157226562,755.5556030273438 586.8148803710938,795.8519287109375 329.92596435546875,816.0000610351562\"></polygon></svg>"
         }
     },
-    "id": "16bac6bc-a1a9-481b-9a98-0decc507721a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
