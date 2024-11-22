@@ -8,13 +8,13 @@ order: 22
         {
             "created": "2023-10-02T05:35:05.143Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-02T05:35:12.350Z",
+            "modified": "2024-11-22T09:47:48.812Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "D\u00e9vidoir horizontal"
+            "value": "D\u00e9vidoir horizontal [tra\u00f0\u02c8ul]\nFigure XXI"
         },
         {
             "created": "2023-10-02T05:35:15.343Z",
@@ -50,6 +50,10 @@ order: 22
     "id": "ca387f9d-7cda-42d6-a708-4aacd41e5b95.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2095.4,2372 2291.9,2649 2281.8,3170.4 2006.1,3177.7 1763,3039.4 1843.6,2611.2\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -57,10 +61,6 @@ order: 22
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0069",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2095.4,2372 2291.9,2649 2281.8,3170.4 2006.1,3177.7 1763,3039.4 1843.6,2611.2\"></polygon></svg>"
         }
     },
     "type": "Annotation"
