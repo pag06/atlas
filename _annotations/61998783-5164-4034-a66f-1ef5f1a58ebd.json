@@ -4,51 +4,56 @@ order: 12
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Tourniquet",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-02T05:24:58.593Z",
-            "modified": "2023-10-02T05:25:00.256Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T09:38:27.949Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Tourniquet\nFigure XII\nFigur\u00e9 au tiers de sa dimension r\u00e9elle."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L664",
+            "created": "2023-10-02T05:25:06.415Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T05:25:06.415Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L664"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10138",
+            "created": "2023-10-02T05:25:15.343Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T05:25:15.343Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10138"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C889",
+            "created": "2023-10-02T05:25:22.200Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T05:25:22.200Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C889"
         }
     ],
+    "id": "61998783-5164-4034-a66f-1ef5f1a58ebd.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1015.5225830078125,964.5925903320312 1051.9012451171875,967.3909301757812 1051.9012451171875,1073.7283935546875 1127.456787109375,1138.090576171875 1239.390869140625,1154.880615234375 1023.9176635742188,1406.7325439453125 819.6378173828125,1188.4609375\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,12 +61,7 @@ order: 12
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0069",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1015.5225830078125,964.5925903320312 1051.9012451171875,967.3909301757812 1051.9012451171875,1073.7283935546875 1127.456787109375,1138.090576171875 1239.390869140625,1154.880615234375 1023.9176635742188,1406.7325439453125 819.6378173828125,1188.4609375\"></polygon></svg>"
         }
     },
-    "id": "61998783-5164-4034-a66f-1ef5f1a58ebd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
