@@ -4,51 +4,57 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Chape de deuil, couvre le haut du visage des veuves et tombe jusqu'aux pieds",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-02T05:37:11.707Z",
-            "modified": "2023-10-02T05:50:46.817Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T09:53:55.154Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Chape de deuil\nFigure I\nCouvre le haut du visage des veuves et tombe jusqu'aux pieds"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L695O",
+            "created": "2023-10-02T05:37:22.435Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T05:37:22.435Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L695O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C647",
+            "created": "2023-10-02T05:37:41.819Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T05:37:41.819Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C647"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2028",
+            "created": "2023-10-02T05:50:10.833Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T05:50:10.833Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2028"
         }
     ],
+    "id": "9bf6f0e7-e135-4f61-9a53-f717cfac5a75.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1014.9630737304688,125.92593383789062,322.37042236328125,664.8889465332031"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,13 +62,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0092",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1014.9630737304688,125.92593383789062,322.37042236328125,664.8889465332031"
         }
     },
-    "id": "9bf6f0e7-e135-4f61-9a53-f717cfac5a75.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
