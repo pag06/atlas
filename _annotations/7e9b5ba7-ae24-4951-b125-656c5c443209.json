@@ -4,51 +4,56 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Marteau du couvreur d'ardoises",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-05T06:09:42.581Z",
-            "modified": "2023-10-05T06:09:48.277Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T16:19:19.104Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Marteau du couvreur d'ardoises\nFigure XIII"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L695O",
+            "created": "2023-10-05T06:09:52.483Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:09:52.483Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L695O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C679",
+            "created": "2023-10-05T06:09:53.870Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:09:53.870Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C679"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
+            "value": "Q2829",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-10-05T06:09:59.304Z"
+            "created": "2024-11-22T16:19:39.238Z"
         }
     ],
+    "id": "7e9b5ba7-ae24-4951-b125-656c5c443209.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1509.3,1327.9 1763.2,1068.3 1888.8,1119.6 2020,1216.6 1811.7,1279.4 1586.3,1402.1\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,12 +61,7 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0115",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1509.3,1327.9 1763.2,1068.3 1888.8,1119.6 2020,1216.6 1811.7,1279.4 1586.3,1402.1\"></polygon></svg>"
         }
     },
-    "id": "7e9b5ba7-ae24-4951-b125-656c5c443209.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
