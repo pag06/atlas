@@ -4,50 +4,57 @@ order: 7
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\u00c2tre. La hotte traversant le plafond en pente sans grenier est sp\u00e9ciale au M\u00e9doc",
+            "created": "2023-10-05T06:44:38.587Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-05T06:44:38.587Z"
+            "type": "TextualBody",
+            "value": "\u00c2tre. \nFigure VII\nLa hotte traversant le plafond en pente sans grenier est sp\u00e9ciale au M\u00e9doc\nAvec jambage",
+            "modified": "2024-11-22T16:44:40.385Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L548",
+            "created": "2023-10-05T06:44:42.571Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:44:42.571Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L548"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C694",
+            "created": "2023-10-05T06:44:44.032Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:44:44.032Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C694"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4846",
+            "created": "2023-10-05T06:44:46.898Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:44:46.898Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4846"
         }
     ],
+    "id": "a8327e2f-f83a-408e-a276-6299f9adb3c8.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=232.9718475341797,1675.1318359375,593.4546051025391,696.167724609375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -55,13 +62,7 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0127",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=232.9718475341797,1675.1318359375,593.4546051025391,696.167724609375"
         }
     },
-    "id": "a8327e2f-f83a-408e-a276-6299f9adb3c8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
