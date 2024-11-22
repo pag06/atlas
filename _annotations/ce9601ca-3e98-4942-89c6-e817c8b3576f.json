@@ -8,13 +8,13 @@ order: 13
         {
             "created": "2023-10-02T05:25:58.932Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-02T05:25:59.771Z",
+            "modified": "2024-11-22T09:40:29.512Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Rouet"
+            "value": "Rouet et gorge\nFigure XIII"
         },
         {
             "created": "2023-10-02T05:26:06.985Z",
@@ -50,6 +50,10 @@ order: 13
     "id": "ce9601ca-3e98-4942-89c6-e817c8b3576f.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1200.2,1571.8 1205.8,1359.2 1614.4,1328.4 1621.5,991.1 1961.4,992.6 2182.5,993.6 2200.4,1480.6\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -57,10 +61,6 @@ order: 13
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0069",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1200.2,1571.8 1205.8,1359.2 1614.4,1328.4 1621.5,991.1 1961.4,992.6 2182.5,993.6 2200.4,1480.6\"></polygon></svg>"
         }
     },
     "type": "Annotation"
