@@ -4,39 +4,40 @@ order: 27
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Sabot",
+            "created": "2023-10-05T14:30:54.395Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-05T14:30:54.395Z"
+            "type": "TextualBody",
+            "value": "Sabot"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9091",
+            "created": "2023-10-05T14:30:57.438Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T14:30:57.438Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9091"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L664",
+            "created": "2023-10-05T14:31:06.984Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T14:31:06.984Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L664"
         }
     ],
+    "id": "938a94eb-23cc-418a-807a-2872fa585686.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -49,9 +50,8 @@ order: 27
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=195.21188354492188,2918.267578125,425.5848083496094,151.073486328125"
+            "value": "xywh=183.15859985351562,2918.267578125,430.9090881347656,204.2255859375"
         }
     },
-    "id": "938a94eb-23cc-418a-807a-2872fa585686.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
