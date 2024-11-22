@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-10-02T16:23:51.855Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-02T16:30:20.489Z",
+            "modified": "2024-11-22T14:05:06.355Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Charpente \u00e9l\u00e9mentaire sans arbal\u00e9triers ni poin\u00e7ons : les chevrons reposent sur les sabli\u00e8res, les pannes et la poutre faiti\u00e8re ; on remarque que ces types ont \u00e9t\u00e9 exclusivement relev\u00e9 dans les Pyr\u00e9n\u00e9es. "
+            "value": "Charpente\nFigure IV\nCharpente \u00e9l\u00e9mentaire sans arbal\u00e9triers ni poin\u00e7ons : les chevrons reposent sur les sabli\u00e8res, les pannes et la poutre faiti\u00e8re ; on remarque que ces types ont \u00e9t\u00e9 exclusivement relev\u00e9 dans les Pyr\u00e9n\u00e9es. \n2. panne [C675] [Q7293]\n3. chevron [C676] [Q2262]\n4. sabli\u00e8re [C677] [Q9089]\n5. volige [C678] [Q10816]\n6. entrait [C680] [Q4016]"
         },
         {
             "created": "2023-10-02T16:23:57.519Z",
@@ -50,6 +50,11 @@ order: 3
     "id": "c3f14df1-2167-4065-aa14-3b71d063123f.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=958.9850463867188,751.694580078125,506.36370849609375,727.727294921875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -57,11 +62,6 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0106",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=958.9850463867188,751.694580078125,506.36370849609375,727.727294921875"
         }
     },
     "type": "Annotation"
