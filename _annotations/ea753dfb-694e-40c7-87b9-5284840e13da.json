@@ -8,12 +8,13 @@ order: 3
         {
             "created": "2023-10-05T06:03:23.997Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Toit de tuile"
+            "value": "Toitt d'ardoises\nFigure VIII",
+            "modified": "2024-11-22T16:07:56.959Z"
         },
         {
             "created": "2023-10-05T06:03:35.384Z",
@@ -59,6 +60,10 @@ order: 3
     "id": "ea753dfb-694e-40c7-87b9-5284840e13da.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1579.1,1256.7 1677.3,1022.5 1982.1,906.7 2276.6,881.4 2293,1315 2216.6,1495.9 2060.3,1521.4 1672.3,1488.4\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -66,10 +71,6 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0113",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1579.1,1256.7 1677.3,1022.5 1982.1,906.7 2276.6,881.4 2293,1315 2216.6,1495.9 2060.3,1521.4 1672.3,1488.4\"></polygon></svg>"
         }
     },
     "type": "Annotation"
