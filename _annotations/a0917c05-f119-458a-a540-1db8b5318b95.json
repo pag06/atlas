@@ -11,10 +11,10 @@ order: 4
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-22T16:09:43.113Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Lucarne/Chien assis [ly]\nFigure VIII'",
-            "modified": "2024-11-22T16:09:23.176Z"
+            "value": "Lucarne/Chien assis [ly\u0263ar\u02c8u]\nFigure VIII'"
         },
         {
             "created": "2023-10-05T06:04:19.292Z",
@@ -55,6 +55,16 @@ order: 4
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q10377"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6159",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-22T16:09:55.596Z"
         }
     ],
     "id": "a0917c05-f119-458a-a540-1db8b5318b95.json",
