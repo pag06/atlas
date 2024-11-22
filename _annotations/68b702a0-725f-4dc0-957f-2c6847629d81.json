@@ -4,49 +4,50 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Dispositif analogue mais le poin\u00e7on s\u2019arr\u00eate \u00e0 la hauteur de l\u2019entrait",
+            "created": "2023-10-03T20:03:06.030Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-03T20:03:06.030Z"
+            "type": "TextualBody",
+            "value": "Dispositif analogue mais le poin\u00e7on s\u2019arr\u00eate \u00e0 la hauteur de l\u2019entrait"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L643E",
+            "created": "2023-10-03T20:03:11.362Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-03T20:03:11.362Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L643E"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C669",
+            "created": "2023-10-03T20:03:13.158Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-03T20:03:13.158Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C669"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2072",
+            "created": "2023-10-03T20:03:15.185Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-03T20:03:15.185Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2072"
         }
     ],
+    "id": "68b702a0-725f-4dc0-957f-2c6847629d81.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -59,9 +60,8 @@ order: 2
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1264.556640625,107.8807144165039,1012.294189453125,588.8827133178711"
+            "value": "xywh=1264.556640625,110.07140350341797,985.345947265625,586.692024230957"
         }
     },
-    "id": "68b702a0-725f-4dc0-957f-2c6847629d81.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
