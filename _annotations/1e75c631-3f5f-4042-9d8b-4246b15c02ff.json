@@ -4,51 +4,56 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L695O",
+            "created": "2023-10-01T20:02:25.805Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T20:02:25.805Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L695O"
         },
         {
-            "type": "TextualBody",
-            "value": "Cloche en vannerie\nHauteur : 65",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-01T20:02:27.469Z",
-            "modified": "2023-10-01T20:03:06.810Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T08:56:42.296Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Ruche\nFigure V\nCloche en vannerie, suspendue par le crochet de bois\nHauteur : 65 cm"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C446",
+            "created": "2023-10-01T20:03:20.199Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T20:03:20.199Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C446"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-10-01T20:03:21.426Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T20:03:21.426Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q???"
         }
     ],
+    "id": "1e75c631-3f5f-4042-9d8b-4246b15c02ff.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1220.5152587890625,1291.490234375 1220.5152587890625,1569.0010986328125 1527.7593994140625,1720.9713134765625 1881.2554931640625,1747.4010009765625 1881.2554931640625,1975.3563232421875 2238.05517578125,1958.8377685546875 2429.669677734375,1866.334228515625 2337.166259765625,1473.19384765625 2142.247802734375,1245.238525390625 1894.47021484375,1261.757080078125 1422.041015625,1238.631103515625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +61,7 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0230",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1220.5152587890625,1291.490234375 1220.5152587890625,1569.0010986328125 1527.7593994140625,1720.9713134765625 1881.2554931640625,1747.4010009765625 1881.2554931640625,1975.3563232421875 2238.05517578125,1958.8377685546875 2429.669677734375,1866.334228515625 2337.166259765625,1473.19384765625 2142.247802734375,1245.238525390625 1894.47021484375,1261.757080078125 1422.041015625,1238.631103515625\"></polygon></svg>"
         }
     },
-    "id": "1e75c631-3f5f-4042-9d8b-4246b15c02ff.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
