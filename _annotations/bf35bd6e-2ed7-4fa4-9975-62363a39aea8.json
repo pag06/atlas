@@ -4,51 +4,57 @@ order: 6
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Charpente \u00e9l\u00e9mentaire sans arbal\u00e9triers ni poin\u00e7ons : les chevrons reposent sur les sabli\u00e8res, les pannes et la poutre faiti\u00e8re ; on remarque que ces types ont \u00e9t\u00e9 exclusivement relev\u00e9 dans les Pyr\u00e9n\u00e9es. \nSyst\u00e8me original : comme \u00e0 Bethmale, les sabli\u00e8res reposent directement sur le plancher du grenier, mais deux sabli\u00e8res secondaires servent d\u2019appui \u00e0 des arcs boutants (15) qui rejoignent les chevrons (3) \u00e0 la hauteur du tiers inf\u00e9rieur de ceux-ci ; ces arcs-boutants supportent la partie inf\u00e9rieure du toit qui accuse ainsi une pente moins raide que sa partie sup\u00e9rieure",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-02T16:25:43.654Z",
-            "modified": "2023-10-02T16:39:23.124Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T14:09:53.056Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charpente\nFigure VI\nCharpente \u00e9l\u00e9mentaire sans arbal\u00e9triers ni poin\u00e7ons : les chevrons reposent sur les sabli\u00e8res, les pannes et la poutre faiti\u00e8re ; on remarque que ces types ont \u00e9t\u00e9 exclusivement relev\u00e9 dans les Pyr\u00e9n\u00e9es. \nSyst\u00e8me original : comme \u00e0 Bethmale, les sabli\u00e8res reposent directement sur le plancher du grenier, mais deux sabli\u00e8res secondaires servent d\u2019appui \u00e0 des arcs boutants (15) qui rejoignent les chevrons (3) \u00e0 la hauteur du tiers inf\u00e9rieur de ceux-ci ; ces arcs-boutants supportent la partie inf\u00e9rieure du toit qui accuse ainsi une pente moins raide que sa partie sup\u00e9rieure\n1. poutre faiti\u00e8re [C673] [Q8202]\n2. panne [C675] [Q7293]\n3. chevron [C676] [Q2262]\n4. sabli\u00e8re [C677] [Q9089]\n6. entrait [C680] [Q4016]\n15. arc-boutant ext\u00e9rieur [C666] [Q2072]\n"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L692SO",
+            "created": "2023-10-02T16:25:51.275Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T16:25:51.275Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L692SO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C667",
+            "created": "2023-10-02T16:25:53.804Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T16:25:53.804Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C667"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2072",
+            "created": "2023-10-02T16:25:55.442Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T16:25:55.442Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2072"
         }
     ],
+    "id": "bf35bd6e-2ed7-4fa4-9975-62363a39aea8.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=176.2963104248047,1538.8148193359375,878.9629669189453,748.0001220703125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,13 +62,7 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0106",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=176.2963104248047,1538.8148193359375,878.9629669189453,748.0001220703125"
         }
     },
-    "id": "bf35bd6e-2ed7-4fa4-9975-62363a39aea8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
