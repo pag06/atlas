@@ -4,52 +4,57 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Pour aligner le chaume sur la tranche",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-05T05:54:41.453Z",
-            "modified": "2023-10-05T05:54:48.141Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T15:50:08.623Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Outil du couvreur [pal'eta]\nFigure II\nPour aligner le chaume sur la tranche"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L699NO",
+            "created": "2023-10-05T05:54:56.357Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T05:54:56.357Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L699NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C672",
+            "created": "2023-10-05T05:54:57.834Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T05:54:57.834Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C672"
         },
         {
             "type": "TextualBody",
-            "value": "Q???",
+            "value": "Q2829",
             "purpose": "tagging",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-10-05T05:56:42.985Z",
-            "modified": "2023-10-05T05:56:44.100Z"
+            "created": "2024-11-22T15:49:58.981Z",
+            "modified": "2024-11-22T15:50:01.258Z"
         }
     ],
+    "id": "20ddd310-7a22-4ad5-913d-fc6d7efa844c.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"287.11114501953125,987.2593383789062 470.9630126953125,906.666748046875 478.5185546875,982.2222900390625 413.0370788574219,1402.81494140625 324.888916015625,1380.148193359375 214.07411193847656,1062.81494140625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -57,12 +62,7 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0111",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"287.11114501953125,987.2593383789062 470.9630126953125,906.666748046875 478.5185546875,982.2222900390625 413.0370788574219,1402.81494140625 324.888916015625,1380.148193359375 214.07411193847656,1062.81494140625\"></polygon></svg>"
         }
     },
-    "id": "20ddd310-7a22-4ad5-913d-fc6d7efa844c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
