@@ -11,10 +11,10 @@ order: 3
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-22T12:08:06.494Z",
+            "modified": "2024-11-22T12:14:08.678Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Coiffure f\u00e9minine : foulard"
+            "value": "Coiffure f\u00e9minine : foulard\nFoulard bordelais, autrefois blanc ou de couleur, caract\u00e9ris\u00e9 par une longue queue pendant dans le dos. D'abord couvrant toute la t\u00eate, cette coiffure est all\u00e9e s'\u00e9tr\u00e9cissant."
         },
         {
             "created": "2023-10-06T19:58:29.725Z",
@@ -27,14 +27,14 @@ order: 3
             "value": "L647NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2447",
+            "created": "2024-11-22T12:08:15.033Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-22T12:08:15.033Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2447"
         }
     ],
     "id": "6c79aa34-7dab-4099-aa8d-baee5f9a6a07.json",
