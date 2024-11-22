@@ -4,50 +4,51 @@ order: 10
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Fuseau (avec peson)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-02T05:23:43.015Z",
-            "modified": "2023-10-02T05:23:59.533Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T09:37:14.391Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Fuseau (avec peson)\nFigure X\nFigur\u00e9 au quart de sa dimension r\u00e9elle."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L791O",
+            "created": "2023-10-02T05:23:50.270Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T05:23:50.270Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L791O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C886",
+            "created": "2023-10-02T05:24:04.049Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T05:24:04.049Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C886"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4970",
+            "created": "2023-10-02T05:24:06.744Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T05:24:06.744Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4970"
         }
     ],
+    "id": "3dc2b818-cf67-4a5e-8582-234601bae380.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -60,9 +61,8 @@ order: 10
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1894.2056884765625,281.79425048828125,162.3045654296875,632.427978515625"
+            "value": "xywh=1894.2056884765625,281.79425048828125,163.0472412109375,624.9434204101562"
         }
     },
-    "id": "3dc2b818-cf67-4a5e-8582-234601bae380.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
