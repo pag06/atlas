@@ -4,49 +4,50 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Grande charpente de type basque (maison labourdine), dont l\u2019ampleur n\u2019a pas pu \u00eatre \u00e9voqu\u00e9e sur cette figure ; la perspective est partiellement fauss\u00e9e par la r\u00e9duction n\u00e9cessaire du croquis original ; \u00e0 Labastide-Castel-Amouroux (L647NO), nous avons pu relever le croquis d\u2019une charpente analogue, reposant comme celle-ci sur un plancher \u00e0 deux niveaux",
+            "created": "2023-10-04T12:37:04.273Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-04T12:37:04.273Z"
+            "type": "TextualBody",
+            "value": "Grande charpente de type basque (maison labourdine), dont l\u2019ampleur n\u2019a pas pu \u00eatre \u00e9voqu\u00e9e sur cette figure ; la perspective est partiellement fauss\u00e9e par la r\u00e9duction n\u00e9cessaire du croquis original ; \u00e0 Labastide-Castel-Amouroux (L647NO), nous avons pu relever le croquis d\u2019une charpente analogue, reposant comme celle-ci sur un plancher \u00e0 deux niveaux"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L691O",
+            "created": "2023-10-04T12:37:08.987Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-04T12:37:08.987Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L691O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C671",
+            "created": "2023-10-04T12:37:10.614Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-04T12:37:10.614Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C671"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2072",
+            "created": "2023-10-04T12:37:12.660Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-04T12:37:12.660Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2072"
         }
     ],
+    "id": "8f923123-e219-4d5a-8c36-42c53e27bde8.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -58,9 +59,8 @@ order: 3
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"282.1,2051.8 768.8,2058.8 2260.5,2829.2 2271,3189.8 1027.9,3039.3 310.1,3039.3\"></polygon></svg>"
+            "value": "<svg><polygon points=\"282.1,2051.8 768.8,2058.8 2210.6,2799.4 2215.7,3148.3 1027.9,3039.3 310.1,3039.3\"></polygon></svg>"
         }
     },
-    "id": "8f923123-e219-4d5a-8c36-42c53e27bde8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
