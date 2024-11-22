@@ -11,10 +11,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-22T16:05:30.015Z",
+            "modified": "2024-11-22T16:08:09.648Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Toit d'ardoises"
+            "value": "Toit d'ardoises\nFigure VII"
         },
         {
             "created": "2023-10-05T06:02:47.284Z",
@@ -57,14 +57,14 @@ order: 2
             "value": "Q10019"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5942",
+            "created": "2024-11-22T16:05:19.013Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-22T16:05:19.013Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5942"
         }
     ],
     "id": "72aa97c7-cc43-4438-bc91-69c28a361fca.json",
