@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-10-05T06:02:38.625Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-05T06:02:40.752Z",
+            "modified": "2024-11-22T16:05:30.015Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Toit de tuile"
+            "value": "Toit d'ardoises"
         },
         {
             "created": "2023-10-05T06:02:47.284Z",
@@ -55,11 +55,25 @@ order: 2
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q10019"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5942",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-22T16:05:19.013Z"
         }
     ],
     "id": "72aa97c7-cc43-4438-bc91-69c28a361fca.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1798.2,397.9 2057.6,390.4 2130.7,556.6 2115.6,768.1 1967,886.5 1501,873.9 1580.3,582.3 1632.1,395\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -67,10 +81,6 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0113",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1798.2,397.9 2057.6,390.4 2130.7,556.6 2115.6,768.1 1967,886.5 1501,873.9 1580.3,582.3 1632.1,395\"></polygon></svg>"
         }
     },
     "type": "Annotation"
