@@ -26,24 +26,25 @@ order: 14
             "value": "C694"
         },
         {
-            "type": "TextualBody",
-            "value": "chen\u00eats",
-            "purpose": "commenting",
+            "created": "2023-10-05T14:35:33.894Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-10-05T14:35:33.894Z"
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Chen\u00eats\nFigure XIV",
+            "modified": "2024-11-22T16:48:41.266Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2199",
+            "created": "2023-10-05T14:35:38.400Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T14:35:38.400Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2199"
         }
     ],
     "id": "cb1e5b32-6b67-460d-8563-8fd2852e421b.json",
