@@ -4,50 +4,56 @@ order: 4
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Ruche en planches, de formes diverses, souvent recouvertes de tuiles canal, et dans le type actuel presque partout en usage, garnies de cadres mobiles.",
+            "created": "2023-10-01T19:59:09.248Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-01T19:59:09.248Z"
+            "type": "TextualBody",
+            "value": "Ruche\nFigure IV\nEn planches, de formes diverses, souvent recouvertes de tuiles canal, et dans le type actuel presque partout en usage, garnies de cadres mobiles.",
+            "modified": "2024-11-22T08:55:15.776Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L691O",
+            "created": "2023-10-01T19:59:13.570Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:59:13.570Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L691O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C446",
+            "created": "2023-10-01T19:59:14.799Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:59:14.799Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C446"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9057",
+            "created": "2023-10-01T19:59:17.047Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T19:59:17.047Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9057"
         }
     ],
+    "id": "0d9adc83-db3d-4b49-a589-35014e4d40c7.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2753.432373046875,531.6390991210938 3057.373046875,511.81689453125 3321.6689453125,1301.4013671875 3063.98046875,1413.727294921875 2631.195556640625,1175.86083984375\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -55,12 +61,7 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0230",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2753.432373046875,531.6390991210938 3057.373046875,511.81689453125 3321.6689453125,1301.4013671875 3063.98046875,1413.727294921875 2631.195556640625,1175.86083984375\"></polygon></svg>"
         }
     },
-    "id": "0d9adc83-db3d-4b49-a589-35014e4d40c7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
