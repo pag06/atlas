@@ -4,50 +4,56 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Loquet\nPetite barre coulissante formant verrou",
+            "created": "2023-10-05T06:15:08.167Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-05T06:15:08.167Z"
+            "type": "TextualBody",
+            "value": "Loquet [bar\u02d0at\u02c8er\u0254]\nFigure III\nPetite barre coulissante formant verrou",
+            "modified": "2024-11-22T16:27:10.878Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L692SO",
+            "created": "2023-10-05T06:15:13.300Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:15:13.300Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L692SO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C690",
+            "created": "2023-10-05T06:15:15.464Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:15:15.464Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C690"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6132",
+            "created": "2023-10-05T06:15:19.364Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:15:19.364Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6132"
         }
     ],
+    "id": "a37a56ac-7ebc-4880-a3a7-495c7a95377b.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1088,788.2963256835938 1312.148193359375,764.3704223632812 1322.2222900390625,680.0000610351562 1521.185302734375,629.629638671875 1546.3704833984375,785.77783203125 1512.3704833984375,952.0000610351562 1435.5556640625,924.2963256835938 1424.2222900390625,884.0000610351562 1283.16796875,901.62841796875 1286.9630126953125,846.2222900390625 1074.148193359375,852.5185546875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -55,12 +61,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0123",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1088,788.2963256835938 1312.148193359375,764.3704223632812 1322.2222900390625,680.0000610351562 1521.185302734375,629.629638671875 1546.3704833984375,785.77783203125 1512.3704833984375,952.0000610351562 1435.5556640625,924.2963256835938 1424.2222900390625,884.0000610351562 1283.16796875,901.62841796875 1286.9630126953125,846.2222900390625 1074.148193359375,852.5185546875\"></polygon></svg>"
         }
     },
-    "id": "a37a56ac-7ebc-4880-a3a7-495c7a95377b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
