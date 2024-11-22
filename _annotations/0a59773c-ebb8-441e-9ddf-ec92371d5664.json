@@ -4,51 +4,56 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\u00c9chelle de perroquet pour grimper aux palombi\u00e8res (huttes de chasse \u00e0 l'aff\u00fbt plac\u00e9es dans les arbres",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-05T06:35:58.491Z",
-            "modified": "2023-10-05T06:36:30.353Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L657NE",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:36:34.935Z"
+            "modified": "2023-10-05T06:36:30.353Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "\u00c9chelle de perroquet pour grimper aux palombi\u00e8res (huttes de chasse \u00e0 l'aff\u00fbt plac\u00e9es dans les arbres"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C692",
+            "created": "2023-10-05T06:36:34.935Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:36:39.019Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L657NE"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6324",
+            "created": "2023-10-05T06:36:39.019Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:36:49.413Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C692"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q3624",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-22T16:37:54.516Z"
         }
     ],
+    "id": "0a59773c-ebb8-441e-9ddf-ec92371d5664.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1433.037109375,1037.629638671875 1679.8519287109375,881.4815063476562 1737.77783203125,735.407470703125 2178.5185546875,1161.037109375 2067.703857421875,1385.185302734375 1720.1483154296875,1367.5556640625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,12 +61,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0125",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1433.037109375,1037.629638671875 1679.8519287109375,881.4815063476562 1737.77783203125,735.407470703125 2178.5185546875,1161.037109375 2067.703857421875,1385.185302734375 1720.1483154296875,1367.5556640625\"></polygon></svg>"
         }
     },
-    "id": "0a59773c-ebb8-441e-9ddf-ec92371d5664.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
