@@ -4,49 +4,50 @@ order: 8
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L664",
+            "created": "2023-10-04T12:29:22.807Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-04T12:29:22.807Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L664"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C669",
+            "created": "2023-10-04T12:29:24.794Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-04T12:29:24.794Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C669"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2072",
+            "created": "2023-10-04T12:29:26.639Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-04T12:29:26.639Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2072"
         },
         {
-            "type": "TextualBody",
-            "value": "Il s\u2019agit d\u2019une grande charpente complexe comportant de nombreuses pi\u00e8ces incurv\u00e9es, qui se prolonge curieusement \u00e0 l\u2019int\u00e9rieur car \u00e0 l\u2019\u00e9tage la partie centrale de la fa\u00e7ade est en retrait, d\u2019o\u00f9 cette sorte d\u2019avant-grenier largement ouvert \u00e0 charpente visible.",
+            "created": "2023-10-04T12:32:13.425Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-04T12:32:13.425Z"
+            "type": "TextualBody",
+            "value": "Il s\u2019agit d\u2019une grande charpente complexe comportant de nombreuses pi\u00e8ces incurv\u00e9es, qui se prolonge curieusement \u00e0 l\u2019int\u00e9rieur car \u00e0 l\u2019\u00e9tage la partie centrale de la fa\u00e7ade est en retrait, d\u2019o\u00f9 cette sorte d\u2019avant-grenier largement ouvert \u00e0 charpente visible."
         }
     ],
+    "id": "eda795cf-80be-4be1-a99c-0a981aab8475.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -59,9 +60,8 @@ order: 8
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1171.6138916015625,2363.320556640625,1084.1956787109375,757.6689453125"
+            "value": "xywh=1171.6138916015625,2363.320556640625,1083.7432861328125,750.38720703125"
         }
     },
-    "id": "eda795cf-80be-4be1-a99c-0a981aab8475.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
