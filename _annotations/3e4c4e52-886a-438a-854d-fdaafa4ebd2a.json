@@ -4,51 +4,57 @@ order: 8
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\u00c2tre. Beau type b\u00e9arnais d'angle avec une console.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-05T06:44:58.625Z",
-            "modified": "2023-10-05T06:47:27.036Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T16:45:20.808Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "\u00c2tre.\nFigure VIII\nBeau type b\u00e9arnais d'angle avec une console."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L692SO",
+            "created": "2023-10-05T06:45:11.152Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:45:11.152Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L692SO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C694",
+            "created": "2023-10-05T06:45:12.613Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:45:12.613Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C694"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4846",
+            "created": "2023-10-05T06:45:14.555Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:45:14.555Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4846"
         }
     ],
+    "id": "3e4c4e52-886a-438a-854d-fdaafa4ebd2a.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=872.0767211914062,1689.397705078125,841.6784057617188,641.9580078125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,13 +62,7 @@ order: 8
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0127",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=872.0767211914062,1689.397705078125,841.6784057617188,641.9580078125"
         }
     },
-    "id": "3e4c4e52-886a-438a-854d-fdaafa4ebd2a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
