@@ -11,10 +11,10 @@ order: 5
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-22T10:02:51.929Z",
+            "modified": "2024-11-22T10:32:15.972Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Chape de deuil\nFigure IV\nCouvre le haut du visage des veuves et tombe jusqu'aux pieds"
+            "value": "Chape de deuil\nFigure IV\nCouvre le haut du visage des veuves et tombe jusqu'aux pieds. Port\u00e9 le dimanche."
         },
         {
             "created": "2023-10-02T05:55:56.476Z",
@@ -60,6 +60,11 @@ order: 5
     "id": "f629f2df-8e95-4104-90c6-37ec06716b96.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=226.21383666992188,883.0765380859375,310.2306823730469,635.7166748046875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -67,11 +72,6 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0092",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=226.21383666992188,883.0765380859375,310.2306823730469,635.7166748046875"
         }
     },
     "type": "Annotation"
