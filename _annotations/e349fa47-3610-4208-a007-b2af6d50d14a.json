@@ -11,20 +11,10 @@ order: 13
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-22T16:34:07.723Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Loquet\nFigure XIII",
-            "modified": "2024-11-22T16:34:07.723Z"
-        },
-        {
-            "created": "2023-10-05T06:34:19.615Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L692O"
+            "value": "Loquet\nFigure XIII"
         },
         {
             "created": "2023-10-05T06:34:21.216Z",
@@ -45,6 +35,16 @@ order: 13
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q6132"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L692SO",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-22T16:35:29.942Z"
         }
     ],
     "id": "e349fa47-3610-4208-a007-b2af6d50d14a.json",
