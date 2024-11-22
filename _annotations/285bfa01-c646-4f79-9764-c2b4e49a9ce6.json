@@ -1,0 +1,37 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0094"
+order: 12
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Coiffure f\u00e9minine",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-22T12:17:36.158Z",
+            "modified": "2024-11-22T12:17:44.052Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0094",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"233.92068481445312,1466.6456298828125 1422.1024169921875,1469.3729248046875 1479.375244140625,2128.4638671875 1216.64794921875,2219.372802734375 913.0115966796875,2183.91845703125 882.1024780273438,1922.1002197265625 217.5570526123047,1975.736572265625\"></polygon></svg>"
+        }
+    },
+    "id": "285bfa01-c646-4f79-9764-c2b4e49a9ce6.json",
+    "motivation": "commenting"
+}
