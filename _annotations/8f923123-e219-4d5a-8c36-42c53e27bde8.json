@@ -8,12 +8,13 @@ order: 3
         {
             "created": "2023-10-04T12:37:04.273Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Grande charpente de type basque (maison labourdine), dont l\u2019ampleur n\u2019a pas pu \u00eatre \u00e9voqu\u00e9e sur cette figure ; la perspective est partiellement fauss\u00e9e par la r\u00e9duction n\u00e9cessaire du croquis original ; \u00e0 Labastide-Castel-Amouroux (L647NO), nous avons pu relever le croquis d\u2019une charpente analogue, reposant comme celle-ci sur un plancher \u00e0 deux niveaux"
+            "value": "Charpente\nFigure XIX\nGrande charpente de type basque (maison labourdine), dont l\u2019ampleur n\u2019a pas pu \u00eatre \u00e9voqu\u00e9e sur cette figure ; la perspective est partiellement fauss\u00e9e par la r\u00e9duction n\u00e9cessaire du croquis original ; \u00e0 Labastide-Castel-Amouroux (L647NO), nous avons pu relever le croquis d\u2019une charpente analogue, reposant comme celle-ci sur un plancher \u00e0 deux niveaux.\n1. poutre faiti\u00e8re [C673] [Q8202]\n2. panne [C675] [Q7293]\n3. chevron [C676] [Q2262]\n4. sabli\u00e8re [C677] [Q9089]\n5. volige [C678] [Q10816]\n10. poin\u00e7on [C666] [Q7933]\n14. contre-fa\u00eeti\u00e8re [C666] [Q2072]\n17. chapiteau [C666] [Q2072]\n19. tournisse [C666]",
+            "modified": "2024-11-22T15:04:12.793Z"
         },
         {
             "created": "2023-10-04T12:37:08.987Z",
@@ -49,6 +50,10 @@ order: 3
     "id": "8f923123-e219-4d5a-8c36-42c53e27bde8.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"306.4,2051.8 768.8,2058.8 2210.6,2799.4 2215.7,3148.3 1027.9,3039.3 310.1,3039.3\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,10 +61,6 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0110",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"306.4,2051.8 768.8,2058.8 2210.6,2799.4 2215.7,3148.3 1027.9,3039.3 310.1,3039.3\"></polygon></svg>"
         }
     },
     "type": "Annotation"
