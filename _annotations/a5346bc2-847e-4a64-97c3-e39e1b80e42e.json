@@ -4,50 +4,57 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L681N",
+            "created": "2023-10-04T12:33:04.140Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-04T12:33:04.140Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L681N"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C671",
+            "created": "2023-10-04T12:33:06.778Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-04T12:33:06.778Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C671"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2072",
+            "created": "2023-10-04T12:33:08.513Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-04T12:33:08.513Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2072"
         },
         {
-            "type": "TextualBody",
-            "value": "Grande charpente complexe ; remarquer la structure du mur de fa\u00e7ade, en pans de bois avec remplage de briques",
+            "created": "2023-10-04T12:34:15.295Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-04T12:34:15.295Z"
+            "type": "TextualBody",
+            "value": "Charpente\nFigure XVIII\nGrande charpente complexe ; remarquer la structure du mur de fa\u00e7ade, en pans de bois avec remplissage de briques.\n1. poutre faiti\u00e8re [C673] [Q8202]\n3. chevron [C676] [Q2262]\n4. sabli\u00e8re [C677] [Q9089]\n5. volige [C678] [Q10816]\n6. entrait [C680] [Q4016]\n16. pilier [C666] [Q2072]\n\n",
+            "modified": "2024-11-22T14:54:48.972Z"
         }
     ],
+    "id": "a5346bc2-847e-4a64-97c3-e39e1b80e42e.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=542.6481323242188,1192.3658447265625,1476.2623901367188,833.8448486328125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -55,13 +62,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0110",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=542.6481323242188,1192.3658447265625,1476.2623901367188,833.8448486328125"
         }
     },
-    "id": "a5346bc2-847e-4a64-97c3-e39e1b80e42e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
