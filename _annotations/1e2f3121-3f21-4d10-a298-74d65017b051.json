@@ -4,61 +4,66 @@ order: 7
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Chape de deuil et capulet, couvre le haut du visage des veuves et tombe jusqu'aux pieds",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-02T05:59:29.560Z",
-            "modified": "2023-10-02T05:59:35.007Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T10:07:12.559Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Chape de deuil et capulet\nFigure VI\nCouvre le haut du visage des veuves et tombe jusqu'aux pieds"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L693",
+            "created": "2023-10-02T05:59:39.554Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T05:59:39.554Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L693"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C647",
+            "created": "2023-10-02T05:59:41.962Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T05:59:41.962Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C647"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2028",
+            "created": "2023-10-02T05:59:43.769Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T05:59:43.769Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2028"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1738",
+            "created": "2023-10-02T05:59:53.593Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T05:59:53.593Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1738"
         }
     ],
+    "id": "1e2f3121-3f21-4d10-a298-74d65017b051.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1279.3564453125,800.7727661132812 1436.7637939453125,945.5875854492188 1475.8009033203125,1436.69873046875 1387.6527099609375,1584.0321044921875 983.4304809570312,1570.18017578125 988.467529296875,896.4764404296875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -66,12 +71,7 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0092",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1279.3564453125,800.7727661132812 1436.7637939453125,945.5875854492188 1475.8009033203125,1436.69873046875 1387.6527099609375,1584.0321044921875 983.4304809570312,1570.18017578125 988.467529296875,896.4764404296875\"></polygon></svg>"
         }
     },
-    "id": "1e2f3121-3f21-4d10-a298-74d65017b051.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
