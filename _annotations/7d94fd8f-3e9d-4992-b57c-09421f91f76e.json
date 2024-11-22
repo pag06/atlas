@@ -11,10 +11,10 @@ order: 16
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-22T11:24:17.119Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Outil du sabotier [u\u0283\u02c8\u0254la]\nFigure XXIII",
-            "modified": "2024-11-22T11:14:16.349Z"
+            "value": "Outil du sabotier paroir [u\u0283\u02c8\u0254la]\nFigure XXIII"
         },
         {
             "created": "2023-10-05T07:02:57.151Z",
@@ -27,14 +27,14 @@ order: 16
             "value": "L695SO"
         },
         {
-            "created": "2023-10-05T07:03:03.976Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q9091"
+            "purpose": "tagging",
+            "value": "Q7354",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-22T11:24:02.052Z"
         }
     ],
     "id": "7d94fd8f-3e9d-4992-b57c-09421f91f76e.json",
