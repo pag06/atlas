@@ -8,13 +8,13 @@ order: 6
         {
             "created": "2023-10-02T05:57:07.420Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-02T05:58:02.713Z",
+            "modified": "2024-11-22T10:04:38.725Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Costume. Aujourd'hui d\u00e9suet, la sali\u00e8re (poche o\u00f9 se porte le sel destin\u00e9 au b\u00e9tail) est toujours en usage."
+            "value": "Costume masculin\nFigure V\nAujourd'hui d\u00e9suet, la sali\u00e8re (poche o\u00f9 se porte le sel destin\u00e9 au b\u00e9tail) est toujours en usage."
         },
         {
             "created": "2023-10-02T05:58:17.719Z",
@@ -37,14 +37,14 @@ order: 6
             "value": "L693NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2660",
+            "created": "2023-10-02T06:04:29.877Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T06:04:29.877Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2660"
         }
     ],
     "id": "f5c3115b-8068-4759-9232-a2131c5d9396.json",
