@@ -31,10 +31,10 @@ order: 15
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-22T16:49:04.779Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Chen\u00eats\nFigure XV",
-            "modified": "2024-11-22T16:49:04.779Z"
+            "value": "Chen\u00eats\nFigure XV"
         },
         {
             "created": "2023-10-05T14:35:48.114Z",
@@ -50,10 +50,6 @@ order: 15
     "id": "75a7d2d6-f3c3-4246-b6c8-aacae3d0d4bf.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2140.63134765625,2997.337890625 2337.67138671875,2982.819091796875 2310.687255859375,2843.747314453125 2244.336669921875,2843.85400390625 2265.07763671875,2711.111083984375 2186.26171875,2700.740478515625 2097.0751953125,2862.520751953125\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -61,6 +57,10 @@ order: 15
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0127",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2123.3,2993.5 2337.7,2982.8 2310.7,2843.7 2244.3,2843.9 2265.1,2711.1 2186.3,2700.7 2113.3,2859.9\"></polygon></svg>"
         }
     },
     "type": "Annotation"
