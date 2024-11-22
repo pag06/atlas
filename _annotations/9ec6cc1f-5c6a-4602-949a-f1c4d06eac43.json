@@ -4,51 +4,56 @@ order: 8
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Loquet",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-05T06:29:51.939Z",
-            "modified": "2023-10-05T06:29:54.381Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T16:29:00.287Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Loquet [ka\u028e\u02c8iw\u0259]\nFigure VI"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L664",
+            "created": "2023-10-05T06:29:59.987Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:29:59.987Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L664"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C690",
+            "created": "2023-10-05T06:30:02.689Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:30:02.689Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C690"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6132",
+            "created": "2023-10-05T06:30:05.409Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:30:05.409Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6132"
         }
     ],
+    "id": "9ec6cc1f-5c6a-4602-949a-f1c4d06eac43.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1058.2218017578125,935.4252319335938 1281.5850830078125,836.5595092773438 1257.7841796875,1043.4451904296875 1213.84375,1103.8631591796875 1072.8685302734375,1087.385498046875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,12 +61,7 @@ order: 8
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0123",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1058.2218017578125,935.4252319335938 1281.5850830078125,836.5595092773438 1257.7841796875,1043.4451904296875 1213.84375,1103.8631591796875 1072.8685302734375,1087.385498046875\"></polygon></svg>"
         }
     },
-    "id": "9ec6cc1f-5c6a-4602-949a-f1c4d06eac43.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
