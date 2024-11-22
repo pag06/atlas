@@ -4,50 +4,57 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L659",
+            "created": "2023-10-03T20:03:46.435Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-03T20:03:46.435Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L659"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C669",
+            "created": "2023-10-03T20:03:49.057Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-03T20:03:49.057Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C669"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2072",
+            "created": "2023-10-03T20:03:50.713Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-03T20:03:50.713Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2072"
         },
         {
-            "type": "TextualBody",
-            "value": "Une variation importante par rapport au type pr\u00e9c\u00e9dent : les arbal\u00e9triers (13) ne reposent plus sur l\u2019entrait(6) mais dans un trou pratiqu\u00e9 dans le mur imm\u00e9diatement au-dessus de la sabli\u00e8re (4) ; l\u2019entrait vient se rejoindre les arbal\u00e9triers au niveau des pannes (2) : poin\u00e7on (10) classique, mais court",
+            "created": "2023-10-03T20:06:44.285Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-03T20:06:44.285Z"
+            "type": "TextualBody",
+            "value": "Charpente\nFigure XI\nUne variation importante par rapport au type pr\u00e9c\u00e9dent : les arbal\u00e9triers (13) ne reposent plus sur l\u2019entrait(6) mais dans un trou pratiqu\u00e9 dans le mur imm\u00e9diatement au-dessus de la sabli\u00e8re (4) ; l\u2019entrait vient se rejoindre les arbal\u00e9triers au niveau des pannes (2) : poin\u00e7on (10) classique, mais court.\n1. poutre faiti\u00e8re [C673] [Q8202]\n2. panne [C675] [Q7293]\n3. chevron [C676] [Q2262]\n4. sabli\u00e8re [C677] [Q9089]\n5. volige [C678] [Q10816]\n6. entrait [C680] [Q4016]\n10. poin\u00e7on [C666] [Q7933]\n11. contre-fiche [C666] [Q2072]\n13. arbal\u00e9trier [C681] [Q358]",
+            "modified": "2024-11-22T14:26:01.159Z"
         }
     ],
+    "id": "430b332e-134d-43e7-a449-dcabfc655997.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=234.41749572753906,808.6997680664062,976.6043548583984,614.8389282226562"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -55,13 +62,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0108",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=234.41749572753906,808.6997680664062,976.6043548583984,614.8389282226562"
         }
     },
-    "id": "430b332e-134d-43e7-a449-dcabfc655997.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
