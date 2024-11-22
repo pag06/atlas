@@ -4,61 +4,62 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Appel des porcs.\nOctobre 1953. \nTonom\u00e9trie et chronom\u00e9trie m\u00e9caniques des \u00e9l\u00e9ments vois\u00e9s.\nLes barres de s\u00e9paration sont proportionn\u00e9es \u00e0 la dur\u00e9e des silences",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-01T20:10:15.086Z",
-            "modified": "2023-10-01T20:11:01.787Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-10-01T20:11:01.787Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Appel des porcs.\nOctobre 1953. \nTonom\u00e9trie et chronom\u00e9trie m\u00e9caniques des \u00e9l\u00e9ments vois\u00e9s.\nLes barres de s\u00e9paration sont proportionn\u00e9es \u00e0 la dur\u00e9e des silences"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-10-01T20:10:32.462Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L791O",
+            "type": "TextualBody",
+            "value": "L791O"
+        },
+        {
+            "created": "2023-10-01T20:10:35.662Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T20:10:32.462Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C461",
+            "type": "TextualBody",
+            "value": "C461"
+        },
+        {
+            "created": "2023-10-01T20:10:40.926Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T20:10:35.662Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q2910",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-01T20:10:40.926Z"
+            "type": "TextualBody",
+            "value": "Q2910"
         },
         {
-            "type": "TextualBody",
-            "value": "M. Cultivatrice, 67ans, native.\nEnregistrement magn\u00e9tique transform\u00e9 en electrokymogramme",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-01T20:11:20.620Z",
-            "modified": "2023-10-01T20:11:23.217Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-10-01T20:11:23.217Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "M. Cultivatrice, 67ans, native.\nEnregistrement magn\u00e9tique transform\u00e9 en electrokymogramme"
         }
     ],
+    "id": "ed0e66e4-3556-469e-96d9-96985fb18efc.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -70,9 +71,8 @@ order: 1
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"711.5255126953125,802.3148193359375 3274.92138671875,806.326416015625 3282.944580078125,2342.75927734375 2344.236328125,2435.025634765625 1910.9862060546875,1985.729248046875 819.8380126953125,1251.611083984375\"></polygon></svg>"
+            "value": "<svg><polygon points=\"824.4,796.9 3274.9,806.3 3282.9,2342.8 2344.2,2435 1911,1985.7 819.8,1251.6\"></polygon></svg>"
         }
     },
-    "id": "ed0e66e4-3556-469e-96d9-96985fb18efc.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
