@@ -4,51 +4,57 @@ order: 7
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "[...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-05T06:00:20.003Z",
-            "modified": "2023-10-05T06:00:21.365Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T15:51:21.676Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Outil du couvreur [ma\u028e de tet\u02c8a]\nFigure III"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L790S",
+            "created": "2023-10-05T06:00:25.495Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:00:25.495Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L790S"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C672",
+            "created": "2023-10-05T06:00:28.495Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T06:00:28.495Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C672"
         },
         {
             "type": "TextualBody",
+            "value": "Q2829",
             "purpose": "tagging",
-            "value": "Q???",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-10-05T06:00:29.350Z"
+            "created": "2024-11-22T15:51:27.884Z",
+            "modified": "2024-11-22T15:51:30.067Z"
         }
     ],
+    "id": "ba5fca08-4c8a-4d16-a9b3-62b3849cbc00.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"244.2963409423828,1397.77783203125 382.81488037109375,1405.3333740234375 438.2222900390625,1307.111083984375 536.4503173828125,1312.1468505859375 453.3333740234375,1828.444580078125 246.81484985351562,1848.5926513671875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,12 +62,7 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0111",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"244.2963409423828,1397.77783203125 382.81488037109375,1405.3333740234375 438.2222900390625,1307.111083984375 536.4503173828125,1312.1468505859375 453.3333740234375,1828.444580078125 246.81484985351562,1848.5926513671875\"></polygon></svg>"
         }
     },
-    "id": "ba5fca08-4c8a-4d16-a9b3-62b3849cbc00.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
