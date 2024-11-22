@@ -4,52 +4,57 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Appel des poules\nOctobre 1953. \nTonom\u00e9trie et chronom\u00e9trie m\u00e9caniques des \u00e9l\u00e9ments vois\u00e9s.\nLes barres de s\u00e9paration sont proportionn\u00e9es \u00e0 la dur\u00e9e des silences",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-01T20:06:58.566Z",
-            "modified": "2023-10-01T20:09:36.850Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-10-01T20:09:36.850Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Appel des poules\nOctobre 1953. \nTonom\u00e9trie et chronom\u00e9trie m\u00e9caniques des \u00e9l\u00e9ments vois\u00e9s.\nLes barres de s\u00e9paration sont proportionn\u00e9es \u00e0 la dur\u00e9e des silences"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-10-01T20:07:19.878Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "Q2917",
+            "type": "TextualBody",
+            "value": "Q2917"
+        },
+        {
+            "created": "2023-10-01T20:07:48.758Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T20:07:19.878Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L791O",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-01T20:07:48.758Z"
+            "type": "TextualBody",
+            "value": "L791O"
         },
         {
-            "type": "TextualBody",
-            "value": "M. Cultivatrice, 67ans, native.\nEnregistrement magn\u00e9tique transform\u00e9 en electrokymogramme",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-01T20:08:17.454Z",
-            "modified": "2023-10-01T20:11:15.830Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-10-01T20:11:15.830Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "M. Cultivatrice, 67ans, native.\nEnregistrement magn\u00e9tique transform\u00e9 en electrokymogramme"
         }
     ],
+    "id": "3d29552e-0e55-4c2c-87d9-385a995e81b2.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"988.3241577148438,942.7199096679688 3311.025634765625,938.7083129882812 3294.979248046875,2122.122802734375 2043.3681640625,2146.192138671875 1060.532470703125,1367.94677734375\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,12 +62,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0244",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"988.3241577148438,942.7199096679688 3311.025634765625,938.7083129882812 3294.979248046875,2122.122802734375 2043.3681640625,2146.192138671875 1060.532470703125,1367.94677734375\"></polygon></svg>"
         }
     },
-    "id": "3d29552e-0e55-4c2c-87d9-385a995e81b2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
