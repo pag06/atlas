@@ -38,18 +38,22 @@ order: 4
         {
             "created": "2023-10-05T06:09:11.820Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-05T06:09:15.018Z",
+            "modified": "2024-11-22T16:18:49.289Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Type de tuiles"
+            "value": "Type de tuiles [skal'a\u00f0\u0254]\nFigure XII\n[Au bord du pignon, c\u00f4t\u00e9 chemin\u00e9e]"
         }
     ],
     "id": "6b206050-4271-460e-8193-cbce17e14dbf.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1577.8,931.3 1883.1,700.2 2119.9,700.2 2094.2,977 1972.9,994.9 1650.9,1000\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -57,10 +61,6 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0115",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1577.8,931.3 1883.1,700.2 2119.9,700.2 2094.2,977 1972.9,994.9 1650.9,1000\"></polygon></svg>"
         }
     },
     "type": "Annotation"
