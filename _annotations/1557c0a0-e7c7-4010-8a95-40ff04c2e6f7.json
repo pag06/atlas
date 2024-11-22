@@ -4,49 +4,50 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L687E",
+            "created": "2023-10-04T12:24:40.327Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-04T12:24:40.327Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L687E"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C669",
+            "created": "2023-10-04T12:24:41.812Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-04T12:24:41.812Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C669"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2072",
+            "created": "2023-10-04T12:24:43.616Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-04T12:24:43.616Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2072"
         },
         {
-            "type": "TextualBody",
-            "value": "Autre type de toit \u00e0 quadruple pente : arbal\u00e9trier (7) courbe remarquable",
+            "created": "2023-10-04T12:25:50.315Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-04T12:25:50.315Z"
+            "type": "TextualBody",
+            "value": "Autre type de toit \u00e0 quadruple pente : arbal\u00e9trier (7) courbe remarquable"
         }
     ],
+    "id": "1557c0a0-e7c7-4010-8a95-40ff04c2e6f7.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -59,9 +60,8 @@ order: 5
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=169.84242248535156,1551.7589111328125,1084.1956634521484,732.3074951171875"
+            "value": "xywh=214.4481964111328,1552.798583984375,1028.1818084716797,720"
         }
     },
-    "id": "1557c0a0-e7c7-4010-8a95-40ff04c2e6f7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
