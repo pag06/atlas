@@ -4,51 +4,56 @@ order: 7
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L675N",
+            "created": "2023-10-01T20:05:00.182Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T20:05:00.182Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L675N"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C446",
+            "created": "2023-10-01T20:05:02.627Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T20:05:02.627Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C446"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-10-01T20:05:04.183Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T20:05:04.183Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Cloche en vannerie : brins de ch\u00e2taignier ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-01T20:05:07.573Z",
-            "modified": "2023-10-01T20:05:44.869Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T09:03:56.367Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Ruche\nFigure VII\nCloche en vannerie : brins de ch\u00e2taignier "
         }
     ],
+    "id": "5aefd24a-f5c6-48c0-9d30-329acf793670.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2128.316650390625,2011.8587646484375 2472.640869140625,1862.152587890625 2772.052978515625,2045.5419921875 2876.84765625,2116.653076171875 3221.171630859375,2135.3662109375 3269.826171875,3033.603271484375 2554.979248046875,3014.89013671875 2566.207275390625,2745.4189453125 2685.97216796875,2588.2275390625 2162.000732421875,2603.197998046875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +61,7 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0230",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2128.316650390625,2011.8587646484375 2472.640869140625,1862.152587890625 2772.052978515625,2045.5419921875 2876.84765625,2116.653076171875 3221.171630859375,2135.3662109375 3269.826171875,3033.603271484375 2554.979248046875,3014.89013671875 2566.207275390625,2745.4189453125 2685.97216796875,2588.2275390625 2162.000732421875,2603.197998046875\"></polygon></svg>"
         }
     },
-    "id": "5aefd24a-f5c6-48c0-9d30-329acf793670.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
