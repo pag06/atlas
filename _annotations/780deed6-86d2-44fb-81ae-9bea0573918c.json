@@ -4,50 +4,51 @@ order: 8
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Charpente classique : le toit, plus lourd, repose directement sur un syst\u00e8me d\u2019arcatures parall\u00e8les aux chevrons qui s\u2019appuient sur elles : apparition des arbal\u00e9triers (7), entraits (6) et poin\u00e7ons(10).\nSyst\u00e8me complet avec contre-fiches (11) et, le cas \u00e9ch\u00e9ant, jambettes",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-02T16:26:24.453Z",
-            "modified": "2023-10-02T16:45:44.617Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L668SO",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T16:26:28.263Z"
+            "modified": "2023-10-02T16:45:44.617Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charpente classique : le toit, plus lourd, repose directement sur un syst\u00e8me d\u2019arcatures parall\u00e8les aux chevrons qui s\u2019appuient sur elles : apparition des arbal\u00e9triers (7), entraits (6) et poin\u00e7ons(10).\nSyst\u00e8me complet avec contre-fiches (11) et, le cas \u00e9ch\u00e9ant, jambettes"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C667",
+            "created": "2023-10-02T16:26:28.263Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T16:26:30.394Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L668SO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2072",
+            "created": "2023-10-02T16:26:30.394Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T16:26:32.200Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C667"
+        },
+        {
+            "created": "2023-10-02T16:26:32.200Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2072"
         }
     ],
+    "id": "780deed6-86d2-44fb-81ae-9bea0573918c.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -59,9 +60,8 @@ order: 8
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"158.7,2362.4 768.1,2362.4 1377.6,2362.4 1377.6,2703.6 1663.5,3024.5 768.1,3044.9 158.7,3044.9 158.7,2703.6\"></polygon></svg>"
+            "value": "<svg><polygon points=\"158.7,2362.4 768.1,2362.4 1377.6,2362.4 1377.6,2703.6 1663.5,3024.5 768.1,3044.9 176.4,3045.9 172.8,2701.3\"></polygon></svg>"
         }
     },
-    "id": "780deed6-86d2-44fb-81ae-9bea0573918c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
