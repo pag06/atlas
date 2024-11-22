@@ -4,51 +4,46 @@ order: 6
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Cloche en vannerie : brins de nerprun ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-01T20:03:42.613Z",
-            "modified": "2023-10-01T20:04:13.359Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T09:01:10.242Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Ruche\nFigure VI\nCloche en vannerie (brins de nerprun), ext\u00e9rieurement enduite de bouse de vache"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L650",
+            "created": "2023-10-01T20:04:19.681Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T20:04:19.681Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L650"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C446",
+            "created": "2023-10-01T20:04:20.657Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-01T20:04:20.657Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-01T20:04:23.474Z"
+            "type": "TextualBody",
+            "value": "C446"
         }
     ],
+    "id": "4e6b8b0c-aa7e-4374-9c94-510e8f0ceec7.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2319.192138671875,1285.7838134765625 2584.920654296875,1263.327880859375 2712.255615234375,1278.3092041015625 2813.222412109375,1428.0047607421875 3045.26708984375,1398.0634765625 3303.510009765625,1383.0928955078125 3310.995361328125,2056.7705078125 2794.50927734375,2060.51318359375 2360.361328125,1555.2550048828125\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -56,12 +51,7 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0230",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2319.192138671875,1285.7838134765625 2584.920654296875,1263.327880859375 2712.255615234375,1278.3092041015625 2813.222412109375,1428.0047607421875 3045.26708984375,1398.0634765625 3303.510009765625,1383.0928955078125 3310.995361328125,2056.7705078125 2794.50927734375,2060.51318359375 2360.361328125,1555.2550048828125\"></polygon></svg>"
         }
     },
-    "id": "4e6b8b0c-aa7e-4374-9c94-510e8f0ceec7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
