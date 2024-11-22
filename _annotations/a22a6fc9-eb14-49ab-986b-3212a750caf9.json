@@ -4,41 +4,47 @@ order: 22
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Outil du sabotier pour travailler le dessus",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-05T07:07:35.388Z",
-            "modified": "2023-10-05T07:07:43.016Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T11:54:08.081Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Outil du sabotier : paroir pour travailler le dessus [\u0261a\u0272u\u02c8et\u0254]\nFigure XXVIII"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L790S",
+            "created": "2023-10-05T07:08:03.448Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T07:08:03.448Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L790S"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9091",
+            "created": "2023-10-05T07:08:05.653Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T07:08:05.653Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9091"
         }
     ],
+    "id": "a22a6fc9-eb14-49ab-986b-3212a750caf9.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2197.247314453125,2348.09033203125,71.403076171875,649.95068359375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -46,13 +52,7 @@ order: 22
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0092",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2197.247314453125,2348.09033203125,71.403076171875,649.95068359375"
         }
     },
-    "id": "a22a6fc9-eb14-49ab-986b-3212a750caf9.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
