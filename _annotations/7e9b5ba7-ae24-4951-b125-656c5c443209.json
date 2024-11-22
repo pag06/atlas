@@ -11,10 +11,10 @@ order: 5
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-22T16:19:19.104Z",
+            "modified": "2024-11-22T16:19:58.032Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Marteau du couvreur d'ardoises\nFigure XIII"
+            "value": "Marteau du couvreur d'ardoises [mart\u02c8\u025bt]\nFigure XIII"
         },
         {
             "created": "2023-10-05T06:09:52.483Z",
@@ -37,14 +37,14 @@ order: 5
             "value": "C679"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2829",
+            "created": "2024-11-22T16:19:39.238Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-22T16:19:39.238Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2829"
         }
     ],
     "id": "7e9b5ba7-ae24-4951-b125-656c5c443209.json",
