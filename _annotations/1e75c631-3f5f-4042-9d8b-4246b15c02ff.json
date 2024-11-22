@@ -21,10 +21,10 @@ order: 5
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-22T08:56:42.296Z",
+            "modified": "2024-11-22T08:58:51.728Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Ruche\nFigure V\nCloche en vannerie, suspendue par le crochet de bois\nHauteur : 65 cm"
+            "value": "Ruche\nFigure V\nCloche en vannerie, ext\u00e9rieurement enduite de bouse de vache rt suspendue par le crochet de bois\nHauteur : 65 cm"
         },
         {
             "created": "2023-10-01T20:03:20.199Z",
@@ -50,6 +50,10 @@ order: 5
     "id": "1e75c631-3f5f-4042-9d8b-4246b15c02ff.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1220.5,1291.5 1220.5,1569 1527.8,1721 1860.9,1761 1881.3,1975.4 2238.1,1958.8 2429.7,1866.3 2337.2,1473.2 2142.2,1245.2 1894.5,1261.8 1422,1238.6\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,10 +61,6 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0230",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1220.5,1291.5 1220.5,1569 1527.8,1721 1860.9,1761 1881.3,1975.4 2238.1,1958.8 2429.7,1866.3 2337.2,1473.2 2142.2,1245.2 1894.5,1261.8 1422,1238.6\"></polygon></svg>"
         }
     },
     "type": "Annotation"
