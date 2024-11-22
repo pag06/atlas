@@ -57,14 +57,14 @@ order: 1
             "value": "Q10377"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5942",
+            "created": "2024-11-22T16:04:37.476Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-22T16:04:37.476Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5942"
         }
     ],
     "id": "121dd36a-e402-4e5b-8352-833c6ed735fb.json",
