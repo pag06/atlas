@@ -11,10 +11,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-22T09:27:40.567Z",
+            "modified": "2024-11-22T09:33:10.868Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Quenouille (laine)\nFigure II\nFigur\u00e9 au quart de sa dimension r\u00e9elle."
+            "value": "Quenouille (laine) [hurs\u02c8\u025br\u0252]\nFigure II\nFigur\u00e9 au quart de sa dimension r\u00e9elle."
         },
         {
             "created": "2023-10-02T05:18:06.320Z",
@@ -50,10 +50,6 @@ order: 2
     "id": "3175929e-19b9-4ecc-b5d2-4144f0e4d3d8.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"432.0657958984375,277.5967102050781 611.1604614257812,272 532.8065185546875,711.341552734375 490.83123779296875,1531.25927734375 448.8559265136719,1531.25927734375 462.8476867675781,893.2345581054688 420.87237548828125,386.7325134277344\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -61,6 +57,10 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0069",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"424,275.4 611.2,272 532.8,711.3 490.8,1531.3 448.9,1531.3 462.8,893.2 420.9,386.7\"></polygon></svg>"
         }
     },
     "type": "Annotation"
