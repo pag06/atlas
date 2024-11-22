@@ -8,12 +8,13 @@ order: 17
         {
             "created": "2023-10-05T07:03:26.066Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Outil du sabotier"
+            "value": "Outil du sabotier. Paroir [u\u0283\u02c8\u0254l\u0254 \u00f0e \u00f0us k\u02c8ats]\nFigure XXIV",
+            "modified": "2024-11-22T11:26:28.721Z"
         },
         {
             "created": "2023-10-05T07:03:45.323Z",
@@ -26,14 +27,14 @@ order: 17
             "value": "L790S"
         },
         {
-            "created": "2023-10-05T07:03:53.534Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q9091"
+            "purpose": "tagging",
+            "value": "Q7354",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-22T11:26:42.229Z"
         }
     ],
     "id": "c2e938e9-f3db-4464-8514-01125ead64a9.json",
