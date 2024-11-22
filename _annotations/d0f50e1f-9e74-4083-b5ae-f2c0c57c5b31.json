@@ -4,51 +4,57 @@ order: 4
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Charpente \u00e9l\u00e9mentaire sans arbal\u00e9triers ni poin\u00e7ons : les chevrons reposent sur les sabli\u00e8res, les pannes et la poutre faiti\u00e8re ; on remarque que ces types ont \u00e9t\u00e9 exclusivement relev\u00e9 dans les Pyr\u00e9n\u00e9es. ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-02T16:24:13.118Z",
-            "modified": "2023-10-02T16:30:10.809Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-22T14:06:08.551Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charpente\nFigure V\nCharpente \u00e9l\u00e9mentaire sans arbal\u00e9triers ni poin\u00e7ons : les chevrons reposent sur les sabli\u00e8res, les pannes et la poutre faiti\u00e8re ; on remarque que ces types ont \u00e9t\u00e9 exclusivement relev\u00e9 dans les Pyr\u00e9n\u00e9es.\n1. poutre faiti\u00e8re [C673] [Q8202]\n2. panne [C675] [Q7293]\n3. chevron [C676] [Q2262]\n12. jambette [C666] [Q5695]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L698",
+            "created": "2023-10-02T16:24:17.924Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T16:24:17.924Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L698"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C667",
+            "created": "2023-10-02T16:24:20.789Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T16:24:20.789Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C667"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2072",
+            "created": "2023-10-02T16:24:22.446Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T16:24:22.446Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2072"
         }
     ],
+    "id": "d0f50e1f-9e74-4083-b5ae-f2c0c57c5b31.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1506.0743408203125,803.407470703125,727.8519287109375,599.407470703125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,13 +62,7 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0106",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1506.0743408203125,803.407470703125,727.8519287109375,599.407470703125"
         }
     },
-    "id": "d0f50e1f-9e74-4083-b5ae-f2c0c57c5b31.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
