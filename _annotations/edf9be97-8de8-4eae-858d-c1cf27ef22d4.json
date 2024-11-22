@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-10-05T06:07:54.124Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-05T06:08:01.041Z",
+            "modified": "2024-11-22T16:16:32.437Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Lucarne et toit de [...]"
+            "value": "Lucarne et toit de [pik'u\u0303s]\nFigure XI"
         },
         {
             "created": "2023-10-05T06:08:04.432Z",
@@ -50,6 +50,10 @@ order: 3
     "id": "edf9be97-8de8-4eae-858d-c1cf27ef22d4.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1157.5,701 1537.8,697.3 1566.4,820 1437.4,1042.2 1263.9,1099.6 1164.1,1088.2\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -57,10 +61,6 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0115",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1157.5,701 1537.8,697.3 1566.4,820 1437.4,1042.2 1263.9,1099.6 1164.1,1088.2\"></polygon></svg>"
         }
     },
     "type": "Annotation"
