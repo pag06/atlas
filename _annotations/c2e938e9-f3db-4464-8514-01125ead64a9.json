@@ -4,40 +4,45 @@ order: 17
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Outil du sabotier",
+            "created": "2023-10-05T07:03:26.066Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-05T07:03:26.066Z"
+            "type": "TextualBody",
+            "value": "Outil du sabotier"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L790S",
+            "created": "2023-10-05T07:03:45.323Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T07:03:45.323Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L790S"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9091",
+            "created": "2023-10-05T07:03:53.534Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T07:03:53.534Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9091"
         }
     ],
+    "id": "c2e938e9-f3db-4464-8514-01125ead64a9.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1607.765869140625,2638.45654296875 1663.4022216796875,2635.603271484375 1770.395263671875,2715.491455078125 1863.12255859375,2578.540283203125 1927.318359375,2597.085693359375 1838.870849609375,2779.687255859375 1984.38134765625,2721.19775390625 1985.807861328125,2766.84814453125 1927.318359375,2880.973876953125 1704.77294921875,2833.89697265625 1642.003662109375,2769.701171875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -45,12 +50,7 @@ order: 17
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0092",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1607.765869140625,2638.45654296875 1663.4022216796875,2635.603271484375 1770.395263671875,2715.491455078125 1863.12255859375,2578.540283203125 1927.318359375,2597.085693359375 1838.870849609375,2779.687255859375 1984.38134765625,2721.19775390625 1985.807861328125,2766.84814453125 1927.318359375,2880.973876953125 1704.77294921875,2833.89697265625 1642.003662109375,2769.701171875\"></polygon></svg>"
         }
     },
-    "id": "c2e938e9-f3db-4464-8514-01125ead64a9.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
