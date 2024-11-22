@@ -4,51 +4,57 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Charpente \u00e9l\u00e9mentaire sans arbal\u00e9triers ni poin\u00e7ons : les chevrons reposent sur les sabli\u00e8res, les pannes et la poutre faiti\u00e8re ; on remarque que ces types ont \u00e9t\u00e9 exclusivement relev\u00e9 dans les Pyr\u00e9n\u00e9es. \nLes sabli\u00e8res reposent non plus sur le plancher du grenier, mais sur le mur qui est prolong\u00e9 au-dessus du niveau de ce plancher.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-02T16:23:23.196Z",
-            "modified": "2023-10-02T16:36:10.311Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L699NO",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T16:23:35.137Z"
+            "modified": "2023-10-02T16:36:10.311Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charpente \u00e9l\u00e9mentaire sans arbal\u00e9triers ni poin\u00e7ons : les chevrons reposent sur les sabli\u00e8res, les pannes et la poutre faiti\u00e8re ; on remarque que ces types ont \u00e9t\u00e9 exclusivement relev\u00e9 dans les Pyr\u00e9n\u00e9es. \nLes sabli\u00e8res reposent non plus sur le plancher du grenier, mais sur le mur qui est prolong\u00e9 au-dessus du niveau de ce plancher."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C667",
+            "created": "2023-10-02T16:23:35.137Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T16:23:37.185Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L699NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2072",
+            "created": "2023-10-02T16:23:37.185Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-02T16:23:39.874Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C667"
+        },
+        {
+            "created": "2023-10-02T16:23:39.874Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2072"
         }
     ],
+    "id": "6b6fe3c1-a049-44f5-8adb-a74b53555751.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=186.3704071044922,813.4815063476562,758.0741119384766,622.0741577148438"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,13 +62,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0106",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=186.3704071044922,813.4815063476562,758.0741119384766,622.0741577148438"
         }
     },
-    "id": "6b6fe3c1-a049-44f5-8adb-a74b53555751.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
