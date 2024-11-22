@@ -46,11 +46,25 @@ order: 1
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "M. Cultivatrice, 67ans, native.\nEnregistrement magn\u00e9tique transform\u00e9 en electrokymogramme"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C460",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-22T09:06:39.818Z"
         }
     ],
     "id": "3d29552e-0e55-4c2c-87d9-385a995e81b2.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1066.7,949.6 3297.7,935.4 3295,2122.1 2043.4,2146.2 1060.5,1367.9\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -58,10 +72,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0244",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1066.7,949.6 3297.7,935.4 3295,2122.1 2043.4,2146.2 1060.5,1367.9\"></polygon></svg>"
         }
     },
     "type": "Annotation"
