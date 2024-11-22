@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-10-05T06:37:33.318Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-05T06:37:55.816Z",
+            "modified": "2024-11-22T16:40:23.012Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c2tre\nAppliqu\u00e9 contre le mur "
+            "value": "\u00c2tre\nFigure I\nAppliqu\u00e9 contre le mur "
         },
         {
             "created": "2023-10-05T06:38:02.849Z",
@@ -50,6 +50,11 @@ order: 1
     "id": "bc7d4e96-73c6-4087-a233-3532a36bb1f7.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=294.21142578125,321.7182922363281,627.272705078125,595.0224914550781"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -57,11 +62,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0127",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=294.21142578125,321.7182922363281,627.272705078125,595.0224914550781"
         }
     },
     "type": "Annotation"
