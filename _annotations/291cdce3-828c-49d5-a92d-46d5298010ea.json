@@ -8,13 +8,13 @@ order: 7
         {
             "created": "2023-10-06T20:01:30.904Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-06T20:01:50.206Z",
+            "modified": "2024-11-22T13:27:37.180Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Pliage, coiffure f\u00e9minine"
+            "value": "Coiffure f\u00e9minine : pliage du foulard"
         },
         {
             "created": "2023-10-06T20:01:55.051Z",
@@ -27,19 +27,23 @@ order: 7
             "value": "L658NO"
         },
         {
-            "created": "2023-10-06T20:01:57.440Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q2446"
+            "purpose": "tagging",
+            "value": "Q2447",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-22T13:27:47.334Z"
         }
     ],
     "id": "291cdce3-828c-49d5-a92d-46d5298010ea.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1486.8,1307.5 2217.7,1293 2232.2,1791.2 1523.1,1831.2\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -47,10 +51,6 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0094",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1486.8,1307.5 2217.7,1293 2232.2,1791.2 1523.1,1831.2\"></polygon></svg>"
         }
     },
     "type": "Annotation"
