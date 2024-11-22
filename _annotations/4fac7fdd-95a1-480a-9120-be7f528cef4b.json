@@ -11,10 +11,10 @@ order: 26
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-22T11:00:37.246Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Sabot\nFigure XVII",
-            "modified": "2024-11-22T11:00:37.246Z"
+            "value": "Sabot\nFigure XVII"
         },
         {
             "created": "2023-10-05T14:30:36.351Z",
@@ -35,6 +35,17 @@ order: 26
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "L665"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C661",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-22T11:00:45.023Z",
+            "modified": "2024-11-22T11:00:46.431Z"
         }
     ],
     "id": "4fac7fdd-95a1-480a-9120-be7f528cef4b.json",
