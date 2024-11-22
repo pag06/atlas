@@ -26,16 +26,6 @@ order: 7
             "value": "C446"
         },
         {
-            "created": "2023-10-01T20:05:04.183Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-10-01T20:05:07.573Z",
             "creator": {
                 "id": "pag06",
@@ -45,6 +35,16 @@ order: 7
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "Ruche\nFigure VII\nCloche en vannerie : brins de ch\u00e2taignier "
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9057",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-22T09:04:16.493Z"
         }
     ],
     "id": "5aefd24a-f5c6-48c0-9d30-329acf793670.json",
