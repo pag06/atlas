@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-10-06T19:57:44.504Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-06T19:57:49.905Z",
+            "modified": "2024-11-22T12:07:54.218Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Coiffure f\u00e9minine"
+            "value": "Coiffure f\u00e9minine : foulard"
         },
         {
             "created": "2023-10-06T19:57:57.485Z",
@@ -27,19 +27,23 @@ order: 2
             "value": "L657NE"
         },
         {
-            "created": "2023-10-06T19:58:01.071Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q2446"
+            "purpose": "tagging",
+            "value": "Q2447",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-22T12:07:42.425Z"
         }
     ],
     "id": "2b28cf87-18be-46cd-b00c-eb7fa12b7b0c.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"261.2,719.4 791.2,723.9 788.3,1327.3 518.8,1324.7 476,1412.9 241.3,1413.8\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -47,10 +51,6 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0094",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"261.2,719.4 791.2,723.9 788.3,1327.3 518.8,1324.7 476,1412.9 241.3,1413.8\"></polygon></svg>"
         }
     },
     "type": "Annotation"
