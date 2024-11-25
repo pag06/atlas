@@ -4,51 +4,57 @@ order: 8
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Seau de bois",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-05T15:16:40.093Z",
-            "modified": "2023-10-05T15:16:43.986Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-25T08:35:29.357Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Seau de bois\nFigure IX\nOn se sert de ce seau pour tranvaser la p\u00e2t\u00e9e des porcs de la chaudi\u00e8re dans l'auge"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L658NO",
+            "created": "2023-10-05T15:17:00.978Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:17:00.978Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L658NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C706",
+            "created": "2023-10-05T15:17:03.678Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:17:03.678Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C706"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9271",
+            "created": "2023-10-05T15:17:40.551Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:17:40.551Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9271"
         }
     ],
+    "id": "53fb9bd8-7aca-442c-a437-cd52b70fdef0.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1196.29638671875,1762.9630126953125,350.0740966796875,392.8890380859375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,13 +62,7 @@ order: 8
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0139",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1196.29638671875,1762.9630126953125,350.0740966796875,392.8890380859375"
         }
     },
-    "id": "53fb9bd8-7aca-442c-a437-cd52b70fdef0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
