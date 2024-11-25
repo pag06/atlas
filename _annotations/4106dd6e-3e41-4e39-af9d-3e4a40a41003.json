@@ -4,40 +4,56 @@ order: 13
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Faisselle",
-            "purpose": "commenting",
+            "created": "2023-10-06T15:33:15.262Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-10-06T15:33:15.262Z"
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Base de la faisselle\nFigure XVI",
+            "modified": "2024-11-25T15:08:37.814Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L692SO",
+            "created": "2023-10-06T15:33:19.674Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T15:33:19.674Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L692SO"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
             "value": "Q4396",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-10-06T15:33:22.921Z"
+            "created": "2024-11-25T15:08:12.711Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4395",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-25T15:08:22.474Z"
         }
     ],
+    "id": "4106dd6e-3e41-4e39-af9d-3e4a40a41003.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"972.76708984375,1941.4810791015625 1017.5211181640625,1935.3782958984375 1473.1986083984375,1957.75537109375 1513.8841552734375,2138.8056640625 1361.3134765625,2293.41064453125 1147.7147216796875,2271.03369140625 889.36181640625,2256.793701171875 921.890625,2033.166748046875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -45,12 +61,7 @@ order: 13
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0183",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"972.76708984375,1941.4810791015625 1017.5211181640625,1935.3782958984375 1473.1986083984375,1957.75537109375 1513.8841552734375,2138.8056640625 1361.3134765625,2293.41064453125 1147.7147216796875,2271.03369140625 889.36181640625,2256.793701171875 921.890625,2033.166748046875\"></polygon></svg>"
         }
     },
-    "id": "4106dd6e-3e41-4e39-af9d-3e4a40a41003.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
