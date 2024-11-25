@@ -11,10 +11,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-25T11:55:37.755Z",
+            "modified": "2024-11-25T11:56:23.963Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Planche \u00e0 laver\nFigure II"
+            "value": "Planche \u00e0 laver [b\u02c8a\u0303nk\u0254]\nFigure II"
         },
         {
             "created": "2023-10-05T15:41:09.203Z",
@@ -50,6 +50,10 @@ order: 2
     "id": "b46e9a30-e3cb-4c67-b0c9-c567a51c6127.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1650.9,980.2 1654,654.5 1866.5,661.8 2104.8,953 2046,1051.1\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -57,10 +61,6 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0148",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1650.9,980.2 1654,654.5 1866.5,661.8 2104.8,953 2046,1051.1\"></polygon></svg>"
         }
     },
     "type": "Annotation"
