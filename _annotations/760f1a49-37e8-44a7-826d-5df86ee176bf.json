@@ -4,39 +4,40 @@ order: 11
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Faisselle",
+            "created": "2023-10-06T15:31:25.588Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-06T15:31:25.588Z"
+            "type": "TextualBody",
+            "value": "Faisselle"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L692SO",
+            "created": "2023-10-06T15:31:30.359Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T15:31:30.359Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L692SO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4396",
+            "created": "2023-10-06T15:31:35.471Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T15:31:35.471Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4396"
         }
     ],
+    "id": "760f1a49-37e8-44a7-826d-5df86ee176bf.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -48,9 +49,8 @@ order: 11
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1855.6,1467.5 2035.7,1467.5 2215.7,1467.5 2215.7,1610.9 2215.7,1754.3 2002.1,1750.3 1831.2,1805.2 1855.6,1610.9\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1857.8,1481.5 2029.4,1477.8 2217.3,1475.3 2215.7,1610.9 2215.7,1754.3 2002.1,1750.3 1831.2,1805.2 1855.6,1610.9\"></polygon></svg>"
         }
     },
-    "id": "760f1a49-37e8-44a7-826d-5df86ee176bf.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
