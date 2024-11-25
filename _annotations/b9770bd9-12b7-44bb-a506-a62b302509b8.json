@@ -4,49 +4,50 @@ order: 7
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Support de la chandelle de r\u00e9sine souvent fich\u00e9 dans le mur de l'\u00e2tre.",
+            "created": "2023-10-05T15:09:46.786Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-05T15:09:46.786Z"
+            "type": "TextualBody",
+            "value": "Support de la chandelle de r\u00e9sine souvent fich\u00e9 dans le mur de l'\u00e2tre."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L675N",
+            "created": "2023-10-05T15:09:51.351Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:09:51.351Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L675N"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C705",
+            "created": "2023-10-05T15:09:53.142Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:09:53.142Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C705"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9664",
+            "created": "2023-10-05T15:09:55.286Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:09:55.286Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9664"
         }
     ],
+    "id": "b9770bd9-12b7-44bb-a506-a62b302509b8.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -58,9 +59,8 @@ order: 7
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1979.197509765625,1070.4166259765625 2086.47021484375,1061.32568359375 2168.28857421875,1117.6893310546875 2215.561279296875,1515.87109375 2110.106689453125,1672.2347412109375 2110.106689453125,1835.87109375 2219.197509765625,1835.87109375 2221.015869140625,2092.23486328125 2079.197509765625,2097.689208984375 2059.197509765625,1966.7802734375 1910.106689453125,1975.87109375 1910.10400390625,1881.2872314453125 2046.4703369140625,1826.7802734375 2051.9248046875,1226.7802734375\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1979.2,1070.4 2086.5,1061.3 2168.3,1117.7 2215.6,1515.9 2105.4,1669.7 2109,1826.1 2219.2,1835.9 2221,2092.2 2079.2,2097.7 2059.2,1966.8 1910.1,1975.9 1910.1,1881.3 2046.5,1826.8 2051.9,1226.8\"></polygon></svg>"
         }
     },
-    "id": "b9770bd9-12b7-44bb-a506-a62b302509b8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
