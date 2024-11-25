@@ -8,12 +8,13 @@ order: 17
         {
             "created": "2023-10-05T15:21:50.999Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Cruche"
+            "value": "Cruche en m\u00e9tal [pin\u02c8ar\u0259]\nFigure XVIII",
+            "modified": "2024-11-25T08:49:42.746Z"
         },
         {
             "created": "2023-10-05T15:22:02.656Z",
@@ -49,6 +50,10 @@ order: 17
     "id": "6a8dadfa-981a-4219-99ed-25a1f872943b.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"224.6,2732.1 376,2728.3 492.4,2726.3 527.6,2911.4 510.2,3090.5 375.1,3089.6 222.7,3085.7 222.9,2911.4\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,10 +61,6 @@ order: 17
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0139",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"224.6,2732.1 376,2728.3 492.4,2726.3 527.6,2911.4 510.2,3090.5 375.1,3089.6 222.7,3085.7 222.9,2911.4\"></polygon></svg>"
         }
     },
     "type": "Annotation"
