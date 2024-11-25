@@ -4,50 +4,57 @@ order: 19
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Cruche",
+            "created": "2023-10-05T15:22:54.055Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-05T15:22:54.055Z"
+            "type": "TextualBody",
+            "value": "Cruche en bois  [h\u025br\u02d0\u02c8at\u0254]\nFigure XX\nEn douves d'if, cercl\u00e9es de cuivre",
+            "modified": "2024-11-25T08:51:58.333Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L692SO",
+            "created": "2023-10-05T15:22:58.673Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:22:58.673Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L692SO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C706",
+            "created": "2023-10-05T15:23:00.749Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:23:00.749Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C706"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3028",
+            "created": "2023-10-05T15:23:03.045Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:23:03.045Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3028"
         }
     ],
+    "id": "953d3b63-02e9-45cd-be52-1bd158a1cc6c.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=771.9259643554688,2752.740966796875,333.70379638671875,345.037109375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -55,13 +62,7 @@ order: 19
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0139",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=771.9259643554688,2752.740966796875,333.70379638671875,345.037109375"
         }
     },
-    "id": "953d3b63-02e9-45cd-be52-1bd158a1cc6c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
