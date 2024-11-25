@@ -4,21 +4,46 @@ order: 24
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "B\u00e2ton de la baratte\nFigure",
-            "purpose": "commenting",
+            "created": "2024-11-25T14:52:58.890Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-25T14:52:58.890Z",
-            "modified": "2024-11-25T14:53:12.314Z"
+            "modified": "2024-11-25T14:53:46.346Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "B\u00e2ton de la baratte\nFigure VIIa"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L695O",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-25T14:53:59.845Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q957",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-25T14:54:07.112Z"
         }
     ],
+    "id": "099c65e7-7dd2-4b12-8676-bbe189069d1b.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1081.5731201171875,1386.951171875 1232.0853271484375,1377 1260.6951904296875,1339.6829833984375 1295.5244140625,1350.8780517578125 1383.8414306640625,1623.292724609375 1233.3292236328125,1600.9024658203125 1041.768310546875,1585.9755859375\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -26,12 +51,7 @@ order: 24
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0183",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1081.5731201171875,1386.951171875 1232.0853271484375,1377 1260.6951904296875,1339.6829833984375 1295.5244140625,1350.8780517578125 1383.8414306640625,1623.292724609375 1233.3292236328125,1600.9024658203125 1041.768310546875,1585.9755859375\"></polygon></svg>"
         }
     },
-    "id": "099c65e7-7dd2-4b12-8676-bbe189069d1b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
