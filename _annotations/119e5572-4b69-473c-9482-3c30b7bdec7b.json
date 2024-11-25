@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-10-06T14:57:34.043Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-06T14:57:36.002Z",
+            "modified": "2024-11-25T13:47:28.789Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Chaudi\u00e8re"
+            "value": "Chaudi\u00e8re et couvercle [marm\u02c8it\u0254 \u00f0es p\u02c8\u0254rs ; bar\u02d0a\u00f0\u02c8e]\nFigure I\nChaudi\u00e8re fixe dont le fourneau est b\u00e2ti."
         },
         {
             "created": "2023-10-06T14:57:42.001Z",
@@ -50,6 +50,10 @@ order: 1
     "id": "119e5572-4b69-473c-9482-3c30b7bdec7b.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1166.2,547.3 1698.1,559.1 1760.8,764.6 1969.1,858.7 1927.8,977.1 1826.5,1001.4 1763.7,1041.3 1672.4,1058.4 1164.5,1041.3\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -57,10 +61,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0172",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1166.2,547.3 1698.1,559.1 1760.8,764.6 1969.1,858.7 1927.8,977.1 1826.5,1001.4 1763.7,1041.3 1672.4,1058.4 1164.5,1041.3\"></polygon></svg>"
         }
     },
     "type": "Annotation"
