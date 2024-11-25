@@ -4,51 +4,56 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Berceau mont\u00e9 sur deux demi-cercles ; on ber\u00e7ait l'enfant avec le pied (ancien)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-06T19:53:14.407Z",
-            "modified": "2023-10-06T19:53:51.420Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-25T16:14:57.813Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Berceau\nFigure II\nMont\u00e9 sur deux demi-cercles ; on ber\u00e7ait l'enfant avec le pied (ancien)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L780NO",
+            "created": "2023-10-06T19:54:00.508Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T19:54:00.508Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L780NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C760",
+            "created": "2023-10-06T19:54:03.065Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T19:54:03.065Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C760"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1087",
+            "created": "2023-10-06T19:54:07.196Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T19:54:07.196Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1087"
         }
     ],
+    "id": "8241a8a2-1c56-4712-81ff-bc6abe7615e3.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2161.448486328125,616.197509765625 1640.9547119140625,896.0328979492188 1713.7119140625,1114.3045654296875 1926.3868408203125,1187.061767578125 2343.341552734375,840.0658569335938 2365.728515625,705.744873046875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,12 +61,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0193",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2161.448486328125,616.197509765625 1640.9547119140625,896.0328979492188 1713.7119140625,1114.3045654296875 1926.3868408203125,1187.061767578125 2343.341552734375,840.0658569335938 2365.728515625,705.744873046875\"></polygon></svg>"
         }
     },
-    "id": "8241a8a2-1c56-4712-81ff-bc6abe7615e3.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
