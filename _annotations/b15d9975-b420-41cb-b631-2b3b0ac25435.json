@@ -27,14 +27,24 @@ order: 1
             "value": "L790S"
         },
         {
-            "created": "2023-10-05T15:48:58.852Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q???"
+            "purpose": "tagging",
+            "value": "Q7705",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-25T12:08:59.373Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C721",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-25T12:09:08.687Z"
         }
     ],
     "id": "b15d9975-b420-41cb-b631-2b3b0ac25435.json",
