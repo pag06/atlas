@@ -11,10 +11,10 @@ order: 7
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-25T14:46:50.528Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Baratte\nFigure VII\nB\u00e2ton [bate\u00f0\u02c8e]\nCouvercle [pl'ek]",
-            "modified": "2024-11-25T14:46:50.528Z"
+            "value": "Baratte\nFigure VII\nB\u00e2ton [bate\u00f0\u02c8e]\nCouvercle [pl'ek]"
         },
         {
             "created": "2023-10-06T15:28:42.304Z",
@@ -37,14 +37,14 @@ order: 7
             "value": "Q858"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q957",
+            "created": "2024-11-25T14:46:09.371Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-25T14:46:09.371Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q957"
         }
     ],
     "id": "c3477e23-4587-484c-80b8-002a21e02559.json",
