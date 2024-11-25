@@ -4,51 +4,56 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Cuiller en bois, grande, sans manche mais avec une tr\u00e8s courte poign\u00e9e ; type sp\u00e9cialement pyr\u00e9n\u00e9en, servant \u00e0 \u00e9cr\u00e9mer ou \u00e0 boire le lait autrefois \u00e0 manger la bouillie",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-06T14:52:41.463Z",
-            "modified": "2023-10-06T14:53:31.506Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-25T13:42:27.480Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Cuiller en bois [ky\u028e\u02c8\u025b]\nFigure IV\nGrande, sans manche mais avec une tr\u00e8s courte poign\u00e9e ; type sp\u00e9cialement pyr\u00e9n\u00e9en, servant \u00e0 \u00e9cr\u00e9mer ou \u00e0 boire le lait autrefois \u00e0 manger la bouillie"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L697",
+            "created": "2023-10-06T14:53:45.383Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T14:53:45.383Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L697"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C11049",
+            "created": "2023-10-06T14:53:49.070Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T14:53:49.070Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C11049"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L737",
+            "created": "2023-10-06T14:53:51.603Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T14:53:51.603Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L737"
         }
     ],
+    "id": "fbcb9353-fdb5-4660-a589-7039d67215a0.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1997.1851806640625,716.5185546875 2207.4814453125,714.0000610351562 2206.22216796875,895.3333740234375 2154.592529296875,938.148193359375 2125.4541015625,941.9340209960938 2119.33349609375,1075.407470703125 1968.2222900390625,1135.8519287109375 1796.9630126953125,1124.5185546875 1799.4815673828125,1014.9630126953125\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,12 +61,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0170",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1997.1851806640625,716.5185546875 2207.4814453125,714.0000610351562 2206.22216796875,895.3333740234375 2154.592529296875,938.148193359375 2125.4541015625,941.9340209960938 2119.33349609375,1075.407470703125 1968.2222900390625,1135.8519287109375 1796.9630126953125,1124.5185546875 1799.4815673828125,1014.9630126953125\"></polygon></svg>"
         }
     },
-    "id": "fbcb9353-fdb5-4660-a589-7039d67215a0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
