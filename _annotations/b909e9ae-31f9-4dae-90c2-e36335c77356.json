@@ -11,10 +11,10 @@ order: 14
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-25T15:10:35.249Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Faisselle m\u00e9tallique\nFigure XIV",
-            "modified": "2024-11-25T15:10:35.249Z"
+            "value": "Faisselle m\u00e9tallique\nFigure XIV"
         },
         {
             "created": "2023-10-06T15:33:43.372Z",
@@ -27,14 +27,14 @@ order: 14
             "value": "L691O"
         },
         {
-            "created": "2023-10-06T15:33:46.171Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q4396"
+            "purpose": "tagging",
+            "value": "Q4395",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-25T15:11:18.108Z"
         }
     ],
     "id": "b909e9ae-31f9-4dae-90c2-e36335c77356.json",
