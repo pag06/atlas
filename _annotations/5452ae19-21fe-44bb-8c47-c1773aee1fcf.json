@@ -11,10 +11,10 @@ order: 4
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-25T12:17:23.061Z",
+            "modified": "2024-11-25T12:17:59.053Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Pot \u00e0 soupe, en m\u00e9tal"
+            "value": "Pot \u00e0 soupe, en m\u00e9tal [met'aw]\nFigure IV"
         },
         {
             "created": "2023-10-06T04:59:25.202Z",
@@ -37,14 +37,14 @@ order: 4
             "value": "C733"
         },
         {
-            "created": "2023-10-06T04:59:28.015Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q8116"
+            "purpose": "tagging",
+            "value": "Q8112",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-25T12:18:13.799Z"
         }
     ],
     "id": "5452ae19-21fe-44bb-8c47-c1773aee1fcf.json",
