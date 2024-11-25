@@ -37,14 +37,14 @@ order: 2
             "value": "C891"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q11000",
+            "created": "2024-11-25T16:57:17.620Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-25T16:57:17.620Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q11000"
         }
     ],
     "id": "cbab8599-7077-46a0-bccd-3c1e81d4804e.json",
