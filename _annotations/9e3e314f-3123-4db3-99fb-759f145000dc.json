@@ -21,10 +21,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-25T13:58:47.626Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "P\u00e9trin et tamis\nFigure II",
-            "modified": "2024-11-25T13:58:47.626Z"
+            "value": "P\u00e9trin et tamis\nFigure II"
         },
         {
             "created": "2023-10-06T15:08:20.106Z",
@@ -45,6 +45,16 @@ order: 2
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q7597"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9757",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-25T13:59:29.839Z"
         }
     ],
     "id": "9e3e314f-3123-4db3-99fb-759f145000dc.json",
