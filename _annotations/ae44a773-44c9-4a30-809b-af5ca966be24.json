@@ -11,10 +11,10 @@ order: 16
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-25T15:12:33.444Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Faisselle en terre cuite\nFigure XV",
-            "modified": "2024-11-25T15:11:52.618Z"
+            "value": "Faisselle en terre cuite [kup]\nFigure XV"
         },
         {
             "created": "2023-10-06T15:35:28.529Z",
@@ -27,14 +27,14 @@ order: 16
             "value": "L791O"
         },
         {
-            "created": "2023-10-06T15:35:30.403Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q4396"
+            "purpose": "tagging",
+            "value": "Q4395",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-25T15:12:51.824Z"
         }
     ],
     "id": "ae44a773-44c9-4a30-809b-af5ca966be24.json",
