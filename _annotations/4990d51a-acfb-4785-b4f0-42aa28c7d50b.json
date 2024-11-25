@@ -4,50 +4,51 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Terrine, cuvette de terre cuite en c\u00f4ne invers\u00e9",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-06T14:49:40.487Z",
-            "modified": "2023-10-06T14:49:57.555Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L691O",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T14:50:04.080Z"
+            "modified": "2023-10-06T14:49:57.555Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Terrine, cuvette de terre cuite en c\u00f4ne invers\u00e9"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C736",
+            "created": "2023-10-06T14:50:04.080Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T14:50:06.665Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L691O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9917",
+            "created": "2023-10-06T14:50:06.665Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T14:50:09.216Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C736"
+        },
+        {
+            "created": "2023-10-06T14:50:09.216Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9917"
         }
     ],
+    "id": "4990d51a-acfb-4785-b4f0-42aa28c7d50b.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -60,9 +61,8 @@ order: 5
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1814.733642578125,1483.736572265625,443.5537109375,336.6732177734375"
+            "value": "xywh=1784.9156494140625,1494.7138671875,473.3717041015625,325.6959228515625"
         }
     },
-    "id": "4990d51a-acfb-4785-b4f0-42aa28c7d50b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
