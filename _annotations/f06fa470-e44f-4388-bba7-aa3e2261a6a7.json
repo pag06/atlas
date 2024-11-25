@@ -4,51 +4,56 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Pot \u00e0 graisse",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-06T04:58:05.520Z",
-            "modified": "2023-10-06T04:58:08.716Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-25T12:14:36.777Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Pot \u00e0 graisse ou \u00e0 confit, en terre\nFigure II"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L679SO",
+            "created": "2023-10-06T04:58:13.716Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T04:58:13.716Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L679SO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C733",
+            "created": "2023-10-06T04:58:15.383Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T04:58:15.383Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C733"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8116",
+            "created": "2023-10-06T04:58:17.457Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T04:58:17.457Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8116"
         }
     ],
+    "id": "f06fa470-e44f-4388-bba7-aa3e2261a6a7.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1809.4,721.2 1992,721.2 2174.7,721.2 2174.7,930.5 2174.7,1139.7 1909.6,1139.7 1841.7,1013.7 1809.4,930.5\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,12 +61,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0166",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1809.4,721.2 1992,721.2 2174.7,721.2 2174.7,930.5 2174.7,1139.7 1909.6,1139.7 1841.7,1013.7 1809.4,930.5\"></polygon></svg>"
         }
     },
-    "id": "f06fa470-e44f-4388-bba7-aa3e2261a6a7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
