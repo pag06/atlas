@@ -4,40 +4,46 @@ order: 16
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Faisselle",
+            "created": "2023-10-06T15:35:20.630Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-06T15:35:20.630Z"
+            "type": "TextualBody",
+            "value": "Faisselle en terre cuite\nFigure XV",
+            "modified": "2024-11-25T15:11:52.618Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L791O",
+            "created": "2023-10-06T15:35:28.529Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T15:35:28.529Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L791O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4396",
+            "created": "2023-10-06T15:35:30.403Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T15:35:30.403Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4396"
         }
     ],
+    "id": "ae44a773-44c9-4a30-809b-af5ca966be24.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1856.148193359375,2222.592529296875 2211.25927734375,2227.629638671875 2198.666748046875,2663.33349609375 1944.29638671875,2668.370361328125 1934.2222900390625,2502.148193359375 1966.9630126953125,2461.851806640625 1878.81494140625,2426.5927734375\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -45,12 +51,7 @@ order: 16
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0183",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1856.148193359375,2222.592529296875 2211.25927734375,2227.629638671875 2198.666748046875,2663.33349609375 1944.29638671875,2668.370361328125 1934.2222900390625,2502.148193359375 1966.9630126953125,2461.851806640625 1878.81494140625,2426.5927734375\"></polygon></svg>"
         }
     },
-    "id": "ae44a773-44c9-4a30-809b-af5ca966be24.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
