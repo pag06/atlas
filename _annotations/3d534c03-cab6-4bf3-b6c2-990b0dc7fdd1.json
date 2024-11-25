@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-10-05T15:10:59.106Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-05T15:11:00.151Z",
+            "modified": "2024-11-25T08:27:16.605Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9vier"
+            "value": "\u00c9vier (int\u00e9rieur / ext\u00e9rieur)\nFigure I"
         },
         {
             "created": "2023-10-05T15:11:09.912Z",
@@ -50,6 +50,10 @@ order: 1
     "id": "3d534c03-cab6-4bf3-b6c2-990b0dc7fdd1.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"627.1,153.6 601.9,790.8 1503.6,788.3 1463.3,574.2 1226.5,471 1191.3,146.1 753.8,146.8\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -57,10 +61,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0139",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"627.1,153.6 601.9,790.8 1503.6,788.3 1463.3,574.2 1226.5,471 1191.3,146.1 753.8,146.8\"></polygon></svg>"
         }
     },
     "type": "Annotation"
