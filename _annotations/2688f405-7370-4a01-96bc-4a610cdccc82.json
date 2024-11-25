@@ -8,13 +8,13 @@ order: 19
         {
             "created": "2023-10-06T20:23:13.604Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
+            "modified": "2024-11-25T16:39:53.816Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Corbeille sans anses",
-            "modified": "2023-10-08T15:59:24.074Z"
+            "value": "Corbeille sans anses [k\u02c8aw\u0292\u0259]\nFigure XIX\nPour r\u00e9colter le ma\u00efs, et servant aussi de mue.\n"
         },
         {
             "created": "2023-10-06T20:23:19.250Z",
@@ -35,6 +35,16 @@ order: 19
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q2618"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6819",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-25T16:40:25.054Z"
         }
     ],
     "id": "2688f405-7370-4a01-96bc-4a610cdccc82.json",
