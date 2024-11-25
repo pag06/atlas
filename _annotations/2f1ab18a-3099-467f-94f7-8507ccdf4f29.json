@@ -4,51 +4,57 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Casserole en terre",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-06T05:01:23.247Z",
-            "modified": "2023-10-06T05:01:29.519Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-25T12:20:29.574Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Casserole en terre [kaser\u02c8\u0254l\u0254]\nFigure II"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1795",
+            "created": "2023-10-06T05:01:34.918Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T05:01:34.918Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1795"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C734",
+            "created": "2023-10-06T05:01:37.312Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T05:01:37.312Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C734"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L760E",
+            "created": "2023-10-06T05:01:46.188Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T05:01:46.188Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L760E"
         }
     ],
+    "id": "2f1ab18a-3099-467f-94f7-8507ccdf4f29.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1602.946044921875,860.0723266601562,402.9630126953125,172.51849365234375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,13 +62,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0167",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1602.946044921875,860.0723266601562,402.9630126953125,172.51849365234375"
         }
     },
-    "id": "2f1ab18a-3099-467f-94f7-8507ccdf4f29.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
