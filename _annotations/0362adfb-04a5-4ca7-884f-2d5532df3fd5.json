@@ -4,41 +4,47 @@ order: 20
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Ustensile pour fromage, pour saisir le caill\u00e9",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-06T15:37:55.001Z",
-            "modified": "2023-10-06T15:38:29.129Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-25T16:09:51.108Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Ustensile pour fromage, pour saisir le caill\u00e9 [k'\u0254s\u0254]\nFigure XX"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L790S",
+            "created": "2023-10-06T15:38:38.047Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T15:38:38.047Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L790S"
         },
         {
             "type": "TextualBody",
+            "value": "Q6137",
             "purpose": "tagging",
-            "value": "Q???",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-10-06T15:39:55.717Z"
+            "created": "2024-11-25T16:09:17.619Z",
+            "modified": "2024-11-25T16:09:26.337Z"
         }
     ],
+    "id": "0362adfb-04a5-4ca7-884f-2d5532df3fd5.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"243.91937255859375,2880.3115234375 850.138671875,2668.83984375 1035.763916015625,2774.57568359375 1000.5186157226562,2823.919189453125 659.8140258789062,2913.207275390625 577.574951171875,3044.78955078125 387.25030517578125,3082.384765625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -46,12 +52,7 @@ order: 20
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0183",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"243.91937255859375,2880.3115234375 850.138671875,2668.83984375 1035.763916015625,2774.57568359375 1000.5186157226562,2823.919189453125 659.8140258789062,2913.207275390625 577.574951171875,3044.78955078125 387.25030517578125,3082.384765625\"></polygon></svg>"
         }
     },
-    "id": "0362adfb-04a5-4ca7-884f-2d5532df3fd5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
