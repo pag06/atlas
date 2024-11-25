@@ -27,14 +27,24 @@ order: 22
             "value": "L699NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5886",
+            "created": "2024-11-25T15:20:05.077Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-25T15:20:05.077Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5886"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C750",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-25T15:21:49.452Z"
         }
     ],
     "id": "beb72f84-1cb7-4d1a-94c7-dda0fef369cd.json",
