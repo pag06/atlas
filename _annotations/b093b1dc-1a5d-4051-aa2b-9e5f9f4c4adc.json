@@ -4,51 +4,57 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Pot \u00e0 graisse",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-06T04:56:49.115Z",
-            "modified": "2023-10-06T04:56:52.280Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-25T12:14:08.597Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Pot \u00e0 graisse ou confit, en terre\nFigure I"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L791O",
+            "created": "2023-10-06T04:56:57.308Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T04:56:57.308Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L791O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C733",
+            "created": "2023-10-06T04:56:59.561Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T04:56:59.561Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C733"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8116",
+            "created": "2023-10-06T04:57:12.778Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T04:57:12.778Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8116"
         }
     ],
+    "id": "b093b1dc-1a5d-4051-aa2b-9e5f9f4c4adc.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1067.6219482421875,716.3173828125,423.4229736328125,244.03387451171875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,13 +62,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0166",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1067.6219482421875,716.3173828125,423.4229736328125,244.03387451171875"
         }
     },
-    "id": "b093b1dc-1a5d-4051-aa2b-9e5f9f4c4adc.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
