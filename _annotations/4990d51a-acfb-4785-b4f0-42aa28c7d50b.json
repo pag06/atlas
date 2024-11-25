@@ -8,23 +8,13 @@ order: 5
         {
             "created": "2023-10-06T14:49:40.487Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-06T14:49:57.555Z",
+            "modified": "2024-11-25T13:38:36.806Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Terrine, cuvette de terre cuite en c\u00f4ne invers\u00e9"
-        },
-        {
-            "created": "2023-10-06T14:50:04.080Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L691O"
+            "value": "Terrine [\u0261araz\u02c8alo]\nFigure V\nCuvette de terre cuite en c\u00f4ne invers\u00e9"
         },
         {
             "created": "2023-10-06T14:50:06.665Z",
@@ -45,11 +35,26 @@ order: 5
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q9917"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L791O",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-25T13:38:54.653Z"
         }
     ],
     "id": "4990d51a-acfb-4785-b4f0-42aa28c7d50b.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1784.9156494140625,1494.7138671875,473.3717041015625,325.6959228515625"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -57,11 +62,6 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0169",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1784.9156494140625,1494.7138671875,473.3717041015625,325.6959228515625"
         }
     },
     "type": "Annotation"
