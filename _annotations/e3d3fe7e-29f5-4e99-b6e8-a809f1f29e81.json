@@ -4,40 +4,47 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Vase \u00e0 lait",
+            "created": "2023-10-06T15:24:59.309Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-06T15:24:59.309Z"
+            "type": "TextualBody",
+            "value": "Vase \u00e0 lait (seau \u00e0 traire)\nFigure II\nCelui qui trait s'assied \u00e0 califourchon sur la courbure. Sert \u00e9galement au transport. Toujours en bois : on scie sur pied un sapin, \u00e0 hauteur de l'objet ; on laisse pourrir le c\u0153ur, puis on scie \u00e0 la base et on \u00e9vide le centre.",
+            "modified": "2024-11-25T14:28:37.875Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L790S",
+            "created": "2023-10-06T15:25:04.252Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T15:25:04.252Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L790S"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9275",
+            "created": "2023-10-06T15:25:09.078Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T15:25:09.078Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9275"
         }
     ],
+    "id": "e3d3fe7e-29f5-4e99-b6e8-a809f1f29e81.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=593.3748779296875,243.8788604736328,301.0726318359375,545.1855926513672"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -45,13 +52,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0183",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=593.3748779296875,243.8788604736328,301.0726318359375,545.1855926513672"
         }
     },
-    "id": "e3d3fe7e-29f5-4e99-b6e8-a809f1f29e81.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
