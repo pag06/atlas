@@ -4,51 +4,56 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L650",
+            "created": "2023-10-05T15:44:01.431Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:44:01.431Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L650"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C715",
+            "created": "2023-10-05T15:44:03.962Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:44:03.962Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C715"
         },
         {
-            "type": "TextualBody",
-            "value": "Planche \u00e0 laver",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-05T15:44:59.833Z",
-            "modified": "2023-10-05T15:45:02.082Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-25T12:00:24.439Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Planche \u00e0 laver [t\u02c8awl\u0259 a law\u02c8a]\nFigure VI"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7799",
+            "created": "2023-10-05T15:45:05.452Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:45:05.452Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7799"
         }
     ],
+    "id": "88e7b8dc-ec4b-4527-9f1b-cb55cc1735f8.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1856.000732421875,1464.1873779296875 2112.323486328125,1421.969482421875 2245.008056640625,1539.576416015625 2229.93017578125,1762.727783203125 2058.0380859375,1771.7752685546875 1994.7164306640625,1817.0078125 1895.2030029296875,1798.91455078125\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,12 +61,7 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0148",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1856.000732421875,1464.1873779296875 2112.323486328125,1421.969482421875 2245.008056640625,1539.576416015625 2229.93017578125,1762.727783203125 2058.0380859375,1771.7752685546875 1994.7164306640625,1817.0078125 1895.2030029296875,1798.91455078125\"></polygon></svg>"
         }
     },
-    "id": "88e7b8dc-ec4b-4527-9f1b-cb55cc1735f8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
