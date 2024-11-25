@@ -11,10 +11,10 @@ order: 6
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-25T14:01:22.480Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "R\u00e2telier \u00e0 pain\nFigure VI",
-            "modified": "2024-11-25T14:01:22.480Z"
+            "value": "R\u00e2telier \u00e0 pain\nFigure VI"
         },
         {
             "created": "2023-10-06T15:10:05.450Z",
@@ -37,14 +37,14 @@ order: 6
             "value": "C740"
         },
         {
-            "created": "2023-10-06T15:10:09.192Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q7597"
+            "purpose": "tagging",
+            "value": "Q7273",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-25T14:02:53.113Z"
         }
     ],
     "id": "85abbf52-76c6-4dd0-8feb-80189eaf1fb9.json",
