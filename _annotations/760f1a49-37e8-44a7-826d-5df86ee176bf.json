@@ -8,12 +8,13 @@ order: 11
         {
             "created": "2023-10-06T15:31:25.588Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Faisselle"
+            "value": "Faisselle\nFigure XII\nCerceau d'\u00e9corce ou de bois de h\u00eatre",
+            "modified": "2024-11-25T15:03:28.152Z"
         },
         {
             "created": "2023-10-06T15:31:30.359Z",
@@ -39,6 +40,10 @@ order: 11
     "id": "760f1a49-37e8-44a7-826d-5df86ee176bf.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1857.8,1481.5 2029.4,1477.8 2217.3,1475.3 2215.7,1610.9 2215.7,1754.3 2002.1,1750.3 1831.2,1805.2 1855.6,1610.9\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -46,10 +51,6 @@ order: 11
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0183",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1857.8,1481.5 2029.4,1477.8 2217.3,1475.3 2215.7,1610.9 2215.7,1754.3 2002.1,1750.3 1831.2,1805.2 1855.6,1610.9\"></polygon></svg>"
         }
     },
     "type": "Annotation"
