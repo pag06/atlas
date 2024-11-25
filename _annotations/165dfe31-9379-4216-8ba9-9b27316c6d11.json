@@ -4,52 +4,57 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Gril \u00e0 m\u00e9ture\nr\u00e9gion de Dax",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-06T15:16:48.011Z",
-            "modified": "2023-10-06T15:16:54.219Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-25T14:08:37.341Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Gril \u00e0 m\u00e9ture, r\u00e9gion de Dax\nFigure V"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-10-06T15:17:00.197Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-10-06T15:17:02.588Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T15:17:00.197Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q5329",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-06T15:17:02.588Z"
+            "type": "TextualBody",
+            "value": "Q5329"
         },
         {
-            "type": "TextualBody",
-            "value": "Croquis : Lalanne",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-06T15:17:48.439Z",
-            "modified": "2023-10-06T15:17:51.129Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-10-06T15:17:51.129Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Croquis : Lalanne"
         }
     ],
+    "id": "165dfe31-9379-4216-8ba9-9b27316c6d11.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1855.061767578125,1532.87548828125 2018.6981201171875,1540.148193359375 2115.061767578125,1472.87548828125 2335.061767578125,1487.4210205078125 2302.33447265625,1709.2391357421875 2078.6982421875,1698.330078125 1956.8800048828125,1596.5118408203125 1858.688720703125,1587.42041015625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -57,12 +62,7 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0176",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1855.061767578125,1532.87548828125 2018.6981201171875,1540.148193359375 2115.061767578125,1472.87548828125 2335.061767578125,1487.4210205078125 2302.33447265625,1709.2391357421875 2078.6982421875,1698.330078125 1956.8800048828125,1596.5118408203125 1858.688720703125,1587.42041015625\"></polygon></svg>"
         }
     },
-    "id": "165dfe31-9379-4216-8ba9-9b27316c6d11.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
