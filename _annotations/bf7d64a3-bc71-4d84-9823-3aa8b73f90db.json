@@ -8,13 +8,13 @@ order: 23
         {
             "created": "2023-10-06T20:24:43.991Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
+            "modified": "2024-11-25T16:43:36.948Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Corbeille-b\u00e2t",
-            "modified": "2023-10-08T16:00:27.930Z"
+            "value": "Corbeille-b\u00e2t [k\u02c8aw\u0292\u0254]\nFigure XXIII et XXIV"
         },
         {
             "created": "2023-10-06T20:24:47.817Z",
@@ -35,6 +35,16 @@ order: 23
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q2618"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q929",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-25T16:44:05.689Z"
         }
     ],
     "id": "bf7d64a3-bc71-4d84-9823-3aa8b73f90db.json",
