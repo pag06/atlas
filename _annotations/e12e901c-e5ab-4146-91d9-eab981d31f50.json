@@ -38,18 +38,22 @@ order: 4
         {
             "created": "2023-10-05T15:33:27.295Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-05T15:33:30.088Z",
+            "modified": "2024-11-25T10:53:39.745Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Treuil"
+            "value": "Treuil\nFigure V"
         }
     ],
     "id": "e12e901c-e5ab-4146-91d9-eab981d31f50.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1876.3,1851.1 2042.5,1569 2264.1,1571.6 2276.7,1939.3 2026.9,1879.5 1946.8,1949.3\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -57,10 +61,6 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0145",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1876.3,1851.1 2042.5,1569 2264.1,1571.6 2276.7,1939.3 2026.9,1879.5 1946.8,1949.3\"></polygon></svg>"
         }
     },
     "type": "Annotation"
