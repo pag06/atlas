@@ -11,10 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-25T14:12:30.994Z",
+            "modified": "2024-11-25T14:22:04.564Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Vase \u00e0 lait\nFigure I"
+            "value": "Vase \u00e0 lait [ky\u03b2\u02c8a]\nFigure I"
         },
         {
             "created": "2023-10-06T15:24:24.081Z",
@@ -27,14 +27,14 @@ order: 1
             "value": "L697"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8666",
+            "created": "2024-11-25T14:12:20.346Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-25T14:12:20.346Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8666"
         }
     ],
     "id": "707c9aa4-3554-4d33-9a12-62e4731c4e1f.json",
