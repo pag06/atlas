@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-10-06T04:53:23.695Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-06T04:53:26.055Z",
+            "modified": "2024-11-25T12:11:17.974Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Marmite"
+            "value": "Marmite en fonte\nFigure I\nOn y cuit la p\u00e2t\u00e9e des porcs"
         },
         {
             "created": "2023-10-06T04:53:31.271Z",
@@ -50,6 +50,11 @@ order: 1
     "id": "d89d09c7-d434-401f-8d6f-f03f60985c9b.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1269.432373046875,666.56787109375,440.08203125,390.0418701171875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -57,11 +62,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0165",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1269.432373046875,666.56787109375,440.08203125,390.0418701171875"
         }
     },
     "type": "Annotation"
