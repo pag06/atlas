@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-10-06T14:58:39.894Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-06T14:58:41.515Z",
+            "modified": "2024-11-25T13:49:15.415Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Chaudi\u00e8re"
+            "value": "Chaudi\u00e8re\nFigure II"
         },
         {
             "created": "2023-10-06T14:58:46.101Z",
@@ -50,6 +50,10 @@ order: 2
     "id": "b61f47ce-e464-4a54-98f3-8a849867d085.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1946.8,962.1 2177.3,965.9 2233.4,1054.8 2242.1,1306.1 2130.7,1546.4 1705,1504.8 1693.6,1048.6 1766.7,1032.6 1808,1008.8\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -57,10 +61,6 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0172",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1946.8,962.1 2177.3,965.9 2233.4,1054.8 2242.1,1306.1 2130.7,1546.4 1705,1504.8 1693.6,1048.6 1766.7,1032.6 1808,1008.8\"></polygon></svg>"
         }
     },
     "type": "Annotation"
