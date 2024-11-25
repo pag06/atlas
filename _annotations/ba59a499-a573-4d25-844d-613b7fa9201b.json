@@ -4,42 +4,48 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Moine",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-06T20:09:41.525Z",
-            "modified": "2023-10-06T20:10:25.948Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-25T16:18:20.321Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Chauffe-lit : moine\nFigure II"
         },
         {
-            "type": "TextualBody",
-            "value": "L679SO",
-            "purpose": "tagging",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-06T20:09:46.027Z",
-            "modified": "2023-10-06T20:09:48.512Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2149",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T20:10:31.765Z"
+            "modified": "2023-10-06T20:09:48.512Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L679SO"
+        },
+        {
+            "created": "2023-10-06T20:10:31.765Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2149"
         }
     ],
+    "id": "ba59a499-a573-4d25-844d-613b7fa9201b.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1432.0689697265625,823.9422607421875,782.9527587890625,351.92706298828125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -47,13 +53,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0197",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1432.0689697265625,823.9422607421875,782.9527587890625,351.92706298828125"
         }
     },
-    "id": "ba59a499-a573-4d25-844d-613b7fa9201b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
