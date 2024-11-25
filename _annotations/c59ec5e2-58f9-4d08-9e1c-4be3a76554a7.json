@@ -4,41 +4,46 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\u00c9gouttoir \u00e0 vaisselle avec cadre de batterie",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-06T20:14:35.491Z",
-            "modified": "2023-10-06T20:14:48.715Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L647NO",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T20:14:40.358Z"
+            "modified": "2023-10-06T20:14:48.715Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "\u00c9gouttoir \u00e0 vaisselle avec cadre de batterie"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3743",
+            "created": "2023-10-06T20:14:40.358Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T20:14:42.489Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L647NO"
+        },
+        {
+            "created": "2023-10-06T20:14:42.489Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3743"
         }
     ],
+    "id": "c59ec5e2-58f9-4d08-9e1c-4be3a76554a7.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2203.703857421875,1019.5382690429688 2218.81494140625,1618.9456787109375 2168.444580078125,1629.019775390625 2165.926025390625,1588.7235107421875 2004.7408447265625,1588.7235107421875 2004.7408447265625,1684.42724609375 1966.963134765625,1691.9827880859375 1888.8890380859375,1573.6124267578125 1858.666748046875,999.39013671875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -46,12 +51,7 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0198",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2203.703857421875,1019.5382690429688 2218.81494140625,1618.9456787109375 2168.444580078125,1629.019775390625 2165.926025390625,1588.7235107421875 2004.7408447265625,1588.7235107421875 2004.7408447265625,1684.42724609375 1966.963134765625,1691.9827880859375 1888.8890380859375,1573.6124267578125 1858.666748046875,999.39013671875\"></polygon></svg>"
         }
     },
-    "id": "c59ec5e2-58f9-4d08-9e1c-4be3a76554a7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
