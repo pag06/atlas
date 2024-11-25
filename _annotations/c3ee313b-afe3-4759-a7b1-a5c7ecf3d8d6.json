@@ -4,51 +4,57 @@ order: 4
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Petit pot de terre \u00e0 bec et couvercle allant au feu",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-06T05:05:42.428Z",
-            "modified": "2023-10-06T05:05:55.259Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-25T13:31:31.138Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Petit pot de terre \u00e0 bec et couvercle allant au feu [tup\u02c8i\u0303\u014b]\nFigure V"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L771NO",
+            "created": "2023-10-06T05:06:02.489Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T05:06:02.489Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L771NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8133",
+            "created": "2023-10-06T05:06:04.967Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T05:06:04.967Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8133"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C735",
+            "created": "2023-10-06T05:06:07.357Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T05:06:07.357Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C735"
         }
     ],
+    "id": "c3ee313b-afe3-4759-a7b1-a5c7ecf3d8d6.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1896.444580078125,962.0741577148438,337.4814453125,365.18524169921875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,13 +62,7 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0168",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1896.444580078125,962.0741577148438,337.4814453125,365.18524169921875"
         }
     },
-    "id": "c3ee313b-afe3-4759-a7b1-a5c7ecf3d8d6.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
