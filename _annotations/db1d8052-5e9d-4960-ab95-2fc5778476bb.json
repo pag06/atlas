@@ -4,40 +4,56 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Vase \u00e0 lait",
+            "created": "2023-10-06T15:25:47.503Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Vase \u00e0 lait (seau \u00e0 traire) [l'ero]\nFigure III\nCelui qui trait s'assied \u00e0 califourchon sur la courbure. Sert \u00e9galement au transport. Toujours en bois : on scie sur pied un sapin, \u00e0 hauteur de l'objet ; on laisse pourrir le c\u0153ur, puis on scie \u00e0 la base et on \u00e9vide le centre.",
+            "modified": "2024-11-25T14:31:48.886Z"
+        },
+        {
+            "created": "2023-10-06T15:25:53.531Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T15:25:47.503Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L791O"
+        },
+        {
+            "created": "2023-10-06T15:25:57.377Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9275"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L791O",
+            "value": "C751",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-10-06T15:25:53.531Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9275",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-06T15:25:57.377Z"
+            "created": "2024-11-25T14:32:03.747Z"
         }
     ],
+    "id": "db1d8052-5e9d-4960-ab95-2fc5778476bb.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1059.2237548828125,101.47962951660156 1618.6492919921875,119.78810119628906 1614.5806884765625,624.2882080078125 1447.770263671875,923.3265380859375 1423.35888671875,1177.61083984375 994.126953125,1193.8851318359375 990.0584106445312,1098.274169921875 1069.3951416015625,1043.3487548828125 949.3729248046875,909.086669921875 890.3789672851562,544.9514770507812 870.0361938476562,382.20953369140625 1032.7781982421875,243.8788604736328\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -45,12 +61,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0183",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1059.2237548828125,101.47962951660156 1618.6492919921875,119.78810119628906 1614.5806884765625,624.2882080078125 1447.770263671875,923.3265380859375 1423.35888671875,1177.61083984375 994.126953125,1193.8851318359375 990.0584106445312,1098.274169921875 1069.3951416015625,1043.3487548828125 949.3729248046875,909.086669921875 890.3789672851562,544.9514770507812 870.0361938476562,382.20953369140625 1032.7781982421875,243.8788604736328\"></polygon></svg>"
         }
     },
-    "id": "db1d8052-5e9d-4960-ab95-2fc5778476bb.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
