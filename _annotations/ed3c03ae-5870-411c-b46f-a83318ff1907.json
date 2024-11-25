@@ -27,23 +27,19 @@ order: 2
             "value": "L790S"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q12080",
+            "created": "2024-11-25T12:05:41.777Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-25T12:05:41.777Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q12080"
         }
     ],
     "id": "ed3c03ae-5870-411c-b46f-a83318ff1907.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1464.658447265625,540.6419677734375 1959.967041015625,532.2468872070312 1979.5555419921875,971.5885009765625 1834.0411376953125,1030.3538818359375 1523.423828125,982.7818603515625\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -51,6 +47,10 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0154",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1474.2,538.7 1977.8,536 1979.6,971.6 1834,1030.4 1474.2,979.7\"></polygon></svg>"
         }
     },
     "type": "Annotation"
