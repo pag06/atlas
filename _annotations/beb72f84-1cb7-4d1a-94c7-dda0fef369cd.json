@@ -4,41 +4,36 @@ order: 22
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Ustensile pour le fromage\npour plonger le fromage dans le petit lait bouillant : la cro\u00fbte se forme",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-06T15:41:32.693Z",
-            "modified": "2023-10-06T15:42:17.067Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-25T15:16:50.563Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Ustensile pour le fromage [kruts d\u025bt\u0283 urm\u02c8a\u025f\u0292e]\nFigure XXI\npour plonger le fromage dans le petit lait bouillant : la cro\u00fbte se forme"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L699NO",
+            "created": "2023-10-06T15:42:22.386Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T15:42:22.386Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-06T15:42:23.631Z"
+            "type": "TextualBody",
+            "value": "L699NO"
         }
     ],
+    "id": "beb72f84-1cb7-4d1a-94c7-dda0fef369cd.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1297.037109375,2291.851806640625 1417.926025390625,2266.666748046875 1576.5926513671875,2604.148193359375 1490.9630126953125,2709.926025390625 1360.0001220703125,2619.25927734375 1264.2152099609375,2697.378662109375 1229.037109375,2697.33349609375 1161.037109375,2636.888916015625 1186.2222900390625,2430.37060546875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -46,12 +41,7 @@ order: 22
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0183",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1297.037109375,2291.851806640625 1417.926025390625,2266.666748046875 1576.5926513671875,2604.148193359375 1490.9630126953125,2709.926025390625 1360.0001220703125,2619.25927734375 1264.2152099609375,2697.378662109375 1229.037109375,2697.33349609375 1161.037109375,2636.888916015625 1186.2222900390625,2430.37060546875\"></polygon></svg>"
         }
     },
-    "id": "beb72f84-1cb7-4d1a-94c7-dda0fef369cd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
