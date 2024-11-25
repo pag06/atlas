@@ -27,15 +27,25 @@ order: 20
             "value": "L790S"
         },
         {
-            "type": "TextualBody",
-            "value": "Q6137",
-            "purpose": "tagging",
+            "created": "2024-11-25T16:09:17.619Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-25T16:09:17.619Z",
-            "modified": "2024-11-25T16:09:26.337Z"
+            "modified": "2024-11-25T16:09:26.337Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6137"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C750",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-25T16:10:26.215Z"
         }
     ],
     "id": "0362adfb-04a5-4ca7-884f-2d5532df3fd5.json",
