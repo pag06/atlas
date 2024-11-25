@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-10-05T15:49:11.347Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-05T15:49:12.423Z",
+            "modified": "2024-11-25T12:07:03.270Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Mortier"
+            "value": "Mortier \u00e0 sel"
         },
         {
             "created": "2023-10-05T15:49:32.191Z",
@@ -40,6 +40,10 @@ order: 2
     "id": "ed3c03ae-5870-411c-b46f-a83318ff1907.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1474.2,538.7 1977.8,536 1979.6,971.6 1834,1030.4 1474.2,979.7\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -47,10 +51,6 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0154",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1474.2,538.7 1977.8,536 1979.6,971.6 1834,1030.4 1474.2,979.7\"></polygon></svg>"
         }
     },
     "type": "Annotation"
