@@ -4,51 +4,56 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Lampe \u00e0 huile de noix, de fa\u00eene",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-05T15:03:43.477Z",
-            "modified": "2023-10-05T15:04:39.112Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-25T08:22:03.897Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Lampe \u00e0 huile de noix, de fa\u00eene\nFigure IV"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L648",
+            "created": "2023-10-05T15:03:49.810Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:03:49.810Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L648"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C705",
+            "created": "2023-10-05T15:03:51.355Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:03:51.355Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C705"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5903",
+            "created": "2023-10-05T15:03:54.897Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:03:54.897Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5903"
         }
     ],
+    "id": "795b62e2-69c9-44d6-b9d6-c08843c9e6a0.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1718.791259765625,1249.956298828125 1991.33203125,1227.2445068359375 1858.30615234375,680.540771484375 1709.0576171875,691.8966674804688\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,12 +61,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0138",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1718.791259765625,1249.956298828125 1991.33203125,1227.2445068359375 1858.30615234375,680.540771484375 1709.0576171875,691.8966674804688\"></polygon></svg>"
         }
     },
-    "id": "795b62e2-69c9-44d6-b9d6-c08843c9e6a0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
