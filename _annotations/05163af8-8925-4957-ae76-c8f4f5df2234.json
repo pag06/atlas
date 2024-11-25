@@ -4,50 +4,57 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Marmite \u00e0 trois pieds, en fonte",
+            "created": "2023-10-06T04:55:11.555Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-06T04:55:11.555Z"
+            "type": "TextualBody",
+            "value": "Marmite \u00e0 trois pieds, en fonte\nFigure III",
+            "modified": "2024-11-25T12:12:31.849Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L692SO",
+            "created": "2023-10-06T04:55:16.104Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T04:55:16.104Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L692SO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C732",
+            "created": "2023-10-06T04:55:17.749Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T04:55:17.749Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C732"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6379",
+            "created": "2023-10-06T04:55:20.205Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T04:55:20.205Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6379"
         }
     ],
+    "id": "05163af8-8925-4957-ae76-c8f4f5df2234.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1804.8380126953125,1282.70703125,410.9090576171875,302.7271728515625"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -55,13 +62,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0165",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1804.8380126953125,1282.70703125,410.9090576171875,302.7271728515625"
         }
     },
-    "id": "05163af8-8925-4957-ae76-c8f4f5df2234.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
