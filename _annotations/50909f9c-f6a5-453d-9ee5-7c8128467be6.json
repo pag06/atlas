@@ -4,50 +4,57 @@ order: 12
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Cruche",
+            "created": "2023-10-05T15:20:00.609Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-05T15:20:00.609Z"
+            "type": "TextualBody",
+            "value": "Cruche [baner'u]\nFigure XIII",
+            "modified": "2024-11-25T08:44:35.402Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3028",
+            "created": "2023-10-05T15:20:04.176Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:20:04.176Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3028"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C706",
+            "created": "2023-10-05T15:20:06.507Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:20:06.507Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C706"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L790S",
+            "created": "2023-10-05T15:20:17.632Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:20:17.632Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L790S"
         }
     ],
+    "id": "50909f9c-f6a5-453d-9ee5-7c8128467be6.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=497.407470703125,2373.123046875,325.91168212890625,305.321533203125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -55,13 +62,7 @@ order: 12
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0139",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=497.407470703125,2373.123046875,325.91168212890625,305.321533203125"
         }
     },
-    "id": "50909f9c-f6a5-453d-9ee5-7c8128467be6.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
