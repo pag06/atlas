@@ -4,51 +4,56 @@ order: 22
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Cassote",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-05T15:24:09.857Z",
-            "modified": "2023-10-05T15:24:11.072Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-25T08:56:45.510Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Cassote\nFigure XXIII\n\u00c0 Labatut \u00e0 7 km de L683"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L683",
+            "created": "2023-10-05T15:24:20.108Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:24:20.108Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L683"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C706",
+            "created": "2023-10-05T15:24:21.217Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:24:21.217Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C706"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8659",
+            "created": "2023-10-05T15:24:41.187Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:24:41.187Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8659"
         }
     ],
+    "id": "b5ef9747-c288-424d-9e48-4cbab933504f.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1514.888916015625,2790.5185546875 2236.444580078125,2774.148193359375 2241.481689453125,2910.148193359375 2134.444580078125,2937.85205078125 1997.185302734375,2912.666748046875 1963.1851806640625,2882.4443359375 1526.22216796875,2843.407470703125\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,12 +61,7 @@ order: 22
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0139",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1514.888916015625,2790.5185546875 2236.444580078125,2774.148193359375 2241.481689453125,2910.148193359375 2134.444580078125,2937.85205078125 1997.185302734375,2912.666748046875 1963.1851806640625,2882.4443359375 1526.22216796875,2843.407470703125\"></polygon></svg>"
         }
     },
-    "id": "b5ef9747-c288-424d-9e48-4cbab933504f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
