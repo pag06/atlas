@@ -4,51 +4,67 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Treuil",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-05T15:30:44.621Z",
-            "modified": "2023-10-05T15:30:46.375Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-25T10:49:08.231Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Puits et treuil\nFigure II"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L659",
+            "created": "2023-10-05T15:30:53.225Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:30:53.225Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L659"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C712",
+            "created": "2023-10-05T15:30:56.113Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:30:56.113Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C712"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10284",
+            "created": "2023-10-05T15:31:11.856Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:31:11.856Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10284"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8361",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-25T10:50:18.065Z"
         }
     ],
+    "id": "d7731e19-821d-4e69-9226-79e21426f565.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1509.7657470703125,783.2725219726562,345.6844482421875,398.68939208984375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,13 +72,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0145",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1509.7657470703125,783.2725219726562,345.6844482421875,398.68939208984375"
         }
     },
-    "id": "d7731e19-821d-4e69-9226-79e21426f565.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
