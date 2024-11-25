@@ -11,10 +11,10 @@ order: 21
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-25T15:23:43.052Z",
+            "modified": "2024-11-25T16:11:12.786Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Ustensile pour fromage\nFigure XXII\nPour couvrir le chaudron"
+            "value": "Ustensile pour fromage [pl'eka]\nFigure XXII\nPour couvrir le chaudron"
         },
         {
             "created": "2023-10-06T15:40:39.002Z",
@@ -27,14 +27,24 @@ order: 21
             "value": "L695O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C750",
+            "created": "2024-11-25T15:23:52.161Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-25T15:23:52.161Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C750"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2816",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-25T16:11:22.949Z"
         }
     ],
     "id": "cb1148ed-a8c1-430e-a7fb-2d4e3f383a9e.json",
