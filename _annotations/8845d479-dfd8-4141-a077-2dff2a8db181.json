@@ -4,40 +4,56 @@ order: 15
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Faisselle",
+            "created": "2023-10-06T15:34:49.221Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Faisselle et sa base\nFigure XII\nCerceau d'\u00e9corce ou de bois de h\u00eatre",
+            "modified": "2024-11-25T15:09:32.433Z"
+        },
+        {
+            "created": "2023-10-06T15:34:52.787Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T15:34:49.221Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L699NO"
+        },
+        {
+            "created": "2023-10-06T15:34:56.766Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4396"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L699NO",
+            "value": "Q4395",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-10-06T15:34:52.787Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4396",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-06T15:34:56.766Z"
+            "created": "2024-11-25T15:09:40.955Z"
         }
     ],
+    "id": "8845d479-dfd8-4141-a077-2dff2a8db181.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1551.407470703125,1940.5185546875 1891.407470703125,1807.037109375 2070.222412109375,1859.9259033203125 2238.963134765625,1950.5926513671875 2238.963134765625,2204.962890625 2032.444580078125,2232.666748046875 1851.1112060546875,2197.407470703125 1548.888916015625,2114.29638671875\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -45,12 +61,7 @@ order: 15
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0183",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1551.407470703125,1940.5185546875 1891.407470703125,1807.037109375 2070.222412109375,1859.9259033203125 2238.963134765625,1950.5926513671875 2238.963134765625,2204.962890625 2032.444580078125,2232.666748046875 1851.1112060546875,2197.407470703125 1548.888916015625,2114.29638671875\"></polygon></svg>"
         }
     },
-    "id": "8845d479-dfd8-4141-a077-2dff2a8db181.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
