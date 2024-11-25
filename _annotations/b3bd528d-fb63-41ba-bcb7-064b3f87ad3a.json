@@ -4,61 +4,67 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\u00e9cuelle, terrine p. r\u00e9sine",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-06T14:45:21.278Z",
-            "modified": "2023-10-06T14:45:30.101Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-25T13:34:11.041Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "\u00e9cuelle, terrine pour la r\u00e9sine [pl'at]\nFigure I"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L650",
+            "created": "2023-10-06T14:45:34.441Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T14:45:34.441Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L650"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C736",
+            "created": "2023-10-06T14:45:36.570Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T14:45:36.570Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C736"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3702",
+            "created": "2023-10-06T14:45:42.673Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T14:45:42.673Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3702"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9917",
+            "created": "2023-10-06T14:45:52.325Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T14:45:52.325Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9917"
         }
     ],
+    "id": "b3bd528d-fb63-41ba-bcb7-064b3f87ad3a.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1004.0603637695312,746.0616455078125,478.85931396484375,254.003662109375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -66,13 +72,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0169",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1004.0603637695312,746.0616455078125,478.85931396484375,254.003662109375"
         }
     },
-    "id": "b3bd528d-fb63-41ba-bcb7-064b3f87ad3a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
