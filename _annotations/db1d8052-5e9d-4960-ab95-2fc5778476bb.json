@@ -11,10 +11,10 @@ order: 3
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-25T14:31:48.886Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Vase \u00e0 lait (seau \u00e0 traire) [l'ero]\nFigure III\nCelui qui trait s'assied \u00e0 califourchon sur la courbure. Sert \u00e9galement au transport. Toujours en bois : on scie sur pied un sapin, \u00e0 hauteur de l'objet ; on laisse pourrir le c\u0153ur, puis on scie \u00e0 la base et on \u00e9vide le centre.",
-            "modified": "2024-11-25T14:31:48.886Z"
+            "value": "Vase \u00e0 lait (seau \u00e0 traire) [l'ero]\nFigure III\nCelui qui trait s'assied \u00e0 califourchon sur la courbure. Sert \u00e9galement au transport. Toujours en bois : on scie sur pied un sapin, \u00e0 hauteur de l'objet ; on laisse pourrir le c\u0153ur, puis on scie \u00e0 la base et on \u00e9vide le centre."
         },
         {
             "created": "2023-10-06T15:25:53.531Z",
@@ -37,23 +37,19 @@ order: 3
             "value": "Q9275"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C751",
+            "created": "2024-11-25T14:32:03.747Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-25T14:32:03.747Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C751"
         }
     ],
     "id": "db1d8052-5e9d-4960-ab95-2fc5778476bb.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1059.2237548828125,101.47962951660156 1618.6492919921875,119.78810119628906 1614.5806884765625,624.2882080078125 1447.770263671875,923.3265380859375 1423.35888671875,1177.61083984375 994.126953125,1193.8851318359375 990.0584106445312,1098.274169921875 1069.3951416015625,1043.3487548828125 949.3729248046875,909.086669921875 890.3789672851562,544.9514770507812 870.0361938476562,382.20953369140625 1032.7781982421875,243.8788604736328\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -61,6 +57,10 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0183",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1059.2,101.5 1618.6,119.8 1520.7,665.5 1473.4,726.4 1423.4,1177.6 994.1,1193.9 990.1,1098.3 1069.4,1043.3 949.4,909.1 890.4,545 870,382.2 1032.8,243.9\"></polygon></svg>"
         }
     },
     "type": "Annotation"
