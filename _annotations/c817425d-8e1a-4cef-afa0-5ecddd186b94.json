@@ -4,51 +4,57 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Casserolle",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-10-06T05:01:57.152Z",
-            "modified": "2023-10-06T05:02:04.680Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-25T12:19:43.737Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Casserolle [kaser\u02c8\u0254la]\nFigure I"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L695O",
+            "created": "2023-10-06T05:02:12.166Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T05:02:12.166Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L695O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C734",
+            "created": "2023-10-06T05:02:13.663Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T05:02:13.663Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C734"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1795",
+            "created": "2023-10-06T05:02:18.435Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T05:02:18.435Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1795"
         }
     ],
+    "id": "c817425d-8e1a-4cef-afa0-5ecddd186b94.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=958.2052612304688,745.479736328125,649.7778930664062,245.55560302734375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,13 +62,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0167",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=958.2052612304688,745.479736328125,649.7778930664062,245.55560302734375"
         }
     },
-    "id": "c817425d-8e1a-4cef-afa0-5ecddd186b94.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
