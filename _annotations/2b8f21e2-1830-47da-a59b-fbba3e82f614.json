@@ -11,10 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2023-09-02T21:07:40.943Z",
+            "modified": "2024-11-25T10:48:24.168Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Treuil"
+            "value": "Treuil\nFigure I"
         },
         {
             "created": "2023-09-02T21:07:53.832Z",
@@ -28,14 +28,14 @@ order: 1
             "value": "L771NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10284",
+            "created": "2023-10-05T15:31:21.186Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:31:21.186Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10284"
         }
     ],
     "id": "2b8f21e2-1830-47da-a59b-fbba3e82f614.json",
