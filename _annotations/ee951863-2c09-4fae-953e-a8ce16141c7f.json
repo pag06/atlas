@@ -4,50 +4,56 @@ order: 6
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Support de la chandelle de r\u00e9sine souvent fich\u00e9 dans le mur de l'\u00e2tre.",
+            "created": "2023-10-05T15:08:43.163Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-05T15:08:43.163Z"
+            "type": "TextualBody",
+            "value": "Support de la chandelle de r\u00e9sine\nFigure III\nSouvent fich\u00e9 dans le mur de l'\u00e2tre.",
+            "modified": "2024-11-25T08:19:53.734Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L692SO",
+            "created": "2023-10-05T15:08:49.567Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:08:49.567Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L692SO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C705",
+            "created": "2023-10-05T15:08:51.612Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:08:51.612Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C705"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9664",
+            "created": "2023-10-05T15:08:54.430Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-05T15:08:54.430Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9664"
         }
     ],
+    "id": "ee951863-2c09-4fae-953e-a8ce16141c7f.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1430.1,702.2 1628.3,675 1673.7,993.1 1606.5,1193.1 1441,1195\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -55,12 +61,7 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0138",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1430.1,702.2 1628.3,675 1673.7,993.1 1606.5,1193.1 1441,1195\"></polygon></svg>"
         }
     },
-    "id": "ee951863-2c09-4fae-953e-a8ce16141c7f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
