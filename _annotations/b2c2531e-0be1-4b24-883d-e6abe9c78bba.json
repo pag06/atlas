@@ -4,40 +4,47 @@ order: 19
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Agitateur",
+            "created": "2023-10-06T15:37:13.114Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Ustensile pour le fromage [meskla\u00f0\u02c8e]\nFigure XIX",
+            "modified": "2024-11-25T15:23:09.604Z"
+        },
+        {
+            "created": "2023-10-06T15:37:16.941Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T15:37:13.114Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L695O"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L695O",
+            "value": "C750",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-10-06T15:37:16.941Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q86",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-06T15:37:19.752Z"
+            "created": "2024-11-25T15:23:22.535Z"
         }
     ],
+    "id": "b2c2531e-0be1-4b24-883d-e6abe9c78bba.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=653.6207275390625,3000.435791015625,443.85888671875,89.1865234375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -45,13 +52,7 @@ order: 19
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0183",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=653.6207275390625,3000.435791015625,443.85888671875,89.1865234375"
         }
     },
-    "id": "b2c2531e-0be1-4b24-883d-e6abe9c78bba.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
