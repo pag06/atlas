@@ -8,12 +8,13 @@ order: 2
         {
             "created": "2023-10-05T15:46:11.716Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Battoir"
+            "value": "Battoir\nFigure III",
+            "modified": "2024-11-25T12:02:48.106Z"
         },
         {
             "created": "2023-10-05T15:46:19.829Z",
@@ -49,6 +50,11 @@ order: 2
     "id": "9b19bba7-7d51-41c2-8d97-d07f8b1344a6.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1815.8519287109375,740.4445190429688,431.2574462890625,376.92327880859375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -56,11 +62,6 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0149",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1815.8519287109375,740.4445190429688,431.2574462890625,376.92327880859375"
         }
     },
     "type": "Annotation"
