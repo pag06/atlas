@@ -8,13 +8,13 @@ order: 6
         {
             "created": "2023-10-06T15:27:52.442Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-06T15:27:59.609Z",
+            "modified": "2024-11-25T14:55:09.252Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Baratte"
+            "value": "Baratte et b\u00e2ton\nFigure VIII\nB\u00e2ton [\u0261ar\u02d0\u02c8\u0254t]"
         },
         {
             "created": "2023-10-06T15:28:06.412Z",
@@ -35,11 +35,25 @@ order: 6
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q858"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q957",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-25T14:54:42.759Z"
         }
     ],
     "id": "a1038081-b71c-4961-8c2f-81961b67ebcc.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1168.6,1613.3 1261.9,1613.3 1407.5,1643.2 1392.8,1922.2 1006.3,1885.5 1035.5,1600.9\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -47,10 +61,6 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0183",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1168.6,1613.3 1261.9,1613.3 1407.5,1643.2 1392.8,1922.2 1006.3,1885.5 1035.5,1600.9\"></polygon></svg>"
         }
     },
     "type": "Annotation"
