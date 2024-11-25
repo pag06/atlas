@@ -4,40 +4,47 @@ order: 14
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Faisselle",
+            "created": "2023-10-06T15:33:35.748Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-10-06T15:33:35.748Z"
+            "type": "TextualBody",
+            "value": "Faisselle m\u00e9tallique\nFigure XIV",
+            "modified": "2024-11-25T15:10:35.249Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L691O",
+            "created": "2023-10-06T15:33:43.372Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T15:33:43.372Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L691O"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4396",
+            "created": "2023-10-06T15:33:46.171Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-10-06T15:33:46.171Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4396"
         }
     ],
+    "id": "b909e9ae-31f9-4dae-90c2-e36335c77356.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1503.7127685546875,2226.279541015625,294.9698486328125,211.564453125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG3/manifest.json",
@@ -45,13 +52,7 @@ order: 14
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG3/canvas/ALG_3_0183",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1503.7127685546875,2226.279541015625,294.9698486328125,211.564453125"
         }
     },
-    "id": "b909e9ae-31f9-4dae-90c2-e36335c77356.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
