@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-10-06T04:57:30.953Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-06T04:57:34.982Z",
+            "modified": "2024-11-25T12:16:36.584Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Pot \u00e0 graisse"
+            "value": "Pot \u00e0 soupe, avec queue\nFigure III"
         },
         {
             "created": "2023-10-06T04:57:48.029Z",
@@ -37,14 +37,14 @@ order: 2
             "value": "C733"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8112",
+            "created": "2024-11-25T12:15:56.397Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-25T12:15:56.397Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8112"
         }
     ],
     "id": "4cc5f447-95e5-4063-a5a5-5a6852238769.json",
