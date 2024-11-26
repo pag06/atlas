@@ -57,14 +57,14 @@ order: 3
             "value": "Q4195"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "T",
+            "created": "2023-12-30T12:33:01.213Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-30T12:33:01.213Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "T"
         }
     ],
     "id": "f208ed5e-4709-465f-9b60-fe5c1189c2e2.json",
