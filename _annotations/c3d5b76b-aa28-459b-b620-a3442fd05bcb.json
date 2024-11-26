@@ -566,6 +566,17 @@ order: 4
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "L09.11"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sans carte 988, on ne peut pas mettre de localisation",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T16:25:02.695Z",
+            "modified": "2024-11-26T16:25:07.780Z"
         }
     ],
     "id": "c3d5b76b-aa28-459b-b620-a3442fd05bcb.json",
