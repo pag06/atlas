@@ -65,6 +65,17 @@ order: 9
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q7290"
+        },
+        {
+            "type": "TextualBody",
+            "value": "D'apr\u00e8s S\u00e9guy",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T16:44:01.402Z",
+            "modified": "2024-11-26T16:44:06.224Z"
         }
     ],
     "id": "08fa8ba2-d5ad-4c92-a5ee-475d01c038fa.json",
