@@ -4,21 +4,78 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "La bride et ses parties",
-            "purpose": "commenting",
+            "created": "2024-11-26T18:09:27.557Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-26T18:09:27.557Z",
-            "modified": "2024-11-26T18:09:35.902Z"
+            "modified": "2024-11-26T18:09:35.902Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "La bride et ses parties"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sch\u00e9ma sans localisation",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T18:13:28.558Z",
+            "modified": "2024-11-26T18:13:43.139Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1483",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T18:13:56.307Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5419",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T18:14:02.000Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6746",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T18:14:08.788Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7048",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T18:14:14.150Z"
         }
     ],
+    "id": "d74ac827-d65c-4673-bd42-f83e60958a72.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2107.81103515625,1022.625,1055.96337890625,832.719482421875"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
@@ -26,13 +83,7 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0021",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2107.81103515625,1022.625,1055.96337890625,832.719482421875"
         }
     },
-    "id": "d74ac827-d65c-4673-bd42-f83e60958a72.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
