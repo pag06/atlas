@@ -11,10 +11,10 @@ order: 8
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T13:35:40.004Z",
+            "modified": "2024-11-26T16:18:20.348Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Corbeille ronde \u00e0 fond plat\n(Type L)\n\nde forme tronconique, avec deux poign\u00e9es tress\u00e9es ; la surface de sa base est inf\u00e9rieure d'environ un quart \u00e0 celle du vide sup\u00e9rieur constituant l'ouverture.\n\nIl s'agit du type de corbeille le plus courant.\n"
+            "value": "Corbeille ronde \u00e0 fond plat (Type L)\n\nDe forme tronconique, avec deux poign\u00e9es tress\u00e9es ; la surface de sa base est inf\u00e9rieure d'environ un quart \u00e0 celle du vide sup\u00e9rieur constituant l'ouverture.\n\nIl s'agit du type de corbeille le plus courant.\n"
         },
         {
             "created": "2024-06-21T13:53:13.966Z",
@@ -28,15 +28,26 @@ order: 8
             "value": "C988"
         },
         {
-            "type": "TextualBody",
-            "value": "Q2618",
-            "purpose": "tagging",
+            "created": "2024-06-21T13:54:17.107Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T13:54:17.107Z",
-            "modified": "2024-06-21T13:54:17.407Z"
+            "modified": "2024-06-21T13:54:17.407Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2618"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sans carte 988, on ne peut pas mettre de localisation",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T16:23:53.554Z",
+            "modified": "2024-11-26T16:24:09.705Z"
         }
     ],
     "id": "3d511f41-cb45-428c-b9b0-6bf875abf382.json",
