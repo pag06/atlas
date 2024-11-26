@@ -11,10 +11,10 @@ order: 4
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-26T14:19:18.036Z",
+            "modified": "2024-11-26T14:21:01.709Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Type d'habitat\n\nUne trappe dans le sol de la cuisine permet de charger la cuve \u00e0 vendange, laquelle est install\u00e9e au fond de la cave, c'est-\u00e0-dire du c\u00f4t\u00e9 oppos\u00e9 \u00e0 l'entr\u00e9e."
+            "value": "Type d'habitat\nSous la maison, une cave vo\u00fbt\u00e9e. Cette vo\u00fbte consiste en un vaste cylindre de pierres appareill\u00e9es, dont on a remblay\u00e9 la partie inf\u00e9rieure de mani\u00e8re \u00e0 avoir un sol.\nUne trappe dans le sol de la cuisine permet de charger la cuve \u00e0 vendange, laquelle est install\u00e9e au fond de la cave, c'est-\u00e0-dire du c\u00f4t\u00e9 oppos\u00e9 \u00e0 l'entr\u00e9e."
         },
         {
             "created": "2023-12-26T11:50:40.483Z",
@@ -35,6 +35,16 @@ order: 4
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q3095"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5431",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T14:21:16.265Z"
         }
     ],
     "id": "fbdb9d4e-2a06-47ab-a254-0c0b2a1b608b.json",
