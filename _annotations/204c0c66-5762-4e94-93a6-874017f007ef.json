@@ -58,14 +58,14 @@ order: 9
             "value": "D'apr\u00e8s un clich\u00e9 pris par E. N\u00e8gre sur le plateau de Sault en avril 1972\nDessin : Orlane Zavaroni"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5774",
+            "created": "2024-11-26T11:44:04.460Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-26T11:44:04.460Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5774"
         }
     ],
     "id": "204c0c66-5762-4e94-93a6-874017f007ef.json",
