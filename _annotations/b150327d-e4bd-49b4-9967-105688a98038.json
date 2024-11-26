@@ -17,44 +17,40 @@ order: 1
             "value": "Sommier et solives (sch\u00e9ma)"
         },
         {
-            "type": "TextualBody",
-            "value": "Sans localisation",
-            "purpose": "commenting",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
             "created": "2024-11-26T12:11:50.658Z",
-            "modified": "2024-11-26T12:11:55.936Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9498",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-26T12:12:23.981Z"
+            "modified": "2024-11-26T12:11:55.936Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Sans localisation"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q12139",
+            "created": "2024-11-26T12:12:23.981Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-26T12:12:31.293Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9498"
+        },
+        {
+            "created": "2024-11-26T12:12:31.293Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q12139"
         }
     ],
     "id": "b150327d-e4bd-49b4-9967-105688a98038.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2071.9,722.6 2183.8,1137.6 3098.3,1148 3248.1,613.3 2506.7,169.8 2302.7,319.6\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc3/manifest.json",
@@ -62,6 +58,10 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0287",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1989.2,721.3 2183.8,1137.6 3098.3,1148 3261.5,527.1 2506.7,169.8 2233,311.1\"></polygon></svg>"
         }
     },
     "type": "Annotation"
