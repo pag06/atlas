@@ -8,13 +8,13 @@ order: 5
         {
             "created": "2023-07-28T16:49:21.077Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-29T08:09:50.049Z",
+            "modified": "2024-11-26T11:17:12.617Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "IX\nVillenouvelle (localit\u00e9 limitr. W. de Montgaillard, point de l'enqu\u00eate linguistique) : joug ([...] ou [...]) au repos, avec les courroies ([...]) repli\u00e9es sur un c\u00f4t\u00e9."
+            "value": "Joug\nFigure IX\nVillenouvelle (localit\u00e9 limitr. W. de Montgaillard L31.31) : joug ([\u0292u] ou [\u0292ul]) au repos, avec les courroies (\u0292\u02c8y\u028e\u0254s]) repli\u00e9es sur un c\u00f4t\u00e9."
         },
         {
             "created": "2023-07-28T16:50:56.987Z",
@@ -56,6 +56,16 @@ order: 5
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Alain Guey\nDessin :  Orlane Zavaroni"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C2777",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T11:17:27.334Z"
         }
     ],
     "id": "e088bf1f-daa1-4a8f-b819-af841d7eca9f.json",
