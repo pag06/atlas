@@ -37,34 +37,45 @@ order: 1
             "value": "Q7290"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L47.02",
+            "created": "2024-11-26T16:12:09.641Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-26T16:12:09.641Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L47.02"
+        },
+        {
+            "created": "2024-11-26T16:12:17.982Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L82.02"
+        },
+        {
+            "created": "2024-11-26T16:12:25.825Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L19.01"
         },
         {
             "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L82.02",
+            "value": "D'apr\u00e8s S\u00e9guy",
+            "purpose": "identifying",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-26T16:12:17.982Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L19.01",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
-            "created": "2024-11-26T16:12:25.825Z"
+            "created": "2024-11-26T16:44:11.135Z",
+            "modified": "2024-11-26T16:44:15.717Z"
         }
     ],
     "id": "df27f690-98a0-4ccd-be35-8003d9571fe2.json",
