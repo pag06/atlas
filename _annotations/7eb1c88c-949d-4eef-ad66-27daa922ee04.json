@@ -4,51 +4,57 @@ order: 8
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\"Balet\" - [...] - de la maison \u00e0 terre du Bas-Quercy. Le balcon qui surmonte au niveau du grenier sert de s\u00e9choir.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-12-30T21:53:42.319Z",
-            "modified": "2023-12-30T21:54:36.179Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-26T15:51:15.553Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Balcon\nFigure 5\n\"Balet\" - [bal'et] - de la maison \u00e0 terre du Bas-Quercy. Le balcon qui surmonte au niveau du grenier sert de s\u00e9choir."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L82.03",
+            "created": "2023-12-30T21:54:44.624Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-30T21:54:44.624Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L82.03"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-12-30T21:55:24.350Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-30T21:55:17.674Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "T"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "T",
+            "value": "Q798",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-12-30T21:55:24.350Z"
+            "created": "2024-11-26T15:51:36.595Z"
         }
     ],
+    "id": "7eb1c88c-949d-4eef-ad66-27daa922ee04.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1972.25634765625,4441.73779296875,1233.934326171875,431.20166015625"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc3/manifest.json",
@@ -56,13 +62,7 @@ order: 8
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0318",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1972.25634765625,4441.73779296875,1233.934326171875,431.20166015625"
         }
     },
-    "id": "7eb1c88c-949d-4eef-ad66-27daa922ee04.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
