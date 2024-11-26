@@ -11,10 +11,10 @@ order: 5
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T12:47:13.892Z",
+            "modified": "2024-11-26T16:16:23.983Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Panier dont le corps est de forme rectangulaire\n(Type F)\n\nLa partie sup\u00e9rieure consiste en un demi-cylindre, ce qui donne au couvercle la forme d'une tuile canal, ce couvercle se partageant en deux moiti\u00e9s de part et d'autre de la ligne sommitale, chaque battant du couvercle ayant une anse.\n\ncf. Jean S\u00e9guy, \u00ab\u00a0Atlas linguistique et ethnographique de la Gascogne\u00a0\u00bb, III, 766, figure XV."
+            "value": "Panier (Type F)\nDont le corps est de forme rectangulaire\nLa partie sup\u00e9rieure consiste en un demi-cylindre, ce qui donne au couvercle la forme d'une tuile canal, ce couvercle se partageant en deux moiti\u00e9s de part et d'autre de la ligne sommitale, chaque battant du couvercle ayant une anse.\n\ncf. Jean S\u00e9guy, \u00ab\u00a0Atlas linguistique et ethnographique de la Gascogne\u00a0\u00bb, III, 766, figure XV."
         },
         {
             "created": "2024-06-21T13:05:29.740Z",
@@ -167,14 +167,14 @@ order: 5
             "value": "C987"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7278",
+            "created": "2024-06-21T13:59:50.145Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T13:59:50.145Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7278"
         }
     ],
     "id": "d84ecaba-a8ed-4493-a2c7-27ab3c3d536c.json",
