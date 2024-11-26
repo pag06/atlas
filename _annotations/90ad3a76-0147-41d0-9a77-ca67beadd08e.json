@@ -56,6 +56,16 @@ order: 9
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Croquis : X. Ravier"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q540",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T11:12:19.744Z"
         }
     ],
     "id": "90ad3a76-0147-41d0-9a77-ca67beadd08e.json",
