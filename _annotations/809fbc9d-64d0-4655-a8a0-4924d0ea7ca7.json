@@ -11,10 +11,10 @@ order: 3
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T12:47:05.531Z",
+            "modified": "2024-11-26T16:15:19.289Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Panier de forme ronde, \u00e0 fond bomb\u00e9\n(Type D)"
+            "value": "Panier (Type D)\nPanier de forme ronde, \u00e0 fond bomb\u00e9\n"
         },
         {
             "created": "2024-06-21T12:51:35.516Z",
@@ -187,14 +187,14 @@ order: 3
             "value": "C986"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7278",
+            "created": "2024-06-21T13:57:22.731Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T13:57:22.731Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7278"
         }
     ],
     "id": "809fbc9d-64d0-4655-a8a0-4924d0ea7ca7.json",
