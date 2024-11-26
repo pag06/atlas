@@ -57,14 +57,14 @@ order: 2
             "value": "T"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5431",
+            "created": "2024-11-26T14:06:35.616Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-26T14:06:35.616Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5431"
         }
     ],
     "id": "de0c3234-1c4a-41e6-be30-94bcd7c82ad2.json",
