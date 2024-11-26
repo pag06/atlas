@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-12-19T15:21:32.183Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-12-26T11:31:17.986Z",
+            "modified": "2024-11-26T12:48:10.466Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Deux plans possibles : \n\nLe plan qui correspond \u00e0 la figure de gauche est le plus fr\u00e9quent. \nDans la partie M.H. (habitation humaine, maison d'habitation au sens strict) : pi\u00e8ces en enfilade, si bien que l'on passe directement de l'une \u00e0 l'autre. Plus r\u00e9cemment vestibule central en forme de couloir.\nHangar (HA.) s\u00e9par\u00e9 possible.\nET. : \u00e9table "
+            "value": "Type d'habitat\nDisposition consid\u00e9r\u00e9e comme archa\u00efque.\nDeux plans possibles : \n\nLe plan qui correspond \u00e0 la figure de gauche est le plus fr\u00e9quent. \nDans la partie M.H. (habitation humaine, maison d'habitation au sens strict) : pi\u00e8ces en enfilade, si bien que l'on passe directement de l'une \u00e0 l'autre. Plus r\u00e9cemment vestibule central en forme de couloir.\nHangar (HA.) s\u00e9par\u00e9 possible.\nET. : \u00e9table "
         },
         {
             "created": "2023-12-26T11:32:06.187Z",
@@ -56,11 +56,26 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q6221"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5431",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T12:48:22.053Z"
         }
     ],
     "id": "5c57ba39-6005-4e36-84ce-cc1ec0ebd065.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=265.5361633300781,878.7531127929688,1544.2166442871094,247.41595458984375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc3/manifest.json",
@@ -68,11 +83,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0317",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=265.5361633300781,878.7531127929688,1544.2166442871094,247.41595458984375"
         }
     },
     "type": "Annotation"
