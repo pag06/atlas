@@ -27,14 +27,25 @@ order: 11
             "value": "C988"
         },
         {
-            "type": "TextualBody",
-            "value": "Q2618",
-            "purpose": "tagging",
+            "created": "2024-06-21T13:54:24.606Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T13:54:24.606Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2618"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sans carte 988, on ne peut pas mettre de localisation",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T16:26:01.313Z",
+            "modified": "2024-11-26T16:26:08.059Z"
         }
     ],
     "id": "c7fd8590-cab8-49ce-a007-c48e71c5fd39.json",
