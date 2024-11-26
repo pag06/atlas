@@ -11,10 +11,10 @@ order: 9
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T12:23:26.855Z",
+            "modified": "2024-11-26T16:04:10.702Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Panier \u00e0 vendange\n(Type A)\n\nLes termes masculins [...], [...] et [...], qui signifient litt\u00e9ralement \"panier \u00e0 vendange\", d\u00e9signent des paniers ordinaires en vannerie mais que vraisemblablement on utilise \u00e0 l'occasion pour les vendanges.\n"
+            "value": "Panier (Type A)\nPanier de forme ovale plus ou moins prononc\u00e9e, \u00e0 fond plat"
         },
         {
             "created": "2024-06-21T12:24:18.376Z",
@@ -47,24 +47,24 @@ order: 9
             "value": "L31.31"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C986",
+            "created": "2024-06-21T13:55:19.819Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T13:55:19.819Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C986"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7290",
+            "created": "2024-06-21T13:55:26.417Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T13:55:26.417Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7290"
         }
     ],
     "id": "08fa8ba2-d5ad-4c92-a5ee-475d01c038fa.json",
