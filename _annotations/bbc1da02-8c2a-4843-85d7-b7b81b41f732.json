@@ -27,15 +27,26 @@ order: 2
             "value": "C1143"
         },
         {
-            "type": "TextualBody",
-            "value": "Q2447",
-            "purpose": "tagging",
+            "created": "2024-06-21T14:47:22.644Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-06-21T14:47:22.644Z",
-            "modified": "2024-06-21T14:47:22.949Z"
+            "modified": "2024-06-21T14:47:22.949Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2447"
+        },
+        {
+            "type": "TextualBody",
+            "value": "D'apr\u00e8s S\u00e9guy",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T16:28:44.683Z",
+            "modified": "2024-11-26T16:28:51.827Z"
         }
     ],
     "id": "bbc1da02-8c2a-4843-85d7-b7b81b41f732.json",
