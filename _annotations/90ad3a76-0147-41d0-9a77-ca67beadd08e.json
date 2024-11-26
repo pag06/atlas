@@ -8,13 +8,13 @@ order: 9
         {
             "created": "2023-07-28T16:59:44.172Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-29T08:08:57.510Z",
+            "modified": "2024-11-26T11:11:06.983Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "VI\nSaint-Matr\u00e9 : joug \u00e9quip\u00e9 de [...], deux anneaux en cuir torsad\u00e9, dispositif utilis\u00e9 pour l'attelage de la charrette. Observer le [...], corde de chanvre qui, pass\u00e9 dans un trou du joug assujettit les anneaux, et [...], tige m\u00e9tallique qui sert \u00e0 serrer la [...]."
+            "value": "Joug\nFigure VI\nJoug \u00e9quip\u00e9 de [las trez\u02c8e\u0261\u0254s], deux anneaux en cuir torsad\u00e9, dispositif utilis\u00e9 pour l'attelage de la charrette. Observer la [mets\u02c8an\u0254], corde de chanvre qui, pass\u00e9 dans un trou du joug assujettit les anneaux, et [lu fy\u0292\u02c8\u0254l], tige m\u00e9tallique qui sert \u00e0 serrer la [mets\u02c8an\u0254]."
         },
         {
             "created": "2023-07-28T17:01:25.307Z",
@@ -70,7 +70,14 @@ order: 9
             "type": "FragmentSelector",
             "value": "xywh=1951.255859375,1713.0662841796875,1165.358154296875,532.4791259765625"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
