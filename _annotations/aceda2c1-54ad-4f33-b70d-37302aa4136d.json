@@ -116,6 +116,17 @@ order: 7
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q7278"
+        },
+        {
+            "type": "TextualBody",
+            "value": "D'apr\u00e8s S\u00e9guy",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T16:45:08.625Z",
+            "modified": "2024-11-26T16:45:12.496Z"
         }
     ],
     "id": "aceda2c1-54ad-4f33-b70d-37302aa4136d.json",
