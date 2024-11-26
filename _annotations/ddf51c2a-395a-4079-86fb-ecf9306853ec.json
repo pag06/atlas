@@ -3,53 +3,60 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0036"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Panier de b\u00e2t servant au transport du fumier - [...] - (pluriel: [...] )",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-12T14:26:00.076Z",
-            "modified": "2023-08-12T14:26:29.439Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.37",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-12T14:26:36.447Z"
+            "modified": "2023-08-12T14:26:29.439Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Panier de b\u00e2t servant au transport du fumier - [...] - (pluriel: [...] )"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7291",
+            "created": "2023-08-12T14:26:36.447Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-12T14:26:47.813Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.37"
+        },
+        {
+            "created": "2023-08-12T14:26:47.813Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7291"
         }
     ],
+    "id": "ddf51c2a-395a-4079-86fb-ecf9306853ec.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0036",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=268,1950,548,666"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=268,1950,548,666"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0036",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ddf51c2a-395a-4079-86fb-ecf9306853ec.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
