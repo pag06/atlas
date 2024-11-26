@@ -8,13 +8,13 @@ order: 5
         {
             "created": "2023-12-19T09:13:59.269Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-12-19T09:15:46.615Z",
+            "modified": "2024-11-26T12:34:44.179Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "D\u00e9piquage au man\u00e8ge - [...]. Photographie prise vers 1898 (archives de la famille Poussou). Le batteur, \u00e0 gauche, au pied de la meule de gerbes, est m\u00fb par deux paires de vaches. On distingue l'homme qui l'approvisionne. Les autres personnages debout, munis de fourches, \u00e9vacuent la paille."
+            "value": "D\u00e9piquage au man\u00e8ge - [la ma\u0283\u02c8in\u0254 a bstial]. \nPhotographie prise vers 1898. Le batteur, \u00e0 gauche, au pied de la meule de gerbes, est m\u00fb par deux paires de vaches. On distingue l'homme qui l'approvisionne. Les autres personnages debout, munis de fourches, \u00e9vacuent la paille."
         },
         {
             "created": "2023-12-19T09:30:10.213Z",
@@ -27,24 +27,25 @@ order: 5
             "value": "L47.30"
         },
         {
-            "created": "2023-12-19T09:30:11.793Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q???"
+            "value": "Archives de la famille Poussou.",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T12:34:47.115Z",
+            "modified": "2024-11-26T12:35:08.374Z"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "T",
+            "value": "Q969",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-12-30T12:34:26.201Z"
+            "created": "2024-11-26T12:35:25.840Z"
         }
     ],
     "id": "2eecd9e6-b7e8-4a05-a82c-57ba76b3b443.json",
