@@ -4,51 +4,57 @@ order: 6
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\"Balet\" - [...] - albigeois \u00e0 Andouque. ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-12-30T21:50:54.731Z",
-            "modified": "2023-12-30T21:51:23.602Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-26T15:48:20.837Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Balcon\nFigure 3\n\"Balet\" - [...] - albigeois \u00e0 Andouque. "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L81.11",
+            "created": "2023-12-30T21:51:31.554Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-30T21:51:31.554Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L81.11"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-12-30T21:51:33.447Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-30T21:51:33.447Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "T",
+            "created": "2023-12-30T21:51:34.506Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-30T21:51:34.506Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "T"
         }
     ],
+    "id": "e0100b17-1348-4276-8438-21e1b7c83723.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1840.1251220703125,2758.84130859375,950.4918212890625,740.218505859375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc3/manifest.json",
@@ -56,13 +62,7 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0318",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1840.1251220703125,2758.84130859375,950.4918212890625,740.218505859375"
         }
     },
-    "id": "e0100b17-1348-4276-8438-21e1b7c83723.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
