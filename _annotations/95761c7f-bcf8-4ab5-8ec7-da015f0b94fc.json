@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-12T14:05:03.116Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-12T14:10:17.070Z",
+            "modified": "2024-11-26T18:05:06.922Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Anneaux en fer\n[...] pour la charrette, anneau en fer unique. Tr\u00e8s anciennement il y a eu en [...] (nerf de b\u0153uf tress\u00e9)\n[...] comme \u00e0 11.10"
+            "value": "Anneaux en fer\n[la r\u02d0ed\u02c8u\u0303nd\u0254] pour la charrette, anneau en fer unique. Tr\u00e8s anciennement il y a eu en [...] (nerf de b\u0153uf tress\u00e9)\n[...] comme \u00e0 11.10"
         },
         {
             "created": "2023-08-12T14:05:26.355Z",
@@ -48,7 +48,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"280,2048 942,2062 958,2326 1610,2314 1590,2478 984,2494 826,2640 384,2820 282,2806 280,2046 282,2048\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0009"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0009",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
