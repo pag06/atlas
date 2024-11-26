@@ -8,13 +8,13 @@ order: 4
         {
             "created": "2023-12-19T15:18:02.555Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-12-19T15:19:37.466Z",
+            "modified": "2024-11-26T12:41:40.278Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Cette disposition est assez rare : la construction est pourtant ancienne (environ 200 ans). Pas d'\u00e9tage.\n\nG.E. : grange-\u00e9table (c'est-\u00e0-dire \u00e9difice servant de b\u00e2timent  d'exploitation et abritant les \u00e9tables).\n\nM.H. : habitation humaine, maison d'habitation au sens strict."
+            "value": "Type d'habitat\nCette disposition est assez rare : la construction est pourtant ancienne (environ 200 ans). Pas d'\u00e9tage.\n\nG.E. : grange-\u00e9table (c'est-\u00e0-dire \u00e9difice servant de b\u00e2timent  d'exploitation et abritant les \u00e9tables).\n\nM.H. : habitation humaine, maison d'habitation au sens strict."
         },
         {
             "created": "2023-12-19T15:18:47.661Z",
@@ -45,6 +45,16 @@ order: 4
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q4195"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5431",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T12:41:56.481Z"
         }
     ],
     "id": "10801a89-fc9e-47f3-b8d4-9d73d1eed1f0.json",
