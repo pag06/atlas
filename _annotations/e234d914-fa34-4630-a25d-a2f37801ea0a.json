@@ -18,33 +18,43 @@ order: 8
         {
             "created": "2023-12-30T12:23:30.234Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-12-30T12:31:41.694Z",
+            "modified": "2024-11-26T14:58:59.889Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Grange\n\nDans le local du niveau sup\u00e9rieur on distingue deux parties :\n\n1. \"le corps de grange\" : l'endroit o\u00f9 l'on fait entrer et o\u00f9 l'on abrite la charrette.\n\n2. [...] : petit kiosque au-dessus des b\u00eates, plus haut que le sol du corps de grange d'environ 70 \u00e0 80cm : c'est un plancher reposant c\u00f4t\u00e9 corps de grange sur un mur dans lequel sont m\u00e9nag\u00e9s de loin en loin des regards, par lesquels on fait passer le foin garnissant les r\u00e2teliers. Le foin est entrepos\u00e9 sur le [...].\nLe regard m\u00e9nag\u00e9 dans le mur du [...] s'appelle [...].\n\nToit \u00e0 demi-croupe (la demi-croupe : [...]).\n"
+            "value": "Grange\n\nDans le local du niveau sup\u00e9rieur on distingue deux parties :\n\n1. \"le corps de grange\" : l'endroit o\u00f9 l'on fait entrer et o\u00f9 l'on abrite la charrette.\n\n2. [trast'et] : petit kiosque au-dessus des b\u00eates, plus haut que le sol du corps de grange d'environ 70 \u00e0 80cm : c'est un plancher reposant c\u00f4t\u00e9 corps de grange sur un mur dans lequel sont m\u00e9nag\u00e9s de loin en loin des regards, par lesquels on fait passer le foin garnissant les r\u00e2teliers. Le foin est entrepos\u00e9 sur le [trast'et].\nLe regard m\u00e9nag\u00e9 dans le mur du [trast'et] s'appelle [lu fenestr'u].\n\nToit \u00e0 demi-croupe (la demi-croupe : [la k'urb\u0254]).\n"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5271",
+            "created": "2023-12-30T12:31:54.837Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-30T12:31:54.837Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5271"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "T",
+            "created": "2023-12-30T12:31:56.388Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-30T12:31:56.388Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "T"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L46.24",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T14:59:25.101Z"
         }
     ],
     "id": "e234d914-fa34-4630-a25d-a2f37801ea0a.json",
