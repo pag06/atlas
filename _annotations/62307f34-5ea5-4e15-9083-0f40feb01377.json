@@ -8,13 +8,13 @@ order: 7
         {
             "created": "2023-07-29T07:58:02.386Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-29T08:05:58.915Z",
+            "modified": "2024-11-26T11:37:35.138Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "XIX\nVillenouvelle : reculement ([...]). La grosse cheville m\u00e9tallique est plant\u00e9e dans un trou du timon, en avant du joug, qui est alors immobilis\u00e9. "
+            "value": "Reculement\nFigure XIX\nVillenouvelle (localit\u00e9 limitr. W. de Montgaillard L31.31)\nReculement ([la treska\u03b2\u02c8i\u028e\u0254]). La grosse cheville m\u00e9tallique est plant\u00e9e dans un trou du timon, en avant du joug, qui est alors immobilis\u00e9. "
         },
         {
             "created": "2023-07-29T07:58:52.435Z",
@@ -70,7 +70,14 @@ order: 7
             "type": "FragmentSelector",
             "value": "xywh=487.1629333496094,2459.416259765625,1114.0862121582031,352.735595703125"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
