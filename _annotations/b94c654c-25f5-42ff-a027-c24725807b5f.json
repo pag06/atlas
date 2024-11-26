@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-07-29T09:48:05.438Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-29T09:49:58.079Z",
+            "modified": "2024-11-26T11:57:41.873Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "I\nLabastide-de-levis, (Tarn, 6 km. W du point d'enqu\u00eate 81.04) : Pigeonnier sur\u00e9lever sur huit piliers."
+            "value": "Pigeonnier sur\u00e9lev\u00e9 sur huit piliers\nFigure I\nLabastide-de-Levis, (Tarn, 6 km. W du point d'enqu\u00eate 81.04)"
         },
         {
             "created": "2023-07-29T09:50:25.926Z",
@@ -47,15 +47,15 @@ order: 1
             "value": "Q7697."
         },
         {
-            "type": "TextualBody",
-            "value": "Relev\u00e9s : Fran\u00e7oise Gaudibert (Architecte D.P.L.G.)\nDessin : Orlane Zavaroni",
-            "purpose": "identifying",
+            "created": "2023-07-29T09:52:06.999Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T09:52:06.999Z",
-            "modified": "2023-07-29T09:53:27.526Z"
+            "modified": "2023-07-29T09:53:27.526Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Relev\u00e9s : Fran\u00e7oise Gaudibert (Architecte D.P.L.G.)\nDessin : Orlane Zavaroni"
         }
     ],
     "id": "b94c654c-25f5-42ff-a027-c24725807b5f.json",
@@ -69,7 +69,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"604.3231201171875,845.1292724609375 1958.5975341796875,814.1153564453125 1968.935546875,235.18887329101562 3457.603515625,178.3300323486328 3483.448486328125,2437.177001953125 609.4920654296875,2442.345947265625 604.3231201171875,834.7913208007812\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0318"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0318",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
