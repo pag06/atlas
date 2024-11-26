@@ -77,15 +77,15 @@ order: 1
             "value": "Q7716"
         },
         {
-            "type": "TextualBody",
-            "value": "Sans localisation",
-            "purpose": "identifying",
+            "created": "2024-11-26T12:05:43.204Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-26T12:05:43.204Z",
-            "modified": "2024-11-26T12:05:58.794Z"
+            "modified": "2024-11-26T12:05:58.794Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Sans localisation"
         }
     ],
     "id": "d5344d1b-0b6b-4ce6-a5f4-d556c2c40bc2.json",
