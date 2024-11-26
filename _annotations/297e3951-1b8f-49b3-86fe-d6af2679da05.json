@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-07-29T07:52:01.252Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-29T08:05:06.592Z",
+            "modified": "2024-11-26T11:31:43.224Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "XV\nVillenouvelle : atteloires ([...]) en fer. Fauteur : 15 \u00e0 20 cm. ; l'anneau : de 5 \u00e0 6 cm. de diam\u00e8tre."
+            "value": "Atteloires\nFigure XV\nVillenouvelle (localit\u00e9 limitr. W. de Montgaillard L31.31)\nAtteloires ([ka\u03b2\u02c8i\u028e\u0254s]) en fer. \nHauteur : 15 \u00e0 20 cm. ; l'anneau : de 5 \u00e0 6 cm. de diam\u00e8tre."
         },
         {
             "created": "2023-07-29T07:53:03.147Z",
@@ -70,7 +70,14 @@ order: 3
             "type": "FragmentSelector",
             "value": "xywh=2362.352783203125,1069.490234375,411.771240234375,355.62060546875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
