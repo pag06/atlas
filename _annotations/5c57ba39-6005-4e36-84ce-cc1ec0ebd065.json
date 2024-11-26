@@ -58,14 +58,14 @@ order: 1
             "value": "Q6221"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5431",
+            "created": "2024-11-26T12:48:22.053Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-26T12:48:22.053Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5431"
         }
     ],
     "id": "5c57ba39-6005-4e36-84ce-cc1ec0ebd065.json",
