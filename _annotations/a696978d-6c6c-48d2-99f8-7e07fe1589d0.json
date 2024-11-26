@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-07-28T14:56:28.411Z",
             "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-28T14:59:51.177Z",
+            "modified": "2024-11-26T10:57:45.417Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "24.02 Monfaucon : joug [...], support simple [...] ou [...] pour un anneau unique [...]. Longueur du joug : environ 1,25m"
+            "value": "Joug\nFigure I\nJoug [\u00f0u], support simple [mazur\u0255j\u02c8e] ou [e\u0303mbr\u02c8u\u0303s\u0254] pour un anneau unique [r\u02d0ed\u02c8u\u0303nd\u0254]. \nLongueur du joug : environ 1,25m"
         },
         {
             "created": "2023-07-28T14:58:20.348Z",
@@ -47,15 +47,35 @@ order: 1
             "value": "Q5774"
         },
         {
-            "type": "TextualBody",
-            "value": "Croquis J. Boisgontier",
-            "purpose": "identifying",
+            "created": "2023-07-28T15:06:13.679Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-07-28T15:06:13.679Z",
-            "modified": "2023-07-28T15:06:34.821Z"
+            "modified": "2023-07-28T15:06:34.821Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Croquis J. Boisgontier"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q270",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T10:58:01.743Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q540",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T10:58:06.411Z"
         }
     ],
     "id": "a696978d-6c6c-48d2-99f8-7e07fe1589d0.json",
@@ -70,7 +90,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=483.28570556640625,1011.1111450195312,1027.6190795898438,395.15875244140625"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
