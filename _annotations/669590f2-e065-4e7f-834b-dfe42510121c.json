@@ -8,13 +8,13 @@ order: 7
         {
             "created": "2023-07-28T16:56:12.710Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-29T08:08:41.237Z",
+            "modified": "2024-11-26T11:01:04.980Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "II\nMontfaucon : joug \u00e0 une seule t\u00eate ([...]), utilis\u00e9 pour le labour des vignes."
+            "value": "Joug\nFigure II\nJoug \u00e0 une seule t\u00eate ([\u00f0u s\u02c8i\u0303mple]), utilis\u00e9 pour le labour des vignes."
         },
         {
             "created": "2023-07-28T16:56:58.014Z",
@@ -70,7 +70,14 @@ order: 7
             "type": "FragmentSelector",
             "value": "xywh=2068.115234375,498.55413818359375,827.263427734375,313.4892578125"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
