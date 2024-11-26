@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-07-29T07:41:32.149Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-29T08:04:44.938Z",
+            "modified": "2024-11-26T11:25:22.970Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "XIII \nVillenouvelle : [...], grand joug utilis\u00e9 pour le travail des vignes, attel\u00e9 au [...] (d\u00e9cavaillonneuse). Form\u00e9 de deux parties ou demi-jougs r\u00e9unies par un syst\u00e8me de vis qui permet de r\u00e9gler \u00e0 volont\u00e9 l'\u00e9cartement des [...] (= t\u00e9ti\u00e8res), en fonction du travail \u00e0 effectuer et de la largeur de l'intervalle entre les rangs de vigne. Longueur ici : 1,80 environ"
+            "value": "Joug\nFigure XIII \nVillenouvelle (localit\u00e9 limitr. W. de Montgaillard L31.31)\n [le \u0292u a kul\u02c8is\u0254], grand joug utilis\u00e9 pour le travail des vignes, attel\u00e9 au [r\u02d0epel\u02c8u] (d\u00e9cavaillonneuse). Form\u00e9 de deux parties ou demi-jougs r\u00e9unies par un syst\u00e8me de vis qui permet de r\u00e9gler \u00e0 volont\u00e9 l'\u00e9cartement des [k\u02c8\u0254f\u0254s] (= t\u00e9ti\u00e8res), en fonction du travail \u00e0 effectuer et de la largeur de l'intervalle entre les rangs de vigne. Longueur ici : 1,80m environ"
         },
         {
             "created": "2023-07-29T07:44:38.030Z",
@@ -70,7 +70,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=1649.216064453125,565.7407836914062,1616.975341796875,465.43206787109375"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
