@@ -27,27 +27,19 @@ order: 1
             "value": "Q5774"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.37",
+            "created": "2024-11-26T16:54:37.565Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-26T16:54:37.565Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.37"
         }
     ],
     "id": "f423f736-f429-41ca-9189-d40bf5a00703.json",
     "motivation": "commenting",
     "target": {
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
-            "type": "Manifest"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"483.098388671875,1495.961181640625 464.1257019042969,1979.0355224609375 1567.461669921875,1984.873291015625 1582.0560302734375,1456.5562744140625 992.4426879882812,1463.853515625 989.5238037109375,1500.3394775390625 481.6389465332031,1494.501708984375\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
@@ -55,6 +47,10 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0007",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"483.1,1496 468.4,1999.4 1565.6,2025.8 1562.9,1459.4 990.2,1457.6 987.5,1499.4 481.6,1494.5\"></polygon></svg>"
         }
     },
     "type": "Annotation"
