@@ -8,13 +8,13 @@ order: 6
         {
             "created": "2023-07-28T16:54:39.436Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-29T08:09:59.393Z",
+            "modified": "2024-11-26T11:21:30.500Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "XI\nVillenouvelle : m\u00eame joug \u00e9quip\u00e9 de la [...], pour la charrette."
+            "value": "joug\nFigure XI\nVillenouvelle (localit\u00e9 limitr. W. de Montgaillard L31.31)\nM\u00eame joug \u00e9quip\u00e9 de la [r\u02d0ed\u02c8u\u0303d\u0254], pour la charrette."
         },
         {
             "created": "2023-07-28T16:55:11.078Z",
@@ -70,7 +70,14 @@ order: 6
             "type": "FragmentSelector",
             "value": "xywh=530.2459716796875,4420.025390625,997.23486328125,455.1943359375"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
