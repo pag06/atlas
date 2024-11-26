@@ -8,23 +8,13 @@ order: 1
         {
             "created": "2023-12-18T21:37:35.669Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-12-18T21:47:49.914Z",
+            "modified": "2024-11-26T12:14:42.309Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "B\u00e2cle m\u00e9tallique : syst\u00e8me moderne.\nOn entend par \"b\u00e2cle\" les diff\u00e9rents dispositifs (barre de bois, ou de fer - le plus souvent) qui servent \u00e0 maintenir ferm\u00e9s les vantaux d'un portail de grange ou m\u00eame d'une porte de maison d'habitation dans les constructions anciennes. \nD'apr\u00e8s les explications des T. et ce que les enqu\u00eateurs ont pu voir, il semble que le dispositif le plus usuel aujourd'hui soit une forte tige de fer mobile, accroch\u00e9e sur un pied-droit de la porte ou sur un mur perpendiculaire \u00e0 celle-ci, que l'on rel\u00e8ve une fois la porte ferm\u00e9e pour engager son crochet dans un \u0153illet m\u00e9tallique fix\u00e9 sur la face int\u00e9rieure du vantail. "
-        },
-        {
-            "created": "2023-12-18T21:42:40.657Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
+            "value": "B\u00e2cle m\u00e9tallique : syst\u00e8me moderne.\nFigure 1\nOn entend par \"b\u00e2cle\" les diff\u00e9rents dispositifs (barre de bois, ou de fer - le plus souvent) qui servent \u00e0 maintenir ferm\u00e9s les vantaux d'un portail de grange ou m\u00eame d'une porte de maison d'habitation dans les constructions anciennes. \nD'apr\u00e8s les explications des T. et ce que les enqu\u00eateurs ont pu voir, il semble que le dispositif le plus usuel aujourd'hui soit une forte tige de fer mobile, accroch\u00e9e sur un pied-droit de la porte ou sur un mur perpendiculaire \u00e0 celle-ci, que l'on rel\u00e8ve une fois la porte ferm\u00e9e pour engager son crochet dans un \u0153illet m\u00e9tallique fix\u00e9 sur la face int\u00e9rieure du vantail. "
         },
         {
             "created": "2023-12-18T21:42:56.345Z",
@@ -35,6 +25,17 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q739"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sans localisation",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T12:14:50.571Z",
+            "modified": "2024-11-26T12:15:02.116Z"
         }
     ],
     "id": "0deab166-027a-4633-a281-c6c5fce3b459.json",
