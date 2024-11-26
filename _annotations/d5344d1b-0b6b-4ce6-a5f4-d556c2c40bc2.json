@@ -17,16 +17,6 @@ order: 1
             "value": "Ferme classique. \nCette carte est consacr\u00e9e aux termes de la charpente : on a pris comme r\u00e9f\u00e9rence au cours des enqu\u00eates la ferme simple, compos\u00e9e d'un entrait supportant directement les arbal\u00e9triers, au-dessus desquels sont dispos\u00e9s les pannes et les chevrons, la rigidit\u00e9 de l'ensemble \u00e9tant assur\u00e9e par un pin\u00e7on central.\nL'entrait est donc la poutre horizontale qui forme la base de la ferme : elle emp\u00eache l'\u00e9cartement des arbal\u00e9triers. "
         },
         {
-            "created": "2023-12-18T21:07:01.858Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-12-18T21:09:28.168Z",
             "creator": {
                 "id": "ls7320",
@@ -85,6 +75,17 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q7716"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sans localisation",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T12:05:43.204Z",
+            "modified": "2024-11-26T12:05:58.794Z"
         }
     ],
     "id": "d5344d1b-0b6b-4ce6-a5f4-d556c2c40bc2.json",
