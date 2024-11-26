@@ -8,13 +8,13 @@ order: 12
         {
             "created": "2023-07-28T17:08:40.644Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-29T08:10:08.913Z",
+            "modified": "2024-11-26T11:22:51.212Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "XII\nVillenouvelle : joug l\u00e9ger appel\u00e9 [...], utilis\u00e9 pour mener les b\u00eates \u00e0 la foire. Les b\u00eates n'\u00e9taient pas li\u00e9es avec les courroies de cuir habituelles, mais avec des cordes pass\u00e9es autoir des chevilles de bois qui surmontent le joug."
+            "value": "Joug\nFigure XII\nVillenouvelle ((localit\u00e9 limitr. W. de Montgaillard L31.31)\nJoug l\u00e9ger appel\u00e9 [la \u0292u\u02c8at\u0254], utilis\u00e9 pour mener les b\u00eates \u00e0 la foire. Les b\u00eates n'\u00e9taient pas li\u00e9es avec les courroies de cuir habituelles, mais avec des cordes pass\u00e9es autoir des chevilles de bois qui surmontent le joug."
         },
         {
             "created": "2023-07-28T17:09:39.772Z",
@@ -70,7 +70,14 @@ order: 12
             "type": "FragmentSelector",
             "value": "xywh=2067.760986328125,4534.126953125,1040.177978515625,293.515625"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
