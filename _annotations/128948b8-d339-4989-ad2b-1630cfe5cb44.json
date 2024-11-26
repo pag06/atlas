@@ -8,13 +8,13 @@ order: 5
         {
             "created": "2023-07-29T07:55:04.132Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-29T08:05:28.587Z",
+            "modified": "2024-11-26T11:34:10.313Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "XVII\nSurba : anneau articul\u00e9 ([...])"
+            "value": "Anneaux du joug\nFigure XVII\nAnneau articul\u00e9 ([treze\u0261\u02c8at])"
         },
         {
             "created": "2023-07-29T07:56:16.260Z",
@@ -70,7 +70,14 @@ order: 5
             "type": "FragmentSelector",
             "value": "xywh=1575.5638427734375,1821.6729736328125,606.4266357421875,419.8338623046875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
