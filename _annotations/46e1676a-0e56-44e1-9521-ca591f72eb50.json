@@ -58,14 +58,14 @@ order: 1
             "value": "Photo : Alain Guey\nDessin :  Orlane Zavaroni"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7770",
+            "created": "2024-11-26T11:26:33.548Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-26T11:26:33.548Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7770"
         }
     ],
     "id": "46e1676a-0e56-44e1-9521-ca591f72eb50.json",
