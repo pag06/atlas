@@ -568,15 +568,26 @@ order: 4
             "value": "L09.11"
         },
         {
+            "created": "2024-11-26T16:25:02.695Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-26T16:25:07.780Z",
+            "purpose": "identifying",
             "type": "TextualBody",
-            "value": "Sans carte 988, on ne peut pas mettre de localisation",
+            "value": "Sans carte 988, on ne peut pas mettre de localisation"
+        },
+        {
+            "type": "TextualBody",
+            "value": "D'apr\u00e8s S\u00e9guy",
             "purpose": "identifying",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-26T16:25:02.695Z",
-            "modified": "2024-11-26T16:25:07.780Z"
+            "created": "2024-11-26T16:44:41.757Z",
+            "modified": "2024-11-26T16:44:45.201Z"
         }
     ],
     "id": "c3d5b76b-aa28-459b-b620-a3442fd05bcb.json",
