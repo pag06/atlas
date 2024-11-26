@@ -3,74 +3,91 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "47.02 Douzains : joug [...] du m\u00eame type qu'\u00e0 24.02, \u00e0 support simple [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
             "created": "2023-07-28T15:07:42.257Z",
-            "modified": "2023-07-28T15:08:50.983Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-26T11:02:53.236Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Joug\nFigure III\nJoug [dzu] du m\u00eame type qu'\u00e0 24.02, \u00e0 support simple [e\u0303mbr\u02c8u\u0303dz\u0254]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-07-28T15:09:04.307Z",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
             "purpose": "tagging",
-            "value": "L47.02",
+            "type": "TextualBody",
+            "value": "L47.02"
+        },
+        {
+            "created": "2023-07-28T15:09:25.195Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-07-28T15:09:04.307Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C515",
+            "type": "TextualBody",
+            "value": "C515"
+        },
+        {
+            "created": "2023-07-28T15:09:32.633Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-07-28T15:09:25.195Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q5774",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
-            "created": "2023-07-28T15:09:32.633Z"
+            "type": "TextualBody",
+            "value": "Q5774"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo X. Ravier\nDessin Oriane Zavaroni",
-            "purpose": "identifying",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
             "created": "2023-07-28T15:10:04.282Z",
-            "modified": "2023-07-28T15:10:52.105Z"
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "modified": "2023-07-28T15:10:52.105Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo X. Ravier\nDessin Oriane Zavaroni"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q540",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T11:03:03.854Z"
         }
     ],
+    "id": "1a4380b8-0eb0-4d7b-bb02-ee1b9f5adcb0.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=469.8730163574219,1717.8570556640625,1064.7618713378906,394.1270751953125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=469.8730163574219,1717.8570556640625,1064.7618713378906,394.1270751953125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1a4380b8-0eb0-4d7b-bb02-ee1b9f5adcb0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
