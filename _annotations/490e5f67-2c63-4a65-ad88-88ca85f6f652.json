@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-07-28T16:38:51.312Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-29T08:10:47.099Z",
+            "modified": "2024-11-26T11:06:05.613Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "V\nSaint-Matr\u00e9 : joug [...] pr\u00e9sent\u00e9 avec les courroies [...] repli\u00e9es et \u00e9quip\u00e9 du [...], cha\u00eene form\u00e9e de trois cha\u00eenons de cuir tress\u00e9, dispositif utilis\u00e9 pour le labour."
+            "value": "Joug\nFigure V\nJoug [tsu] pr\u00e9sent\u00e9 avec les courroies [ts\u02c8y\u028e\u0254s] repli\u00e9es et \u00e9quip\u00e9 du [treze\u0261\u02c8at], cha\u00eene form\u00e9e de trois cha\u00eenons de cuir tress\u00e9, dispositif utilis\u00e9 pour le labour."
         },
         {
             "created": "2023-07-28T16:40:32.705Z",
@@ -70,7 +70,14 @@ order: 3
             "type": "FragmentSelector",
             "value": "xywh=442.665771484375,2334.999755859375,1087.1265869140625,517.128662109375"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
