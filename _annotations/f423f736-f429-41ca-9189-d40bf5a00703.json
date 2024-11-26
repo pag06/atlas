@@ -8,33 +8,33 @@ order: 1
         {
             "created": "2023-08-12T13:58:00.985Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-12T13:58:06.607Z",
+            "modified": "2024-11-26T16:55:00.739Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Joug [...]"
+            "value": "Joug"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L1133",
+            "created": "2023-08-12T13:58:39.934Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-12T13:58:27.594Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5774"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q5774",
+            "value": "L11.37",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-12T13:58:39.934Z"
+            "created": "2024-11-26T16:54:37.565Z"
         }
     ],
     "id": "f423f736-f429-41ca-9189-d40bf5a00703.json",
@@ -48,7 +48,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"483.098388671875,1495.961181640625 464.1257019042969,1979.0355224609375 1567.461669921875,1984.873291015625 1582.0560302734375,1456.5562744140625 992.4426879882812,1463.853515625 989.5238037109375,1500.3394775390625 481.6389465332031,1494.501708984375\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0007"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0007",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
