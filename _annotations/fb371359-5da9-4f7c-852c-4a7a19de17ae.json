@@ -3,74 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
 order: 10
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "XXII\nCaraman (Haute-Garonne, limitrophe S de Mascarville, point de l'enqu\u00eate linguistique) : attelage de vaches labourant une vigne photographi\u00e9 le 10 mai 1982. L'homme tient le grand aiguillon ([...]) \u00e0 la main ; la femme qui marche devant le guide quand les b\u00eates au moyen d'un aiguillon court ([...]) et les encourage de la voix. Observer les museli\u00e8res ([...]) en fil de fer, et les \u00e9mouchettes ([...]).",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-29T09:30:14.976Z",
-            "modified": "2023-07-29T09:32:35.143Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-26T11:47:29.540Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Attelage et labour\nFigure XXII\nCaraman (Haute-Garonne, limitrophe S de Mascarville, L31.30).\nAtelage de vaches labourant une vigne photographi\u00e9 le 10 mai 1982. L'homme tient le grand aiguillon ([a\u0261y\u028e\u02c8ad\u0254]) \u00e0 la main ; la femme qui marche devant le guide quand les b\u00eates au moyen d'un aiguillon court ([tukad\u02c8u]) et les encourage de la voix. Observer les museli\u00e8res ([lej mur\u02d0\u02c8als]) en fil de fer, et les \u00e9mouchettes ([lej musk\u02c8als])."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-07-29T09:32:43.609Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
             "purpose": "tagging",
-            "value": "L31.30",
+            "type": "TextualBody",
+            "value": "L31.30"
+        },
+        {
+            "created": "2023-07-29T09:32:56.655Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T09:32:43.609Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C522",
+            "type": "TextualBody",
+            "value": "C522"
+        },
+        {
+            "created": "2023-07-29T09:33:00.247Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T09:32:56.655Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q2242",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "created": "2023-07-29T09:33:00.247Z"
+            "type": "TextualBody",
+            "value": "Q2242"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Alain Guey\nDessin :  Orlane Zavaroni",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-29T09:33:26.147Z",
-            "modified": "2023-07-29T09:33:29.544Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-29T09:33:29.544Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Alain Guey\nDessin :  Orlane Zavaroni"
         }
     ],
+    "id": "fb371359-5da9-4f7c-852c-4a7a19de17ae.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1856.3662109375,3130.729736328125,1381.267822265625,663.353271484375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1856.3662109375,3130.729736328125,1381.267822265625,663.353271484375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "fb371359-5da9-4f7c-852c-4a7a19de17ae.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
