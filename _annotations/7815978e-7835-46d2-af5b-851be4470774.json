@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0008"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.13",
+            "created": "2023-08-12T13:59:33.700Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-12T13:59:33.700Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.13"
         },
         {
-            "type": "TextualBody",
-            "value": "Courroies - [...] - repli\u00e9es sur le joug.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-12T13:59:42.258Z",
-            "modified": "2023-08-12T13:59:55.568Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-26T18:00:33.887Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Courroies repli\u00e9es sur le joug"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C642",
+            "created": "2023-08-12T14:00:13.310Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-12T14:00:13.310Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C642"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2777",
+            "created": "2023-08-12T14:00:29.273Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-12T14:00:29.273Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2777"
         }
     ],
+    "id": "7815978e-7835-46d2-af5b-851be4470774.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0008",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1658,1412,1336,384"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1658,1412,1336,384"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0008",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7815978e-7835-46d2-af5b-851be4470774.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
