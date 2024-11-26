@@ -11,10 +11,10 @@ order: 5
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-26T15:47:17.286Z",
+            "modified": "2024-11-26T15:48:03.798Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Balcon\n\"Balet\" - [bal'et] - d'une maison quercynole \u00e0 pigeonnier."
+            "value": "Balcon\nFigure 2\n\"Balet\" - [bal'et] - d'une maison quercynole \u00e0 pigeonnier."
         },
         {
             "created": "2023-12-30T21:50:13.742Z",
@@ -37,14 +37,14 @@ order: 5
             "value": "T"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q798",
+            "created": "2024-11-26T15:47:27.552Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-26T15:47:27.552Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q798"
         }
     ],
     "id": "e072cdd5-1dba-4768-8471-ad9589a3bcc6.json",
