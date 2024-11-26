@@ -306,6 +306,17 @@ order: 2
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q7290"
+        },
+        {
+            "type": "TextualBody",
+            "value": "D'apr\u00e8s S\u00e9guy",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T16:44:20.961Z",
+            "modified": "2024-11-26T16:44:26.472Z"
         }
     ],
     "id": "a25b5566-fced-430c-8f85-975a402c14af.json",
