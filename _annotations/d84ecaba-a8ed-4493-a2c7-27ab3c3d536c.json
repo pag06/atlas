@@ -175,6 +175,17 @@ order: 5
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q7278"
+        },
+        {
+            "type": "TextualBody",
+            "value": "D'apr\u00e8s S\u00e9guy",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T16:44:49.880Z",
+            "modified": "2024-11-26T16:44:55.561Z"
         }
     ],
     "id": "d84ecaba-a8ed-4493-a2c7-27ab3c3d536c.json",
