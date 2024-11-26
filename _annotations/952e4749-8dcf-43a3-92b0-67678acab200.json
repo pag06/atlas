@@ -85,6 +85,17 @@ order: 13
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q2618"
+        },
+        {
+            "type": "TextualBody",
+            "value": "D'apr\u00e8s S\u00e9guy",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T16:45:57.001Z",
+            "modified": "2024-11-26T16:46:01.185Z"
         }
     ],
     "id": "952e4749-8dcf-43a3-92b0-67678acab200.json",
