@@ -8,13 +8,13 @@ order: 10
         {
             "created": "2023-07-28T17:02:26.610Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-29T08:09:08.112Z",
+            "modified": "2024-11-26T11:15:08.172Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "VIII\nSaint-Matr\u00e9 : joug muni du [...] m\u00e9tallique, utilis\u00e9 pour le labour. Type plus ancien que le [...] de cuir du dessin n\u00b0 V. Le support est ici une forte tige de fer plant\u00e9e dans le bois du joug"
+            "value": "Joug\nFigure VIII\nJoug muni du [trezeg\u02c8at] m\u00e9tallique, utilis\u00e9 pour le labour. Type plus ancien que le [trezeg\u02c8at] de cuir du dessin n\u00b0 V. Le support est ici une forte tige de fer plant\u00e9e dans le bois du joug"
         },
         {
             "created": "2023-07-28T17:03:36.166Z",
@@ -56,6 +56,16 @@ order: 10
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Croquis : X. Ravier"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q540",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T11:15:30.786Z"
         }
     ],
     "id": "fa51c474-1247-40af-9a56-3efd5f5a5c42.json",
@@ -70,7 +80,14 @@ order: 10
             "type": "FragmentSelector",
             "value": "xywh=1964.917724609375,2647.24609375,1165.834716796875,586.9794921875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
