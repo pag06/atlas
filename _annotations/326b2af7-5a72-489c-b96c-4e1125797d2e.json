@@ -11,8 +11,8 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-13T15:56:11.612Z",
-            "purpose": "questioning",
+            "modified": "2024-11-26T09:48:00.774Z",
+            "purpose": "commenting",
             "type": "TextualBody",
             "value": "Cuviers et tr\u00e9pied\n[l\u0254 sem\u02c8a] est en bois. [l\u0254 p\u0254jr\u02c8\u0254\u0261\u0254] est en m\u00e9tal. Le cuvier est mont\u00e9 sur un tr\u00e9pied en bois [e\u0303d\u02c8\u025bl], pour permettre de soutirer le lessif dans un r\u00e9cipient. "
         },
@@ -59,15 +59,15 @@ order: 1
             "value": "Q10275"
         },
         {
-            "type": "TextualBody",
-            "value": "C1188",
-            "purpose": "tagging",
+            "created": "2024-11-13T15:56:50.179Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-13T15:56:50.179Z",
-            "modified": "2024-11-13T15:56:53.149Z"
+            "modified": "2024-11-13T15:56:53.149Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1188"
         }
     ],
     "id": "326b2af7-5a72-489c-b96c-4e1125797d2e.json",
