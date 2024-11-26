@@ -8,13 +8,13 @@ order: 5
         {
             "created": "2023-12-26T11:53:16.225Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-12-26T11:59:12.391Z",
+            "modified": "2024-11-26T14:55:07.744Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Maison d'habitation.\nA un seul \u00e9tage. L'entr\u00e9e principale s'ouvre directement dans la cuisine [...]. De la cuisine on va directement aux chambres (g\u00e9n\u00e9ralement au nombre de deux autrefois), lesquelles sont dispos\u00e9es en enfilade (pas de couloir).\nPour aller au grenier, qui se trouve sur le toit, on utilise une \u00e9chelle amovible que l'on suspend au plafond quand elle ne sert pas : l'acc\u00e8s au grenier se fait \u00e0 partir de la cuisine. \nSous la maison cave vo\u00fbt\u00e9e. Cette voute consiste en un vaste cylindre de pierres appareill\u00e9es, cylindres dont on a remblay\u00e9 la partie inf\u00e9rieure de mani\u00e8re \u00e0 avoir un sol. Une trappe dans le sol de la cuisine permet de charger la cuve \u00e0 vendange, laquelle est install\u00e9e au fond de la cave, c'est-\u00e0-dire du c\u00f4t\u00e9 oppos\u00e9 \u00e0 l'entr\u00e9e.\nLa maison est adoss\u00e9e \u00e0 un talus, ce qui fait que l'entr\u00e9e de la cave est au niveau inf\u00e9rieur par rapport \u00e0 celui de la partie habit\u00e9e. "
+            "value": "Type d'habitat\nMaison d'habitation.\nA un seul \u00e9tage. L'entr\u00e9e principale s'ouvre directement dans la cuisine [bal'et]. De la cuisine on va directement aux chambres (g\u00e9n\u00e9ralement au nombre de deux autrefois), lesquelles sont dispos\u00e9es en enfilade (pas de couloir).\nPour aller au grenier, qui se trouve sur le toit, on utilise une \u00e9chelle amovible que l'on suspend au plafond quand elle ne sert pas : l'acc\u00e8s au grenier se fait \u00e0 partir de la cuisine. \nSous la maison cave vo\u00fbt\u00e9e. Cette voute consiste en un vaste cylindre de pierres appareill\u00e9es, cylindres dont on a remblay\u00e9 la partie inf\u00e9rieure de mani\u00e8re \u00e0 avoir un sol. Une trappe dans le sol de la cuisine permet de charger la cuve \u00e0 vendange, laquelle est install\u00e9e au fond de la cave, c'est-\u00e0-dire du c\u00f4t\u00e9 oppos\u00e9 \u00e0 l'entr\u00e9e.\nLa maison est adoss\u00e9e \u00e0 un talus, ce qui fait que l'entr\u00e9e de la cave est au niveau inf\u00e9rieur par rapport \u00e0 celui de la partie habit\u00e9e. "
         },
         {
             "created": "2023-12-26T11:59:37.848Z",
@@ -65,6 +65,16 @@ order: 5
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "T"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5431",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T14:55:18.401Z"
         }
     ],
     "id": "b630ef3d-21a0-4f8e-b91d-88220c15c092.json",
