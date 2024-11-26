@@ -8,13 +8,13 @@ order: 7
         {
             "created": "2023-12-30T21:52:00.334Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-12-30T21:52:35.087Z",
+            "modified": "2024-11-26T15:50:25.541Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\"Balet\" - [...] - au hameau de Labarthe, commune de Belmont-Sainte-Foi."
+            "value": "Balcon\nFigure 4\n\"Balet\" - [belet] - au hameau de Labarthe, commune de Belmont-Sainte-Foi (NW du point 82.11)"
         },
         {
             "created": "2023-12-30T21:52:46.573Z",
@@ -27,16 +27,6 @@ order: 7
             "value": "L82.11"
         },
         {
-            "created": "2023-12-30T21:52:49.330Z",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-12-30T21:52:50.269Z",
             "creator": {
                 "id": "ls7320",
@@ -45,6 +35,16 @@ order: 7
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "T"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q798",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T15:50:35.874Z"
         }
     ],
     "id": "efd24340-e6a7-4c17-adaf-7f575ff9b4ab.json",
