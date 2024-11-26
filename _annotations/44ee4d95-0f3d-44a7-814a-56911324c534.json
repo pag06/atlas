@@ -8,13 +8,13 @@ order: 4
         {
             "created": "2023-07-29T07:53:54.730Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-29T08:05:20.346Z",
+            "modified": "2024-11-26T11:33:15.318Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "XVI\nSurba : [...] dont la partie sup\u00e9rieure est constitu\u00e9e par une cha\u00eene. "
+            "value": "Anneau du joug\nFigure XVI\n[r\u02d0ed\u02c8u\u0303nd\u0254] dont la partie sup\u00e9rieure est constitu\u00e9e par une cha\u00eene. "
         },
         {
             "created": "2023-07-29T07:54:27.763Z",
@@ -70,7 +70,14 @@ order: 4
             "type": "FragmentSelector",
             "value": "xywh=576.8683471679688,1745.339599609375,428.31524658203125,428.315185546875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
