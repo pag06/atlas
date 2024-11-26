@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-07-29T07:49:57.098Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-29T08:04:56.586Z",
+            "modified": "2024-11-26T11:28:53.457Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "XIV\nVillenouvelle : S\u00e9rie de sept [...]; Le troisi\u00e8me anneau, \u00e0 base carr\u00e9e, est r\u00e9cent. Fabriqu\u00e9 pour atteler une lieuse de marque am\u00e9ricaine, qui avait un timon \u00e0 section carr\u00e9e."
+            "value": "Anneaux du joug\nFigure XIV\nVillenouvelle \nS\u00e9rie de sept [...]; Le troisi\u00e8me anneau, \u00e0 base carr\u00e9e, est r\u00e9cent. Fabriqu\u00e9 pour atteler une lieuse de marque am\u00e9ricaine, qui avait un timon \u00e0 section carr\u00e9e."
         },
         {
             "created": "2023-07-29T07:50:25.107Z",
@@ -70,7 +70,14 @@ order: 2
             "type": "FragmentSelector",
             "value": "xywh=483.1792297363281,1129.38427734375,1216.5965270996094,277.0096435546875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
