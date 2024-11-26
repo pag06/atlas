@@ -4,41 +4,47 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "B\u00e2cle en bois horizontale ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-12-26T11:24:25.319Z",
-            "modified": "2023-12-26T11:24:34.561Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-26T12:16:09.370Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "B\u00e2cle en bois horizontale [b\u02c8ar\u02d0\u0254]\nFigure 2"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L81.11",
+            "created": "2023-12-26T11:24:46.501Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-26T11:24:46.501Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L81.11"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q739",
+            "created": "2023-12-26T11:25:26.526Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-26T11:25:26.526Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q739"
         }
     ],
+    "id": "0f8e6218-86a3-4915-8268-4d45534cf871.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2497.198486328125,637.7467041015625,700.43701171875,674.8634033203125"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc3/manifest.json",
@@ -46,13 +52,7 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0302",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2497.198486328125,637.7467041015625,700.43701171875,674.8634033203125"
         }
     },
-    "id": "0f8e6218-86a3-4915-8268-4d45534cf871.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
