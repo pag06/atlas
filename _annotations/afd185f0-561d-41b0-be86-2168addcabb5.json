@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-12-19T15:09:22.760Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-12-19T15:13:47.806Z",
+            "modified": "2024-11-26T12:40:42.571Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "B\u00e2timents s\u00e9par\u00e9s. Mais l'\u00e9tat actuel r\u00e9sulte d'am\u00e9nagements relativement r\u00e9cents. La construction d'une nouvelle grange / remise \u00e0 mat\u00e9riel agricole (\u00e0 gauche sur le plan) est venue doubler l'ancienne grange-\u00e9table, de proportions beaucoup plus modestes, contigu\u00eb \u00e0 l'habitation humaine.\n\nET : \u00e9table\n\nGR. : grange\n\nM.H. : habitation humaine, maison d'habitation au sens strict."
+            "value": "B\u00e2timents s\u00e9par\u00e9s. \nMais l'\u00e9tat actuel r\u00e9sulte d'am\u00e9nagements relativement r\u00e9cents. La construction d'une nouvelle grange / remise \u00e0 mat\u00e9riel agricole (\u00e0 gauche sur le plan) est venue doubler l'ancienne grange-\u00e9table, de proportions beaucoup plus modestes, contigu\u00eb \u00e0 l'habitation humaine.\n\nET : \u00e9table\n\nGR. : grange\n\nM.H. : habitation humaine, maison d'habitation au sens strict."
         },
         {
             "created": "2023-12-19T15:14:05.023Z",
@@ -45,6 +45,16 @@ order: 3
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q5271"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5431",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T12:40:55.473Z"
         }
     ],
     "id": "afd185f0-561d-41b0-be86-2168addcabb5.json",
