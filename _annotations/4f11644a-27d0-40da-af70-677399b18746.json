@@ -3,74 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
 order: 11
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "XXIII\nSaint-Simon : tombereau ([...])",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-29T09:33:55.188Z",
-            "modified": "2023-07-29T09:34:13.894Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-26T11:52:46.475Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Tombereau [k\u0254r\u02d0\u02c8y\u0254]\nFigure XXIII"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-07-29T09:34:20.923Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
             "purpose": "tagging",
-            "value": "L46.16",
+            "type": "TextualBody",
+            "value": "L46.16"
+        },
+        {
+            "created": "2023-07-29T09:34:52.670Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T09:34:20.923Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C550",
+            "type": "TextualBody",
+            "value": "C550"
+        },
+        {
+            "created": "2023-07-29T09:34:58.926Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T09:34:52.670Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q10044",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "created": "2023-07-29T09:34:58.926Z"
+            "type": "TextualBody",
+            "value": "Q10044"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Alain Guey\nDessin :  Orlane Zavaroni",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-29T09:35:10.689Z",
-            "modified": "2023-07-29T09:35:13.496Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-29T09:35:13.496Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Alain Guey\nDessin :  Orlane Zavaroni"
         }
     ],
+    "id": "4f11644a-27d0-40da-af70-677399b18746.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=322.9004821777344,4224.83154296875,1260.6582336425781,605.919921875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=322.9004821777344,4224.83154296875,1260.6582336425781,605.919921875"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "4f11644a-27d0-40da-af70-677399b18746.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
