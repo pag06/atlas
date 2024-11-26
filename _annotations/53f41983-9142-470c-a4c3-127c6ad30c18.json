@@ -8,65 +8,65 @@ order: 8
         {
             "created": "2023-07-29T08:02:47.250Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-29T08:06:11.610Z",
+            "modified": "2024-11-26T11:39:05.620Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "XX\nMolleville : reculement ([...]). M\u00eame dispositif que ci-contre"
+            "value": "Reculement\nFigure XX\nReculement ([...]). M\u00eame dispositif que figure XIX"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-07-29T08:06:20.891Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
             "purpose": "tagging",
-            "value": "L11.01",
+            "type": "TextualBody",
+            "value": "L11.01"
+        },
+        {
+            "created": "2023-07-29T08:06:37.296Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T08:06:20.891Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C523",
+            "type": "TextualBody",
+            "value": "C523"
+        },
+        {
+            "created": "2023-07-29T08:06:41.650Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-07-29T08:06:37.296Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q8693",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "created": "2023-07-29T08:06:41.650Z"
+            "type": "TextualBody",
+            "value": "Q8693"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : X. Ravier",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-07-29T08:06:48.908Z",
-            "modified": "2023-07-29T08:07:06.594Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "\"ci-contre\" repr\u00e9sente l'image XIX",
-            "purpose": "questioning",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
+            "modified": "2023-07-29T08:07:06.594Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : X. Ravier"
+        },
+        {
             "created": "2023-07-29T08:07:17.379Z",
-            "modified": "2023-07-29T08:07:42.442Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "modified": "2023-07-29T08:07:42.442Z",
+            "purpose": "questioning",
+            "type": "TextualBody",
+            "value": "\"ci-contre\" repr\u00e9sente l'image XIX"
         }
     ],
     "id": "53f41983-9142-470c-a4c3-127c6ad30c18.json",
@@ -81,7 +81,14 @@ order: 8
             "type": "FragmentSelector",
             "value": "xywh=2002.3023681640625,2557.870361328125,1087.3455810546875,385.185302734375"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
