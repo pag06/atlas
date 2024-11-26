@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-12-19T09:06:45.333Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-12-19T09:11:36.031Z",
+            "modified": "2024-11-26T12:23:49.408Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Tra\u00eeneau \u00e0 d\u00e9piquer - [la liso] (Collection de l'Eco-mus\u00e9e de la Lomagne, \u00e0 Flamarens (Gers)."
+            "value": "Tra\u00eeneau \u00e0 d\u00e9piquer - [la l\u02c8iso]"
         },
         {
             "created": "2023-12-19T09:28:52.993Z",
@@ -35,6 +35,17 @@ order: 3
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q10178"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Collection de l'Eco-mus\u00e9e de la Lomagne, \u00e0 Flamarens (Gers).",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T12:23:53.613Z",
+            "modified": "2024-11-26T12:24:05.782Z"
         }
     ],
     "id": "819a047a-ebfc-4988-ba2c-edff6cc3dd0b.json",
