@@ -35,11 +35,25 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "L11.37"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q540",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T17:58:28.825Z"
         }
     ],
     "id": "f423f736-f429-41ca-9189-d40bf5a00703.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"472,1728.5 475.6,2017.6 1565.6,2025.8 1562.9,1459.4 990.2,1457.6 987.5,1499.4 476.6,1502.1\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
@@ -47,10 +61,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0007",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"472,1728.5 475.6,2017.6 1565.6,2025.8 1562.9,1459.4 990.2,1457.6 987.5,1499.4 476.6,1502.1\"></polygon></svg>"
         }
     },
     "type": "Annotation"
