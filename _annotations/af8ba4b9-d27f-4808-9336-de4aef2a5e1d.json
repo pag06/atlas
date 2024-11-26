@@ -18,13 +18,13 @@ order: 2
         {
             "created": "2023-12-30T12:44:12.557Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-12-30T12:46:22.400Z",
+            "modified": "2024-11-26T15:02:49.487Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Premier corps : bloc comprenant M.H. (habitation humaine, maison d'habitation au sens strict), HA. (hangar) [...] et CA. (cave)\nDeuxi\u00e8me corps : ET. (\u00e9table)\nLes corps sont en ligne."
+            "value": "Type d'habitat\nLe plus ancien\nPremier corps : bloc comprenant M.H. (habitation humaine, maison d'habitation au sens strict), HA. (hangar) [la ky\u03b2\u02c8\u025brt\u0254] et CA. (cave)\nDeuxi\u00e8me corps : ET. (\u00e9table)\nLes corps sont en ligne."
         },
         {
             "created": "2023-12-30T12:48:13.410Z",
@@ -55,6 +55,16 @@ order: 2
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "T"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5431",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T15:03:07.344Z"
         }
     ],
     "id": "af8ba4b9-d27f-4808-9336-de4aef2a5e1d.json",
