@@ -4,51 +4,56 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\"Balet\" - [...] - d'une maison quercynoie \u00e0 pigeonnier.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
-            },
             "created": "2023-12-30T21:48:49.149Z",
-            "modified": "2023-12-30T21:50:07.366Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-26T15:47:17.286Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Balcon\n\"Balet\" - [bal'et] - d'une maison quercynole \u00e0 pigeonnier."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L46.33",
+            "created": "2023-12-30T21:50:13.742Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-30T21:50:13.742Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L46.33"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-12-30T21:50:29.654Z",
             "creator": {
                 "id": "ls7320",
                 "name": "L\u00e9ane"
             },
-            "created": "2023-12-30T21:50:28.471Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "T"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "T",
+            "value": "Q798",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-12-30T21:50:29.654Z"
+            "created": "2024-11-26T15:47:27.552Z"
         }
     ],
+    "id": "e072cdd5-1dba-4768-8471-ad9589a3bcc6.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2580.3,1976.7 2584.6,2665.1 3390.2,2665.1 3385.9,1761.5 3123.8,1755.1 2976.7,1972.4\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc3/manifest.json",
@@ -56,12 +61,7 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc3/canvas/ALLOc_3_0318",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2580.3,1976.7 2584.6,2665.1 3390.2,2665.1 3385.9,1761.5 3123.8,1755.1 2976.7,1972.4\"></polygon></svg>"
         }
     },
-    "id": "e072cdd5-1dba-4768-8471-ad9589a3bcc6.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
