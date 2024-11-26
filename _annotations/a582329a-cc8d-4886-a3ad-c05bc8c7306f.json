@@ -8,22 +8,22 @@ order: 1
         {
             "created": "2023-08-12T14:18:50.798Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-12T14:19:12.347Z",
+            "modified": "2024-11-26T18:16:59.965Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Harnachement du cheval (cartes n\u00b0656 \u00e0 665)"
+            "value": "Harnachement du cheval \n(cartes n\u00b0656 \u00e0 665)"
         },
         {
             "created": "2023-08-16T11:12:29.076Z",
             "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-16T11:12:39.125Z",
-            "purpose": "replying",
+            "modified": "2024-11-26T18:16:44.370Z",
+            "purpose": "identifying",
             "type": "TextualBody",
             "value": "Sans localisation"
         },
@@ -221,6 +221,10 @@ order: 1
     "id": "a582329a-cc8d-4886-a3ad-c05bc8c7306f.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1850.2,4847.6 2552.4,4858.7 2836.9,4885.3 3179.1,4883.1 3172.4,4034.2 1774.7,4034.2 1767.5,4846.2\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
@@ -228,10 +232,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0026",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1850.2,4847.6 2552.4,4858.7 2836.9,4885.3 3179.1,4883.1 3172.4,4034.2 1774.7,4034.2 1767.5,4846.2\"></polygon></svg>"
         }
     },
     "type": "Annotation"
