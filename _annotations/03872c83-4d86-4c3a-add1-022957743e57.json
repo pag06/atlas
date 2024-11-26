@@ -11,10 +11,10 @@ order: 10
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-06-21T13:38:19.663Z",
+            "modified": "2024-11-26T16:24:34.290Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Corbeille ronde \u00e0 fond plat, de forme tronconique plus accentu\u00e9e\n(Type L')\n\navec deux poign\u00e9es tress\u00e9es ; la surface de sa base est beaucoup moins importante que pour le Type L (Corbeille ronde \u00e0 fond plat), ce qui rend la forme tronconique plus accentu\u00e9e.\n"
+            "value": "Corbeille ronde \u00e0 fond plat, de forme tronconique plus accentu\u00e9e (Type L')\n\nAvec deux poign\u00e9es tress\u00e9es ; la surface de sa base est beaucoup moins importante que pour le Type L (Corbeille ronde \u00e0 fond plat), ce qui rend la forme tronconique plus accentu\u00e9e.\n"
         },
         {
             "created": "2024-06-21T13:53:19.364Z",
@@ -35,11 +35,27 @@ order: 10
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q2618"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sans carte 988, on ne peut pas mettre de localisation",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T16:24:37.847Z",
+            "modified": "2024-11-26T16:24:45.392Z"
         }
     ],
     "id": "03872c83-4d86-4c3a-add1-022957743e57.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1394.3746337890625,3677.88427734375,795.5191650390625,602.666015625"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc4/manifest.json",
@@ -47,11 +63,6 @@ order: 10
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc4/canvas/ALLOc_4_0117",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1394.3746337890625,3677.88427734375,795.5191650390625,602.666015625"
         }
     },
     "type": "Annotation"
