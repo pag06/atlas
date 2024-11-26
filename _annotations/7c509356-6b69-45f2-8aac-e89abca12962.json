@@ -8,13 +8,13 @@ order: 11
         {
             "created": "2023-07-28T17:04:58.107Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-29T08:09:30.638Z",
+            "modified": "2024-11-26T11:19:47.353Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "X\nVillenouvelle : joug ferr\u00e9. Le support ([...]) est une tige m\u00e9tallique \u00e0 laquelle est accroch\u00e9 l'anneau sup\u00e9rieur du [...], dispositif utilis\u00e9 pour l'attelage de la charrue. Les frontaux ([...]) restent fix\u00e9s au joug par des attaches en fil de fer. Ils sont en crin v\u00e9g\u00e9tal, confectionn\u00e9s par le bourrelier. Il en existe aussi d'autres faits de morceaux de toile de jute repli\u00e9s en plusieurs \u00e9paisseurs et cousus ensemble."
+            "value": "Joug\nFigure X\nVillenouvelle (localit\u00e9 limitr. W. de Montgaillard L31.31)\nJoug ferr\u00e9. Le support ([se\u03b2re\u0292\u02c8u]) est une tige m\u00e9tallique \u00e0 laquelle est accroch\u00e9 l'anneau sup\u00e9rieur du treze\u0261\u02c8at], dispositif utilis\u00e9 pour l'attelage de la charrue. Les frontaux ([kujs\u02c8is]) restent fix\u00e9s au joug par des attaches en fil de fer. Ils sont en crin v\u00e9g\u00e9tal, confectionn\u00e9s par le bourrelier. Il en existe aussi d'autres faits de morceaux de toile de jute repli\u00e9s en plusieurs \u00e9paisseurs et cousus ensemble."
         },
         {
             "created": "2023-07-28T17:07:38.885Z",
@@ -56,6 +56,26 @@ order: 11
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Alain Guey\nDessin :  Orlane Zavaroni"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q540",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T11:20:04.481Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2796",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T11:20:12.745Z"
         }
     ],
     "id": "7c509356-6b69-45f2-8aac-e89abca12962.json",
@@ -70,7 +90,14 @@ order: 11
             "type": "FragmentSelector",
             "value": "xywh=2004.30859375,3520.83349609375,1085.339599609375,557.716064453125"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0316",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
