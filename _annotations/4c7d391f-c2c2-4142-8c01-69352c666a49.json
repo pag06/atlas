@@ -36,6 +36,17 @@ order: 3
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q2446"
+        },
+        {
+            "type": "TextualBody",
+            "value": "D'apr\u00e8s S\u00e9guy",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T16:29:10.019Z",
+            "modified": "2024-11-26T16:29:16.114Z"
         }
     ],
     "id": "4c7d391f-c2c2-4142-8c01-69352c666a49.json",
