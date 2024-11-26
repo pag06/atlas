@@ -18,13 +18,13 @@ order: 1
         {
             "created": "2023-12-30T12:40:34.320Z",
             "creator": {
-                "id": "ls7320",
-                "name": "L\u00e9ane"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-12-30T12:41:51.035Z",
+            "modified": "2024-11-26T15:00:24.105Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Maison de la vall\u00e9e de la Garonne, d'un type assez r\u00e9pandu dans l'Agenais.\n\nM.H. : habitation humaine, maison d'habitation au sens strict.\nGR. : grange\nET. : \u00e9table"
+            "value": "Type d'habitat\nMaison de la vall\u00e9e de la Garonne, d'un type assez r\u00e9pandu dans l'Agenais.\n\nM.H. : habitation humaine, maison d'habitation au sens strict.\nGR. : grange\nET. : \u00e9table"
         },
         {
             "created": "2023-12-30T12:43:06.523Z",
@@ -45,6 +45,36 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q4195"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L47.05",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T15:00:40.383Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L47.20",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T15:00:47.721Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L47.21",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-26T15:00:55.366Z"
         }
     ],
     "id": "41383def-7f6d-44a2-a93a-db642a11e718.json",
