@@ -58,14 +58,14 @@ order: 4
             "value": "Photo : X. Ravier\nDessin :  Orlane Zavaroni"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q540",
+            "created": "2024-11-26T11:14:04.489Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-26T11:14:04.489Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q540"
         }
     ],
     "id": "2a709cd6-a533-4e42-8ec3-af702ba15df6.json",
