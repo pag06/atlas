@@ -8,13 +8,13 @@ order: 12
         {
             "created": "2023-07-29T09:35:27.223Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-29T09:36:48.223Z",
+            "modified": "2024-11-26T11:54:58.158Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "XXIV \nLanta : (Haute-Garonne, 10 km. W de Mascarville) : b\u0153ufs attel\u00e9s \u00e0 la charrette. Clich\u00e9 pris le 10 mai 1982. La charrette est \u00e9quip\u00e9e de ses \u00e9chelettes ([...])."
+            "value": "Attelage et charrette\nFigure XXIV \nLanta (Haute-Garonne, 10 km. W de Mascarville L31.30)\nB\u0153ufs attel\u00e9s \u00e0 la charrette. Clich\u00e9 pris le 10 mai 1982. La charrette est \u00e9quip\u00e9e de ses \u00e9chelettes ([laz eskal\u02c8et\u0254s])."
         },
         {
             "created": "2023-07-29T09:37:45.135Z",
@@ -38,66 +38,54 @@ order: 12
             "value": "Photo : Alain Guey\nDessin :  Orlane Zavaroni"
         },
         {
-            "created": "2023-07-29T09:41:30.391Z",
+            "created": "2023-07-31T08:36:36.003Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
             },
-            "modified": "2023-07-29T09:44:45.703Z",
-            "purpose": "questioning",
+            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "\u00e0 ranger dans charrette ?  (C549, Q2080)\n"
+            "value": "C549"
+        },
+        {
+            "created": "2023-07-31T08:36:42.159Z",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C554"
+        },
+        {
+            "created": "2023-07-31T08:36:51.591Z",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2080"
+        },
+        {
+            "created": "2023-07-31T08:36:59.926Z",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3622"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C549",
+            "value": "Q551",
             "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-07-31T08:36:36.003Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C554",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
-            "created": "2023-07-31T08:36:42.159Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2080",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
-            "created": "2023-07-31T08:36:51.591Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3622",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
-            "created": "2023-07-31T08:36:59.926Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Il faudrait remettre 2 r \u00e0 charrette",
-            "purpose": "replying",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
-            "created": "2023-07-31T08:37:16.093Z",
-            "modified": "2023-07-31T08:37:36.860Z"
+            "created": "2024-11-26T11:53:09.924Z"
         }
     ],
     "id": "1b9e48c0-08a0-4dde-8b15-de65833e33eb.json",
@@ -112,7 +100,14 @@ order: 12
             "type": "FragmentSelector",
             "value": "xywh=2048.767333984375,4247.8046875,1007.952392578125,493.92578125"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOc2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOc2/canvas/ALLOc_2_0317",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
