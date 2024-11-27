@@ -18,33 +18,33 @@ order: 1
         {
             "created": "2023-08-13T16:24:26.800Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-13T16:24:27.981Z",
+            "modified": "2024-11-27T14:40:21.145Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "[...]"
+            "value": "Soc"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C700",
+            "created": "2023-08-13T16:25:20.165Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:25:20.165Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C700"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9459",
+            "created": "2023-08-13T16:25:28.470Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:25:28.470Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9459"
         }
     ],
     "id": "45ae92a4-1f8d-4123-b6d7-6fc3841a84f0.json",
@@ -59,7 +59,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=459.1111145019531,1429.7779541015625,326.6667175292969,884.4444580078125"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0066"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0066",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
