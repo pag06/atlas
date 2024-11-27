@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0063"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "[...] : c\u00f4t\u00e9 droit, avec versoir.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-13T16:13:40.789Z",
-            "modified": "2023-08-13T16:13:52.115Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-27T14:24:35.166Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charrue type Dombasle : c\u00f4t\u00e9 droit, avec versoir."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.01",
+            "created": "2023-08-13T16:13:59.299Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:13:59.299Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.01"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2091",
+            "created": "2023-08-13T16:14:04.156Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:14:04.156Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2091"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C696",
+            "created": "2023-08-13T16:14:09.168Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:14:09.168Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C696"
         }
     ],
+    "id": "51e26aaa-bd95-41a3-b6c4-6aee258c4c21.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0063",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1756,1430,1414,596"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1756,1430,1414,596"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0063",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "51e26aaa-bd95-41a3-b6c4-6aee258c4c21.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
