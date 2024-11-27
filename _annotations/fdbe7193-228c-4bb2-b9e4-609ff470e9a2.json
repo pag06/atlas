@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0107"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C741",
+            "created": "2023-08-13T17:09:13.971Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T17:09:13.971Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C741"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2436",
+            "created": "2023-08-13T17:09:22.638Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T17:09:22.638Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2436"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.07",
+            "created": "2023-08-13T17:09:28.072Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T17:09:28.072Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
         },
         {
-            "type": "TextualBody",
-            "value": "Coffin (en t\u00f4le) - [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-13T17:09:30.345Z",
-            "modified": "2023-08-13T17:09:43.256Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-27T15:09:14.612Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Coffin (en t\u00f4le)"
         }
     ],
+    "id": "fdbe7193-228c-4bb2-b9e4-609ff470e9a2.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0107",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2508,3844,604,944"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2508,3844,604,944"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0107",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "fdbe7193-228c-4bb2-b9e4-609ff470e9a2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
