@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0111"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Enclumette - [...] - et marteau - [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-13T17:10:39.812Z",
-            "modified": "2023-08-13T17:11:00.097Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-27T15:11:31.155Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Enclumette [l e\u0303\u014bkl\u02c8\u0153me] et marteau [lu mart\u02c8el]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.07",
+            "created": "2023-08-13T17:11:06.559Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T17:11:06.559Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C745",
+            "created": "2023-08-13T17:11:17.823Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T17:11:17.823Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C745"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3855",
+            "created": "2023-08-13T17:11:25.994Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T17:11:25.994Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3855"
         }
     ],
+    "id": "a7b0a873-7fcc-413c-a233-64d88ec0df5f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0111",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1740,484,1466,1226"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1740,484,1466,1226"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0111",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a7b0a873-7fcc-413c-a233-64d88ec0df5f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
