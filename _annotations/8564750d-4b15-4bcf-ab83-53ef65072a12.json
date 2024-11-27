@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0150"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Faux de moisson arm\u00e9e de la ramassette - [...] - (Ramassette en bois, \u00e0 dents courtes, fix\u00e9e \u00e0 la poign\u00e9e m\u00e9diane du manche par une corde)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-14T11:57:03.094Z",
-            "modified": "2023-08-14T11:57:43.484Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-27T15:19:33.110Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Faux de moisson arm\u00e9e de la ramassette - [lu r\u02d0ast\u02c8\u025bl] - (Ramassette en bois, \u00e0 dents courtes, fix\u00e9e \u00e0 la poign\u00e9e m\u00e9diane du manche par une corde)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.11",
+            "created": "2023-08-14T11:57:47.590Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T11:57:47.590Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.11"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C784",
+            "created": "2023-08-14T11:58:02.293Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T11:58:02.293Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C784"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8598",
+            "created": "2023-08-14T11:58:09.945Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T11:58:09.945Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8598"
         }
     ],
+    "id": "8564750d-4b15-4bcf-ab83-53ef65072a12.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0150",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=260,1620,576,1204"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=260,1620,576,1204"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0150",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "8564750d-4b15-4bcf-ab83-53ef65072a12.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
