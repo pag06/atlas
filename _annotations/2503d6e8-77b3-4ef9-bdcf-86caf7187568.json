@@ -37,24 +37,104 @@ order: 1
             "value": "L30.10"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C695",
+            "created": "2023-08-13T16:21:49.513Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:21:49.513Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C695"
+        },
+        {
+            "created": "2023-08-13T16:21:58.325Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2088"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q2088",
+            "value": "Q9345",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-13T16:21:58.325Z"
+            "created": "2024-11-27T14:35:19.552Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9459",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-27T14:35:25.695Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10644",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-27T14:35:31.894Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6273",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-27T14:35:38.351Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q79",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-27T14:35:42.726Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8730",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-27T14:35:48.360Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2806",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-27T14:35:52.792Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9016",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-27T14:36:37.394Z"
         }
     ],
     "id": "2503d6e8-77b3-4ef9-bdcf-86caf7187568.json",
@@ -69,7 +149,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=264,1294,1144,1348"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0064"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0064",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
