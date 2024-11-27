@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0169"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "L'ancien crible en peau - [...] ou [...] - suspendu au tr\u00e9pied - [...] - ( Avant 1914)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-14T12:12:53.249Z",
-            "modified": "2023-08-14T12:13:22.090Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-27T15:44:15.815Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "L'ancien crible en peau - [le \u0261\u02c8\u0254lys] ou [l espur\u0261\u02c8ajre] -\nSuspendu au tr\u00e9pied - [las p\u02c8\u025br\u0292\u0254s] - ( Avant 1914)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.30",
+            "created": "2023-08-14T12:13:26.452Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:13:26.452Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.30"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C802",
+            "created": "2023-08-14T12:13:36.689Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:13:36.689Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C802"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2947",
+            "created": "2023-08-14T12:13:45.986Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:13:45.986Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2947"
         }
     ],
+    "id": "ffae098d-320e-4062-a6ca-6d299e4a60f5.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0169",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=216,1172,860,1012"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=216,1172,860,1012"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0169",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ffae098d-320e-4062-a6ca-6d299e4a60f5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
