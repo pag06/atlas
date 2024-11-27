@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-08-13T17:00:40.650Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-13T17:00:50.420Z",
+            "modified": "2024-11-27T15:01:35.690Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Serfouette - [...]"
+            "value": "Serfouette - [lu fes\u02c8u]"
         },
         {
             "created": "2023-08-13T17:00:56.921Z",
@@ -37,15 +37,15 @@ order: 2
             "value": "C730"
         },
         {
-            "type": "TextualBody",
-            "value": "Q1155",
-            "purpose": "tagging",
+            "created": "2023-08-16T10:21:07.152Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T10:21:07.152Z",
-            "modified": "2023-08-16T10:21:15.203Z"
+            "modified": "2023-08-16T10:21:15.203Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1155"
         }
     ],
     "id": "f223d277-1f1d-4f3e-816b-d1f00d2c3c8a.json",
@@ -59,7 +59,14 @@ order: 2
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"445.7778015136719,1734.22216796875 1210.2222900390625,1734.22216796875 1205.77783203125,2018.6666259765625 1072.4444580078125,2020.888916015625 1076.888916015625,1858.6666259765625 450.22222900390625,1876.4444580078125 448.0000305175781,1736.4444580078125\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0096"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0096",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
