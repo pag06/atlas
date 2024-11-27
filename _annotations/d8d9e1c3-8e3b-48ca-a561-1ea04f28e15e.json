@@ -3,52 +3,59 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0092"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "[...], appel\u00e9 aussi [...] et [...]. Remarquer la panne tranchante - [...] - , \u00e0 l'oppos\u00e9 des pointes.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-13T16:48:35.597Z",
-            "modified": "2023-08-13T16:49:22.115Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-27T14:54:17.224Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Houe.\n[lu \u03b2i\u0261\u02c8\u0254s], appel\u00e9 aussi [lu kr\u02c8\u0254k] et [lu manard\u02c8\u025bl]. Remarquer la panne tranchante - [la kr\u02c8esta] - , \u00e0 l'oppos\u00e9 des pointes."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.07",
+            "created": "2023-08-13T16:49:33.237Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:49:33.237Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5562",
+            "created": "2023-08-13T16:49:39.664Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:49:39.664Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5562"
         }
     ],
+    "id": "d8d9e1c3-8e3b-48ca-a561-1ea04f28e15e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0092",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1630,4240 2298,3710 2722,3682 2638,4698 1648,4726 1630,4240\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0092",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "d8d9e1c3-8e3b-48ca-a561-1ea04f28e15e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
