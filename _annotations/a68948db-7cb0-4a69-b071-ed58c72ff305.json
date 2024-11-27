@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0159"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Fourche \u00e0 trois dents, en bois de micocoulier - [...] - (fabriqu\u00e9e \u00e0 Sauve entre les points 30.20 et 30.21)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-14T12:01:36.780Z",
-            "modified": "2023-08-14T12:02:28.395Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-27T15:34:31.044Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Fourche \u00e0 trois dents, en bois de micocoulier - [la f'u\u0280ka] - (fabriqu\u00e9e \u00e0 Sauve entre les points 30.20 et 30.21)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L30.10",
+            "created": "2023-08-14T12:02:33.260Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:02:33.260Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L30.10"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4823",
+            "created": "2023-08-14T12:02:51.600Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:02:51.600Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4823"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C793",
+            "created": "2023-08-14T12:02:58.268Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:02:58.268Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C793"
         }
     ],
+    "id": "a68948db-7cb0-4a69-b071-ed58c72ff305.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0159",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=168,2060,1500,344"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=168,2060,1500,344"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0159",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a68948db-7cb0-4a69-b071-ed58c72ff305.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
