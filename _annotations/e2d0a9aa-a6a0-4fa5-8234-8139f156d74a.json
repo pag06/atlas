@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0094"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5561",
+            "created": "2023-08-13T16:55:58.232Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:55:58.232Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5561"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C728",
+            "created": "2023-08-13T16:56:05.583Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:56:05.583Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C728"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L48.01",
+            "created": "2023-08-13T16:56:12.393Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:56:12.393Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L48.01"
         },
         {
-            "type": "TextualBody",
-            "value": "[...] qui sert \u00e0 creuser des rigoles dans les pr\u00e9s.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-13T16:56:36.015Z",
-            "modified": "2023-08-13T16:56:52.520Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-27T14:58:15.627Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Houe [l ajs\u02c8ad\u0254]\nSert \u00e0 creuser des rigoles dans les pr\u00e9s."
         }
     ],
+    "id": "e2d0a9aa-a6a0-4fa5-8234-8139f156d74a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0094",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2468,3552.666748046875,748,816.000244140625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2468,3552.666748046875,748,816.000244140625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0094",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e2d0a9aa-a6a0-4fa5-8234-8139f156d74a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
