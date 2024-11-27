@@ -38,13 +38,13 @@ order: 1
         {
             "created": "2023-08-13T16:32:51.585Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-18T11:12:50.225Z",
+            "modified": "2024-11-27T14:45:14.810Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Technique de labour de la chaintre\nA) [...] repr\u00e9sentent la longueur de l'attelage (cheval + charrue). On les laboure perpendiculairement aux raies longitudinales\nB) [...] ou [...] sont les recoins, les angles du champs que l'on doit faire \u00e0 la main"
+            "value": "Technique de labour de la chaintre\nA) [li \u0261\u02c8a\u0303se] repr\u00e9sentent la longueur de l'attelage (cheval + charrue). On les laboure perpendiculairement aux raies longitudinales\nB) [li k\u02c8aj\u0280e] ou [li ka\u0303nt\u02c8u\u0303\u014b] sont les recoins, les angles du champs que l'on doit faire \u00e0 la main"
         }
     ],
     "id": "d3fe5eba-12cf-486e-91f2-b2cf76fdb8de.json",
@@ -59,7 +59,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=470.7055358886719,1442.60498046875,731.5311584472656,870.136962890625"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0075"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0075",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
