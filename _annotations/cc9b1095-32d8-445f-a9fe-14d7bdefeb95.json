@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-13T16:10:30.015Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-13T16:10:44.645Z",
+            "modified": "2024-11-27T14:20:41.441Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Charrue d\u00e9chausseuse - [...]"
+            "value": "Charrue d\u00e9chausseuse"
         },
         {
             "created": "2023-08-13T16:10:52.978Z",
@@ -27,24 +27,24 @@ order: 1
             "value": "L30.26"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2091",
+            "created": "2023-08-13T16:11:19.462Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:11:19.462Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2091"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C686",
+            "created": "2023-08-13T16:11:23.946Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:11:23.946Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C686"
         }
     ],
     "id": "cc9b1095-32d8-445f-a9fe-14d7bdefeb95.json",
@@ -59,7 +59,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=388.0000305175781,1763.1112060546875,1148.8888854980469,573.3333740234375"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0062"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0062",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
