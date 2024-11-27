@@ -3,62 +3,65 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0046"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "L'ancien frein de bois - [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-12T14:41:19.596Z",
-            "modified": "2023-08-12T14:41:37.725Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C680",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-12T14:41:56.683Z"
+            "modified": "2023-08-12T14:41:37.725Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "L'ancien frein de bois - [...]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4871",
+            "created": "2023-08-12T14:41:56.683Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-12T14:42:28.102Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C680"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.37",
+            "created": "2023-08-12T14:42:28.102Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-12T14:42:55.400Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4871"
+        },
+        {
+            "created": "2023-08-12T14:42:55.400Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.37"
         }
     ],
+    "id": "e55fb7c6-fa07-4b15-9cf4-cc8ef36d8ede.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0046",
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0046",
+            "type": "Canvas"
+        },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1758.91845703125,935.2843017578125 2861.677978515625,924.9780883789062 2856.52490234375,1919.5228271484375 1934.123291015625,1945.2882080078125 1825.9085693359375,2038.043701171875 1758.91845703125,935.2843017578125\"></polygon></svg>"
-        },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
-            "type": "Manifest"
+            "value": "<svg><polygon points=\"1758.9,935.3 2861.7,925 2856.5,1919.5 1934.1,1945.3 1763.6,2058.6 1758.9,935.3\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e55fb7c6-fa07-4b15-9cf4-cc8ef36d8ede.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
