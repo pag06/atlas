@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-12T14:59:05.793Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-12T15:00:13.593Z",
+            "modified": "2024-11-27T10:59:37.981Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Environ du point 11.31 : Araire de bois - [...]"
+            "value": "Araire de bois. Environs du point 11.31 : "
         },
         {
             "created": "2023-08-12T14:59:34.726Z",
@@ -37,14 +37,14 @@ order: 1
             "value": "L11.31"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q354",
+            "created": "2023-08-12T15:01:57.976Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-12T15:01:57.976Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q354"
         }
     ],
     "id": "f5f4b983-43fa-4315-b08d-9963df64a4c7.json",
@@ -58,7 +58,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1434.2742919921875,4114.73583984375 1460.0396728515625,4980.453125 3289.383544921875,5037.13720703125 3294.53662109375,3728.254638671875 2068.103271484375,3738.560791015625 1439.4273681640625,4104.4296875 1444.5804443359375,4109.58251953125\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0060"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0060",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
