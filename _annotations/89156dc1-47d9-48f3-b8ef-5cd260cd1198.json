@@ -11,20 +11,10 @@ order: 25
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-21T09:10:23.762Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Joug pour les mules\nFigure XXVII",
-            "modified": "2024-11-21T09:10:23.762Z"
-        },
-        {
-            "created": "2023-09-30T08:25:34.432Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
+            "value": "Joug pour les mules\nFigure XXVII"
         },
         {
             "created": "2023-09-30T08:25:36.349Z",
@@ -56,6 +46,16 @@ order: 25
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "D'apr\u00e8s une photo de E. Vignes"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L681N",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-27T10:47:34.031Z"
         }
     ],
     "id": "89156dc1-47d9-48f3-b8ef-5cd260cd1198.json",
