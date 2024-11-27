@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-08-13T17:02:18.368Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-13T17:02:53.051Z",
+            "modified": "2024-11-27T15:02:36.144Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Serfouette - [...]"
+            "value": "Serfouette - [lu fut\u0283\u02c8u]"
         },
         {
             "created": "2023-08-13T17:02:26.402Z",
@@ -37,20 +37,23 @@ order: 3
             "value": "C730"
         },
         {
-            "created": "2023-08-16T10:21:30.786Z",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
-            "modified": "2023-08-16T10:21:33.019Z",
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q115"
+            "purpose": "tagging",
+            "value": "Q1155",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-27T15:03:04.103Z"
         }
     ],
     "id": "832d94ac-0781-43e4-a31a-fd9819f3d78b.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"279.1,2138.7 1119.1,2132 1119.1,2545.3 559.1,2556.4 559.1,2847.6 281,2855.5 276.9,2140.9\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
@@ -58,10 +61,6 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0096",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"279.1,2138.7 1119.1,2132 1119.1,2545.3 559.1,2556.4 559.1,2847.6 281,2855.5 276.9,2140.9\"></polygon></svg>"
         }
     },
     "type": "Annotation"
