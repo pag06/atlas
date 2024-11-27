@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-13T16:44:27.475Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-13T16:44:33.400Z",
+            "modified": "2024-11-27T14:52:29.009Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "[...]"
+            "value": "Houe"
         },
         {
             "created": "2023-08-13T16:44:41.594Z",
@@ -27,14 +27,24 @@ order: 1
             "value": "L11.15"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5562",
+            "created": "2023-08-13T16:47:39.227Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:47:39.227Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5562"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C726",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-27T14:52:40.240Z"
         }
     ],
     "id": "e04e0e1f-37d2-4fad-80c6-f37d8cec92ce.json",
@@ -49,7 +59,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=244,1768,888,908"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0092"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0092",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
