@@ -47,14 +47,14 @@ order: 1
             "value": "C711"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8508",
+            "created": "2023-08-13T16:37:41.413Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:37:41.413Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8508"
         }
     ],
     "id": "845f9ef4-586d-4d6c-a7cc-6e2354e90dc6.json",
@@ -69,7 +69,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=156.88890075683594,1252,1255.5555572509766,1120"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0077"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0077",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
