@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0153"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Cheville \u00e0 lier (buis) - [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-14T12:00:32.169Z",
-            "modified": "2023-08-14T12:00:43.177Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-27T15:31:33.132Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Cheville \u00e0 lier (buis)\nLe t\u00e9moin \u00e2g\u00e9 de 78 ans en 1979, montre \u00e0 l'enqu\u00eateur une cheville \u00e0 lier ayant appartenu \u00e0 sa grand-m\u00e8re. Ces chevilles \u00e9taient faites par des tourneurs sui fabriquaient aussi des fuseaux, des cuillers, etc."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C787",
+            "created": "2023-08-14T12:00:49.343Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:00:49.343Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C787"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.31",
+            "created": "2023-08-14T12:00:54.683Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:00:54.683Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.31"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2249",
+            "created": "2023-08-14T12:01:05.806Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:01:05.806Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2249"
         }
     ],
+    "id": "229c3738-dec9-4cd9-b02c-8ac261efa4ba.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0153",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=356,1544,244,640"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=356,1544,244,640"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0153",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "229c3738-dec9-4cd9-b02c-8ac261efa4ba.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
