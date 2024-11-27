@@ -3,53 +3,60 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0173"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Pelle \u00e0 grain - [...] - faite par l'utilisateur avec un morceau de t\u00f4le.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-14T12:18:53.021Z",
-            "modified": "2023-08-14T12:19:18.568Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-27T15:51:01.287Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Pelle \u00e0 grain - [la p'al\u0252] - \nFaite par l'utilisateur avec un morceau de t\u00f4le."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.01",
+            "created": "2023-08-14T12:19:22.779Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:19:22.779Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.01"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q7489",
+            "value": "Q7492",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-14T12:20:12.430Z"
+            "created": "2024-11-27T15:51:16.125Z"
         }
     ],
+    "id": "2f4bf07b-ab00-425e-ac1b-4fe80ac87927.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0173",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=192,1160,1008,1284"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=192,1160,1008,1284"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0173",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "2f4bf07b-ab00-425e-ac1b-4fe80ac87927.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
