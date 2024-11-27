@@ -8,43 +8,43 @@ order: 1
         {
             "created": "2023-08-14T11:47:27.801Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-14T11:49:50.371Z",
+            "modified": "2024-11-27T15:13:23.667Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "R\u00e2teau \u00e0 faner en bois - [...] - \nLe manche, long de 1,40m, fait un angle de 60\u00b0 avec la traverse. Les dents d\u00e9passent de 8cm en dessus et en dessous de la traverse."
+            "value": "R\u00e2teau \u00e0 faner en bois - [lu r\u02d0ast\u02c8\u025bl] - \nLe manche, long de 1,40m, fait un angle de 60\u00b0 avec la traverse. Les dents d\u00e9passent de 8cm en dessus et en dessous de la traverse."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.01",
+            "created": "2023-08-14T11:49:20.451Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T11:49:20.451Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.01"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8597",
+            "created": "2023-08-14T11:50:18.763Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T11:50:18.763Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8597"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C758",
+            "created": "2023-08-14T11:50:21.568Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T11:50:21.568Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C758"
         }
     ],
     "id": "efe2a8db-9b4d-47b8-8f6d-fdadd7dffd04.json",
@@ -58,7 +58,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"288,2343.111328125 1050.2222900390625,1989.7779541015625 863.5556030273438,1972.0001220703125 885.77783203125,1778.6668701171875 992.4444580078125,1709.7779541015625 2019.1112060546875,1778.6668701171875 2010.2222900390625,2023.111328125 405.7778015136719,2572.000244140625 285.7778015136719,2345.33349609375\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0124"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0124",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
