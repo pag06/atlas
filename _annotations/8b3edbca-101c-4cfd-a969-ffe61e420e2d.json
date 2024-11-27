@@ -3,53 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0039"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Autre syst\u00e8me (vu en coupe) : l'atteloire -[...] - , plac\u00e9e en arri\u00e8re du joug et reli\u00e9e par une cha\u00eene au crochet du joug - [...] -, sert aussi bien pour le recul que pour la traction. Quand l'attelage recule, le joug prend appuie contre la [...].",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-12T14:30:46.977Z",
-            "modified": "2023-08-12T14:32:17.409Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-27T10:08:23.036Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Reculement\nAutre syst\u00e8me (vu en coupe) : l'atteloire -[la ka\u03b2\u02c8i\u028e\u0254] - , plac\u00e9e en arri\u00e8re du joug et reli\u00e9e par une cha\u00eene au crochet du joug - [le ka\u03b2i\u028e\u02c8\u0254t] -, sert aussi bien pour le recul que pour la traction. Quand l'attelage recule, le joug prend appuie contre la [ka\u03b2\u02c8i\u028e\u0254]."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.31",
+            "created": "2023-08-12T14:32:23.784Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-12T14:32:23.784Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.31"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8693",
+            "created": "2023-08-12T14:32:35.118Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-12T14:32:35.118Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8693"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2243",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-27T10:07:27.051Z"
         }
     ],
+    "id": "8b3edbca-101c-4cfd-a969-ffe61e420e2d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0039",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2032.9417724609375,4455.82275390625,996.9229736328125,246.71337890625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2032.9417724609375,4455.82275390625,996.9229736328125,246.71337890625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0039",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "8b3edbca-101c-4cfd-a969-ffe61e420e2d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
