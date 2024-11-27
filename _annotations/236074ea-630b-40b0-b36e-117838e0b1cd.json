@@ -57,14 +57,14 @@ order: 1
             "value": "L30.11"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1047",
+            "created": "2024-11-27T14:50:32.993Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-27T14:50:32.993Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1047"
         }
     ],
     "id": "236074ea-630b-40b0-b36e-117838e0b1cd.json",
@@ -80,7 +80,7 @@ order: 1
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"200,1668 1432.1,1672 1424,2460 952,2768 208,2800 196,1668\"></polygon></svg>"
+            "value": "<svg><polygon points=\"200,1668 1432.1,1672 1424,2460 952,2768 205.5,2775.4 196,1668\"></polygon></svg>"
         }
     },
     "type": "Annotation"
