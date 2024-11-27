@@ -47,15 +47,25 @@ order: 1
             "value": "Q268"
         },
         {
-            "type": "TextualBody",
-            "value": "Sans localisation",
-            "purpose": "replying",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
             "created": "2023-08-16T10:19:23.714Z",
-            "modified": "2023-08-16T10:19:33.847Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-27T15:04:31.921Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Sans localisation"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6275",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-27T15:06:45.122Z"
         }
     ],
     "id": "a73adb9d-499c-4fb6-97cc-3e9fe7a5ad91.json",
@@ -70,7 +80,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=278.1886291503906,1247.7132568359375,1119.1142272949219,808.5343017578125"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0104"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0104",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
