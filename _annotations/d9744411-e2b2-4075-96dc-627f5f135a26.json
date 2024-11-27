@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-08-13T16:16:16.118Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-13T16:16:17.725Z",
+            "modified": "2024-11-27T14:37:46.377Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "[...]"
+            "value": "Charrue [lu kut\u0280j\u02c8e]"
         },
         {
             "created": "2023-08-13T16:16:27.654Z",
@@ -27,24 +27,24 @@ order: 2
             "value": "L30.10"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2088",
+            "created": "2023-08-13T16:22:07.849Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:22:07.849Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2088"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C695",
+            "created": "2023-08-13T16:22:13.797Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:22:13.797Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C695"
         }
     ],
     "id": "d9744411-e2b2-4075-96dc-627f5f135a26.json",
@@ -59,7 +59,14 @@ order: 2
             "type": "FragmentSelector",
             "value": "xywh=1782,1122,1420,918"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0064"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0064",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
