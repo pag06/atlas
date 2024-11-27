@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-14T12:28:26.312Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-14T12:28:39.195Z",
+            "modified": "2024-11-27T15:57:32.760Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "r\u00e9servoir \u00e0 grain (paille et osier) - [...]"
+            "value": "R\u00e9servoir \u00e0 grain (paille et osier) - [lu pa\u028eas\u02c8u]"
         },
         {
             "created": "2023-08-14T12:28:46.631Z",
@@ -27,15 +27,15 @@ order: 1
             "value": "L48.03"
         },
         {
-            "type": "TextualBody",
-            "value": "Q8661",
-            "purpose": "tagging",
+            "created": "2023-08-16T10:13:34.303Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T10:13:34.303Z",
-            "modified": "2023-08-16T10:13:36.776Z"
+            "modified": "2023-08-16T10:13:36.776Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8661"
         }
     ],
     "id": "de8e70f9-c71c-4e99-94d9-e6cdf53123bf.json",
@@ -50,7 +50,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=1732,4128,672,680"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0181"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0181",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
