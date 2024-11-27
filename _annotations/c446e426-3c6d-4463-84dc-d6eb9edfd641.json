@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-14T12:23:19.070Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-14T12:24:32.212Z",
+            "modified": "2024-11-27T15:52:37.270Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Coffre \u00e0 grain - [...] - Par les deux ouvertures du bas, fermant \u00e0 l'aide de deux planchettes \u00e0 glissi\u00e8re, on peut faire couler le grain dans un sac ou dans une corbeille."
+            "value": "Coffre \u00e0 grain - [l \u02c8ark\u0252] - \nPar les deux ouvertures du bas, fermant \u00e0 l'aide de deux planchettes \u00e0 glissi\u00e8re, on peut faire couler le grain dans un sac ou dans une corbeille."
         },
         {
             "created": "2023-08-14T12:24:11.410Z",
@@ -27,15 +27,15 @@ order: 1
             "value": "L34.01"
         },
         {
-            "type": "TextualBody",
-            "value": "Q8661",
-            "purpose": "tagging",
+            "created": "2023-08-16T10:15:41.459Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T10:15:41.459Z",
-            "modified": "2023-08-16T10:15:43.099Z"
+            "modified": "2023-08-16T10:15:43.099Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8661"
         }
     ],
     "id": "c446e426-3c6d-4463-84dc-d6eb9edfd641.json",
@@ -49,7 +49,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1734,1448 656,1360 404,1644 436,2204 1468,2502 1676,2334 1732,1452\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0180"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0180",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
