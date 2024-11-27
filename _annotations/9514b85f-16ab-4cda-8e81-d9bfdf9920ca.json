@@ -39,11 +39,11 @@ order: 1
         {
             "created": "2023-08-16T11:05:48.146Z",
             "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-16T11:05:57.198Z",
-            "purpose": "replying",
+            "modified": "2024-11-27T10:10:12.585Z",
+            "purpose": "identifying",
             "type": "TextualBody",
             "value": "Sans localisation"
         },
@@ -321,6 +321,11 @@ order: 1
     "id": "9514b85f-16ab-4cda-8e81-d9bfdf9920ca.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1403.776123046875,4050,1882.97998046875,842.97900390625"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
@@ -328,11 +333,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0040",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1403.776123046875,4050,1882.97998046875,842.97900390625"
         }
     },
     "type": "Annotation"
