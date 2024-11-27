@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0094"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C728",
+            "created": "2023-08-13T16:54:47.114Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:54:47.114Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C728"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5561",
+            "created": "2023-08-13T16:54:55.217Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:54:55.217Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5561"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.07",
+            "created": "2023-08-13T16:54:59.618Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-13T16:54:59.618Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
         },
         {
-            "type": "TextualBody",
-            "value": "[...] (Le manche fait un angle de 45\u00b0 avec la lame).",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-13T16:55:04.064Z",
-            "modified": "2023-08-13T16:55:24.780Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-27T14:57:25.334Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Houe [la s'apa]\nLe manche fait un angle de 45\u00b0 avec la lame."
         }
     ],
+    "id": "f847a5c1-cc42-4593-84d0-f86814141690.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0094",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=244,1704.666748046875,872,920"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=244,1704.666748046875,872,920"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0094",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f847a5c1-cc42-4593-84d0-f86814141690.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
