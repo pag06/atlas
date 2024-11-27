@@ -17,16 +17,6 @@ order: 26
             "value": "Joug (mules)\nFigure XXIV\nPi\u00e8ces voir carte 383"
         },
         {
-            "created": "2023-09-30T08:26:52.182Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-30T08:26:53.809Z",
             "creator": {
                 "id": "ej7320",
@@ -45,11 +35,25 @@ order: 26
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q5774"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L681N",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-27T10:48:46.895Z"
         }
     ],
     "id": "e7d73ae4-7609-4b8f-96f0-708372db1529.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"77.5,4451.2 1158.8,3995.3 1303.2,3995.3 1391.5,4416.5 737.6,4885.9 508.9,4982.2 188,5162.7\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALG2/manifest.json",
@@ -57,10 +61,6 @@ order: 26
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALG2/canvas/ALG_2_0166",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"77.5,4451.2 1158.8,3995.3 1303.2,3995.3 1391.5,4416.5 737.6,4885.9 508.9,4982.2 188,5162.7\"></polygon></svg>"
         }
     },
     "type": "Annotation"
