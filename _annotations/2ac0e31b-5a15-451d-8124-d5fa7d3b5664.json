@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-14T12:15:37.370Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-14T12:15:58.238Z",
+            "modified": "2024-11-27T15:47:40.671Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Van \u00e0 main (en osier) - [...] - (Largeur : environ 0,80m)"
+            "value": "Van \u00e0 main (en osier) \n(Largeur : environ 0,80m)"
         },
         {
             "created": "2023-08-14T12:16:06.083Z",
@@ -37,15 +37,15 @@ order: 1
             "value": "C804"
         },
         {
-            "type": "TextualBody",
-            "value": "Q10469",
-            "purpose": "tagging",
+            "created": "2023-08-16T10:18:04.317Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T10:18:04.317Z",
-            "modified": "2023-08-16T10:18:06.697Z"
+            "modified": "2023-08-16T10:18:06.697Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10469"
         }
     ],
     "id": "2ac0e31b-5a15-451d-8124-d5fa7d3b5664.json",
@@ -60,7 +60,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=300,1410,1078,644"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0171"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0171",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
