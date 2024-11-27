@@ -11,10 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-27T14:17:27.878Z",
+            "modified": "2024-11-27T14:19:19.731Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Charrue \u00e0 grand versoir - [...]\nEnvirons du point L11.31\nMod\u00e8le ancien : le manche, l'\u00e2ge et le sep sont en bois"
+            "value": "Charrue \u00e0 grand versoir - [la m'us\u0254]\nEnvirons du point L11.31\nMod\u00e8le ancien : le manche, l'\u00e2ge et le sep sont en bois"
         },
         {
             "created": "2023-08-12T15:03:25.510Z",
@@ -45,6 +45,16 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q2088"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10644",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-27T14:19:34.191Z"
         }
     ],
     "id": "9533f234-6920-4de9-9e7f-065ad037bdcc.json",
