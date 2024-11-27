@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-12T15:02:30.155Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-15T07:24:03.217Z",
+            "modified": "2024-11-27T14:17:27.878Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Environs du point L11.31 : charrue \u00e0 grand versoir - [...] - (mod\u00e8le ancien : le manche, l'\u00e2ge et le sep sont en bois)"
+            "value": "Charrue \u00e0 grand versoir - [...]\nEnvirons du point L11.31\nMod\u00e8le ancien : le manche, l'\u00e2ge et le sep sont en bois"
         },
         {
             "created": "2023-08-12T15:03:25.510Z",
@@ -59,7 +59,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=1764.071533203125,4027.133056640625,1504.69970703125,783.268310546875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0061"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0061",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
