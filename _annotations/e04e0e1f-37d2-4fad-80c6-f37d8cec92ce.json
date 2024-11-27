@@ -11,10 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-27T14:52:29.009Z",
+            "modified": "2024-11-27T14:52:55.044Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Houe"
+            "value": "Houe fourchue"
         },
         {
             "created": "2023-08-13T16:44:41.594Z",
@@ -37,14 +37,14 @@ order: 1
             "value": "Q5562"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C726",
+            "created": "2024-11-27T14:52:40.240Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-27T14:52:40.240Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C726"
         }
     ],
     "id": "e04e0e1f-37d2-4fad-80c6-f37d8cec92ce.json",
