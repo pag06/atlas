@@ -37,15 +37,15 @@ order: 6
             "value": "Q7667"
         },
         {
-            "type": "TextualBody",
-            "value": "Sans localisation",
-            "purpose": "commenting",
+            "created": "2024-11-27T10:01:30.038Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-27T10:01:30.038Z",
-            "modified": "2024-11-27T10:01:35.141Z"
+            "modified": "2024-11-27T10:01:35.141Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Sans localisation"
         }
     ],
     "id": "f3ac761a-0bdc-4525-925e-a37525ee0902.json",
