@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-12T14:41:19.596Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-12T14:41:37.725Z",
+            "modified": "2024-11-27T10:12:31.733Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "L'ancien frein de bois - [...]"
+            "value": "L'ancien frein de bois"
         },
         {
             "created": "2023-08-12T14:41:56.683Z",
@@ -50,6 +50,10 @@ order: 1
     "id": "e55fb7c6-fa07-4b15-9cf4-cc8ef36d8ede.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1758.9,935.3 2861.7,925 2856.5,1919.5 1934.1,1945.3 1763.6,2058.6 1758.9,935.3\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
@@ -57,10 +61,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0046",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1758.9,935.3 2861.7,925 2856.5,1919.5 1934.1,1945.3 1763.6,2058.6 1758.9,935.3\"></polygon></svg>"
         }
     },
     "type": "Annotation"
