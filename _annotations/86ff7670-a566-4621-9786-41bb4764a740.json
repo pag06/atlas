@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0327"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Hangar - [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T12:12:04.293Z",
-            "modified": "2023-08-15T12:12:14.281Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T12:13:26.321Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Hangar"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.10",
+            "created": "2023-08-15T12:12:24.817Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:12:24.817Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.10"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C961",
+            "created": "2023-08-15T12:12:31.907Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:12:31.907Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C961"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5463",
+            "created": "2023-08-15T12:12:35.528Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:12:35.528Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5463"
         }
     ],
+    "id": "86ff7670-a566-4621-9786-41bb4764a740.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0327",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2011.979248046875,3914.98095703125,1172,474"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2011.979248046875,3914.98095703125,1172,474"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0327",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "86ff7670-a566-4621-9786-41bb4764a740.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
