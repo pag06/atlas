@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-14T16:10:08.565Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-14T16:10:57.096Z",
+            "modified": "2024-11-28T10:12:25.532Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Appareil \u00e0 sulfater \u00e0 dos ([...] \u00e0 L34.07)"
+            "value": "Appareil \u00e0 sulfater \u00e0 dos ([s\u0153lfat\u02c8\u0153z\u0254]"
         },
         {
             "created": "2023-08-14T16:11:05.647Z",
@@ -37,14 +37,14 @@ order: 1
             "value": "C854"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9662",
+            "created": "2023-08-16T09:43:31.283Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T09:43:31.283Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9662"
         }
     ],
     "id": "91c016ba-95ce-462f-ab7d-ffa922ac8b2e.json",
@@ -59,7 +59,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=2146.687744140625,1004.8508911132812,906.9423828125,672.4771118164062"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0220"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0220",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
