@@ -17,34 +17,45 @@ order: 6
             "value": "Habitations rurales isol\u00e9es, fermes\nAude (environs du point L11.13)\nAutre exemple de ferme pris dans la m\u00eame r\u00e9gion et plan de la ferme en \u00e9l\u00e9vation."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.30",
+            "created": "2023-08-18T06:56:40.956Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T06:56:40.956Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.30"
+        },
+        {
+            "created": "2023-08-18T06:56:45.204Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C978"
+        },
+        {
+            "created": "2023-08-18T07:02:02.327Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4513"
         },
         {
             "type": "TextualBody",
+            "value": "Q5431",
             "purpose": "tagging",
-            "value": "C978",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-18T06:56:45.204Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4513",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-08-18T07:02:02.327Z"
+            "created": "2024-11-28T13:56:40.105Z",
+            "modified": "2024-11-28T13:56:42.322Z"
         }
     ],
     "id": "4b3111e0-aa55-419b-b1e8-fc21592613b9.json",
@@ -58,7 +69,14 @@ order: 6
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1602.2059326171875,427.0942687988281 3224.246826171875,438.3324279785156 3224.246826171875,989.0022583007812 1605.951904296875,959.0338134765625 1605.951904296875,1067.6693115234375 3231.739013671875,1093.8917236328125 3220.5009765625,1771.9273681640625 1609.697998046875,1756.943115234375\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
