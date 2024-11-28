@@ -3,62 +3,69 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0330"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Environs du point L34.13. Arceaux du plein cintre soutenant la charpente (pannes et chevrons) d'une bergerie isol\u00e9e dans la garrigue. Les trois arcs d\u00e9limitent quatre trav\u00e9es d'environs 5m. (Longueur totale du b\u00e2timent : 20m. ; largeur 8m env.).",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T12:22:03.016Z",
-            "modified": "2023-08-15T12:23:12.712Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T12:17:36.045Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Arceaux du plein cintre\nEnvirons du point L34.13.\nSoutenant la charpente (pannes et chevrons) d'une bergerie isol\u00e9e dans la garrigue. Les trois arcs d\u00e9limitent quatre trav\u00e9es d'environs 5m. (Longueur totale du b\u00e2timent : 20m. ; largeur 8m env.)."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.13",
+            "created": "2023-08-15T12:23:26.032Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:23:26.032Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.13"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C964",
+            "created": "2023-08-15T12:23:31.842Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:23:31.842Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C964"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10860",
+            "created": "2023-08-15T12:23:44.773Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:23:44.773Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10860"
         }
     ],
+    "id": "0c52741d-3b18-4118-aab8-ac3cbd090e09.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0330",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1708,3904 2428,3556 3148,3960 3148,4356 1724,4316\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0330",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0c52741d-3b18-4118-aab8-ac3cbd090e09.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
