@@ -3,54 +3,62 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0346"
 order: 12
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Foulage des gerbes - [...] - aux pieds de deux juments. \n(Photographie prise vers 1945).",
+            "created": "2023-08-16T17:31:00.195Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "created": "2023-08-16T17:31:00.195Z"
+            "type": "TextualBody",
+            "value": "Foulage des gerbes - [las kawk\u02c8adas] - \n\u0251ux pieds de deux juments. \n(Photographie prise vers 1945).",
+            "modified": "2024-11-28T14:22:00.815Z"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.07",
+            "created": "2023-08-16T17:31:07.382Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T17:31:07.382Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1007",
+            "created": "2023-08-16T17:31:10.816Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T17:31:10.816Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1007"
         }
     ],
+    "id": "5f5a29d7-c08a-4dd9-b4f3-79323882729b.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0346",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1429.980224609375,3717.9482421875 3274.783203125,3792.66796875 3321.3586758211864,2642.736421773223 1476.5556973055611,2568.016695210723\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1429.980224609375,3717.9482421875 3274.783203125,3792.66796875 3321.3586758211864,2642.736421773223 1476.5556973055611,2568.016695210723\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0346",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5f5a29d7-c08a-4dd9-b4f3-79323882729b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
