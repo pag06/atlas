@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0311"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Cabane de p\u00eacheur - [...] - au bord de l'\u00e9tang de Bages. B\u00e2tie en roseaux des marais -[...] - ( Arundo phragmites).",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T11:54:34.114Z",
-            "modified": "2023-08-15T11:55:36.576Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T11:48:22.660Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Cabane de p\u00eacheur - [ka\u03b2\u02c8an\u0254 de pesk\u02c8ajre] -\nAu bord de l'\u00e9tang de Bages. B\u00e2tie en roseaux des marais - [sen\u02c8il] - ( Arundo phragmites)."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.18",
+            "created": "2023-08-15T11:54:48.330Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T11:54:48.330Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.18"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1612",
+            "created": "2023-08-15T11:54:50.916Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T11:54:50.916Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1612"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C944",
+            "created": "2023-08-15T11:54:53.365Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T11:54:53.365Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C944"
         }
     ],
+    "id": "a9ed601e-3cb0-4511-8b7b-34b68ea17369.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0311",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1894.3975830078125,3954.384765625,1347.5572509765625,636.560546875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1894.3975830078125,3954.384765625,1347.5572509765625,636.560546875"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0311",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a9ed601e-3cb0-4511-8b7b-34b68ea17369.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
