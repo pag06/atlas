@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-15T12:18:34.873Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-15T12:19:52.448Z",
+            "modified": "2024-11-28T12:16:23.503Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Entre les points L12.31 et L12.32. Hangar vo\u00fbt\u00e9 typique de l'architecture de Causse du Larzac. Il n'y a pas de charpente : la couverture de [...] calcaires repose directement sur la vo\u00fbte."
+            "value": "Hangar vo\u00fbt\u00e9 \nEntre les points L12.31 et L12.32. \nTypique de l'architecture de Causse du Larzac. Il n'y a pas de charpente : la couverture de [l\u02c8awz\u0254s] calcaires repose directement sur la vo\u00fbte."
         },
         {
             "created": "2023-08-15T12:20:12.501Z",
@@ -37,24 +37,24 @@ order: 1
             "value": "L12.32"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C964",
+            "created": "2023-08-15T12:20:56.286Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:20:56.286Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C964"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10861",
+            "created": "2023-08-15T12:21:24.786Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:21:24.786Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10861"
         }
     ],
     "id": "a311ef6d-d330-44ce-ba0f-3522ddf24cd1.json",
@@ -69,7 +69,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=168,1696,1368,676"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0330"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0330",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
