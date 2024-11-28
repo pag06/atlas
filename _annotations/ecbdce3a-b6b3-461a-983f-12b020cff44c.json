@@ -13,12 +13,17 @@ order: 4
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Ch\u00e9neau - [...] - constitu\u00e9 d'\u00e9l\u00e9ments de poterie verniss\u00e9e."
+            "value": "Ch\u00e9neau et tuile de ch\u00e9neau\nLe ch\u00e9neau est constitu\u00e9 d'\u00e9l\u00e9ments de poterie verniss\u00e9e.",
+            "modified": "2024-11-28T13:45:26.371Z"
         }
     ],
     "id": "ecbdce3a-b6b3-461a-983f-12b020cff44c.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"248.6,1843.1 1499.9,1861.6 1524.6,2182.1 754.1,2188.3 744.8,2374.7 1364.3,2379.3 1086.9,2550.4 828,2707.6 482.9,2736.9 242.5,2693.7\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
@@ -26,10 +31,6 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0341",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"248.6,1843.1 1499.9,1861.6 1524.6,2182.1 754.1,2188.3 744.8,2374.7 1364.3,2379.3 1086.9,2550.4 828,2707.6 482.9,2736.9 242.5,2693.7\"></polygon></svg>"
         }
     },
     "type": "Annotation"
