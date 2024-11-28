@@ -3,53 +3,90 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0199"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Bineuse ou cultivateur \u00e0 cinq socs - [...] - (les socs : [...])",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-14T15:37:30.098Z",
-            "modified": "2023-08-14T15:38:21.289Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T09:55:11.345Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Bineuse ou cultivateur \u00e0 cinq socs - [\u0261rat\u02c8\u0153z\u0254] - \nLes socs [las p\u02c8\u0153\u0303t\u0254s]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.12",
+            "created": "2023-08-14T15:38:29.138Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T15:38:29.138Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.12"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C833",
+            "created": "2023-08-14T15:38:38.685Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T15:38:38.685Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C833"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2091",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-28T09:55:26.886Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5647",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-28T09:55:34.438Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9459",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-28T09:55:42.649Z"
         }
     ],
+    "id": "27bfeec1-f99d-4bc9-81cf-1f7649525142.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0199",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=272.25445556640625,1773.9483642578125,1123.3717651367188,605.4869384765625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=272.25445556640625,1773.9483642578125,1123.3717651367188,605.4869384765625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0199",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "27bfeec1-f99d-4bc9-81cf-1f7649525142.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
