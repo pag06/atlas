@@ -37,14 +37,24 @@ order: 7
             "value": "C978"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4513",
+            "created": "2023-08-18T07:02:11.454Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T07:02:11.454Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4513"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5431",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-28T13:57:31.643Z"
         }
     ],
     "id": "81d32945-8fc7-4552-822e-af18fd564476.json",
@@ -58,7 +68,14 @@ order: 7
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1585.77783203125,2083.862548828125 2892.444580078125,2079.41796875 2910.222412109375,2590.529296875 1585.77783203125,2590.529296875 1576.8890380859375,2808.306884765625 2954.666748046875,2817.19580078125 2963.5556640625,3946.084716796875 1590.2222900390625,3946.084716796875\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
