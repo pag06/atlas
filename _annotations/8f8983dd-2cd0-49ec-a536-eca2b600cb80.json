@@ -8,12 +8,13 @@ order: 6
         {
             "created": "2023-08-16T12:01:24.787Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Serpe - [...]"
+            "value": "Serpe - [lu \u03b2ez\u02c8ut\u0283]",
+            "modified": "2024-11-28T14:14:31.817Z"
         },
         {
             "created": "2023-08-16T12:01:38.194Z",
@@ -26,15 +27,15 @@ order: 6
             "value": "Q9373"
         },
         {
-            "type": "TextualBody",
-            "value": "L34.25N",
-            "purpose": "tagging",
+            "created": "2024-11-28T14:13:57.378Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-28T14:13:57.378Z",
-            "modified": "2024-11-28T14:14:06.561Z"
+            "modified": "2024-11-28T14:14:06.561Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.25N"
         }
     ],
     "id": "8f8983dd-2cd0-49ec-a536-eca2b600cb80.json",
