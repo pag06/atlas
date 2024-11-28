@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0262"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Barrique - [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T07:51:20.304Z",
-            "modified": "2023-08-15T07:51:25.589Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T11:32:20.654Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Barrique - [bar\u02d0ik\u02c8\u0254t]\n[lu testj\u02c8e] : chacun des deux cercles plac\u00e9s au jable, \u00e0 l'estr\u00e9mit\u00e9 des douves ; [lu fajsj\u02c8e]: chacun des deux cercles interm\u00e9diaires, sur la partie renfl\u00e9e du f\u00fbt"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.18",
+            "created": "2023-08-15T07:51:38.839Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:51:38.839Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.18"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C890",
+            "created": "2023-08-15T07:52:16.140Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:52:16.140Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C890"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q908",
+            "created": "2023-08-15T07:52:28.858Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:52:28.858Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q908"
         }
     ],
+    "id": "1c126618-4c83-4c53-a596-6c67d6d5e83a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0262",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=231.02981567382812,1096.318115234375,917.2485046386719,847.681884765625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=231.02981567382812,1096.318115234375,917.2485046386719,847.681884765625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0262",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1c126618-4c83-4c53-a596-6c67d6d5e83a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
