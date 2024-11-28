@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-15T12:48:00.866Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-15T12:49:32.118Z",
+            "modified": "2024-11-28T12:34:26.300Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Grange - [...] - couverte de gen\u00eat \u00e0 Fraisse-sur-Agout avec vu en coupe du b\u00e2timent.\nGr\u00e2ce \u00e0 la d\u00e9clivit\u00e9 du terrain et \u00e0 l'am\u00e9nagement d'une rampe de terre, on acc\u00e8de directement au niveau du fenil par la porte du pignon."
+            "value": "Grange - [pa\u028e\u02c8\u025b] - couverte de gen\u00eat \n\u00c0 Fraisse-sur-Agout avec vu en coupe du b\u00e2timent.\nGr\u00e2ce \u00e0 la d\u00e9clivit\u00e9 du terrain et \u00e0 l'am\u00e9nagement d'une rampe de terre, on acc\u00e8de directement au niveau du fenil par la porte du pignon."
         },
         {
             "created": "2023-08-15T12:49:42.971Z",
@@ -38,14 +38,13 @@ order: 1
         },
         {
             "type": "TextualBody",
-            "value": "Carte ethnographique non r\u00e9pertori\u00e9e dans le Thesoc",
-            "purpose": "replying",
+            "purpose": "tagging",
+            "value": "Q10021",
             "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-16T09:47:29.788Z",
-            "modified": "2023-08-16T09:47:50.216Z"
+            "created": "2024-11-28T12:35:25.059Z"
         }
     ],
     "id": "eacf6707-469c-47cf-9e8c-9b5344919c3e.json",
@@ -59,7 +58,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2320,3566 2164,3562 2028,3642 1904,3830 1732,3850 1668,4182 2172,4238 2364,4322 2720,4482 2532,4786 2540,4994 3432,5018 3372,4198\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0339"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0339",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
