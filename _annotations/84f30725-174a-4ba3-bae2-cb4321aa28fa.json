@@ -3,73 +3,80 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0338"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Entre les points L12.31 et L12.32. Toiture en [...] calcaires, au hameau de La Blaqui\u00e8re.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T12:42:44.145Z",
-            "modified": "2023-08-15T12:43:22.513Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T12:31:03.208Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Toiture en [l'awz\u0254s] calcaires\nAu hameau de La Blaqui\u00e8re, entre les points L12.31 et L12.32. "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L12.32",
+            "created": "2023-08-15T12:43:36.263Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:43:36.263Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L12.32"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L12.31",
+            "created": "2023-08-15T12:43:43.079Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:43:43.079Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L12.31"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5942",
+            "created": "2023-08-15T12:44:39.534Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:44:39.534Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5942"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C972",
+            "created": "2023-08-15T12:44:52.937Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:44:52.937Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C972"
         }
     ],
+    "id": "84f30725-174a-4ba3-bae2-cb4321aa28fa.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0338",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=128,1676,1336,748"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=128,1676,1336,748"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0338",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "84f30725-174a-4ba3-bae2-cb4321aa28fa.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
