@@ -8,23 +8,13 @@ order: 1
         {
             "created": "2023-08-15T11:52:22.729Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-15T12:25:53.819Z",
+            "modified": "2024-11-28T11:44:21.033Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Biterrois (env. des points L34.07 et L34.32W).\nCabane de vigne - [...] -.\nAu premier plan, \u00e0 gauche : puit couvert accessible de l'int\u00e9rieur de la cabane."
-        },
-        {
-            "created": "2023-08-15T11:53:38.726Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L3407"
+            "value": "Cabane de vigne - [mas] -.\nBiterrois (env. des points L34.07 et L34.32W).\nAu premier plan, \u00e0 gauche : puit couvert accessible de l'int\u00e9rieur de la cabane."
         },
         {
             "created": "2023-08-15T11:53:45.696Z",
@@ -55,6 +45,16 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q1612"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L34.07",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-28T11:44:51.334Z"
         }
     ],
     "id": "1c0a07bd-3bb3-4706-8a17-326503a95a33.json",
@@ -69,7 +69,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=384,1500,1128,758"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0311"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0311",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
