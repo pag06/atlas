@@ -3,53 +3,60 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0345"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Balcon-galerie couvert - [...] - au village d'Arpaillargues.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-16T11:25:23.989Z",
-            "modified": "2023-08-16T11:25:45.564Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T14:04:58.204Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Balcon-galerie couvert - [kured'u] - \nAu village d'Arpaillargues."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L30.13",
+            "created": "2023-08-16T11:25:52.896Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T11:25:52.896Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L30.13"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q798",
+            "created": "2023-08-16T11:26:23.821Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T11:26:23.821Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q798"
         }
     ],
+    "id": "ec4ec9d4-2639-444e-ace5-97c9d1d0e806.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0345",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2182.6904296875,491.417236328125,950.743408203125,644.1351318359375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2182.6904296875,491.417236328125,950.743408203125,644.1351318359375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0345",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ec4ec9d4-2639-444e-ace5-97c9d1d0e806.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
