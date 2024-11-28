@@ -40,14 +40,6 @@ order: 3
     "id": "090ba1dd-9aa7-4557-933d-42d22cd56cca.json",
     "motivation": "commenting",
     "target": {
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
-            "type": "Manifest"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"355.9230041503906,3250.892333984375 1131.4617919921875,3253.468994140625 1131.4617919921875,3727.552490234375 971.7162475585938,3727.552490234375 979.4458618164062,3820.307861328125 1139.19140625,3843.496826171875 1136.6148681640625,4181.0234375 368.8056945800781,4209.36572265625\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
@@ -55,6 +47,10 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0345",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"355.9,3250.9 1131.5,3253.5 1131.5,3727.6 971.7,3727.6 982.1,3847.9 1139.2,3843.5 1136.6,4181 368.8,4209.4\"></polygon></svg>"
         }
     },
     "type": "Annotation"
