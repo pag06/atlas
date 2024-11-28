@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-08-15T12:35:08.745Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-15T12:41:55.811Z",
+            "modified": "2024-11-28T12:28:10.138Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "- [...] au pignon de la maison de l'informateur.\n[...] c'est un morceau de tuile canal scell\u00e9 en haut du pignon sur lequel est cens\u00e9e se poser [...] (chouette) <c'est pour \u00e9loigner les sorciers de la maison. Mais on ne peut pas mesurer la croyance des gens \u00e0 la pr\u00e9sence de la [...], car les entrepreneurs la mettent d'office quand ils refont un toit>"
+            "value": "[la t\u0283\u02c8\u0254t\u0254] au pignon de la maison de l'informateur.\n[...] c'est un morceau de tuile canal scell\u00e9 en haut du pignon sur lequel est cens\u00e9e se poser [...] (chouette) <c'est pour \u00e9loigner les sorciers de la maison. Mais on ne peut pas mesurer la croyance des gens \u00e0 la pr\u00e9sence de la [...], car les entrepreneurs la mettent d'office quand ils refont un toit>"
         },
         {
             "created": "2023-08-15T12:35:30.750Z",
@@ -58,7 +58,14 @@ order: 2
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2028,4656 2860,4708 3004,4792 3004,4236 2040,4268\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0337"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0337",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
