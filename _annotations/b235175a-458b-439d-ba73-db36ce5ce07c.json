@@ -18,13 +18,13 @@ order: 1
         {
             "created": "2023-08-15T07:26:14.570Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-15T07:26:27.647Z",
+            "modified": "2024-11-28T11:00:45.329Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Masse \u00e0 tasser les comportes - [...]"
+            "value": "Masse \u00e0 tasser les comportes"
         },
         {
             "created": "2023-08-15T07:26:38.540Z",
@@ -50,6 +50,10 @@ order: 1
     "id": "b235175a-458b-439d-ba73-db36ce5ce07c.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"599.5,2237.7 609.8,2472.2 919,2467 919,2673.2 612.4,2688.6 612.4,3363.7 246.5,3350.8 254.6,2241.9 602.1,2240.3\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
@@ -57,10 +61,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0239",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"599.5,2237.7 609.8,2472.2 919,2467 919,2673.2 612.4,2688.6 612.4,3363.7 246.5,3350.8 254.6,2241.9 602.1,2240.3\"></polygon></svg>"
         }
     },
     "type": "Annotation"
