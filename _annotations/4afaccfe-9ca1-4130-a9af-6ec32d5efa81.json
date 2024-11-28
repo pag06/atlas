@@ -27,24 +27,24 @@ order: 1
             "value": "L34.07"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C839",
+            "created": "2023-08-14T15:51:06.035Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T15:51:06.035Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C839"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8564",
+            "created": "2023-08-14T15:51:22.955Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T15:51:22.955Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8564"
         }
     ],
     "id": "4afaccfe-9ca1-4130-a9af-6ec32d5efa81.json",
@@ -59,7 +59,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=216.42942810058594,1156.294189453125,1291.1331939697266,1399.92041015625"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0205"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0205",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
