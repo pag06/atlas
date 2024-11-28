@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0235"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C869",
+            "created": "2023-08-15T07:12:31.308Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:12:31.308Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C869"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L30.06",
+            "created": "2023-08-15T07:12:35.613Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:12:35.613Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L30.06"
         },
         {
-            "type": "TextualBody",
-            "value": "Portage \u00e0 dos du grand panier - [...] -, qui remplace ici la comporte. Un [...] prot\u00e8ge les \u00e9paules du porteur",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T07:12:43.477Z",
-            "modified": "2023-08-15T07:13:25.613Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T10:22:09.849Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Portage \u00e0 dos du grand panier - [te\u0280aj\u0280\u02c8\u0254w] -, \nIl remplace ici la comporte. Un [ka\u03b2ys\u02c8aw] prot\u00e8ge les \u00e9paules du porteur"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2531",
+            "created": "2023-08-15T07:13:45.448Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:13:45.448Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2531"
         }
     ],
+    "id": "b4df3af5-47a6-4d28-9e9d-d22df539b89b.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0235",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=362.43328857421875,1383.6024169921875,958.4730834960938,1262.5050048828125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=362.43328857421875,1383.6024169921875,958.4730834960938,1262.5050048828125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0235",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b4df3af5-47a6-4d28-9e9d-d22df539b89b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
