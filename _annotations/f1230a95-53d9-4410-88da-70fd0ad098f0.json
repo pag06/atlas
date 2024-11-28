@@ -39,12 +39,12 @@ order: 3
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q4513???",
+            "value": "Q5431",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-18T07:01:06.914Z"
+            "created": "2024-11-28T13:53:37.978Z"
         }
     ],
     "id": "f1230a95-53d9-4410-88da-70fd0ad098f0.json",
@@ -59,7 +59,14 @@ order: 3
             "type": "FragmentSelector",
             "value": "xywh=261.11883544921875,2281.390625,857.8461303710938,580.63818359375"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
