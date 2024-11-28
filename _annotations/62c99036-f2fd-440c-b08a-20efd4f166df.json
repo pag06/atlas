@@ -37,15 +37,15 @@ order: 1
             "value": "Q10377"
         },
         {
-            "type": "TextualBody",
-            "value": "L30.22",
-            "purpose": "tagging",
+            "created": "2023-08-16T09:08:17.613Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T09:08:17.613Z",
-            "modified": "2023-08-16T09:08:23.997Z"
+            "modified": "2023-08-16T09:08:23.997Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L30.22"
         }
     ],
     "id": "62c99036-f2fd-440c-b08a-20efd4f166df.json",
@@ -62,7 +62,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"292,1084 1692,1228 1647.3725160748327,1661.8783159391257 247.3725160748328,1517.8783159391257\" /></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0337"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0337",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
