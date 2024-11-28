@@ -3,73 +3,80 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0310"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C944",
+            "created": "2023-08-15T11:50:25.195Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T11:50:25.195Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C944"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.07",
+            "created": "2023-08-15T11:50:30.621Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T11:50:30.621Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.07E",
+            "created": "2023-08-15T11:50:41.202Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T11:50:41.202Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07E"
         },
         {
-            "type": "TextualBody",
-            "value": "Environs des points L34.07 et L34.07E. \nCabane - [...] - en pierres s\u00e8ches (base \u00e0 plan carr\u00e9 et couvrement circulaire).",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T11:50:52.597Z",
-            "modified": "2023-08-15T11:51:33.776Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T11:43:15.773Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Cabane en pierres s\u00e8ches - [ka\u03b2\u02c8ana] -\nBase \u00e0 plan carr\u00e9 et couvrement circulaire.\nEnvirons de 34.07 et 34.07E\n"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1612",
+            "created": "2023-08-15T11:51:53.877Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T11:51:53.877Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1612"
         }
     ],
+    "id": "6414df37-004f-45e1-bef1-ce6c83032539.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0310",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1676.8887939453125,3916.444580078125,1275.5557861328125,533.333251953125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1676.8887939453125,3916.444580078125,1275.5557861328125,533.333251953125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0310",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "6414df37-004f-45e1-bef1-ce6c83032539.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
