@@ -3,62 +3,69 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0341"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Ch\u00e9neau - [...] - creus\u00e9 dans un tronc 'arbre, qui conduit les eaux pluviales \u00e0 la citerne. (Les pierres saillantes du mur supportent le ch\u00e9neau et r\u00e8glent sa pente)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T12:57:50.564Z",
-            "modified": "2023-08-15T12:58:32.398Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T13:47:47.074Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Ch\u00e9neau\nCreus\u00e9 dans un tronc d'arbre, qui conduit les eaux pluviales \u00e0 la citerne. Les pierres saillantes du mur supportent le ch\u00e9neau et r\u00e8glent sa pente."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L12.32",
+            "created": "2023-08-15T12:58:43.963Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:58:43.963Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L12.32"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C974",
+            "created": "2023-08-15T12:58:53.418Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:58:53.418Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C974"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2196",
+            "created": "2023-08-15T12:58:59.418Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:58:59.418Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2196"
         }
     ],
+    "id": "e3613820-28fe-463d-9422-37a0a5038182.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0341",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2064,3608 3290,3636 3302,4100 3054,4392 2798,4186 2800,4108 2040,4100\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0341",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e3613820-28fe-463d-9422-37a0a5038182.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
