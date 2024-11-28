@@ -27,24 +27,24 @@ order: 1
             "value": "L34.07"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C845",
+            "created": "2023-08-14T16:00:08.012Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T16:00:08.012Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C845"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9385",
+            "created": "2023-08-14T16:00:23.540Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T16:00:23.540Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9385"
         }
     ],
     "id": "c5f1de08-0643-4cdf-9fe7-ca50987b063d.json",
@@ -58,7 +58,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1704.8111572265625,1552.36572265625 243.91253662109375,1554.9422607421875 254.21868896484375,2374.2822265625 1356.9781494140625,2392.318115234375 1364.707763671875,2562.36962890625 1725.4234619140625,2567.522705078125 1704.8111572265625,1557.518798828125\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0211"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0211",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
