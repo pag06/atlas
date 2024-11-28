@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-08-14T15:25:38.248Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-14T15:26:21.510Z",
+            "modified": "2024-11-28T09:50:04.919Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Outil utilis\u00e9 pour travailler l'entre-deux - [...]"
+            "value": "Outil utilis\u00e9 pour travailler l'entre-deux - [\u0280ast\u02c8\u025bl]"
         },
         {
             "created": "2023-08-14T15:26:13.275Z",
@@ -27,15 +27,26 @@ order: 3
             "value": "L34.15"
         },
         {
-            "type": "TextualBody",
-            "value": "Q5647",
-            "purpose": "tagging",
+            "created": "2023-08-16T10:08:40.250Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2023-08-16T10:08:40.250Z",
-            "modified": "2023-08-16T10:08:45.965Z"
+            "modified": "2023-08-16T10:08:45.965Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5647"
+        },
+        {
+            "type": "TextualBody",
+            "value": "C832",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-28T09:50:16.237Z",
+            "modified": "2024-11-28T09:50:18.737Z"
         }
     ],
     "id": "cea128cd-1ac3-4372-a4a2-1b21c4a19c58.json",
@@ -49,7 +60,14 @@ order: 3
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2091.578369140625,3765.83740234375 3162.274169921875,3777.288818359375 3165.13720703125,4034.94287109375 2437.97998046875,4375.61865234375 2097.30419921875,4369.89306640625 2091.578369140625,3771.56298828125\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0197"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0197",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
