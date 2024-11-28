@@ -39,11 +39,11 @@ order: 1
         {
             "created": "2023-08-16T09:44:49.631Z",
             "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-16T09:45:01.494Z",
-            "purpose": "replying",
+            "modified": "2024-11-28T10:10:38.258Z",
+            "purpose": "identifying",
             "type": "TextualBody",
             "value": "Sans localisation"
         }
@@ -60,7 +60,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=352.1272277832031,1629.6619873046875,744.6202087402344,546.2266845703125"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0217"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0217",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
