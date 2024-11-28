@@ -11,10 +11,30 @@ order: 4
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-28T13:45:26.371Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Ch\u00e9neau et tuile de ch\u00e9neau\nLe ch\u00e9neau est constitu\u00e9 d'\u00e9l\u00e9ments de poterie verniss\u00e9e.",
-            "modified": "2024-11-28T13:45:26.371Z"
+            "value": "Ch\u00e9neau et tuile de ch\u00e9neau\nLe ch\u00e9neau est constitu\u00e9 d'\u00e9l\u00e9ments de poterie verniss\u00e9e."
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L34.13",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-28T13:45:43.799Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2196",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-28T13:45:54.667Z"
         }
     ],
     "id": "ecbdce3a-b6b3-461a-983f-12b020cff44c.json",
