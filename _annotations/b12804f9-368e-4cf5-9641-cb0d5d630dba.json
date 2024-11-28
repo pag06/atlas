@@ -3,63 +3,80 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0331"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Vue en coupe de la m\u00eame maison que ci-contre : \na) \u00e0 la m\u00eame hauteur de l'habitation\nb) \u00e0 la hauteur de l'\u00e9table",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T12:30:06.569Z",
-            "modified": "2023-08-15T12:30:45.437Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T12:21:07.869Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Type d'habitat\nVue en coupe la maison\na) \u00e0 la m\u00eame hauteur de l'habitation\nb) \u00e0 la hauteur de l'\u00e9table"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.01",
+            "created": "2023-08-15T12:30:55.710Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:30:55.710Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.01"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C965",
+            "created": "2023-08-15T12:31:00.460Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:31:00.460Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C965"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q4759",
+            "value": "Q5431",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-15T12:31:04.240Z"
+            "created": "2024-11-28T12:21:59.639Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10860",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-28T12:22:21.747Z"
         }
     ],
+    "id": "b12804f9-368e-4cf5-9641-cb0d5d630dba.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0331",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1848.839111328125,1086.54541015625,1384.615478515625,654.5455322265625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1848.839111328125,1086.54541015625,1384.615478515625,654.5455322265625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0331",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b12804f9-368e-4cf5-9641-cb0d5d630dba.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
