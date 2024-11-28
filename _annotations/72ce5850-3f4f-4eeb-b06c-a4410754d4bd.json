@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-15T12:27:32.469Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-15T12:28:50.267Z",
+            "modified": "2024-11-28T12:19:07.176Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Vue du grenier d'une maison, montrant les arcs en ogive qui soutiennent la charpente."
+            "value": "Arcs en ogive\nVue du grenier d'une maison, montrant les arcs en ogive qui soutiennent la charpente."
         },
         {
             "created": "2023-08-15T12:29:03.698Z",
@@ -27,24 +27,24 @@ order: 1
             "value": "L34.01"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C965",
+            "created": "2023-08-15T12:29:39.428Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:29:39.428Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C965"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4759",
+            "created": "2023-08-15T12:29:48.252Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:29:48.252Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4759"
         }
     ],
     "id": "72ce5850-3f4f-4eeb-b06c-a4410754d4bd.json",
@@ -59,7 +59,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=221.33338928222656,1489.7779541015625,1297.777816772461,880.0001220703125"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0331"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0331",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
