@@ -3,62 +3,69 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0269"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Mesure de 10 litres.\n[...] (XIX\u00b0 si\u00e8cle. Cuivre rouge, \u00e9tam\u00e9 \u00e0 l'int\u00e9rieur. Porte la marque du fabricant : DECALITRE / CAZES / MONTPELLIER)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T11:08:17.071Z",
-            "modified": "2023-08-15T11:09:23.219Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T11:36:50.072Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Mesure de 10 litres [dekal\u02c8itre] \nXIX\u00b0 si\u00e8cle. Cuivre rouge, \u00e9tam\u00e9 \u00e0 l'int\u00e9rieur. Porte la marque du fabricant : DECALITRE / CAZES / MONTPELLIER"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.07",
+            "created": "2023-08-15T11:09:31.508Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T11:09:31.508Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6523",
+            "created": "2023-08-15T11:09:51.270Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T11:09:51.270Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6523"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C903",
+            "created": "2023-08-15T11:09:57.084Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T11:09:57.084Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C903"
         }
     ],
+    "id": "88b4296c-5819-4679-9fd5-7ad3d1e5813a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0269",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1921.2406005859375,3814.568603515625 2596.294189453125,3806.839111328125 2585.988037109375,4450.97412109375 2472.620361328125,4481.892578125 2475.19677734375,4569.4951171875 2294.8388671875,4618.44921875 1923.817138671875,4613.29638671875\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0269",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "88b4296c-5819-4679-9fd5-7ad3d1e5813a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
