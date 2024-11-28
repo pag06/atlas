@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-08-16T11:17:33.622Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-16T11:19:04.301Z",
+            "modified": "2024-11-28T14:02:02.267Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Habitat \nGard (environs du point L30.22)\nExemple de [...] \u00e0 cour ferm\u00e9e, comme on en trouve souvent dans l'est du domaine (pays de N\u00eemes et d'Uz\u00e8s, vall\u00e9e du Rh\u00f4ne et Bas-Vivarais)"
+            "value": "Habitat \nExemple de [mas] \u00e0 cour ferm\u00e9e, comme on en trouve souvent dans l'est du domaine (pays de N\u00eemes et d'Uz\u00e8s, vall\u00e9e du Rh\u00f4ne et Bas-Vivarais).\nGard (environs du point L30.22)"
         },
         {
             "created": "2023-08-16T11:19:17.704Z",
@@ -37,14 +37,24 @@ order: 2
             "value": "C979"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4513",
+            "created": "2023-08-18T07:03:11.453Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T07:03:11.453Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4513"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5431",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-28T14:02:12.019Z"
         }
     ],
     "id": "8fe1985e-a549-4eb6-9c96-f2b0dbc447b3.json",
@@ -59,7 +69,14 @@ order: 2
             "type": "FragmentSelector",
             "value": "xywh=353.3465270996094,1451.1787109375,1133.6778869628906,1252.19873046875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0345"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0345",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
