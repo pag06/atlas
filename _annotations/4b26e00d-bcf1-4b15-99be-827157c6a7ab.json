@@ -37,15 +37,15 @@ order: 1
             "value": "C826"
         },
         {
-            "type": "TextualBody",
-            "value": "Sans localisation",
-            "purpose": "replying",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
             "created": "2023-08-16T10:11:50.297Z",
-            "modified": "2023-08-16T10:12:01.661Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T09:35:03.328Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Sans localisation"
         }
     ],
     "id": "4b26e00d-bcf1-4b15-99be-827157c6a7ab.json",
@@ -60,7 +60,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=370,1702,910,600"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0192"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0192",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
