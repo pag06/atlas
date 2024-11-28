@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0236"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Poign\u00e9es de comporte - [...] - \na) \u00e0 gauche : ancien mod\u00e8le, en bois\nb) \u00e0 droite : mod\u00e8le actuel, en fer",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T07:15:19.445Z",
-            "modified": "2023-08-15T07:15:55.078Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T10:32:59.665Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Poign\u00e9es de comporte - [kurnaj\u02c8\u025bjra] - \na) \u00e0 gauche : ancien mod\u00e8le, en bois\nb) \u00e0 droite : mod\u00e8le actuel, en fer"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.07",
+            "created": "2023-08-15T07:16:00.915Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:16:00.915Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C870",
+            "created": "2023-08-15T07:16:04.631Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:16:04.631Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C870"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7918",
+            "created": "2023-08-15T07:16:11.147Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:16:11.147Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7918"
         }
     ],
+    "id": "a799c2c7-cb27-48ed-a33b-3cb41c6ce88b.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0236",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=346.9741516113281,1222.568603515625,1571.6897888183594,703.3956298828125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=346.9741516113281,1222.568603515625,1571.6897888183594,703.3956298828125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0236",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a799c2c7-cb27-48ed-a33b-3cb41c6ce88b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
