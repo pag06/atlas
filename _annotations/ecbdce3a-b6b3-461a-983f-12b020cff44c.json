@@ -37,23 +37,19 @@ order: 4
             "value": "Q2196"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C974",
+            "created": "2024-11-28T13:46:09.746Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-28T13:46:09.746Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C974"
         }
     ],
     "id": "ecbdce3a-b6b3-461a-983f-12b020cff44c.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"248.6,1843.1 1499.9,1861.6 1524.6,2182.1 754.1,2188.3 744.8,2374.7 1364.3,2379.3 1086.9,2550.4 828,2707.6 482.9,2736.9 242.5,2693.7\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
@@ -61,6 +57,10 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0341",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"217.8,1843.1 1499.9,1861.6 1524.6,2182.1 754.1,2188.3 744.8,2374.7 1364.3,2379.3 1086.9,2550.4 828,2707.6 482.9,2736.9 224,2699.9\"></polygon></svg>"
         }
     },
     "type": "Annotation"
