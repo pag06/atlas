@@ -3,63 +3,80 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0332"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Contrefort - [...] - renfor\u00e7ant l'angle - [...] - d'une construction",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T12:31:24.704Z",
-            "modified": "2023-08-15T12:31:42.112Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T12:24:24.162Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Contrefort\nRenfor\u00e7ant l'angle d'une construction"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.07",
+            "created": "2023-08-15T12:31:53.579Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:31:53.579Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2584",
+            "created": "2023-08-15T12:32:23.447Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:32:23.447Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2584"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C964",
+            "created": "2023-08-15T12:32:27.197Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:32:27.197Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C964"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q254",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-28T12:24:39.998Z"
         }
     ],
+    "id": "440ef9b0-6b8f-43ac-99ad-9caf188d3afc.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0332",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=232,1336,876,1060"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=232,1336,876,1060"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0332",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "440ef9b0-6b8f-43ac-99ad-9caf188d3afc.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
