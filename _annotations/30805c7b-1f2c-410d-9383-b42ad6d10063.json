@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-14T12:37:51.777Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-14T12:44:57.580Z",
+            "modified": "2024-11-28T09:36:21.878Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Succession des diff\u00e9rentes fa\u00e7ons de labour des vignes pratiqu\u00e9es au cours de l'ann\u00e9e culturale.\n1)Le premier labour est ex\u00e9cut\u00e9 soit \u00e0 l'automne (novembre), soit un peu plus tard dans le courant de l'hiver (janvier). On fait de cinq \u00e0 sept raies de charrue dans l'espace entre deux rang\u00e9es. La terre est pouss\u00e9e au pied des ceps qui restent chauss\u00e9s. La derni\u00e8re raies, trac\u00e9e au milieu, demeure ouverte. \n2) \u00c0 la fin de l'hiver (f\u00e9vrier), on d\u00e9chausse \u00e0 la charrue d\u00e9chausseuse ou \u00e0 la d\u00e9cavaillonneuse. \n2bis) Le travail de la charrue est compl\u00e9t\u00e9 et achev\u00e9 \u00e0 l'aide d'outils manuels. On fait tomber la bande de terre rest\u00e9e entre les ceps apr\u00e8s le passage de la d\u00e9chausseuse et l'on creuse au pied des ceps.\n3) Au printemps (mars - avril - mai), on travaille l'espace entre les rang\u00e9es au cultivateur, instrument qui brise les mottes et aplanit le sol.\n4) Un  nouveau labour ex\u00e9cut\u00e9 au mois de mai rechausse le cep et enterre les herbes qui ont pouss\u00e9es dans les intervalles entre les ceps.\n5) De la fin de mai au mois de juillet : binages superficiels pour d\u00e9truire l'herbe."
+            "value": "Succession des diff\u00e9rentes fa\u00e7ons de labour des vignes pratiqu\u00e9es au cours de l'ann\u00e9e culturale.\n1) Le premier labour est ex\u00e9cut\u00e9 soit \u00e0 l'automne (novembre), soit un peu plus tard dans le courant de l'hiver (janvier). On fait de cinq \u00e0 sept raies de charrue dans l'espace entre deux rang\u00e9es. La terre est pouss\u00e9e au pied des ceps qui restent chauss\u00e9s. La derni\u00e8re raies, trac\u00e9e au milieu, demeure ouverte. \n2) \u00c0 la fin de l'hiver (f\u00e9vrier), on d\u00e9chausse \u00e0 la charrue d\u00e9chausseuse ou \u00e0 la d\u00e9cavaillonneuse. \n2bis) Le travail de la charrue est compl\u00e9t\u00e9 et achev\u00e9 \u00e0 l'aide d'outils manuels. On fait tomber la bande de terre rest\u00e9e entre les ceps apr\u00e8s le passage de la d\u00e9chausseuse et l'on creuse au pied des ceps.\n3) Au printemps (mars - avril - mai), on travaille l'espace entre les rang\u00e9es au cultivateur, instrument qui brise les mottes et aplanit le sol.\n4) Un  nouveau labour ex\u00e9cut\u00e9 au mois de mai rechausse le cep et enterre les herbes qui ont pouss\u00e9es dans les intervalles entre les ceps.\n5) De la fin de mai au mois de juillet : binages superficiels pour d\u00e9truire l'herbe."
         },
         {
             "created": "2023-08-14T12:45:21.613Z",
@@ -37,15 +37,15 @@ order: 1
             "value": "Q5856"
         },
         {
-            "type": "TextualBody",
-            "value": "Sans localisation",
-            "purpose": "replying",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
             "created": "2023-08-16T10:10:38.415Z",
-            "modified": "2023-08-16T10:10:48.297Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T09:36:47.628Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Sans localisation"
         }
     ],
     "id": "30805c7b-1f2c-410d-9383-b42ad6d10063.json",
@@ -60,7 +60,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=2040,416,1100,1792"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0196"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0196",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
