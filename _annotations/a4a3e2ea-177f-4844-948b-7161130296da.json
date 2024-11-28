@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0319"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le r\u00e2telier double - [...] - relev\u00e9 \u00e0 mi-hauteur.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T12:02:21.626Z",
-            "modified": "2023-08-15T12:02:42.601Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T12:05:46.599Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le r\u00e2telier double - [pi\u0303nd\u02c8ul\u0254] - \nRelev\u00e9 \u00e0 mi-hauteur."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.33",
+            "created": "2023-08-15T12:02:49.578Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:02:49.578Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.33"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C953",
+            "created": "2023-08-15T12:03:42.921Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:03:42.921Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C953"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8605",
+            "created": "2023-08-15T12:03:50.587Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:03:50.587Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8605"
         }
     ],
+    "id": "a4a3e2ea-177f-4844-948b-7161130296da.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0319",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1768,576,1544,1244"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1768,576,1544,1244"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0319",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a4a3e2ea-177f-4844-948b-7161130296da.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
