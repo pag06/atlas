@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0329"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C963",
+            "created": "2023-08-15T12:16:59.198Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:16:59.198Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C963"
         },
         {
-            "type": "TextualBody",
-            "value": "Escalier ext\u00e9rieur avec balcon couvert dans une ferme des environs (Mas de Prats, commune d'Argelliers).",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T12:17:03.500Z",
-            "modified": "2023-08-15T12:17:24.207Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T12:15:03.252Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Balcon\nEscalier ext\u00e9rieur avec balcon couvert dans une ferme des environs (Mas de Prats, commune d'Argelliers)."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.13",
+            "created": "2023-08-15T12:17:30.653Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:17:30.653Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.13"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q798",
+            "created": "2023-08-15T12:17:43.320Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T12:17:43.320Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q798"
         }
     ],
+    "id": "9e6d618a-4ba3-4171-b5a8-8d399813de6e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0329",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1832.1319580078125,3810.805419921875,1526.1458740234375,668.597412109375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1832.1319580078125,3810.805419921875,1526.1458740234375,668.597412109375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0329",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9e6d618a-4ba3-4171-b5a8-8d399813de6e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
