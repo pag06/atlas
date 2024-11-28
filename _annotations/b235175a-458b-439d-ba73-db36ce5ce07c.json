@@ -3,62 +3,65 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0239"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.07",
+            "created": "2023-08-15T07:26:12.442Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:26:12.442Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
         },
         {
-            "type": "TextualBody",
-            "value": "Masse \u00e0 tasser les comportes - [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T07:26:14.570Z",
-            "modified": "2023-08-15T07:26:27.647Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6402",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:26:38.540Z"
+            "modified": "2023-08-15T07:26:27.647Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Masse \u00e0 tasser les comportes - [...]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C873",
+            "created": "2023-08-15T07:26:38.540Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:26:41.793Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6402"
+        },
+        {
+            "created": "2023-08-15T07:26:41.793Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "ej7320"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C873"
         }
     ],
+    "id": "b235175a-458b-439d-ba73-db36ce5ce07c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0239",
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0239",
+            "type": "Canvas"
+        },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"599.4751586914062,2237.7255859375 609.7813110351562,2472.19091796875 918.9661865234375,2467.037841796875 918.9661865234375,2673.1611328125 612.3578491210938,2688.620361328125 612.3578491210938,3363.674072265625 246.48904418945312,3350.791259765625 285.1371765136719,2302.13916015625 602.0516967773438,2240.30224609375\"></polygon></svg>"
-        },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
-            "type": "Manifest"
+            "value": "<svg><polygon points=\"599.5,2237.7 609.8,2472.2 919,2467 919,2673.2 612.4,2688.6 612.4,3363.7 246.5,3350.8 254.6,2241.9 602.1,2240.3\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b235175a-458b-439d-ba73-db36ce5ce07c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
