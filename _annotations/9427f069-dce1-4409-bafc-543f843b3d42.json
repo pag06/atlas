@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-08-15T07:26:59.259Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-15T07:27:15.976Z",
+            "modified": "2024-11-28T11:02:43.226Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Environs de Montpellier. Benne \u00e0 vendange - [...]"
+            "value": "Benne \u00e0 vendange - [pastj\u02c8\u025bjda]\nEnvirons de Montpellier."
         },
         {
             "created": "2023-08-15T07:27:27.482Z",
@@ -37,15 +37,14 @@ order: 2
             "value": "C872"
         },
         {
-            "created": "2023-08-16T09:25:28.351Z",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
-            "modified": "2023-08-16T09:26:34.872Z",
-            "purpose": "replying",
             "type": "TextualBody",
-            "value": "Tombereau \u00e0 vendange (sans localisation pr\u00e9cise)"
+            "purpose": "tagging",
+            "value": "L34.31",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-28T11:01:54.276Z"
         }
     ],
     "id": "9427f069-dce1-4409-bafc-543f843b3d42.json",
@@ -60,7 +59,14 @@ order: 2
             "type": "FragmentSelector",
             "value": "xywh=1720.2703857421875,4164.97802734375,1502.1231689453125,638.982421875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0239"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0239",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
