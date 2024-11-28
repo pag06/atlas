@@ -3,62 +3,69 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0243"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Cuve souterraine - [...] - devant le pressoir",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T07:29:56.309Z",
-            "modified": "2023-08-15T07:30:07.824Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T11:04:35.188Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Cuve souterraine - [ta\u0303mp\u02c8\u0254t] - devant le pressoir"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.07E",
+            "created": "2023-08-15T07:30:16.576Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:30:16.576Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07E"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C877",
+            "created": "2023-08-15T07:30:21.548Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:30:21.548Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C877"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3090",
+            "created": "2023-08-15T07:30:36.260Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:30:36.260Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3090"
         }
     ],
+    "id": "c2124cd9-5d5c-4270-8335-dd437254b4e7.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0243",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"942.155029296875,1132.3896484375 1653.2802734375,1122.08349609375 1658.433349609375,2129.510986328125 535.0615844726562,2129.510986328125 540.2147216796875,1521.447265625 895.77734375,1500.8349609375\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0243",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c2124cd9-5d5c-4270-8335-dd437254b4e7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
