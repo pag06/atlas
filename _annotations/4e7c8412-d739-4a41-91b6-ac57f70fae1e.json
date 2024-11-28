@@ -3,73 +3,80 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0254"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Foudres dans la cave d'un domaine - [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T07:49:32.521Z",
-            "modified": "2023-08-15T07:49:47.410Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T11:24:47.370Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Foudres dans la cave d'un domaine"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L35.32",
+            "created": "2023-08-15T07:50:00.123Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:50:00.123Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L35.32"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C888",
+            "created": "2023-08-15T07:50:17.445Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:50:17.445Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C888"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4984",
+            "created": "2023-08-15T07:50:25.157Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:50:25.157Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4984"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1812",
+            "created": "2023-08-15T07:50:34.505Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:50:34.505Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1812"
         }
     ],
+    "id": "4e7c8412-d739-4a41-91b6-ac57f70fae1e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0254",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=140.85089111328125,1472.4930419921875,1381.0258178710938,937.8609619140625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=140.85089111328125,1472.4930419921875,1381.0258178710938,937.8609619140625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0254",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "4e7c8412-d739-4a41-91b6-ac57f70fae1e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
