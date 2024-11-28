@@ -47,15 +47,15 @@ order: 6
             "value": "Q4513"
         },
         {
-            "type": "TextualBody",
-            "value": "Q5431",
-            "purpose": "tagging",
+            "created": "2024-11-28T13:56:40.105Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-28T13:56:40.105Z",
-            "modified": "2024-11-28T13:56:42.322Z"
+            "modified": "2024-11-28T13:56:42.322Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5431"
         }
     ],
     "id": "4b3111e0-aa55-419b-b1e8-fc21592613b9.json",
