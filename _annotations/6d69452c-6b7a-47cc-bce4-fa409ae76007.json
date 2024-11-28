@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0233"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Anciens ciseaux de vendanges - [...] - (avant 1900)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T07:09:31.660Z",
-            "modified": "2023-08-15T07:09:51.027Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T10:18:48.263Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Anciens ciseaux de vendanges - [luj siz\u02c8\u025bws] - \n(avant 1900)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.07",
+            "created": "2023-08-15T07:10:00.227Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:10:00.227Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C867",
+            "created": "2023-08-15T07:10:02.630Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:10:02.630Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C867"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9386",
+            "created": "2023-08-15T07:10:07.683Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:10:07.683Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9386"
         }
     ],
+    "id": "6d69452c-6b7a-47cc-bce4-fa409ae76007.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0233",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=388.19879150390625,1924.6759033203125,839.9522094726562,618.3697509765625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=388.19879150390625,1924.6759033203125,839.9522094726562,618.3697509765625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0233",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "6d69452c-6b7a-47cc-bce4-fa409ae76007.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
