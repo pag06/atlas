@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-08-14T16:15:08.375Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-14T16:15:34.052Z",
+            "modified": "2024-11-28T10:14:54.695Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Appareil \u00e0 soufrer \u00e0 dos ([...] \u00e0 L34.07)"
+            "value": "Appareil \u00e0 soufrer \u00e0 dos [sufr\u02c8\u0153za]"
         },
         {
             "created": "2023-08-14T16:15:42.449Z",
@@ -38,14 +38,13 @@ order: 3
         },
         {
             "type": "TextualBody",
-            "value": "Q9662",
             "purpose": "tagging",
+            "value": "Q10189",
             "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-16T09:33:57.016Z",
-            "modified": "2023-08-16T09:33:59.789Z"
+            "created": "2024-11-28T10:15:11.306Z"
         }
     ],
     "id": "3e455188-ee27-4c01-a533-1f5cb1567930.json",
@@ -60,7 +59,14 @@ order: 3
             "type": "FragmentSelector",
             "value": "xywh=1665.9898681640625,4248.40380859375,571.9920654296875,620.9462890625"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0220"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0220",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
