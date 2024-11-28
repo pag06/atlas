@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0233"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Serpette \u00e0 vendanger - [...]- (long. 20cm. env.)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T07:08:26.401Z",
-            "modified": "2023-08-15T07:08:53.616Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T10:16:48.095Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Serpette \u00e0 vendanger\nLong. 20 cm. env."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C867",
+            "created": "2023-08-15T07:08:59.958Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:08:59.958Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C867"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.07",
+            "created": "2023-08-15T07:09:03.879Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:09:03.879Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9386",
+            "created": "2023-08-15T07:09:17.745Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:09:17.745Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9386"
         }
     ],
+    "id": "f2d23086-19ae-4f58-8b75-fc03e455b250.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0233",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=367.4024963378906,1131.0523681640625,958.6570739746094,623.5718994140625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=367.4024963378906,1131.0523681640625,958.6570739746094,623.5718994140625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0233",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f2d23086-19ae-4f58-8b75-fc03e455b250.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
