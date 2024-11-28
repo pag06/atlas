@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-08-15T11:58:10.497Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-15T11:58:27.648Z",
+            "modified": "2024-11-28T12:00:17.718Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Bergerie - [...]"
+            "value": "Bergerie"
         },
         {
             "created": "2023-08-15T11:58:21.355Z",
@@ -27,14 +27,34 @@ order: 2
             "value": "L34.07"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1093",
+            "created": "2023-08-15T11:59:15.272Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T11:59:15.272Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1093"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2859",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-28T11:59:58.622Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8605",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-28T12:00:09.200Z"
         }
     ],
     "id": "100bc736-fa39-4e52-bc20-128c85ce9e4b.json",
@@ -49,7 +69,14 @@ order: 2
             "type": "FragmentSelector",
             "value": "xywh=1698.7972412109375,4081.631103515625,1680.7176513671875,802.557373046875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0317"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0317",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
