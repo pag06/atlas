@@ -8,43 +8,43 @@ order: 3
         {
             "created": "2023-08-14T15:39:02.678Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-14T15:39:14.723Z",
+            "modified": "2024-11-28T09:57:25.151Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le cultivateur canadien - [...]"
+            "value": "Le cultivateur canadien - [k\u0153lti\u03b2at\u02c8u]"
         },
         {
-            "created": "2023-08-14T15:39:24.041Z",
+            "created": "2023-08-14T15:40:36.890Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
             "purpose": "tagging",
             "type": "TextualBody",
-            "value": "L34.07"
+            "value": "C696"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C696",
+            "created": "2023-08-14T15:40:41.340Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T15:40:36.890Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3072"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q3072",
+            "value": "L34.07E",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-14T15:40:41.340Z"
+            "created": "2024-11-28T09:56:24.919Z"
         }
     ],
     "id": "22a5b6ee-8cb9-445e-91c9-ad5ef25ad660.json",
@@ -59,7 +59,14 @@ order: 3
             "type": "FragmentSelector",
             "value": "xywh=1787.2603759765625,1155.5784912109375,1105.3360595703125,698.2425537109375"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0199"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0199",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
