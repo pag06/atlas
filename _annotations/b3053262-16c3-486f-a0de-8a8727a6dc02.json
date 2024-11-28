@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0238"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Hotte.\n[...] pour le fumier en vannerie",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T07:19:39.814Z",
-            "modified": "2023-08-15T07:19:56.931Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T10:37:28.069Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Hotte [\u0261ur\u03b2\u02c8e\u028e] \nPour le fumier, en vannerie"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L66.01",
+            "created": "2023-08-15T07:20:24.916Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:20:24.916Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L66.01"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C872",
+            "created": "2023-08-15T07:20:29.193Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:20:29.193Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C872"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5558",
+            "created": "2023-08-15T07:20:31.618Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T07:20:31.618Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5558"
         }
     ],
+    "id": "b3053262-16c3-486f-a0de-8a8727a6dc02.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0238",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=991.1093139648438,2222.266357421875,489.54278564453125,590.02783203125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=991.1093139648438,2222.266357421875,489.54278564453125,590.02783203125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0238",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b3053262-16c3-486f-a0de-8a8727a6dc02.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
