@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0188"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Engin \u00e0 quadriller le terrain - [...] - (vu de dessous). Les barreaux transversaux a et b peuvent coulisser sur les deux longs montants de fa\u00e7on \u00e0 donner aux pointes ou socs (c) l'\u00e9cartement souhait\u00e9.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-14T12:31:58.613Z",
-            "modified": "2023-08-14T12:32:52.585Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T09:31:43.657Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Engin \u00e0 quadriller le terrain - [lu furkad\u02c8et] - (vu de dessous). \nLes barreaux transversaux a et b peuvent coulisser sur les deux longs montants de fa\u00e7on \u00e0 donner aux pointes ou socs (c) l'\u00e9cartement souhait\u00e9."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.07",
+            "created": "2023-08-14T12:33:01.010Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:33:01.010Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.07"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3905",
+            "created": "2023-08-14T12:33:12.475Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:33:12.475Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3905"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C822",
+            "created": "2023-08-14T12:33:14.530Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T12:33:14.530Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C822"
         }
     ],
+    "id": "c11ca726-9405-401e-b285-1eac317b1e94.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0188",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=334,1600,1432,804"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=334,1600,1432,804"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0188",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c11ca726-9405-401e-b285-1eac317b1e94.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
