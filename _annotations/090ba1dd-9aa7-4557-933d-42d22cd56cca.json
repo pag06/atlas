@@ -8,33 +8,33 @@ order: 3
         {
             "created": "2023-08-16T11:20:29.686Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-16T11:21:04.123Z",
+            "modified": "2024-11-28T14:03:02.907Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Pigeonnier\nEnvirons du point L30.20. \nPigeonnier d'un [...]."
+            "value": "Pigeonnier d'un [mas].\nEnvirons du point L30.20. "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L30.20",
+            "created": "2023-08-16T11:23:11.376Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T11:23:11.376Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L30.20"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7697",
+            "created": "2023-08-16T11:23:16.291Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T11:23:16.291Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7697"
         }
     ],
     "id": "090ba1dd-9aa7-4557-933d-42d22cd56cca.json",
@@ -48,7 +48,14 @@ order: 3
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"355.9230041503906,3250.892333984375 1131.4617919921875,3253.468994140625 1131.4617919921875,3727.552490234375 971.7162475585938,3727.552490234375 979.4458618164062,3820.307861328125 1139.19140625,3843.496826171875 1136.6148681640625,4181.0234375 368.8056945800781,4209.36572265625\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0345"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0345",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
