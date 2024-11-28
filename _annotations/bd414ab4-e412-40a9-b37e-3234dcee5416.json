@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-08-14T16:13:15.769Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-14T16:13:54.214Z",
+            "modified": "2024-11-28T10:14:06.427Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Bo\u00eete \u00e0 soufrer - [...]"
+            "value": "Bo\u00eete \u00e0 soufrer - [sufr\u02c8eta]"
         },
         {
             "created": "2023-08-14T16:13:38.999Z",
@@ -38,14 +38,13 @@ order: 2
         },
         {
             "type": "TextualBody",
-            "value": "Q9662",
             "purpose": "tagging",
+            "value": "Q10189",
             "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-16T09:35:03.499Z",
-            "modified": "2023-08-16T09:35:06.584Z"
+            "created": "2024-11-28T10:13:47.523Z"
         }
     ],
     "id": "bd414ab4-e412-40a9-b37e-3234dcee5416.json",
@@ -60,7 +59,14 @@ order: 2
             "type": "FragmentSelector",
             "value": "xywh=429.2502746582031,2403.6005859375,667.3240661621094,334.9501953125"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0220"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0220",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
