@@ -3,52 +3,59 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0346"
 order: 9
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Batteuse \u00e0 man\u00e8ge - [...] - (appel\u00e9 aussi [...])",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-16T12:05:42.875Z",
-            "modified": "2023-08-16T12:06:13.057Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T14:19:05.202Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Batteuse \u00e0 man\u00e8ge - [le man\u02c8\u025bt\u0283e] - (appel\u00e9 aussi [le \u03b2at\u02c8ejre])"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L11.34",
+            "created": "2023-08-16T12:06:21.650Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T12:06:21.650Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L11.34"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q984",
+            "created": "2023-08-16T12:06:45.705Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-16T12:06:45.705Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q984"
         }
     ],
+    "id": "06dc50d6-6e42-44c2-b739-2ad23ba7e55d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0346",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1723.5511474609375,1413.087890625 3269.41552734375,1454.2742919921875 3228.229248046875,2066.579345703125 2574.737548828125,2083.053955078125 2530.805419921875,2151.697998046875 2585.720703125,2283.49462890625 1956.94091796875,2516.884521484375 833.9239501953125,2486.68115234375 864.1273803710938,2239.5625\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0346",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "06dc50d6-6e42-44c2-b739-2ad23ba7e55d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
