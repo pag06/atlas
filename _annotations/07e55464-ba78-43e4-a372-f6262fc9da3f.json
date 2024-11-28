@@ -37,14 +37,14 @@ order: 8
             "value": "C980"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-08-18T07:08:53.428Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T07:08:53.428Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q???"
         }
     ],
     "id": "07e55464-ba78-43e4-a372-f6262fc9da3f.json",
@@ -58,7 +58,14 @@ order: 8
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2593.9580078125,334.0032043457031 2989.347900390625,339.4947509765625 2959.14453125,927.0880126953125 3005.822509765625,1374.6473388671875 2475.89013671875,1360.91845703125 2714.771484375,759.596435546875\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0346"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0346",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
