@@ -17,24 +17,34 @@ order: 4
             "value": "Ch\u00e9neau et tuile de ch\u00e9neau\nLe ch\u00e9neau est constitu\u00e9 d'\u00e9l\u00e9ments de poterie verniss\u00e9e."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.13",
+            "created": "2024-11-28T13:45:43.799Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-28T13:45:43.799Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.13"
+        },
+        {
+            "created": "2024-11-28T13:45:54.667Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2196"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q2196",
+            "value": "C974",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-28T13:45:54.667Z"
+            "created": "2024-11-28T13:46:09.746Z"
         }
     ],
     "id": "ecbdce3a-b6b3-461a-983f-12b020cff44c.json",
