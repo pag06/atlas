@@ -8,13 +8,13 @@ order: 8
         {
             "created": "2023-08-16T17:36:03.107Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-16T17:39:43.409Z",
+            "modified": "2024-11-28T13:59:09.636Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "H\u00e9rault\nPetite [...] du pays des garrigues, aujourd'hui viticole, mais autrefois essentiellement vou\u00e9 \u00e0 la polyculture et \u00e0 l'\u00e9levage (mouton et ch\u00e8vres). Maison-bloc \u00e9l\u00e9mentaire. L'habitation humaine est \u00e0 gauche (escalier ext\u00e9rieur et balcon d'entr\u00e9e dit [...]). Au-dessous, cave accessible de plain-pied par le c\u00f4t\u00e9 de la maison, gr\u00e2ce \u00e0 la d\u00e9clivit\u00e9 du terrain. Les deux tiers du b\u00e2timent sont occup\u00e9s par la bergerie et le fenil."
+            "value": "Petite [\u0261r\u02c8a\u0303nt\u0283a] du pays des garrigues, aujourd'hui viticole, mais autrefois essentiellement vou\u00e9 \u00e0 la polyculture et \u00e0 l'\u00e9levage (mouton et ch\u00e8vres). Maison-bloc \u00e9l\u00e9mentaire. L'habitation humaine est \u00e0 gauche (escalier ext\u00e9rieur et balcon d'entr\u00e9e dit [pared\u02c8u]). Au-dessous, cave accessible de plain-pied par le c\u00f4t\u00e9 de la maison, gr\u00e2ce \u00e0 la d\u00e9clivit\u00e9 du terrain. Les deux tiers du b\u00e2timent sont occup\u00e9s par la bergerie et le fenil."
         },
         {
             "created": "2023-08-16T17:39:50.906Z",
@@ -27,24 +27,24 @@ order: 8
             "value": "L34.07"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C978",
+            "created": "2023-08-18T06:57:40.190Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T06:57:40.190Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C978"
         },
         {
-            "type": "TextualBody",
-            "value": "Q4513",
-            "purpose": "tagging",
+            "created": "2023-08-18T07:02:41.695Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T07:02:41.695Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4513"
         }
     ],
     "id": "15f58b37-e51c-4c65-9742-711c22b954de.json",
@@ -59,7 +59,14 @@ order: 8
             "type": "FragmentSelector",
             "value": "xywh=1661.0098876953125,4100.56494140625,1458.3221435546875,515.30810546875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0344",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
