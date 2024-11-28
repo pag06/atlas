@@ -8,13 +8,13 @@ order: 8
         {
             "created": "2023-08-16T11:49:07.396Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-16T11:51:06.054Z",
+            "modified": "2024-11-28T14:08:38.724Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Entre les points L12.31 et L12.32.\n[...] vout\u00e9 tr\u00e8s ancien, au hameau de La Blaqui\u00e8re.\n\u00c0 l'arri\u00e8re-plan, \u00e0 droite : pigeonnier-tour du XVI\u00b0 si\u00e8cle."
+            "value": "[b\u0254l\u02c8et] vout\u00e9 tr\u00e8s ancien, \nAu hameau de La Blaqui\u00e8re (entre les points L12.31 et L12.32).\n\u00c0 l'arri\u00e8re-plan, \u00e0 droite : pigeonnier-tour du XVI\u00b0 si\u00e8cle."
         },
         {
             "created": "2023-08-16T11:57:06.701Z",
@@ -47,14 +47,14 @@ order: 8
             "value": "C979"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q798",
+            "created": "2023-08-18T07:08:06.054Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T07:08:06.054Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q798"
         }
     ],
     "id": "44b58937-99d5-417b-b38c-89fb8d668962.json",
@@ -69,7 +69,14 @@ order: 8
             "type": "FragmentSelector",
             "value": "xywh=2467.398193359375,3548.26806640625,819.340087890625,1180.0556640625"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0345"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0345",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
