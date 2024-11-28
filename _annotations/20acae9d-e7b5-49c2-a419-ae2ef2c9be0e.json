@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-08-14T15:21:20.889Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-14T15:22:05.155Z",
+            "modified": "2024-11-28T09:47:38.811Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Houe pour l'entre-deux - [...] - ou - [...]"
+            "value": "Houe pour l'entre-deux - [r\u02d0a\u03b2asj\u02c8\u025b] - ou - [deskawsel\u02c8\u0153za]"
         },
         {
             "created": "2023-08-14T15:22:28.345Z",
@@ -27,14 +27,14 @@ order: 2
             "value": "L34.07"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5562",
+            "created": "2023-08-14T15:24:43.357Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-14T15:24:43.357Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5562"
         }
     ],
     "id": "20acae9d-e7b5-49c2-a419-ae2ef2c9be0e.json",
@@ -49,7 +49,14 @@ order: 2
             "type": "FragmentSelector",
             "value": "xywh=280.8429260253906,1528.938232421875,1013.4393005371094,1016.30224609375"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0197"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0197",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
