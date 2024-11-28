@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-08-15T12:07:24.429Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-15T12:07:27.038Z",
+            "modified": "2024-11-28T12:08:42.755Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Collier de bovin"
+            "value": "Collier de bovin [kul\u02c8an\u0252]"
         },
         {
             "created": "2023-08-15T12:07:32.417Z",
@@ -37,14 +37,14 @@ order: 2
             "value": "C954"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2487",
+            "created": "2024-11-28T12:07:29.463Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-28T12:07:29.463Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2487"
         }
     ],
     "id": "bfecf483-f445-42f4-9562-2652225ef564.json",
