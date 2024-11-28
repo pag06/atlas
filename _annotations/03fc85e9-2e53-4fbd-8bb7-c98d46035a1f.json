@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0317"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Cr\u00e8che - [...] - creus\u00e9e dans un tronc d'arbre, pour les agneaux.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
             "created": "2023-08-15T11:56:16.662Z",
-            "modified": "2023-08-15T11:57:03.620Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-28T11:50:31.828Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Cr\u00e8che\nCreus\u00e9e dans un tronc d'arbre, pour les agneaux."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C951",
+            "created": "2023-08-15T11:56:26.896Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T11:56:26.896Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C951"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2859",
+            "created": "2023-08-15T11:56:36.544Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T11:56:36.544Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2859"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34.01",
+            "created": "2023-08-15T11:56:41.231Z",
             "creator": {
                 "id": "ej7320",
                 "name": "ej7320"
             },
-            "created": "2023-08-15T11:56:41.231Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34.01"
         }
     ],
+    "id": "03fc85e9-2e53-4fbd-8bb7-c98d46035a1f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0317",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=478,898,1008,438"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=478,898,1008,438"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0317",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "03fc85e9-2e53-4fbd-8bb7-c98d46035a1f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
