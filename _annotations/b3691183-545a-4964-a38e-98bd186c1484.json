@@ -18,24 +18,13 @@ order: 2
         {
             "created": "2023-07-26T15:27:08.125Z",
             "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-26T15:27:42.237Z",
+            "modified": "2024-12-04T15:48:25.298Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Panier \u00e0 foin\nA L33, L50, L51, on apporte les rations dans un large panier \u00e0 grande anse."
-        },
-        {
-            "created": "2023-07-26T15:28:11.954Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "ej7320"
-            },
-            "modified": "2023-07-26T15:28:18.770Z",
-            "purpose": "questioning",
-            "type": "TextualBody",
-            "value": "Proc\u00e9d\u00e9 d'alimentation des bovins diff\u00e9rent que ceux cit\u00e9s sur la carte C461"
+            "value": "Panier \u00e0 foin\nA L33, L50, L51, on apporte les rations dans un large panier \u00e0 grande anse.\nL33 [lu pa\u0272\u0254 pastyrad\u02c8u] ; L50, L51 [lu p\u0254nj\u0254 p\u0254styrad\u02c8u]"
         },
         {
             "created": "2023-07-26T15:28:28.748Z",
@@ -59,35 +48,24 @@ order: 2
             "value": "Q7290"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L33",
+            "created": "2024-11-12T10:04:55.859Z",
             "creator": {
                 "id": "GBT-Unice",
                 "name": "GBT-Unice"
             },
-            "created": "2024-11-12T10:04:55.859Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L33"
         },
         {
-            "type": "TextualBody",
+            "created": "2024-11-12T10:05:06.026Z",
+            "creator": {
+                "id": "GBT-Unice",
+                "name": "GBT-Unice"
+            },
             "purpose": "tagging",
-            "value": "L51",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
-            "created": "2024-11-12T10:05:06.026Z"
-        },
-        {
             "type": "TextualBody",
-            "value": "L33 [lu pa\u0272\u0254 pastyrad\u02c8u] ; L50, L51 [lu p\u0254nj\u0254 p\u0254styrad\u02c8u]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
-            },
-            "created": "2024-11-12T10:05:25.071Z",
-            "modified": "2024-11-12T10:07:20.743Z"
+            "value": "L51"
         }
     ],
     "id": "b3691183-545a-4964-a38e-98bd186c1484.json",
