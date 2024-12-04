@@ -11,10 +11,10 @@ order: 6
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-14T17:01:37.382Z",
+            "modified": "2024-12-04T13:43:23.014Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le \"saint-esprit\" (penfentif)"
+            "value": "Le \"saint-esprit\" (pendentif)"
         },
         {
             "created": "2023-08-15T15:04:52.082Z",
@@ -27,26 +27,26 @@ order: 6
             "value": "L12"
         },
         {
-            "type": "TextualBody",
-            "value": "croquis de M. Massebeuf",
-            "purpose": "identifying",
+            "created": "2024-11-14T17:01:41.150Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-14T17:01:41.150Z",
-            "modified": "2024-11-14T17:01:46.977Z"
+            "modified": "2024-11-14T17:01:46.977Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "croquis de M. Massebeuf"
         },
         {
-            "type": "TextualBody",
-            "value": "Q9142",
-            "purpose": "tagging",
+            "created": "2024-11-14T17:01:49.845Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-14T17:01:49.845Z",
-            "modified": "2024-11-14T17:01:55.654Z"
+            "modified": "2024-11-14T17:01:55.654Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9142"
         }
     ],
     "id": "bfad7cf5-190c-4ada-94c8-b2bd15f700a3.json",
