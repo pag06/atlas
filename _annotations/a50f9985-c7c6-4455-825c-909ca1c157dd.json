@@ -28,13 +28,13 @@ order: 3
         {
             "created": "2023-09-19T20:07:00.314Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-19T20:07:46.829Z",
+            "modified": "2024-12-04T13:07:56.658Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Trompe d'\u00e9corce enroul\u00e9e, sert au bruit du Stabat."
+            "value": "Trompe d'\u00e9corce enroul\u00e9e, sert au bruit du Stabat.\nFigure III"
         },
         {
             "created": "2024-11-15T15:06:12.555Z",
@@ -69,34 +69,34 @@ order: 3
             "value": "L689NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L689",
+            "created": "2024-11-15T15:06:46.273Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-15T15:06:46.273Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L689"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L790NO",
+            "created": "2024-11-15T15:06:58.444Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-15T15:06:58.444Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L790NO"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L790S",
+            "created": "2024-11-15T15:07:08.081Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-15T15:07:08.081Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L790S"
         }
     ],
     "id": "a50f9985-c7c6-4455-825c-909ca1c157dd.json",
