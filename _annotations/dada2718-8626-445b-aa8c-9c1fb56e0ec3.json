@@ -11,10 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-15T14:55:22.683Z",
+            "modified": "2024-12-04T13:06:52.402Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Sifflet\n[utilis\u00e9 dans tous le domaine]"
+            "value": "Sifflet\nFigure I\n[utilis\u00e9 dans tous le domaine]"
         },
         {
             "created": "2024-11-15T14:55:30.335Z",
@@ -28,15 +28,26 @@ order: 1
             "value": "C202"
         },
         {
-            "type": "TextualBody",
-            "value": "Q9439",
-            "purpose": "tagging",
+            "created": "2024-11-15T14:55:57.723Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-15T14:55:57.723Z",
-            "modified": "2024-11-15T14:56:00.511Z"
+            "modified": "2024-11-15T14:56:00.511Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9439"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sans localisation",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T13:06:55.707Z",
+            "modified": "2024-12-04T13:07:07.065Z"
         }
     ],
     "id": "dada2718-8626-445b-aa8c-9c1fb56e0ec3.json",
