@@ -11,10 +11,10 @@ order: 6
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-26T16:17:03.355Z",
+            "modified": "2024-12-04T12:54:09.645Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Panier (Type G)\nPour le march\u00e9\nPanier de forme ovale, \u00e0 couvercle d'une seule pi\u00e8ce et de m\u00eame forme que le corps de la vannerie, de couleur noire le plus souvent, \u00e0 anse double.\n\u00c0 Saint-Simon (Lot), ce type de panier est consid\u00e9r\u00e9 comme plus ancien que le type E (panier de forme rectangulaire).\n\nIdem \u00e0 Toulouse (Haute-Garonne), ce type de panier (appel\u00e9 [...], comme le panier courant) est qualifi\u00e9 d'ancien par le t\u00e9moin.\n\ncf. Jean S\u00e9guy, \u00ab\u00a0Atlas linguistique et ethnographique de la Gascogne\u00a0\u00bb, vol. III, 766, figure XVI ou Pierre Nauton, \u00ab\u00a0Atlas linguistique et ethnographique du Massif Central\u00a0\u00bb, vol. II, planche XXXI, panier des points 24, 26, 27 nomm\u00e9 par l'auteur \"panier pour le march\u00e9\"."
+            "value": "Panier (Type G)\nPour le march\u00e9\nPanier de forme ovale, \u00e0 couvercle d'une seule pi\u00e8ce et de m\u00eame forme que le corps de la vannerie, de couleur noire le plus souvent, \u00e0 anse double.\n\u00c0 Saint-Simon (Lot), ce type de panier est consid\u00e9r\u00e9 comme plus ancien que le type E (panier de forme rectangulaire).\n\nIdem \u00e0 Toulouse (Haute-Garonne), ce type de panier (appel\u00e9 [pa\u0272\u02c8\u025b], comme le panier courant) est qualifi\u00e9 d'ancien par le t\u00e9moin.\n\ncf. Jean S\u00e9guy, \u00ab\u00a0Atlas linguistique et ethnographique de la Gascogne\u00a0\u00bb, vol. III, 766, figure XVI ou Pierre Nauton, \u00ab\u00a0Atlas linguistique et ethnographique du Massif Central\u00a0\u00bb, vol. II, planche XXXI, panier des points 24, 26, 27 nomm\u00e9 par l'auteur \"panier pour le march\u00e9\"."
         },
         {
             "created": "2024-06-21T13:10:40.272Z",
@@ -347,15 +347,15 @@ order: 6
             "value": "Q7278"
         },
         {
-            "type": "TextualBody",
-            "value": "D'apr\u00e8s S\u00e9guy",
-            "purpose": "identifying",
+            "created": "2024-11-26T16:44:59.959Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-26T16:44:59.959Z",
-            "modified": "2024-11-26T16:45:04.328Z"
+            "modified": "2024-11-26T16:45:04.328Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "D'apr\u00e8s S\u00e9guy"
         }
     ],
     "id": "1c74f7d4-a888-48b6-a4f8-613b44db5993.json",
