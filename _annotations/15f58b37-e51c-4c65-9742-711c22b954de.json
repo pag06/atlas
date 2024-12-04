@@ -8,13 +8,13 @@ order: 8
         {
             "created": "2023-08-16T17:36:03.107Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-16T17:39:43.409Z",
+            "modified": "2024-12-04T13:24:51.652Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "H\u00e9rault\nPetite [...] du pays des garrigues, aujourd'hui viticole, mais autrefois essentiellement vou\u00e9 \u00e0 la polyculture et \u00e0 l'\u00e9levage (mouton et ch\u00e8vres). Maison-bloc \u00e9l\u00e9mentaire. L'habitation humaine est \u00e0 gauche (escalier ext\u00e9rieur et balcon d'entr\u00e9e dit [...]). Au-dessous, cave accessible de plain-pied par le c\u00f4t\u00e9 de la maison, gr\u00e2ce \u00e0 la d\u00e9clivit\u00e9 du terrain. Les deux tiers du b\u00e2timent sont occup\u00e9s par la bergerie et le fenil."
+            "value": "H\u00e9rault. Petite [\u0261r\u02c8a\u0303t\u0283a] du pays des garrigues.\nAujourd'hui viticole, mais autrefois essentiellement vou\u00e9 \u00e0 la polyculture et \u00e0 l'\u00e9levage (mouton et ch\u00e8vres). Maison-bloc \u00e9l\u00e9mentaire. L'habitation humaine est \u00e0 gauche (escalier ext\u00e9rieur et balcon d'entr\u00e9e dit [pared'u]). Au-dessous, cave accessible de plain-pied par le c\u00f4t\u00e9 de la maison, gr\u00e2ce \u00e0 la d\u00e9clivit\u00e9 du terrain. Les deux tiers du b\u00e2timent sont occup\u00e9s par la bergerie et le fenil."
         },
         {
             "created": "2023-08-16T17:39:50.906Z",
@@ -47,14 +47,14 @@ order: 8
             "value": "Q4513"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5431",
+            "created": "2024-11-28T13:59:46.758Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-28T13:59:46.758Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5431"
         }
     ],
     "id": "15f58b37-e51c-4c65-9742-711c22b954de.json",
