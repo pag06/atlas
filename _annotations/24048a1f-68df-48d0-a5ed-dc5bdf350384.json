@@ -35,6 +35,17 @@ order: 10
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q2446"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo et croquis : Jacques Alli\u00e8res",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T15:56:25.977Z",
+            "modified": "2024-12-04T15:56:43.630Z"
         }
     ],
     "id": "24048a1f-68df-48d0-a5ed-dc5bdf350384.json",
