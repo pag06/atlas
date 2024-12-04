@@ -4,21 +4,47 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Anneau en bois",
-            "purpose": "commenting",
+            "created": "2024-12-04T13:34:00.789Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T13:34:00.789Z",
-            "modified": "2024-12-04T13:34:05.583Z"
+            "modified": "2024-12-04T13:34:44.702Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Anneau en bois [la r\u02d0e\u00f0\u02c8\u0254rt\u0254]"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L11.37",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T13:34:55.513Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q270",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T13:35:01.178Z"
         }
     ],
+    "id": "5f50e33c-e7f1-4419-bef4-d9f7997320fc.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2094.040771484375,4291.55078125,567.272705078125,760"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/atlas/manifests/iiif/ALLOr3/manifest.json",
@@ -26,13 +52,7 @@ order: 3
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALLOr3/canvas/ALLOr_3_0009",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2094.040771484375,4291.55078125,567.272705078125,760"
         }
     },
-    "id": "5f50e33c-e7f1-4419-bef4-d9f7997320fc.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
