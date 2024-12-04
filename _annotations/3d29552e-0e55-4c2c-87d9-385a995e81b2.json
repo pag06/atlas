@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-10-01T20:06:58.566Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-10-01T20:09:36.850Z",
+            "modified": "2024-12-04T16:02:51.712Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Appel des poules\nOctobre 1953. \nTonom\u00e9trie et chronom\u00e9trie m\u00e9caniques des \u00e9l\u00e9ments vois\u00e9s.\nLes barres de s\u00e9paration sont proportionn\u00e9es \u00e0 la dur\u00e9e des silences"
+            "value": "Appel des poules (Octobre 1953)\nTonom\u00e9trie et chronom\u00e9trie m\u00e9caniques des \u00e9l\u00e9ments vois\u00e9s.\nLes barres de s\u00e9paration sont proportionn\u00e9es \u00e0 la dur\u00e9e des silences. \nEnregistrement magn\u00e9tique transform\u00e9 en electrokymogramme"
         },
         {
             "created": "2023-10-01T20:07:19.878Z",
@@ -37,25 +37,14 @@ order: 1
             "value": "L791O"
         },
         {
-            "created": "2023-10-01T20:08:17.454Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "modified": "2023-10-01T20:11:15.830Z",
-            "purpose": "identifying",
-            "type": "TextualBody",
-            "value": "M. Cultivatrice, 67ans, native.\nEnregistrement magn\u00e9tique transform\u00e9 en electrokymogramme"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C460",
+            "created": "2024-11-22T09:06:39.818Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-22T09:06:39.818Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C460"
         }
     ],
     "id": "3d29552e-0e55-4c2c-87d9-385a995e81b2.json",
