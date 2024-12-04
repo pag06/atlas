@@ -49,23 +49,23 @@ order: 2
         {
             "created": "2023-07-28T15:10:04.282Z",
             "creator": {
-                "id": "GBT-Unice",
-                "name": "GBT-Unice"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-28T15:10:52.105Z",
+            "modified": "2024-12-04T15:49:55.279Z",
             "purpose": "identifying",
             "type": "TextualBody",
-            "value": "Photo X. Ravier\nDessin Oriane Zavaroni"
+            "value": "Photo : X. Ravier\nDessin : Oriane Zavaroni"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q540",
+            "created": "2024-11-26T11:03:03.854Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-26T11:03:03.854Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q540"
         }
     ],
     "id": "1a4380b8-0eb0-4d7b-bb02-ee1b9f5adcb0.json",
