@@ -8,13 +8,13 @@ order: 4
         {
             "created": "2023-09-19T20:10:42.175Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-19T20:14:49.563Z",
+            "modified": "2024-12-04T13:08:40.796Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Corne de vache \u00e9vid\u00e9e pour effrayer les blaireaux et les sangliers, ou appeler la famille au repas\n[...]"
+            "value": "Corne de vache \u00e9vid\u00e9e pour effrayer les blaireaux et les sangliers, ou appeler la famille au repas [k\u02c8\u0254r].\nFigure IV"
         },
         {
             "created": "2023-09-19T20:10:53.022Z",
@@ -37,14 +37,14 @@ order: 4
             "value": "Q5636"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C205",
+            "created": "2024-11-15T15:07:34.098Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-15T15:07:34.098Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C205"
         }
     ],
     "id": "c8dc3101-c7ec-4e8b-b8a6-5cd22d0c9599.json",
